@@ -343,8 +343,8 @@
   // ══════════════════════════════════════════
   const GITHUB_OWNER  = 'ikiraplus';       // ← اسم حسابك على GitHub
   const GITHUB_REPO   = 'ipastore';        // ← اسم الريبو
-  const GITHUB_TOKEN  = '';                // ← اتركه فاضياً دائماً
-  const WORKER_URL    = 'https://sign.rhomy1515.workers.dev'; // ← Cloudflare Worker
+  const GITHUB_TOKEN  = '';                // ← اتركه فاضياً، استخدم GitHub Secret (GH_PAT)
+    const WORKER_URL    = 'https://sign.rhomy1515.workers.dev'; // ← Cloudflare Worker
   // ══════════════════════════════════════════
 
   // ── الحالة ──
@@ -592,12 +592,24 @@
   }
 
   // ── GitHub API helpers ──
+  async function getToken() {
+    // إذا كان التوكن موضوع مباشرة (للتطوير فقط)
+    if (GITHUB_TOKEN) return GITHUB_TOKEN;
+    // وإلا استخدم الـ Cloudflare Worker لإخفاء التوكن
+    throw new Error('يجب إعداد GH_PAT — اقرأ التعليمات في README');
+  }
+
   async function ghFetch(path, opts = {}) {
-    // الطلبات تمر عبر Cloudflare Worker الذي يضيف التوكن بأمان
-    const res = await fetch(`${WORKER_URL}?path=${encodeURIComponent(path)}`, {
-      method: opts.method || 'GET',
-      headers: { 'Content-Type': 'application/json' },
-      body: opts.body || undefined,
+    const token = await getToken();
+    const res = await fetch(`https://api.github.com${path}`, {
+      ...opts,
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'application/json',
+        ...(opts.headers || {})
+      }
     });
     if (!res.ok && res.status !== 422) {
       const err = await res.json().catch(() => ({}));
