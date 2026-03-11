@@ -451,79 +451,28 @@ function renderGrid(list) {
   document.querySelectorAll('.app-card').forEach(c => obs.observe(c));
 }
 
-/* ══ DOWNLOAD via Cloudflare Worker ══ */
-async function downloadApp(id, ipaUrl, name) {
-  const btn  = document.getElementById('btn-' + id);
-  const prog = document.getElementById('prog-' + id);
-  const fill = document.getElementById('fill-' + id);
+/* ══ DOWNLOAD — مباشر بدون عداد ══ */
+function downloadApp(id, ipaUrl, name) {
+  const btn = document.getElementById('btn-' + id);
 
   if (!ipaUrl || ipaUrl.includes('ضع_رابط')) {
     toast('⚠️ رابط التحميل غير متوفر', 'err');
     return;
   }
 
-  btn.classList.add('downloading');
-  btn.disabled = true;
-  toast('⏳ جاري التحميل...', 'info');
+  // تحميل مباشر عبر الـ Worker بدون عداد
+  const proxyUrl = `${WORKER_URL}?url=${encodeURIComponent(ipaUrl)}`;
+  const a = document.createElement('a');
+  a.href = proxyUrl;
+  a.download = name + '.ipa';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
 
-  try {
-    // الطلب عبر Worker لتجاوز CORS
-    const proxyUrl = `${WORKER_URL}?url=${encodeURIComponent(ipaUrl)}`;
-    const response = await fetch(proxyUrl);
-
-    if (!response.ok) throw new Error('فشل التحميل — كود: ' + response.status);
-
-    const contentLength = response.headers.get('Content-Length');
-    const total = contentLength ? parseInt(contentLength) : 0;
-
-    // قراءة الـ stream مع تتبع التقدم
-    const reader = response.body.getReader();
-    const chunks = [];
-    let received = 0;
-
-    while(true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      chunks.push(value);
-      received += value.length;
-      if (total) {
-        const pct = Math.round((received / total) * 100);
-        if (prog) prog.textContent = pct + '%';
-        if (fill) fill.style.width = pct + '%';
-      } else {
-        // لو ما عندنا الحجم، نحرك بار بشكل وهمي
-        const mb = (received / 1024 / 1024).toFixed(1);
-        if (prog) prog.textContent = mb + ' MB';
-      }
-    }
-
-    // تحويل لـ Blob وتحميل
-    const blob = new Blob(chunks, {type: 'application/octet-stream'});
-    const url  = URL.createObjectURL(blob);
-    const a    = document.createElement('a');
-    const filename = name.replace(/[^a-zA-Z0-9\u0600-\u06FF]/g, '_') + '.ipa';
-    a.href = url;
-    a.download = filename;
-    a.click();
-    URL.revokeObjectURL(url);
-
-    btn.classList.remove('downloading');
-    btn.classList.add('done');
-    toast('✅ تم التحميل بنجاح!', 'ok');
-
-    // ارجع للوضع الطبيعي بعد 5 ثواني
-    setTimeout(() => {
-      btn.classList.remove('done');
-      btn.disabled = false;
-    }, 5000);
-
-  } catch(err) {
-    btn.classList.remove('downloading');
-    btn.classList.add('error-state');
-    btn.disabled = false;
-    toast('❌ ' + (err.message || 'خطأ في التحميل'), 'err');
-    setTimeout(() => btn.classList.remove('error-state'), 3000);
-  }
+  // تأكيد بصري سريع
+  btn.classList.add('done');
+  toast('✅ بدأ التحميل!', 'ok');
+  setTimeout(() => btn.classList.remove('done'), 3000);
 }
 
 /* ══ TOAST ══ */
