@@ -415,18 +415,21 @@
       const p12B64 = await toBase64(files.p12);
       setProgress(20, 'جاري الرفع...', 'رفع ملف IPA', '📤');
 
-      // 3. رفع IPA و Provision على GitHub كـ temporary release
+      // 3. إنشاء release مؤقت واحد ثم رفع الملفين
+      addLog('إنشاء release مؤقت...', 'info');
+      const releaseId = await createTempRelease(jobId);
+
       addLog('رفع ملف IPA على GitHub...', 'info');
-      const ipaUpload  = await uploadToGitHub(files.ipa,  `tmp_${jobId}_app.ipa`,  jobId);
+      const ipaUrl  = await uploadToGitHub(files.ipa,  `tmp_${jobId}_app.ipa`,  releaseId);
       setProgress(40, 'جاري الرفع...', 'رفع ملف Provision', '📤');
 
       addLog('رفع ملف Provision...', 'info');
-      const provUpload = await uploadToGitHub(files.prov, `tmp_${jobId}_app.mobileprovision`, jobId);
+      const provUrl = await uploadToGitHub(files.prov, `tmp_${jobId}_app.mobileprovision`, releaseId);
       setProgress(55, 'تشغيل التوقيع...', 'GitHub Actions يعمل', '⚙️');
 
       // 4. تشغيل GitHub Actions workflow
       addLog('تشغيل عملية التوقيع...', 'info');
-      const runId = await triggerWorkflow(jobId, ipaUpload.url, provUpload.url, p12B64, password);
+      const runId = await triggerWorkflow(jobId, ipaUrl, provUrl, p12B64, password);
 
       setProgress(60, 'جاري التوقيع...', `Run ID: ${runId}`, '✍️');
       addLog(`تم تشغيل workflow — Run #${runId}`, 'ok');
@@ -454,27 +457,25 @@
     });
   }
 
-  // ── رفع ملف على GitHub Release مؤقت ──
-  async function uploadToGitHub(file, filename, jobId) {
-    // إنشاء release مؤقت إذا لم يكن موجوداً
+  // ── إنشاء release مؤقت مرة واحدة ──
+  async function createTempRelease(jobId) {
     const tag = `tmp-upload-${jobId}`;
-    let releaseId;
-
     try {
-      const createRes = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`, {
+      const r = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`, {
         method: 'POST',
-        body: JSON.stringify({ tag_name: tag, name: `Temp Upload ${jobId}`, draft: false, prerelease: true })
+        body: JSON.stringify({ tag_name: tag, name: `Temp ${jobId}`, draft: false, prerelease: true })
       });
-      releaseId = createRes.id;
+      return r.id;
     } catch {
-      // ربما موجود مسبقاً
-      const getRel = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${tag}`);
-      releaseId = getRel.id;
+      const r = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${tag}`);
+      return r.id;
     }
+  }
 
-    // رفع الملف عبر Worker
+  // ── رفع ملف على release موجود ──
+  async function uploadToGitHub(file, filename, releaseId) {
     const arrayBuffer = await file.arrayBuffer();
-    const uploadPath = `/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/${releaseId}/assets?name=${filename}`;
+    const uploadPath = `/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/${releaseId}/assets?name=${encodeURIComponent(filename)}`;
     const uploadRes = await fetch(
       `${WORKER_URL}?path=${encodeURIComponent(uploadPath)}&upload=1`,
       {
@@ -483,10 +484,12 @@
         body: arrayBuffer
       }
     );
-
-    if (!uploadRes.ok) throw new Error('فشل رفع الملف: ' + filename);
+    if (!uploadRes.ok) {
+      const errText = await uploadRes.text().catch(() => uploadRes.status);
+      throw new Error(`فشل رفع الملف: ${filename} (${errText})`);
+    }
     const data = await uploadRes.json();
-    return { url: data.browser_download_url, releaseId };
+    return data.browser_download_url;
   }
 
   // ── تشغيل GitHub Actions ──
