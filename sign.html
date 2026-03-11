@@ -1,76 +1,633 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>توقيع التطبيقات | ipastore</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0d1117; color: #c9d1d9; text-align: center; padding: 40px 20px; margin: 0; }
-        .container { max-width: 450px; margin: auto; background: #161b22; padding: 30px; border-radius: 12px; border: 1px solid #30363d; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
-        h2 { color: #58a6ff; margin-bottom: 5px; }
-        p { font-size: 14px; color: #8b949e; margin-bottom: 25px; }
-        label { display: block; text-align: right; margin: 15px 0 5px; font-weight: bold; font-size: 14px; }
-        input[type="file"], input[type="password"] { width: 100%; padding: 12px; box-sizing: border-box; border-radius: 6px; border: 1px solid #30363d; background: #0d1117; color: #c9d1d9; }
-        input[type="file"]::file-selector-button { background: #238636; color: white; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; margin-left: 10px; }
-        button { width: 100%; padding: 14px; background: #238636; color: #ffffff; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 25px; transition: 0.2s; }
-        button:hover { background: #2ea043; }
-        button:disabled { background: #21262d; color: #8b949e; cursor: not-allowed; }
-        #status { margin-top: 20px; font-size: 14px; font-weight: bold; }
-        .hidden { display: none; }
-        #installBtn { background: #1f6feb; }
-        #installBtn:hover { background: #388bfd; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>توقيع IPA | ipastore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07090f; --surface2: #161b22; --surface3: #1c2430;
+      --border: rgba(56,189,248,0.1); --border2: rgba(56,189,248,0.25);
+      --blue: #38bdf8; --blue2: #0ea5e9; --cyan: #06b6d4;
+      --green: #22d3a5; --red: #f87171; --yellow: #fbbf24;
+      --text: #e6edf3; --text2: #8b949e;
+      --mono: 'JetBrains Mono', monospace; --sans: 'Cairo', sans-serif;
+      --r: 14px; --r2: 8px;
+      --ease: cubic-bezier(0.25,1,0.5,1); --bounce: cubic-bezier(0.34,1.56,0.64,1);
+    }
+    *,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--sans); font-weight: 700;
+      background: var(--bg); color: var(--text);
+      min-height: 100dvh; overflow-x: hidden; padding-bottom: 60px;
+    }
+    .bg-grid {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background-image: linear-gradient(rgba(56,189,248,0.03) 1px,transparent 1px), linear-gradient(90deg,rgba(56,189,248,0.03) 1px,transparent 1px);
+      background-size: 32px 32px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 0%,#000 40%,transparent 100%);
+    }
+    .bg-glow {
+      position: fixed; top: -200px; left: 50%; transform: translateX(-50%);
+      width: 900px; height: 500px;
+      background: radial-gradient(ellipse,rgba(56,189,248,0.07) 0%,transparent 70%);
+      z-index: 0; pointer-events: none;
+    }
+    .wrap { position: relative; z-index: 1; max-width: 540px; margin: 0 auto; padding: 20px 14px; }
+
+    @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+    @keyframes spin { to{transform:rotate(360deg)} }
+
+    /* HEADER */
+    .header { text-align: center; padding: 28px 0 20px; animation: fadeUp .5s var(--ease) both; }
+    .logo-row {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--surface2); border: 1px solid var(--border2);
+      border-radius: 50px; padding: 7px 18px; margin-bottom: 18px;
+      box-shadow: 0 0 30px rgba(56,189,248,0.08);
+    }
+    .logo-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 8px var(--green); animation: pulse 2s ease infinite; }
+    .logo-text { font-family: var(--mono); font-size: 12px; color: var(--blue); letter-spacing: 1px; }
+    .header h1 {
+      font-size: clamp(22px,5vw,28px); font-weight: 900;
+      background: linear-gradient(135deg,var(--text) 30%,var(--blue));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      margin-bottom: 6px;
+    }
+    .header p { font-size: 13px; color: var(--text2); line-height: 1.7; }
+
+    .back-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      color: var(--text2); font-size: 13px; text-decoration: none;
+      margin-bottom: 20px; padding: 7px 14px;
+      border: 1px solid var(--border); border-radius: 50px;
+      background: var(--surface2); transition: all .18s;
+    }
+    .back-link:hover { color: var(--blue); border-color: var(--border2); }
+
+    /* FORM CARD */
+    .card {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: var(--r); padding: 22px; margin-bottom: 12px;
+    }
+    .card:nth-child(3) { animation: fadeUp .5s var(--ease) .05s both; }
+    .card:nth-child(4) { animation: fadeUp .5s var(--ease) .1s both; }
+
+    .section-label {
+      font-size: 11px; color: var(--text2); font-family: var(--mono);
+      letter-spacing: .5px; margin-bottom: 16px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+    /* FILE FIELDS */
+    .field { margin-bottom: 14px; }
+    .field:last-child { margin-bottom: 0; }
+    .field-label {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 12px; color: var(--text2); margin-bottom: 7px;
+    }
+    .field-label code {
+      font-family: var(--mono); font-size: 11px;
+      background: rgba(56,189,248,0.08); color: var(--blue);
+      padding: 2px 6px; border-radius: 4px;
+    }
+
+    .file-drop {
+      position: relative; display: flex; align-items: center; gap: 12px;
+      padding: 13px 14px; border-radius: var(--r2);
+      border: 1.5px dashed var(--border2);
+      background: rgba(56,189,248,0.02);
+      cursor: pointer; transition: all .18s; overflow: hidden;
+    }
+    .file-drop:hover { border-color: var(--blue); background: rgba(56,189,248,0.05); }
+    .file-drop.ok { border-style: solid; border-color: var(--green); background: rgba(34,211,165,0.04); }
+    .file-drop input[type="file"] { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+    .drop-icon { font-size: 22px; flex-shrink: 0; }
+    .drop-info { flex: 1; min-width: 0; }
+    .drop-name { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text2); }
+    .drop-name.selected { color: var(--text); }
+    .drop-hint { font-size: 11px; color: var(--text2); margin-top: 2px; font-family: var(--mono); }
+    .drop-check { font-size: 18px; color: var(--green); flex-shrink: 0; opacity: 0; transition: opacity .2s; }
+    .file-drop.ok .drop-check { opacity: 1; }
+
+    /* PASSWORD */
+    .pass-wrap { position: relative; }
+    .pass-wrap input {
+      width: 100%; padding: 12px 44px 12px 14px;
+      background: var(--surface3); border: 1.5px solid var(--border);
+      border-radius: var(--r2); color: var(--text);
+      font-family: var(--sans); font-size: 14px; font-weight: 700;
+      outline: none; transition: border-color .18s;
+    }
+    .pass-wrap input:focus { border-color: var(--blue); }
+    .pass-wrap input::placeholder { color: var(--text2); font-weight: 400; }
+    .pass-eye {
+      position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+      background: none; border: none; cursor: pointer; color: var(--text2); font-size: 16px;
+      transition: color .18s; line-height: 1;
+    }
+    .pass-eye:hover { color: var(--blue); }
+
+    /* SIGN BUTTON */
+    .sign-btn {
+      width: 100%; padding: 16px;
+      background: linear-gradient(135deg, var(--blue2), var(--cyan));
+      color: #fff; border: none; border-radius: var(--r);
+      font-family: var(--sans); font-size: 16px; font-weight: 900;
+      cursor: pointer; position: relative; overflow: hidden;
+      transition: all .18s var(--bounce);
+      box-shadow: 0 4px 20px rgba(56,189,248,0.3);
+    }
+    .sign-btn:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(56,189,248,0.45); }
+    .sign-btn:active:not(:disabled) { transform: scale(0.98); }
+    .sign-btn:disabled { opacity: .5; cursor: not-allowed; transform: none; }
+
+    /* STATUS PANEL */
+    #statusPanel {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: var(--r); padding: 22px;
+      display: none; animation: fadeUp .4s var(--ease) both;
+    }
+    #statusPanel.show { display: block; }
+
+    .status-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .status-icon { font-size: 28px; flex-shrink: 0; }
+    .status-title { font-size: 15px; font-weight: 900; }
+    .status-sub { font-size: 12px; color: var(--text2); margin-top: 3px; font-family: var(--mono); }
+
+    .progress-track {
+      width: 100%; height: 6px; background: var(--surface3);
+      border-radius: 50px; overflow: hidden; margin-bottom: 14px;
+    }
+    .progress-fill {
+      height: 100%; width: 0%; border-radius: 50px;
+      background: linear-gradient(90deg, var(--blue2), var(--cyan));
+      transition: width .5s ease;
+      box-shadow: 0 0 10px rgba(56,189,248,0.5);
+    }
+
+    .log-box {
+      background: var(--surface3); border-radius: var(--r2);
+      padding: 12px 14px; font-family: var(--mono); font-size: 11px;
+      color: var(--text2); line-height: 1.8; max-height: 140px;
+      overflow-y: auto; margin-bottom: 14px;
+    }
+    .log-line { display: flex; gap: 8px; }
+    .log-line.ok .log-msg { color: var(--green); }
+    .log-line.err .log-msg { color: var(--red); }
+    .log-line.info .log-msg { color: var(--blue); }
+    .log-time { color: #444d56; flex-shrink: 0; }
+
+    /* INSTALL BUTTON */
+    .install-btn {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      width: 100%; padding: 16px; border-radius: var(--r);
+      background: linear-gradient(135deg, #059669, #047857);
+      color: #fff; font-family: var(--sans); font-size: 16px; font-weight: 900;
+      text-decoration: none; border: none; cursor: pointer;
+      box-shadow: 0 4px 20px rgba(5,150,105,0.35);
+      transition: all .18s var(--bounce);
+    }
+    .install-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(5,150,105,0.5); }
+
+    .dl-btn-alt {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      width: 100%; padding: 12px; border-radius: var(--r2);
+      background: var(--surface3); border: 1px solid var(--border);
+      color: var(--text2); font-size: 13px; font-weight: 700;
+      text-decoration: none; margin-top: 8px;
+      transition: all .18s;
+    }
+    .dl-btn-alt:hover { color: var(--blue); border-color: var(--border2); }
+
+    /* TOAST */
+    #toast {
+      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px);
+      background: var(--surface2); border: 1px solid var(--border2);
+      color: var(--text); font-size: 13px; font-weight: 700;
+      padding: 10px 22px; border-radius: 50px;
+      transition: transform .3s var(--bounce), opacity .3s;
+      opacity: 0; z-index: 999; pointer-events: none; white-space: nowrap;
+    }
+    #toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+
+    /* SPINNER */
+    .spinner {
+      width: 18px; height: 18px; border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top-color: #fff;
+      animation: spin .7s linear infinite; display: inline-block;
+    }
+
+    /* CONFIG WARNING */
+    .config-warn {
+      background: rgba(251,191,36,0.06); border: 1px solid rgba(251,191,36,0.25);
+      border-radius: var(--r2); padding: 12px 14px;
+      font-size: 12px; color: var(--text2); line-height: 1.7;
+      margin-bottom: 14px;
+    }
+    .config-warn strong { color: var(--yellow); }
+    .config-warn code { font-family: var(--mono); color: var(--yellow); font-size: 11px; }
+  </style>
 </head>
 <body>
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
 
-<div class="container">
-    <h2>توقيع تطبيق IPA </h2>
-    <p>ارفع التطبيق والشهادة لتوقيعه وتثبيته مباشرة</p>
+<div class="wrap">
 
-    <form id="signForm">
-        <label>1. ملف التطبيق (.ipa)</label>
-        <input type="file" id="ipaFile" accept=".ipa" required>
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo-row">
+      <div class="logo-dot"></div>
+      <span class="logo-text">IPA SIGNING</span>
+    </div>
+    <h1>✍️ توقيع التطبيقات</h1>
+    <p>ارفع ملفاتك وسيتم التوقيع تلقائياً وإرجاع رابط التثبيت</p>
+  </div>
 
-        <label>2. ملف الشهادة (.p12)</label>
-        <input type="file" id="p12File" accept=".p12" required>
+  <a href="index.html" class="back-link">→ العودة للمتجر</a>
 
-        <label>3. ملف التوفير (.mobileprovision)</label>
-        <input type="file" id="provFile" accept=".mobileprovision" required>
+  <!-- FORM -->
+  <div class="card">
+    <div class="section-label">📁 ملفات التوقيع</div>
 
-        <label>4. باسورد الشهادة</label>
-        <input type="password" id="certPassword" placeholder="اكتب الباسورد هنا..." required>
+    <div class="field">
+      <div class="field-label">ملف التطبيق <code>.ipa</code></div>
+      <div class="file-drop" id="drop-ipa" onclick="document.getElementById('inp-ipa').click()">
+        <div class="drop-icon">📦</div>
+        <div class="drop-info">
+          <div class="drop-name" id="name-ipa">اضغط لاختيار الملف</div>
+          <div class="drop-hint">.ipa</div>
+        </div>
+        <div class="drop-check">✓</div>
+        <input type="file" id="inp-ipa" accept=".ipa" onchange="handleFile(this,'ipa')" style="display:none">
+      </div>
+    </div>
 
-        <button type="submit" id="signBtn">بدء التوقيع</button>
-    </form>
+    <div class="field">
+      <div class="field-label">شهادة التوقيع <code>.p12</code></div>
+      <div class="file-drop" id="drop-p12" onclick="document.getElementById('inp-p12').click()">
+        <div class="drop-icon">🔑</div>
+        <div class="drop-info">
+          <div class="drop-name" id="name-p12">اضغط لاختيار الملف</div>
+          <div class="drop-hint">.p12</div>
+        </div>
+        <div class="drop-check">✓</div>
+        <input type="file" id="inp-p12" accept=".p12" onchange="handleFile(this,'p12')" style="display:none">
+      </div>
+    </div>
 
-    <div id="status"></div>
-    
-    <a id="installLink" href="#" class="hidden">
-        <button id="installBtn">تثبيت التطبيق الآن ⬇️</button>
+    <div class="field">
+      <div class="field-label">ملف التوفير <code>.mobileprovision</code></div>
+      <div class="file-drop" id="drop-prov" onclick="document.getElementById('inp-prov').click()">
+        <div class="drop-icon">📋</div>
+        <div class="drop-info">
+          <div class="drop-name" id="name-prov">اضغط لاختيار الملف</div>
+          <div class="drop-hint">.mobileprovision</div>
+        </div>
+        <div class="drop-check">✓</div>
+        <input type="file" id="inp-prov" accept=".mobileprovision" onchange="handleFile(this,'prov')" style="display:none">
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="field-label">باسورد الشهادة</div>
+      <div class="pass-wrap">
+        <input type="password" id="inp-pass" placeholder="اكتب الباسورد هنا...">
+        <button class="pass-eye" onclick="togglePass()" type="button">👁</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIGN BTN -->
+  <button class="sign-btn" id="signBtn" onclick="startSigning()">
+    ✍️ بدء التوقيع المجاني
+  </button>
+
+  <!-- STATUS PANEL -->
+  <div id="statusPanel" style="margin-top:12px">
+    <div class="status-row">
+      <div class="status-icon" id="statusIcon">⏳</div>
+      <div>
+        <div class="status-title" id="statusTitle">جاري الرفع...</div>
+        <div class="status-sub" id="statusSub">يرجى الانتظار</div>
+      </div>
+    </div>
+
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <div class="log-box" id="logBox"></div>
+
+    <a class="install-btn" id="installBtn" href="#" style="display:none">
+      📲 تثبيت التطبيق الآن
     </a>
+    <a class="dl-btn-alt" id="dlBtn" href="#" style="display:none" download>
+      ⬇️ تحميل IPA الموقعة
+    </a>
+  </div>
+
 </div>
 
+<div id="toast"></div>
+
 <script>
-    document.getElementById('signForm').addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const statusDiv = document.getElementById('status');
-        const signBtn = document.getElementById('signBtn');
-        const installLink = document.getElementById('installLink');
+  // ══════════════════════════════════════════
+  //  ⚙️  إعدادات — غيّر هذه القيم فقط
+  // ══════════════════════════════════════════
+  const GITHUB_OWNER  = 'ikiraplus';       // ← اسم حسابك على GitHub
+  const GITHUB_REPO   = 'ipastore';        // ← اسم الريبو
+  const GITHUB_TOKEN  = '';                // ← اتركه فاضياً، استخدم GitHub Secret (GH_PAT)
+  // ══════════════════════════════════════════
 
-        // تغيير شكل الواجهة عند بدء الرفع
-        installLink.classList.add('hidden');
-        signBtn.disabled = true;
-        statusDiv.innerHTML = "جاري رفع الملفات وتوقيع التطبيق... يرجى الانتظار ⏳";
-        statusDiv.style.color = "#f2cc60";
+  // ── الحالة ──
+  const files = { ipa: null, p12: null, prov: null };
+  let polling = null;
 
-        // محاكاة للتجربة (لأننا لم نربط السيرفر بعد)
-        setTimeout(() => {
-            statusDiv.innerHTML = "هذه واجهة تجريبية! لم نقم بربط السيرفر الخلفي بعد. ⚠️";
-            statusDiv.style.color = "#ff7b72";
-            signBtn.disabled = false;
-        }, 2500);
+  // ── اختيار ملف ──
+  function handleFile(input, type) {
+    const file = input.files[0];
+    if (!file) return;
+    files[type] = file;
+    document.getElementById(`name-${type}`).textContent = file.name;
+    document.getElementById(`name-${type}`).classList.add('selected');
+    document.getElementById(`drop-${type}`).classList.add('ok');
+  }
+
+  // ── إظهار/إخفاء الباسورد ──
+  function togglePass() {
+    const inp = document.getElementById('inp-pass');
+    inp.type = inp.type === 'password' ? 'text' : 'password';
+  }
+
+  // ── إضافة سطر للـ log ──
+  function addLog(msg, type = 'info') {
+    const box = document.getElementById('logBox');
+    const now = new Date().toLocaleTimeString('ar-SA', { hour12: false });
+    const line = document.createElement('div');
+    line.className = `log-line ${type}`;
+    line.innerHTML = `<span class="log-time">${now}</span><span class="log-msg">${msg}</span>`;
+    box.appendChild(line);
+    box.scrollTop = box.scrollHeight;
+  }
+
+  // ── تحديث الـ progress ──
+  function setProgress(pct, title, sub, icon) {
+    document.getElementById('progressFill').style.width = pct + '%';
+    if (title) document.getElementById('statusTitle').textContent = title;
+    if (sub)   document.getElementById('statusSub').textContent = sub;
+    if (icon)  document.getElementById('statusIcon').textContent = icon;
+  }
+
+  // ── بدء التوقيع ──
+  async function startSigning() {
+    // تحقق من الملفات
+    if (!files.ipa || !files.p12 || !files.prov) {
+      toast('⚠️ ارفع جميع الملفات أولاً');
+      return;
+    }
+
+    const password = document.getElementById('inp-pass').value;
+    const signBtn  = document.getElementById('signBtn');
+    const panel    = document.getElementById('statusPanel');
+
+    signBtn.disabled = true;
+    signBtn.innerHTML = '<span class="spinner"></span> جاري التجهيز...';
+    panel.style.display = 'block';
+    panel.classList.add('show');
+
+    addLog('بدأ رفع الملفات...', 'info');
+    setProgress(10, 'جاري الرفع...', 'يتم تحويل الملفات', '📤');
+
+    try {
+      // 1. رفع الملفات على GitHub Release مؤقت
+      const jobId = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+
+      // 2. تحويل P12 إلى base64
+      addLog('تحويل الشهادة...', 'info');
+      const p12B64 = await toBase64(files.p12);
+      setProgress(20, 'جاري الرفع...', 'رفع ملف IPA', '📤');
+
+      // 3. رفع IPA و Provision على GitHub كـ temporary release
+      addLog('رفع ملف IPA على GitHub...', 'info');
+      const ipaUpload  = await uploadToGitHub(files.ipa,  `tmp_${jobId}_app.ipa`,  jobId);
+      setProgress(40, 'جاري الرفع...', 'رفع ملف Provision', '📤');
+
+      addLog('رفع ملف Provision...', 'info');
+      const provUpload = await uploadToGitHub(files.prov, `tmp_${jobId}_app.mobileprovision`, jobId);
+      setProgress(55, 'تشغيل التوقيع...', 'GitHub Actions يعمل', '⚙️');
+
+      // 4. تشغيل GitHub Actions workflow
+      addLog('تشغيل عملية التوقيع...', 'info');
+      const runId = await triggerWorkflow(jobId, ipaUpload.url, provUpload.url, p12B64, password);
+
+      setProgress(60, 'جاري التوقيع...', `Run ID: ${runId}`, '✍️');
+      addLog(`تم تشغيل workflow — Run #${runId}`, 'ok');
+
+      // 5. استطلاع حتى الانتهاء
+      await pollWorkflow(runId, jobId);
+
+    } catch (err) {
+      console.error(err);
+      setProgress(100, 'حدث خطأ!', err.message, '❌');
+      addLog(`خطأ: ${err.message}`, 'err');
+      signBtn.disabled = false;
+      signBtn.innerHTML = '✍️ حاول مرة أخرى';
+      toast('❌ فشل التوقيع — ' + err.message);
+    }
+  }
+
+  // ── تحويل ملف إلى base64 ──
+  function toBase64(file) {
+    return new Promise((res, rej) => {
+      const reader = new FileReader();
+      reader.onload = () => res(reader.result.split(',')[1]);
+      reader.onerror = rej;
+      reader.readAsDataURL(file);
     });
-</script>
+  }
 
+  // ── رفع ملف على GitHub Release مؤقت ──
+  async function uploadToGitHub(file, filename, jobId) {
+    const token = await getToken();
+
+    // إنشاء release مؤقت إذا لم يكن موجوداً
+    const tag = `tmp-upload-${jobId}`;
+    let releaseId;
+
+    try {
+      const createRes = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases`, {
+        method: 'POST',
+        body: JSON.stringify({ tag_name: tag, name: `Temp Upload ${jobId}`, draft: false, prerelease: true })
+      });
+      releaseId = createRes.id;
+    } catch {
+      // ربما موجود مسبقاً
+      const getRel = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${tag}`);
+      releaseId = getRel.id;
+    }
+
+    // رفع الملف
+    const arrayBuffer = await file.arrayBuffer();
+    const uploadRes = await fetch(
+      `https://uploads.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/${releaseId}/assets?name=${filename}`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/octet-stream',
+          'X-GitHub-Api-Version': '2022-11-28'
+        },
+        body: arrayBuffer
+      }
+    );
+
+    if (!uploadRes.ok) throw new Error('فشل رفع الملف: ' + filename);
+    const data = await uploadRes.json();
+    return { url: data.browser_download_url, releaseId };
+  }
+
+  // ── تشغيل GitHub Actions ──
+  async function triggerWorkflow(jobId, ipaUrl, provUrl, p12B64, password) {
+    const token = await getToken();
+
+    const res = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/sign-ipa.yml/dispatches`, {
+      method: 'POST',
+      body: JSON.stringify({
+        ref: 'main',
+        inputs: {
+          ipa_url: ipaUrl,
+          prov_url: provUrl,
+          p12_b64: p12B64,
+          p12_password: password,
+          job_id: jobId
+        }
+      })
+    });
+
+    // انتظر ثانيتين ثم جلب آخر run ID
+    await sleep(3000);
+    const runs = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/runs?per_page=1&event=workflow_dispatch`);
+    return runs.workflow_runs[0].id;
+  }
+
+  // ── استطلاع حالة الـ workflow ──
+  async function pollWorkflow(runId, jobId) {
+    let dots = 0;
+    const stages = ['إعداد البيئة...', 'تثبيت zsign...', 'تحميل الملفات...', 'جاري التوقيع...', 'رفع النتيجة...'];
+    let stageIdx = 0;
+
+    return new Promise((resolve, reject) => {
+      polling = setInterval(async () => {
+        try {
+          const run = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/runs/${runId}`);
+          const { status, conclusion } = run;
+
+          dots = (dots + 1) % 4;
+          const dot = '.'.repeat(dots + 1);
+
+          if (status === 'in_progress' || status === 'queued') {
+            stageIdx = Math.min(stageIdx + 1, stages.length - 1);
+            const pct = 60 + (stageIdx / stages.length) * 35;
+            setProgress(pct, stages[stageIdx], `حالة: ${status}${dot}`, '⚙️');
+          }
+
+          if (status === 'completed') {
+            clearInterval(polling);
+
+            if (conclusion === 'success') {
+              setProgress(100, '✅ تم التوقيع بنجاح!', 'جاهز للتثبيت', '🎉');
+              addLog('تم التوقيع بنجاح!', 'ok');
+              await showInstallButton(jobId);
+              resolve();
+            } else {
+              setProgress(100, '❌ فشل التوقيع', conclusion, '❌');
+              addLog(`فشل: ${conclusion}`, 'err');
+              addLog(`افتح الرابط للتفاصيل: github.com/${GITHUB_OWNER}/${GITHUB_REPO}/actions/runs/${runId}`, 'err');
+              reject(new Error(conclusion));
+            }
+          }
+        } catch (e) {
+          clearInterval(polling);
+          reject(e);
+        }
+      }, 5000);
+    });
+  }
+
+  // ── إظهار زر التثبيت ──
+  async function showInstallButton(jobId) {
+    const tag = `signed-${jobId}`;
+    const release = await ghFetch(`/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${tag}`);
+    
+    const plistAsset = release.assets.find(a => a.name.endsWith('.plist'));
+    const ipaAsset   = release.assets.find(a => a.name.endsWith('.ipa'));
+
+    if (plistAsset) {
+      const plistUrl = plistAsset.browser_download_url;
+      const installLink = `itms-services://?action=download-manifest&url=${encodeURIComponent(plistUrl)}`;
+      const btn = document.getElementById('installBtn');
+      btn.href = installLink;
+      btn.style.display = 'flex';
+      addLog('رابط التثبيت جاهز ✅', 'ok');
+    }
+
+    if (ipaAsset) {
+      const dl = document.getElementById('dlBtn');
+      dl.href = ipaAsset.browser_download_url;
+      dl.style.display = 'flex';
+    }
+
+    document.getElementById('signBtn').innerHTML = '✍️ توقيع تطبيق آخر';
+    document.getElementById('signBtn').disabled = false;
+    document.getElementById('signBtn').onclick = () => location.reload();
+    toast('🎉 تم التوقيع! اضغط "تثبيت" على آيفونك');
+  }
+
+  // ── GitHub API helpers ──
+  async function getToken() {
+    // إذا كان التوكن موضوع مباشرة (للتطوير فقط)
+    if (GITHUB_TOKEN) return GITHUB_TOKEN;
+    // وإلا استخدم الـ Cloudflare Worker لإخفاء التوكن
+    throw new Error('يجب إعداد GH_PAT — اقرأ التعليمات في README');
+  }
+
+  async function ghFetch(path, opts = {}) {
+    const token = await getToken();
+    const res = await fetch(`https://api.github.com${path}`, {
+      ...opts,
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'Content-Type': 'application/json',
+        ...(opts.headers || {})
+      }
+    });
+    if (!res.ok && res.status !== 422) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.message || `GitHub API error ${res.status}`);
+    }
+    return res.status === 204 ? null : res.json();
+  }
+
+  function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+  // ── Toast ──
+  let toastTimer;
+  function toast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove('show'), 3500);
+  }
+</script>
 </body>
 </html>
