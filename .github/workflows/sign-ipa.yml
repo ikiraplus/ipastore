@@ -1,0 +1,152 @@
+name: Sign IPA
+
+on:
+  workflow_dispatch:
+    inputs:
+      ipa_url:
+        description: 'رابط ملف IPA'
+        required: true
+      prov_url:
+        description: 'رابط ملف mobileprovision'
+        required: true
+      p12_b64:
+        description: 'ملف P12 بصيغة base64'
+        required: true
+      p12_password:
+        description: 'باسورد الشهادة'
+        required: true
+      job_id:
+        description: 'Job ID لتتبع الطلب'
+        required: true
+
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # ── تثبيت zsign ──
+      - name: Install zsign dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq \
+            git build-essential cmake \
+            libssl-dev libzip-dev zlib1g-dev \
+            curl jq
+
+      - name: Build zsign
+        run: |
+          git clone --depth=1 https://github.com/zhlynn/zsign.git /tmp/zsign_src
+          cd /tmp/zsign_src
+          cmake -B build -DCMAKE_BUILD_TYPE=Release
+          cmake --build build -j$(nproc)
+          sudo cp build/zsign /usr/local/bin/zsign
+          zsign -v
+
+      # ── تحميل الملفات ──
+      - name: Download IPA
+        run: |
+          curl -L "${{ github.event.inputs.ipa_url }}" -o /tmp/input.ipa
+          echo "IPA size: $(du -sh /tmp/input.ipa | cut -f1)"
+
+      - name: Download mobileprovision
+        run: |
+          curl -L "${{ github.event.inputs.prov_url }}" -o /tmp/app.mobileprovision
+
+      - name: Decode P12
+        run: |
+          echo "${{ github.event.inputs.p12_b64 }}" | base64 -d > /tmp/cert.p12
+
+      # ── التوقيع ──
+      - name: Sign IPA with zsign
+        run: |
+          JOB_ID="${{ github.event.inputs.job_id }}"
+          OUTPUT="/tmp/signed_${JOB_ID}.ipa"
+          
+          zsign \
+            -k /tmp/cert.p12 \
+            -p "${{ github.event.inputs.p12_password }}" \
+            -m /tmp/app.mobileprovision \
+            -o "$OUTPUT" \
+            -z 5 \
+            /tmp/input.ipa
+          
+          echo "SIGNED_IPA=$OUTPUT" >> $GITHUB_ENV
+          echo "JOB_ID=$JOB_ID" >> $GITHUB_ENV
+          echo "✅ تم التوقيع: $(du -sh $OUTPUT | cut -f1)"
+
+      # ── رفع على GitHub Release ──
+      - name: Create Release & Upload signed IPA
+        id: release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "signed-${{ github.event.inputs.job_id }}"
+          name: "Signed IPA — ${{ github.event.inputs.job_id }}"
+          body: "تم التوقيع تلقائياً عبر ipastore"
+          files: ${{ env.SIGNED_IPA }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── بناء plist لـ itms-services ──
+      - name: Build install plist
+        run: |
+          JOB_ID="${{ github.event.inputs.job_id }}"
+          REPO="${{ github.repository }}"
+          IPA_URL="https://github.com/${REPO}/releases/download/signed-${JOB_ID}/signed_${JOB_ID}.ipa"
+          
+          # استخراج Bundle ID من الـ provision
+          BUNDLE_ID=$(grep -a 'application-identifier' /tmp/app.mobileprovision \
+            | grep -oP '(?<=<string>)[^<]+' | head -1 | sed 's/.*\.//' || echo "com.app.signed")
+          
+          cat > /tmp/install.plist << EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>items</key>
+            <array>
+              <dict>
+                <key>assets</key>
+                <array>
+                  <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>${IPA_URL}</string>
+                  </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                  <key>bundle-identifier</key>
+                  <string>${BUNDLE_ID}</string>
+                  <key>bundle-version</key>
+                  <string>1.0</string>
+                  <key>kind</key>
+                  <string>software</string>
+                  <key>title</key>
+                  <string>Signed App</string>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+          </plist>
+          EOF
+          
+          echo "PLIST_CONTENT=$(cat /tmp/install.plist | base64 -w 0)" >> $GITHUB_ENV
+          echo "IPA_DOWNLOAD_URL=$IPA_URL" >> $GITHUB_ENV
+
+      - name: Upload plist to release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "signed-${{ github.event.inputs.job_id }}"
+          files: /tmp/install.plist
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── حذف الملفات الحساسة ──
+      - name: Cleanup sensitive files
+        if: always()
+        run: |
+          rm -f /tmp/cert.p12 /tmp/app.mobileprovision /tmp/input.ipa
+          echo "🧹 تم حذف الملفات الحساسة"
