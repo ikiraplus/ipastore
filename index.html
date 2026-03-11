@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>IPA Store — تحميل التطبيقات</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ══ VARIABLES ══ */
+:root {
+  --bg: #07090f;
+  --bg2: #0d1117;
+  --surface: #0d1117;
+  --surface2: #161b22;
+  --surface3: #1c2430;
+  --border: rgba(56,189,248,0.1);
+  --border2: rgba(56,189,248,0.2);
+  --blue: #38bdf8;
+  --blue2: #0ea5e9;
+  --cyan: #06b6d4;
+  --green: #22d3a5;
+  --red: #f87171;
+  --yellow: #fbbf24;
+  --text: #e6edf3;
+  --text2: #8b949e;
+  --mono: 'JetBrains Mono', monospace;
+  --sans: 'Cairo', sans-serif;
+  --r: 12px;
+  --r2: 8px;
+  --t: 0.18s;
+  --ease: cubic-bezier(0.25,1,0.5,1);
+  --bounce: cubic-bezier(0.34,1.56,0.64,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);font-weight:700;
+  background:var(--bg);color:var(--text);
+  min-height:100dvh;overflow-x:hidden;
+  padding-bottom:80px;
+}
+
+/* ══ ANIMATED BG ══ */
+.bg-grid{
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(56,189,248,0.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(56,189,248,0.03) 1px,transparent 1px);
+  background-size:32px 32px;
+  mask-image:radial-gradient(ellipse 80% 80% at 50% 0%,#000 40%,transparent 100%);
+}
+.bg-glow{
+  position:fixed;top:-200px;left:50%;transform:translateX(-50%);
+  width:800px;height:400px;
+  background:radial-gradient(ellipse,rgba(56,189,248,0.06) 0%,transparent 70%);
+  z-index:0;pointer-events:none;
+}
+
+/* ══ LAYOUT ══ */
+.wrap{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:20px 14px}
+
+/* ══ HEADER ══ */
+.header{
+  text-align:center;padding:28px 0 20px;
+  animation:fadeUp .5s var(--ease) both;
+}
+.logo-row{
+  display:inline-flex;align-items:center;gap:12px;
+  background:var(--surface2);border:1px solid var(--border2);
+  border-radius:50px;padding:8px 20px;margin-bottom:18px;
+  box-shadow:0 0 30px rgba(56,189,248,0.08);
+}
+.logo-dot{
+  width:8px;height:8px;border-radius:50%;background:var(--green);
+  box-shadow:0 0 8px var(--green);
+  animation:pulse 2s ease infinite;
+}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.logo-text{font-family:var(--mono);font-size:13px;color:var(--blue);letter-spacing:1px}
+.header h1{
+  font-size:clamp(22px,5vw,30px);font-weight:900;
+  background:linear-gradient(135deg,var(--text) 30%,var(--blue));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  margin-bottom:8px;
+}
+.header p{font-size:13px;color:var(--text2);line-height:1.7}
+
+/* ══ STATS BAR ══ */
+.stats-bar{
+  display:flex;gap:8px;margin-bottom:16px;
+  animation:fadeUp .5s var(--ease) .1s both;
+}
+.stat-pill{
+  flex:1;background:var(--surface2);border:1px solid var(--border);
+  border-radius:var(--r2);padding:10px 12px;text-align:center;
+}
+.stat-pill .sv{font-size:18px;font-weight:900;color:var(--blue)}
+.stat-pill .sl{font-size:10px;color:var(--text2);margin-top:1px}
+
+/* ══ SEARCH ══ */
+.search-row{
+  display:flex;gap:8px;margin-bottom:12px;
+  animation:fadeUp .5s var(--ease) .15s both;
+}
+.search-box{
+  flex:1;display:flex;align-items:center;gap:8px;
+  background:var(--surface2);border:1px solid var(--border);
+  border-radius:var(--r);padding:11px 14px;
+  transition:border-color var(--t);
+}
+.search-box:focus-within{border-color:var(--blue)}
+.search-box input{
+  flex:1;background:transparent;border:none;outline:none;
+  color:var(--text);font-family:var(--sans);font-size:14px;font-weight:700;
+}
+.search-box input::placeholder{color:var(--text2)}
+
+/* ══ FILTERS ══ */
+.filters{
+  display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;
+  scrollbar-width:none;margin-bottom:16px;
+  animation:fadeUp .5s var(--ease) .2s both;
+}
+.filters::-webkit-scrollbar{display:none}
+.f-btn{
+  flex-shrink:0;padding:6px 14px;border-radius:50px;font-size:12px;
+  font-family:var(--sans);font-weight:700;border:1px solid var(--border);
+  background:var(--surface2);color:var(--text2);cursor:pointer;
+  transition:all var(--t) var(--bounce);white-space:nowrap;
+}
+.f-btn:hover{color:var(--blue);border-color:var(--blue2)}
+.f-btn.active{
+  background:rgba(56,189,248,0.1);color:var(--blue);
+  border-color:var(--blue2);box-shadow:0 0 12px rgba(56,189,248,0.15);
+}
+
+/* ══ APP CARDS ══ */
+.grid{display:flex;flex-direction:column;gap:10px}
+
+.app-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--r);overflow:hidden;
+  transition:border-color var(--t),transform var(--t) var(--bounce),box-shadow var(--t);
+  opacity:0;
+}
+.app-card.in-view{animation:fadeUp .4s var(--ease) both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.app-card:hover{border-color:var(--border2);transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,0.3)}
+
+.card-body{display:flex;align-items:center;gap:12px;padding:14px}
+.app-icon{
+  width:56px;height:56px;border-radius:14px;flex-shrink:0;
+  border:1px solid var(--border);overflow:hidden;
+  background:var(--surface2);position:relative;
+}
+.app-icon img{width:100%;height:100%;object-fit:cover;display:block}
+.app-icon .icon-placeholder{
+  width:100%;height:100%;display:flex;align-items:center;
+  justify-content:center;font-size:24px;
+}
+
+.app-info{flex:1;min-width:0}
+.app-name{font-size:15px;font-weight:900;color:var(--text);margin-bottom:3px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.app-meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.meta-tag{
+  display:inline-flex;align-items:center;
+  padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;
+  font-family:var(--mono);
+}
+.tag-cat{background:rgba(56,189,248,0.1);color:var(--blue);border:1px solid rgba(56,189,248,0.2)}
+.tag-ver{background:rgba(34,211,165,0.1);color:var(--green);border:1px solid rgba(34,211,165,0.2)}
+.tag-size{background:rgba(251,191,36,0.08);color:var(--yellow);border:1px solid rgba(251,191,36,0.15)}
+
+.app-note{
+  font-size:11px;color:var(--text2);margin-top:5px;line-height:1.5;
+  padding:6px 8px;background:var(--surface2);border-radius:6px;
+  border-right:2px solid var(--border2);
+}
+
+/* ══ DOWNLOAD BTN ══ */
+.dl-btn{
+  display:flex;align-items:center;justify-content:center;
+  gap:7px;padding:0 14px;height:44px;border-radius:var(--r2);
+  background:linear-gradient(135deg,var(--blue2),var(--cyan));
+  color:#fff;font-family:var(--sans);font-size:13px;font-weight:900;
+  border:none;cursor:pointer;flex-shrink:0;min-width:90px;
+  position:relative;overflow:hidden;
+  transition:transform var(--t) var(--bounce),box-shadow var(--t),opacity var(--t);
+  box-shadow:0 4px 14px rgba(56,189,248,0.25);
+}
+.dl-btn::before{
+  content:'';position:absolute;top:0;left:-100%;width:60%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent);
+  transform:skewX(-15deg);
+}
+.dl-btn:hover::before{left:160%;transition:left .4s ease}
+.dl-btn:hover{transform:translateY(-2px) scale(1.03);box-shadow:0 8px 24px rgba(56,189,248,0.4)}
+.dl-btn:active{transform:scale(0.97)}
+.dl-btn:disabled{opacity:.6;cursor:not-allowed;transform:none}
+
+/* btn states */
+.dl-btn .btn-idle{display:flex;align-items:center;gap:6px}
+.dl-btn .btn-progress{display:none;flex-direction:column;align-items:center;gap:2px;width:100%}
+.dl-btn .btn-done{display:none;align-items:center;gap:6px}
+
+.dl-btn.downloading .btn-idle{display:none}
+.dl-btn.downloading .btn-progress{display:flex}
+.dl-btn.downloading{background:linear-gradient(135deg,#1d4ed8,#0369a1);cursor:wait}
+
+.dl-btn.done .btn-idle{display:none}
+.dl-btn.done .btn-done{display:flex}
+.dl-btn.done{background:linear-gradient(135deg,#059669,#047857)}
+
+.dl-btn.error-state{background:linear-gradient(135deg,#dc2626,#b91c1c)}
+
+.progress-text{font-size:10px;font-family:var(--mono);opacity:.9}
+.mini-bar{width:60px;height:3px;background:rgba(255,255,255,0.2);border-radius:2px;overflow:hidden}
+.mini-fill{height:100%;background:#fff;border-radius:2px;width:0%;transition:width .3s}
+
+/* ══ SPINNER ══ */
+.spinner{
+  width:14px;height:14px;border:2px solid rgba(255,255,255,0.3);
+  border-top-color:#fff;border-radius:50%;animation:spin .6s linear infinite;flex-shrink:0;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ══ BOTTOM NOTE ══ */
+.bottom-note{
+  background:rgba(251,191,36,0.06);border:1px solid rgba(251,191,36,0.2);
+  border-radius:var(--r);padding:14px 16px;margin-top:8px;
+  font-size:12px;line-height:1.8;color:rgba(251,191,36,0.8);
+  animation:fadeUp .5s var(--ease) .3s both;
+}
+.bottom-note strong{color:var(--yellow)}
+
+/* ══ TELEGRAM ══ */
+.tg-btn{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;padding:14px;border-radius:var(--r);margin-top:8px;
+  background:var(--surface2);border:1px solid var(--border);
+  color:var(--blue);font-family:var(--sans);font-size:13px;font-weight:900;
+  text-decoration:none;transition:all var(--t) var(--bounce);
+  animation:fadeUp .5s var(--ease) .35s both;
+}
+.tg-btn:hover{border-color:var(--blue2);background:rgba(56,189,248,0.06);transform:translateY(-2px)}
+
+/* ══ EMPTY ══ */
+.empty{
+  text-align:center;padding:60px 20px;color:var(--text2);
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--r);
+}
+.empty .big{font-size:48px;margin-bottom:12px;display:block}
+
+/* ══ TOAST ══ */
+#toast{
+  position:fixed;bottom:24px;left:50%;
+  transform:translateX(-50%) translateY(80px);
+  background:var(--surface3);border:1px solid var(--border2);
+  border-radius:50px;padding:10px 22px;
+  font-size:13px;font-weight:700;color:var(--text);
+  box-shadow:0 8px 32px rgba(0,0,0,0.5);z-index:999;
+  transition:transform .3s var(--bounce),opacity .3s;
+  opacity:0;white-space:nowrap;
+}
+#toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+#toast.ok{color:var(--green);border-color:rgba(34,211,165,0.3)}
+#toast.err{color:var(--red);border-color:rgba(248,113,113,0.3)}
+#toast.info{color:var(--blue);border-color:rgba(56,189,248,0.3)}
+
+/* ══ RESPONSIVE ══ */
+@media(max-width:400px){
+  .card-body{gap:10px;padding:12px}
+  .app-icon{width:48px;height:48px}
+  .dl-btn{min-width:76px;font-size:12px;padding:0 10px}
+}
+</style>
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+<div id="toast"></div>
+
+<div class="wrap">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo-row">
+      <div class="logo-dot"></div>
+      <span class="logo-text">IPA STORE v2.0</span>
+    </div>
+    <h1>متجر تحميل التطبيقات</h1>
+    <p>حمّل ملفات IPA مباشرةً على جهازك<br>وثبّتها عبر AltStore أو Sideloadly</p>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat-pill">
+      <div class="sv" id="statTotal">—</div>
+      <div class="sl">تطبيق</div>
+    </div>
+    <div class="stat-pill">
+      <div class="sv" id="statCats">—</div>
+      <div class="sl">تصنيف</div>
+    </div>
+    <div class="stat-pill">
+      <div class="sv" style="color:var(--green)" id="statStatus">⏳</div>
+      <div class="sl">الحالة</div>
+    </div>
+  </div>
+
+  <!-- SEARCH -->
+  <div class="search-row">
+    <div class="search-box">
+      <span style="color:var(--text2)">⌕</span>
+      <input type="text" id="searchInput" placeholder="ابحث عن تطبيق..." oninput="filterRender()">
+    </div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filters" id="filtersRow">
+    <button class="f-btn active" data-cat="الكل" onclick="setFilter(this)">🌐 الكل</button>
+  </div>
+
+  <!-- GRID -->
+  <div class="grid" id="appsGrid">
+    <!-- skeleton -->
+    <div style="height:86px;background:var(--surface2);border-radius:var(--r);animation:pulse 1.4s ease infinite"></div>
+    <div style="height:86px;background:var(--surface2);border-radius:var(--r);animation:pulse 1.4s ease .2s infinite"></div>
+    <div style="height:86px;background:var(--surface2);border-radius:var(--r);animation:pulse 1.4s ease .4s infinite"></div>
+  </div>
+
+  <!-- NOTE -->
+  <div class="bottom-note" style="margin-top:16px">
+    <strong>📌 كيف تثبّت الـ IPA بعد التحميل؟</strong><br>
+    ١. حمّل التطبيق — سيظهر كملف <span style="font-family:var(--mono);color:var(--yellow)">.ipa</span> في جهازك<br>
+    ٢. افتح <strong>AltStore</strong> أو <strong>Sideloadly</strong> على الكمبيوتر<br>
+    ٣. اسحب الملف وثبّته على آيفونك ✅
+  </div>
+
+  <a class="tg-btn" href="https://t.me/ikira18" target="_blank">
+    💬 واجهتك مشكلة؟ تواصل معنا
+  </a>
+
+</div>
+
+<script>
+/* ══ CONFIG ══ */
+const GITHUB_OWNER  = 'ikiraplus';   // ← غيّر هذا
+const GITHUB_REPO   = 'ipastore';             // ← اسم الريبو
+const GITHUB_BRANCH = 'main';
+const WORKER_URL    = 'https://ipastore.rhomy1515.workers.dev'; // ← رابط الـ Worker
+
+const APPS_JSON = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/apps.json`;
+
+/* ══ STATE ══ */
+let allApps = [];
+let activeFilter = 'الكل';
+let toastTimer;
+
+/* ══ INIT ══ */
+window.onload = loadApps;
+
+/* ══ LOAD ══ */
+async function loadApps() {
+  try {
+    const r = await fetch(APPS_JSON + '?t=' + Date.now());
+    if (!r.ok) throw new Error('404');
+    const data = await r.json();
+    allApps = data.apps || [];
+    buildFilters();
+    filterRender();
+    document.getElementById('statTotal').textContent = allApps.length;
+    document.getElementById('statCats').textContent = new Set(allApps.map(a => a.category || 'أخرى')).size;
+    document.getElementById('statStatus').textContent = '✅';
+  } catch(e) {
+    document.getElementById('appsGrid').innerHTML = `
+      <div class="empty">
+        <span class="big">⚙️</span>
+        <p>افتح <code>index.html</code> وعدّل<br><code>GITHUB_OWNER</code> و <code>WORKER_URL</code></p>
+      </div>`;
+    document.getElementById('statStatus').textContent = '❌';
+  }
+}
+
+/* ══ FILTERS ══ */
+const catIcons = {'الكل':'🌐','تواصل':'💬','ترفيه':'🎬','أدوات':'🔧','ذكاء اصطناعي':'🤖','ألعاب':'🎮','أخرى':'📦'};
+
+function buildFilters() {
+  const cats = ['الكل', ...new Set(allApps.map(a => a.category || 'أخرى'))];
+  document.getElementById('filtersRow').innerHTML = cats.map(c =>
+    `<button class="f-btn${c===activeFilter?' active':''}" data-cat="${c}" onclick="setFilter(this)">${catIcons[c]||'📦'} ${c}</button>`
+  ).join('');
+}
+
+function setFilter(btn) {
+  activeFilter = btn.dataset.cat;
+  document.querySelectorAll('.f-btn').forEach(b => b.classList.toggle('active', b===btn));
+  filterRender();
+}
+
+function filterRender() {
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  let list = allApps;
+  if (activeFilter !== 'الكل') list = list.filter(a => (a.category||'أخرى') === activeFilter);
+  if (q) list = list.filter(a => a.name.toLowerCase().includes(q) || (a.description||'').toLowerCase().includes(q));
+  renderGrid(list);
+}
+
+/* ══ RENDER ══ */
+function renderGrid(list) {
+  const grid = document.getElementById('appsGrid');
+  if (!list.length) {
+    grid.innerHTML = '<div class="empty"><span class="big">🔍</span><p>لا توجد نتائج</p></div>';
+    return;
+  }
+  grid.innerHTML = list.map((app, i) => `
+    <div class="app-card" style="animation-delay:${i*0.04}s">
+      <div class="card-body">
+        <div class="app-icon">
+          ${app.icon
+            ? `<img src="${app.icon}" alt="${app.name}" loading="lazy">`
+            : `<div class="icon-placeholder">📱</div>`}
+        </div>
+        <div class="app-info">
+          <div class="app-name">${app.name}</div>
+          <div class="app-meta">
+            <span class="meta-tag tag-cat">${catIcons[app.category]||'📦'} ${app.category||'أخرى'}</span>
+            <span class="meta-tag tag-ver">v${app.version||'1.0'}</span>
+            ${app.size ? `<span class="meta-tag tag-size">${app.size}</span>` : ''}
+          </div>
+          ${app.note ? `<div class="app-note">${app.note}</div>` : ''}
+        </div>
+        <button class="dl-btn" id="btn-${app.id}" onclick="downloadApp('${app.id}','${app.ipaUrl}','${app.name}')">
+          <div class="btn-idle">⬇ تحميل</div>
+          <div class="btn-progress">
+            <div class="spinner"></div>
+            <div class="progress-text" id="prog-${app.id}">0%</div>
+            <div class="mini-bar"><div class="mini-fill" id="fill-${app.id}"></div></div>
+          </div>
+          <div class="btn-done">✓ جاهز</div>
+        </button>
+      </div>
+    </div>
+  `).join('');
+
+  // Intersection Observer
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('in-view');obs.unobserve(e.target)} });
+  }, {threshold:0.05});
+  document.querySelectorAll('.app-card').forEach(c => obs.observe(c));
+}
+
+/* ══ DOWNLOAD via Cloudflare Worker ══ */
+async function downloadApp(id, ipaUrl, name) {
+  const btn  = document.getElementById('btn-' + id);
+  const prog = document.getElementById('prog-' + id);
+  const fill = document.getElementById('fill-' + id);
+
+  if (!ipaUrl || ipaUrl.includes('ضع_رابط')) {
+    toast('⚠️ رابط التحميل غير متوفر', 'err');
+    return;
+  }
+
+  btn.classList.add('downloading');
+  btn.disabled = true;
+  toast('⏳ جاري التحميل...', 'info');
+
+  try {
+    // الطلب عبر Worker لتجاوز CORS
+    const proxyUrl = `${WORKER_URL}?url=${encodeURIComponent(ipaUrl)}`;
+    const response = await fetch(proxyUrl);
+
+    if (!response.ok) throw new Error('فشل التحميل — كود: ' + response.status);
+
+    const contentLength = response.headers.get('Content-Length');
+    const total = contentLength ? parseInt(contentLength) : 0;
+
+    // قراءة الـ stream مع تتبع التقدم
+    const reader = response.body.getReader();
+    const chunks = [];
+    let received = 0;
+
+    while(true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      received += value.length;
+      if (total) {
+        const pct = Math.round((received / total) * 100);
+        if (prog) prog.textContent = pct + '%';
+        if (fill) fill.style.width = pct + '%';
+      } else {
+        // لو ما عندنا الحجم، نحرك بار بشكل وهمي
+        const mb = (received / 1024 / 1024).toFixed(1);
+        if (prog) prog.textContent = mb + ' MB';
+      }
+    }
+
+    // تحويل لـ Blob وتحميل
+    const blob = new Blob(chunks, {type: 'application/octet-stream'});
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    const filename = name.replace(/[^a-zA-Z0-9\u0600-\u06FF]/g, '_') + '.ipa';
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+
+    btn.classList.remove('downloading');
+    btn.classList.add('done');
+    toast('✅ تم التحميل بنجاح!', 'ok');
+
+    // ارجع للوضع الطبيعي بعد 5 ثواني
+    setTimeout(() => {
+      btn.classList.remove('done');
+      btn.disabled = false;
+    }, 5000);
+
+  } catch(err) {
+    btn.classList.remove('downloading');
+    btn.classList.add('error-state');
+    btn.disabled = false;
+    toast('❌ ' + (err.message || 'خطأ في التحميل'), 'err');
+    setTimeout(() => btn.classList.remove('error-state'), 3000);
+  }
+}
+
+/* ══ TOAST ══ */
+function toast(msg, type='') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'show' + (type ? ' '+type : '');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.className = '', 3500);
+}
+</script>
+</body>
+</html>
