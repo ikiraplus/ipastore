@@ -21,6 +21,17 @@
       "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
       "category": "ترفيه",
       "addedAt": "2026-03-12"
+    },
+    {
+      "id": "app-1773343947817",
+      "name": "SAS",
+      "version": "3.3",
+      "ipaUrl": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/ipa/app-1773343947817.ipa",
+      "icon": "",
+      "size": "9.4 MB",
+      "note": "A",
+      "category": "تواصل",
+      "addedAt": "2026-03-12"
     }
   ]
 }
