@@ -32,6 +32,17 @@
       "note": "A",
       "category": "تواصل",
       "addedAt": "2026-03-12"
+    },
+    {
+      "id": "app-1773344200652",
+      "name": "Gbox",
+      "version": "4.2",
+      "ipaUrl": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/ipa/GBoxu_5.7.6_1772107274 (1).ipa",
+      "icon": "",
+      "size": "9.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-12"
     }
   ]
 }
