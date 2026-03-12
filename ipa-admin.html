@@ -801,7 +801,7 @@ async function uploadIpaWithProgress(file, appId, name, ver, fillEl) {
   fillEl.style.width = '40%';
   stat.textContent = 'جاري الرفع على GitHub...';
 
-  const filename = `ipa/${appId}.ipa`;
+  const filename = `ipa/${file.name}`;
   const existing = await ghReq(filename);
   const body = {
     message: `Add IPA: ${name} v${ver}`,
