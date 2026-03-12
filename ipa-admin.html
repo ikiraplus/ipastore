@@ -176,6 +176,57 @@ body::before{
 #toast.err{color:var(--red)}
 #toast.info{color:var(--blue)}
 
+/* ─── IMAGE UPLOAD ─── */
+.upload-zone{
+  border:2px dashed var(--border2);border-radius:var(--r);
+  padding:16px;text-align:center;cursor:pointer;
+  transition:all var(--t);background:var(--s2);
+  position:relative;overflow:hidden;
+}
+.upload-zone:hover,.upload-zone.drag{border-color:var(--blue);background:rgba(56,189,248,.05)}
+.upload-zone input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.upload-zone .uz-icon{font-size:26px;margin-bottom:6px}
+.upload-zone .uz-text{font-size:12px;color:var(--muted)}
+.upload-zone .uz-sub{font-size:10px;color:var(--muted);opacity:.6;margin-top:3px}
+
+/* crop modal */
+.crop-overlay{
+  position:fixed;inset:0;z-index:600;
+  background:rgba(0,0,0,.9);backdrop-filter:blur(12px);
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;pointer-events:none;transition:opacity .22s;
+}
+.crop-overlay.open{opacity:1;pointer-events:auto}
+.crop-box{
+  background:var(--s);border:1px solid var(--border2);
+  border-radius:20px;padding:22px;max-width:380px;width:93%;
+}
+.crop-title{font-size:15px;font-weight:900;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between}
+.crop-canvas-wrap{
+  width:260px;height:260px;margin:0 auto 16px;
+  border-radius:var(--r);overflow:hidden;border:1px solid var(--border);
+  background:#000;position:relative;cursor:move;user-select:none;
+}
+#cropCanvas{display:block;width:100%;height:100%}
+.crop-guide{
+  position:absolute;inset:0;pointer-events:none;
+  border:2px solid rgba(56,189,248,.6);
+  box-shadow:0 0 0 9999px rgba(0,0,0,.45);
+  border-radius:22%;
+}
+.crop-controls{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
+.crop-slider-row{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted)}
+.crop-slider-row span{width:50px;font-family:var(--mono);font-size:11px;color:var(--blue);text-align:left}
+input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
+.crop-size-btns{display:flex;gap:6px;flex-wrap:wrap}
+.csz{
+  flex:1;min-width:60px;padding:6px;border-radius:var(--r2);
+  background:var(--s2);border:1px solid var(--border);
+  color:var(--muted);font-size:11px;font-weight:700;cursor:pointer;
+  transition:all var(--t);text-align:center;font-family:var(--sans);
+}
+.csz:hover,.csz.active{background:rgba(56,189,248,.1);color:var(--blue);border-color:var(--blue2)}
+
 @media(max-width:480px){
   .fgrid{grid-template-columns:1fr}
   .fgrid .full{grid-column:auto}
@@ -287,17 +338,42 @@ body::before{
         <input type="text" id="f-size" placeholder="128 MB">
       </div>
       <div class="field full">
-        <label>رابط ملف IPA على GitHub Releases *</label>
-        <input type="url" id="f-ipa" placeholder="https://github.com/USERNAME/ipa/releases/download/v1.0/app.ipa">
-        <div class="fhint">ارفع الملف في Releases ثم انسخ رابطه المباشر هنا</div>
+        <label>ملف IPA *</label>
+        <input type="url" id="f-ipa" placeholder="https://github.com/USERNAME/repo/releases/download/v1.0/app.ipa" oninput="updateIpaPreview()">
+        <div class="fhint" id="ipaUrlHint">عندك رابط مباشر؟ ضعه هنا — أو ارفع الملف مباشرة من جهازك 👇</div>
+        <div class="upload-zone" id="ipaUploadZone" style="margin-top:8px" onclick="document.getElementById('ipaFileInput').click()">
+          <input type="file" id="ipaFileInput" accept=".ipa" onchange="handleIpaFile(event)" style="display:none">
+          <div id="ipaZoneContent">
+            <div class="uz-icon">📦</div>
+            <div class="uz-text">اضغط لاختيار ملف IPA أو اسحبه هنا</div>
+            <div class="uz-sub" id="ipaFileName">سيُرفع تلقائياً على GitHub Releases</div>
+          </div>
+        </div>
+        <div id="ipaUploadBar" style="display:none;margin-top:8px">
+          <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-bottom:4px">
+            <span id="ipaUploadStatus">جاري الرفع...</span>
+            <span id="ipaUploadPct">0%</span>
+          </div>
+          <div style="height:4px;background:var(--s2);border-radius:2px;overflow:hidden">
+            <div id="ipaUploadFill" style="height:100%;width:0%;background:linear-gradient(90deg,var(--blue2),var(--cyan));border-radius:2px;transition:width .3s"></div>
+          </div>
+        </div>
       </div>
       <div class="field full">
-        <label>رابط الأيقونة *</label>
-        <div class="icon-row">
+        <label>أيقونة التطبيق *</label>
+        <div class="icon-row" style="margin-bottom:8px">
           <div class="icon-prev" id="iconPrev">🖼️</div>
-          <input type="url" id="f-icon" placeholder="https://i.ibb.co/..." oninput="prevIcon()" style="flex:1">
+          <div style="flex:1;display:flex;flex-direction:column;gap:6px">
+            <input type="url" id="f-icon" placeholder="https://i.ibb.co/..." oninput="prevIcon()" style="width:100%">
+            <div class="fhint" style="margin:0">أو ارفع مباشرة من جهازك 👇</div>
+          </div>
         </div>
-        <div class="fhint">ارفع الأيقونة على ibb.co مجاناً وضع الرابط هنا</div>
+        <div class="upload-zone" id="uploadZone" onclick="document.getElementById('iconFileInput').click()">
+          <input type="file" id="iconFileInput" accept="image/*" onchange="handleIconFile(event)" style="display:none">
+          <div class="uz-icon">📁</div>
+          <div class="uz-text">اضغط لاختيار صورة أو اسحبها هنا</div>
+          <div class="uz-sub">PNG / JPG / WEBP — سيتم ضبط المقاس تلقائياً</div>
+        </div>
       </div>
       <div class="field full">
         <label>ملاحظة للمستخدم (اختياري)</label>
@@ -362,6 +438,50 @@ body::before{
     <div class="confirm-btns">
       <button class="btn btn-ghost" onclick="closeModal('confirmModal')">إلغاء</button>
       <button class="btn btn-danger" id="confirmBtn">حذف</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ MODAL: CROP ═══ -->
+<div class="crop-overlay" id="cropOverlay">
+  <div class="crop-box">
+    <div class="crop-title">
+      ✂️ ضبط الأيقونة
+      <button class="modal-close" onclick="closeCrop()">✕</button>
+    </div>
+    <div class="crop-canvas-wrap" id="cropWrap">
+      <canvas id="cropCanvas" width="260" height="260"></canvas>
+      <div class="crop-guide"></div>
+    </div>
+    <div class="crop-controls">
+      <div class="crop-slider-row">
+        🔍 التكبير
+        <input type="range" id="cropZoom" min="50" max="300" value="100" oninput="updateCrop()">
+        <span id="zoomVal">100%</span>
+      </div>
+      <div class="crop-slider-row">
+        ↔️ أفقي
+        <input type="range" id="cropX" min="-200" max="200" value="0" oninput="updateCrop()">
+        <span id="xVal">0</span>
+      </div>
+      <div class="crop-slider-row">
+        ↕️ عمودي
+        <input type="range" id="cropY" min="-200" max="200" value="0" oninput="updateCrop()">
+        <span id="yVal">0</span>
+      </div>
+    </div>
+    <div style="margin-bottom:12px">
+      <div style="font-size:11px;color:var(--muted);margin-bottom:6px;font-weight:700">📐 حجم الإخراج:</div>
+      <div class="crop-size-btns">
+        <button class="csz active" data-size="512" onclick="selectSize(this)">512×512</button>
+        <button class="csz" data-size="256" onclick="selectSize(this)">256×256</button>
+        <button class="csz" data-size="128" onclick="selectSize(this)">128×128</button>
+        <button class="csz" data-size="64" onclick="selectSize(this)">64×64</button>
+      </div>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button class="btn btn-ghost btn-sm" onclick="closeCrop()">إلغاء</button>
+      <button class="btn btn-primary btn-sm" onclick="applyCrop()">✅ تطبيق وتحميل</button>
     </div>
   </div>
 </div>
@@ -513,6 +633,7 @@ function clearForm() {
   ['f-name','f-version','f-size','f-ipa','f-icon','f-note'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('f-category').value='تواصل';
   document.getElementById('iconPrev').innerHTML='🖼️';
+  resetIpaZone();
 }
 function prevIcon() {
   const url=document.getElementById('f-icon').value.trim();
@@ -528,29 +649,75 @@ function slugify(str) {
 async function saveApp() {
   const name=document.getElementById('f-name').value.trim();
   const ver =document.getElementById('f-version').value.trim();
-  const ipa =document.getElementById('f-ipa').value.trim();
-  const icon=document.getElementById('f-icon').value.trim();
+  let   ipa =document.getElementById('f-ipa').value.trim();
+  let   icon=document.getElementById('f-icon').value.trim();
   const size=document.getElementById('f-size').value.trim();
   const note=document.getElementById('f-note').value.trim();
   const cat =document.getElementById('f-category').value;
-  if(!name||!ver||!ipa) return toast('⚠️ الاسم والإصدار ورابط IPA مطلوبة','err');
+
+  // validate: need IPA either as URL or uploaded file
+  if(!name||!ver) return toast('⚠️ الاسم والإصدار مطلوبان','err');
+  if(!ipa && !ipaFileToUpload) return toast('⚠️ أضف رابط IPA أو ارفع الملف','err');
   if(!settings.token) return toast('⚠️ اضبط إعدادات GitHub أولاً','err');
 
-  const id = editingId || slugify(name);
-  const app = {id, name, version:ver, ipaUrl:ipa, icon, size, note, category:cat, addedAt:new Date().toISOString().split('T')[0]};
-
+  const id = editingId || ('app-' + Date.now());
   const btn=document.getElementById('saveBtn');
   const bar=document.getElementById('progBar');
   const fill=document.getElementById('progFill');
   btn.disabled=true; bar.style.display='block';
 
   try {
-    fill.style.width='50%'; toast('📦 تحديث apps.json...','info');
+    // ── 1. رفع IPA على Releases إذا اختار المستخدم ملف ──
+    if (ipaFileToUpload) {
+      fill.style.width='10%';
+      toast('📦 جاري رفع ملف IPA...','info');
+      const tagName = `v${ver}-${id}`;
+      // أ. إنشاء Release
+      const relRes = await fetch(
+        `https://api.github.com/repos/${settings.owner}/${settings.repo}/releases`,
+        { method:'POST',
+          headers:{Authorization:`token ${settings.token}`,'Content-Type':'application/json'},
+          body: JSON.stringify({tag_name:tagName, name:`${name} v${ver}`, draft:false, prerelease:false})
+        }
+      );
+      if (!relRes.ok) throw new Error('فشل إنشاء Release: ' + await relRes.text());
+      const relData = await relRes.json();
+      const uploadUrl = relData.upload_url.replace('{?name,label}','');
+      fill.style.width='30%';
+
+      // ب. رفع الملف مع شريط تقدم حقيقي
+      ipa = await uploadIpaWithProgress(uploadUrl, ipaFileToUpload, name, ver, fill);
+      toast('✅ تم رفع IPA','ok');
+      fill.style.width='60%';
+    }
+
+    // ── 2. رفع الأيقونة إذا base64 ──
+    if (icon.startsWith('data:image')) {
+      toast('🖼️ جاري رفع الأيقونة...','info');
+      const ext = icon.includes('data:image/png') ? 'png' : 'jpg';
+      const filename = `images/${id}.${ext}`;
+      const b64 = icon.split(',')[1];
+      const existing = await ghReq(filename);
+      const body = {message:`Add icon for ${name}`, content:b64, branch:settings.branch};
+      if(existing) body.sha = existing.sha;
+      await ghReq(filename,'PUT',body);
+      icon = `https://raw.githubusercontent.com/${settings.owner}/${settings.repo}/${settings.branch}/${filename}`;
+    }
+
+    // ── 3. تحديث apps.json ──
+    fill.style.width='80%';
+    toast('📝 تحديث apps.json...','info');
+    const finalSize = ipaFileToUpload
+      ? formatBytes(ipaFileToUpload.size)
+      : size;
+    const app = {id, name, version:ver, ipaUrl:ipa, icon, size:finalSize||size, note, category:cat, addedAt:new Date().toISOString().split('T')[0]};
     if(editingId) { const i=apps.findIndex(a=>a.id===editingId); if(i>=0) apps[i]=app; }
     else apps.push(app);
     await putFile('apps.json', JSON.stringify({apps},null,2), `${editingId?'Update':'Add'} ${name}`);
     fill.style.width='100%';
     setTimeout(()=>{ bar.style.display='none'; fill.style.width='0%'; },600);
+    ipaFileToUpload = null;
+    resetIpaZone();
     renderTable(apps); updateStats();
     closeModal('appModal');
     toast('✅ تم الرفع على GitHub!','ok');
@@ -578,6 +745,218 @@ async function delApp(id) {
     toast('🗑️ تم الحذف','ok');
   } catch(e) { toast('❌ '+e.message,'err'); }
 }
+
+/* ── IPA FILE UPLOAD ── */
+let ipaFileToUpload = null;
+
+function handleIpaFile(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  if (!file.name.endsWith('.ipa')) return toast('⚠️ الملف يجب أن يكون بصيغة .ipa','err');
+  ipaFileToUpload = file;
+  document.getElementById('f-ipa').value = '';
+  document.getElementById('ipaFileName').textContent = `📦 ${file.name} — ${formatBytes(file.size)}`;
+  document.getElementById('ipaUploadZone').style.borderColor = 'var(--green)';
+  document.getElementById('ipaUploadZone').style.background = 'rgba(34,211,165,0.05)';
+  document.getElementById('ipaZoneContent').querySelector('.uz-text').textContent = file.name;
+  document.getElementById('ipaZoneContent').querySelector('.uz-icon').textContent = '✅';
+  e.target.value = '';
+}
+
+function updateIpaPreview() {
+  if (document.getElementById('f-ipa').value.trim()) {
+    ipaFileToUpload = null;
+    resetIpaZone();
+  }
+}
+
+function resetIpaZone() {
+  ipaFileToUpload = null;
+  const zone = document.getElementById('ipaUploadZone');
+  if (!zone) return;
+  zone.style.borderColor = '';
+  zone.style.background = '';
+  document.getElementById('ipaZoneContent').querySelector('.uz-text').textContent = 'اضغط لاختيار ملف IPA أو اسحبه هنا';
+  document.getElementById('ipaZoneContent').querySelector('.uz-icon').textContent = '📦';
+  document.getElementById('ipaFileName').textContent = 'سيُرفع تلقائياً على GitHub Releases';
+  document.getElementById('ipaUploadBar').style.display = 'none';
+}
+
+async function uploadIpaWithProgress(uploadUrl, file, name, ver, fillEl) {
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    const filename = `${name.replace(/\s+/g,'-')}-v${ver}.ipa`;
+    xhr.open('POST', `${uploadUrl}?name=${encodeURIComponent(filename)}`);
+    xhr.setRequestHeader('Authorization', `token ${settings.token}`);
+    xhr.setRequestHeader('Content-Type', 'application/octet-stream');
+
+    // show inline progress bar
+    const bar = document.getElementById('ipaUploadBar');
+    const pct  = document.getElementById('ipaUploadPct');
+    const pfil = document.getElementById('ipaUploadFill');
+    const stat = document.getElementById('ipaUploadStatus');
+    bar.style.display = 'block';
+
+    xhr.upload.onprogress = e => {
+      if (e.lengthComputable) {
+        const p = Math.round(e.loaded / e.total * 100);
+        pct.textContent = p + '%';
+        pfil.style.width = p + '%';
+        fillEl.style.width = (10 + p * 0.5) + '%'; // map 0-100 → 10-60% of main bar
+        stat.textContent = `جاري الرفع... ${formatBytes(e.loaded)} / ${formatBytes(e.total)}`;
+      }
+    };
+    xhr.onload = () => {
+      if (xhr.status === 201) {
+        const data = JSON.parse(xhr.responseText);
+        stat.textContent = '✅ تم الرفع!';
+        pfil.style.width = '100%';
+        resolve(data.browser_download_url);
+      } else {
+        reject(new Error('فشل رفع IPA: ' + xhr.status));
+      }
+    };
+    xhr.onerror = () => reject(new Error('خطأ في الشبكة أثناء رفع IPA'));
+    xhr.send(file);
+  });
+}
+
+// drag & drop for IPA zone
+window.addEventListener('DOMContentLoaded', () => {
+  const ipaZone = document.getElementById('ipaUploadZone');
+  ipaZone.addEventListener('dragover', e => { e.preventDefault(); ipaZone.classList.add('drag'); });
+  ipaZone.addEventListener('dragleave', () => ipaZone.classList.remove('drag'));
+  ipaZone.addEventListener('drop', e => {
+    e.preventDefault(); ipaZone.classList.remove('drag');
+    const file = e.dataTransfer.files[0];
+    if (file && file.name.endsWith('.ipa')) {
+      ipaFileToUpload = file;
+      document.getElementById('f-ipa').value = '';
+      document.getElementById('ipaFileName').textContent = `📦 ${file.name} — ${formatBytes(file.size)}`;
+      ipaZone.style.borderColor = 'var(--green)';
+      ipaZone.style.background = 'rgba(34,211,165,0.05)';
+      document.getElementById('ipaZoneContent').querySelector('.uz-text').textContent = file.name;
+      document.getElementById('ipaZoneContent').querySelector('.uz-icon').textContent = '✅';
+    } else {
+      toast('⚠️ الملف يجب أن يكون .ipa','err');
+    }
+  });
+});
+
+function formatBytes(b) {
+  if (b < 1024*1024) return (b/1024).toFixed(1)+' KB';
+  return (b/(1024*1024)).toFixed(1)+' MB';
+}
+
+/* ── ICON UPLOAD & CROP ── */
+let cropImg = null, cropOutputSize = 512;
+
+function handleIconFile(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    const img = new Image();
+    img.onload = () => {
+      cropImg = img;
+      // reset sliders
+      document.getElementById('cropZoom').value = 100;
+      document.getElementById('cropX').value = 0;
+      document.getElementById('cropY').value = 0;
+      updateCrop();
+      document.getElementById('cropOverlay').classList.add('open');
+    };
+    img.src = ev.target.result;
+  };
+  reader.readAsDataURL(file);
+  // reset input so same file can be re-selected
+  e.target.value = '';
+}
+
+// drag & drop
+const uz = document.getElementById('uploadZone');
+uz.addEventListener('dragover', e => { e.preventDefault(); uz.classList.add('drag'); });
+uz.addEventListener('dragleave', () => uz.classList.remove('drag'));
+uz.addEventListener('drop', e => {
+  e.preventDefault(); uz.classList.remove('drag');
+  const file = e.dataTransfer.files[0];
+  if (file && file.type.startsWith('image/')) {
+    const reader = new FileReader();
+    reader.onload = ev => {
+      const img = new Image();
+      img.onload = () => {
+        cropImg = img;
+        document.getElementById('cropZoom').value = 100;
+        document.getElementById('cropX').value = 0;
+        document.getElementById('cropY').value = 0;
+        updateCrop();
+        document.getElementById('cropOverlay').classList.add('open');
+      };
+      img.src = ev.target.result;
+    };
+    reader.readAsDataURL(file);
+  }
+});
+
+function updateCrop() {
+  if (!cropImg) return;
+  const canvas = document.getElementById('cropCanvas');
+  const ctx = canvas.getContext('2d');
+  const zoom = parseInt(document.getElementById('cropZoom').value) / 100;
+  const dx = parseInt(document.getElementById('cropX').value);
+  const dy = parseInt(document.getElementById('cropY').value);
+  document.getElementById('zoomVal').textContent = Math.round(zoom * 100) + '%';
+  document.getElementById('xVal').textContent = dx;
+  document.getElementById('yVal').textContent = dy;
+  const size = 260;
+  ctx.clearRect(0, 0, size, size);
+  ctx.fillStyle = '#111';
+  ctx.fillRect(0, 0, size, size);
+  const w = cropImg.width * zoom * (size / Math.max(cropImg.width, cropImg.height));
+  const h = cropImg.height * zoom * (size / Math.max(cropImg.width, cropImg.height));
+  const x = size / 2 - w / 2 + dx;
+  const y = size / 2 - h / 2 + dy;
+  ctx.drawImage(cropImg, x, y, w, h);
+}
+
+function selectSize(btn) {
+  document.querySelectorAll('.csz').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  cropOutputSize = parseInt(btn.dataset.size);
+}
+
+function applyCrop() {
+  if (!cropImg) return;
+  const zoom = parseInt(document.getElementById('cropZoom').value) / 100;
+  const dx = parseInt(document.getElementById('cropX').value);
+  const dy = parseInt(document.getElementById('cropY').value);
+  const size = 260;
+  const out = document.createElement('canvas');
+  out.width = cropOutputSize;
+  out.height = cropOutputSize;
+  const ctx = out.getContext('2d');
+  const scale = cropOutputSize / size;
+  const w = cropImg.width * zoom * (size / Math.max(cropImg.width, cropImg.height));
+  const h = cropImg.height * zoom * (size / Math.max(cropImg.width, cropImg.height));
+  const x = size / 2 - w / 2 + dx;
+  const y = size / 2 - h / 2 + dy;
+  ctx.fillStyle = '#111';
+  ctx.fillRect(0, 0, cropOutputSize, cropOutputSize);
+  ctx.drawImage(cropImg, x * scale, y * scale, w * scale, h * scale);
+  const dataUrl = out.toDataURL('image/png');
+  // set as icon preview and base64 value
+  document.getElementById('f-icon').value = dataUrl;
+  document.getElementById('iconPrev').innerHTML = `<img src="${dataUrl}" style="width:100%;height:100%;object-fit:cover">`;
+  closeCrop();
+  toast(`✅ تم ضبط الأيقونة ${cropOutputSize}×${cropOutputSize}`, 'ok');
+}
+
+function closeCrop() {
+  document.getElementById('cropOverlay').classList.remove('open');
+}
+document.getElementById('cropOverlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('cropOverlay')) closeCrop();
+});
 
 /* ── MODAL HELPERS ── */
 function openModal(id){ document.getElementById(id).classList.add('open') }
