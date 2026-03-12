@@ -346,7 +346,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
           <div id="ipaZoneContent">
             <div class="uz-icon">📦</div>
             <div class="uz-text">اضغط لاختيار ملف IPA أو اسحبه هنا</div>
-            <div class="uz-sub" id="ipaFileName">سيُرفع تلقائياً على GitHub Releases</div>
+            <div class="uz-sub" id="ipaFileName">سيُرفع في مجلد ipa/ بالريبو (حد أقصى 99MB)</div>
           </div>
         </div>
         <div id="ipaUploadBar" style="display:none;margin-top:8px">
@@ -667,26 +667,14 @@ async function saveApp() {
   btn.disabled=true; bar.style.display='block';
 
   try {
-    // ── 1. رفع IPA على Releases إذا اختار المستخدم ملف ──
+    // ── 1. رفع IPA إذا اختار المستخدم ملف ──
     if (ipaFileToUpload) {
+      if (ipaFileToUpload.size > 99 * 1024 * 1024) {
+        throw new Error('حجم الملف أكبر من 99MB — ارفعه يدوياً على GitHub Releases وضع الرابط');
+      }
       fill.style.width='10%';
       toast('📦 جاري رفع ملف IPA...','info');
-      const tagName = `v${ver}-${id}`;
-      // أ. إنشاء Release
-      const relRes = await fetch(
-        `https://api.github.com/repos/${settings.owner}/${settings.repo}/releases`,
-        { method:'POST',
-          headers:{Authorization:`token ${settings.token}`,'Content-Type':'application/json'},
-          body: JSON.stringify({tag_name:tagName, name:`${name} v${ver}`, draft:false, prerelease:false})
-        }
-      );
-      if (!relRes.ok) throw new Error('فشل إنشاء Release: ' + await relRes.text());
-      const relData = await relRes.json();
-      const uploadUrl = relData.upload_url.replace('{?name,label}','');
-      fill.style.width='30%';
-
-      // ب. رفع الملف مع شريط تقدم حقيقي
-      ipa = await uploadIpaWithProgress(uploadUrl, ipaFileToUpload, name, ver, fill);
+      ipa = await uploadIpaWithProgress(ipaFileToUpload, id, name, ver, fill);
       toast('✅ تم رفع IPA','ok');
       fill.style.width='60%';
     }
@@ -778,47 +766,58 @@ function resetIpaZone() {
   zone.style.background = '';
   document.getElementById('ipaZoneContent').querySelector('.uz-text').textContent = 'اضغط لاختيار ملف IPA أو اسحبه هنا';
   document.getElementById('ipaZoneContent').querySelector('.uz-icon').textContent = '📦';
-  document.getElementById('ipaFileName').textContent = 'سيُرفع تلقائياً على GitHub Releases';
+  document.getElementById('ipaFileName').textContent = 'سيُرفع في مجلد ipa/ بالريبو (حد أقصى 99MB)';
   document.getElementById('ipaUploadBar').style.display = 'none';
 }
 
-async function uploadIpaWithProgress(uploadUrl, file, name, ver, fillEl) {
-  return new Promise((resolve, reject) => {
-    const xhr = new XMLHttpRequest();
-    const filename = `${name.replace(/\s+/g,'-')}-v${ver}.ipa`;
-    xhr.open('POST', `${uploadUrl}?name=${encodeURIComponent(filename)}`);
-    xhr.setRequestHeader('Authorization', `token ${settings.token}`);
-    xhr.setRequestHeader('Content-Type', 'application/octet-stream');
+async function uploadIpaWithProgress(file, appId, name, ver, fillEl) {
+  const bar  = document.getElementById('ipaUploadBar');
+  const pct  = document.getElementById('ipaUploadPct');
+  const pfil = document.getElementById('ipaUploadFill');
+  const stat = document.getElementById('ipaUploadStatus');
+  bar.style.display = 'block';
 
-    // show inline progress bar
-    const bar = document.getElementById('ipaUploadBar');
-    const pct  = document.getElementById('ipaUploadPct');
-    const pfil = document.getElementById('ipaUploadFill');
-    const stat = document.getElementById('ipaUploadStatus');
-    bar.style.display = 'block';
-
-    xhr.upload.onprogress = e => {
+  // تحويل الملف إلى base64
+  stat.textContent = 'جاري تجهيز الملف...';
+  const b64 = await new Promise((res, rej) => {
+    const reader = new FileReader();
+    // محاكاة تقدم أثناء القراءة
+    reader.onprogress = e => {
       if (e.lengthComputable) {
-        const p = Math.round(e.loaded / e.total * 100);
+        const p = Math.round(e.loaded / e.total * 40); // 0→40%
         pct.textContent = p + '%';
         pfil.style.width = p + '%';
-        fillEl.style.width = (10 + p * 0.5) + '%'; // map 0-100 → 10-60% of main bar
-        stat.textContent = `جاري الرفع... ${formatBytes(e.loaded)} / ${formatBytes(e.total)}`;
+        fillEl.style.width = (10 + p * 0.3) + '%';
+        stat.textContent = `جاري التجهيز... ${formatBytes(e.loaded)} / ${formatBytes(e.total)}`;
       }
     };
-    xhr.onload = () => {
-      if (xhr.status === 201) {
-        const data = JSON.parse(xhr.responseText);
-        stat.textContent = '✅ تم الرفع!';
-        pfil.style.width = '100%';
-        resolve(data.browser_download_url);
-      } else {
-        reject(new Error('فشل رفع IPA: ' + xhr.status));
-      }
-    };
-    xhr.onerror = () => reject(new Error('خطأ في الشبكة أثناء رفع IPA'));
-    xhr.send(file);
+    reader.onload = e => res(e.target.result.split(',')[1]);
+    reader.onerror = () => rej(new Error('فشل قراءة الملف'));
+    reader.readAsDataURL(file);
   });
+
+  pct.textContent = '50%';
+  pfil.style.width = '50%';
+  fillEl.style.width = '40%';
+  stat.textContent = 'جاري الرفع على GitHub...';
+
+  const filename = `ipa/${appId}.ipa`;
+  const existing = await ghReq(filename);
+  const body = {
+    message: `Add IPA: ${name} v${ver}`,
+    content: b64,
+    branch: settings.branch
+  };
+  if (existing) body.sha = existing.sha;
+
+  const res = await ghReq(filename, 'PUT', body);
+
+  pct.textContent = '100%';
+  pfil.style.width = '100%';
+  stat.textContent = '✅ تم الرفع!';
+
+  // رابط مباشر للملف عبر الـ Worker
+  return `https://raw.githubusercontent.com/${settings.owner}/${settings.repo}/${settings.branch}/${filename}`;
 }
 
 // drag & drop for IPA zone
