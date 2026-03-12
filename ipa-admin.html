@@ -227,7 +227,25 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
 }
 .csz:hover,.csz.active{background:rgba(56,189,248,.1);color:var(--blue);border-color:var(--blue2)}
 
-@media(max-width:480px){
+/* ─── TG IMPORT ─── */
+.tg-file-item{
+  display:flex;align-items:center;gap:10px;
+  padding:11px 14px;border:1px solid var(--border);
+  border-radius:var(--r2);background:var(--s2);
+  cursor:pointer;transition:all var(--t);margin-bottom:8px;
+}
+.tg-file-item:hover{border-color:var(--blue);background:rgba(56,189,248,.06)}
+.tg-file-item.selected{border-color:var(--blue);background:rgba(56,189,248,.1);box-shadow:0 0 0 1px var(--blue2)}
+.tg-file-icon{font-size:26px;flex-shrink:0}
+.tg-file-info{flex:1;min-width:0}
+.tg-file-name{font-size:13px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tg-file-meta{font-size:10px;color:var(--muted);margin-top:2px;font-family:var(--mono)}
+.tg-check{width:20px;height:20px;border-radius:50%;border:2px solid var(--border);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;transition:all var(--t)}
+.tg-file-item.selected .tg-check{background:var(--blue);border-color:var(--blue);color:#fff}
+.tg-empty{text-align:center;padding:40px 20px;color:var(--muted);font-size:13px}
+.tg-worker-row{display:flex;gap:8px;margin-bottom:14px}
+.tg-worker-row input{flex:1;background:var(--s2);border:1px solid var(--border);border-radius:var(--r2);padding:9px 12px;color:var(--text);font-family:var(--mono);font-size:12px;outline:none}
+.tg-worker-row input:focus{border-color:var(--blue)}
   .fgrid{grid-template-columns:1fr}
   .fgrid .full{grid-column:auto}
   .stats-row{grid-template-columns:1fr 1fr 1fr}
@@ -246,6 +264,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
   </div>
   <div class="tb-actions">
     <button class="btn btn-ghost btn-sm" onclick="openSettings()">⚙️ GitHub</button>
+    <button class="btn btn-ghost btn-sm" style="color:var(--blue);border-color:rgba(56,189,248,0.3)" onclick="openTgImport()">📥 تيليغرام</button>
     <button class="btn btn-primary btn-sm" onclick="openAdd()">＋ تطبيق</button>
   </div>
 </div>
@@ -438,6 +457,77 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
     <div class="confirm-btns">
       <button class="btn btn-ghost" onclick="closeModal('confirmModal')">إلغاء</button>
       <button class="btn btn-danger" id="confirmBtn">حذف</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ MODAL: TG IMPORT ═══ -->
+<div class="overlay" id="tgModal">
+  <div class="modal">
+    <span class="modal-handle"></span>
+    <div class="modal-title">
+      📥 استيراد من تيليغرام
+      <button class="modal-close" onclick="closeModal('tgModal')">✕</button>
+    </div>
+
+    <!-- Worker URL -->
+    <div style="margin-bottom:14px">
+      <div style="font-size:11px;font-weight:900;color:var(--muted);margin-bottom:6px">🔗 رابط الـ Worker</div>
+      <div class="tg-worker-row">
+        <input type="url" id="tg-worker-url" placeholder="https://iparpoxy.rhomy1515.workers.dev" value="https://iparpoxy.rhomy1515.workers.dev">
+        <button class="btn btn-ghost btn-sm" onclick="fetchTgFiles()">🔄 جلب</button>
+      </div>
+    </div>
+
+    <!-- Files List -->
+    <div style="font-size:11px;font-weight:900;color:var(--muted);margin-bottom:8px">📦 ملفات القناة</div>
+    <div id="tgFilesList" style="max-height:280px;overflow-y:auto;margin-bottom:14px">
+      <div class="tg-empty">اضغط 🔄 جلب لتحميل الملفات</div>
+    </div>
+
+    <!-- Selected file form -->
+    <div id="tgImportForm" style="display:none;border-top:1px solid var(--border);padding-top:14px;margin-top:4px">
+      <div style="font-size:12px;font-weight:900;color:var(--cyan);margin-bottom:12px">✏️ بيانات التطبيق</div>
+      <div class="fgrid">
+        <div class="field">
+          <label>اسم التطبيق *</label>
+          <input type="text" id="tg-name" placeholder="اسم التطبيق">
+        </div>
+        <div class="field">
+          <label>التصنيف</label>
+          <select id="tg-category">
+            <option value="تواصل">💬 تواصل</option>
+            <option value="ترفيه">🎬 ترفيه</option>
+            <option value="أدوات">🔧 أدوات</option>
+            <option value="ذكاء اصطناعي">🤖 ذكاء اصطناعي</option>
+            <option value="ألعاب">🎮 ألعاب</option>
+            <option value="أخرى">📦 أخرى</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>الإصدار *</label>
+          <input type="text" id="tg-version" placeholder="1.0.0">
+        </div>
+        <div class="field">
+          <label>الحجم</label>
+          <input type="text" id="tg-size" placeholder="تلقائي" readonly>
+        </div>
+        <div class="field full">
+          <label>رابط الأيقونة</label>
+          <div style="display:flex;gap:8px;align-items:center">
+            <div class="icon-prev" id="tgIconPrev">🖼️</div>
+            <input type="url" id="tg-icon" placeholder="https://..." oninput="tgPrevIcon()" style="flex:1">
+          </div>
+        </div>
+        <div class="field full">
+          <label>ملاحظة (اختياري)</label>
+          <textarea id="tg-note" placeholder="مثال: يتطلب iOS 15..." style="min-height:56px;resize:vertical;background:var(--s2);border:1px solid var(--border);border-radius:var(--r2);padding:9px 12px;color:var(--text);font-family:var(--sans);font-size:13px;outline:none"></textarea>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:14px">
+        <button class="btn btn-ghost" onclick="closeModal('tgModal')">إلغاء</button>
+        <button class="btn btn-primary" onclick="saveTgApp()">🚀 نشر التطبيق</button>
+      </div>
     </div>
   </div>
 </div>
@@ -845,6 +935,104 @@ window.addEventListener('DOMContentLoaded', () => {
 function formatBytes(b) {
   if (b < 1024*1024) return (b/1024).toFixed(1)+' KB';
   return (b/(1024*1024)).toFixed(1)+' MB';
+}
+
+/* ── TELEGRAM IMPORT ── */
+let tgFiles = [], tgSelected = null;
+
+function openTgImport() {
+  tgSelected = null;
+  document.getElementById('tgImportForm').style.display = 'none';
+  document.getElementById('tgFilesList').innerHTML = '<div class="tg-empty">اضغط 🔄 جلب لتحميل الملفات</div>';
+  openModal('tgModal');
+}
+
+async function fetchTgFiles() {
+  const workerUrl = document.getElementById('tg-worker-url').value.trim().replace(/\/$/, '');
+  if (!workerUrl) return toast('⚠️ أدخل رابط الـ Worker', 'err');
+  const list = document.getElementById('tgFilesList');
+  list.innerHTML = '<div class="tg-empty">⏳ جاري التحميل...</div>';
+  try {
+    const res = await fetch(workerUrl + '/list');
+    if (!res.ok) throw new Error('فشل الاتصال');
+    tgFiles = await res.json();
+    if (!tgFiles.length) {
+      list.innerHTML = '<div class="tg-empty">📭 ما في ملفات IPA بالقناة بعد<br><small>ارفع ملف IPA بالقناة واضغط جلب مرة ثانية</small></div>';
+      return;
+    }
+    list.innerHTML = tgFiles.map((f, i) => `
+      <div class="tg-file-item" id="tgitem-${i}" onclick="selectTgFile(${i})">
+        <div class="tg-file-icon">📦</div>
+        <div class="tg-file-info">
+          <div class="tg-file-name">${f.name}</div>
+          <div class="tg-file-meta">${formatBytes(f.size)} • ${f.date} • msg #${f.message_id}</div>
+          ${f.caption ? `<div style="font-size:10px;color:var(--blue);margin-top:2px">${f.caption}</div>` : ''}
+        </div>
+        <div class="tg-check" id="tgcheck-${i}">✓</div>
+      </div>
+    `).join('');
+  } catch(e) {
+    list.innerHTML = `<div class="tg-empty">❌ ${e.message}</div>`;
+  }
+}
+
+function selectTgFile(i) {
+  // deselect all
+  tgFiles.forEach((_, idx) => {
+    document.getElementById('tgitem-' + idx)?.classList.remove('selected');
+  });
+  tgSelected = tgFiles[i];
+  document.getElementById('tgitem-' + i).classList.add('selected');
+
+  // auto-fill form
+  const raw = tgSelected.name.replace('.ipa', '');
+  // try to extract version like v1.0.0 or [v1.0.0]
+  const verMatch = raw.match(/[\[\(]?v?([\d]+\.[\d]+\.?[\d]*[\d]*)[\]\)]?/i);
+  const ver = verMatch ? verMatch[1] : '';
+  const appName = raw.replace(/[\[\(]?v?[\d]+\.[\d]+\.?[\d]*[\d]*[\]\)]?/gi, '').replace(/[-_]+$/, '').trim();
+
+  document.getElementById('tg-name').value = appName || raw;
+  document.getElementById('tg-version').value = ver;
+  document.getElementById('tg-size').value = formatBytes(tgSelected.size);
+  if (tgSelected.caption) document.getElementById('tg-note').value = tgSelected.caption;
+
+  document.getElementById('tgImportForm').style.display = 'block';
+  document.getElementById('tgImportForm').scrollIntoView({ behavior: 'smooth' });
+}
+
+function tgPrevIcon() {
+  const url = document.getElementById('tg-icon').value.trim();
+  const box = document.getElementById('tgIconPrev');
+  box.innerHTML = url ? `<img src="${url}" style="width:100%;height:100%;object-fit:cover">` : '🖼️';
+}
+
+async function saveTgApp() {
+  if (!tgSelected) return toast('⚠️ اختر ملف أولاً', 'err');
+  const name = document.getElementById('tg-name').value.trim();
+  const ver  = document.getElementById('tg-version').value.trim();
+  const cat  = document.getElementById('tg-category').value;
+  const icon = document.getElementById('tg-icon').value.trim();
+  const note = document.getElementById('tg-note').value.trim();
+  const size = document.getElementById('tg-size').value.trim();
+  if (!name || !ver) return toast('⚠️ الاسم والإصدار مطلوبان', 'err');
+  if (!settings.token) return toast('⚠️ اضبط إعدادات GitHub أولاً', 'err');
+
+  const workerUrl = document.getElementById('tg-worker-url').value.trim().replace(/\/$/, '');
+  const ipaUrl = `${workerUrl}/file/${tgSelected.message_id}`;
+  const id = 'app-' + Date.now();
+  const app = { id, name, version: ver, ipaUrl, icon, size, note, category: cat, addedAt: new Date().toISOString().split('T')[0] };
+
+  try {
+    toast('📦 جاري الحفظ...', 'info');
+    apps.push(app);
+    await putFile('apps.json', JSON.stringify({ apps }, null, 2), `Add ${name} from Telegram`);
+    renderTable(apps); updateStats();
+    closeModal('tgModal');
+    toast('✅ تم نشر التطبيق!', 'ok');
+  } catch(e) {
+    apps.pop();
+    toast('❌ ' + e.message, 'err');
+  }
 }
 
 /* ── ICON UPLOAD & CROP ── */
