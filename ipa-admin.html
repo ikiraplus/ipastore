@@ -1017,8 +1017,9 @@ async function saveTgApp() {
   if (!name || !ver) return toast('⚠️ الاسم والإصدار مطلوبان', 'err');
   if (!settings.token) return toast('⚠️ اضبط إعدادات GitHub أولاً', 'err');
 
-  const workerUrl = document.getElementById('tg-worker-url').value.trim().replace(/\/$/, '');
-  const ipaUrl = `${workerUrl}/file/${tgSelected.message_id}`;
+  const workerBase = document.getElementById('tg-worker-url').value.trim().replace(/\/$/, '');
+  // رابط مباشر من Worker تيليغرام بدون المرور بالـ proxy
+  const ipaUrl = `${workerBase}/file/${tgSelected.message_id}`;
   const id = 'app-' + Date.now();
   const app = { id, name, version: ver, ipaUrl, icon, size, note, category: cat, addedAt: new Date().toISOString().split('T')[0] };
 
