@@ -21,28 +21,29 @@ on:
 
 jobs:
   sign:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 15
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # ── تثبيت zsign ──
-      - name: Install dependencies & zsign
+      - name: Install dependencies
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq \
-            libssl-dev libzip-dev zlib1g-dev \
-            curl jq unzip zip git
+            git build-essential g++ pkg-config \
+            libssl-dev libminizip-dev \
+            curl jq
 
-          # تحميل zsign binary جاهز
-          git clone --depth=1 https://github.com/gyke69/compiled-zsign.git /tmp/zsign_bin
-          sudo cp /tmp/zsign_bin/zsign /usr/local/bin/zsign
-          sudo chmod +x /usr/local/bin/zsign
-          zsign --help 2>&1 | head -5 || echo "zsign ready"
+      - name: Build zsign
+        run: |
+          git clone --depth=1 https://github.com/zhlynn/zsign.git /tmp/zsign_src
+          cd /tmp/zsign_src/build/linux
+          make clean && make
+          sudo cp zsign /usr/local/bin/zsign
+          zsign -v || echo "zsign installed"
 
-      # ── تحميل الملفات ──
       - name: Download IPA
         run: |
           curl -L "${{ github.event.inputs.ipa_url }}" -o /tmp/input.ipa
@@ -58,7 +59,6 @@ jobs:
           echo "${{ github.event.inputs.p12_b64 }}" | base64 -d > /tmp/cert.p12
           echo "P12 decoded ✅"
 
-      # ── التوقيع ──
       - name: Sign IPA with zsign
         run: |
           JOB_ID="${{ github.event.inputs.job_id }}"
@@ -76,7 +76,6 @@ jobs:
           echo "JOB_ID=$JOB_ID" >> $GITHUB_ENV
           echo "✅ تم التوقيع: $(du -sh $OUTPUT | cut -f1)"
 
-      # ── رفع على GitHub Release ──
       - name: Create Release & Upload signed IPA
         uses: softprops/action-gh-release@v2
         with:
@@ -86,7 +85,6 @@ jobs:
           files: ${{ env.SIGNED_IPA }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── بناء plist لـ itms-services ──
       - name: Build and upload install plist
         run: |
           JOB_ID="${{ github.event.inputs.job_id }}"
@@ -126,7 +124,7 @@ jobs:
           </plist>
           PLIST
 
-          echo "plist built for: $BUNDLE_ID"
+          echo "plist built for bundle: $BUNDLE_ID"
 
       - name: Upload plist to release
         uses: softprops/action-gh-release@v2
@@ -135,7 +133,6 @@ jobs:
           files: /tmp/install.plist
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── حذف الملفات الحساسة ──
       - name: Cleanup sensitive files
         if: always()
         run: |
