@@ -7,8 +7,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
 @font-face {
-  font-family: 'HacenPixer';
-  src: url('https://arbfonts.com/font_files/hacen/Hacen%20Pixer.ttf') format('truetype');
+  font-family: 'PingAR';
+  src: url('https://cdn.jsdelivr.net/gh/ikiraplus/ipastore@main/fonts/PingARLT-Medium.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,7 +32,7 @@
   --text: #e6edf3;
   --text2: #8b949e;
   --mono: 'JetBrains Mono', monospace;
-  --sans: 'HacenPixer', 'Cairo', sans-serif;
+  --sans: 'PingAR', 'Cairo', sans-serif;
   --r: 12px;
   --r2: 8px;
   --t: 0.18s;
@@ -189,10 +189,10 @@ body{
 /* ══ DOWNLOAD BTN ══ */
 .dl-btn{
   display:flex;align-items:center;justify-content:center;
-  gap:5px;padding:0 10px;height:36px;border-radius:var(--r2);
+  gap:7px;padding:0 14px;height:44px;border-radius:var(--r2);
   background:linear-gradient(135deg,var(--blue2),var(--cyan));
-  color:#fff;font-family:var(--sans);font-size:12px;font-weight:900;
-  border:none;cursor:pointer;flex-shrink:0;min-width:76px;
+  color:#fff;font-family:var(--sans);font-size:13px;font-weight:900;
+  border:none;cursor:pointer;flex-shrink:0;min-width:90px;
   position:relative;overflow:hidden;
   transition:transform var(--t) var(--bounce),box-shadow var(--t),opacity var(--t);
   box-shadow:0 4px 14px rgba(56,189,248,0.25);
@@ -279,9 +279,9 @@ body{
 /* ══ DETAILS BTN ══ */
 .details-btn{
   display:flex;align-items:center;justify-content:center;
-  gap:4px;padding:0 9px;height:36px;border-radius:var(--r2);
+  gap:5px;padding:0 12px;height:44px;border-radius:var(--r2);
   background:var(--surface2);border:1px solid var(--border);
-  color:var(--text2);font-family:var(--sans);font-size:11px;font-weight:900;
+  color:var(--text2);font-family:var(--sans);font-size:12px;font-weight:900;
   cursor:pointer;flex-shrink:0;
   transition:all var(--t) var(--bounce);
 }
@@ -294,7 +294,6 @@ body{
   border-top:1px solid var(--border);
   background:var(--surface2);
   font-size:12px;color:var(--text2);line-height:1.8;
-  white-space:pre-wrap;
   border-right:3px solid var(--blue2);
   animation:slideDown .2s var(--ease) both;
 }
