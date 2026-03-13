@@ -87,6 +87,17 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
+    },
+    {
+      "id": "app-1773366021343",
+      "name": "ffr",
+      "version": "43.8",
+      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/3042?hash=AgADVR",
+      "icon": "",
+      "size": "144",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
     }
   ]
 }
