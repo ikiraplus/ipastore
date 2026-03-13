@@ -772,7 +772,6 @@ function initDragSort() {
     row.addEventListener('drop', e => {
       e.preventDefault();
       if (!dragSrc || row === dragSrc) return;
-      // أعد ترتيب في الـ DOM
       const allRows = [...tbody.querySelectorAll('tr')];
       const srcIdx = allRows.indexOf(dragSrc);
       const tgtIdx = allRows.indexOf(row);
@@ -781,15 +780,30 @@ function initDragSort() {
       } else {
         row.before(dragSrc);
       }
-      // أعد ترتيب مصفوفة apps
-      const newOrder = [...tbody.querySelectorAll('tr')].map(r => r.dataset.id);
-      apps = newOrder.map(id => apps.find(a => a.id === id)).filter(Boolean);
+      // لا تعدل apps هنا — saveNewOrder يتولى ذلك عند dragend
     });
   });
 }
 
 async function saveNewOrder() {
   if(!settings.token) return;
+  // أعد ترتيب مصفوفة apps الكاملة بناءً على الترتيب الظاهر بالجدول
+  const tbody = document.getElementById('tblBody');
+  const visibleIds = [...tbody.querySelectorAll('tr')].map(r => r.dataset.id);
+  // استخرج التطبيقات الظاهرة بالترتيب الجديد
+  const visibleApps = visibleIds.map(id => apps.find(a => a.id === id)).filter(Boolean);
+  // التطبيقات المخفية (من فلتر آخر) تبقى بمكانها
+  const hiddenApps = apps.filter(a => !visibleIds.includes(a.id));
+  // دمج: الظاهرة أول ثم المخفية — أو احفظ الكل بالترتيب الأصلي مع تحديث الظاهرة
+  // الأفضل: أعد بناء apps كاملة مع الحفاظ على المخفية بنفس أماكنها
+  const newApps = [...apps];
+  let vi = 0;
+  for(let i = 0; i < newApps.length; i++) {
+    if(visibleIds.includes(newApps[i].id)) {
+      newApps[i] = visibleApps[vi++];
+    }
+  }
+  apps = newApps;
   try {
     await putFile('apps.json', JSON.stringify({apps},null,2), 'Reorder apps');
     toast('✅ تم حفظ الترتيب','ok');
