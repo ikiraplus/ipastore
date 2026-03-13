@@ -115,6 +115,15 @@ body::before{
 .tbl tr.dragging{opacity:0.4;background:rgba(56,189,248,.05)}
 .tbl tr.drag-over{border-top:2px solid var(--blue)}
 
+.cat-filter{
+  padding:5px 12px;border-radius:20px;font-size:11px;font-weight:700;
+  font-family:var(--sans);cursor:pointer;border:1px solid var(--border);
+  background:var(--s2);color:var(--muted);
+  transition:all var(--t);
+}
+.cat-filter:hover{color:var(--blue);border-color:var(--blue2)}
+.cat-filter.active{background:rgba(56,189,248,.12);color:var(--blue);border-color:var(--blue2)}
+
 .empty-tbl{padding:48px 20px;text-align:center;color:var(--muted)}
 .empty-tbl .ei{font-size:40px;margin-bottom:10px;display:block;opacity:.4}
 
@@ -322,6 +331,17 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
   <div class="section">
     <div class="sec-head">
       <span class="sec-title">📦 التطبيقات</span>
+    </div>
+
+    <!-- فلتر التصنيفات -->
+    <div id="catFilters" style="display:flex;flex-wrap:wrap;gap:6px;padding:10px 14px;border-bottom:1px solid var(--border)">
+      <button class="cat-filter active" data-cat="الكل" onclick="filterByCat('الكل')">🌐 الكل</button>
+      <button class="cat-filter" data-cat="تواصل" onclick="filterByCat('تواصل')">💬 تواصل</button>
+      <button class="cat-filter" data-cat="ترفيه" onclick="filterByCat('ترفيه')">🎬 ترفيه</button>
+      <button class="cat-filter" data-cat="أدوات" onclick="filterByCat('أدوات')">🔧 أدوات</button>
+      <button class="cat-filter" data-cat="ذكاء اصطناعي" onclick="filterByCat('ذكاء اصطناعي')">🤖 ذكاء اصطناعي</button>
+      <button class="cat-filter" data-cat="ألعاب" onclick="filterByCat('ألعاب')">🎮 ألعاب</button>
+      <button class="cat-filter" data-cat="أخرى" onclick="filterByCat('أخرى')">📦 أخرى</button>
     </div>
     <table class="tbl">
       <thead>
@@ -774,6 +794,18 @@ async function saveNewOrder() {
     await putFile('apps.json', JSON.stringify({apps},null,2), 'Reorder apps');
     toast('✅ تم حفظ الترتيب','ok');
   } catch(e) { toast('❌ '+e.message,'err'); }
+}
+
+/* ── FILTER BY CATEGORY ── */
+let activeCat = 'الكل';
+function filterByCat(cat) {
+  activeCat = cat;
+  // تحديث الأزرار
+  document.querySelectorAll('.cat-filter').forEach(b => {
+    b.classList.toggle('active', b.dataset.cat === cat);
+  });
+  const filtered = cat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === cat);
+  renderTable(filtered);
 }
 
 function updateStats() {
