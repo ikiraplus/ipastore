@@ -350,11 +350,17 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
       </div>
       <div class="field">
         <label>الإصدار *</label>
-        <input type="text" id="f-version" placeholder="2.24.1">
+        <div style="position:relative;display:flex;align-items:center">
+          <span style="position:absolute;right:12px;color:var(--blue);font-family:var(--mono);font-size:13px;font-weight:900;pointer-events:none">v</span>
+          <input type="text" id="f-version" placeholder="2.24.1" style="padding-right:28px;width:100%">
+        </div>
       </div>
       <div class="field">
         <label>الحجم (اختياري)</label>
-        <input type="text" id="f-size" placeholder="128 MB">
+        <div style="position:relative;display:flex;align-items:center">
+          <input type="text" id="f-size" placeholder="128" style="padding-left:46px;width:100%" oninput="this.value=this.value.replace(/[^0-9.]/g,'')">
+          <span style="position:absolute;left:12px;color:var(--yellow);font-family:var(--mono);font-size:12px;font-weight:900;pointer-events:none">MB</span>
+        </div>
       </div>
       <div class="field full">
         <label>ملف IPA *</label>
@@ -670,8 +676,8 @@ function renderTable(list) {
   const empty = document.getElementById('emptyState');
   if(!list.length){ tbody.innerHTML=''; empty.style.display='block'; return; }
   empty.style.display='none';
-  tbody.innerHTML = list.map(a=>`
-    <tr>
+  tbody.innerHTML = list.map((a,i)=>`
+    <tr id="row-${a.id}">
       <td>
         <div style="display:flex;align-items:center;gap:9px">
           ${a.icon ? `<img class="app-row-icon" src="${a.icon}" onerror="this.style.display='none'">` : '<div class="app-row-icon" style="display:flex;align-items:center;justify-content:center">📱</div>'}
@@ -680,8 +686,10 @@ function renderTable(list) {
       </td>
       <td><span class="badge badge-cat">${a.category||'أخرى'}</span></td>
       <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${a.size||'—'}</td>
-      <td><span class="badge badge-ver">v${a.version||'1.0'}</span></td>
+      <td><span class="badge badge-ver">${a.version||'v1.0'}</span></td>
       <td><div class="row-actions">
+        <button class="btn btn-ghost btn-sm" onclick="moveApp('${a.id}',-1)" ${i===0?'disabled':''} title="للأعلى">↑</button>
+        <button class="btn btn-ghost btn-sm" onclick="moveApp('${a.id}',1)" ${i===list.length-1?'disabled':''} title="للأسفل">↓</button>
         <button class="btn btn-ghost btn-sm" onclick="openEdit('${a.id}')">✏️</button>
         <button class="btn btn-danger btn-sm" onclick="confirmDel('${a.id}')">🗑️</button>
       </div></td>
@@ -691,6 +699,22 @@ function updateStats() {
   document.getElementById('statTotal').textContent = apps.length;
   document.getElementById('statCats').textContent = new Set(apps.map(a=>a.category||'أخرى')).size;
   document.getElementById('statUpdated').textContent = new Date().toLocaleDateString('ar');
+}
+
+/* ── MOVE APP ── */
+async function moveApp(id, dir) {
+  const i = apps.findIndex(a=>a.id===id);
+  if(i<0) return;
+  const newI = i + dir;
+  if(newI<0 || newI>=apps.length) return;
+  // swap
+  [apps[i], apps[newI]] = [apps[newI], apps[i]];
+  renderTable(apps);
+  // حفظ الترتيب على GitHub
+  try {
+    await putFile('apps.json', JSON.stringify({apps},null,2), `Reorder: move ${id} ${dir>0?'down':'up'}`);
+    toast('✅ تم حفظ الترتيب','ok');
+  } catch(e) { toast('❌ '+e.message,'err'); }
 }
 
 /* ── ADD / EDIT ── */
@@ -710,8 +734,8 @@ function openEdit(id) {
   document.getElementById('modalTitle').textContent='تعديل تطبيق';
   document.getElementById('saveBtn').textContent='🔄 تحديث';
   document.getElementById('f-name').value    = a.name;
-  document.getElementById('f-version').value = a.version||'';
-  document.getElementById('f-size').value    = a.size||'';
+  document.getElementById('f-version').value = (a.version||'').replace(/^v/i,'');
+  document.getElementById('f-size').value    = (a.size||'').replace(/\s*MB$/i,'').trim();
   document.getElementById('f-ipa').value     = a.ipaUrl||'';
   document.getElementById('f-icon').value    = a.icon||'';
   document.getElementById('f-note').value    = a.note||'';
@@ -738,10 +762,12 @@ function slugify(str) {
 /* ── SAVE ── */
 async function saveApp() {
   const name=document.getElementById('f-name').value.trim();
-  const ver =document.getElementById('f-version').value.trim();
+  const verRaw=document.getElementById('f-version').value.trim();
+  const ver = verRaw ? (verRaw.startsWith('v') ? verRaw : 'v'+verRaw) : '';
   let   ipa =document.getElementById('f-ipa').value.trim();
   let   icon=document.getElementById('f-icon').value.trim();
-  const size=document.getElementById('f-size').value.trim();
+  const sizeRaw=document.getElementById('f-size').value.trim();
+  const size = sizeRaw ? (sizeRaw.includes('MB') ? sizeRaw : sizeRaw+' MB') : '';
   const note=document.getElementById('f-note').value.trim();
   const cat =document.getElementById('f-category').value;
 
