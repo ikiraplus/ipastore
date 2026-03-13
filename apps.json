@@ -1,17 +1,6 @@
 {
   "apps": [
     {
-      "id": "air-movie",
-      "name": "Air movie",
-      "version": "2.4",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Air.Movie._.Kira.ipa",
-      "icon": "",
-      "size": "42MB",
-      "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
-      "category": "ترفيه",
-      "addedAt": "2026-03-12"
-    },
-    {
       "id": "app-1773344200652",
       "name": "Gbox",
       "version": "4.2",
@@ -20,6 +9,17 @@
       "size": "9.4 MB",
       "note": "",
       "category": "تواصل",
+      "addedAt": "2026-03-12"
+    },
+    {
+      "id": "air-movie",
+      "name": "Air movie",
+      "version": "2.4",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Air.Movie._.Kira.ipa",
+      "icon": "",
+      "size": "42MB",
+      "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
+      "category": "ترفيه",
       "addedAt": "2026-03-12"
     },
     {
