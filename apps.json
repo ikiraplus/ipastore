@@ -21,6 +21,17 @@
       "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
       "category": "ترفيه",
       "addedAt": "2026-03-12"
+    },
+    {
+      "id": "app-1773401165477",
+      "name": "ريكرام",
+      "version": "419.0",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/regram.419.0.ipa",
+      "icon": "",
+      "size": "260MB",
+      "note": "لتفعيل مميزات النسخة :\n- قم بتحويل لغة النسخة من الانكليزية الى العربية او بالعكس.",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
     }
   ]
 }
