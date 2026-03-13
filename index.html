@@ -295,6 +295,8 @@ body{
   background:var(--surface2);
   font-size:12px;color:var(--text2);line-height:1.8;
   border-right:3px solid var(--blue2);
+  white-space:pre-wrap;
+  word-break:break-word;
   animation:slideDown .2s var(--ease) both;
 }
 .details-panel.open{display:block}
@@ -498,7 +500,7 @@ function renderGrid(list) {
           </button>
         </div>
       </div>
-      ${app.note ? `<div class="details-panel" id="details-${app.id}">${app.note}</div>` : ''}
+      ${app.note ? `<div class="details-panel" id="details-${app.id}">${app.note.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>` : ''}
     </div>
   `).join('');
 
