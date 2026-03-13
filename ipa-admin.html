@@ -6,13 +6,21 @@
 <title>Admin — IPA Store</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
+@font-face {
+  font-family: 'PingAR';
+  src: url('https://cdn.jsdelivr.net/gh/ikiraplus/ipastore@main/fonts/PingARLT-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
+<style>
 :root{
   --bg:#07090f;--s:#0d1117;--s2:#161b22;--s3:#1c2430;
   --border:rgba(56,189,248,0.1);--border2:rgba(56,189,248,0.22);
   --blue:#38bdf8;--blue2:#0ea5e9;--cyan:#06b6d4;
   --green:#22d3a5;--red:#f87171;--yellow:#fbbf24;
   --text:#e6edf3;--muted:#8b949e;
-  --mono:'JetBrains Mono',monospace;--sans:'Cairo',sans-serif;
+  --mono:'JetBrains Mono',monospace;--sans:'PingAR','Cairo',sans-serif;
   --r:12px;--r2:8px;--t:.18s;--ease:cubic-bezier(.25,1,.5,1);--bounce:cubic-bezier(.34,1.56,.64,1);
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -94,6 +102,18 @@ body::before{
 .badge-ver{background:rgba(34,211,165,.1);color:var(--green);border:1px solid rgba(34,211,165,.15)}
 
 .row-actions{display:flex;gap:5px}
+
+.drag-handle{
+  cursor:grab;color:var(--muted);font-size:18px;
+  padding:4px 6px;border-radius:6px;
+  transition:color var(--t),background var(--t);
+  display:flex;align-items:center;justify-content:center;
+  user-select:none;touch-action:none;
+}
+.drag-handle:hover{color:var(--blue);background:rgba(56,189,248,.08)}
+.drag-handle:active{cursor:grabbing}
+.tbl tr.dragging{opacity:0.4;background:rgba(56,189,248,.05)}
+.tbl tr.drag-over{border-top:2px solid var(--blue)}
 
 .empty-tbl{padding:48px 20px;text-align:center;color:var(--muted)}
 .empty-tbl .ei{font-size:40px;margin-bottom:10px;display:block;opacity:.4}
@@ -306,6 +326,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
     <table class="tbl">
       <thead>
         <tr>
+          <th style="width:28px"></th>
           <th>التطبيق</th>
           <th>التصنيف</th>
           <th>الحجم</th>
@@ -350,17 +371,11 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
       </div>
       <div class="field">
         <label>الإصدار *</label>
-        <div style="position:relative;display:flex;align-items:center">
-          <span style="position:absolute;right:12px;color:var(--blue);font-family:var(--mono);font-size:13px;font-weight:900;pointer-events:none">v</span>
-          <input type="text" id="f-version" placeholder="2.24.1" style="padding-right:28px;width:100%">
-        </div>
+        <input type="text" id="f-version" placeholder="2.24.1">
       </div>
       <div class="field">
         <label>الحجم (اختياري)</label>
-        <div style="position:relative;display:flex;align-items:center">
-          <input type="text" id="f-size" placeholder="128" style="padding-left:46px;width:100%" oninput="this.value=this.value.replace(/[^0-9.]/g,'')">
-          <span style="position:absolute;left:12px;color:var(--yellow);font-family:var(--mono);font-size:12px;font-weight:900;pointer-events:none">MB</span>
-        </div>
+        <input type="text" id="f-size" placeholder="128 MB">
       </div>
       <div class="field full">
         <label>ملف IPA *</label>
@@ -676,8 +691,11 @@ function renderTable(list) {
   const empty = document.getElementById('emptyState');
   if(!list.length){ tbody.innerHTML=''; empty.style.display='block'; return; }
   empty.style.display='none';
-  tbody.innerHTML = list.map((a,i)=>`
-    <tr id="row-${a.id}">
+  tbody.innerHTML = list.map(a=>`
+    <tr draggable="true" data-id="${a.id}">
+      <td style="padding-right:4px;width:28px">
+        <div class="drag-handle" title="اسحب لتغيير الترتيب">⠿</div>
+      </td>
       <td>
         <div style="display:flex;align-items:center;gap:9px">
           ${a.icon ? `<img class="app-row-icon" src="${a.icon}" onerror="this.style.display='none'">` : '<div class="app-row-icon" style="display:flex;align-items:center;justify-content:center">📱</div>'}
@@ -688,33 +706,80 @@ function renderTable(list) {
       <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${a.size||'—'}</td>
       <td><span class="badge badge-ver">${a.version||'v1.0'}</span></td>
       <td><div class="row-actions">
-        <button class="btn btn-ghost btn-sm" onclick="moveApp('${a.id}',-1)" ${i===0?'disabled':''} title="للأعلى">↑</button>
-        <button class="btn btn-ghost btn-sm" onclick="moveApp('${a.id}',1)" ${i===list.length-1?'disabled':''} title="للأسفل">↓</button>
         <button class="btn btn-ghost btn-sm" onclick="openEdit('${a.id}')">✏️</button>
         <button class="btn btn-danger btn-sm" onclick="confirmDel('${a.id}')">🗑️</button>
       </div></td>
     </tr>`).join('');
+
+  initDragSort();
 }
+
+/* ── DRAG & DROP SORT ── */
+let dragSrc = null;
+
+function initDragSort() {
+  const tbody = document.getElementById('tblBody');
+  const rows = tbody.querySelectorAll('tr');
+
+  rows.forEach(row => {
+    const handle = row.querySelector('.drag-handle');
+
+    // فقط الـ handle يفعّل السحب
+    handle.addEventListener('mousedown', () => { row.draggable = true; });
+    handle.addEventListener('mouseleave', () => { if(!dragSrc) row.draggable = false; });
+
+    row.addEventListener('dragstart', e => {
+      dragSrc = row;
+      row.classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+    });
+
+    row.addEventListener('dragend', () => {
+      dragSrc = null;
+      row.draggable = false;
+      rows.forEach(r => r.classList.remove('dragging','drag-over'));
+      // حفظ الترتيب الجديد
+      saveNewOrder();
+    });
+
+    row.addEventListener('dragover', e => {
+      e.preventDefault();
+      if (row === dragSrc) return;
+      rows.forEach(r => r.classList.remove('drag-over'));
+      row.classList.add('drag-over');
+    });
+
+    row.addEventListener('drop', e => {
+      e.preventDefault();
+      if (!dragSrc || row === dragSrc) return;
+      // أعد ترتيب في الـ DOM
+      const allRows = [...tbody.querySelectorAll('tr')];
+      const srcIdx = allRows.indexOf(dragSrc);
+      const tgtIdx = allRows.indexOf(row);
+      if (srcIdx < tgtIdx) {
+        row.after(dragSrc);
+      } else {
+        row.before(dragSrc);
+      }
+      // أعد ترتيب مصفوفة apps
+      const newOrder = [...tbody.querySelectorAll('tr')].map(r => r.dataset.id);
+      apps = newOrder.map(id => apps.find(a => a.id === id)).filter(Boolean);
+    });
+  });
+}
+
+async function saveNewOrder() {
+  if(!settings.token) return;
+  try {
+    await putFile('apps.json', JSON.stringify({apps},null,2), 'Reorder apps');
+    toast('✅ تم حفظ الترتيب','ok');
+  } catch(e) { toast('❌ '+e.message,'err'); }
+}
+
 function updateStats() {
   document.getElementById('statTotal').textContent = apps.length;
   document.getElementById('statCats').textContent = new Set(apps.map(a=>a.category||'أخرى')).size;
   document.getElementById('statUpdated').textContent = new Date().toLocaleDateString('ar');
-}
-
-/* ── MOVE APP ── */
-async function moveApp(id, dir) {
-  const i = apps.findIndex(a=>a.id===id);
-  if(i<0) return;
-  const newI = i + dir;
-  if(newI<0 || newI>=apps.length) return;
-  // swap
-  [apps[i], apps[newI]] = [apps[newI], apps[i]];
-  renderTable(apps);
-  // حفظ الترتيب على GitHub
-  try {
-    await putFile('apps.json', JSON.stringify({apps},null,2), `Reorder: move ${id} ${dir>0?'down':'up'}`);
-    toast('✅ تم حفظ الترتيب','ok');
-  } catch(e) { toast('❌ '+e.message,'err'); }
 }
 
 /* ── ADD / EDIT ── */
@@ -734,8 +799,8 @@ function openEdit(id) {
   document.getElementById('modalTitle').textContent='تعديل تطبيق';
   document.getElementById('saveBtn').textContent='🔄 تحديث';
   document.getElementById('f-name').value    = a.name;
-  document.getElementById('f-version').value = (a.version||'').replace(/^v/i,'');
-  document.getElementById('f-size').value    = (a.size||'').replace(/\s*MB$/i,'').trim();
+  document.getElementById('f-version').value = a.version||'';
+  document.getElementById('f-size').value    = a.size||'';
   document.getElementById('f-ipa').value     = a.ipaUrl||'';
   document.getElementById('f-icon').value    = a.icon||'';
   document.getElementById('f-note').value    = a.note||'';
@@ -762,12 +827,10 @@ function slugify(str) {
 /* ── SAVE ── */
 async function saveApp() {
   const name=document.getElementById('f-name').value.trim();
-  const verRaw=document.getElementById('f-version').value.trim();
-  const ver = verRaw ? (verRaw.startsWith('v') ? verRaw : 'v'+verRaw) : '';
+  const ver =document.getElementById('f-version').value.trim();
   let   ipa =document.getElementById('f-ipa').value.trim();
   let   icon=document.getElementById('f-icon').value.trim();
-  const sizeRaw=document.getElementById('f-size').value.trim();
-  const size = sizeRaw ? (sizeRaw.includes('MB') ? sizeRaw : sizeRaw+' MB') : '';
+  const size=document.getElementById('f-size').value.trim();
   const note=document.getElementById('f-note').value.trim();
   const cat =document.getElementById('f-category').value;
 
