@@ -124,6 +124,16 @@ body::before{
 .cat-filter:hover{color:var(--blue);border-color:var(--blue2)}
 .cat-filter.active{background:rgba(56,189,248,.12);color:var(--blue);border-color:var(--blue2)}
 
+.icon-result-item{
+  width:56px;height:56px;border-radius:12px;cursor:pointer;
+  border:2px solid transparent;object-fit:cover;
+  transition:all .15s;flex-shrink:0;
+}
+.icon-result-item:hover{border-color:var(--blue);transform:scale(1.08)}
+.icon-result-item.selected{border-color:var(--green);box-shadow:0 0 0 2px rgba(34,211,165,.3)}
+.icon-result-wrap{display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer}
+.icon-result-label{font-size:9px;color:var(--muted);text-align:center;max-width:60px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+
 .empty-tbl{padding:48px 20px;text-align:center;color:var(--muted)}
 .empty-tbl .ei{font-size:40px;margin-bottom:10px;display:block;opacity:.4}
 
@@ -391,7 +401,10 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
       </div>
       <div class="field">
         <label>الإصدار *</label>
-        <input type="text" id="f-version" placeholder="2.24.1">
+        <div style="display:flex;align-items:center;gap:6px">
+          <input type="text" id="f-version" placeholder="2.24.1" style="flex:1">
+          <button type="button" class="btn btn-ghost btn-sm" onclick="detectVersion()" title="استخراج الإصدار من اسم الملف أو الرابط" style="flex-shrink:0;font-size:15px;padding:0 10px;height:36px">🔍</button>
+        </div>
       </div>
       <div class="field">
         <label>الحجم (اختياري)</label>
@@ -431,10 +444,17 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
         <div class="icon-row" style="margin-bottom:8px">
           <div class="icon-prev" id="iconPrev">🖼️</div>
           <div style="flex:1;display:flex;flex-direction:column;gap:6px">
-            <input type="url" id="f-icon" placeholder="https://i.ibb.co/..." oninput="prevIcon()" style="width:100%">
-            <div class="fhint" style="margin:0">أو ارفع مباشرة من جهازك 👇</div>
+            <div style="display:flex;gap:6px">
+              <input type="url" id="f-icon" placeholder="https://i.ibb.co/..." oninput="prevIcon()" style="flex:1">
+              <button type="button" class="btn btn-ghost btn-sm" onclick="fetchAppStoreIcon()" title="جلب الأيقونة من App Store" style="flex-shrink:0;font-size:15px;padding:0 10px;height:36px">🔍</button>
+            </div>
+            <div class="fhint" style="margin:0">اضغط 🔍 لجلب الأيقونة الحقيقية من App Store تلقائياً</div>
           </div>
         </div>
+
+        <!-- نتائج البحث -->
+        <div id="iconResults" style="display:none;flex-wrap:wrap;gap:8px;margin-bottom:8px"></div>
+
         <div class="upload-zone" id="uploadZone" onclick="document.getElementById('iconFileInput').click()">
           <input type="file" id="iconFileInput" accept="image/*" onchange="handleIconFile(event)" style="display:none">
           <div class="uz-icon">📁</div>
@@ -619,6 +639,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
     </div>
     <div style="display:flex;gap:8px;justify-content:flex-end">
       <button class="btn btn-ghost btn-sm" onclick="closeCrop()">إلغاء</button>
+      <button class="btn btn-ghost btn-sm" id="removeBgBtn" onclick="removeBg()" style="color:var(--green);border-color:rgba(34,211,165,0.3)">🪄 إزالة الخلفية</button>
       <button class="btn btn-primary btn-sm" onclick="applyCrop()">✅ تطبيق وتحميل</button>
     </div>
   </div>
@@ -865,6 +886,8 @@ function clearForm() {
   ['f-name','f-version','f-size','f-ipa','f-icon','f-note'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('f-category').value='تواصل';
   document.getElementById('iconPrev').innerHTML='🖼️';
+  const ir = document.getElementById('iconResults');
+  if(ir){ ir.style.display='none'; ir.innerHTML=''; }
   resetIpaZone();
 }
 function prevIcon() {
@@ -1029,6 +1052,234 @@ async function fetchSizeFromUrl(url) {
     }
   } catch(e) {
     document.getElementById('f-size').placeholder = '128';
+  }
+}
+
+/* ── FETCH ICON FROM APP STORE ── */
+async function fetchAppStoreIcon() {
+  const name = document.getElementById('f-name').value.trim();
+  if (!name) return toast('⚠️ اكتب اسم التطبيق أولاً', 'err');
+
+  const resultsEl = document.getElementById('iconResults');
+  resultsEl.style.display = 'flex';
+  resultsEl.innerHTML = '<div style="color:var(--muted);font-size:12px;padding:8px">⏳ جاري البحث...</div>';
+
+  let allResults = [];
+
+  // ── 1. iTunes App Store (يشمل تطبيقات iPhone وiPad)
+  // نبحث بعدة أسواق لتغطية أوسع
+  const markets = ['us','sa','ae','gb'];
+  const seen = new Set();
+  await Promise.all(markets.map(async country => {
+    try {
+      const res = await fetch(`https://itunes.apple.com/search?term=${encodeURIComponent(name)}&entity=software&limit=5&country=${country}`);
+      const data = await res.json();
+      (data.results||[]).forEach(app => {
+        const icon = app.artworkUrl512 || app.artworkUrl100;
+        if (icon && !seen.has(icon)) {
+          seen.add(icon);
+          allResults.push({ url: icon, label: app.trackName, source: '🍎 App Store' });
+        }
+      });
+    } catch(e) {}
+  }));
+
+  // ── 2. Google Play — عبر gplayapi (API مفتوح)
+  try {
+    const gpRes = await fetch(`https://gplayapi.cashlessconsumer.in/api/apps/search?search=${encodeURIComponent(name)}&num=6`);
+    const gpData = await gpRes.json();
+    (gpData.results||[]).forEach(app => {
+      if (app.icon && !seen.has(app.icon)) {
+        seen.add(app.icon);
+        allResults.push({ url: app.icon, label: app.title, source: '🤖 Google Play' });
+      }
+    });
+  } catch(e) {}
+
+  // ── 3. APKPure API
+  try {
+    const apkRes = await fetch(`https://apkpure.com/api/v1/search_suggest?q=${encodeURIComponent(name)}&limit=5`, {
+      headers: { 'Accept': 'application/json' }
+    });
+    const apkData = await apkRes.json();
+    (apkData||[]).forEach(app => {
+      const icon = app.icon_url || app.icon;
+      if (icon && !seen.has(icon)) {
+        seen.add(icon);
+        allResults.push({ url: icon, label: app.title||name, source: '📦 APKPure' });
+      }
+    });
+  } catch(e) {}
+
+  // ── 4. Aptoide API الرسمي
+  try {
+    const aptRes = await fetch(`https://ws75.aptoide.com/api/7/apps/search/query=${encodeURIComponent(name)}/limit=5/sort=downloads`);
+    const aptData = await aptRes.json();
+    (aptData.datalist?.list||[]).forEach(app => {
+      const icon = app.icon;
+      if (icon && !seen.has(icon)) {
+        seen.add(icon);
+        allResults.push({ url: icon, label: app.name, source: '🟢 Aptoide' });
+      }
+    });
+  } catch(e) {}
+
+  // ── 5. F-Droid (مفتوح المصدر)
+  try {
+    const fdRes = await fetch(`https://search.f-droid.org/?q=${encodeURIComponent(name)}&lang=en&_format=json`);
+    const fdData = await fdRes.json();
+    (fdData.hits?.hits||[]).slice(0,3).forEach(hit => {
+      const pkg = hit._source?.packageName;
+      if (pkg) {
+        const icon = `https://f-droid.org/repo/${pkg}/en-US/icon.png`;
+        if (!seen.has(icon)) {
+          seen.add(icon);
+          allResults.push({ url: icon, label: hit._source?.name||name, source: '🔓 F-Droid' });
+        }
+      }
+    });
+  } catch(e) {}
+
+  // ── 6. HappyMod API
+  try {
+    const hmRes = await fetch(`https://www.happymod.com/api/search?q=${encodeURIComponent(name)}&limit=4`);
+    const hmData = await hmRes.json();
+    (hmData.data?.list||hmData.list||[]).slice(0,3).forEach(app => {
+      const icon = app.icon_url||app.icon||app.img;
+      if (icon && !seen.has(icon)) {
+        seen.add(icon);
+        allResults.push({ url: icon, label: app.name||app.title||name, source: '😊 HappyMod' });
+      }
+    });
+  } catch(e) {}
+
+  // ── 7. APKCombo (APKPure sister site - has open JSON)
+  try {
+    const acRes = await fetch(`https://apkcombo.com/api/v1/search?q=${encodeURIComponent(name)}&type=apk&limit=4`);
+    const acData = await acRes.json();
+    (acData.data||acData.results||[]).slice(0,3).forEach(app => {
+      const icon = app.icon||app.icon_url;
+      if (icon && !seen.has(icon)) {
+        seen.add(icon);
+        allResults.push({ url: icon, label: app.name||name, source: '📱 APKCombo' });
+      }
+    });
+  } catch(e) {}
+
+  // ── 8. TutuApp / AltStore / AppValley — يستخدمون روابط ثابتة للأيقونات
+  // نجيب من allorigins scrape بشكل خفيف
+  const scrapeSources = [
+    { url: `https://api.allorigins.win/get?url=${encodeURIComponent('https://tutuapp.vip/search?keywords=' + encodeURIComponent(name))}`, name: '🍎 TutuApp', regex: /https?:\/\/[^"'\s]+\.(?:png|jpg|webp)/g },
+    { url: `https://api.allorigins.win/get?url=${encodeURIComponent('https://pandahelper.vip/app-store/search?q=' + encodeURIComponent(name))}`, name: '🐼 Panda Helper', regex: /https?:\/\/[^"'\s]+\.(?:png|jpg|webp)/g },
+  ];
+  await Promise.all(scrapeSources.map(async src => {
+    try {
+      const res = await fetch(src.url);
+      const data = await res.json();
+      const matches = [...(data.contents||'').matchAll(src.regex)];
+      matches.filter(m => !m[0].includes('background') && !m[0].includes('banner')).slice(0,2).forEach(m => {
+        if (!seen.has(m[0])) {
+          seen.add(m[0]);
+          allResults.push({ url: m[0], label: name, source: src.name });
+        }
+      });
+    } catch(e) {}
+  }));
+
+  // ── 6. Clearbit للمواقع الشهيرة
+  const knownDomains = {
+    'انستقرام':'instagram.com','instagram':'instagram.com',
+    'واتساب':'whatsapp.com','whatsapp':'whatsapp.com',
+    'سناب':'snapchat.com','snapchat':'snapchat.com',
+    'يوتيوب':'youtube.com','youtube':'youtube.com',
+    'تيكتوك':'tiktok.com','tiktok':'tiktok.com',
+    'تويتر':'twitter.com','twitter':'twitter.com','x':'x.com',
+    'فيسبوك':'facebook.com','facebook':'facebook.com',
+    'تيليغرام':'telegram.org','telegram':'telegram.org',
+    'سينمانا':'cinemana.net','cinemana':'cinemana.net',
+    'شاهد':'shahid.net','shahid':'shahid.net',
+    'نتفليكس':'netflix.com','netflix':'netflix.com',
+    'سبوتيفاي':'spotify.com','spotify':'spotify.com',
+    'كابكت':'capcut.com','capcut':'capcut.com',
+    'بيقو':'bigo.tv','bigo':'bigo.tv',
+    'زووم':'zoom.us','zoom':'zoom.us',
+  };
+  const domainKey = Object.keys(knownDomains).find(k => name.toLowerCase().includes(k));
+  if (domainKey) {
+    const domain = knownDomains[domainKey];
+    if (!seen.has(domain)) {
+      seen.add(domain);
+      allResults.push({ url:`https://logo.clearbit.com/${domain}?size=256`, label:domain, source:'🌐 Logo' });
+    }
+  }
+
+  // ── عرض النتائج
+  if (!allResults.length) {
+    resultsEl.innerHTML = `<div style="color:var(--muted);font-size:12px;padding:8px;width:100%">
+      😕 ما لقينا صور — جرب اسم إنجليزي أو الصق رابط الصورة مباشرة</div>`;
+    return;
+  }
+  resultsEl.innerHTML = renderIconResults(allResults);
+}
+
+function renderIconResults(results) {
+  return results.map((item, i) => `
+    <div class="icon-result-wrap" onclick="selectIcon('${item.url.replace(/'/g,"\\'")}', ${i})" id="iconwrap-${i}">
+      <img class="icon-result-item" id="iconres-${i}" src="${item.url}"
+        onerror="this.closest('.icon-result-wrap').style.display='none'"
+        alt="${item.label}">
+      <div class="icon-result-label">${item.label}</div>
+      <div style="font-size:8px;color:var(--blue);margin-top:1px">${item.source}</div>
+    </div>`).join('');
+}
+
+function selectIcon(url, idx) {
+  // رفع التحديد عن الكل
+  document.querySelectorAll('.icon-result-item').forEach(el => el.classList.remove('selected'));
+  document.getElementById('iconres-' + idx)?.classList.add('selected');
+  // ضع الرابط
+  document.getElementById('f-icon').value = url;
+  prevIcon();
+  toast('✅ تم اختيار الأيقونة', 'ok');
+}
+
+/* ── DETECT VERSION FROM FILE NAME OR URL ── */
+function detectVersion() {
+  let fileName = '';
+
+  // جيب اسم الملف من الملف المرفوع أو من الرابط
+  if (ipaFileToUpload) {
+    fileName = ipaFileToUpload.name;
+  } else {
+    const url = document.getElementById('f-ipa').value.trim();
+    if (url) {
+      fileName = decodeURIComponent(url.split('/').pop().split('?')[0]);
+    }
+  }
+
+  if (!fileName) {
+    toast('⚠️ ما في ملف أو رابط — أضف أولاً', 'err');
+    return;
+  }
+
+  // استخراج الإصدار من اسم الملف
+  // أنماط مختلفة: v1.0، 1.0.0، _24.1، .419.0، [v2.4]
+  const patterns = [
+    /[\[\(]?v?(\d+\.\d+\.\d+(?:\.\d+)?)[\]\)]?/i,  // 1.2.3.4
+    /[\[\(]?v?(\d+\.\d+)[\]\)]?/i,                   // 1.2
+  ];
+
+  let found = null;
+  for (const pattern of patterns) {
+    const match = fileName.match(pattern);
+    if (match) { found = match[1]; break; }
+  }
+
+  if (found) {
+    document.getElementById('f-version').value = found;
+    toast('✅ تم استخراج الإصدار: ' + found, 'ok');
+  } else {
+    toast('⚠️ ما قدرنا نستخرج الإصدار من اسم الملف', 'err');
   }
 }
 
@@ -1295,6 +1546,56 @@ function selectSize(btn) {
   document.querySelectorAll('.csz').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   cropOutputSize = parseInt(btn.dataset.size);
+}
+
+async function removeBg() {
+  if (!cropImg) return;
+  const btn = document.getElementById('removeBgBtn');
+  btn.disabled = true;
+  btn.textContent = '⏳ جاري الإزالة...';
+
+  try {
+    // احصل على الصورة كـ blob من الـ canvas الحالي
+    const canvas = document.getElementById('cropCanvas');
+    const blob = await new Promise(res => canvas.toBlob(res, 'image/png'));
+
+    // استخدم remove.bg API
+    const apiKey = localStorage.getItem('removebg_key') || '';
+    if (!apiKey) {
+      // بدون مفتاح — استخدم photoroom مجاناً عبر proxy
+      await removeBgPhotoRoom(blob);
+    } else {
+      await removeBgAPI(blob, apiKey);
+    }
+  } catch(e) {
+    toast('❌ فشلت إزالة الخلفية: ' + e.message, 'err');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '🪄 إزالة الخلفية';
+  }
+}
+
+async function removeBgPhotoRoom(blob) {
+  await removeBgAPI(blob, 'EGYoAMcpzSUCAsMPVL8NKPnz');
+}
+
+async function removeBgAPI(blob, apiKey) {
+  const formData = new FormData();
+  formData.append('image_file', blob, 'icon.png');
+  formData.append('size', 'auto');
+
+  const res = await fetch('https://api.remove.bg/v1.0/removebg', {
+    method: 'POST',
+    headers: { 'X-Api-Key': apiKey },
+    body: formData
+  });
+
+  if (!res.ok) throw new Error('فشل طلب remove.bg');
+  const resultBlob = await res.blob();
+  const url = URL.createObjectURL(resultBlob);
+  const img = new Image();
+  img.onload = () => { cropImg = img; updateCrop(); toast('✅ تمت إزالة الخلفية', 'ok'); };
+  img.src = url;
 }
 
 function applyCrop() {
