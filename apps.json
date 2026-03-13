@@ -1,14 +1,14 @@
 {
   "apps": [
     {
-      "id": "app-1773344200652",
-      "name": "Gbox",
-      "version": "4.2",
-      "ipaUrl": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/ipa/GBoxu_5.7.6_1772107274 (1).ipa",
-      "icon": "",
-      "size": "9.4 MB",
-      "note": "",
-      "category": "تواصل",
+      "id": "app-1773226791309",
+      "name": "سينمانا",
+      "version": "4.6.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
+      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
+      "size": "45MB",
+      "note": "ببثب",
+      "category": "ترفيه",
       "addedAt": "2026-03-12"
     },
     {
@@ -21,83 +21,6 @@
       "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
       "category": "ترفيه",
       "addedAt": "2026-03-12"
-    },
-    {
-      "id": "app-1773356100334",
-      "name": "swy",
-      "version": "8.3.1",
-      "ipaUrl": "https://www.tgxdl2.workers.dev/v3/0:/dl/840557?hash=AgADRo",
-      "icon": "",
-      "size": "68MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-12"
-    },
-    {
-      "id": "app-1773357634670",
-      "name": "beeg",
-      "version": "92.1",
-      "ipaUrl": "https://www.tgxdl4.workers.dev/v3/0:/dl/840559?hash=AgADVR",
-      "icon": "",
-      "size": "29mb",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-12"
-    },
-    {
-      "id": "app-1773357665091",
-      "name": "واتساب بلس",
-      "version": "3.21",
-      "ipaUrl": "https://www.tgxdl1.workers.dev/v3/0:/dl/840560?hash=AgADjB",
-      "icon": "",
-      "size": "",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-12"
-    },
-    {
-      "id": "app-1773226791309",
-      "name": "سينمانا",
-      "version": "4.6.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
-      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
-      "size": "45MB",
-      "note": "ببثب",
-      "category": "ترفيه",
-      "addedAt": "2026-03-12"
-    },
-    {
-      "id": "app-1773343947817",
-      "name": "SAS",
-      "version": "3.3",
-      "ipaUrl": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/ipa/app-1773343947817.ipa",
-      "icon": "",
-      "size": "9.4 MB",
-      "note": "A",
-      "category": "تواصل",
-      "addedAt": "2026-03-12"
-    },
-    {
-      "id": "app-1773366021343",
-      "name": "ffr",
-      "version": "43.8",
-      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/3042?hash=AgADVR",
-      "icon": "",
-      "size": "144",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773366669842",
-      "name": "xsdd",
-      "version": "64.9.3",
-      "ipaUrl": "https://filetolink.botsfilesharing.workers.dev/27340/?HeartXBotz=AgADVR",
-      "icon": "",
-      "size": "97",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-13"
     }
   ]
 }
