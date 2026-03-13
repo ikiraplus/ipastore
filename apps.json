@@ -98,6 +98,17 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
+    },
+    {
+      "id": "app-1773435887141",
+      "name": "Tiktok Vibe",
+      "version": "43.3.2",
+      "ipaUrl": "https://github.com/6gr8/VibeTok/releases/download/VibeTok/VibeTokV1.72.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "size": "360.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
     }
   ]
 }
