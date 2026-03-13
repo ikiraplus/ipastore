@@ -395,7 +395,14 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
       </div>
       <div class="field">
         <label>الحجم (اختياري)</label>
-        <input type="text" id="f-size" placeholder="128 MB">
+        <div style="display:flex;align-items:center;gap:6px">
+          <div style="position:relative;flex:1;display:flex;align-items:center">
+            <input type="number" id="f-size" placeholder="128" min="0" step="0.1" style="width:100%;padding-left:40px">
+            <span style="position:absolute;left:12px;color:var(--yellow);font-family:var(--mono);font-size:12px;font-weight:900;pointer-events:none">MB</span>
+          </div>
+          <button type="button" id="fetchSizeBtn" class="btn btn-ghost btn-sm" onclick="fetchSizeFromUrl(document.getElementById('f-ipa').value.trim())" title="جلب الحجم من الرابط" style="flex-shrink:0">🔍</button>
+        </div>
+        <div class="fhint">يُجلب تلقائياً من الرابط أو الملف المرفوع</div>
       </div>
       <div class="field full">
         <label>ملف IPA *</label>
@@ -846,7 +853,7 @@ function openEdit(id) {
   document.getElementById('saveBtn').textContent='🔄 تحديث';
   document.getElementById('f-name').value    = a.name;
   document.getElementById('f-version').value = a.version||'';
-  document.getElementById('f-size').value    = a.size||'';
+  document.getElementById('f-size').value    = (a.size||'').replace(/\s*MB$/i,'').trim();
   document.getElementById('f-ipa').value     = a.ipaUrl||'';
   document.getElementById('f-icon').value    = a.icon||'';
   document.getElementById('f-note').value    = a.note||'';
@@ -876,7 +883,8 @@ async function saveApp() {
   const ver =document.getElementById('f-version').value.trim();
   let   ipa =document.getElementById('f-ipa').value.trim();
   let   icon=document.getElementById('f-icon').value.trim();
-  const size=document.getElementById('f-size').value.trim();
+  const sizeRaw=document.getElementById('f-size').value.trim();
+  const size = sizeRaw ? sizeRaw + ' MB' : '';
   const note=document.getElementById('f-note').value.trim();
   const cat =document.getElementById('f-category').value;
 
@@ -974,12 +982,53 @@ function handleIpaFile(e) {
   document.getElementById('ipaZoneContent').querySelector('.uz-text').textContent = file.name;
   document.getElementById('ipaZoneContent').querySelector('.uz-icon').textContent = '✅';
   e.target.value = '';
+
+  // ✅ تعبئة الحجم تلقائياً من حجم الملف
+  const sizeField = document.getElementById('f-size');
+  if (!sizeField.value) {
+    const mb = (file.size / (1024 * 1024)).toFixed(1);
+    sizeField.value = mb;
+  }
 }
 
-function updateIpaPreview() {
-  if (document.getElementById('f-ipa').value.trim()) {
+async function updateIpaPreview() {
+  const url = document.getElementById('f-ipa').value.trim();
+  if (url) {
     ipaFileToUpload = null;
     resetIpaZone();
+    // ✅ جيب الحجم من GitHub Release API
+    await fetchSizeFromUrl(url);
+  }
+}
+
+async function fetchSizeFromUrl(url) {
+  const sizeField = document.getElementById('f-size');
+  if (sizeField.value) return; // لو الحجم مكتوب ما نغيره
+
+  // رابط GitHub release مثل: https://github.com/owner/repo/releases/download/tag/file.ipa
+  const ghMatch = url.match(/github\.com\/([^/]+)\/([^/]+)\/releases\/download\/([^/]+)\/(.+)/);
+  if (!ghMatch) return;
+
+  const [, owner, repo, tag, fileName] = ghMatch;
+  try {
+    const sizeEl = document.getElementById('f-size');
+    sizeEl.placeholder = '⏳ جاري جلب الحجم...';
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/tags/${tag}`, {
+      headers: settings.token ? { 'Authorization': `token ${settings.token}` } : {}
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    const asset = data.assets?.find(a => a.name === decodeURIComponent(fileName));
+    if (asset) {
+      const mb = (asset.size / (1024 * 1024)).toFixed(1);
+      sizeEl.value = mb;
+      sizeEl.placeholder = '128';
+      toast('✅ تم جلب الحجم تلقائياً','ok');
+    } else {
+      sizeEl.placeholder = '128';
+    }
+  } catch(e) {
+    document.getElementById('f-size').placeholder = '128';
   }
 }
 
