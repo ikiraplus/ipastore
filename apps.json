@@ -429,6 +429,17 @@
       "note": "",
       "category": "أخرى",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773511362148",
+      "name": "pinterest pro",
+      "version": "14.8",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Pinterest_14.8.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/a5/d6/43a5d6ef-f21d-50df-519f-2dc707acadf1/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
+      "size": "114.3 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-14"
     }
   ]
 }
