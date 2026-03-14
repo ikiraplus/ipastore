@@ -263,6 +263,18 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773496352891",
+      "name": "EeveeSpotify",
+      "version": "8.9.90",
+      "ipaUrl": "https://github.com/Neoncat-OG/TrollStore-IPAs/releases/download/11-15-2024/EeveeSpotify-8.9.90.ipa",
+      "icon": "https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/icons/com.spotify.client.png",
+      "size": "77.5 MB",
+      "note": "As the successor of the original and now outdated Spotilife tweak, EeveeSpotify emerges as the first and only tweak (for now) with significant potential for accessing Spotify Premium. Note: To fix widgets, install Spotify from the App Store then proceed to force install Eevee over Spotify. Please refrain from opening issues here.\nLast updated: 08-10-2024\nStatus: ✅ ⭐ 👍",
+      "bundleId": "com.spotify.client",
+      "category": "ترفيه",
+      "addedAt": "2026-03-14"
     }
   ]
 }
