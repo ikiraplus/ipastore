@@ -213,12 +213,12 @@
       "id": "app-1773437480214",
       "name": "HiTv Pro",
       "version": "2.7.1",
-      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3060/ProBotz_1773437130.mkv?hash=AgADbJ",
+      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/3060?hash=AgADbJ",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437480214.png",
       "size": "18.5 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-13"
+      "addedAt": "2026-03-14"
     }
   ]
 }
