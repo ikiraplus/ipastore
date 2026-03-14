@@ -332,25 +332,25 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773509964505",
-      "name": "Subway surfes",
-      "version": "3.59.0",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Subway.Surf-3.59.0.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/ac/4e/98ac4ed7-7da4-c5ae-8bea-c2adc70b7960/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "196.6 MB",
+      "id": "app-1773509863438",
+      "name": "buz tv pro",
+      "version": "1.2.11",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Buz.TV_1.2.11.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "16.4 MB",
       "note": "",
-      "category": "ألعاب",
+      "category": "ترفيه",
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773510030275",
-      "name": "Esign",
-      "version": "1.9",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Esign.ipa",
+      "id": "app-1773510045224",
+      "name": "Netflix - مقلد",
+      "version": "1.4",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Netflix.ipa",
       "icon": "",
-      "size": "18.0 MB",
+      "size": "32.2 MB",
       "note": "",
-      "category": "أخرى",
+      "category": "تواصل",
       "addedAt": "2026-03-14"
     }
   ]
