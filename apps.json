@@ -253,6 +253,18 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773497710261",
+      "name": "Smashy Road: Wanted 2",
+      "version": "1.41",
+      "ipaUrl": "https://file-to-link-bot-nx-51e1b7ab1fe5.herokuapp.com/dl/67c53713d943079d9d23f39d",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/84/6f/6b/846f6b8e-4a8b-3e6c-a981-e447de640ace/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "size": "101.1 MB",
+      "note": "Free iAP - Join my telegram: t.me/riftysIPAlibrary",
+      "bundleId": "com.bearbit.srw2",
+      "category": "أدوات",
+      "addedAt": "2026-03-14"
     }
   ]
 }
