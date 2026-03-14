@@ -297,6 +297,17 @@
       "note": "",
       "category": "ذكاء اصطناعي",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773509627631",
+      "name": "mojo pro",
+      "version": "1.260",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Mojo.Pro.1.260.0.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/26/db/3226db82-75b1-ca84-8b56-4d6f94ce9932/AppIcon-AppStore-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "size": "176.6 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-14"
     }
   ]
 }
