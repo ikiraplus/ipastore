@@ -319,6 +319,17 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773509781841",
+      "name": "picsart pro",
+      "version": "29.4.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Picsart.Pro.29.4.2.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/af/12/9caf1214-1f7d-bdbb-d37e-0487be5ebba0/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "95.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
     }
   ]
 }
