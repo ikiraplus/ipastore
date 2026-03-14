@@ -265,6 +265,18 @@
       "bundleId": "com.bearbit.srw2",
       "category": "أدوات",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773497717716",
+      "name": "Hill Climb Racing",
+      "version": "1.64.5",
+      "ipaUrl": "https://file-to-link-nx-ccf8d5eda5c0.herokuapp.com/dl/67be6b96a4c0b89c735047e6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/ea/66/e0ea66da-6969-88dc-2ce4-0997b85a5b3e/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
+      "size": "106.8 MB",
+      "note": "Get updated version from zx's AIO repo.",
+      "bundleId": "om.fingersoft.hillclimbracing",
+      "category": "أدوات",
+      "addedAt": "2026-03-14"
     }
   ]
 }
