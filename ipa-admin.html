@@ -285,6 +285,20 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
 .tg-worker-row{display:flex;gap:8px;margin-bottom:14px}
 .tg-worker-row input{flex:1;background:var(--s2);border:1px solid var(--border);border-radius:var(--r2);padding:9px 12px;color:var(--text);font-family:var(--mono);font-size:12px;outline:none}
 .tg-worker-row input:focus{border-color:var(--blue)}
+
+/* ── REPOS BROWSER ── */
+.repo-source-btn{padding:5px 11px;border-radius:20px;font-size:11px;font-weight:700;font-family:var(--sans);cursor:pointer;border:1px solid var(--border);background:var(--s2);color:var(--muted);transition:all var(--t);white-space:nowrap}
+.repo-source-btn:hover,.repo-source-btn.active{background:rgba(251,191,36,.12);color:var(--yellow);border-color:rgba(251,191,36,.4)}
+.repo-app-item{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:var(--r2);border:1px solid var(--border);background:var(--s2);cursor:pointer;transition:all var(--t);margin-bottom:7px}
+.repo-app-item:hover{border-color:rgba(251,191,36,.3);background:rgba(251,191,36,.03)}
+.repo-app-icon{width:44px;height:44px;border-radius:10px;object-fit:cover;flex-shrink:0;background:var(--s3)}
+.repo-app-info{flex:1;min-width:0}
+.repo-app-name{font-size:13px;font-weight:900;color:var(--text)}
+.repo-app-meta{font-size:10px;color:var(--muted);margin-top:2px;font-family:var(--mono)}
+.repo-app-desc{font-size:10px;color:var(--text2);margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.repo-add-btn{flex-shrink:0;padding:5px 10px;border-radius:8px;border:1px solid rgba(34,211,165,.3);background:rgba(34,211,165,.08);color:var(--green);font-size:11px;font-weight:700;cursor:pointer;transition:all var(--t)}
+.repo-add-btn:hover{background:rgba(34,211,165,.18)}
+.repo-add-btn.added{opacity:.6;cursor:default}
   .fgrid{grid-template-columns:1fr}
   .fgrid .full{grid-column:auto}
   .stats-row{grid-template-columns:1fr 1fr 1fr}
@@ -304,6 +318,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
   <div class="tb-actions">
     <button class="btn btn-ghost btn-sm" onclick="openSettings()">⚙️ GitHub</button>
     <button class="btn btn-ghost btn-sm" style="color:var(--blue);border-color:rgba(56,189,248,0.3)" onclick="openTgImport()">📥 تيليغرام</button>
+    <button class="btn btn-ghost btn-sm" style="color:var(--yellow);border-color:rgba(251,191,36,0.3)" onclick="openRepos()">🌐 مواقع</button>
     <button class="btn btn-primary btn-sm" onclick="openAdd()">＋ تطبيق</button>
   </div>
 </div>
@@ -641,6 +656,72 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
       <button class="btn btn-ghost btn-sm" onclick="closeCrop()">إلغاء</button>
       <button class="btn btn-ghost btn-sm" id="removeBgBtn" onclick="removeBg()" style="color:var(--green);border-color:rgba(34,211,165,0.3)">🪄 إزالة الخلفية</button>
       <button class="btn btn-primary btn-sm" onclick="applyCrop()">✅ تطبيق وتحميل</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ MODAL: REPOS BROWSER ═══ -->
+<div class="overlay" id="reposModal">
+  <div class="modal" style="max-width:640px;width:96vw">
+    <span class="modal-handle"></span>
+    <div class="modal-title">
+      🌐 استيراد من المواقع
+      <button class="modal-close" onclick="closeModal('reposModal')">✕</button>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px;max-height:120px;overflow-y:auto;padding:2px">
+      <button class="repo-source-btn active" data-url="https://community-apps.sidestore.io/sidecommunity.json" onclick="loadRepo(this)">SideCommunity</button>
+      <button class="repo-source-btn" data-url="https://qnblackcat.github.io/AltStore/apps.json" onclick="loadRepo(this)">qnblackcat</button>
+      <button class="repo-source-btn" data-url="https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json" onclick="loadRepo(this)">TrollStore IPAs</button>
+      <button class="repo-source-btn" data-url="https://wuxu1.github.io/wuxu-complete-plus.json" onclick="loadRepo(this)">Wuxu Plus</button>
+      <button class="repo-source-btn" data-url="https://ipa.cypwn.xyz/cypwn.json" onclick="loadRepo(this)">CyPwn</button>
+      <button class="repo-source-btn" data-url="https://aio.yippee.rip/repo.json" onclick="loadRepo(this)">Yippee AIO</button>
+      <button class="repo-source-btn" data-url="https://raw.githubusercontent.com/whoeevee/EeveeSpotify/swift/repo.json" onclick="loadRepo(this)">EeveeSpotify</button>
+      <button class="repo-source-btn" data-url="https://xitrix.github.io/iTorrent/AltStore.json" onclick="loadRepo(this)">iTorrent</button>
+      <button class="repo-source-btn" data-url="https://ish.app/altstore.json" onclick="loadRepo(this)">iSH</button>
+      <button class="repo-source-btn" data-url="https://raw.githubusercontent.com/arichornloveralt/arichornloveralt.github.io/main/apps.json" onclick="loadRepo(this)">AriChorn</button>
+      <button class="repo-source-btn" data-url="https://raw.githubusercontent.com/driftywinds/driftywinds.github.io/master/AltStore/apps.json" onclick="loadRepo(this)">Driftywinds</button>
+      <button class="repo-source-btn" data-url="https://raw.githubusercontent.com/notrifty1/riftysrepo/refs/heads/main/reposource.json" onclick="loadRepo(this)">Rifty's Repo</button>
+      <button class="repo-source-btn" data-url="https://altstore.oatmealdome.me/" onclick="loadRepo(this)">OatmealDome</button>
+      <button class="repo-source-btn" data-url="https://github.com/dvntm0/AltStore/raw/refs/heads/main/feather.json" onclick="loadRepo(this)">Feather</button>
+      <button class="repo-source-btn" data-url="https://repo.madari.media/nightly/repo.json" onclick="loadRepo(this)">Madari</button>
+      <button class="repo-source-btn" data-url="https://flyinghead.github.io/flycast-builds/altstore.json" onclick="loadRepo(this)">Flycast</button>
+      <button class="repo-source-btn" data-url="https://pokemmo.eu/altstore/" onclick="loadRepo(this)">PokéMMO</button>
+      <button class="repo-source-btn" data-url="https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json" onclick="loadRepo(this)">TrollStore Archive</button>
+      <button class="repo-source-btn" data-url="https://repo.sourcelocation.dev/apps.json" onclick="loadRepo(this)">SourceLocation</button>
+      <button class="repo-source-btn" data-url="https://raw.githubusercontent.com/wwg135/wwg135.github.io/main/apps.json" onclick="loadRepo(this)">wwg135</button>
+      <button class="repo-source-btn" data-url="https://opa334.github.io/apps.json" onclick="loadRepo(this)">opa334</button>
+      <button class="repo-source-btn" data-url="https://poomsmart.github.io/repo/apps.json" onclick="loadRepo(this)">poomsmart</button>
+      <button class="repo-source-btn" data-url="https://havoc.app/featured.json" onclick="loadRepo(this)">Havoc</button>
+      <button class="repo-source-btn" data-url="https://repo.chariz.com/featured.json" onclick="loadRepo(this)">Chariz</button>
+      <button class="repo-source-btn" data-url="https://getzbra.com/repo/apps.json" onclick="loadRepo(this)">Zebra</button>
+      <button class="repo-source-btn" data-url="https://level3tjg.me/repo/apps.json" onclick="loadRepo(this)">level3tjg</button>
+      <button class="repo-source-btn" data-url="https://mtac.app/repo/apps.json" onclick="loadRepo(this)">MTAC</button>
+      <button class="repo-source-btn" data-url="https://repo.palera.in/apps.json" onclick="loadRepo(this)">palera.in</button>
+      <button class="repo-source-btn" data-url="https://luki120.github.io/apps.json" onclick="loadRepo(this)">luki120</button>
+      <button class="repo-source-btn" data-url="https://ios.jjolano.me/apps.json" onclick="loadRepo(this)">jjolano</button>
+      <button class="repo-source-btn" data-url="https://ginsu.dev/repo/apps.json" onclick="loadRepo(this)">Ginsu</button>
+      <button class="repo-source-btn" data-url="https://miro92.com/repo/apps.json" onclick="loadRepo(this)">miro92</button>
+      <button class="repo-source-btn" data-url="https://repo.alexia.lol/apps.json" onclick="loadRepo(this)">Alexia</button>
+      <button class="repo-source-btn" data-url="https://creaturecoding.com/repo/apps.json" onclick="loadRepo(this)">CreatureCoding</button>
+      <button class="repo-source-btn" data-url="https://ellekit.space/apps.json" onclick="loadRepo(this)">ElleKit</button>
+      <button class="repo-source-btn" data-url="https://sparkdev.me/apps.json" onclick="loadRepo(this)">SparkDev</button>
+      <button class="repo-source-btn" data-url="https://ios.jjolano.me/apps.json" onclick="loadRepo(this)">PP Helper</button>
+      <button class="repo-source-btn" data-url="https://raw.githubusercontent.com/FouadRaheb/AppStore/main/appstore.json" onclick="loadRepo(this)">FouadRaheb</button>
+      <button class="repo-source-btn" data-url="https://julio.hackyouriphone.org/apps.json" onclick="loadRepo(this)">HackYouriPhone</button>
+      <button class="repo-source-btn" data-url="https://tigisoftware.com/repo/apps.json" onclick="loadRepo(this)">TigiSoftware</button>
+      <button class="repo-source-btn" data-url="https://repo.cypwn.xyz/apps.json" onclick="loadRepo(this)">Cypwn Repo</button>
+      <button class="repo-source-btn" data-url="https://sourcelocation.github.io/repo/apps.json" onclick="loadRepo(this)">SourceLoc GitHub</button>
+    </div>
+    <div style="display:flex;gap:8px;margin-bottom:10px">
+      <input type="text" id="repoSearch" placeholder="🔍 ابحث..." oninput="filterRepoApps()" style="flex:1;background:var(--s2);border:1px solid var(--border);border-radius:var(--r2);padding:9px 12px;color:var(--text);font-family:var(--sans);font-size:13px;outline:none">
+      <button class="btn btn-ghost btn-sm" onclick="loadCurrentRepo()">🔄</button>
+    </div>
+    <div id="repoAppsList" style="max-height:380px;overflow-y:auto">
+      <div class="tg-empty">اختر مصدراً من الأعلى</div>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px">
+      <span id="repoCount" style="font-size:11px;color:var(--muted)"></span>
+      <button class="btn btn-ghost btn-sm" onclick="closeModal('reposModal')">إغلاق</button>
     </div>
   </div>
 </div>
@@ -1468,6 +1549,136 @@ async function saveTgApp() {
   } catch(e) {
     apps.pop();
     toast('❌ ' + e.message, 'err');
+  }
+}
+
+/* ── REPOS BROWSER ── */
+let repoApps = [], currentRepoUrl = '';
+
+function openRepos() {
+  openModal('reposModal');
+  const firstBtn = document.querySelector('.repo-source-btn');
+  if (firstBtn) loadRepo(firstBtn);
+}
+
+async function loadRepo(btn) {
+  document.querySelectorAll('.repo-source-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentRepoUrl = btn.dataset.url;
+  await loadCurrentRepo();
+}
+
+async function loadCurrentRepo() {
+  const list = document.getElementById('repoAppsList');
+  list.innerHTML = '<div class="tg-empty">⏳ جاري التحميل...</div>';
+  document.getElementById('repoCount').textContent = '';
+
+  const proxies = [
+    url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+    url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+    url => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+  ];
+
+  let json = null;
+  for (const proxy of proxies) {
+    try {
+      const res = await fetch(proxy(currentRepoUrl), { signal: AbortSignal.timeout(8000) });
+      if (!res.ok) continue;
+      const text = await res.text();
+      // allorigins يرجع { contents: "..." }
+      try {
+        const wrapper = JSON.parse(text);
+        json = typeof wrapper.contents === 'string' ? JSON.parse(wrapper.contents) : wrapper;
+      } catch {
+        json = JSON.parse(text);
+      }
+      if (json) break;
+    } catch(e) { continue; }
+  }
+
+  if (!json) {
+    list.innerHTML = `<div class="tg-empty" style="color:var(--red)">❌ فشل التحميل — جرب مصدراً آخر</div>`;
+    return;
+  }
+
+  try {
+    let rawApps = json.apps || json.Apps || json || [];
+    if (!Array.isArray(rawApps)) rawApps = Object.values(rawApps).filter(v => typeof v === 'object');
+    repoApps = rawApps.map(a => ({
+      name:     a.name || a.Name || a.title || '',
+      version:  a.version || a.Version || a.versions?.[0]?.version || '',
+      icon:     a.iconURL || a.icon || a.IconURL || a.iconUrl || a.artwork || '',
+      ipaUrl:   a.downloadURL || a.download_url || a.ipaURL || a.ipa_url || a.versions?.[0]?.downloadURL || '',
+      size:     a.size || a.fileSize || a.versions?.[0]?.size || '',
+      desc:     a.localizedDescription || a.description || a.Description || '',
+      bundleId: a.bundleIdentifier || a.bundle_id || a.bundleID || '',
+      category: guessCategory(a.name || ''),
+    })).filter(a => a.name && a.ipaUrl);
+    document.getElementById('repoCount').textContent = `${repoApps.length} تطبيق`;
+    document.getElementById('repoSearch').value = '';
+    renderRepoApps(repoApps);
+  } catch(e) {
+    list.innerHTML = `<div class="tg-empty" style="color:var(--red)">❌ خطأ في قراءة البيانات</div>`;
+  }
+}
+
+function guessCategory(name) {
+  const n = name.toLowerCase();
+  if (/instagram|twitter|telegram|whatsapp|snapchat|facebook|tiktok|discord|bereal|mastodon|signal|viber|skype/.test(n)) return 'تواصل';
+  if (/youtube|netflix|spotify|music|video|movie|tv|stream|plex|infuse|vlc|film|cinema|شاهد|سينما/.test(n)) return 'ترفيه';
+  if (/game|minecraft|pokemon|clash|pubg|fortnite|roblox|genshin|call of duty/.test(n)) return 'ألعاب';
+  if (/ai|gpt|claude|gemini|copilot|bard|chatbot/.test(n)) return 'ذكاء اصطناعي';
+  return 'أدوات';
+}
+
+function filterRepoApps() {
+  const q = document.getElementById('repoSearch').value.toLowerCase();
+  const filtered = q ? repoApps.filter(a => a.name.toLowerCase().includes(q) || a.desc.toLowerCase().includes(q) || a.bundleId.toLowerCase().includes(q)) : repoApps;
+  renderRepoApps(filtered);
+}
+
+function renderRepoApps(list) {
+  const el = document.getElementById('repoAppsList');
+  if (!list.length) { el.innerHTML = '<div class="tg-empty">😕 ما في نتائج</div>'; return; }
+  el.innerHTML = list.map((a, i) => {
+    const sizeStr = a.size ? (typeof a.size === 'number' ? (a.size/1024/1024).toFixed(1)+' MB' : a.size) : '';
+    const alreadyAdded = apps.some(x => x.name === a.name);
+    return `<div class="repo-app-item">
+      <img class="repo-app-icon" src="${a.icon}" onerror="this.style.display='none'" loading="lazy">
+      <div class="repo-app-info">
+        <div class="repo-app-name">${a.name}</div>
+        <div class="repo-app-meta">${a.version?'v'+a.version:''} ${sizeStr?'• '+sizeStr:''}</div>
+        ${a.desc?`<div class="repo-app-desc">${a.desc}</div>`:''}
+      </div>
+      <button class="repo-add-btn ${alreadyAdded?'added':''}" onclick="addRepoApp(${i},this)" ${alreadyAdded?'disabled':''}>
+        ${alreadyAdded?'✅':'＋ أضف'}
+      </button>
+    </div>`;
+  }).join('');
+}
+
+async function addRepoApp(i, btn) {
+  const a = repoApps[i];
+  if (!a || !settings.token) return toast('⚠️ اضبط إعدادات GitHub أولاً','err');
+  btn.disabled = true; btn.textContent = '⏳';
+  const sizeStr = a.size ? (typeof a.size === 'number' ? (a.size/1024/1024).toFixed(1)+' MB' : a.size) : '';
+  const app = {
+    id: 'app-'+Date.now(),
+    name: a.name, version: a.version||'1.0',
+    ipaUrl: a.ipaUrl, icon: a.icon||'',
+    size: sizeStr, note: a.desc||'',
+    bundleId: a.bundleId||'', category: a.category,
+    addedAt: new Date().toISOString().split('T')[0],
+  };
+  try {
+    apps.push(app);
+    await putFile('apps.json', JSON.stringify({apps},null,2), `Add ${a.name} from repo`);
+    renderTable(apps); updateStats();
+    btn.textContent = '✅'; btn.classList.add('added');
+    toast(`✅ تم إضافة ${a.name}`,'ok');
+  } catch(e) {
+    apps.pop(); btn.disabled = false; btn.textContent = '＋ أضف';
+    toast('❌ '+e.message,'err');
   }
 }
 
