@@ -426,7 +426,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
           <div id="ipaZoneContent">
             <div class="uz-icon">📦</div>
             <div class="uz-text">اضغط لاختيار ملف IPA أو اسحبه هنا</div>
-            <div class="uz-sub" id="ipaFileName">سيُرفع في مجلد ipa/ بالريبو (حد أقصى 99MB)</div>
+            <div class="uz-sub" id="ipaFileName">سيُرفع في مجلد ipa/ بالريبو (حد أقصى 300MB)</div>
           </div>
         </div>
         <div id="ipaUploadBar" style="display:none;margin-top:8px">
@@ -925,8 +925,8 @@ async function saveApp() {
   try {
     // ── 1. رفع IPA إذا اختار المستخدم ملف ──
     if (ipaFileToUpload) {
-      if (ipaFileToUpload.size > 99 * 1024 * 1024) {
-        throw new Error('حجم الملف أكبر من 99MB — ارفعه يدوياً على GitHub Releases وضع الرابط');
+      if (ipaFileToUpload.size > 300 * 1024 * 1024) {
+        throw new Error('حجم الملف أكبر من 300MB — ارفعه يدوياً على GitHub Releases وضع الرابط');
       }
       fill.style.width='10%';
       toast('📦 جاري رفع ملف IPA...','info');
@@ -1291,7 +1291,7 @@ function resetIpaZone() {
   zone.style.background = '';
   document.getElementById('ipaZoneContent').querySelector('.uz-text').textContent = 'اضغط لاختيار ملف IPA أو اسحبه هنا';
   document.getElementById('ipaZoneContent').querySelector('.uz-icon').textContent = '📦';
-  document.getElementById('ipaFileName').textContent = 'سيُرفع في مجلد ipa/ بالريبو (حد أقصى 99MB)';
+  document.getElementById('ipaFileName').textContent = 'سيُرفع في مجلد ipa/ بالريبو (حد أقصى 300MB)';
   document.getElementById('ipaUploadBar').style.display = 'none';
 }
 
