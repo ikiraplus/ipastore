@@ -219,6 +219,17 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773479699529",
+      "name": "[TG@sgbeta_ipa]TR__TE",
+      "version": "1.4.5",
+      "ipaUrl": "https://iparpoxy.rhomy1515.workers.dev/file/28",
+      "icon": "",
+      "size": "75.8 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
     }
   ]
 }
