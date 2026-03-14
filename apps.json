@@ -231,6 +231,17 @@
       "bundleId": "com.microblink.PhotoMath",
       "category": "أدوات",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773497492154",
+      "name": "Nicegram",
+      "version": "12.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Nicegram.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/36/b8/6f36b88a-aab5-ea1d-6ba7-bed9a20e2b9f/AppIconLLC-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "111.6 MB",
+      "note": "لتفعيل مميزات النسخه:\nالاعدادات - انزل للاسفل - اضغط على خانة ( اسأل سوالا) ضغطه مطوله",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
     }
   ]
 }
