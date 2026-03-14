@@ -286,6 +286,17 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773509189937",
+      "name": "collla note pro",
+      "version": "4.0.6",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/CollaNote.Pro.4.0.6.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/1c/3e/041c3ed1-af80-5091-445b-354fb7579c50/AppIcon-0-0-1x_U007emarketing-0-11-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
+      "size": "118.0 MB",
+      "note": "",
+      "category": "ذكاء اصطناعي",
+      "addedAt": "2026-03-14"
     }
   ]
 }
