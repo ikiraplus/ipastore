@@ -265,6 +265,17 @@
       "bundleId": "om.fingersoft.hillclimbracing",
       "category": "أدوات",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773498091935",
+      "name": "ime",
+      "version": "12.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Telegram.ime.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/4b/c4/5a4bc469-89db-25b2-5d65-5b9b0e57a296/iMe-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "150.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
     }
   ]
 }
