@@ -12,6 +12,17 @@
       "addedAt": "2026-03-15"
     },
     {
+      "id": "app-1773510581948",
+      "name": "Snapchat Plus",
+      "version": "13.88",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Snapchat.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/06/90/5f0690d1-64ae-7c67-8213-a99ce2f9a58c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "206.7 MB",
+      "note": "حسابك مسؤليتك .........",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
+    },
+    {
       "id": "app-1773402346513",
       "name": "بيكرام",
       "version": "419.0",
@@ -76,17 +87,6 @@
       "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
       "category": "ترفيه",
       "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510581948",
-      "name": "Snapchat Plus",
-      "version": "13.88",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Snapchat.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/06/90/5f0690d1-64ae-7c67-8213-a99ce2f9a58c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "206.7 MB",
-      "note": "حسابك مسؤليتك .........",
-      "category": "تواصل",
-      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773436028095",
