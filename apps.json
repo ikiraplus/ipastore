@@ -727,6 +727,17 @@
       "note": "",
       "category": "ذكاء اصطناعي",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773567925855",
+      "name": "Capcut pro",
+      "version": "12.4",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/CapCut.PRO.12.4.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/6e/75/9c6e75eb-5c0d-4df9-f619-00f420d49832/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "136.3 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
     }
   ]
 }
