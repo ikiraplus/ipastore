@@ -508,6 +508,18 @@
       "bundleId": "com.supercell.magic",
       "category": "ألعاب",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546788287",
+      "name": "VideoStar (Hacked)",
+      "version": "14.4.3",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/819",
+      "icon": "https://appstore.nabzclan.vip/images/1761373349.png",
+      "size": "523.1 MB",
+      "note": "Injected with Pro",
+      "bundleId": "com.frontierdesign.videostar",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15"
     }
   ]
 }
