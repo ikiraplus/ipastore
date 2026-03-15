@@ -166,6 +166,18 @@
       "addedAt": "2026-03-13"
     },
     {
+      "id": "app-1773574523577",
+      "name": "WhatsApp Business - Watusi",
+      "version": "25.35.72",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1867",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6902688a643b6.jpg",
+      "size": "122.7 MB",
+      "note": "Features:\r\n\r\n- Watusi",
+      "bundleId": "net.whatsapp.WhatsAppSMB",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
+    },
+    {
       "id": "app-1773497640216",
       "name": "Swiftgram",
       "version": "12.5",
@@ -195,17 +207,6 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/36/b8/6f36b88a-aab5-ea1d-6ba7-bed9a20e2b9f/AppIconLLC-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "size": "111.6 MB",
       "note": "لتفعيل مميزات النسخه:\nالاعدادات - انزل للاسفل - اضغط على خانة ( اسأل سوالا) ضغطه مطوله",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510353911",
-      "name": "Lingogram",
-      "version": "11.12",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Lingogram.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/8b/1b/128b1b13-203c-9e59-712f-8f0e3dffd8f7/AppIconLLC-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "74.1 MB",
-      "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-14"
     },
@@ -254,6 +255,17 @@
       "addedAt": "2026-03-15"
     },
     {
+      "id": "app-1773510353911",
+      "name": "Lingogram",
+      "version": "11.12",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Lingogram.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/8b/1b/128b1b13-203c-9e59-712f-8f0e3dffd8f7/AppIconLLC-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "74.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
+    },
+    {
       "id": "app-1773436350178",
       "name": "Facebook Glow",
       "version": "551.1",
@@ -274,18 +286,6 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773574523577",
-      "name": "WhatsApp Business - Watusi",
-      "version": "25.35.72",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1867",
-      "icon": "https://appstore.nabzclan.vip/images/icon_6902688a643b6.jpg",
-      "size": "122.7 MB",
-      "note": "Features:\r\n\r\n- Watusi",
-      "bundleId": "net.whatsapp.WhatsAppSMB",
-      "category": "تواصل",
-      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773436444365",
