@@ -45,6 +45,17 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773226791309",
+      "name": "سينمانا",
+      "version": "4.6.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
+      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
+      "size": "45 MB",
+      "note": "التطبيق لا يدعم التحميل الا بعد ربط شهادتك بالنسخة برمجياُ\nتواصل معي لربط شهادتك بالنسخة واضافة خاصيه التحميل",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15"
+    },
+    {
       "id": "app-1773402346513",
       "name": "بيكرام",
       "version": "419.0",
@@ -75,17 +86,6 @@
       "size": "233.1 MB",
       "note": "لتفعيل مميزات النسخة : \n- اضغط على زر الـبروفايل وستجيد ايقونة الريشه اضغط عليها وتفتح معك المميزات",
       "category": "تواصل",
-      "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773226791309",
-      "name": "سينمانا",
-      "version": "4.6.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
-      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
-      "size": "45 MB",
-      "note": "التطبيق لا يدعم التحميل الا بعد ربط شهادتك بالنسخة برمجياُ\nتواصل معي لربط شهادتك بالنسخة واضافة خاصيه التحميل",
-      "category": "ترفيه",
       "addedAt": "2026-03-15"
     },
     {
