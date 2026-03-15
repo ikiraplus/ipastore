@@ -168,13 +168,21 @@ body{
 }
 
 .app-info{flex:1;min-width:0}
-.app-name{font-size:15px;font-weight:900;color:var(--text);margin-bottom:3px;
+.app-name-row{display:flex;align-items:center;gap:6px;margin-bottom:3px;flex-wrap:wrap}
+.app-name{font-size:15px;font-weight:900;color:var(--text);
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.name-cat-badge{
+  display:inline-flex;align-items:center;flex-shrink:0;
+  padding:1px 7px;border-radius:4px;font-size:9px;font-weight:700;
+  font-family:var(--sans);
+  background:rgba(56,189,248,0.1);color:var(--blue);border:1px solid rgba(56,189,248,0.2);
+  white-space:nowrap;
+}
 .app-meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .meta-tag{
   display:inline-flex;align-items:center;
   padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;
-  font-family:var(--mono);
+  font-family:var(--sans);
 }
 .tag-cat{background:rgba(56,189,248,0.1);color:var(--blue);border:1px solid rgba(56,189,248,0.2)}
 .tag-ver{background:rgba(34,211,165,0.1);color:var(--green);border:1px solid rgba(34,211,165,0.2)}
@@ -435,7 +443,7 @@ async function loadApps() {
 }
 
 /* ══ FILTERS ══ */
-const catIcons = {'الكل':'🌐','تواصل':'💬','ترفيه':'🎬','أدوات':'🔧','ذكاء اصطناعي':'🤖','ألعاب':'🎮','أخرى':'📦'};
+const catIcons = {'الكل':'🌐','تواصل':'💬','ترفيه':'🎬','أدوات':'🔧','دراسة وذكاء اصطناعي':'🤖','ألعاب':'🎮','أخرى':'📦'};
 
 function buildFilters() {
   const cats = ['الكل', ...new Set(allApps.map(a => a.category || 'أخرى'))];
@@ -480,9 +488,11 @@ function renderGrid(list) {
             : `<div class="icon-placeholder">📱</div>`}
         </div>
         <div class="app-info">
-          <div class="app-name">${app.name}</div>
+          <div class="app-name-row">
+            <div class="app-name">${app.name}</div>
+            <span class="name-cat-badge">${catIcons[app.category]||'📦'} ${app.category||'أخرى'}</span>
+          </div>
           <div class="app-meta">
-            <span class="meta-tag tag-cat">${catIcons[app.category]||'📦'} ${app.category||'أخرى'}</span>
             <span class="meta-tag tag-ver">v${app.version||'1.0'}</span>
             ${app.size ? `<span class="meta-tag tag-size">${app.size}</span>` : ''}
           </div>
