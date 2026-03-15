@@ -893,7 +893,8 @@ async function loadApps() {
     if(data) {
       apps = JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g,''))))).apps || [];
     } else { apps=[]; }
-    renderTable(apps);
+    const _lf = activeCat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === activeCat);
+    renderTable(_lf);
     updateStats();
     toast('✅ تم التحميل','ok');
   } catch(e) { toast('❌ '+e.message,'err'); }
@@ -1148,7 +1149,9 @@ async function saveApp() {
     setTimeout(()=>{ bar.style.display='none'; fill.style.width='0%'; },600);
     ipaFileToUpload = null;
     resetIpaZone();
-    renderTable(apps); updateStats();
+    // أبقِ نفس الفلتر النشط بعد الحفظ
+    const filtered = activeCat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === activeCat);
+    renderTable(filtered); updateStats();
     closeModal('appModal');
     toast('✅ تم الرفع على GitHub!','ok');
   } catch(e) {
@@ -1171,7 +1174,8 @@ async function delApp(id) {
     toast('⏳ جاري الحذف...','info');
     apps = apps.filter(a=>a.id!==id);
     await putFile('apps.json', JSON.stringify({apps},null,2), `Remove ${id}`);
-    renderTable(apps); updateStats();
+    const filtered = activeCat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === activeCat);
+    renderTable(filtered); updateStats();
     toast('🗑️ تم الحذف','ok');
   } catch(e) { toast('❌ '+e.message,'err'); }
 }
@@ -1648,7 +1652,7 @@ async function saveTgApp() {
     toast('📦 جاري الحفظ...', 'info');
     apps.push(app);
     await putFile('apps.json', JSON.stringify({ apps }, null, 2), `Add ${name} from Telegram`);
-    renderTable(apps); updateStats();
+    const _f = activeCat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === activeCat); renderTable(_f); updateStats();
     closeModal('tgModal');
     toast('✅ تم نشر التطبيق!', 'ok');
   } catch(e) {
@@ -1778,7 +1782,7 @@ async function addRepoApp(i, btn) {
   try {
     apps.push(app);
     await putFile('apps.json', JSON.stringify({apps},null,2), `Add ${a.name} from repo`);
-    renderTable(apps); updateStats();
+    const _f = activeCat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === activeCat); renderTable(_f); updateStats();
     btn.textContent = '✅'; btn.classList.add('added');
     toast(`✅ تم إضافة ${a.name}`,'ok');
   } catch(e) {
