@@ -496,6 +496,18 @@
       "bundleId": "com.supercell.scroll",
       "category": "ألعاب",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546781256",
+      "name": "Clash of Clans -nulls clash",
+      "version": "18.0.2",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1860",
+      "icon": "https://appstore.nabzclan.vip/images/icon_69025ca07aed7.jpg",
+      "size": "359.1 MB",
+      "note": "Private server that allows you to create and build keep in mind this doesn’t actually save",
+      "bundleId": "com.supercell.magic",
+      "category": "ألعاب",
+      "addedAt": "2026-03-15"
     }
   ]
 }
