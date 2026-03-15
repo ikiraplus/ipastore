@@ -343,10 +343,10 @@ body{
   <div class="header">
     <div class="logo-row">
       <div class="logo-dot"></div>
-      <span class="logo-text">IPA STORE v2.0</span>
+      <a href="https://t.me/iKiraPlus" target="_blank" class="logo-text" style="text-decoration:none;color:var(--blue)">IPA STORE v1.0</a>
     </div>
     <h1>متجر تحميل التطبيقات</h1>
-    <p>حمّل ملفات IPA مباشرةً على جهازك<br>وثبّتها عبر AltStore أو Sideloadly</p>
+    <p>حمّل ملفات IPA في جهازك وثبّتها باستخدام برنامج<br><strong>Ksign</strong> أو <strong>Gbox</strong> أو بوتات التثبيت باستخدام شهادتك الخاصة.</p>
   </div>
 
   <!-- STATS -->
@@ -355,13 +355,13 @@ body{
       <div class="sv" id="statTotal">—</div>
       <div class="sl">تطبيق</div>
     </div>
-    <div class="stat-pill">
-      <div class="sv" id="statCats">—</div>
-      <div class="sl">تصنيف</div>
+    <div class="stat-pill" style="cursor:pointer" onclick="window.open('https://t.me/iDyala','_blank')">
+      <div class="sv" id="statCats" style="display:none"></div>
+      <div class="sl" style="color:var(--green);font-size:13px;font-weight:900">اطلب تطبيق أو لعبة</div>
     </div>
-    <div class="stat-pill">
-      <div class="sv" style="color:var(--green)" id="statStatus">⏳</div>
-      <div class="sl">الحالة</div>
+    <div class="stat-pill" style="cursor:pointer" onclick="window.open('https://t.me/iKira18','_blank')">
+      <div class="sv" id="statStatus" style="display:none"></div>
+      <div class="sl" style="color:var(--yellow);font-size:13px;font-weight:900">شراء شهادة</div>
     </div>
   </div>
 
@@ -388,15 +388,39 @@ body{
 
   <!-- NOTE -->
   <div class="bottom-note" style="margin-top:16px">
-    <strong>📌 كيف تثبّت الـ IPA بعد التحميل؟</strong><br>
-    ١. حمّل التطبيق — سيظهر كملف <span style="font-family:var(--mono);color:var(--yellow)">.ipa</span> في جهازك<br>
-    ٢. افتح <strong>AltStore</strong> أو <strong>Sideloadly</strong> على الكمبيوتر<br>
-    ٣. اسحب الملف وثبّته على آيفونك ✅
+    <strong>📌 كيف تثبّت ملف الـ IPA بعد التحميل؟</strong>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px">
+      <!-- الطريقة الأولى -->
+      <div style="background:rgba(56,189,248,0.05);border:1px solid rgba(56,189,248,0.15);border-radius:10px;padding:12px">
+        <div style="color:var(--blue);font-weight:900;margin-bottom:8px;font-size:12px">الطريقة الأولى</div>
+        <div style="font-size:11px;line-height:2;color:var(--text2)">
+          ١- تأكد أنك تمتلك شهادة مدفوعة.<br>
+          ٢- افتح الملف وقم بمشاركته لأي برنامج توقيع مثل <strong style="color:var(--yellow)">Ksign</strong> أو <strong style="color:var(--yellow)">Gbox</strong> أو <strong style="color:var(--yellow)">Esign</strong> أو غيرها.<br>
+          ٣- سيفتح الملف في التطبيق، اضغط عليه واختر <strong>(توقيع وتثبيت)</strong> أو <strong>Sign & Install</strong>.
+        </div>
+      </div>
+      <!-- الطريقة الثانية -->
+      <div style="background:rgba(34,211,165,0.05);border:1px solid rgba(34,211,165,0.15);border-radius:10px;padding:12px">
+        <div style="color:var(--green);font-weight:900;margin-bottom:8px;font-size:12px">الطريقة الثانية</div>
+        <div style="font-size:11px;line-height:2;color:var(--text2)">
+          ١- اذهب لهذا البوت <a href="https://t.me/ipasignxbot" target="_blank" style="color:var(--cyan);font-weight:900;text-decoration:none">@ipasignxbot</a>.<br>
+          ٢- اضغط <strong>Add IPA</strong>.<br>
+          ٣- اضغط <strong>Add Cert</strong> وأضف ملفات شهادتك والباسورد.<br>
+          ٤- أرسل للبوت ملف الـ IPA واضغط <strong>Sign</strong>.<br>
+          ٥- بعدها اضغط <strong>Install</strong> ثم <strong>Install Now</strong>.
+        </div>
+      </div>
+    </div>
   </div>
-
 
   <a class="tg-btn" href="https://t.me/ikira18" target="_blank">
     💬 واجهتك مشكلة؟ تواصل معنا
+  </a>
+
+  <!-- DESIGNER CREDIT -->
+  <a href="https://t.me/iDyala" target="_blank" style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px;text-decoration:none;opacity:.7;transition:opacity .2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.7'">
+    <img src="https://i.ibb.co/G33RGgsF/IMG-6850.jpg" style="width:28px;height:28px;border-radius:50%;object-fit:cover;border:1px solid var(--border)">
+    <span style="font-size:11px;color:var(--text2);font-family:var(--sans)">Website designed by <strong style="color:var(--blue)">Dyala Youssif</strong></span>
   </a>
 
 </div>
@@ -430,15 +454,12 @@ async function loadApps() {
     buildFilters();
     filterRender();
     document.getElementById('statTotal').textContent = allApps.length;
-    document.getElementById('statCats').textContent = new Set(allApps.map(a => a.category || 'أخرى')).size;
-    document.getElementById('statStatus').textContent = '✅';
   } catch(e) {
     document.getElementById('appsGrid').innerHTML = `
       <div class="empty">
         <span class="big">⚙️</span>
         <p>افتح <code>index.html</code> وعدّل<br><code>GITHUB_OWNER</code> و <code>WORKER_URL</code></p>
       </div>`;
-    document.getElementById('statStatus').textContent = '❌';
   }
 }
 
