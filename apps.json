@@ -300,15 +300,15 @@
       "addedAt": "2026-03-13"
     },
     {
-      "id": "app-1773497717716",
-      "name": "Hill Climb Racing",
-      "version": "1.64.5",
-      "ipaUrl": "https://file-to-link-nx-ccf8d5eda5c0.herokuapp.com/dl/67be6b96a4c0b89c735047e6",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/ea/66/e0ea66da-6969-88dc-2ce4-0997b85a5b3e/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
-      "size": "106.8 MB",
-      "note": "Get updated version from zx's AIO repo.",
+      "id": "app-1773546889028",
+      "name": "Red Dead Redemption (free paid)",
+      "version": "1.50",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1970",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6995f4cf7744b.jpg",
+      "size": "2749.7 MB",
+      "note": "This app is an App Store paid app now free on the nabzclan App Store - When federal agents threaten his family, former outlaw John Marston is forced to hunt down the gang of criminals he once called friends. Experience Marston’s journey across the sprawling expanses of the American West and Mexico as he fights to bury his blood-stained past in the critically acclaimed predecessor to the 2018 blockbuster, Red Dead Redemption 2.\n\n --- \n\n More app Information:\n\n Category: Free Paid Apps\n\n BundleID: com.rockstargames.rdr\n\n Downloads: 0\n\n Latest app store version: null",
       "category": "ألعاب",
-      "addedAt": "2026-03-14"
+      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773508897375",
@@ -487,6 +487,17 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773497717716",
+      "name": "Hill Climb Racing",
+      "version": "1.64.5",
+      "ipaUrl": "https://file-to-link-nx-ccf8d5eda5c0.herokuapp.com/dl/67be6b96a4c0b89c735047e6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/ea/66/e0ea66da-6969-88dc-2ce4-0997b85a5b3e/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
+      "size": "106.8 MB",
+      "note": "Get updated version from zx's AIO repo.",
+      "category": "ألعاب",
+      "addedAt": "2026-03-14"
+    },
+    {
       "id": "app-1773546764372",
       "name": "Clash Royale - nulls royal",
       "version": "13.300.6",
@@ -495,18 +506,6 @@
       "size": "1015.1 MB",
       "note": "Private game server",
       "bundleId": "com.supercell.scroll",
-      "category": "ألعاب",
-      "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773546781256",
-      "name": "Clash of Clans -nulls clash",
-      "version": "18.0.2",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1860",
-      "icon": "https://appstore.nabzclan.vip/images/icon_69025ca07aed7.jpg",
-      "size": "359.1 MB",
-      "note": "Private server that allows you to create and build keep in mind this doesn’t actually save",
-      "bundleId": "com.supercell.magic",
       "category": "ألعاب",
       "addedAt": "2026-03-15"
     },
@@ -533,13 +532,14 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773546889028",
-      "name": "Red Dead Redemption (free paid)",
-      "version": "1.50",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1970",
-      "icon": "https://appstore.nabzclan.vip/images/icon_6995f4cf7744b.jpg",
-      "size": "2749.7 MB",
-      "note": "This app is an App Store paid app now free on the nabzclan App Store - When federal agents threaten his family, former outlaw John Marston is forced to hunt down the gang of criminals he once called friends. Experience Marston’s journey across the sprawling expanses of the American West and Mexico as he fights to bury his blood-stained past in the critically acclaimed predecessor to the 2018 blockbuster, Red Dead Redemption 2.\n\n --- \n\n More app Information:\n\n Category: Free Paid Apps\n\n BundleID: com.rockstargames.rdr\n\n Downloads: 0\n\n Latest app store version: null",
+      "id": "app-1773546781256",
+      "name": "Clash of Clans -nulls clash",
+      "version": "18.0.2",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1860",
+      "icon": "https://appstore.nabzclan.vip/images/icon_69025ca07aed7.jpg",
+      "size": "359.1 MB",
+      "note": "Private server that allows you to create and build keep in mind this doesn’t actually save",
+      "bundleId": "com.supercell.magic",
       "category": "ألعاب",
       "addedAt": "2026-03-15"
     },
