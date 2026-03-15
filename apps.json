@@ -23,6 +23,17 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773436028095",
+      "name": "WhatsApp Gold",
+      "version": "26.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/WhatsApp.Gold.ipa",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
+      "size": "112.7 MB",
+      "note": "سجل بالنسخة كجهاز مصاحب فقطططط.",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
+    },
+    {
       "id": "app-1773436098791",
       "name": "Watusi",
       "version": "26.3.1",
@@ -97,17 +108,6 @@
       "size": "42 MB",
       "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
       "category": "ترفيه",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773436028095",
-      "name": "WhatsApp Gold",
-      "version": "26.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/WhatsApp.Gold.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
-      "size": "112.7 MB",
-      "note": "سجل بالنسخة كجهاز مصاحب فقطططط.",
-      "category": "تواصل",
       "addedAt": "2026-03-14"
     },
     {
