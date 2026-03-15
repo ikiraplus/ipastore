@@ -309,6 +309,8 @@ body.light .f-btn.active { color: #fff; }
   border-top:1px solid var(--glass-border);
   font-size:13px;color:var(--text2);line-height:1.8;
   border-right:3px solid var(--blue);
+  white-space:pre-wrap;
+  word-break:break-word;
   animation:slideDown .3s var(--ease) both;
 }
 .details-panel.open{display:block}
@@ -360,14 +362,89 @@ body.light .f-btn.active { color: #fff; }
 #toast.err{border-left: 4px solid var(--red)}
 
 /* ══ RESPONSIVE ══ */
+/* Mobile */
 @media(max-width:480px){
-  .card-body{flex-direction: column; align-items: stretch; gap: 12px;}
-  .app-icon{width:50px;height:50px; margin: 0 auto;}
-  .app-info {text-align: center;}
-  .app-name-row {justify-content: center;}
-  .app-meta {justify-content: center;}
-  .btn-row {justify-content: center;}
-  .note-grid {grid-template-columns: 1fr;}
+  .wrap{padding:12px 10px}
+  .card-body{flex-direction:column;align-items:stretch;gap:12px}
+  .app-icon{width:50px;height:50px;margin:0 auto}
+  .app-info{text-align:center}
+  .app-name-row{justify-content:center}
+  .app-meta{justify-content:center}
+  .btn-row{justify-content:center}
+  .note-grid{grid-template-columns:1fr}
+  .stats-bar{gap:8px}
+  .stat-pill{padding:10px 8px}
+  h1{font-size:20px}
+}
+/* Tablet */
+@media(min-width:481px) and (max-width:768px){
+  .wrap{max-width:600px;padding:16px 14px}
+  .note-grid{grid-template-columns:1fr 1fr}
+}
+/* Laptop */
+@media(min-width:769px) and (max-width:1200px){
+  .wrap{max-width:680px}
+}
+/* Large screens */
+@media(min-width:1201px){
+  .wrap{max-width:800px}
+  .app-card{transition:transform .2s var(--bounce),box-shadow .2s}
+  .app-card:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(56,189,248,0.15)}
+}
+/* iPad landscape */
+@media(min-width:768px) and (max-width:1024px) and (orientation:landscape){
+  .wrap{max-width:700px}
+}
+/* Prevent horizontal scroll on all devices */
+html,body{overflow-x:hidden;width:100%}
+img{max-width:100%}
+
+/* ══ EXTRA VISUAL EFFECTS ══ */
+/* shimmer on app-icon */
+.app-icon img{transition:transform .3s var(--bounce),filter .3s}
+.app-card:hover .app-icon img{transform:scale(1.08);filter:brightness(1.1)}
+
+/* glow on download button */
+.dl-btn{
+  position:relative;overflow:hidden;
+}
+.dl-btn::after{
+  content:'';position:absolute;top:-50%;left:-60%;width:40%;height:200%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.15),transparent);
+  transform:skewX(-20deg);transition:left .5s ease;
+}
+.dl-btn:hover::after{left:130%}
+
+/* pulse ring on logo-dot */
+.logo-dot{
+  position:relative;
+}
+.logo-dot::after{
+  content:'';position:absolute;inset:-4px;border-radius:50%;
+  border:2px solid var(--blue);opacity:0;
+  animation:dotPulse 2s ease infinite;
+}
+@keyframes dotPulse{
+  0%{opacity:.6;transform:scale(1)}
+  100%{opacity:0;transform:scale(2.2)}
+}
+
+/* card border glow on hover */
+.app-card{
+  transition:border-color .25s,box-shadow .25s,transform .2s var(--bounce);
+}
+.app-card:hover{
+  border-color:rgba(56,189,248,0.3);
+  box-shadow:0 8px 30px rgba(56,189,248,0.1);
+}
+
+/* filter btn active shimmer */
+.f-btn.active{
+  animation:activePulse 3s ease infinite;
+}
+@keyframes activePulse{
+  0%,100%{box-shadow:0 0 0 0 rgba(56,189,248,0)}
+  50%{box-shadow:0 0 12px 2px rgba(56,189,248,0.2)}
 }
 </style>
 </head>
@@ -475,6 +552,24 @@ let toastTimer;
 const PAGE_SIZE = 10;
 let shownCount = PAGE_SIZE;
 
+// ترتيب مستقل لكل قسم — محفوظ في localStorage
+function getCatOrder(cat) {
+  try { return JSON.parse(localStorage.getItem('order_' + cat) || 'null'); } catch { return null; }
+}
+function saveCatOrder(cat, ids) {
+  localStorage.setItem('order_' + cat, JSON.stringify(ids));
+}
+function applyOrder(list, cat) {
+  if (cat === 'الكل') return list; // الكل يعرض الترتيب الأصلي
+  const order = getCatOrder(cat);
+  if (!order) return list;
+  const map = Object.fromEntries(list.map(a => [a.id, a]));
+  const ordered = order.map(id => map[id]).filter(Boolean);
+  // أضف أي تطبيقات جديدة ما موجودة بالترتيب المحفوظ
+  const newApps = list.filter(a => !order.includes(a.id));
+  return [...ordered, ...newApps];
+}
+
 /* ══ INIT ══ */
 window.onload = loadApps;
 
@@ -520,6 +615,8 @@ function filterRender() {
   let list = allApps;
   if (activeFilter !== 'الكل') list = list.filter(a => (a.category||'أخرى') === activeFilter);
   if (q) list = list.filter(a => a.name.toLowerCase().includes(q) || (a.description||'').toLowerCase().includes(q));
+  // طبّق الترتيب المستقل للقسم
+  list = applyOrder(list, activeFilter);
   renderGrid(list);
 }
 
