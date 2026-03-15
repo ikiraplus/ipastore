@@ -616,6 +616,18 @@
       "bundleId": "",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546912837",
+      "name": "X - Twitter BHX",
+      "version": "11.46",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1865",
+      "icon": "https://appstore.nabzclan.vip/images/icon_690267b01bf46.jpg",
+      "size": "154.3 MB",
+      "note": "General Enhancements\r\nDownload videos (even from private accounts)\r\nLoad photos in highest quality available\r\nSave Tweets as images\r\nUndo Tweet\r\nEnable voice Tweets & voice messages in DM\r\nEnable new DM search UI\r\nUI Customization\r\nCustom tab bar\r\nThemes (like Twitter Blue)\r\nApp icon changer\r\nFont changer\r\nPadlock\r\nDisable edge-to-edge Tweet style\r\nAlways open in Safari\r\nHide Spaces bar\r\nHide topics Tweets\r\nNo history feature\r\nDisable RTL (Right-To-Left)\r\nDisable video layer caption\r\nInteraction & Behavior\r\nTwitter Circle feature\r\nCopy profile information\r\nTranslate bio\r\nConfirm alerts on:\r\nTweet\r\nLike\r\nFollow\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
+      "bundleId": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
     }
   ]
 }
