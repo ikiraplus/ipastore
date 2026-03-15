@@ -1,17 +1,6 @@
 {
   "apps": [
     {
-      "id": "app-1773226791309",
-      "name": "سينمانا",
-      "version": "4.6.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
-      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
-      "size": "45MB",
-      "note": "ببثب",
-      "category": "ترفيه",
-      "addedAt": "2026-03-12"
-    },
-    {
       "id": "app-1773401165477",
       "name": "ريكرام",
       "version": "419.0",
@@ -23,59 +12,15 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773435439784",
-      "name": "Tiktok LRD",
-      "version": "43.4.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/tiktok.LRD.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "344.8 MB",
-      "note": "اضفط على ايقونة Home  بقوة لفتح المميزات.",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510581948",
-      "name": "Snapchat Plus",
-      "version": "13.88",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Snapchat.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/06/90/5f0690d1-64ae-7c67-8213-a99ce2f9a58c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "206.7 MB",
-      "note": "حسابك مسؤليتك .........",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773436028095",
-      "name": "WhatsApp Gold",
-      "version": "26.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/WhatsApp.Gold.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
-      "size": "112.7 MB",
-      "note": "سجل بالنسخة كجهاز مصاحب فقطططط.",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773512283014",
-      "name": "Telegram Dark",
-      "version": "12.5",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Teledark.12.5.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773512283014.png",
-      "size": "72.5 MB",
-      "note": "لا تعمل به الاشعارت",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773437414953",
-      "name": "Minecraft",
-      "version": "1.26.1",
-      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3059/ProBotz_1773437130.mkv?hash=AgADZR",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/ee/ac/28eeaccb-af5b-ec8a-3091-a76991a65264/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
-      "size": "505 MB",
-      "note": "ملاحظة/ النسخة لا تدعم التسجيل بحساب اكسبوكس.",
-      "category": "ألعاب",
-      "addedAt": "2026-03-13"
+      "id": "app-1773226791309",
+      "name": "سينمانا",
+      "version": "4.6.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
+      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
+      "size": "45MB",
+      "note": "ببثب",
+      "category": "ترفيه",
+      "addedAt": "2026-03-12"
     },
     {
       "id": "air-movie",
@@ -133,6 +78,17 @@
       "addedAt": "2026-03-13"
     },
     {
+      "id": "app-1773435439784",
+      "name": "Tiktok LRD",
+      "version": "43.4.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/tiktok.LRD.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "size": "344.8 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
       "id": "app-1773435499722",
       "name": "Tiktok DX",
       "version": "44.3.2",
@@ -150,6 +106,17 @@
       "ipaUrl": "https://github.com/6gr8/VibeTok/releases/download/VibeTok/VibeTokV1.72.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "size": "360.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
+      "id": "app-1773436028095",
+      "name": "WhatsApp Gold",
+      "version": "26.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/WhatsApp.Gold.ipa",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
+      "size": "112.7 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
@@ -232,6 +199,17 @@
       "addedAt": "2026-03-13"
     },
     {
+      "id": "app-1773437414953",
+      "name": "Minecraft",
+      "version": "1.26.1",
+      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3059/ProBotz_1773437130.mkv?hash=AgADZR",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/ee/ac/28eeaccb-af5b-ec8a-3091-a76991a65264/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "size": "505 MB",
+      "note": "ملاحظة/ النسخة لا تدعم التسجيل بحساب اكسبوكس.",
+      "category": "ألعاب",
+      "addedAt": "2026-03-13"
+    },
+    {
       "id": "app-1773437480214",
       "name": "HiTv Pro",
       "version": "2.7.1",
@@ -255,17 +233,6 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773497640216",
-      "name": "Swiftgram",
-      "version": "12.5",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Swiftgram.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/d5/fa/c1d5faba-f9f3-2b37-959b-4e69452bb301/Swiftgram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "76.0 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
       "id": "app-1773497492154",
       "name": "Nicegram",
       "version": "12.2",
@@ -277,23 +244,12 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773498091935",
-      "name": "ime",
-      "version": "12.2",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Telegram.ime.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/4b/c4/5a4bc469-89db-25b2-5d65-5b9b0e57a296/iMe-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "150.4 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510353911",
-      "name": "Lingogram",
-      "version": "11.12",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Lingogram.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/8b/1b/128b1b13-203c-9e59-712f-8f0e3dffd8f7/AppIconLLC-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "74.1 MB",
+      "id": "app-1773497640216",
+      "name": "Swiftgram",
+      "version": "12.5",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Swiftgram.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/d5/fa/c1d5faba-f9f3-2b37-959b-4e69452bb301/Swiftgram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "76.0 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-14"
@@ -310,179 +266,14 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773508897375",
-      "name": "Rodjo",
-      "version": "2.4",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Rodjo.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/76/1f/9d761f97-0595-d5ea-6e2e-688ea8dd3bf0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "13.9 MB",
+      "id": "app-1773498091935",
+      "name": "ime",
+      "version": "12.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Telegram.ime.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/4b/c4/5a4bc469-89db-25b2-5d65-5b9b0e57a296/iMe-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "150.4 MB",
       "note": "",
       "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773509189937",
-      "name": "collla note pro",
-      "version": "4.0.6",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/CollaNote.Pro.4.0.6.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/1c/3e/041c3ed1-af80-5091-445b-354fb7579c50/AppIcon-0-0-1x_U007emarketing-0-11-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
-      "size": "118.0 MB",
-      "note": "",
-      "category": "ذكاء اصطناعي",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773509627631",
-      "name": "mojo pro",
-      "version": "1.260",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Mojo.Pro.1.260.0.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/26/db/3226db82-75b1-ca84-8b56-4d6f94ce9932/AppIcon-AppStore-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "size": "176.6 MB",
-      "note": "",
-      "category": "أدوات",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773509724484",
-      "name": "Alight Motion",
-      "version": "4.8",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Alight.Motion.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/9b/92/2d9b9214-e9c0-64a0-382c-1470cc96a3c0/AppIcon-0-0-1x_U007emarketing-0-5-0-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "96.2 MB",
-      "note": "",
-      "category": "أدوات",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773509781841",
-      "name": "picsart pro",
-      "version": "29.4.2",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Picsart.Pro.29.4.2.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/af/12/9caf1214-1f7d-bdbb-d37e-0487be5ebba0/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "95.1 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773509863438",
-      "name": "buz tv pro",
-      "version": "1.2.11",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Buz.TV_1.2.11.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "16.4 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510045224",
-      "name": "Netflix - مقلد",
-      "version": "1.4",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Netflix.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510045224.png",
-      "size": "32.2 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510137674",
-      "name": "Threads",
-      "version": "420.0",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Threads_420.0.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/75/54/af7554a0-f3ac-d1b8-a0d7-6f9f791f64fc/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
-      "size": "83.1 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510255249",
-      "name": "Anime Cloud",
-      "version": "6.5",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Anime.Cloud.6.5.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "7.3 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510394623",
-      "name": "Gbox",
-      "version": "1.6",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Gbox.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510394623.png",
-      "size": "18.4 MB",
-      "note": "",
-      "category": "أخرى",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773511219130",
-      "name": "Esign",
-      "version": "1.8",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Esign.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773511219130.png",
-      "size": "18.0 MB",
-      "note": "",
-      "category": "أخرى",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773511257862",
-      "name": "Ksign",
-      "version": "1.8",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Ksign.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773511257862.png",
-      "size": "10.3 MB",
-      "note": "",
-      "category": "أخرى",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773511362148",
-      "name": "pinterest pro",
-      "version": "14.8",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Pinterest_14.8.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/a5/d6/43a5d6ef-f21d-50df-519f-2dc707acadf1/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "114.3 MB",
-      "note": "",
-      "category": "أدوات",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773511422450",
-      "name": "Notability Plus",
-      "version": "15.0.6",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Notability.Plus.15.0.6.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/07/23/fd072319-e32b-19f8-4d40-1861857527f0/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "154.3 MB",
-      "note": "",
-      "category": "ذكاء اصطناعي",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773511677771",
-      "name": "Adobe Photoshop pro",
-      "version": "7.4",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Adobe.Photoshop.Pro.7.4.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/bf/d1/5fbfd11e-cf26-b8a3-9203-3a00087a8b37/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "252.2 MB",
-      "note": "",
-      "category": "أدوات",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773511774575",
-      "name": "Inshot",
-      "version": "1.94.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/InShot.-.v1.94.1.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/0e/2e/960e2e57-c750-d516-bfc9-a171c4cc0023/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "116.2 MB",
-      "note": "",
-      "category": "أدوات",
       "addedAt": "2026-03-14"
     }
   ]
