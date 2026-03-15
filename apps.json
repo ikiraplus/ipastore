@@ -757,6 +757,18 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773573983434",
+      "name": "Happy Chick",
+      "version": "1.5",
+      "ipaUrl": "https://file.dlninja.com/signed/a117/happychick.ipa",
+      "icon": "https://operationidroid.com/assets/img/happychick-icon.jpg",
+      "size": "280.0 MB",
+      "note": "Happy Chick is a multi-platform emulator for iOS supporting Nintendo, Sega, Sony, Atari, NEC, SNK, and Bandai console systems. This all-in-one application that allows you to play classic games on your iPhone, iPad or iPod Touch.",
+      "bundleId": "com.inj.happychick",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
