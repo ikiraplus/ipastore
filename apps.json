@@ -913,6 +913,18 @@
       "bundleId": "com.codebysms",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773574707185",
+      "name": "AndalusiDesign",
+      "version": "8.5.1",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1679",
+      "icon": "https://appstore.nabzclan.vip/images/1761380474.png",
+      "size": "142.5 MB",
+      "note": "Injected with Pro",
+      "bundleId": "com.AppChief.ArabicArt",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
