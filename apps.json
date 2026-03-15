@@ -676,6 +676,18 @@
       "bundleId": "",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773547000504",
+      "name": "PPSSPP Gold",
+      "version": "Last",
+      "ipaUrl": "https://github.com/ehmedjamil/repo/releases/download/repo/ppssppgold.ipa",
+      "icon": "https://ittza7aa.com/aseets/icon/ppssppgold.png",
+      "size": "",
+      "note": "Pro Unlocked",
+      "bundleId": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
