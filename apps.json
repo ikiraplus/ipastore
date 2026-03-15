@@ -700,6 +700,18 @@
       "bundleId": "",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773547011458",
+      "name": "Truecaller",
+      "version": "12.65.5",
+      "ipaUrl": "https://github.com/karbin98/karbin-ipa/releases/download/karbin-ipa/Truecaller.12.65.5.ipa",
+      "icon": "https://github.com/karbin98/karbin-image/releases/download/karbin-image/Truecaller.jpg",
+      "size": "87.2 MB",
+      "note": "⚙️تایبەتمەندیەکانی بەرنامەکە⚙️ \n\n شاشەی پەیوەندی پیشەیی و گرافیکی ✅\n توانای زیادکردنی ژمارەی تایبەت بۆ داتابەیسی پەیوەندی ✅\n کۆپی ژمارەی پەیوەندی لە هەر بەرنامەیەکەوە ✅\n پەیوەندی ڕاستەوخۆ لە ڕێگەی ئەپەوە بکە ✅",
+      "bundleId": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
