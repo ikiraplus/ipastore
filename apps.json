@@ -178,6 +178,17 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773596873141",
+      "name": "Turrit",
+      "version": "12.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Turrit.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/4f/43/d94f43ed-0cb5-d9a5-f50f-8480fb7e5304/Turrit-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "75.8 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
+    },
+    {
       "id": "app-1773435439784",
       "name": "Tiktok LRD",
       "version": "43.4.1",
@@ -195,17 +206,6 @@
       "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/tiktok.DL.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "size": "340.9 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773435499722",
-      "name": "Tiktok DX",
-      "version": "44.3.2",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/tiktok.DX.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "337.2 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
@@ -255,6 +255,17 @@
       "addedAt": "2026-03-15"
     },
     {
+      "id": "app-1773435499722",
+      "name": "Tiktok DX",
+      "version": "44.3.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/tiktok.DX.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "size": "337.2 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
       "id": "app-1773435887141",
       "name": "Tiktok Vibe",
       "version": "43.3.2",
@@ -287,17 +298,6 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773596873141",
-      "name": "Turrit",
-      "version": "12.2",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Turrit.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/4f/43/d94f43ed-0cb5-d9a5-f50f-8480fb7e5304/Turrit-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "75.8 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773497717716",
