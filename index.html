@@ -65,7 +65,7 @@ body{
 }
 
 /* ══ LAYOUT ══ */
-.wrap{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:20px 14px}
+.wrap{position:relative;z-index:1;max-width:680px;margin:0 auto;padding:20px 14px}
 
 /* ══ HEADER ══ */
 .header{
@@ -101,6 +101,7 @@ body{
 .stat-pill{
   flex:1;background:var(--surface2);border:1px solid var(--border);
   border-radius:var(--r2);padding:10px 12px;text-align:center;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
 }
 .stat-pill .sv{font-size:18px;font-weight:900;color:var(--blue)}
 .stat-pill .sl{font-size:10px;color:var(--text2);margin-top:1px}
@@ -330,6 +331,30 @@ body{
   .dl-btn{min-width:76px;font-size:12px;padding:0 10px}
   .details-btn{font-size:11px;padding:0 9px}
 }
+/* ══ iPad ══ */
+@media(min-width:600px){
+  .wrap{padding:24px 28px}
+  .app-card{border-radius:14px}
+  .card-body{padding:16px}
+  .app-icon{width:60px;height:60px;border-radius:14px}
+  .app-name{font-size:16px}
+  .dl-btn{height:40px;font-size:14px;padding:0 18px}
+  .details-btn{height:40px;font-size:12px;padding:0 12px}
+  .header h1{font-size:26px}
+}
+/* ══ Laptop & PC ══ */
+@media(min-width:900px){
+  .wrap{padding:32px 40px}
+  .header{padding:28px 24px}
+  .header h1{font-size:30px}
+  .app-icon{width:64px;height:64px}
+  .app-name{font-size:17px}
+  .grid{gap:10px}
+  .stat-pill{padding:14px 16px}
+  .stat-pill .sv{font-size:22px}
+  .stat-pill .sl{font-size:11px}
+  .bottom-note{font-size:13px;line-height:2}
+}
 </style>
 </head>
 <body>
@@ -357,11 +382,11 @@ body{
     </div>
     <div class="stat-pill" style="cursor:pointer" onclick="window.open('https://t.me/iDyala','_blank')">
       <div class="sv" id="statCats" style="display:none"></div>
-      <div class="sl" style="color:var(--green);font-size:13px;font-weight:900">اطلب تطبيق أو لعبة</div>
+      <div class="sl" style="color:var(--green);font-size:13px;font-weight:900;display:flex;align-items:center;justify-content:center;text-align:center">اطلب تطبيق أو لعبة</div>
     </div>
     <div class="stat-pill" style="cursor:pointer" onclick="window.open('https://t.me/iKira18','_blank')">
       <div class="sv" id="statStatus" style="display:none"></div>
-      <div class="sl" style="color:var(--yellow);font-size:13px;font-weight:900">شراء شهادة</div>
+      <div class="sl" style="color:var(--yellow);font-size:13px;font-weight:900;display:flex;align-items:center;justify-content:center;text-align:center">شراء شهادة</div>
     </div>
   </div>
 
@@ -389,25 +414,23 @@ body{
   <!-- NOTE -->
   <div class="bottom-note" style="margin-top:16px">
     <strong>📌 كيف تثبّت ملف الـ IPA بعد التحميل؟</strong>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px">
-      <!-- الطريقة الأولى -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
       <div style="background:rgba(56,189,248,0.05);border:1px solid rgba(56,189,248,0.15);border-radius:10px;padding:12px">
         <div style="color:var(--blue);font-weight:900;margin-bottom:8px;font-size:12px">الطريقة الأولى</div>
         <div style="font-size:11px;line-height:2;color:var(--text2)">
           ١- تأكد أنك تمتلك شهادة مدفوعة.<br>
-          ٢- افتح الملف وقم بمشاركته لأي برنامج توقيع مثل <strong style="color:var(--yellow)">Ksign</strong> أو <strong style="color:var(--yellow)">Gbox</strong> أو <strong style="color:var(--yellow)">Esign</strong> أو غيرها.<br>
-          ٣- سيفتح الملف في التطبيق، اضغط عليه واختر <strong>(توقيع وتثبيت)</strong> أو <strong>Sign & Install</strong>.
+          ٢- افتح الملف وشاركه لأي برنامج توقيع مثل <strong style="color:var(--yellow)">Ksign</strong> أو <strong style="color:var(--yellow)">Gbox</strong> أو <strong style="color:var(--yellow)">Esign</strong>.<br>
+          ٣- اضغط <strong>(توقيع وتثبيت)</strong> أو <strong>Sign & Install</strong>.
         </div>
       </div>
-      <!-- الطريقة الثانية -->
       <div style="background:rgba(34,211,165,0.05);border:1px solid rgba(34,211,165,0.15);border-radius:10px;padding:12px">
         <div style="color:var(--green);font-weight:900;margin-bottom:8px;font-size:12px">الطريقة الثانية</div>
         <div style="font-size:11px;line-height:2;color:var(--text2)">
           ١- اذهب لهذا البوت <a href="https://t.me/ipasignxbot" target="_blank" style="color:var(--cyan);font-weight:900;text-decoration:none">@ipasignxbot</a>.<br>
           ٢- اضغط <strong>Add IPA</strong>.<br>
-          ٣- اضغط <strong>Add Cert</strong> وأضف ملفات شهادتك والباسورد.<br>
-          ٤- أرسل للبوت ملف الـ IPA واضغط <strong>Sign</strong>.<br>
-          ٥- بعدها اضغط <strong>Install</strong> ثم <strong>Install Now</strong>.
+          ٣- اضغط <strong>Add Cert</strong> وأضف شهادتك والباسورد.<br>
+          ٤- أرسل ملف الـ IPA واضغط <strong>Sign</strong>.<br>
+          ٥- اضغط <strong>Install</strong> ثم <strong>Install Now</strong>.
         </div>
       </div>
     </div>
@@ -417,7 +440,6 @@ body{
     💬 واجهتك مشكلة؟ تواصل معنا
   </a>
 
-  <!-- DESIGNER CREDIT -->
   <a href="https://t.me/iDyala" target="_blank" style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px;text-decoration:none;opacity:.7;transition:opacity .2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='.7'">
     <img src="https://i.ibb.co/G33RGgsF/IMG-6850.jpg" style="width:28px;height:28px;border-radius:50%;object-fit:cover;border:1px solid var(--border)">
     <span style="font-size:11px;color:var(--text2);font-family:var(--sans)">Website designed by <strong style="color:var(--blue)">Dyala Youssif</strong></span>
@@ -460,6 +482,7 @@ async function loadApps() {
         <span class="big">⚙️</span>
         <p>افتح <code>index.html</code> وعدّل<br><code>GITHUB_OWNER</code> و <code>WORKER_URL</code></p>
       </div>`;
+    
   }
 }
 
