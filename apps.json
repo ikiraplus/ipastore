@@ -977,6 +977,17 @@
       "bundleId": "",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773594415489",
+      "name": "Phonto Pro",
+      "version": "4.9.43",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Phonto.Pro.4.9.43.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/56/9f/e1569fc6-b25a-fabb-5cd8-8b0addab4158/AppIcon-0-0-1x_U007epad-0-6-0-85-220.png/512x512bb.jpg",
+      "size": "36.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
