@@ -628,6 +628,18 @@
       "bundleId": "",
       "category": "تواصل",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546935772",
+      "name": "X - Twitter - TWIGalaxy",
+      "version": "11.36",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1939",
+      "icon": "https://appstore.nabzclan.vip/images/icon_690aa6dcd1f26.jpg",
+      "size": "144.0 MB",
+      "note": "TWIGalaxy\r\n- Download Videos\r\n- Disable unfollow confirmation\r\n- Follow Confirmation\r\n- Like Confirmation\r\n- Save Confirmation\r\n- Retweet Confirmation\r\n- Reaction Confirmation\r\n- Copy Bio\r\n- Disable Double-Tap\r\n- Disable Long-press\r\n- Tweet Timestamp\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
+      "bundleId": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
     }
   ]
 }
