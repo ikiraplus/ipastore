@@ -817,6 +817,18 @@
       "bundleId": "com.abishkking.sixpack",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773574571308",
+      "name": "Twitch - TwitchAdBlock",
+      "version": "26.8",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1863",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6902648084733.jpg",
+      "size": "135.1 MB",
+      "note": "Twitch with no ads",
+      "bundleId": "tv.twitch",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
