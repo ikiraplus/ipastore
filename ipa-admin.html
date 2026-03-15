@@ -101,7 +101,14 @@ body::before{
 .badge-cat{background:rgba(56,189,248,.1);color:var(--blue);border:1px solid rgba(56,189,248,.2)}
 .badge-ver{background:rgba(34,211,165,.1);color:var(--green);border:1px solid rgba(34,211,165,.15)}
 
-.row-actions{display:flex;gap:5px}
+.row-actions{display:flex;gap:5px;align-items:center}
+.btn-move{
+  width:22px;height:22px;border-radius:5px;border:1px solid var(--border);
+  background:var(--s2);color:var(--muted);font-size:9px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:all var(--t);padding:0;flex-shrink:0;
+}
+.btn-move:hover{color:var(--blue);border-color:var(--blue2);background:rgba(56,189,248,.08)}
 
 .drag-handle{
   cursor:grab;color:var(--muted);font-size:18px;
@@ -289,6 +296,8 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
 /* ── REPOS BROWSER ── */
 .repo-source-btn{padding:5px 11px;border-radius:20px;font-size:11px;font-weight:700;font-family:var(--sans);cursor:pointer;border:1px solid var(--border);background:var(--s2);color:var(--muted);transition:all var(--t);white-space:nowrap}
 .repo-source-btn:hover,.repo-source-btn.active{background:rgba(251,191,36,.12);color:var(--yellow);border-color:rgba(251,191,36,.4)}
+.repo-source-btn.new{border-color:rgba(34,211,165,.25);color:rgba(34,211,165,.7)}
+.repo-source-btn.new:hover,.repo-source-btn.new.active{background:rgba(34,211,165,.12);color:var(--green);border-color:var(--green)}
 .repo-app-item{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:var(--r2);border:1px solid var(--border);background:var(--s2);cursor:pointer;transition:all var(--t);margin-bottom:7px}
 .repo-app-item:hover{border-color:rgba(251,191,36,.3);background:rgba(251,191,36,.03)}
 .repo-app-icon{width:44px;height:44px;border-radius:10px;object-fit:cover;flex-shrink:0;background:var(--s3)}
@@ -711,6 +720,82 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
       <button class="repo-source-btn" data-url="https://tigisoftware.com/repo/apps.json" onclick="loadRepo(this)">TigiSoftware</button>
       <button class="repo-source-btn" data-url="https://repo.cypwn.xyz/apps.json" onclick="loadRepo(this)">Cypwn Repo</button>
       <button class="repo-source-btn" data-url="https://sourcelocation.github.io/repo/apps.json" onclick="loadRepo(this)">SourceLoc GitHub</button>
+
+      <!-- ═══ مصادر جديدة ═══ -->
+      <button class="repo-source-btn new" data-url="https://gbox.run/Public/Source.json" onclick="loadRepo(this)">GBox</button>
+      <button class="repo-source-btn new" data-url="https://apps.nabzclan.vip/repos/altstore.php" onclick="loadRepo(this)">NabzClan</button>
+      <button class="repo-source-btn new" data-url="https://appstore.nabzclan.vip/repos/altstoreformat2.php" onclick="loadRepo(this)">NabzClan v2</button>
+      <button class="repo-source-btn new" data-url="https://appstore.nabzclan.vip/repos/esign.php" onclick="loadRepo(this)">NabzClan ESign</button>
+      <button class="repo-source-btn new" data-url="https://appstore.nabzclan.vip/repos/gbox.php" onclick="loadRepo(this)">NabzClan GBox</button>
+      <button class="repo-source-btn new" data-url="https://ittza7aa.com/repo.json" onclick="loadRepo(this)">Ittza7aa</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/Nyasami/Ksign/refs/heads/main/repo.json" onclick="loadRepo(this)">KSign</button>
+      <button class="repo-source-btn new" data-url="https://fastsign.dev/repo.json" onclick="loadRepo(this)">FastSign</button>
+      <button class="repo-source-btn new" data-url="https://fastsign.dev/repo.lite.json" onclick="loadRepo(this)">FastSign Lite</button>
+      <button class="repo-source-btn new" data-url="https://fastsign.dev/repo.lite.altstore.json" onclick="loadRepo(this)">FastSign AltStore</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json" onclick="loadRepo(this)">Gliddd4</button>
+      <button class="repo-source-btn new" data-url="https://repo.chungchi365.com/repo.json" onclick="loadRepo(this)">ChungChi</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/zigwangles/zigwangles-repo/refs/heads/main/app-repo.json" onclick="loadRepo(this)">Zigwangles</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/AntonP29/AntonP29-Repo/refs/heads/main/repo.json" onclick="loadRepo(this)">AntonP29</button>
+      <button class="repo-source-btn new" data-url="https://balackburn.github.io/Apollo/apps.json" onclick="loadRepo(this)">Apollo</button>
+      <button class="repo-source-btn new" data-url="https://apps.altstore.io/" onclick="loadRepo(this)">AltStore Official</button>
+      <button class="repo-source-btn new" data-url="https://appmarket.tech/altstore.json" onclick="loadRepo(this)">AppMarket</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/Auties00/Artemis/refs/heads/main/source.json" onclick="loadRepo(this)">Artemis</button>
+      <button class="repo-source-btn new" data-url="https://bunduuk.github.io/altstore-source/apps.json" onclick="loadRepo(this)">Bunduuk</button>
+      <button class="repo-source-btn new" data-url="https://ipa.cypwn.xyz/cypwn_ts.json" onclick="loadRepo(this)">CyPwn TS</button>
+      <button class="repo-source-btn new" data-url="https://therealfoxster.github.io/altsource/apps.json" onclick="loadRepo(this)">FoxSter</button>
+      <button class="repo-source-btn new" data-url="https://github.com/khcrysalis/Feather/raw/main/app-repo.json" onclick="loadRepo(this)">Feather</button>
+      <button class="repo-source-btn new" data-url="https://alts.lao.sb" onclick="loadRepo(this)">Lao.sb</button>
+      <button class="repo-source-btn new" data-url="https://buildbot.libretro.com/stable/altstore.json" onclick="loadRepo(this)">LibRetro</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/LiveContainer/LiveContainer/refs/heads/main/apps.json" onclick="loadRepo(this)">LiveContainer</button>
+      <button class="repo-source-btn new" data-url="https://theodyssey.dev/altstore/odysseysource.json" onclick="loadRepo(this)">Odyssey</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/vizunchik/AltStoreRus/master/apps.json" onclick="loadRepo(this)">AltStore RUS</button>
+      <button class="repo-source-btn new" data-url="https://alt.crystall1ne.dev" onclick="loadRepo(this)">Crystall1ne</button>
+      <button class="repo-source-btn new" data-url="https://provenance-emu.com/apps.json" onclick="loadRepo(this)">Provenance</button>
+      <button class="repo-source-btn new" data-url="https://quarksources.github.io/dist/quantumsource.min.json" onclick="loadRepo(this)">QuarkSources</button>
+      <button class="repo-source-btn new" data-url="https://quarksources.github.io/quarksource-cracked.json" onclick="loadRepo(this)">QuarkCracked</button>
+      <button class="repo-source-btn new" data-url="https://randomblock1.com/altstore/apps.json" onclick="loadRepo(this)">RandomBlock1</button>
+      <button class="repo-source-btn new" data-url="https://spotc-repo.yodaluca.dev/AltStore%20Repo.json" onclick="loadRepo(this)">SpotC Repo</button>
+      <button class="repo-source-btn new" data-url="https://taurine.app/altstore/taurinestore.json" onclick="loadRepo(this)">Taurine</button>
+      <button class="repo-source-btn new" data-url="https://alt.getutm.app" onclick="loadRepo(this)">UTM</button>
+      <button class="repo-source-btn new" data-url="https://wuxu1.github.io/wuxu-complete.json" onclick="loadRepo(this)">Wuxu Complete</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/apps.json" onclick="loadRepo(this)">YTLitePlus</button>
+      <button class="repo-source-btn new" data-url="https://azu0609.github.io/repo/altstore_repo.json" onclick="loadRepo(this)">Azu0609</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/cbruegg/altstore-source/refs/heads/main/source.json" onclick="loadRepo(this)">Cbruegg</button>
+      <button class="repo-source-btn new" data-url="https://alt.thatstel.la/" onclick="loadRepo(this)">Stella</button>
+      <button class="repo-source-btn new" data-url="https://apps.sidestore.io/" onclick="loadRepo(this)">SideStore</button>
+      <button class="repo-source-btn new" data-url="https://connect.sidestore.io/apps.json" onclick="loadRepo(this)">SideStore Connect</button>
+      <button class="repo-source-btn new" data-url="https://cranci.tech/repo.json" onclick="loadRepo(this)">Cranci</button>
+      <button class="repo-source-btn new" data-url="https://driftywinds.github.io/repos/esign.json" onclick="loadRepo(this)">Driftywinds ESign</button>
+      <button class="repo-source-btn new" data-url="https://esign.yyyue.xyz/app.json" onclick="loadRepo(this)">ESign Official</button>
+      <button class="repo-source-btn new" data-url="https://binnichtaktiv.signapp.me/repo/esign.json" onclick="loadRepo(this)">SignApp</button>
+      <button class="repo-source-btn new" data-url="https://hann8n.github.io/JackCracks/MovieboxPro.json" onclick="loadRepo(this)">MovieBox Pro</button>
+      <button class="repo-source-btn new" data-url="https://ia601404.us.archive.org/11/items/ms_20220903/MS.json" onclick="loadRepo(this)">Archive MS1</button>
+      <button class="repo-source-btn new" data-url="https://ia601505.us.archive.org/10/items/motoca-store/Motoca%20Store.json" onclick="loadRepo(this)">Motoca Store</button>
+      <button class="repo-source-btn new" data-url="https://ikghd.site/repo.json" onclick="loadRepo(this)">iKGHD</button>
+      <button class="repo-source-btn new" data-url="https://ipa.thuthuatjb.com/repo" onclick="loadRepo(this)">ThuThuat JB</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/lo-cafe/winston-altstore/main/apps.json" onclick="loadRepo(this)">Winston</button>
+      <button class="repo-source-btn new" data-url="https://quarksources.github.io/quantumsource++.json" onclick="loadRepo(this)">QuantumSource++</button>
+      <button class="repo-source-btn new" data-url="https://quarksources.github.io/quantumsource.json" onclick="loadRepo(this)">QuantumSource</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json" onclick="loadRepo(this)">Omni</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/RealBlackAstronaut/CelestialRepo/main/CelestialRepo.json" onclick="loadRepo(this)">Celestial</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/WhySooooFurious/Ultimate-Sideloading-Guide/refs/heads/main/app-repo.json" onclick="loadRepo(this)">Ultimate</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/arichornloverALT/arichornloveralt.github.io/main/apps.json" onclick="loadRepo(this)">AriChorn ALT</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/arichornloverALT/arichornloveralt.github.io/main/apps2.json" onclick="loadRepo(this)">AriChorn ALT 2</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/AltSource.json" onclick="loadRepo(this)">NeoFreeBird</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/ssalggnikool/.github/refs/heads/main/b.json" onclick="loadRepo(this)">ssalggnikool</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/sinceohsix/lcdl-repo/refs/heads/main/repo.json" onclick="loadRepo(this)">LcDL</button>
+      <button class="repo-source-btn new" data-url="https://repo.zsign.app/repo.json" onclick="loadRepo(this)">ZSign</button>
+      <button class="repo-source-btn new" data-url="https://repos.yattee.stream/alt/apps.json" onclick="loadRepo(this)">Yattee</button>
+      <button class="repo-source-btn new" data-url="https://rickowens.su/repo.json" onclick="loadRepo(this)">RickOwens</button>
+      <button class="repo-source-btn new" data-url="https://tweakrain.pages.dev/ios/altstore.json" onclick="loadRepo(this)">TweakRain</button>
+      <button class="repo-source-btn new" data-url="https://website.burrito.software/altstore/channels/burritosource.json" onclick="loadRepo(this)">BurritoSoft</button>
+      <button class="repo-source-btn new" data-url="https://www.sachcharak.com/esign/repo/RAK.json" onclick="loadRepo(this)">RAK ESign</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/DatOneFlareon/The-SEU-app-repo-for-the-gangalang/refs/heads/main/SEU.json" onclick="loadRepo(this)">SEU</button>
+      <button class="repo-source-btn new" data-url="https://delvek.net/repo.json" onclick="loadRepo(this)">Delvek</button>
+      <button class="repo-source-btn new" data-url="https://raw.githubusercontent.com/qnblackcat/AltStore/gh-pages/apps.json" onclick="loadRepo(this)">qnblackcat 2</button>
+      <button class="repo-source-btn new" data-url="https://hottubapp.io/altstore" onclick="loadRepo(this)">HotTub</button>
+      <button class="repo-source-btn new" data-url="https://altstore.ignitedemulator.com" onclick="loadRepo(this)">Ignite</button>
+      <button class="repo-source-btn new" data-url="https://web.archive.org/web/20250310010244if_/https://repo.realmzer.xyz/" onclick="loadRepo(this)">RealmZer Archive</button>
     </div>
     <div style="display:flex;gap:8px;margin-bottom:10px">
       <input type="text" id="repoSearch" placeholder="🔍 ابحث..." oninput="filterRepoApps()" style="flex:1;background:var(--s2);border:1px solid var(--border);border-radius:var(--r2);padding:9px 12px;color:var(--text);font-family:var(--sans);font-size:13px;outline:none">
@@ -820,7 +905,7 @@ function renderTable(list) {
   const empty = document.getElementById('emptyState');
   if(!list.length){ tbody.innerHTML=''; empty.style.display='block'; return; }
   empty.style.display='none';
-  tbody.innerHTML = list.map(a=>`
+  tbody.innerHTML = list.map((a,i)=>`
     <tr draggable="true" data-id="${a.id}">
       <td style="padding-right:4px;width:28px">
         <div class="drag-handle" title="اسحب لتغيير الترتيب">⠿</div>
@@ -835,6 +920,8 @@ function renderTable(list) {
       <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${a.size||'—'}</td>
       <td><span class="badge badge-ver">${a.version||'v1.0'}</span></td>
       <td><div class="row-actions">
+        <button class="btn-move" onclick="moveApp('${a.id}',-1)" title="للأعلى" ${i===0?'style="opacity:.3;cursor:default"':''}>▲</button>
+        <button class="btn-move" onclick="moveApp('${a.id}',1)" title="للأسفل" ${i===list.length-1?'style="opacity:.3;cursor:default"':''}>▼</button>
         <button class="btn btn-ghost btn-sm" onclick="openEdit('${a.id}')">✏️</button>
         <button class="btn btn-danger btn-sm" onclick="confirmDel('${a.id}')">🗑️</button>
       </div></td>
@@ -923,12 +1010,30 @@ async function saveNewOrder() {
 let activeCat = 'الكل';
 function filterByCat(cat) {
   activeCat = cat;
-  // تحديث الأزرار
   document.querySelectorAll('.cat-filter').forEach(b => {
     b.classList.toggle('active', b.dataset.cat === cat);
   });
   const filtered = cat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === cat);
   renderTable(filtered);
+}
+
+/* ── MOVE APP UP/DOWN ── */
+async function moveApp(id, dir) {
+  // الترتيب يعتمد على apps الكاملة
+  const idx = apps.findIndex(a => a.id === id);
+  if (idx < 0) return;
+  const newIdx = idx + dir;
+  if (newIdx < 0 || newIdx >= apps.length) return;
+  // بدّل
+  [apps[idx], apps[newIdx]] = [apps[newIdx], apps[idx]];
+  // أعد رسم الجدول مع مراعاة الفلتر الحالي
+  const filtered = activeCat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === activeCat);
+  renderTable(filtered);
+  // احفظ
+  try {
+    await putFile('apps.json', JSON.stringify({apps},null,2), `Move ${id} ${dir>0?'down':'up'}`);
+    toast('✅ تم حفظ الترتيب','ok');
+  } catch(e) { toast('❌ '+e.message,'err'); }
 }
 
 function updateStats() {
