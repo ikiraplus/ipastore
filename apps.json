@@ -342,23 +342,23 @@
       "addedAt": "2026-03-15"
     },
     {
+      "id": "app-1773546788287",
+      "name": "VideoStar (Hacked)",
+      "version": "14.4.3",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/819",
+      "icon": "https://appstore.nabzclan.vip/images/1761373349.png",
+      "size": "523.1 MB",
+      "note": "Injected with Pro",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
+    },
+    {
       "id": "app-1773509627631",
       "name": "mojo pro",
       "version": "1.260",
       "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Mojo.Pro.1.260.0.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/26/db/3226db82-75b1-ca84-8b56-4d6f94ce9932/AppIcon-AppStore-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
       "size": "176.6 MB",
-      "note": "",
-      "category": "أدوات",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773509724484",
-      "name": "Alight Motion",
-      "version": "4.8",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Alight.Motion.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/9b/92/2d9b9214-e9c0-64a0-382c-1470cc96a3c0/AppIcon-0-0-1x_U007emarketing-0-5-0-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "96.2 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14"
@@ -441,12 +441,12 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773511362148",
-      "name": "pinterest pro",
-      "version": "14.8",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Pinterest_14.8.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/a5/d6/43a5d6ef-f21d-50df-519f-2dc707acadf1/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "114.3 MB",
+      "id": "app-1773509724484",
+      "name": "Alight Motion",
+      "version": "4.8",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Alight.Motion.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/9b/92/2d9b9214-e9c0-64a0-382c-1470cc96a3c0/AppIcon-0-0-1x_U007emarketing-0-5-0-0-0-0-85-220.png/512x512bb.jpg",
+      "size": "96.2 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14"
@@ -463,23 +463,23 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773511362148",
+      "name": "pinterest pro",
+      "version": "14.8",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Pinterest_14.8.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/a5/d6/43a5d6ef-f21d-50df-519f-2dc707acadf1/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
+      "size": "114.3 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-14"
+    },
+    {
       "id": "app-1773511677771",
       "name": "Adobe Photoshop pro",
       "version": "7.4",
       "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Adobe.Photoshop.Pro.7.4.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/bf/d1/5fbfd11e-cf26-b8a3-9203-3a00087a8b37/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "size": "252.2 MB",
-      "note": "",
-      "category": "أدوات",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773511774575",
-      "name": "Inshot",
-      "version": "1.94.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/InShot.-.v1.94.1.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/0e/2e/960e2e57-c750-d516-bfc9-a171c4cc0023/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "116.2 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14"
@@ -509,15 +509,15 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773546788287",
-      "name": "VideoStar (Hacked)",
-      "version": "14.4.3",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/819",
-      "icon": "https://appstore.nabzclan.vip/images/1761373349.png",
-      "size": "523.1 MB",
-      "note": "Injected with Pro",
+      "id": "app-1773511774575",
+      "name": "Inshot",
+      "version": "1.94.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/InShot.-.v1.94.1.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/0e/2e/960e2e57-c750-d516-bfc9-a171c4cc0023/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "116.2 MB",
+      "note": "",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-14"
     },
     {
       "id": "app-1773546801873",
