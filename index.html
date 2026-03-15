@@ -553,16 +553,18 @@ function downloadApp(id, ipaUrl, name) {
     return;
   }
 
-  // تحميل مباشر عبر الـ Worker بدون عداد
-  const proxyUrl = `${WORKER_URL}?url=${encodeURIComponent(ipaUrl)}`;
+  // إذا الرابط من workers.dev أو iparpoxy افتحه مباشرة بدون proxy
+  // لأن Worker لا يقدر يستدعي Worker آخر
+  const isWorkerUrl = ipaUrl.includes('workers.dev') || ipaUrl.includes('iparpoxy');
+  const finalUrl = isWorkerUrl ? ipaUrl : `${WORKER_URL}?url=${encodeURIComponent(ipaUrl)}`;
+
   const a = document.createElement('a');
-  a.href = proxyUrl;
+  a.href = finalUrl;
   a.download = name + '.ipa';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
 
-  // تأكيد بصري سريع
   btn.classList.add('done');
   toast('✅ بدأ التحميل!', 'ok');
   setTimeout(() => btn.classList.remove('done'), 3000);
