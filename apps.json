@@ -188,23 +188,23 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773497492154",
+      "name": "Nicegram",
+      "version": "12.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Nicegram.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/36/b8/6f36b88a-aab5-ea1d-6ba7-bed9a20e2b9f/AppIconLLC-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "111.6 MB",
+      "note": "لتفعيل مميزات النسخه:\nالاعدادات - انزل للاسفل - اضغط على خانة ( اسأل سوالا) ضغطه مطوله",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
+    },
+    {
       "id": "app-1773436350178",
       "name": "Facebook Glow",
       "version": "551.1",
       "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Facebook.Glow.ipa",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "size": "185.3 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773436387699",
-      "name": "Facebook Wolf",
-      "version": "511.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Facebook.Wolf.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "163.9 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
@@ -255,6 +255,17 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773436387699",
+      "name": "Facebook Wolf",
+      "version": "511.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Facebook.Wolf.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "163.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
       "id": "app-1773436444365",
       "name": "Messenger Flow",
       "version": "551.1",
@@ -275,17 +286,6 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773497492154",
-      "name": "Nicegram",
-      "version": "12.2",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Nicegram.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/36/b8/6f36b88a-aab5-ea1d-6ba7-bed9a20e2b9f/AppIconLLC-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "111.6 MB",
-      "note": "لتفعيل مميزات النسخه:\nالاعدادات - انزل للاسفل - اضغط على خانة ( اسأل سوالا) ضغطه مطوله",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
     },
     {
       "id": "app-1773510353911",
