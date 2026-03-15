@@ -793,6 +793,18 @@
       "bundleId": "com.spotify.client",
       "category": "ترفيه",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773574545497",
+      "name": "FaceLab (Hacked)",
+      "version": "4.44.0",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1957",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6920da2ebadc0.jpg",
+      "size": "150.0 MB",
+      "note": "Features: \r\n\r\n- subscription unlocked",
+      "bundleId": "com.lyrebirdstudio.facelab",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
