@@ -39,6 +39,61 @@
   --ease: cubic-bezier(0.25,1,0.5,1);
   --bounce: cubic-bezier(0.34,1.56,0.64,1);
 }
+
+/* ══ LIGHT THEME ══ */
+body.light {
+  --bg: #f0f4f8;
+  --bg2: #e2e8f0;
+  --surface: #ffffff;
+  --surface2: #f8fafc;
+  --surface3: #eef2f7;
+  --border: rgba(14,165,233,0.15);
+  --border2: rgba(14,165,233,0.3);
+  --blue: #0ea5e9;
+  --blue2: #0284c7;
+  --cyan: #0891b2;
+  --green: #059669;
+  --red: #dc2626;
+  --yellow: #d97706;
+  --text: #0f172a;
+  --text2: #475569;
+}
+body.light .bg-grid{
+  background-image:
+    linear-gradient(rgba(14,165,233,0.06) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(14,165,233,0.06) 1px,transparent 1px);
+}
+body.light .bg-glow{
+  background:radial-gradient(ellipse,rgba(14,165,233,0.08) 0%,transparent 70%);
+}
+
+/* ══ THEME TOGGLE ══ */
+#themeToggle{
+  position:fixed;top:14px;left:14px;z-index:999;
+  width:42px;height:42px;border-radius:50%;
+  border:1px solid var(--border2);
+  background:var(--surface2);
+  color:var(--text);font-size:18px;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 16px rgba(0,0,0,0.2);
+  transition:all .25s var(--bounce);
+}
+#themeToggle:hover{transform:scale(1.12) rotate(15deg);box-shadow:0 6px 20px rgba(56,189,248,0.3)}
+
+/* ══ FLOATING ICONS ══ */
+.floating-icons{
+  position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;
+}
+.fi{
+  position:absolute;font-size:22px;opacity:0;
+  animation:floatUp 12s ease-in infinite;
+}
+@keyframes floatUp{
+  0%{opacity:0;transform:translateY(0) rotate(0deg) scale(0.8)}
+  10%{opacity:0.18}
+  80%{opacity:0.12}
+  100%{opacity:0;transform:translateY(-100vh) rotate(360deg) scale(1.1)}
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth}
 body{
@@ -362,6 +417,12 @@ body{
 <div class="bg-glow"></div>
 <div id="toast"></div>
 
+<!-- زر تغيير الثيم -->
+<button id="themeToggle" onclick="toggleTheme()" title="تغيير الثيم">🌙</button>
+
+<!-- أيقونات عائمة -->
+<div class="floating-icons" id="floatingIcons"></div>
+
 <div class="wrap">
 
   <!-- HEADER -->
@@ -622,6 +683,39 @@ function toast(msg, type='') {
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => t.className = '', 3500);
 }
+
+/* ══ THEME TOGGLE ══ */
+function toggleTheme() {
+  const isLight = document.body.classList.toggle('light');
+  document.getElementById('themeToggle').textContent = isLight ? '🌙' : '☀️';
+  localStorage.setItem('theme', isLight ? 'light' : 'dark');
+}
+// تطبيق الثيم المحفوظ
+(function(){
+  const saved = localStorage.getItem('theme');
+  if(saved === 'light'){
+    document.body.classList.add('light');
+    document.getElementById('themeToggle').textContent = '☀️';
+  }
+})();
+
+/* ══ FLOATING ICONS ══ */
+(function(){
+  const icons = ['📱','💻','🔧','⚡','🎮','🎬','🤖','🎵','📦','✨','🚀','💡','🔐','📲','⚙️'];
+  const container = document.getElementById('floatingIcons');
+  const count = 18;
+  for(let i = 0; i < count; i++){
+    const el = document.createElement('div');
+    el.className = 'fi';
+    el.textContent = icons[Math.floor(Math.random() * icons.length)];
+    el.style.left = Math.random() * 100 + '%';
+    el.style.bottom = '-60px';
+    el.style.animationDelay = (Math.random() * 14) + 's';
+    el.style.animationDuration = (10 + Math.random() * 10) + 's';
+    el.style.fontSize = (16 + Math.random() * 16) + 'px';
+    container.appendChild(el);
+  }
+})();
 </script>
 </body>
 </html>
