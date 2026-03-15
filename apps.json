@@ -520,6 +520,18 @@
       "bundleId": "com.frontierdesign.videostar",
       "category": "ترفيه",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546801873",
+      "name": "Human Anatomy Atlas 2026",
+      "version": "2026.0.19",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1926",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6903d56ecb606.jpg",
+      "size": "711.7 MB",
+      "note": "Explore human anatomy in interactive 3D with Visible Body! Human Anatomy Atlas is a one-time purchase that gives you access to essential gross anatomy 3D models and select microanatomy models and animations on your iOS devices. Additional in-app purchases are available for physiology animations and dental content. \r\n\r\nWith Human Anatomy Atlas, you get:\r\n\r\n* Full female and male 3D models to study gross anatomy. View these alongside cadaver and diagnostic images.\r\n* 3D views of key organs at multiple levels. Study the lungs, bronchi, and alveoli; Review the kidneys, renal pyramids, and nephrons.\r\n* Muscle and bone models that you can move. Learn muscle actions, bone landmarks, attachments, innervations, and blood supply.\r\n* Fascia models to see h",
+      "bundleId": "com.argosy.vb.superatlas",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
