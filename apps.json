@@ -652,6 +652,18 @@
       "bundleId": "com.atebits.Tweetie2",
       "category": "تواصل",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546983257",
+      "name": "GTA: III",
+      "version": "Last",
+      "ipaUrl": "https://github.com/ehmedjamil/repo/releases/download/repo/gtaiii.ipa",
+      "icon": "https://ittza7aa.com/aseets/icon/gtaiii.png",
+      "size": "",
+      "note": "Appleid VIP",
+      "bundleId": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
