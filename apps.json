@@ -289,15 +289,15 @@
       "addedAt": "2026-03-13"
     },
     {
-      "id": "app-1773436387699",
-      "name": "Facebook Wolf",
-      "version": "511.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Facebook.Wolf.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "163.9 MB",
+      "id": "app-1773596873141",
+      "name": "Turrit",
+      "version": "12.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Turrit.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/4f/43/d94f43ed-0cb5-d9a5-f50f-8480fb7e5304/Turrit-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "75.8 MB",
       "note": "",
       "category": "تواصل",
-      "addedAt": "2026-03-13"
+      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773497717716",
@@ -388,12 +388,12 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773436444365",
-      "name": "Messenger Flow",
-      "version": "551.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Messenger.Flow.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/e8/4c/bde84c1b-5280-dc66-07d5-f02eb7c8d2ab/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "70.1 MB",
+      "id": "app-1773436387699",
+      "name": "Facebook Wolf",
+      "version": "511.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Facebook.Wolf.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "163.9 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
@@ -623,6 +623,17 @@
       "addedAt": "2026-03-15"
     },
     {
+      "id": "app-1773436444365",
+      "name": "Messenger Flow",
+      "version": "551.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Messenger.Flow.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/e8/4c/bde84c1b-5280-dc66-07d5-f02eb7c8d2ab/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "70.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
       "id": "app-1773436669968",
       "name": "Locket Gold",
       "version": "2.36",
@@ -643,17 +654,6 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773510137674",
-      "name": "Threads",
-      "version": "420.0",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Threads_420.0.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/75/54/af7554a0-f3ac-d1b8-a0d7-6f9f791f64fc/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
-      "size": "83.1 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
     },
     {
       "id": "app-1773546905045",
@@ -747,16 +747,15 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773546912837",
-      "name": "X - Twitter BHX",
-      "version": "11.46",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1865",
-      "icon": "https://appstore.nabzclan.vip/images/icon_690267b01bf46.jpg",
-      "size": "154.3 MB",
-      "note": "General Enhancements\r\nDownload videos (even from private accounts)\r\nLoad photos in highest quality available\r\nSave Tweets as images\r\nUndo Tweet\r\nEnable voice Tweets & voice messages in DM\r\nEnable new DM search UI\r\nUI Customization\r\nCustom tab bar\r\nThemes (like Twitter Blue)\r\nApp icon changer\r\nFont changer\r\nPadlock\r\nDisable edge-to-edge Tweet style\r\nAlways open in Safari\r\nHide Spaces bar\r\nHide topics Tweets\r\nNo history feature\r\nDisable RTL (Right-To-Left)\r\nDisable video layer caption\r\nInteraction & Behavior\r\nTwitter Circle feature\r\nCopy profile information\r\nTranslate bio\r\nConfirm alerts on:\r\nTweet\r\nLike\r\nFollow\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
-      "bundleId": "",
+      "id": "app-1773510137674",
+      "name": "Threads",
+      "version": "420.0",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Threads_420.0.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/75/54/af7554a0-f3ac-d1b8-a0d7-6f9f791f64fc/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
+      "size": "83.1 MB",
+      "note": "",
       "category": "تواصل",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-14"
     },
     {
       "id": "app-1773573983434",
@@ -770,13 +769,13 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773546935772",
-      "name": "X - Twitter - TWIGalaxy",
-      "version": "11.36",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1939",
-      "icon": "https://appstore.nabzclan.vip/images/icon_690aa6dcd1f26.jpg",
-      "size": "144.0 MB",
-      "note": "TWIGalaxy\r\n- Download Videos\r\n- Disable unfollow confirmation\r\n- Follow Confirmation\r\n- Like Confirmation\r\n- Save Confirmation\r\n- Retweet Confirmation\r\n- Reaction Confirmation\r\n- Copy Bio\r\n- Disable Double-Tap\r\n- Disable Long-press\r\n- Tweet Timestamp\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
+      "id": "app-1773546912837",
+      "name": "X - Twitter BHX",
+      "version": "11.46",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1865",
+      "icon": "https://appstore.nabzclan.vip/images/icon_690267b01bf46.jpg",
+      "size": "154.3 MB",
+      "note": "General Enhancements\r\nDownload videos (even from private accounts)\r\nLoad photos in highest quality available\r\nSave Tweets as images\r\nUndo Tweet\r\nEnable voice Tweets & voice messages in DM\r\nEnable new DM search UI\r\nUI Customization\r\nCustom tab bar\r\nThemes (like Twitter Blue)\r\nApp icon changer\r\nFont changer\r\nPadlock\r\nDisable edge-to-edge Tweet style\r\nAlways open in Safari\r\nHide Spaces bar\r\nHide topics Tweets\r\nNo history feature\r\nDisable RTL (Right-To-Left)\r\nDisable video layer caption\r\nInteraction & Behavior\r\nTwitter Circle feature\r\nCopy profile information\r\nTranslate bio\r\nConfirm alerts on:\r\nTweet\r\nLike\r\nFollow\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
       "bundleId": "",
       "category": "تواصل",
       "addedAt": "2026-03-15"
@@ -921,14 +920,14 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773546960824",
-      "name": "X - Twitter (NeoFreeBird)",
-      "version": "11.65",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1838",
-      "icon": "https://appstore.nabzclan.vip/images/icon_6901512098ee1.jpg",
-      "size": "166.0 MB",
-      "note": "",
-      "bundleId": "com.atebits.Tweetie2",
+      "id": "app-1773546935772",
+      "name": "X - Twitter - TWIGalaxy",
+      "version": "11.36",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1939",
+      "icon": "https://appstore.nabzclan.vip/images/icon_690aa6dcd1f26.jpg",
+      "size": "144.0 MB",
+      "note": "TWIGalaxy\r\n- Download Videos\r\n- Disable unfollow confirmation\r\n- Follow Confirmation\r\n- Like Confirmation\r\n- Save Confirmation\r\n- Retweet Confirmation\r\n- Reaction Confirmation\r\n- Copy Bio\r\n- Disable Double-Tap\r\n- Disable Long-press\r\n- Tweet Timestamp\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
+      "bundleId": "",
       "category": "تواصل",
       "addedAt": "2026-03-15"
     },
@@ -990,13 +989,14 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773596873141",
-      "name": "Turrit",
-      "version": "12.2",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Turrit.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/4f/43/d94f43ed-0cb5-d9a5-f50f-8480fb7e5304/Turrit-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "75.8 MB",
+      "id": "app-1773546960824",
+      "name": "X - Twitter (NeoFreeBird)",
+      "version": "11.65",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1838",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6901512098ee1.jpg",
+      "size": "166.0 MB",
       "note": "",
+      "bundleId": "com.atebits.Tweetie2",
       "category": "تواصل",
       "addedAt": "2026-03-15"
     }
