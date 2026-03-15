@@ -705,6 +705,17 @@
       "bundleId": "",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773567772330",
+      "name": "Al chatbot",
+      "version": "2.31",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/AI.Chatbot.2.31.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/08/5b/87085b2d-9313-481a-85fd-0d356003d025/AppIcon132-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "size": "102.1 MB",
+      "note": "",
+      "category": "ذكاء اصطناعي",
+      "addedAt": "2026-03-15"
     }
   ]
 }
