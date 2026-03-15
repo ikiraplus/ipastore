@@ -985,6 +985,18 @@
       "bundleId": "",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773575084642",
+      "name": "Smallpdf",
+      "version": "1.53.60",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/879",
+      "icon": "https://appstore.nabzclan.vip/images/1761373688.png",
+      "size": "100.5 MB",
+      "note": "Injected with Premium\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.smallpdf.app.ios\n\n Downloads: 0\n\n Latest app store version: null",
+      "bundleId": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
