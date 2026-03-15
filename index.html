@@ -392,7 +392,7 @@ body.light .f-btn.active { color: #fff; }
       <a href="https://t.me/iKiraPlus" target="_blank" class="logo-text" style="text-decoration:none">IPA STORE v2.0</a>
     </div>
     <h1>متجر تحميل التطبيقات</h1>
-    <p>حمّل ملفات IPA في جهازك وثبّتها بكل سهولة ومظهر عصري جذاب باستخدام <strong>Ksign</strong> أو <strong>Gbox</strong>.</p>
+    <p>حمّل ملفات IPA في جهازك وثبّتها باستخدام برنامج <strong>Ksign</strong> أو <strong>Gbox</strong> أو بوتات التثبيت باستخدام شهادتك الخاصة.</p>
   </div>
 
   <div class="stats-bar">
@@ -432,16 +432,18 @@ body.light .f-btn.active { color: #fff; }
         <div class="note-box-title" style="color:var(--blue)">الطريقة الأولى</div>
         <div style="font-size:12px;line-height:2;color:var(--text2)">
           ١- تأكد أنك تمتلك شهادة مدفوعة.<br>
-          ٢- شارك الملف لبرنامج <strong style="color:var(--yellow)">Ksign</strong> أو <strong style="color:var(--yellow)">Gbox</strong>.<br>
-          ٣- اضغط <strong>Sign & Install</strong>.
+          ٢- افتح الملف وقم بمشاركته لأي برنامج توقيع تطبيقات IPA مثل <strong style="color:var(--yellow)">Ksign</strong> أو <strong style="color:var(--yellow)">Gbox</strong> أو <strong style="color:var(--yellow)">Esign</strong> أو غيرها.<br>
+          ٣- سيفتح الملف في التطبيق، اضغط عليه واختر <strong>(توقيع وتثبيت)</strong> أو <strong>Sign &amp; Install</strong>.
         </div>
       </div>
       <div class="note-box">
         <div class="note-box-title" style="color:var(--green)">الطريقة الثانية</div>
         <div style="font-size:12px;line-height:2;color:var(--text2)">
-          ١- اذهب لبوت <a href="https://t.me/ipasignxbot" target="_blank" style="color:var(--cyan);font-weight:900;text-decoration:none">@ipasignxbot</a>.<br>
-          ٢- أضف شهادتك (Add Cert).<br>
-          ٣- أرسل ملف IPA واضغط <strong>Sign</strong>.
+          ١- اذهب لهذا البوت <a href="https://t.me/ipasignxbot" target="_blank" style="color:var(--cyan);font-weight:900;text-decoration:none">@ipasignxbot</a>.<br>
+          ٢- اضغط <strong>Add IPA</strong>.<br>
+          ٣- اضغط <strong>Add Cert</strong> وأضف ملفات شهادتك والباسورد.<br>
+          ٤- أرسل للبوت ملف الـ IPA واضغط <strong>Sign</strong>.<br>
+          ٥- بعدها اضغط <strong>Install</strong> ثم <strong>Install Now</strong>.
         </div>
       </div>
     </div>
@@ -453,7 +455,7 @@ body.light .f-btn.active { color: #fff; }
 
   <a href="https://t.me/iDyala" target="_blank" style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:20px;text-decoration:none;opacity:.6;transition:all var(--t)" onmouseover="this.style.opacity='1'; this.style.transform='scale(1.05)';" onmouseout="this.style.opacity='.6'; this.style.transform='scale(1)';">
     <img src="https://i.ibb.co/G33RGgsF/IMG-6850.jpg" style="width:32px;height:32px;border-radius:50%;object-fit:cover;border:2px solid var(--blue)">
-    <span style="font-size:12px;color:var(--text);font-family:var(--sans)">Redesigned with ✨ by <strong style="color:var(--blue)">Dyala Youssif</strong></span>
+    <span style="font-size:12px;color:var(--text2);font-family:var(--sans)">Website designed by <strong style="color:var(--cyan)">Dyala Youssif</strong></span>
   </a>
 
 </div>
@@ -629,9 +631,14 @@ function toggleTheme() {
 }
 (function(){
   const saved = localStorage.getItem('theme');
+  // الدارك هو الافتراضي — أضف light فقط إذا اختاره المستخدم صراحةً
   if(saved === 'light'){
     document.body.classList.add('light');
     document.getElementById('themeToggle').textContent = '☀️';
+  } else {
+    // تأكد إن dark هو الوضع الافتراضي
+    document.body.classList.remove('light');
+    document.getElementById('themeToggle').textContent = '🌙';
   }
 })();
 
