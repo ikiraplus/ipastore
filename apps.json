@@ -999,6 +999,17 @@
       "bundleId": "com.atebits.Tweetie2",
       "category": "تواصل",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773596999600",
+      "name": "Subway Surfers mod",
+      "version": "3.59.0",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Subway.Surf-3.59.0.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/ac/4e/98ac4ed7-7da4-c5ae-8bea-c2adc70b7960/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "196.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-03-15"
     }
   ]
 }
