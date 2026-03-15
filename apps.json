@@ -738,6 +738,17 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773567995904",
+      "name": "KineMaster Pro",
+      "version": "7.8.3",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/KineMaster.Pro.7.8.3.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/8d/91/188d91f0-3e9c-f504-92e0-eb95e6a3ea57/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "107.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
