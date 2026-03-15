@@ -373,7 +373,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
       <button class="cat-filter" data-cat="تواصل" onclick="filterByCat('تواصل')">💬 تواصل</button>
       <button class="cat-filter" data-cat="ترفيه" onclick="filterByCat('ترفيه')">🎬 ترفيه</button>
       <button class="cat-filter" data-cat="أدوات" onclick="filterByCat('أدوات')">🔧 أدوات</button>
-      <button class="cat-filter" data-cat="ذكاء اصطناعي" onclick="filterByCat('ذكاء اصطناعي')">🤖 ذكاء اصطناعي</button>
+      <button class="cat-filter" data-cat="دراسة وذكاء اصطناعي" onclick="filterByCat('دراسة وذكاء اصطناعي')">🤖 دراسة وذكاء اصطناعي</button>
       <button class="cat-filter" data-cat="ألعاب" onclick="filterByCat('ألعاب')">🎮 ألعاب</button>
       <button class="cat-filter" data-cat="أخرى" onclick="filterByCat('أخرى')">📦 أخرى</button>
     </div>
@@ -418,7 +418,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
           <option value="تواصل">💬 تواصل</option>
           <option value="ترفيه">🎬 ترفيه</option>
           <option value="أدوات">🔧 أدوات</option>
-          <option value="ذكاء اصطناعي">🤖 ذكاء اصطناعي</option>
+          <option value="دراسة وذكاء اصطناعي">🤖 دراسة وذكاء اصطناعي</option>
           <option value="ألعاب">🎮 ألعاب</option>
           <option value="أخرى">📦 أخرى</option>
         </select>
@@ -591,7 +591,7 @@ input[type=range]{flex:1;accent-color:var(--blue);cursor:pointer}
             <option value="تواصل">💬 تواصل</option>
             <option value="ترفيه">🎬 ترفيه</option>
             <option value="أدوات">🔧 أدوات</option>
-            <option value="ذكاء اصطناعي">🤖 ذكاء اصطناعي</option>
+            <option value="دراسة وذكاء اصطناعي">🤖 دراسة وذكاء اصطناعي</option>
             <option value="ألعاب">🎮 ألعاب</option>
             <option value="أخرى">📦 أخرى</option>
           </select>
@@ -1732,7 +1732,7 @@ function guessCategory(name) {
   if (/instagram|twitter|telegram|whatsapp|snapchat|facebook|tiktok|discord|bereal|mastodon|signal|viber|skype/.test(n)) return 'تواصل';
   if (/youtube|netflix|spotify|music|video|movie|tv|stream|plex|infuse|vlc|film|cinema|شاهد|سينما/.test(n)) return 'ترفيه';
   if (/game|minecraft|pokemon|clash|pubg|fortnite|roblox|genshin|call of duty/.test(n)) return 'ألعاب';
-  if (/ai|gpt|claude|gemini|copilot|bard|chatbot/.test(n)) return 'ذكاء اصطناعي';
+  if (/ai|gpt|claude|gemini|copilot|bard|chatbot/.test(n)) return 'دراسة وذكاء اصطناعي';
   return 'أدوات';
 }
 
