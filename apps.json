@@ -544,6 +544,18 @@
       "bundleId": "com.rockstargames.gta3sa",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546829399",
+      "name": "Grand Theft Auto: Vice City",
+      "version": "1.8",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1877",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6903afad6154b.jpg",
+      "size": "",
+      "note": "Welcome back to Vice City. Welcome back to the 1980s.\r\n\r\nFrom the decade of big hair, excess and pastel suits comes a story of one man's rise to the top of the criminal pile. Vice City, a huge urban sprawl ranging from the beach to the swamps and the glitz to the ghetto, was one of the most varied, complete and alive digital cities ever created. Combining open-world gameplay with a character driven narrative, you arrive in a town brimming with delights and degradation and given the opportunity to take it over as you choose. \r\n\r\nTo celebrate its 10 year anniversary, Rockstar Games brings Grand Theft Auto: Vice City to mobile devices with high-resolution graphics, updated controls and a host of new features including: \r\n\r\n• Beautifully updated g",
+      "bundleId": "com.rockstargames.gta3vc",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
