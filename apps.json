@@ -716,6 +716,17 @@
       "note": "",
       "category": "ذكاء اصطناعي",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773567852935",
+      "name": "chatto ai",
+      "version": "2.3.2",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/chatto.ai.2.3.2.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/b5/23/04b52371-dcf6-354d-5ab3-b82fe7ff7da9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "72.6 MB",
+      "note": "",
+      "category": "ذكاء اصطناعي",
+      "addedAt": "2026-03-15"
     }
   ]
 }
