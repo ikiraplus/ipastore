@@ -984,21 +984,28 @@ function initDragSort() {
 
 async function saveNewOrder() {
   if(!settings.token) return;
-  // أعد ترتيب مصفوفة apps الكاملة بناءً على الترتيب الظاهر بالجدول
   const tbody = document.getElementById('tblBody');
   const visibleIds = [...tbody.querySelectorAll('tr')].map(r => r.dataset.id);
-  // استخرج التطبيقات الظاهرة بالترتيب الجديد
   const visibleApps = visibleIds.map(id => apps.find(a => a.id === id)).filter(Boolean);
-  // التطبيقات المخفية (من فلتر آخر) تبقى بمكانها
-  const hiddenApps = apps.filter(a => !visibleIds.includes(a.id));
-  // دمج: الظاهرة أول ثم المخفية — أو احفظ الكل بالترتيب الأصلي مع تحديث الظاهرة
-  // الأفضل: أعد بناء apps كاملة مع الحفاظ على المخفية بنفس أماكنها
+
+  if (activeCat === 'الكل') {
+    // قسم الكل — احفظ الترتيب محلياً فقط بدون تعديل apps.json
+    const newApps = [...apps];
+    let vi = 0;
+    for(let i = 0; i < newApps.length; i++) {
+      if(visibleIds.includes(newApps[i].id)) newApps[i] = visibleApps[vi++];
+    }
+    apps = newApps;
+    localStorage.setItem('order_الكل', JSON.stringify(apps.map(a => a.id)));
+    toast('✅ تم حفظ ترتيب الكل محلياً','ok');
+    return;
+  }
+
+  // باقي الأقسام — احفظ الترتيب على GitHub
   const newApps = [...apps];
   let vi = 0;
   for(let i = 0; i < newApps.length; i++) {
-    if(visibleIds.includes(newApps[i].id)) {
-      newApps[i] = visibleApps[vi++];
-    }
+    if(visibleIds.includes(newApps[i].id)) newApps[i] = visibleApps[vi++];
   }
   apps = newApps;
   try {
@@ -1014,27 +1021,57 @@ function filterByCat(cat) {
   document.querySelectorAll('.cat-filter').forEach(b => {
     b.classList.toggle('active', b.dataset.cat === cat);
   });
-  const filtered = cat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === cat);
+  let filtered = cat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === cat);
+  // طبّق الترتيب المحفوظ للقسم
+  if (cat !== 'الكل') {
+    const order = (() => { try { return JSON.parse(localStorage.getItem('catorder_'+cat)||'null'); } catch{return null;} })();
+    if (order) {
+      const map = {};
+      filtered.forEach(a => map[a.id] = a);
+      const ordered = order.map(id => map[id]).filter(Boolean);
+      const extras = filtered.filter(a => !order.includes(a.id));
+      filtered = [...ordered, ...extras];
+    }
+  }
   renderTable(filtered);
 }
 
 /* ── MOVE APP UP/DOWN ── */
 async function moveApp(id, dir) {
-  // الترتيب يعتمد على apps الكاملة
-  const idx = apps.findIndex(a => a.id === id);
-  if (idx < 0) return;
-  const newIdx = idx + dir;
-  if (newIdx < 0 || newIdx >= apps.length) return;
-  // بدّل
-  [apps[idx], apps[newIdx]] = [apps[newIdx], apps[idx]];
-  // أعد رسم الجدول مع مراعاة الفلتر الحالي
-  const filtered = activeCat === 'الكل' ? apps : apps.filter(a => (a.category||'أخرى') === activeCat);
-  renderTable(filtered);
-  // احفظ
-  try {
-    await putFile('apps.json', JSON.stringify({apps},null,2), `Move ${id} ${dir>0?'down':'up'}`);
-    toast('✅ تم حفظ الترتيب','ok');
-  } catch(e) { toast('❌ '+e.message,'err'); }
+  if (activeCat === 'الكل') {
+    // قسم الكل — احفظ الترتيب محلياً فقط بدون تعديل apps.json
+    const idx = apps.findIndex(a => a.id === id);
+    if (idx < 0) return;
+    const newIdx = idx + dir;
+    if (newIdx < 0 || newIdx >= apps.length) return;
+    [apps[idx], apps[newIdx]] = [apps[newIdx], apps[idx]];
+    localStorage.setItem('order_الكل', JSON.stringify(apps.map(a => a.id)));
+    renderTable(apps);
+    toast('✅ تم حفظ ترتيب الكل محلياً','ok');
+  } else {
+    // قسم محدد — احفظ على GitHub
+    const filtered = apps.filter(a => (a.category||'أخرى') === activeCat);
+    let order = (() => { try { return JSON.parse(localStorage.getItem('catorder_'+activeCat)||'null'); } catch{return null;} })()
+               || filtered.map(a => a.id);
+    const idx = order.indexOf(id);
+    if (idx < 0) return;
+    const newIdx2 = idx + dir;
+    if (newIdx2 < 0 || newIdx2 >= order.length) return;
+    [order[idx], order[newIdx2]] = [order[newIdx2], order[idx]];
+    localStorage.setItem('catorder_' + activeCat, JSON.stringify(order));
+    // أعد ترتيب apps الكاملة بناءً على الترتيب الجديد
+    const map = {};
+    filtered.forEach(a => map[a.id] = a);
+    const reordered = order.map(i => map[i]).filter(Boolean);
+    // حدّث apps مع الحفاظ على التطبيقات من أقسام أخرى
+    const otherApps = apps.filter(a => (a.category||'أخرى') !== activeCat);
+    apps = [...reordered, ...otherApps];
+    renderTable(reordered);
+    try {
+      await putFile('apps.json', JSON.stringify({apps},null,2), `Move ${id} ${dir>0?'down':'up'}`);
+      toast('✅ تم حفظ الترتيب','ok');
+    } catch(e) { toast('❌ '+e.message,'err'); }
+  }
 }
 
 function updateStats() {
