@@ -233,15 +233,15 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773437364033",
-      "name": "Genral Pro",
-      "version": "1.5",
-      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3063/ProBotz_1773437132.mkv?hash=AgADnJ",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437364033.png",
-      "size": "9.6 MB",
-      "note": "برنامج لمشاهدة القنوات المشفرة \nويحتوي قسم خاص للأفلام\nكود التفعيل : 5050",
+      "id": "app-1773510045224",
+      "name": "Netflix - مقلد",
+      "version": "1.4",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Netflix.ipa",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510045224.png",
+      "size": "32.2 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-13"
+      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773496444211",
@@ -311,15 +311,15 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773508897375",
-      "name": "Rodjo",
-      "version": "2.4",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Rodjo.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/76/1f/9d761f97-0595-d5ea-6e2e-688ea8dd3bf0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "13.9 MB",
-      "note": "برنامج لمشاهدة القنوات المشفرة \nويحتوي قسم خاص للأفلام\nكود التفعيل : 5129",
+      "id": "app-1773437364033",
+      "name": "Genral Pro",
+      "version": "1.5",
+      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3063/ProBotz_1773437132.mkv?hash=AgADnJ",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437364033.png",
+      "size": "9.6 MB",
+      "note": "برنامج لمشاهدة القنوات المشفرة \nويحتوي قسم خاص للأفلام\nكود التفعيل : 5050",
       "category": "ترفيه",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-13"
     },
     {
       "id": "app-1773509189937",
@@ -366,6 +366,17 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773508897375",
+      "name": "Rodjo",
+      "version": "2.4",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Rodjo.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/76/1f/9d761f97-0595-d5ea-6e2e-688ea8dd3bf0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "size": "13.9 MB",
+      "note": "برنامج لمشاهدة القنوات المشفرة \nويحتوي قسم خاص للأفلام\nكود التفعيل : 5129",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15"
+    },
+    {
       "id": "app-1773509863438",
       "name": "buz tv pro",
       "version": "1.2.11",
@@ -373,17 +384,6 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
       "size": "16.4 MB",
       "note": "برنامج لمشاهدة القنوات المشفرة \nويحتوي قسم خاص للأفلام\nكود التفعيل : 22455",
-      "category": "ترفيه",
-      "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773510045224",
-      "name": "Netflix - مقلد",
-      "version": "1.4",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Netflix.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510045224.png",
-      "size": "32.2 MB",
-      "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-15"
     },
