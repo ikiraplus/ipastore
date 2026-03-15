@@ -23,6 +23,17 @@
       "addedAt": "2026-03-14"
     },
     {
+      "id": "app-1773402408531",
+      "name": "instagram DL",
+      "version": "411.0",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Instagram.DL.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "264.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
       "id": "app-1773435439784",
       "name": "Tiktok LRD",
       "version": "43.4.1",
@@ -30,17 +41,6 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "size": "344.8 MB",
       "note": "اضفط على ايقونة Home  بقوة لفتح المميزات.",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510581948",
-      "name": "Snapchat Plus",
-      "version": "13.88",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Snapchat.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/06/90/5f0690d1-64ae-7c67-8213-a99ce2f9a58c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "206.7 MB",
-      "note": "حسابك مسؤليتك .........",
       "category": "تواصل",
       "addedAt": "2026-03-14"
     },
@@ -56,6 +56,17 @@
       "addedAt": "2026-03-12"
     },
     {
+      "id": "app-1773510581948",
+      "name": "Snapchat Plus",
+      "version": "13.88",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Snapchat.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/06/90/5f0690d1-64ae-7c67-8213-a99ce2f9a58c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "206.7 MB",
+      "note": "حسابك مسؤليتك .........",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
+    },
+    {
       "id": "app-1773436028095",
       "name": "WhatsApp Gold",
       "version": "26.1",
@@ -63,17 +74,6 @@
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
       "size": "112.7 MB",
       "note": "سجل بالنسخة كجهاز مصاحب فقطططط.",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773512283014",
-      "name": "Telegram Dark",
-      "version": "12.5",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Teledark.12.5.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773512283014.png",
-      "size": "72.5 MB",
-      "note": "لا تعمل به الاشعارت",
       "category": "تواصل",
       "addedAt": "2026-03-14"
     },
@@ -100,15 +100,15 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773402408531",
-      "name": "instagram DL",
-      "version": "411.0",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Instagram.DL.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "264.9 MB",
-      "note": "",
+      "id": "app-1773512283014",
+      "name": "Telegram Dark",
+      "version": "12.5",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Teledark.12.5.ipa",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773512283014.png",
+      "size": "72.5 MB",
+      "note": "لا تعمل به الاشعارت",
       "category": "تواصل",
-      "addedAt": "2026-03-13"
+      "addedAt": "2026-03-14"
     },
     {
       "id": "app-1773402450838",
