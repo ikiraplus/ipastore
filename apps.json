@@ -688,6 +688,18 @@
       "bundleId": "",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773547004086",
+      "name": "Djay Pro",
+      "version": "Last",
+      "ipaUrl": "https://github.com/ehmedjamil/repo/releases/download/repo/djay.ipa",
+      "icon": "https://ittza7aa.com/aseets/icon/djay.png",
+      "size": "",
+      "note": "Pro Unlocked",
+      "bundleId": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
