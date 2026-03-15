@@ -12,17 +12,6 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773226791309",
-      "name": "سينمانا",
-      "version": "4.6.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
-      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
-      "size": "45MB",
-      "note": "ببثب",
-      "category": "ترفيه",
-      "addedAt": "2026-03-12"
-    },
-    {
       "id": "air-movie",
       "name": "Air movie",
       "version": "2.4",
@@ -43,6 +32,17 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773226791309",
+      "name": "سينمانا",
+      "version": "4.6.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
+      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
+      "size": "45MB",
+      "note": "ببثب",
+      "category": "ترفيه",
+      "addedAt": "2026-03-12"
     },
     {
       "id": "app-1773402408531",
