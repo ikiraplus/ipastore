@@ -901,6 +901,18 @@
       "bundleId": "com.scottgames.fnaf4",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773574696988",
+      "name": "CodebySMS",
+      "version": "1.0",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1705",
+      "icon": "https://appstore.nabzclan.vip/images/1761380695.png",
+      "size": "5.8 MB",
+      "note": "Injected with Pro",
+      "bundleId": "com.codebysms",
+      "category": "أدوات",
+      "addedAt": "2026-03-15"
     }
   ]
 }
