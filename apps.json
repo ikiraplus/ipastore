@@ -949,6 +949,18 @@
       "bundleId": "",
       "category": "أدوات",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773574949588",
+      "name": "Tomb Raider I",
+      "version": "1.0.4",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1836",
+      "icon": "https://appstore.nabzclan.vip/images/1761694053.png",
+      "size": "286.7 MB",
+      "note": "Tomb Raider laid the foundations of the third-person shooter genre, becoming a cult classic that inspired numerous successors. This project had a massive impact on the evolution of the gaming industry, shaping its direction. Even today, Tomb Raider and its main character, Lara Croft, remain iconic figures in the world of video games, symbolizing an era and maintaining their popularity among gamers thanks to a unique blend of adventure, action, and a charismatic persona.\n\n --- \n\n More app Information:\n\n Category: Removed from Apple App Store\n\n BundleID: com.squareenix.tombraider1classic\n\n Downloads: 0\n\n Latest app store version: null",
+      "bundleId": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "addedAt": "2026-03-15"
     }
   ]
 }
