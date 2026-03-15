@@ -640,6 +640,18 @@
       "bundleId": "",
       "category": "تواصل",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546960824",
+      "name": "X - Twitter (NeoFreeBird)",
+      "version": "11.65",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1838",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6901512098ee1.jpg",
+      "size": "166.0 MB",
+      "note": "",
+      "bundleId": "com.atebits.Tweetie2",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
     }
   ]
 }
