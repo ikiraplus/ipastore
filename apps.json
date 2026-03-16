@@ -1018,6 +1018,17 @@
       "note": "تطبيق يحتوي على جميع القنوات المشفرة مجاناً ( بين سبورت - الثامنة - الكأس - Mbc - شاهد )",
       "category": "ترفيه",
       "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773657649683",
+      "name": "SnapEdit Premium",
+      "version": "6.4.4",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/SnapEdit.Premium.6.4.4.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/55/08/41550802-7821-b250-bc97-e25cf3b8a4e6/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.jpeg/512x512bb.jpg",
+      "size": "70.4 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-16"
     }
   ]
 }
