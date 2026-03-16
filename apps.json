@@ -34,28 +34,6 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773512283014",
-      "name": "Telegram Dark",
-      "version": "12.5",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Teledark.12.5.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773512283014.png",
-      "size": "72.5 MB",
-      "note": "لا تعمل به الاشعارت",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773226791309",
-      "name": "سينمانا",
-      "version": "4.6.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
-      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
-      "size": "45 MB",
-      "note": "التطبيق لا يدعم التحميل الا بعد ربط شهادتك بالنسخة برمجياُ\nتواصل معي لربط شهادتك بالنسخة واضافة خاصيه التحميل",
-      "category": "ترفيه",
-      "addedAt": "2026-03-15"
-    },
-    {
       "id": "app-1773402346513",
       "name": "بيكرام",
       "version": "419.0",
@@ -63,6 +41,17 @@
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773402346513.png",
       "size": "197.8 MB",
       "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773512283014",
+      "name": "Telegram Dark",
+      "version": "12.5",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Teledark.12.5.ipa",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773512283014.png",
+      "size": "72.5 MB",
+      "note": "لا تعمل به الاشعارت",
       "category": "تواصل",
       "addedAt": "2026-03-14"
     },
@@ -87,28 +76,6 @@
       "note": "لتفعيل مميزات النسخة : \n- اضغط على زر الـبروفايل وستجيد ايقونة الريشه اضغط عليها وتفتح معك المميزات",
       "category": "تواصل",
       "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773437414953",
-      "name": "Minecraft",
-      "version": "1.26.1",
-      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3059/ProBotz_1773437130.mkv?hash=AgADZR",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/ee/ac/28eeaccb-af5b-ec8a-3091-a76991a65264/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
-      "size": "505 MB",
-      "note": "ملاحظة/ النسخة لا تدعم التسجيل بحساب اكسبوكس.",
-      "category": "ألعاب",
-      "addedAt": "2026-03-13"
-    },
-    {
-      "id": "air-movie",
-      "name": "Air movie",
-      "version": "2.4",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Air.Movie._.Kira.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/air-movie.png",
-      "size": "42 MB",
-      "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
-      "category": "ترفيه",
-      "addedAt": "2026-03-14"
     },
     {
       "id": "app-1773436098791",
@@ -210,50 +177,6 @@
       "addedAt": "2026-03-13"
     },
     {
-      "id": "app-1773437273175",
-      "name": "Remini Pro",
-      "version": "29.4.1",
-      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3064/ProBotz_1773437132.mkv?hash=AgADbp",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/e8/62/e0e86206-237c-808a-50cc-93af906e2bf3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "108 MB",
-      "note": "",
-      "category": "أدوات",
-      "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773437480214",
-      "name": "HiTv Pro",
-      "version": "2.7.1",
-      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/3060?hash=AgADbJ",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437480214.png",
-      "size": "18.5 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-03-14"
-    },
-    {
-      "id": "app-1773510045224",
-      "name": "Netflix - مقلد",
-      "version": "1.4",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Netflix.ipa",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510045224.png",
-      "size": "32.2 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773496444211",
-      "name": "Photomath_8.42.0",
-      "version": "8.42.0",
-      "ipaUrl": "https://ipa.cypwn.xyz/ipas/Photomath_8.42.0.ipa",
-      "icon": "https://ipa.cypwn.xyz/serve/icons/Photomath_8.42.0.png",
-      "size": "16.4 MB",
-      "note": "Photomath 8.42.0 Cracked",
-      "category": "دراسة وذكاء اصطناعي",
-      "addedAt": "2026-03-15"
-    },
-    {
       "id": "app-1773435499722",
       "name": "Tiktok DX",
       "version": "44.3.2",
@@ -297,6 +220,174 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13"
+    },
+    {
+      "id": "app-1773436387699",
+      "name": "Facebook Wolf",
+      "version": "511.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Facebook.Wolf.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "163.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
+      "id": "app-1773436444365",
+      "name": "Messenger Flow",
+      "version": "551.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Messenger.Flow.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/e8/4c/bde84c1b-5280-dc66-07d5-f02eb7c8d2ab/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "70.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
+      "id": "app-1773436669968",
+      "name": "Locket Gold",
+      "version": "2.36",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Locket.Gold.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/6f/78/8c6f7815-bbfe-2f1c-371f-cfcb20017bad/app_icon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "size": "323.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-13"
+    },
+    {
+      "id": "app-1773568077779",
+      "name": "Tellonym plus",
+      "version": "4.6",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Tellonym.plus.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/31/21/d73121bc-16bc-1f48-65a3-b5faaa7d9881/Default-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "size": "83.5 MB",
+      "note": "تم فتح جميع مميزات البريميوم \nوتستطيع التسجيل بحسابك الاساسي",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773510137674",
+      "name": "Threads",
+      "version": "420.0",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Threads_420.0.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/75/54/af7554a0-f3ac-d1b8-a0d7-6f9f791f64fc/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
+      "size": "83.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773546912837",
+      "name": "X - Twitter BHX",
+      "version": "11.46",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1865",
+      "icon": "https://appstore.nabzclan.vip/images/icon_690267b01bf46.jpg",
+      "size": "154.3 MB",
+      "note": "General Enhancements\r\nDownload videos (even from private accounts)\r\nLoad photos in highest quality available\r\nSave Tweets as images\r\nUndo Tweet\r\nEnable voice Tweets & voice messages in DM\r\nEnable new DM search UI\r\nUI Customization\r\nCustom tab bar\r\nThemes (like Twitter Blue)\r\nApp icon changer\r\nFont changer\r\nPadlock\r\nDisable edge-to-edge Tweet style\r\nAlways open in Safari\r\nHide Spaces bar\r\nHide topics Tweets\r\nNo history feature\r\nDisable RTL (Right-To-Left)\r\nDisable video layer caption\r\nInteraction & Behavior\r\nTwitter Circle feature\r\nCopy profile information\r\nTranslate bio\r\nConfirm alerts on:\r\nTweet\r\nLike\r\nFollow\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
+      "bundleId": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546935772",
+      "name": "X - Twitter - TWIGalaxy",
+      "version": "11.36",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1939",
+      "icon": "https://appstore.nabzclan.vip/images/icon_690aa6dcd1f26.jpg",
+      "size": "144.0 MB",
+      "note": "TWIGalaxy\r\n- Download Videos\r\n- Disable unfollow confirmation\r\n- Follow Confirmation\r\n- Like Confirmation\r\n- Save Confirmation\r\n- Retweet Confirmation\r\n- Reaction Confirmation\r\n- Copy Bio\r\n- Disable Double-Tap\r\n- Disable Long-press\r\n- Tweet Timestamp\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
+      "bundleId": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773546960824",
+      "name": "X - Twitter (NeoFreeBird)",
+      "version": "11.65",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1838",
+      "icon": "https://appstore.nabzclan.vip/images/icon_6901512098ee1.jpg",
+      "size": "166.0 MB",
+      "note": "",
+      "bundleId": "com.atebits.Tweetie2",
+      "category": "تواصل",
+      "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773226791309",
+      "name": "سينمانا",
+      "version": "4.6.1",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Cinemana._.kira.ipa",
+      "icon": "https://i.ibb.co/C5Ds7y44/38-F9828-A-8-F40-4-C0-B-8737-C177-F6315099.jpg",
+      "size": "45 MB",
+      "note": "التطبيق لا يدعم التحميل الا بعد ربط شهادتك بالنسخة برمجياُ\nتواصل معي لربط شهادتك بالنسخة واضافة خاصيه التحميل",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773437414953",
+      "name": "Minecraft",
+      "version": "1.26.1",
+      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3059/ProBotz_1773437130.mkv?hash=AgADZR",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/ee/ac/28eeaccb-af5b-ec8a-3091-a76991a65264/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "size": "505 MB",
+      "note": "ملاحظة/ النسخة لا تدعم التسجيل بحساب اكسبوكس.",
+      "category": "ألعاب",
+      "addedAt": "2026-03-13"
+    },
+    {
+      "id": "air-movie",
+      "name": "Air movie",
+      "version": "2.4",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Air.Movie._.Kira.ipa",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/air-movie.png",
+      "size": "42 MB",
+      "note": "- يعمل على جميع الشبكات.\n- يدعم التحميل.\n- بدون اعلانات.",
+      "category": "ترفيه",
+      "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773437273175",
+      "name": "Remini Pro",
+      "version": "29.4.1",
+      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/watch/3064/ProBotz_1773437132.mkv?hash=AgADbp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/e8/62/e0e86206-237c-808a-50cc-93af906e2bf3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "size": "108 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-03-13"
+    },
+    {
+      "id": "app-1773437480214",
+      "name": "HiTv Pro",
+      "version": "2.7.1",
+      "ipaUrl": "https://filetolink-stream-probot.filescloud.workers.dev/3060?hash=AgADbJ",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437480214.png",
+      "size": "18.5 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-03-14"
+    },
+    {
+      "id": "app-1773510045224",
+      "name": "Netflix - مقلد",
+      "version": "1.4",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Netflix.ipa",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510045224.png",
+      "size": "32.2 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15"
+    },
+    {
+      "id": "app-1773496444211",
+      "name": "Photomath_8.42.0",
+      "version": "8.42.0",
+      "ipaUrl": "https://ipa.cypwn.xyz/ipas/Photomath_8.42.0.ipa",
+      "icon": "https://ipa.cypwn.xyz/serve/icons/Photomath_8.42.0.png",
+      "size": "16.4 MB",
+      "note": "Photomath 8.42.0 Cracked",
+      "category": "دراسة وذكاء اصطناعي",
+      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773546889028",
@@ -385,17 +476,6 @@
       "note": "برنامج لمشاهدة القنوات المشفرة \nويحتوي قسم خاص للأفلام\nكود التفعيل : 22455",
       "category": "ترفيه",
       "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773436387699",
-      "name": "Facebook Wolf",
-      "version": "511.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Facebook.Wolf.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "163.9 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-13"
     },
     {
       "id": "app-1773510255249",
@@ -620,39 +700,6 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773436444365",
-      "name": "Messenger Flow",
-      "version": "551.1",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Messenger.Flow.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/e8/4c/bde84c1b-5280-dc66-07d5-f02eb7c8d2ab/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "70.1 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773436669968",
-      "name": "Locket Gold",
-      "version": "2.36",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Locket.Gold.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/6f/78/8c6f7815-bbfe-2f1c-371f-cfcb20017bad/app_icon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "size": "323.4 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-13"
-    },
-    {
-      "id": "app-1773568077779",
-      "name": "Tellonym plus",
-      "version": "4.6",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Tellonym.plus.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/31/21/d73121bc-16bc-1f48-65a3-b5faaa7d9881/Default-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "size": "83.5 MB",
-      "note": "تم فتح جميع مميزات البريميوم \nوتستطيع التسجيل بحسابك الاساسي",
-      "category": "تواصل",
-      "addedAt": "2026-03-15"
-    },
-    {
       "id": "app-1773546905045",
       "name": "Brawl Stars - Null's Brawl",
       "version": "65.165",
@@ -744,17 +791,6 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773510137674",
-      "name": "Threads",
-      "version": "420.0",
-      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Threads_420.0.ipa",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/75/54/af7554a0-f3ac-d1b8-a0d7-6f9f791f64fc/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
-      "size": "83.1 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-14"
-    },
-    {
       "id": "app-1773573983434",
       "name": "Happy Chick",
       "version": "1.5",
@@ -763,18 +799,6 @@
       "size": "280.0 MB",
       "note": "Happy Chick is a multi-platform emulator for iOS supporting Nintendo, Sega, Sony, Atari, NEC, SNK, and Bandai console systems. This all-in-one application that allows you to play classic games on your iPhone, iPad or iPod Touch.",
       "category": "أخرى",
-      "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773546912837",
-      "name": "X - Twitter BHX",
-      "version": "11.46",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1865",
-      "icon": "https://appstore.nabzclan.vip/images/icon_690267b01bf46.jpg",
-      "size": "154.3 MB",
-      "note": "General Enhancements\r\nDownload videos (even from private accounts)\r\nLoad photos in highest quality available\r\nSave Tweets as images\r\nUndo Tweet\r\nEnable voice Tweets & voice messages in DM\r\nEnable new DM search UI\r\nUI Customization\r\nCustom tab bar\r\nThemes (like Twitter Blue)\r\nApp icon changer\r\nFont changer\r\nPadlock\r\nDisable edge-to-edge Tweet style\r\nAlways open in Safari\r\nHide Spaces bar\r\nHide topics Tweets\r\nNo history feature\r\nDisable RTL (Right-To-Left)\r\nDisable video layer caption\r\nInteraction & Behavior\r\nTwitter Circle feature\r\nCopy profile information\r\nTranslate bio\r\nConfirm alerts on:\r\nTweet\r\nLike\r\nFollow\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
-      "bundleId": "",
-      "category": "تواصل",
       "addedAt": "2026-03-15"
     },
     {
@@ -917,18 +941,6 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773546935772",
-      "name": "X - Twitter - TWIGalaxy",
-      "version": "11.36",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1939",
-      "icon": "https://appstore.nabzclan.vip/images/icon_690aa6dcd1f26.jpg",
-      "size": "144.0 MB",
-      "note": "TWIGalaxy\r\n- Download Videos\r\n- Disable unfollow confirmation\r\n- Follow Confirmation\r\n- Like Confirmation\r\n- Save Confirmation\r\n- Retweet Confirmation\r\n- Reaction Confirmation\r\n- Copy Bio\r\n- Disable Double-Tap\r\n- Disable Long-press\r\n- Tweet Timestamp\n\n --- \n\n More app Information:\n\n Category: Tweaked App\n\n BundleID: com.atebits.Tweetie2\n\n Downloads: 0\n\n Latest app store version: null",
-      "bundleId": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-15"
-    },
-    {
       "id": "app-1773574949588",
       "name": "Tomb Raider I",
       "version": "1.0.4",
@@ -983,18 +995,6 @@
       "size": "36.5 MB",
       "note": "",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
-    },
-    {
-      "id": "app-1773546960824",
-      "name": "X - Twitter (NeoFreeBird)",
-      "version": "11.65",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1838",
-      "icon": "https://appstore.nabzclan.vip/images/icon_6901512098ee1.jpg",
-      "size": "166.0 MB",
-      "note": "",
-      "bundleId": "com.atebits.Tweetie2",
-      "category": "تواصل",
       "addedAt": "2026-03-15"
     },
     {
