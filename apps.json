@@ -1029,6 +1029,17 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-16"
+    },
+    {
+      "id": "app-1773657791706",
+      "name": "فودو",
+      "version": "1.7",
+      "ipaUrl": "https://github.com/ikiraplus/ipastore/releases/download/v1.0/Vood.Cinema.v1.7.ipa",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773657791706.png",
+      "size": "18.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-03-16"
     }
   ]
 }
