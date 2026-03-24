@@ -14,7 +14,9 @@
 }
 </style>
 <style>
+/* ══ VARIABLES (GLASSMORPHISM) ══ */
 :root {
+  /* Dark Glass Theme */
   --bg-color: #05070d;
   --glass-bg: rgba(20, 25, 35, 0.4);
   --glass-bg-hover: rgba(30, 38, 55, 0.6);
@@ -22,6 +24,8 @@
   --glass-border-highlight: rgba(56, 189, 248, 0.3);
   --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
   --blur: blur(16px);
+  
+  /* Accents */
   --blue: #38bdf8;
   --blue2: #0ea5e9;
   --cyan: #22d3ee;
@@ -29,10 +33,14 @@
   --red: #f87171;
   --yellow: #fbbf24;
   --purple: #818cf8;
+  
+  /* Typography */
   --text: #f0f6fc;
   --text2: #94a3b8;
   --mono: 'JetBrains Mono', monospace;
   --sans: 'PingAR', 'Cairo', sans-serif;
+  
+  /* Utils */
   --r: 16px;
   --r2: 12px;
   --t: 0.12s;
@@ -40,6 +48,8 @@
   --bounce: cubic-bezier(0.34,1.4,0.64,1);
   --blur: blur(8px);
 }
+
+/* ══ LIGHT THEME (FROSTED GLASS) ══ */
 body.light {
   --bg-color: #f1f5f9;
   --glass-bg: rgba(255, 255, 255, 0.5);
@@ -47,6 +57,7 @@ body.light {
   --glass-border: rgba(255, 255, 255, 0.6);
   --glass-border-highlight: rgba(14, 165, 233, 0.4);
   --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  
   --blue: #0284c7;
   --blue2: #0369a1;
   --cyan: #0891b2;
@@ -54,9 +65,12 @@ body.light {
   --red: #dc2626;
   --yellow: #d97706;
   --purple: #4f46e5;
+  
   --text: #0f172a;
   --text2: #475569;
 }
+
+/* ══ BASE ══ */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth}
 button,a,[onclick]{touch-action:manipulation;-webkit-touch-callout:none}
@@ -66,11 +80,9 @@ body{
   min-height:100dvh;overflow-x:hidden;
   padding-bottom:80px;
   transition: background-color var(--t);
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
 }
+
+/* ══ ANIMATED GLASS BACKGROUND (BLOBS) ══ */
 .blobs-container {
   position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none;
 }
@@ -79,13 +91,17 @@ body{
   animation: floatBlobs 12s ease-in-out infinite alternate;
 }
 body.light .blob { opacity: 0.4; }
+
 .blob-1 { top: -10%; left: -10%; width: 40vw; height: 40vw; background: var(--blue2); }
 .blob-2 { bottom: -10%; right: -10%; width: 50vw; height: 50vw; background: var(--purple); animation-delay: -4s; }
 .blob-3 { top: 40%; left: 50%; width: 35vw; height: 35vw; background: var(--cyan); animation-delay: -8s; transform: translateX(-50%); }
+
 @keyframes floatBlobs {
   0% { transform: translate(0, 0) scale(1); }
   100% { transform: translate(30px, 50px) scale(1.1); }
 }
+
+/* ══ GLASS UTILITY CLASS ══ */
 .glass-panel {
   background: var(--glass-bg);
   backdrop-filter: var(--blur);
@@ -93,6 +109,8 @@ body.light .blob { opacity: 0.4; }
   border: 1px solid var(--glass-border);
   box-shadow: var(--glass-shadow);
 }
+
+/* ══ THEME TOGGLE ══ */
 #themeToggle{
   position:fixed;top:16px;left:16px;z-index:999;
   width:44px;height:44px;border-radius:50%;
@@ -101,6 +119,8 @@ body.light .blob { opacity: 0.4; }
   transition:all var(--t) var(--bounce);
 }
 #themeToggle:hover{transform:scale(1.1) rotate(15deg); border-color: var(--blue);}
+
+/* ══ FLOATING ICONS ══ */
 .floating-icons{
   position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;
 }
@@ -115,7 +135,11 @@ body.light .fi { filter: invert(1) opacity(0.5); }
   80%{opacity:0.08}
   100%{opacity:0;transform:translateY(-100vh) rotate(360deg) scale(1.1)}
 }
+
+/* ══ LAYOUT ══ */
 .wrap{position:relative;z-index:1;max-width:720px;margin:0 auto;padding:20px 16px}
+
+/* ══ HEADER ══ */
 .header{
   text-align:center;padding:30px 20px 24px;
   border-radius: 24px;
@@ -142,6 +166,8 @@ body.light .fi { filter: invert(1) opacity(0.5); }
   text-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 .header p{font-size:14px;color:var(--text2);line-height:1.6; max-width: 500px; margin: 0 auto;}
+
+/* ══ STATS BAR ══ */
 .stats-bar{
   display:flex;gap:12px;margin-bottom:20px;
   animation:fadeUp .2s var(--ease) .1s both;
@@ -154,6 +180,8 @@ body.light .fi { filter: invert(1) opacity(0.5); }
 .stat-pill:hover{ transform: translateY(-3px); background: var(--glass-bg-hover); }
 .stat-pill .sv{font-size:20px;font-weight:900;color:var(--blue)}
 .stat-pill .sl{font-size:11px;color:var(--text2);margin-top:4px; font-weight:700;}
+
+/* ══ SEARCH ══ */
 .search-row{
   margin-bottom:16px;
   animation:fadeUp .2s var(--ease) .15s both;
@@ -169,6 +197,8 @@ body.light .fi { filter: invert(1) opacity(0.5); }
   color:var(--text);font-family:var(--sans);font-size:15px;font-weight:700;
 }
 .search-box input::placeholder{color:var(--text2)}
+
+/* ══ FILTERS ══ */
 .filters{
   display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;
   scrollbar-width:none;margin-bottom:24px;
@@ -187,7 +217,10 @@ body.light .fi { filter: invert(1) opacity(0.5); }
   border-color: var(--blue); box-shadow: 0 4px 15px rgba(56,189,248,0.4);
 }
 body.light .f-btn.active { color: #fff; }
+
+/* ══ APP CARDS (GLASS) ══ */
 .grid{display:flex;flex-direction:column;gap:14px}
+
 .app-card{
   border-radius:var(--r);overflow:hidden;
   transition:border-color var(--t),transform var(--t) var(--bounce),box-shadow var(--t), background var(--t);
@@ -200,6 +233,7 @@ body.light .f-btn.active { color: #fff; }
   transform:translateY(-3px);
   background: var(--glass-bg-hover);
 }
+
 .card-body{display:flex;align-items:center;gap:14px;padding:16px}
 .app-icon{
   width:60px;height:60px;border-radius:16px;flex-shrink:0;
@@ -211,6 +245,7 @@ body.light .f-btn.active { color: #fff; }
   width:100%;height:100%;display:flex;align-items:center;
   justify-content:center;font-size:26px; background: rgba(255,255,255,0.1);
 }
+
 .app-info{flex:1;min-width:0}
 .app-name-row{display:flex;align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap}
 .app-name{font-size:16px;font-weight:900;color:var(--text);
@@ -228,6 +263,8 @@ body.light .f-btn.active { color: #fff; }
   background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border);
   color: var(--text2);
 }
+
+/* ══ DOWNLOAD BTN (GLASSY & GLOWING) ══ */
 .dl-btn{
   display:flex;align-items:center;justify-content:center;
   gap:6px;padding:0 18px;height:42px;border-radius:50px;
@@ -246,15 +283,20 @@ body.light .f-btn.active { color: #fff; }
 .dl-btn:hover::before{left:150%;transition:left .5s ease}
 .dl-btn:hover{transform:translateY(-2px) scale(1.05);box-shadow:0 8px 25px rgba(56,189,248,0.5)}
 .dl-btn:active{transform:scale(0.95)}
+
 .dl-btn .btn-idle{display:flex;align-items:center;gap:6px}
 .dl-btn .btn-progress{display:none;flex-direction:column;align-items:center;gap:2px;width:100%}
 .dl-btn .btn-done{display:none;align-items:center;gap:6px}
+
 .dl-btn.downloading .btn-idle{display:none}
 .dl-btn.downloading .btn-progress{display:flex}
 .dl-btn.downloading{background:linear-gradient(135deg,#3b82f6,#2563eb);cursor:wait}
+
 .dl-btn.done .btn-idle{display:none}
 .dl-btn.done .btn-done{display:flex}
 .dl-btn.done{background:linear-gradient(135deg,#10b981,#059669); box-shadow:0 6px 20px rgba(16,185,129,0.3);}
+
+/* ══ DETAILS DROPDOWN ══ */
 .details-btn{
   display:flex;align-items:center;justify-content:center;
   gap:5px;padding:0 14px;height:42px;border-radius:50px;
@@ -263,6 +305,7 @@ body.light .f-btn.active { color: #fff; }
   transition:all var(--t) var(--bounce);
 }
 .details-btn:hover{color:var(--blue);border-color:var(--blue); background:rgba(255,255,255,0.1)}
+
 .details-panel{
   display:none;padding:16px;
   border-top:1px solid var(--glass-border);
@@ -274,6 +317,8 @@ body.light .f-btn.active { color: #fff; }
 }
 .details-panel.open{display:block}
 @keyframes slideDown{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+
+/* ══ BOTTOM NOTE ══ */
 .bottom-note{
   border-radius:var(--r);padding:18px;margin-top:16px;
   font-size:13px;line-height:1.8;color:var(--text);
@@ -286,6 +331,8 @@ body.light .f-btn.active { color: #fff; }
   border-radius:12px;padding:14px;
 }
 .note-box-title {font-weight:900;margin-bottom:8px;font-size:13px}
+
+/* ══ TELEGRAM & MORE ══ */
 .tg-btn, .show-more-btn{
   display:flex;align-items:center;justify-content:center;gap:10px;
   width:100%;padding:16px;border-radius:50px;margin-top:14px;
@@ -294,12 +341,16 @@ body.light .f-btn.active { color: #fff; }
   animation:fadeUp .2s var(--ease) .35s both;
 }
 .tg-btn:hover, .show-more-btn:hover{border-color:var(--blue); color: var(--blue); transform:translateY(-3px)}
+
 .btn-row{display:flex;gap:8px;flex-shrink:0}
+
+/* ══ EMPTY & TOAST ══ */
 .empty{
   text-align:center;padding:60px 20px;color:var(--text2);
   border-radius:var(--r);
 }
 .empty .big{font-size:50px;margin-bottom:16px;display:block}
+
 #toast{
   position:fixed;bottom:30px;left:50%;
   transform:translateX(-50%) translateY(100px);
@@ -312,18 +363,108 @@ body.light .f-btn.active { color: #fff; }
 #toast.ok{border-left: 4px solid var(--green)}
 #toast.err{border-left: 4px solid var(--red)}
 
-/* شاشة الحماية */
-#devtoolsWarning {
-  display:none;
-  position:fixed;inset:0;z-index:99999;
-  background:#05070d;
-  flex-direction:column;align-items:center;justify-content:center;
-  text-align:center;gap:20px;
+/* ══ ACCESS GATE ══ */
+#accessGate {
+  position: fixed; inset: 0; z-index: 9999;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  background: var(--bg-color);
 }
-#devtoolsWarning .warn-icon{font-size:70px}
-#devtoolsWarning h2{font-size:22px;color:#f87171;font-family:'Cairo',sans-serif}
-#devtoolsWarning p{font-size:14px;color:#94a3b8;font-family:'Cairo',sans-serif}
+#accessGate .blobs-container {
+  position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none;
+}
 
+.gate-box {
+  width: 100%; max-width: 400px;
+  border-radius: 28px;
+  padding: 36px 28px 32px;
+  text-align: center;
+  animation: gateIn .4s var(--bounce) both;
+}
+@keyframes gateIn {
+  from { opacity: 0; transform: scale(0.85) translateY(30px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.gate-logo {
+  width: 72px; height: 72px; border-radius: 20px; margin: 0 auto 18px;
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 34px;
+  box-shadow: 0 8px 30px rgba(56,189,248,0.4);
+}
+.gate-title {
+  font-size: 22px; font-weight: 900; color: var(--text); margin-bottom: 6px;
+}
+.gate-sub {
+  font-size: 13px; color: var(--text2); margin-bottom: 26px; line-height: 1.6;
+}
+
+.gate-input-wrap {
+  position: relative; margin-bottom: 14px;
+}
+.gate-input {
+  width: 100%; padding: 14px 50px 14px 18px;
+  border-radius: 50px;
+  background: rgba(255,255,255,0.05);
+  border: 1.5px solid var(--glass-border);
+  color: var(--text); font-family: var(--sans); font-size: 16px; font-weight: 700;
+  outline: none; text-align: center; letter-spacing: 2px;
+  transition: border-color .15s, box-shadow .15s;
+}
+.gate-input:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 20px rgba(56,189,248,0.25);
+}
+.gate-input::placeholder { color: var(--text2); letter-spacing: 0; font-size: 14px; }
+
+.gate-eye {
+  position: absolute; left: 16px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; cursor: pointer;
+  font-size: 18px; color: var(--text2); padding: 4px;
+  transition: color .15s;
+}
+.gate-eye:hover { color: var(--blue); }
+
+.gate-btn {
+  width: 100%; padding: 14px; border-radius: 50px;
+  background: linear-gradient(135deg, var(--blue), var(--cyan));
+  color: #fff; font-family: var(--sans); font-size: 16px; font-weight: 900;
+  border: none; cursor: pointer;
+  box-shadow: 0 6px 20px rgba(56,189,248,0.4);
+  transition: all .15s var(--bounce);
+  margin-bottom: 16px;
+}
+.gate-btn:hover { transform: translateY(-2px) scale(1.03); box-shadow: 0 10px 28px rgba(56,189,248,0.5); }
+.gate-btn:active { transform: scale(0.97); }
+
+.gate-error {
+  font-size: 13px; color: var(--red); font-weight: 700;
+  min-height: 20px; margin-bottom: 4px;
+  animation: shakeX .35s var(--ease);
+}
+@keyframes shakeX {
+  0%,100%{transform:translateX(0)}
+  20%{transform:translateX(-8px)}
+  40%{transform:translateX(8px)}
+  60%{transform:translateX(-6px)}
+  80%{transform:translateX(6px)}
+}
+.gate-lock-msg {
+  font-size: 12px; color: var(--text2); line-height: 1.7; margin-top: 10px;
+  padding: 10px 14px; border-radius: 12px;
+  background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border);
+}
+.gate-lock-msg strong { color: var(--yellow); }
+
+.gate-fadeout {
+  animation: gateFadeOut .5s var(--ease) both !important;
+}
+@keyframes gateFadeOut {
+  to { opacity: 0; transform: scale(1.05); pointer-events: none; }
+}
+
+/* ══ RESPONSIVE ══ */
 @media(max-width:480px){
   .card-body{flex-direction: column; align-items: stretch; gap: 12px;}
   .app-icon{width:50px;height:50px; margin: 0 auto;}
@@ -336,12 +477,25 @@ body.light .f-btn.active { color: #fff; }
 </style>
 </head>
 <body>
-
-<!-- شاشة تحذير DevTools -->
-<div id="devtoolsWarning">
-  <div class="warn-icon">🚫</div>
-  <h2>غير مسموح بفتح أدوات المطور</h2>
-  <p>تم إيقاف الصفحة لحماية المحتوى</p>
+<!-- ══ ACCESS GATE ══ -->
+<div id="accessGate">
+  <div class="blobs-container">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="gate-box glass-panel">
+    <div class="gate-logo" style="background:none;box-shadow:none;width:90px;height:90px;"><img src="https://i.ibb.co/k6JVCWYk/file-000000009f2c71fd9c32d3ada081c19e.png" style="width:100%;height:100%;object-fit:contain;border-radius:20px;"></div>
+    <div class="gate-title">IPA Store</div>
+    <div class="gate-sub">أدخل كود الوصول الخاص بك للمتابعة</div>
+    <div class="gate-input-wrap">
+      <input class="gate-input" id="gateInput" type="password" placeholder="أدخل الكود هنا..." maxlength="30" autocomplete="off" onkeydown="if(event.key==='Enter')gateSubmit()">
+      <button class="gate-eye" id="gateEye" onclick="toggleGateEye()" title="إظهار/إخفاء">👁</button>
+    </div>
+    <div class="gate-error" id="gateError"></div>
+    <button class="gate-btn" onclick="gateSubmit()">دخول ←</button>
+    <div class="gate-lock-msg" id="gateLockMsg" style="display:none"></div>
+  </div>
 </div>
 
 <div class="blobs-container">
@@ -351,10 +505,13 @@ body.light .f-btn.active { color: #fff; }
 </div>
 
 <div id="toast" class="glass-panel"></div>
+
 <button id="themeToggle" class="glass-panel" onclick="toggleTheme()" title="تغيير الثيم">🌙</button>
+
 <div class="floating-icons" id="floatingIcons"></div>
 
 <div class="wrap">
+
   <div class="header glass-panel">
     <div class="logo-row">
       <div class="logo-dot"></div>
@@ -426,79 +583,137 @@ body.light .f-btn.active { color: #fff; }
     <img src="https://i.ibb.co/G33RGgsF/IMG-6850.jpg" style="width:32px;height:32px;border-radius:50%;object-fit:cover;border:2px solid var(--blue)">
     <span style="font-size:12px;color:var(--text2);font-family:var(--sans)">Website designed by <strong style="color:var(--cyan)">Dyala Youssif</strong></span>
   </a>
+
 </div>
 
 <script>
-/* ══ حماية الكود ══ */
+/* ══ ACCESS GATE SYSTEM ══ */
+(function() {
+  // الأكواد + fingerprint مرتبط بجهاز
+  const VALID_CODES = ['Kahwa', 'ikira18', 'alkahwa', 'iKira22'];
+  const STORAGE_PREFIX = 'ipa_gate_';
+  const SESSION_KEY = 'ipa_session';
 
-// 1. منع كليك يمين
-document.addEventListener('contextmenu', function(e){ e.preventDefault(); return false; });
-
-// 2. منع اختصارات لوحة المفاتيح
-document.addEventListener('keydown', function(e){
-  // F12
-  if(e.keyCode === 123) { e.preventDefault(); return false; }
-  // Ctrl+Shift+I / Ctrl+Shift+J / Ctrl+Shift+C
-  if(e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74 || e.keyCode === 67)) { e.preventDefault(); return false; }
-  // Ctrl+U (view source)
-  if(e.ctrlKey && e.keyCode === 85) { e.preventDefault(); return false; }
-  // Ctrl+S (save)
-  if(e.ctrlKey && e.keyCode === 83) { e.preventDefault(); return false; }
-  // Ctrl+A (select all)
-  if(e.ctrlKey && e.keyCode === 65) { e.preventDefault(); return false; }
-  // Ctrl+P (print)
-  if(e.ctrlKey && e.keyCode === 80) { e.preventDefault(); return false; }
-});
-
-// 3. كشف DevTools عبر فرق الحجم
-(function detectDevTools(){
-  const threshold = 160;
-  function check(){
-    const widthDiff  = window.outerWidth  - window.innerWidth;
-    const heightDiff = window.outerHeight - window.innerHeight;
-    if(widthDiff > threshold || heightDiff > threshold){
-      document.getElementById('devtoolsWarning').style.display = 'flex';
-      document.querySelector('.wrap') && (document.querySelector('.wrap').style.display = 'none');
-    } else {
-      document.getElementById('devtoolsWarning').style.display = 'none';
-      document.querySelector('.wrap') && (document.querySelector('.wrap').style.display = 'block');
+  // توليد fingerprint بسيط للجهاز
+  function getDeviceId() {
+    const nav = navigator;
+    const raw = [
+      nav.userAgent,
+      nav.language,
+      screen.width + 'x' + screen.height,
+      screen.colorDepth,
+      nav.hardwareConcurrency || '',
+      nav.platform || '',
+      Intl.DateTimeFormat().resolvedOptions().timeZone || ''
+    ].join('|');
+    let hash = 0;
+    for (let i = 0; i < raw.length; i++) {
+      hash = ((hash << 5) - hash) + raw.charCodeAt(i);
+      hash |= 0;
     }
+    return 'dev_' + Math.abs(hash).toString(36);
   }
-  setInterval(check, 500);
-})();
 
-// 4. كشف DevTools عبر debugger
-(function devToolsDebugger(){
-  let devOpen = false;
-  const check = new Function('debugger; return false;');
-  setInterval(function(){
-    const start = performance.now();
-    check();
-    if(performance.now() - start > 100){
-      if(!devOpen){
-        devOpen = true;
-        document.getElementById('devtoolsWarning').style.display = 'flex';
-        document.querySelector('.wrap') && (document.querySelector('.wrap').style.display = 'none');
-      }
+  const deviceId = getDeviceId();
+
+  // تحقق إذا الجلسة محفوظة لهذا الجهاز
+  function isUnlocked() {
+    try {
+      const session = localStorage.getItem(SESSION_KEY);
+      if (!session) return false;
+      const data = JSON.parse(session);
+      return data.deviceId === deviceId && VALID_CODES.includes(data.code);
+    } catch(e) { return false; }
+  }
+
+  // تحقق إذا الكود مستخدم على جهاز آخر
+  function isCodeLockedToOtherDevice(code) {
+    try {
+      const stored = localStorage.getItem(STORAGE_PREFIX + code.toLowerCase());
+      if (!stored) return false;
+      const data = JSON.parse(stored);
+      return data.deviceId !== deviceId;
+    } catch(e) { return false; }
+  }
+
+  // ربط الكود بهذا الجهاز
+  function lockCodeToDevice(code) {
+    const data = { deviceId, code, lockedAt: Date.now() };
+    localStorage.setItem(STORAGE_PREFIX + code.toLowerCase(), JSON.stringify(data));
+    localStorage.setItem(SESSION_KEY, JSON.stringify(data));
+  }
+
+  // إخفاء/إظهار الكود
+  window.toggleGateEye = function() {
+    const input = document.getElementById('gateInput');
+    const eye = document.getElementById('gateEye');
+    if (input.type === 'password') {
+      input.type = 'text';
+      eye.textContent = '🙈';
     } else {
-      if(devOpen){
-        devOpen = false;
-        document.getElementById('devtoolsWarning').style.display = 'none';
-        document.querySelector('.wrap') && (document.querySelector('.wrap').style.display = 'block');
-      }
+      input.type = 'password';
+      eye.textContent = '👁';
     }
-  }, 500);
-})();
+  };
 
-// 5. منع السحب والتحديد
-document.addEventListener('dragstart', e => e.preventDefault());
-document.addEventListener('selectstart', e => e.preventDefault());
+  // التحقق من الكود
+  window.gateSubmit = function() {
+    const input = document.getElementById('gateInput');
+    const errorEl = document.getElementById('gateError');
+    const lockMsg = document.getElementById('gateLockMsg');
+    const code = input.value.trim();
+
+    errorEl.textContent = '';
+    lockMsg.style.display = 'none';
+
+    if (!code) {
+      errorEl.textContent = '⚠️ أدخل الكود أولاً';
+      return;
+    }
+
+    // تحقق إذا الكود صحيح
+    const matched = VALID_CODES.find(c => c === code);
+    if (!matched) {
+      errorEl.textContent = '❌ الكود غير صحيح';
+      input.value = '';
+      input.focus();
+      return;
+    }
+
+    // تحقق إذا الكود مستخدم على جهاز آخر
+    if (isCodeLockedToOtherDevice(matched)) {
+      errorEl.textContent = '🔒 هذا الكود مرتبط بجهاز آخر';
+      lockMsg.innerHTML = 'هذا الكود تم استخدامه من جهاز مختلف.<br><strong>تواصل مع المسؤول للحصول على كود جديد.</strong>';
+      lockMsg.style.display = 'block';
+      input.value = '';
+      return;
+    }
+
+    // ربط الكود بالجهاز وفتح الموقع
+    lockCodeToDevice(matched);
+    const gate = document.getElementById('accessGate');
+    gate.classList.add('gate-fadeout');
+    setTimeout(() => { gate.style.display = 'none'; }, 500);
+  };
+
+  // عند تحميل الصفحة
+  window.addEventListener('DOMContentLoaded', function() {
+    if (isUnlocked()) {
+      document.getElementById('accessGate').style.display = 'none';
+    } else {
+      setTimeout(() => {
+        const inp = document.getElementById('gateInput');
+        if (inp) inp.focus();
+      }, 300);
+    }
+  });
+})();
 
 /* ══ CONFIG ══ */
-const GITHUB_OWNER  = 'ikiraplus';
-const GITHUB_REPO   = 'ipastore';
+const GITHUB_OWNER  = 'ikiraplus';   // ← غيّر هذا
+const GITHUB_REPO   = 'ipastore';    // ← اسم الريبو
 const GITHUB_BRANCH = 'main';
-const WORKER_URL    = 'https://ipastore.rhomy1515.workers.dev';
+const WORKER_URL    = 'https://ipastore.rhomy1515.workers.dev'; // ← رابط الـ Worker
 const APPS_JSON = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/apps.json`;
 
 /* ══ STATE ══ */
@@ -563,8 +778,10 @@ function renderGrid(list) {
     grid.innerHTML = '<div class="empty glass-panel"><span class="big">🔍</span><p>لا توجد نتائج</p></div>';
     return;
   }
+
   const visible = list.slice(0, shownCount);
   const remaining = list.length - shownCount;
+
   grid.innerHTML = visible.map((app, i) => `
     <div class="app-card glass-panel" style="animation-delay:${i*0.02}s" id="card-${app.id}">
       <div class="card-body">
@@ -632,12 +849,14 @@ function downloadApp(id, ipaUrl, name) {
   }
   const isWorkerUrl = ipaUrl.includes('workers.dev') || ipaUrl.includes('iparpoxy');
   const finalUrl = isWorkerUrl ? ipaUrl : `${WORKER_URL}?url=${encodeURIComponent(ipaUrl)}`;
+
   const a = document.createElement('a');
   a.href = finalUrl;
   a.download = name + '.ipa';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
+
   btn.classList.add('done');
   toast('✅ بدأ التحميل!', 'ok');
   setTimeout(() => btn.classList.remove('done'), 3000);
@@ -660,10 +879,12 @@ function toggleTheme() {
 }
 (function(){
   const saved = localStorage.getItem('theme');
+  // الدارك هو الافتراضي — أضف light فقط إذا اختاره المستخدم صراحةً
   if(saved === 'light'){
     document.body.classList.add('light');
     document.getElementById('themeToggle').textContent = '☀️';
   } else {
+    // تأكد إن dark هو الوضع الافتراضي
     document.body.classList.remove('light');
     document.getElementById('themeToggle').textContent = '🌙';
   }
