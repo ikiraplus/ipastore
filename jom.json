@@ -134,17 +134,6 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773574681601",
-      "name": "Five Nights at Freddy's 2",
-      "version": "2.0.5",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1744",
-      "icon": "https://appstore.nabzclan.vip/images/icon_68fed02f23442.jpg",
-      "size": "111.7 MB",
-      "note": "Welcome back to the new and improved Freddy Fazbear's Pizza!\n\nIn Five Nights at Freddy's 2, the old and aging animatronics are joined by a new cast of characters. They are kid-friendly, updated with the latest in facial recognition technology, tied into local criminal databases, and promise to put on a safe and entertaining show for kids and grown-ups alike!\n\nWhat could go wrong?\n\nAs the new security guard working nights, your job is to monitor cameras and make sure nothing goes wrong after-hours. The previous guard has complained about the characters trying to get into the office (he has since been moved to day-shift). So",
-      "category": "ألعاب",
-      "addedAt": "2026-03-15"
-    },
-    {
       "id": "app-1773574679669",
       "name": "Five Nights at Freddy's",
       "version": "2.0.5",
@@ -154,6 +143,17 @@
       "note": "NOTE: Remastered version from the PC version. A device with at least 2 GB of RAM is required for this game to run properly.\n\nWelcome to your new summer job at Freddy Fazbear's Pizza, where kids and parents alike come for entertainment and food as far as the eye can see! The main attraction is Freddy Fazbear, of course; and his two friends. They are animatronic robots, programmed to please the crowds! The robots' behavior has become somewhat unpredictable at night however, and it was much cheaper to hire you as a security guard than to find a repairman.\n\nFrom your small office you must watch the security cameras carefully. You have a very limited amount of electricity that you're allowed to use per night (corporate budget cuts, you know). Tha",
       "category": "ألعاب",
       "addedAt": "2026-03-28"
+    },
+    {
+      "id": "app-1773574681601",
+      "name": "Five Nights at Freddy's 2",
+      "version": "2.0.5",
+      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1744",
+      "icon": "https://appstore.nabzclan.vip/images/icon_68fed02f23442.jpg",
+      "size": "111.7 MB",
+      "note": "Welcome back to the new and improved Freddy Fazbear's Pizza!\n\nIn Five Nights at Freddy's 2, the old and aging animatronics are joined by a new cast of characters. They are kid-friendly, updated with the latest in facial recognition technology, tied into local criminal databases, and promise to put on a safe and entertaining show for kids and grown-ups alike!\n\nWhat could go wrong?\n\nAs the new security guard working nights, your job is to monitor cameras and make sure nothing goes wrong after-hours. The previous guard has complained about the characters trying to get into the office (he has since been moved to day-shift). So",
+      "category": "ألعاب",
+      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773574683772",
