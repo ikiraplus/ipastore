@@ -1040,6 +1040,18 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-16"
+    },
+    {
+      "id": "app-1774685408828",
+      "name": "NeoFreeBird",
+      "version": "11.35",
+      "ipaUrl": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
+      "icon": "https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/Branding/Icon.png",
+      "size": "151.1 MB",
+      "note": "A modified Twitter app, with branding reverts, BHTwitter and other QoL modifications.",
+      "bundleId": "com.atebits.Tweetie2",
+      "category": "أدوات",
+      "addedAt": "2026-03-28"
     }
   ]
 }
