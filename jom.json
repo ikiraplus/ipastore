@@ -596,6 +596,17 @@
       "addedAt": "2026-03-15"
     },
     {
+      "id": "app-1774774281798",
+      "name": "Pubg",
+      "version": "last version",
+      "ipaUrl": "https://www.tgxdl3.workers.dev/channel/dl/424990/file.mkv?hash=AgADZI",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/13/c2/1013c2bb-c728-f6e0-073e-54879d5820e9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "size": "3290 MB",
+      "note": "حسابك مسؤوليتك ( لا اضمن النسخه ولا العبها ولا اعرف مطورها )\n\nمميزات النسخة :\n- كشف لاعبين ( رادار )\n- حذف قيست\n- ايم بوت\n- ثبات داخلي",
+      "category": "ألعاب",
+      "addedAt": "2026-03-29"
+    },
+    {
       "id": "app-1773546764372",
       "name": "Clash Royale - nulls royal",
       "version": "13.300.6",
@@ -651,17 +662,6 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773546985363",
-      "name": "Bully",
-      "version": "Last",
-      "ipaUrl": "https://github.com/ehmedjamil/repo/releases/download/repo/bully.ipa",
-      "icon": "https://ittza7aa.com/aseets/icon/bully.png",
-      "size": "",
-      "note": "Appleid VIP",
-      "category": "ألعاب",
-      "addedAt": "2026-03-15"
-    },
-    {
       "id": "app-1773546896242",
       "name": "Photoshop Express - (Hacked)",
       "version": "7.3.3",
@@ -673,15 +673,15 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-1774774281798",
-      "name": "Pubg",
-      "version": "last version",
-      "ipaUrl": "https://www.tgxdl3.workers.dev/channel/dl/424990/file.mkv?hash=AgADZI",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/13/c2/1013c2bb-c728-f6e0-073e-54879d5820e9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "size": "3290 MB",
-      "note": "حسابك مسؤوليتك ( لا اضمن النسخه ولا العبها ولا اعرف مطورها )\n\nمميزات النسخة :\n- كشف لاعبين ( رادار )\n- حذف قيست\n- ايم بوت\n- ثبات داخلي",
+      "id": "app-1773546985363",
+      "name": "Bully",
+      "version": "Last",
+      "ipaUrl": "https://github.com/ehmedjamil/repo/releases/download/repo/bully.ipa",
+      "icon": "https://ittza7aa.com/aseets/icon/bully.png",
+      "size": "",
+      "note": "Appleid VIP",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-15"
     },
     {
       "id": "app-1773546879604",
