@@ -1665,6 +1665,18 @@
       "bundleId": "com.adobe.lrmobile",
       "category": "أدوات",
       "addedAt": "2026-03-29"
+    },
+    {
+      "id": "app-1774779633396",
+      "name": "VSCO",
+      "version": "459.0.0",
+      "ipaUrl": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/VSCO_459.0.0_Subscription_Unlocked_@thisismanpreets_apptesters.org.ipa",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "size": "202.4 MB",
+      "note": "Injected with Subscription Unlocked",
+      "bundleId": "co.visualsupply.cam",
+      "category": "أدوات",
+      "addedAt": "2026-03-29"
     }
   ]
 }
