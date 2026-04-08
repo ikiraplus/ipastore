@@ -1,6 +1,15 @@
 {
   "apps": [
     {
+      "id": "app-shahada-free",
+      "name": "شهادة مجانية",
+      "version": "4.2",
+      "ipaUrl": "https://api.khoindvn.io.vn/JnAsbd",
+      "icon": "https://i.ibb.co/yCVJTsm/file-000000000c3471f5a2b160d9331fd985.png",
+      "size": "11 MB",
+      "note": ""
+    },
+    {
       "id": "app-1773401165477",
       "name": "ريكرام",
       "version": "423.0",
