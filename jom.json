@@ -1,6 +1,17 @@
 {
   "apps": [
     {
+      "id": "app-free-cert-001",
+      "name": "شهادة مجانية",
+      "version": "4.2",
+      "ipaUrl": "https://api.khoindvn.io.vn/JnAsbd",
+      "icon": "https://i.ibb.co/yCVJTsm/file-000000000c3471f5a2b160d9331fd985.png",
+      "size": "11 MB",
+      "note": "",
+      "category": "أخرى",
+      "addedAt": "2026-04-08"
+    },
+    {
       "id": "app-1773401165477",
       "name": "ريكرام",
       "version": "423.0",
