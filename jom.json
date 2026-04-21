@@ -849,14 +849,14 @@
     {
       "id": "app-1773574571308",
       "name": "Twitch - TwitchAdBlock",
-      "version": "26.8",
-      "ipaUrl": "https://appstore.nabzclan.vip/download-repo-source/1863",
+      "version": "28.1",
+      "ipaUrl": "https://www.streamvaultpro.cc/0:/dl/69e7b49d6e2d4e045b69ef5b",
       "icon": "https://appstore.nabzclan.vip/images/icon_6902648084733.jpg",
-      "size": "135.1 MB",
+      "size": "146 MB",
       "note": "Twitch with no ads",
-      "bundleId": "tv.twitch",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-04-21"
     },
     {
       "id": "app-1773574583186",
