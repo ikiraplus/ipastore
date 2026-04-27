@@ -894,13 +894,14 @@
     {
       "id": "app-1773574652583",
       "name": "Play!",
-      "version": "0.58-8-g70a126e3",
+      "version": "1.58",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/play_v058-8-g70a126e3-1",
       "icon": "https://appstore.nabzclan.vip/images/1761539074.png",
       "size": "13.0 MB",
       "note": "",
       "category": "أخرى",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-04-27T07:29:06.862Z"
     },
     {
       "id": "app-1773546879604",
