@@ -506,13 +506,14 @@
     {
       "id": "app-1773510255249",
       "name": "Anime Cloud",
-      "version": "6.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime.cloud.6.5-1",
+      "version": "6.5.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "7.3 MB",
+      "size": "6.4 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-14"
+      "addedAt": "2026-03-14",
+      "updatedAt": "2026-04-27T07:39:09.938Z"
     },
     {
       "id": "app-1773510394623",
