@@ -98,14 +98,14 @@
     {
       "id": "app-1773402450838",
       "name": "instagram IG",
-      "version": "422.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/igformatv1.98[422.0.0]-1",
+      "version": "425.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/igformatv1.99[425.0.0]",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "265.1 MB",
+      "size": "285.4 MB",
       "note": "لتفعيل مميزات النسخة : \n- اضغط على زر الـبروفايل وستجيد ايقونة الريشه اضغط عليها وتفتح معك المميزات",
       "category": "تواصل",
       "addedAt": "2026-04-08",
-      "updatedAt": "2026-04-21"
+      "updatedAt": "2026-04-27T07:40:43.532Z"
     },
     {
       "id": "app-1773436098791",
