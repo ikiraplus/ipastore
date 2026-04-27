@@ -1850,6 +1850,18 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:28:44.610Z",
       "updatedAt": "2026-04-27T18:28:44.610Z"
+    },
+    {
+      "id": "app-1777314593377",
+      "name": "grim soul",
+      "version": "8.1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grim-soul-[8.1.1]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/81/5b/45815b0b-da71-aed1-e89d-f45b0b5a43f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "321.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-04-27T18:29:53.378Z",
+      "updatedAt": "2026-04-27T18:29:53.378Z"
     }
   ]
 }
