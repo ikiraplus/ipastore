@@ -1629,15 +1629,15 @@
     },
     {
       "id": "app-1774774633445",
-      "name": "Sc Instagram",
-      "version": "425.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sc-instagram_v425.0.0",
+      "name": "RyukGram",
+      "version": "426.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram-v426.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/ef/ec/eeefec6f-582d-90c7-ac6c-ea2ed8fd269a/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "290.1 MB",
+      "size": "309.0 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-04-21"
+      "updatedAt": "2026-04-27T07:31:53.021Z"
     },
     {
       "id": "app-1774774792819",
