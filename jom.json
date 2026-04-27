@@ -1495,13 +1495,14 @@
     {
       "id": "app-iosgods-duolingo-142",
       "name": "Duolingo",
-      "version": "7.106.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duolingo-modded-zghjs87fpv-1",
+      "version": "7.119.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duolingo_language_&_chess_v7_119_0_duolingo_max_unlocked-",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/5d/4a/785d4a42-88aa-3c7c-5b2e-ba48816fdffe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "350 MB",
+      "size": "204.3 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "دراسة وذكاء اصطناعي",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-04-27T18:17:33.529Z"
     },
     {
       "id": "app-iosgods-temple-run-2-3655",
