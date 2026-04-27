@@ -1886,6 +1886,18 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:33:15.514Z",
       "updatedAt": "2026-04-27T18:33:15.514Z"
+    },
+    {
+      "id": "app-1777315108415",
+      "name": "Youtube OLED",
+      "version": "20.49.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-oled-20.49.5",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777315108415.png",
+      "size": "123.0 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-04-27T18:38:30.031Z",
+      "updatedAt": "2026-04-27T18:38:30.031Z"
     }
   ]
 }
