@@ -51,14 +51,14 @@
     {
       "id": "app-1773436028095",
       "name": "WhatsApp Gold",
-      "version": "26.18",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp-gold_1.8",
+      "version": "26.19",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_wgold_1.9",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
-      "size": "128 MB",
+      "size": "127.4 MB",
       "note": "سجل بالنسخة كجهاز مصاحب فقطططط.",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-04-17"
+      "updatedAt": "2026-04-27T07:28:05.806Z"
     },
     {
       "id": "app-1773512283014",
