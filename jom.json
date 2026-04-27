@@ -1146,13 +1146,14 @@
     {
       "id": "app-game-ios-1711600000004",
       "name": "Among Us",
-      "version": "2024.10.29",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/among-us-ios-mod-ipa-3f0o2sjncy-1",
+      "version": "last",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/among-us[2026.3.31]",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/61/68/0f6168ea-2688-7c34-80c7-56d45e893fcb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "300 MB",
+      "size": "684.6 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-04-27T18:09:37.230Z"
     },
     {
       "id": "app-game-ios-1711600000005",
