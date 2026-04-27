@@ -1910,6 +1910,18 @@
       "category": "تواصل",
       "addedAt": "2026-04-27T18:39:21.262Z",
       "updatedAt": "2026-04-27T18:39:21.262Z"
+    },
+    {
+      "id": "app-1777315219858",
+      "name": "Youtube LRD",
+      "version": "20.50.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-lrd-20.50.9-",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777315219858.png",
+      "size": "124.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-04-27T18:40:21.634Z",
+      "updatedAt": "2026-04-27T18:40:21.634Z"
     }
   ]
 }
