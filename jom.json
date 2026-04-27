@@ -1814,6 +1814,18 @@
       "category": "تواصل",
       "addedAt": "2026-04-27T18:24:41.115Z",
       "updatedAt": "2026-04-27T18:24:41.115Z"
+    },
+    {
+      "id": "app-1777314367473",
+      "name": "csr racing 2",
+      "version": "6.4.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/csr-racing-2-[6.4.0]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/71/0f/e4710f14-70b0-c39c-085f-276e81226084/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+      "size": "3247.7 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-04-27T18:26:07.473Z",
+      "updatedAt": "2026-04-27T18:26:07.473Z"
     }
   ]
 }
