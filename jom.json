@@ -1734,6 +1734,18 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:04:16.596Z",
       "updatedAt": "2026-04-27T18:04:16.596Z"
+    },
+    {
+      "id": "app-1777313166085",
+      "name": "rave",
+      "version": "8.1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rave-(8.1.2)",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/e3/40/f7e34042-710f-b1b0-a7d2-6924b3a8c807/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
+      "size": "131.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-04-27T18:06:06.087Z",
+      "updatedAt": "2026-04-27T18:06:06.087Z"
     }
   ]
 }
