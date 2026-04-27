@@ -1874,6 +1874,18 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:31:33.239Z",
       "updatedAt": "2026-04-27T18:31:33.239Z"
+    },
+    {
+      "id": "app-1777314795514",
+      "name": "asphalt 8",
+      "version": "8.8.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asphalt-8-[8.8.1]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/fa/68/38fa6864-29fe-d0ae-1117-9b3950c5dbb2/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      "size": "2873.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-04-27T18:33:15.514Z",
+      "updatedAt": "2026-04-27T18:33:15.514Z"
     }
   ]
 }
