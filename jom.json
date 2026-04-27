@@ -1303,14 +1303,15 @@
     },
     {
       "id": "app-iosgods-dazz-cam-1697",
-      "name": "Dazz Cam - كاميرا فينتج",
-      "version": "2.14",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dazz-cam-vintage-camera-modded-l9aovc5atf-1",
+      "name": "Dazz Cam pro",
+      "version": "2.17",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dazz-cam---vintage-camera-v2.17-dazz-pro-",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/70/a8/fc70a86d-ea31-6ffb-6153-7685e883ddd7/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "134.7 MB",
+      "size": "110.6 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "أدوات",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-04-27T18:12:16.471Z"
     },
     {
       "id": "app-iosgods-logo-maker-3539",
