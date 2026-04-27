@@ -1789,6 +1789,18 @@
       "category": "أدوات",
       "addedAt": "2026-04-27T18:16:09.155Z",
       "updatedAt": "2026-04-27T18:16:09.155Z"
+    },
+    {
+      "id": "app-1777314094685",
+      "name": "Youtube killer plus",
+      "version": "21.16.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-killer-plus",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
+      "size": "127.7 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-04-27T18:21:36.213Z",
+      "updatedAt": "2026-04-27T18:21:36.213Z"
     }
   ]
 }
