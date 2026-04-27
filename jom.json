@@ -1245,14 +1245,15 @@
     },
     {
       "id": "app-game-ios-1711600000013",
-      "name": "Gardenscapes",
-      "version": "7.8.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gardenscapes-ios-mod-ipa-dweowiwfaq-1",
+      "name": "Garden scapes",
+      "version": "9.5.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gardenscapes[9.5.5]",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/0e/33/d60e33a2-1fc7-bd22-aec5-d5bb19f14c17/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "600 MB",
+      "size": "196.8 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-04-27T18:08:55.911Z"
     },
     {
       "id": "app-game-ios-1711600000014",
