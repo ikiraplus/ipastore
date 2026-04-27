@@ -1,6 +1,30 @@
 {
   "apps": [
     {
+      "id": "app-shahada-free",
+      "name": "شهادة مجانية",
+      "version": "4.2",
+      "ipaUrl": "https://api.khoindvn.io.vn/JnAsbd",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-shahada-free.png",
+      "size": "11 MB",
+      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
+      "category": "أخرى",
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-21"
+    },
+    {
+      "id": "app-shahadda-free",
+      "name": "شهادة مجانية 2",
+      "version": "4.3",
+      "ipaUrl": "https://api.khoindvn.io.vn/1TVLIL",
+      "icon": "https://i.ibb.co/4g2xzQJ5/Picsart-26-04-24-20-03-35-864.png",
+      "size": "12 MB",
+      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
+      "category": "أخرى",
+      "addedAt": "2026-04-24",
+      "updatedAt": "2026-04-24"
+    },
+    {
       "id": "app-1773401165477",
       "name": "ريكرام",
       "version": "426.0",
@@ -382,30 +406,6 @@
       "category": "تواصل",
       "addedAt": "2026-04-27T18:21:36.213Z",
       "updatedAt": "2026-04-27T18:21:36.213Z"
-    },
-    {
-      "id": "app-shahada-free",
-      "name": "شهادة مجانية",
-      "version": "4.2",
-      "ipaUrl": "https://api.khoindvn.io.vn/JnAsbd",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-shahada-free.png",
-      "size": "11 MB",
-      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
-      "category": "أخرى",
-      "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-21"
-    },
-    {
-      "id": "app-shahadda-free",
-      "name": "شهادة مجانية 2",
-      "version": "4.3",
-      "ipaUrl": "https://api.khoindvn.io.vn/1TVLIL",
-      "icon": "https://i.ibb.co/4g2xzQJ5/Picsart-26-04-24-20-03-35-864.png",
-      "size": "12 MB",
-      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
-      "category": "أخرى",
-      "addedAt": "2026-04-24",
-      "updatedAt": "2026-04-24"
     },
     {
       "id": "app-1773226791309",
