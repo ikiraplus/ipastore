@@ -1,30 +1,6 @@
 {
   "apps": [
     {
-      "id": "app-shahada-free",
-      "name": "شهادة مجانية",
-      "version": "4.2",
-      "ipaUrl": "https://api.khoindvn.io.vn/JnAsbd",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-shahada-free.png",
-      "size": "11 MB",
-      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
-      "category": "أخرى",
-      "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-21"
-    },
-    {
-      "id": "app-shahadda-free",
-      "name": "شهادة مجانية 2",
-      "version": "4.3",
-      "ipaUrl": "https://api.khoindvn.io.vn/1TVLIL",
-      "icon": "https://i.ibb.co/4g2xzQJ5/Picsart-26-04-24-20-03-35-864.png",
-      "size": "12 MB",
-      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
-      "category": "أخرى",
-      "addedAt": "2026-04-24",
-      "updatedAt": "2026-04-24"
-    },
-    {
       "id": "app-1773401165477",
       "name": "ريكرام",
       "version": "426.0",
@@ -346,6 +322,90 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29"
+    },
+    {
+      "id": "app-iosgods-instagram-theta-1218",
+      "name": "Instagram Theta",
+      "version": "425.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-theta-v425.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "260 MB",
+      "note": "نسخة مهكرة من iosgods\nلتفعيل المميزات اضغط على زر Home ضغطة مطولة",
+      "category": "تواصل",
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-04-21"
+    },
+    {
+      "id": "app-1774774633445",
+      "name": "RyukGram",
+      "version": "426.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram-v426.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/ef/ec/eeefec6f-582d-90c7-ac6c-ea2ed8fd269a/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "309.0 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-04-27T07:31:53.021Z"
+    },
+    {
+      "id": "app-1777313166085",
+      "name": "rave",
+      "version": "8.1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rave-(8.1.2)",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/e3/40/f7e34042-710f-b1b0-a7d2-6924b3a8c807/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
+      "size": "131.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-04-27T18:06:06.087Z",
+      "updatedAt": "2026-04-27T18:06:06.087Z"
+    },
+    {
+      "id": "app-1777314281114",
+      "name": "Discord KT",
+      "version": "326.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/bd/8e/b5bd8ea9-2301-b2d5-956a-f28b6b87ed94/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "88.0 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-04-27T18:24:41.115Z",
+      "updatedAt": "2026-04-27T18:24:41.115Z"
+    },
+    {
+      "id": "app-1777314094685",
+      "name": "Youtube killer plus",
+      "version": "21.16.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-killer-plus",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
+      "size": "127.7 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-04-27T18:21:36.213Z",
+      "updatedAt": "2026-04-27T18:21:36.213Z"
+    },
+    {
+      "id": "app-shahada-free",
+      "name": "شهادة مجانية",
+      "version": "4.2",
+      "ipaUrl": "https://api.khoindvn.io.vn/JnAsbd",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-shahada-free.png",
+      "size": "11 MB",
+      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
+      "category": "أخرى",
+      "addedAt": "2026-04-10",
+      "updatedAt": "2026-04-21"
+    },
+    {
+      "id": "app-shahadda-free",
+      "name": "شهادة مجانية 2",
+      "version": "4.3",
+      "ipaUrl": "https://api.khoindvn.io.vn/1TVLIL",
+      "icon": "https://i.ibb.co/4g2xzQJ5/Picsart-26-04-24-20-03-35-864.png",
+      "size": "12 MB",
+      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
+      "category": "أخرى",
+      "addedAt": "2026-04-24",
+      "updatedAt": "2026-04-24"
     },
     {
       "id": "app-1773226791309",
@@ -1382,18 +1442,6 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-iosgods-instagram-theta-1218",
-      "name": "Instagram Theta",
-      "version": "425.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-theta-v425.0.0",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "260 MB",
-      "note": "نسخة مهكرة من iosgods\nلتفعيل المميزات اضغط على زر Home ضغطة مطولة",
-      "category": "تواصل",
-      "addedAt": "2026-03-29",
-      "updatedAt": "2026-04-21"
-    },
-    {
       "id": "app-iosgods-fonts-2014",
       "name": "Fonts",
       "version": "7.2.0",
@@ -1638,18 +1686,6 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-1774774633445",
-      "name": "RyukGram",
-      "version": "426.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram-v426.0",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/ef/ec/eeefec6f-582d-90c7-ac6c-ea2ed8fd269a/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "309.0 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-03-29",
-      "updatedAt": "2026-04-27T07:31:53.021Z"
-    },
-    {
       "id": "app-1774774792819",
       "name": "Movilx",
       "version": "1.1",
@@ -1744,18 +1780,6 @@
       "updatedAt": "2026-04-27T18:04:16.596Z"
     },
     {
-      "id": "app-1777313166085",
-      "name": "rave",
-      "version": "8.1.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rave-(8.1.2)",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/e3/40/f7e34042-710f-b1b0-a7d2-6924b3a8c807/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
-      "size": "131.9 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-04-27T18:06:06.087Z",
-      "updatedAt": "2026-04-27T18:06:06.087Z"
-    },
-    {
       "id": "app-1777313244441",
       "name": "last day on earth survival",
       "version": "1.48.0",
@@ -1790,30 +1814,6 @@
       "category": "أدوات",
       "addedAt": "2026-04-27T18:16:09.155Z",
       "updatedAt": "2026-04-27T18:16:09.155Z"
-    },
-    {
-      "id": "app-1777314094685",
-      "name": "Youtube killer plus",
-      "version": "21.16.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-killer-plus",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
-      "size": "127.7 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-04-27T18:21:36.213Z",
-      "updatedAt": "2026-04-27T18:21:36.213Z"
-    },
-    {
-      "id": "app-1777314281114",
-      "name": "Discord KT",
-      "version": "326.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/bd/8e/b5bd8ea9-2301-b2d5-956a-f28b6b87ed94/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "88.0 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-04-27T18:24:41.115Z",
-      "updatedAt": "2026-04-27T18:24:41.115Z"
     },
     {
       "id": "app-1777314367473",
