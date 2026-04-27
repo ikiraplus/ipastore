@@ -1826,6 +1826,18 @@
       "category": "تواصل",
       "addedAt": "2026-04-27T18:26:07.473Z",
       "updatedAt": "2026-04-27T18:26:07.473Z"
+    },
+    {
+      "id": "app-1777314416174",
+      "name": "bike race",
+      "version": "8.15.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bike-race-[8.15.0]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/f0/a0/54f0a0e3-9c1a-abf5-3eda-bb918d60698f/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "114.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-04-27T18:26:56.175Z",
+      "updatedAt": "2026-04-27T18:26:56.175Z"
     }
   ]
 }
