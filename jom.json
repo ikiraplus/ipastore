@@ -1862,6 +1862,18 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:29:53.378Z",
       "updatedAt": "2026-04-27T18:29:53.378Z"
+    },
+    {
+      "id": "app-1777314693238",
+      "name": "car parking",
+      "version": "4.9.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-parking-[4.9.8]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/cf/b7/5fcfb775-9248-3098-5de8-8f1cb2146211/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "1842.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-04-27T18:31:33.239Z",
+      "updatedAt": "2026-04-27T18:31:33.239Z"
     }
   ]
 }
