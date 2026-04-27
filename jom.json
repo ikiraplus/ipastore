@@ -1838,6 +1838,18 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:26:56.175Z",
       "updatedAt": "2026-04-27T18:26:56.175Z"
+    },
+    {
+      "id": "app-1777314524609",
+      "name": "airport city",
+      "version": "8.47.03",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/airport-city-[8.47.03]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/46/8ffa4674-ce86-4f34-6467-b76ba8c5dafc/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      "size": "252.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-04-27T18:28:44.610Z",
+      "updatedAt": "2026-04-27T18:28:44.610Z"
     }
   ]
 }
