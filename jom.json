@@ -386,14 +386,14 @@
     {
       "id": "app-1777314281114",
       "name": "Discord KT",
-      "version": "326.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord",
+      "version": "327.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord-327.0_kt",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/bd/8e/b5bd8ea9-2301-b2d5-956a-f28b6b87ed94/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "size": "88.0 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:24:41.115Z",
-      "updatedAt": "2026-04-27T18:24:41.115Z"
+      "updatedAt": "2026-05-01T16:19:29.996Z"
     },
     {
       "id": "app-1777314094685",
