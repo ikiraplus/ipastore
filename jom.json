@@ -1970,6 +1970,18 @@
       "category": "ترفيه",
       "addedAt": "2026-05-01T16:26:07.251Z",
       "updatedAt": "2026-05-01T16:26:07.251Z"
+    },
+    {
+      "id": "app-1777652894490",
+      "name": "MadPlay",
+      "version": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/madplay-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652894490.png",
+      "size": "6.7 MB",
+      "note": "تطبيق لمشاهدة القنوات الرياضية المشفرة ( بين سبورت - الثامنة - شاهد الخ...)\nويحتوي قسم خاص بالافلام والمسلسلات \nبدووون اعلانات",
+      "category": "ترفيه",
+      "addedAt": "2026-05-01T16:28:16.260Z",
+      "updatedAt": "2026-05-01T16:28:16.260Z"
     }
   ]
 }
