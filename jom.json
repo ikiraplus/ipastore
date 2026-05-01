@@ -1982,6 +1982,18 @@
       "category": "ترفيه",
       "addedAt": "2026-05-01T16:28:16.260Z",
       "updatedAt": "2026-05-01T16:28:16.260Z"
+    },
+    {
+      "id": "app-1777653026917",
+      "name": "يلا شوت",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yalla-shoot-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777653026917.png",
+      "size": "31.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-01T16:30:28.921Z",
+      "updatedAt": "2026-05-01T16:30:28.921Z"
     }
   ]
 }
