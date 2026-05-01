@@ -1958,6 +1958,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-01T16:21:32.143Z",
       "updatedAt": "2026-05-01T16:21:32.143Z"
+    },
+    {
+      "id": "app-1777652764722",
+      "name": "Anime Land noads",
+      "version": "3.11.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.11.5_noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652764722.png",
+      "size": "59.0 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-01T16:26:07.251Z",
+      "updatedAt": "2026-05-01T16:26:07.251Z"
     }
   ]
 }
