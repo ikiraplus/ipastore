@@ -1996,6 +1996,18 @@
       "category": "ترفيه",
       "addedAt": "2026-05-01T16:30:28.921Z",
       "updatedAt": "2026-05-01T16:30:28.921Z"
+    },
+    {
+      "id": "app-1777920925565",
+      "name": "VN video editor",
+      "version": "2.4.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vn_video_editor_v2-4-0_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/12/fd/d812fd37-aa2c-33f3-d553-8f604dc309fb/AppIcon-0-0-1x_U007epad-0-1-0-P3-85-220.png/512x512bb.jpg",
+      "size": "409.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-05-04T18:55:25.567Z",
+      "updatedAt": "2026-05-04T18:55:25.567Z"
     }
   ]
 }
