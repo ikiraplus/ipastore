@@ -3,15 +3,14 @@
     {
       "id": "app-shahada-free",
       "name": "شهادة مجانية",
-      "version": "4.2",
-      "ipaUrl": "https://api.khoindvn.io.vn/JnAsbd",
+      "version": "4.4",
+      "ipaUrl": "https://api.khoindvn.io.vn/a71JoP",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-shahada-free.png",
       "size": "11 MB",
       "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
       "category": "أخرى",
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-04-21",
-      "hidden": false
+      "updatedAt": "2026-05-07T13:17:27.404Z"
     },
     {
       "id": "app-shahadda-free",
