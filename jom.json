@@ -2093,6 +2093,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:11:48.113Z",
       "updatedAt": "2026-05-08T16:11:48.113Z"
+    },
+    {
+      "id": "app-1778256761769",
+      "name": "honkai impact 3rd",
+      "version": "8.8.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/honkai-impact-3rd[8.8.0]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/3a/18/f63a1826-4add-087c-7825-b493e3d2ae90/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
+      "size": "2542.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-05-08T16:12:41.770Z",
+      "updatedAt": "2026-05-08T16:12:41.770Z"
     }
   ]
 }
