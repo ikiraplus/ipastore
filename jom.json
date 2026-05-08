@@ -2141,6 +2141,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:18:46.132Z",
       "updatedAt": "2026-05-08T16:18:46.132Z"
+    },
+    {
+      "id": "app-1778257267385",
+      "name": "stickman survivor",
+      "version": "0.0.162",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/stickman-survivor[0.0.162]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/67/63/126763d2-7ae1-1529-c8be-0e3ae4817370/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "size": "165.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-05-08T16:21:07.386Z",
+      "updatedAt": "2026-05-08T16:21:07.386Z"
     }
   ]
 }
