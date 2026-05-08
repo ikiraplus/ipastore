@@ -2069,6 +2069,18 @@
       "category": "تواصل",
       "addedAt": "2026-05-08T16:07:33.061Z",
       "updatedAt": "2026-05-08T16:07:33.061Z"
+    },
+    {
+      "id": "app-1778256567722",
+      "name": "TikTok RX",
+      "version": "43.9.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rxtiktok-43.9.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/4f/22/e24f22d8-3570-89bd-8acb-4ff7be733411/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "344.7 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-05-08T16:09:27.723Z",
+      "updatedAt": "2026-05-08T16:09:27.723Z"
     }
   ]
 }
