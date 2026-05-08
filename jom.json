@@ -2021,6 +2021,18 @@
       "category": "أدوات",
       "addedAt": "2026-05-04T18:57:44.165Z",
       "updatedAt": "2026-05-04T18:57:44.165Z"
+    },
+    {
+      "id": "app-1778255829394",
+      "name": "سينمانا القديمة",
+      "version": "3.4.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-old3.4.2",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1778255829394.png",
+      "size": "36.7 MB",
+      "note": "تدعم التحميل وتدعم تسجيل الدخول",
+      "category": "ترفيه",
+      "addedAt": "2026-05-08T15:57:11.135Z",
+      "updatedAt": "2026-05-08T15:57:11.135Z"
     }
   ]
 }
