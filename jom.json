@@ -2105,6 +2105,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:12:41.770Z",
       "updatedAt": "2026-05-08T16:12:41.770Z"
+    },
+    {
+      "id": "app-1778256904437",
+      "name": "مرايا",
+      "version": "11.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maraya_11.1",
+      "icon": "https://maraya.faulio.com/storage/mediagallery/e8/ff/single_2e4f61a0855196f083956d4f564b44b63803cb04.jpg",
+      "size": "24.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-08T16:15:04.439Z",
+      "updatedAt": "2026-05-08T16:15:04.439Z"
     }
   ]
 }
