@@ -2081,6 +2081,18 @@
       "category": "تواصل",
       "addedAt": "2026-05-08T16:09:27.723Z",
       "updatedAt": "2026-05-08T16:09:27.723Z"
+    },
+    {
+      "id": "app-1778256708111",
+      "name": "truck simulator big rigs",
+      "version": "1.5.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/truck-simulator-big-rigs-[1.5.7]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/47/47/d24747ad-16c4-0189-eff4-4e15c4c4aa40/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "946.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-05-08T16:11:48.113Z",
+      "updatedAt": "2026-05-08T16:11:48.113Z"
     }
   ]
 }
