@@ -2129,6 +2129,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:16:18.013Z",
       "updatedAt": "2026-05-08T16:16:18.013Z"
+    },
+    {
+      "id": "app-1778257126131",
+      "name": "bus simulator evo",
+      "version": "4.30.32",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bus-simulatorevo[4.30.32]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/9f/ef/429fef49-a8c9-7e63-8f3d-25da257d4832/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "1033.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-05-08T16:18:46.132Z",
+      "updatedAt": "2026-05-08T16:18:46.132Z"
     }
   ]
 }
