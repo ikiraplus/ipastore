@@ -2057,6 +2057,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:06:18.618Z",
       "updatedAt": "2026-05-08T16:06:18.618Z"
+    },
+    {
+      "id": "app-1778256453060",
+      "name": "TikTok AC",
+      "version": "45.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/actiktok-45.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/4f/22/e24f22d8-3570-89bd-8acb-4ff7be733411/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "397.8 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-05-08T16:07:33.061Z",
+      "updatedAt": "2026-05-08T16:07:33.061Z"
     }
   ]
 }
