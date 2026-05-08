@@ -2189,6 +2189,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:26:04.895Z",
       "updatedAt": "2026-05-08T16:26:04.895Z"
+    },
+    {
+      "id": "app-1778257699526",
+      "name": "الاولى",
+      "version": "2.1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aloula_2.1.2",
+      "icon": "https://play-lh.googleusercontent.com/tnWlRmDATHTYGCnwN1cFt-t1hWz9iB5FrTeKrT5O6insZchBqMGNAkpnihC_biweh9MvW61fePyma8SEywEZaw",
+      "size": "22.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-08T16:28:19.527Z",
+      "updatedAt": "2026-05-08T16:28:19.527Z"
     }
   ]
 }
