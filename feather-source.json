@@ -2,6 +2,17 @@
   "name": "iKiraPlus Store",
   "identifier": "com.ikiraplus.store",
   "sourceURL": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/feather-source.json",
+  "news": [
+    {
+      "title": "كيرا بلس",
+      "identifier": "com.ikiraplus.card",
+      "caption": "قناة كيرا بلس للتطبيقات والشهادات",
+      "date": "2026-05-11",
+      "tintColor": "#7A7DFF",
+      "imageURL": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/kira-plus-card.jpg",
+      "url": "https://t.me/iKiraPlus"
+    }
+  ],
   "apps": [
     {
       "name": "شهادة مجانية",
