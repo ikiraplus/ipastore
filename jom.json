@@ -179,13 +179,14 @@
     {
       "id": "app-1773596873141",
       "name": "Turrit",
-      "version": "12.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/turrit+-1.4.6",
+      "version": "12.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/turrit-1.4.8",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/4f/43/d94f43ed-0cb5-d9a5-f50f-8480fb7e5304/Turrit-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "75.8 MB",
+      "size": "81.1 MB",
       "note": "لتفعيل مميزات النسخة اتبع التالي :\n- الاعدادات - انزل للاسفل - اضغط ضغطة مطوله على ايقونه ( اسال سوالا )\nومبروك تم فتح المميزات",
       "category": "تواصل",
-      "addedAt": "2026-04-08"
+      "addedAt": "2026-04-08",
+      "updatedAt": "2026-05-11T22:17:04.894Z"
     },
     {
       "id": "app-1773435439784",
