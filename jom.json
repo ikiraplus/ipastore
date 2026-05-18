@@ -124,13 +124,14 @@
     {
       "id": "app-1773574523577",
       "name": "WhatsApp Business - Watusi",
-      "version": "25.35.72",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp-business-watusi_v253572-1",
+      "version": "26.19.10",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsui-26.19.10",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/28/d6/9128d6a0-e209-07ae-b61f-e3965b74e8a8/AppIconSMB-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
-      "size": "122.7 MB",
+      "size": "146.0 MB",
       "note": "سجل بالنسخة كجهاز مصاحب فقطططط.",
       "category": "تواصل",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-05-18T18:37:59.293Z"
     },
     {
       "id": "app-1773497640216",
