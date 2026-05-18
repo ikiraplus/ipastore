@@ -225,13 +225,14 @@
     {
       "id": "app-1773435887141",
       "name": "Tiktok Vibe",
-      "version": "43.3.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vibetokv1.72-1",
+      "version": "450.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vibetokv1.73",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "360.4 MB",
+      "size": "403.5 MB",
       "note": "",
       "category": "تواصل",
-      "addedAt": "2026-03-13"
+      "addedAt": "2026-03-13",
+      "updatedAt": "2026-05-18T18:35:03.606Z"
     },
     {
       "id": "app-1773574853532",
