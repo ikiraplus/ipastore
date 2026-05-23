@@ -2243,6 +2243,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-18T18:36:58.605Z",
       "updatedAt": "2026-05-18T18:46:46.978Z"
+    },
+    {
+      "id": "app-1779560424696",
+      "name": "Minichat",
+      "version": "5.379",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/minichat-5.379",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1779560424696.jpg",
+      "size": "100.7 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-05-23T18:20:28.947Z",
+      "updatedAt": "2026-05-23T18:20:28.947Z"
     }
   ]
 }
