@@ -2303,6 +2303,18 @@
       "category": "تواصل",
       "addedAt": "2026-05-23T18:26:12.087Z",
       "updatedAt": "2026-05-23T18:26:12.087Z"
+    },
+    {
+      "id": "app-1779561051518",
+      "name": "messenger plus x",
+      "version": "562.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/messenger_562.0.0-plusx",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRemnhxz7XnQ1BiDuwUlmdQoYO9Wyko5-uOGQ&s",
+      "size": "102.7 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-05-23T18:30:51.520Z",
+      "updatedAt": "2026-05-23T18:30:51.520Z"
     }
   ]
 }
