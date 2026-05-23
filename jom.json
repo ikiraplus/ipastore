@@ -2279,6 +2279,18 @@
       "category": "أدوات",
       "addedAt": "2026-05-23T18:22:51.806Z",
       "updatedAt": "2026-05-23T18:22:51.806Z"
+    },
+    {
+      "id": "app-1779560637139",
+      "name": "Car X street",
+      "version": "1.16.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-street-1.16.1",
+      "icon": "https://img.utdstc.com/icon/bba/977/bba977e0d57fa56795386b9f901bda565b8c73a9ce1ec3ebf86083ccee87d179:600",
+      "size": "1309 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-05-23T18:23:57.140Z",
+      "updatedAt": "2026-05-23T18:23:57.140Z"
     }
   ]
 }
