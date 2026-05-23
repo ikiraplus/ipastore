@@ -2255,6 +2255,18 @@
       "category": "تواصل",
       "addedAt": "2026-05-23T18:20:28.947Z",
       "updatedAt": "2026-05-23T18:20:28.947Z"
+    },
+    {
+      "id": "app-1779560484440",
+      "name": "جواكر",
+      "version": "28.2.92",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jawaker-28.2.92",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkCy-eHr-0K_Os-BlioOMdqo7JxKjrpK1Ww&s",
+      "size": "176.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-05-23T18:21:24.441Z",
+      "updatedAt": "2026-05-23T18:21:24.441Z"
     }
   ]
 }
