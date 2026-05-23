@@ -2291,6 +2291,18 @@
       "category": "ألعاب",
       "addedAt": "2026-05-23T18:23:57.140Z",
       "updatedAt": "2026-05-23T18:23:57.140Z"
+    },
+    {
+      "id": "app-1779560772086",
+      "name": "reddit deluxe",
+      "version": "2026.19.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/redditdeluxes_2026.19.9",
+      "icon": "https://play-lh.googleusercontent.com/YlsjgA1pFEUqNaypaxE5ajushTBOt8IxVk_UEqzaXT7_n3JDgFq6KgtuE8tPBpvaCntB",
+      "size": "153.3 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-05-23T18:26:12.087Z",
+      "updatedAt": "2026-05-23T18:26:12.087Z"
     }
   ]
 }
