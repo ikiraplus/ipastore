@@ -2388,6 +2388,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:17:02.824Z",
       "updatedAt": "2026-06-01T19:17:02.824Z"
+    },
+    {
+      "id": "app-1780341592407",
+      "name": "infinity ops",
+      "version": "1.13.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infinity-ops-1.13.7",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrPa6sedfcP2Q-Vsz01xcrcH8vSg0hAPqhJg&s",
+      "size": "478.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-01T19:19:52.409Z",
+      "updatedAt": "2026-06-01T19:19:52.409Z"
     }
   ]
 }
