@@ -2412,6 +2412,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:23:59.764Z",
       "updatedAt": "2026-06-01T19:23:59.764Z"
+    },
+    {
+      "id": "app-1780341894722",
+      "name": "scarlet",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scarlet",
+      "icon": "https://avatars.githubusercontent.com/u/63203414?v=4",
+      "size": "6.7 MB",
+      "note": "",
+      "category": "أخرى",
+      "addedAt": "2026-06-01T19:24:54.723Z",
+      "updatedAt": "2026-06-01T19:24:54.723Z"
     }
   ]
 }
