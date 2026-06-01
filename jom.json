@@ -941,14 +941,14 @@
     {
       "id": "app-1773574571308",
       "name": "Twitch - TwitchAdBlock",
-      "version": "28.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twitch_28.0_twitchadblock-1",
+      "version": "29.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twitch-ct-29.7",
       "icon": "https://appstore.nabzclan.vip/images/icon_6902648084733.jpg",
-      "size": "146 MB",
+      "size": "127.4 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-04-21"
+      "updatedAt": "2026-06-01T20:53:23.690Z"
     },
     {
       "id": "app-1773574583186",
