@@ -2327,6 +2327,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:03:30.340Z",
       "updatedAt": "2026-06-01T19:03:30.340Z"
+    },
+    {
+      "id": "app-1780340674753",
+      "name": "assassins creed mirage",
+      "version": "1.1.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/assassins-creedmirage-1.1.5-dev",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuglgQdhvhkUNZWn5m3EBvDxfutkRhNEDOhw&s",
+      "size": "3688.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-01T19:04:34.754Z",
+      "updatedAt": "2026-06-01T19:04:34.754Z"
     }
   ]
 }
