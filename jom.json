@@ -2375,6 +2375,18 @@
       "category": "أخرى",
       "addedAt": "2026-06-01T19:14:40.011Z",
       "updatedAt": "2026-06-01T19:14:40.011Z"
+    },
+    {
+      "id": "app-1780341422823",
+      "name": "township",
+      "version": "36.0.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-36.0.2",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNbmzTIJu_ov2S5_TembSSsM6NVBmuVq1Sw&s",
+      "size": "197.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-01T19:17:02.824Z",
+      "updatedAt": "2026-06-01T19:17:02.824Z"
     }
   ]
 }
