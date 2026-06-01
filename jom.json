@@ -2315,6 +2315,18 @@
       "category": "تواصل",
       "addedAt": "2026-05-23T18:30:51.520Z",
       "updatedAt": "2026-05-23T18:30:51.520Z"
+    },
+    {
+      "id": "app-1780340610338",
+      "name": "resident evil village",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-village",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTohRbqU3SydVBRlYoyJZFgSheLsccBRewxg&s",
+      "size": "1125.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-01T19:03:30.340Z",
+      "updatedAt": "2026-06-01T19:03:30.340Z"
     }
   ]
 }
