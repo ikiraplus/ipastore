@@ -2363,6 +2363,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:10:54.297Z",
       "updatedAt": "2026-06-01T19:10:54.297Z"
+    },
+    {
+      "id": "app-1780341277232",
+      "name": "Feather",
+      "version": "2.8.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/feather_v2.8.2",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1780341277232.png",
+      "size": "13.6 MB",
+      "note": "",
+      "category": "أخرى",
+      "addedAt": "2026-06-01T19:14:40.011Z",
+      "updatedAt": "2026-06-01T19:14:40.011Z"
     }
   ]
 }
