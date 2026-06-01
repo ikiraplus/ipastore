@@ -367,14 +367,14 @@
     {
       "id": "app-1774774633445",
       "name": "RyukGram",
-      "version": "428.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgramv1.2.3",
+      "version": "430.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram_sideloaded_v1.3.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/ef/ec/eeefec6f-582d-90c7-ac6c-ea2ed8fd269a/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "304.0 MB",
+      "size": "303.4 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-05-13T09:50:43.378Z"
+      "updatedAt": "2026-06-01T19:36:34.817Z"
     },
     {
       "id": "app-1777313166085",
