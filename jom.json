@@ -2339,6 +2339,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:04:34.754Z",
       "updatedAt": "2026-06-01T19:04:34.754Z"
+    },
+    {
+      "id": "app-1780340781598",
+      "name": "world war 2 legion",
+      "version": "0.3.31",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-war-legion-0.3.31",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvy4_cmUuQfOZkgIX5xlbzHKYfpBmPVNIjdA&s",
+      "size": "1104.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-01T19:06:21.599Z",
+      "updatedAt": "2026-06-01T19:06:21.599Z"
     }
   ]
 }
