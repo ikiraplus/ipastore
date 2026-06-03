@@ -2487,6 +2487,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:13:57.498Z",
       "updatedAt": "2026-06-03T11:13:57.498Z"
+    },
+    {
+      "id": "app-1780485314936",
+      "name": "Resident evil 7 Biohazard",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-7-biohazard",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/7e/ef/be7eef57-7e97-baeb-5861-8afb59c31588/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/512x512bb.jpg",
+      "size": "1014 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-03T11:15:14.939Z",
+      "updatedAt": "2026-06-03T11:15:14.939Z"
     }
   ]
 }
