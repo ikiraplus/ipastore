@@ -2475,6 +2475,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:12:29.364Z",
       "updatedAt": "2026-06-03T11:12:29.364Z"
+    },
+    {
+      "id": "app-1780485237497",
+      "name": "Resident evil 4",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/c8/c9/24c8c984-811f-2806-f307-1535d0fe84c8/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
+      "size": "460 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-03T11:13:57.498Z",
+      "updatedAt": "2026-06-03T11:13:57.498Z"
     }
   ]
 }
