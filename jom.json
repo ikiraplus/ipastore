@@ -2451,6 +2451,18 @@
       "category": "تواصل",
       "addedAt": "2026-06-03T11:07:55.314Z",
       "updatedAt": "2026-06-03T11:07:55.314Z"
+    },
+    {
+      "id": "app-1780485059348",
+      "name": "Resident evil 2",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/f2/bb/1bf2bb23-29e4-24c7-f953-4c3e88fd6bc4/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "570 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-03T11:10:59.350Z",
+      "updatedAt": "2026-06-03T11:10:59.350Z"
     }
   ]
 }
