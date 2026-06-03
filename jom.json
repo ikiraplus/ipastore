@@ -77,13 +77,14 @@
     {
       "id": "app-1773402408531",
       "name": "instagram DL",
-      "version": "411.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram.dl-1",
+      "version": "432.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-dl-432.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "264.9 MB",
+      "size": "287 MB",
       "note": "لتفعيل مميزات النسخة : \n- اضغط على زر الـ Home ضغطة مطوله",
       "category": "تواصل",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-06-03T11:06:34.522Z"
     },
     {
       "id": "app-1773402346513",
