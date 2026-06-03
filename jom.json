@@ -1915,14 +1915,14 @@
     {
       "id": "app-1777315159741",
       "name": "Youtube DL",
-      "version": "20.50.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-dl-20.50.9",
+      "version": "21.22.05",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-dl-21.22.05",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777315159741.png",
-      "size": "120.5 MB",
+      "size": "132 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:39:21.262Z",
-      "updatedAt": "2026-04-27T18:39:21.262Z"
+      "updatedAt": "2026-06-03T11:08:48.075Z"
     },
     {
       "id": "app-1777315219858",
