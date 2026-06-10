@@ -1277,13 +1277,14 @@
     {
       "id": "app-game-ios-1711600000009",
       "name": "Shadow Fight 3",
-      "version": "1.35.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-3-rpg-fighting-ios-mod-ipa-zkp7tquidp-1",
+      "version": "1.45.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight3-1.45.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/8d/4c/6b8d4cb4-8768-01ea-9ac6-a8013b33c197/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "700 MB",
+      "size": "193.4 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-06-10T17:20:10.669Z"
     },
     {
       "id": "app-game-ios-1711600000010",
