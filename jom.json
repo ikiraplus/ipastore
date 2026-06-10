@@ -533,13 +533,14 @@
     {
       "id": "app-1773546788287",
       "name": "VideoStar (Hacked)",
-      "version": "15.0.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/video_star_15.1.3_1778534958",
+      "version": "15.1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/video-star-pro-(15.1.1)",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773546788287.png",
-      "size": "523.1 MB",
+      "size": "524.1 MB",
       "note": "",
       "category": "أدوات",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-06-10T17:27:49.063Z"
     },
     {
       "id": "app-1773511362148",
