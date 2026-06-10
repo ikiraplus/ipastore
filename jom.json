@@ -2513,6 +2513,18 @@
       "category": "أدوات",
       "addedAt": "2026-06-10T17:06:45.611Z",
       "updatedAt": "2026-06-10T17:06:45.611Z"
+    },
+    {
+      "id": "app-1781111392639",
+      "name": "ai chat smith",
+      "version": "5.0.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ai-chatsmith-5.0.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/8b/29/ec8b2987-07ac-8150-828b-44dd246192d4/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220-0.png/512x512bb.jpg",
+      "size": "538.2 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "addedAt": "2026-06-10T17:09:52.640Z",
+      "updatedAt": "2026-06-10T17:09:52.640Z"
     }
   ]
 }
