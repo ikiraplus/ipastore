@@ -253,14 +253,14 @@
     {
       "id": "app-1773436350178",
       "name": "Facebook Glow",
-      "version": "562.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/facebook-glow-562.0.0",
+      "version": "565.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/glow_v1.3.1_fb_v565.0.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "198.7 MB",
+      "size": "192.0 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-05-23T18:27:09.255Z"
+      "updatedAt": "2026-06-10T17:16:03.727Z"
     },
     {
       "id": "app-1773436387699",
