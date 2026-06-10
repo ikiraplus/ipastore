@@ -2539,6 +2539,18 @@
       "category": "تواصل",
       "addedAt": "2026-06-10T17:17:40.874Z",
       "updatedAt": "2026-06-10T17:17:40.874Z"
+    },
+    {
+      "id": "app-1781112118740",
+      "name": "car x drift racing 3",
+      "version": "1.13.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-drift-racing3-1.13.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/59/d5/e659d5de-0f6e-0371-181a-c5a491fa49d9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "size": "1583.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-10T17:21:58.741Z",
+      "updatedAt": "2026-06-10T17:21:58.741Z"
     }
   ]
 }
