@@ -241,14 +241,14 @@
     {
       "id": "app-1773574853532",
       "name": "+TikTok - tiktokBH",
-      "version": "45.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bhtiktok++-1",
+      "version": "45.5.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bhtiktok-45.5.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/95/3c/f4953cfb-b350-6763-a0b4-ceed8cef74ed/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "398.4 MB",
+      "size": "384.3 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-05-08T16:03:49.116Z"
+      "updatedAt": "2026-06-10T17:10:44.882Z"
     },
     {
       "id": "app-1773436350178",
