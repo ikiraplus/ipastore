@@ -2317,14 +2317,14 @@
     {
       "id": "app-1779561051518",
       "name": "messenger plus x",
-      "version": "562.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/messenger_562.0.0-plusx",
+      "version": "564.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/messengerplus-v1.1",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRemnhxz7XnQ1BiDuwUlmdQoYO9Wyko5-uOGQ&s",
-      "size": "102.7 MB",
+      "size": "99.4 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-05-23T18:30:51.520Z",
-      "updatedAt": "2026-05-23T18:30:51.520Z"
+      "updatedAt": "2026-06-11T12:32:57.681Z"
     },
     {
       "id": "app-1780340610338",
