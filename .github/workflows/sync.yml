@@ -1,0 +1,33 @@
+name: Sync to Old Source
+on:
+  push:
+    paths:
+      - 'jom.json'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Clone Old Repo
+        run: |
+          git clone https://${{ secrets.PAT_TOKEN }}@github.com/ikira18/feather.git old_repo
+          
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Run Sync Script
+        run: python sync_apps.py
+        
+      - name: Push to Old Repo
+        run: |
+          cd old_repo
+          git config user.name "AutoSync"
+          git config user.email "bot@github.com"
+          git add source
+          git commit -m "Auto-update apps from jom.json" || echo "No changes to commit"
+          git push
