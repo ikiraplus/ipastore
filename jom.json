@@ -7,7 +7,7 @@
       "ipaUrl": "itms-services://?action=download-manifest&url=https://bot.ipasign.cc/dl/20260609221330679/mO89bnyRTxeN.plist",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-shahada-free.png",
       "size": "11 MB",
-      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً )\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
+      "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً)\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
       "category": "أخرى",
       "addedAt": "2026-04-10",
       "updatedAt": "2026-06-09T14:15:33.238Z",
