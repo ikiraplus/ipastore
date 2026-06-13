@@ -2640,6 +2640,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T08:04:40.156Z",
       "updatedAt": "2026-06-13T08:04:40.156Z"
+    },
+    {
+      "id": "app-1781374656407",
+      "name": "angry birds match",
+      "version": "0.9.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-match",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1781374656407.png",
+      "size": "202.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T18:17:38.515Z",
+      "updatedAt": "2026-06-13T18:17:38.515Z"
     }
   ]
 }
