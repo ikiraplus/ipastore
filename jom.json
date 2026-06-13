@@ -2820,6 +2820,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:00:52.029Z",
       "updatedAt": "2026-06-13T19:00:52.029Z"
+    },
+    {
+      "id": "app-1781377331881",
+      "name": "head soccer",
+      "version": "6.22",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/head-soccer",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/4c/75/b44c7559-10a7-5dd6-b48e-abb5f5127c70/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+      "size": "238.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T19:02:11.882Z",
+      "updatedAt": "2026-06-13T19:02:11.882Z"
     }
   ]
 }
