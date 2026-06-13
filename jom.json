@@ -2856,6 +2856,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:04:30.993Z",
       "updatedAt": "2026-06-13T19:04:30.993Z"
+    },
+    {
+      "id": "app-1781377522274",
+      "name": "fruit ninja",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fruit-ninja",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/5b/fd/345bfd04-04b8-868d-631f-db6dc1702cfc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "288.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T19:05:22.276Z",
+      "updatedAt": "2026-06-13T19:05:22.276Z"
     }
   ]
 }
