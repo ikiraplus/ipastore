@@ -2808,6 +2808,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:00:05.865Z",
       "updatedAt": "2026-06-13T19:00:05.865Z"
+    },
+    {
+      "id": "app-1781377252027",
+      "name": "score hero",
+      "version": "4.60",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/score-hero",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/2e/96/8c2e9620-9eae-d972-654c-8c1954a189f5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "217.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T19:00:52.029Z",
+      "updatedAt": "2026-06-13T19:00:52.029Z"
     }
   ]
 }
