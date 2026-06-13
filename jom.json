@@ -1077,14 +1077,14 @@
     {
       "id": "app-1773575031572",
       "name": "VivaCut",
-      "version": "4.4.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vivacut_v448-1",
+      "version": "4.6.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vivacut-ai-video-editor",
       "icon": "https://appstore.nabzclan.vip/images/1761375464.png",
-      "size": "203.8 MB",
+      "size": "211.5 MB",
       "note": "",
-      "bundleId": "",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-06-13T07:35:16.717Z"
     },
     {
       "id": "app-1773575084642",
