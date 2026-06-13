@@ -2579,6 +2579,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:33:30.871Z",
       "updatedAt": "2026-06-13T07:33:30.871Z"
+    },
+    {
+      "id": "app-1781336172793",
+      "name": "soccer super hero",
+      "version": "0.36.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soccer-super-hero_0.36.3",
+      "icon": "https://play-lh.googleusercontent.com/dKk_wk3egwxwRoCrdd2ppnx59r0VR6JGrTDkxuP3U4_T9reHv2qkzg3Ya8oeGVNL3ZU=w240-h480-rw",
+      "size": "194.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T07:36:12.794Z",
+      "updatedAt": "2026-06-13T07:36:12.794Z"
     }
   ]
 }
