@@ -2567,6 +2567,18 @@
       "category": "ترفيه",
       "addedAt": "2026-06-10T17:40:30.162Z",
       "updatedAt": "2026-06-10T17:40:30.162Z"
+    },
+    {
+      "id": "app-1781336010869",
+      "name": "royal match",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/royal-match-36574",
+      "icon": "https://cdn.prod.website-files.com/66ba0cbc63210953b4fc73a8/66ba4dab628d3ffb9065bc2a_royal_match_page_king_robert%206.webp",
+      "size": "204.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T07:33:30.871Z",
+      "updatedAt": "2026-06-13T07:33:30.871Z"
     }
   ]
 }
