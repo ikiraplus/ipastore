@@ -2603,6 +2603,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:37:22.166Z",
       "updatedAt": "2026-06-13T07:37:22.166Z"
+    },
+    {
+      "id": "app-1781336383760",
+      "name": "YouTube Al-Asd",
+      "version": "21.22.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube_asd_v21.22.4",
+      "icon": "https://thumbs.dreamstime.com/b/red-button-player-social-media-networks-multimedia-symbol-application-movie-video-eps-stock-vector-160216832.jpg",
+      "size": "134.5 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-06-13T07:39:43.761Z",
+      "updatedAt": "2026-06-13T07:39:43.761Z"
     }
   ]
 }
