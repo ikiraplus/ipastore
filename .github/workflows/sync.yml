@@ -28,6 +28,6 @@ jobs:
           cd old_repo
           git config user.name "AutoSync"
           git config user.email "bot@github.com"
-          git add source
-          git commit -m "Auto-update apps from jom.json" || echo "No changes to commit"
+          git add source sorse
+          git commit -m "Auto-update apps (source & sorse) from jom.json" || echo "No changes to commit"
           git push
