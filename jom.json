@@ -2929,6 +2929,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:11:38.457Z",
       "updatedAt": "2026-06-13T19:11:38.457Z"
+    },
+    {
+      "id": "app-1781377978601",
+      "name": "dr driving",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/drdriving",
+      "icon": "https://images.dwncdn.net/images/t_app-icon-l/p/4a40a318-abe6-4885-a24d-a0e60abce2f2/4004154167/20416_4-76818239-logo",
+      "size": "10.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T19:12:58.603Z",
+      "updatedAt": "2026-06-13T19:12:58.603Z"
     }
   ]
 }
