@@ -2736,6 +2736,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:27:21.886Z",
       "updatedAt": "2026-06-13T18:27:21.886Z"
+    },
+    {
+      "id": "app-1781375355051",
+      "name": "angry birds 2",
+      "version": "10.0.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/f9/d6/09f9d6ee-0e93-e114-067f-ecd49a840019/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "size": "643.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T18:29:15.052Z",
+      "updatedAt": "2026-06-13T18:29:15.052Z"
     }
   ]
 }
