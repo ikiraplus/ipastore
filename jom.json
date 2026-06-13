@@ -2796,6 +2796,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:59:11.875Z",
       "updatedAt": "2026-06-13T18:59:11.875Z"
+    },
+    {
+      "id": "app-1781377205864",
+      "name": "traffic racer",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/traffic-racer",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/e8/28/ade82880-80f1-0859-3ada-64de5b56e62f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "size": "81.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T19:00:05.865Z",
+      "updatedAt": "2026-06-13T19:00:05.865Z"
     }
   ]
 }
