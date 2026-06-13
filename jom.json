@@ -2772,6 +2772,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:31:40.082Z",
       "updatedAt": "2026-06-13T18:31:40.082Z"
+    },
+    {
+      "id": "app-1781377094299",
+      "name": "temple run 2",
+      "version": "1.39.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/temple-run-2-",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/d7/03/79d703d4-5a92-0bac-e832-3a820ecb3364/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "size": "133.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T18:58:14.300Z",
+      "updatedAt": "2026-06-13T18:58:14.300Z"
     }
   ]
 }
