@@ -2941,6 +2941,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:12:58.603Z",
       "updatedAt": "2026-06-13T19:12:58.603Z"
+    },
+    {
+      "id": "app-1781378040020",
+      "name": "six guns",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/six-guns-gang-showdown",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNu-_LSVPINUTQrH_HU8rKDSU0i5gfOaWFEMZ-1zoBaev71HyJ07IFIps&s=10",
+      "size": "489.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T19:14:00.022Z",
+      "updatedAt": "2026-06-13T19:14:00.022Z"
     }
   ]
 }
