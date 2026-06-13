@@ -2748,6 +2748,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:29:15.052Z",
       "updatedAt": "2026-06-13T18:29:15.052Z"
+    },
+    {
+      "id": "app-1781375439513",
+      "name": "angry birds journey",
+      "version": "3.8.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-journey-v3.8.4",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1781375439513.png",
+      "size": "149.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T18:30:41.517Z",
+      "updatedAt": "2026-06-13T18:30:41.517Z"
     }
   ]
 }
