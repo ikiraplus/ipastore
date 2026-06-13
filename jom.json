@@ -2664,6 +2664,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:19:51.234Z",
       "updatedAt": "2026-06-13T18:19:51.234Z"
+    },
+    {
+      "id": "app-1781374905950",
+      "name": "angry birds reloaded",
+      "version": "1.10.13",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-reloaded",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsrbMHuOZ0YnpgT5aZ-CUXoCKS6303TIlKvZskqRhVs9ew-gAWALRbUFQA&s=10",
+      "size": "377.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T18:21:45.952Z",
+      "updatedAt": "2026-06-13T18:21:45.952Z"
     }
   ]
 }
