@@ -2615,6 +2615,18 @@
       "category": "تواصل",
       "addedAt": "2026-06-13T07:39:43.761Z",
       "updatedAt": "2026-06-13T07:39:43.761Z"
+    },
+    {
+      "id": "app-1781336473552",
+      "name": "max payne",
+      "version": "2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/max-payne-v2.0",
+      "icon": "https://play-lh.googleusercontent.com/KVdLPCNAQd7atpsaYb0m5opXgxAoyJa4LEqcLx8zxa0qmmyZU1To-tLkXWcxuN_mNtdWqaLRXK1LlVKcAAj0dA4",
+      "size": "1108.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T07:41:13.553Z",
+      "updatedAt": "2026-06-13T07:41:13.553Z"
     }
   ]
 }
