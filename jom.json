@@ -904,11 +904,12 @@
       "name": "Happy Chick",
       "version": "1.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/happychick-1",
-      "icon": "https://operationidroid.com/assets/img/happychick-icon.jpg",
+      "icon": "https://cdn.aptoide.com/imgs/7/b/6/7b6c9138878256d0a02404abb95c1dce_fgraphic.png",
       "size": "280.0 MB",
       "note": "",
       "category": "أخرى",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-06-13T07:42:13.337Z"
     },
     {
       "id": "app-1773574532256",
