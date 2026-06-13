@@ -2844,6 +2844,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:03:39.537Z",
       "updatedAt": "2026-06-13T19:03:39.537Z"
+    },
+    {
+      "id": "app-1781377470992",
+      "name": "magic tiles 3",
+      "version": "7.54",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/magic-tiles-3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/2b/7b/d62b7bfd-6b30-e8c2-a906-910b5011005e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "311.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-13T19:04:30.993Z",
+      "updatedAt": "2026-06-13T19:04:30.993Z"
     }
   ]
 }
