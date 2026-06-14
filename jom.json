@@ -2989,6 +2989,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:34:06.339Z",
       "updatedAt": "2026-06-14T09:34:06.339Z"
+    },
+    {
+      "id": "app-1781429755939",
+      "name": "the sims free play",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sims-freeplay",
+      "icon": "https://m.media-amazon.com/images/I/81lzuVd8ksL.png",
+      "size": "1478.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-14T09:35:55.940Z",
+      "updatedAt": "2026-06-14T09:35:55.940Z"
     }
   ]
 }
