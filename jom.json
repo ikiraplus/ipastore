@@ -4,14 +4,13 @@
       "id": "app-shahada-free",
       "name": "شهادة مجانية",
       "version": "4.4",
-      "ipaUrl": "itms-services://?action=download-manifest&url=https://bot.ipasign.cc/dl/20260609221330679/mO89bnyRTxeN.plist",
+      "ipaUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fapi.betadrop.app%2Fapi%2Fguest%2Fmanifest%2F5QcK7u",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-shahada-free.png",
       "size": "11 MB",
       "note": "ثبت هذا التطبيق ( يوجد بداخله شهادة مضافة مسبقاً)\nلتثبيت التطبيقات والألعاب من خلاله اتبع التالي :\n\nافتح التطبيق \nاذهب الى قسم Library \nاضف ملف ipa الخاص باللعبة او التطبيق المراد تثبيته \nثم اضغط على التطبيق Sign & install \nثم Start \n\nومبروك سيتم تثبيته",
       "category": "أخرى",
       "addedAt": "2026-04-10",
-      "updatedAt": "2026-06-09T14:15:33.238Z",
-      "hidden": true
+      "updatedAt": "2026-06-15T16:45:36.545Z"
     },
     {
       "id": "app-shahadda-free",
