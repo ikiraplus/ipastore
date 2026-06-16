@@ -3024,6 +3024,18 @@
       "category": "أدوات",
       "addedAt": "2026-06-16T21:44:47.065Z",
       "updatedAt": "2026-06-16T21:44:47.065Z"
+    },
+    {
+      "id": "app-1781646325971",
+      "name": "procreate",
+      "version": "5.4.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/procreate-5.4.9",
+      "icon": "https://yt3.googleusercontent.com/ytc/AIdro_nodCAR388ZAG2uYqxYZTuQ21H_tceLJIrfdGjWOq06g-U=s900-c-k-c0x00ffffff-no-rj",
+      "size": "964.3 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-06-16T21:45:25.972Z",
+      "updatedAt": "2026-06-16T21:45:25.972Z"
     }
   ]
 }
