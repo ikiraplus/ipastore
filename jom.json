@@ -3036,6 +3036,18 @@
       "category": "أدوات",
       "addedAt": "2026-06-16T21:45:25.972Z",
       "updatedAt": "2026-06-16T21:45:25.972Z"
+    },
+    {
+      "id": "app-1781646375819",
+      "name": "hello neighbor",
+      "version": "2.3.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hello-neighbor-2.3.8",
+      "icon": "https://play-lh.googleusercontent.com/vTEZT3FH4atYE6mTtFTZ9qnuHYNbSwRBmblUMNiRHmagmq4N-QJTzJw8bh8j7jbWwcHYHNBg_20NO9cbV7LG8w=w240-h480-rw",
+      "size": "1381.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-06-16T21:46:15.819Z",
+      "updatedAt": "2026-06-16T21:46:15.819Z"
     }
   ]
 }
