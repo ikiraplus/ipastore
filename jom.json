@@ -3204,6 +3204,18 @@
       "category": "أدوات",
       "addedAt": "2026-06-19T15:10:31.990Z",
       "updatedAt": "2026-06-19T15:10:31.990Z"
+    },
+    {
+      "id": "app-1781881938327",
+      "name": "clipboard pro",
+      "version": "1.27",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clipboard",
+      "icon": "https://ipaomtk.com/wp-content/uploads/2023/04/images-12.jpg",
+      "size": "18.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-06-19T15:12:18.328Z",
+      "updatedAt": "2026-06-19T15:12:18.328Z"
     }
   ]
 }
