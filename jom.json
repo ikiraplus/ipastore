@@ -3216,6 +3216,18 @@
       "category": "أدوات",
       "addedAt": "2026-06-19T15:12:18.328Z",
       "updatedAt": "2026-06-19T15:12:18.328Z"
+    },
+    {
+      "id": "app-1781882139582",
+      "name": "ilove pdf",
+      "version": "4.0.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ilovepdf_pdf_editor_&_scan",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa6DCpo_BNCx0yEEUhuPYmq_ev64HQnXOzX8UivAOskQ&s=10",
+      "size": "121.1 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "addedAt": "2026-06-19T15:15:39.583Z",
+      "updatedAt": "2026-06-19T15:15:39.583Z"
     }
   ]
 }
