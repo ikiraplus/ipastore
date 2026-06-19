@@ -3120,6 +3120,18 @@
       "category": "أدوات",
       "addedAt": "2026-06-19T14:26:22.625Z",
       "updatedAt": "2026-06-19T14:26:22.625Z"
+    },
+    {
+      "id": "app-1781880304205",
+      "name": "vaco tv",
+      "version": "2.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vaco-tv-videos",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJEOMRbQ5W2r9wKnVYd_pDATtUcv_dKNbaxX1ibMde-0IuUzEhtaqWkw&s=10",
+      "size": "20.8 MB",
+      "note": "برنامج لمشاهدة القنوات الرياضية \nكود التفعيل 22455",
+      "category": "ترفيه",
+      "addedAt": "2026-06-19T14:45:04.206Z",
+      "updatedAt": "2026-06-19T14:45:04.206Z"
     }
   ]
 }
