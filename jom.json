@@ -3084,6 +3084,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:49:01.964Z",
       "updatedAt": "2026-06-16T21:49:01.964Z"
+    },
+    {
+      "id": "app-1781879041560",
+      "name": "verba auto captions for video",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/verba-auto-captions-for-video",
+      "icon": "https://fastly.mwm-storage.mwmcdn.com/raw_files/45b4b122-97ef-4ee4-82f6-50117e76306f?height=160&format=webp",
+      "size": "287.8 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-06-19T14:24:01.561Z",
+      "updatedAt": "2026-06-19T14:24:01.561Z"
     }
   ]
 }
