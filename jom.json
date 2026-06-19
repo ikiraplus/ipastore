@@ -3132,6 +3132,18 @@
       "category": "ترفيه",
       "addedAt": "2026-06-19T14:45:04.206Z",
       "updatedAt": "2026-06-19T14:45:04.206Z"
+    },
+    {
+      "id": "app-1781880388155",
+      "name": "anime x",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animex",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/ae/69/1aae69d0-78fc-c1d2-bde6-9705811235e2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/460x0w.png",
+      "size": "26.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-06-19T14:46:28.156Z",
+      "updatedAt": "2026-06-19T14:46:28.156Z"
     }
   ]
 }
