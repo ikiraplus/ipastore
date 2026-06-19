@@ -3180,6 +3180,18 @@
       "category": "ألعاب",
       "addedAt": "2026-06-19T14:54:41.313Z",
       "updatedAt": "2026-06-19T14:54:41.313Z"
+    },
+    {
+      "id": "app-1781881692351",
+      "name": "polarr",
+      "version": "6.12.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/polarr_photo_filters_&_editor",
+      "icon": "https://img.utdstc.com/icon/573/26f/57326f93ff7562f94a567292977a41c916c55c5d3b29f81da249f876ae6e34fe:600",
+      "size": "144.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-06-19T15:08:12.352Z",
+      "updatedAt": "2026-06-19T15:08:12.352Z"
     }
   ]
 }
