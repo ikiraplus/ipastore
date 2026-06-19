@@ -3228,6 +3228,18 @@
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-06-19T15:15:39.583Z",
       "updatedAt": "2026-06-19T15:15:39.583Z"
+    },
+    {
+      "id": "app-1781882229071",
+      "name": "cute cut pro",
+      "version": "2.3.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cute-cut-pro",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW-5vprXDReVth-POrW9Nj6IXHJthrZqPFz1zFPA9ZHw&s=10",
+      "size": "62.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-06-19T15:17:09.071Z",
+      "updatedAt": "2026-06-19T15:17:09.071Z"
     }
   ]
 }
