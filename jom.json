@@ -3351,6 +3351,18 @@
       "category": "أدوات",
       "addedAt": "2026-07-01T18:23:25.545Z",
       "updatedAt": "2026-07-01T18:23:25.545Z"
+    },
+    {
+      "id": "app-1782930324003",
+      "name": "videoleap",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXCyrI_MlmNKNnVVIe4XkXlHmLZsuhoudGDYarw-X-Q&s=10",
+      "size": "369.6 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-07-01T18:25:24.004Z",
+      "updatedAt": "2026-07-01T18:25:24.004Z"
     }
   ]
 }
