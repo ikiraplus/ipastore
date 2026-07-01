@@ -1949,14 +1949,14 @@
     {
       "id": "app-1777360462719",
       "name": "sound cloud",
-      "version": "8.64.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/com.soundcloud.touchapp-v8.64.0",
+      "version": "8.67.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.67.0-noads",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/94/21/7e94213b-a1d6-a37b-e2e3-fe6ca2fb66d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "104.6 MB",
+      "size": "115.2 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-04-28T07:14:22.721Z",
-      "updatedAt": "2026-06-13T07:33:57.547Z"
+      "updatedAt": "2026-07-01T17:26:13.969Z"
     },
     {
       "id": "app-1777360588132",
