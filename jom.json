@@ -3326,6 +3326,18 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T18:02:21.536Z",
       "updatedAt": "2026-07-01T18:02:21.536Z"
+    },
+    {
+      "id": "app-1782929381420",
+      "name": "x twitter - DL TWIgalaxy",
+      "version": "12.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x_12.3_dltwitter-2.17_twigalaxy_1.13",
+      "icon": "https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg",
+      "size": "215.5 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-07-01T18:09:41.421Z",
+      "updatedAt": "2026-07-01T18:09:41.421Z"
     }
   ]
 }
