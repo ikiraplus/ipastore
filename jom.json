@@ -3253,6 +3253,18 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:47:07.003Z",
       "updatedAt": "2026-07-01T17:47:07.003Z"
+    },
+    {
+      "id": "app-1782928109318",
+      "name": "road trip",
+      "version": "2604.0.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/road-trip-2604.0.2",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpg_ujRgNgOz3qRLTyy907YoaRbYZy16dw4KPnCkDMgA&s=10",
+      "size": "198.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-07-01T17:48:29.320Z",
+      "updatedAt": "2026-07-01T17:48:29.320Z"
     }
   ]
 }
