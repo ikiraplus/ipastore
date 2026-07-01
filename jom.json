@@ -3313,6 +3313,18 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:57:59.651Z",
       "updatedAt": "2026-07-01T17:57:59.651Z"
+    },
+    {
+      "id": "app-1782928941535",
+      "name": "super mario run",
+      "version": "3.4.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mario-run-3.4.2",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK76Yn-XyDEBKbnvXBH5_a5QrKFDLZWt-J3C_JF-hWBw&s=10",
+      "size": "245.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-07-01T18:02:21.536Z",
+      "updatedAt": "2026-07-01T18:02:21.536Z"
     }
   ]
 }
