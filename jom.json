@@ -3277,6 +3277,18 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:49:44.480Z",
       "updatedAt": "2026-07-01T17:49:44.480Z"
+    },
+    {
+      "id": "app-1782928316065",
+      "name": "Jetpack Joyride Racing",
+      "version": "1.1.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jj-racing-1.1.4",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHrayVJ5FP_n_Ae4ihsAqR52AvSTV0EBulT5cRZRYHOQ&s=10",
+      "size": "336.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-07-01T17:51:56.066Z",
+      "updatedAt": "2026-07-01T17:51:56.066Z"
     }
   ]
 }
