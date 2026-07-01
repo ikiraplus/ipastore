@@ -3339,6 +3339,18 @@
       "category": "تواصل",
       "addedAt": "2026-07-01T18:09:41.421Z",
       "updatedAt": "2026-07-01T18:09:41.421Z"
+    },
+    {
+      "id": "app-1782930205544",
+      "name": "Home Workout - No Equipment",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/home-workout-no-equipments",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYsd192C2jPwsWzwQuSWzaJ-GF-Uk2duI0QBxlqKqUhg&s=10",
+      "size": "184.9 MB",
+      "note": "",
+      "category": "أدوات",
+      "addedAt": "2026-07-01T18:23:25.545Z",
+      "updatedAt": "2026-07-01T18:23:25.545Z"
     }
   ]
 }
