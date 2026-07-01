@@ -1401,13 +1401,14 @@
     {
       "id": "app-iosgods-logo-maker-3539",
       "name": "Logo Maker - صانع الشعارات",
-      "version": "4.4.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/logo-maker-design-creator-qspzakp2ww-1",
+      "version": "4.9.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/logo-maker-&-generator",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/d5/b4/81d5b465-f959-0d0d-f769-556dff6e9ffb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "90 MB",
+      "size": "64.1 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "أدوات",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-07-01T18:11:27.867Z"
     },
     {
       "id": "app-iosgods-djay-3127",
