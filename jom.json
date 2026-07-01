@@ -466,13 +466,14 @@
     {
       "id": "app-1773510045224",
       "name": "Netflix - مقلد",
-      "version": "1.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/netflix-1",
+      "version": "2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/netflix-kira",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510045224.png",
-      "size": "32.2 MB",
+      "size": "31.4 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-07-01T18:53:37.625Z"
     },
     {
       "id": "app-1773496444211",
