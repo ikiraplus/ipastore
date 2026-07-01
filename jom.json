@@ -3229,6 +3229,18 @@
       "category": "أدوات",
       "addedAt": "2026-06-19T15:17:09.071Z",
       "updatedAt": "2026-06-19T15:17:09.071Z"
+    },
+    {
+      "id": "app-1782927901147",
+      "name": "discord Al-Asd",
+      "version": "335.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord_asd_335.0_v1.0",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqFANoGT3f1gbelunDdQcakC4bresVKb4LPIFx2-T4_Q&s",
+      "size": "110.0 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-07-01T17:45:01.149Z",
+      "updatedAt": "2026-07-01T17:45:01.149Z"
     }
   ]
 }
