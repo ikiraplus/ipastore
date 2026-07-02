@@ -1,4 +1,5 @@
-name: Sync to Old Source
+name: Sync to iPaStore Source
+
 on:
   push:
     paths:
@@ -8,26 +9,27 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Clone Old Repo
+
+      - name: Clone Target Repo
         run: |
-          git clone https://${{ secrets.PAT_TOKEN }}@github.com/ikira18/feather.git old_repo
-          
+          git clone https://${{ secrets.PAT_TOKEN }}@github.com/jacckop/source.git old_repo
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-          
+
       - name: Run Sync Script
         run: python sync_apps.py
-        
-      - name: Push to Old Repo
+
+      - name: Push to Target Repo
         run: |
           cd old_repo
           git config user.name "AutoSync"
           git config user.email "bot@github.com"
-          git add source sorse
-          git commit -m "Auto-update apps (source & sorse) from jom.json" || echo "No changes to commit"
+          git add ipastore
+          git commit -m "Auto-update ipastore from jom.json" || echo "No changes to commit"
           git push
