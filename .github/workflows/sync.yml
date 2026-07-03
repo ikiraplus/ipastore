@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'jom.json'
+      - 'sync_apps.py'
   workflow_dispatch:
 
 jobs:
@@ -24,6 +25,23 @@ jobs:
 
       - name: Run Sync Script
         run: python sync_apps.py
+
+      - name: Validate iPaStore Source
+        run: |
+          python - <<'PY'
+          import json
+          with open('old_repo/ipastore', 'r', encoding='utf-8') as f:
+              data = json.load(f)
+          bad_dates = [app.get('name') for app in data.get('apps', []) if app.get('versionDate') == '']
+          bad_urls = [app.get('name') for app in data.get('apps', []) if not app.get('downloadURL')]
+          if bad_dates:
+              raise SystemExit(f'Invalid empty versionDate values: {bad_dates[:20]}')
+          if bad_urls:
+              raise SystemExit(f'Invalid empty downloadURL values: {bad_urls[:20]}')
+          print(f"✅ JSON valid, apps: {len(data.get('apps', []))}")
+          print('✅ No empty versionDate values')
+          print('✅ No empty downloadURL values')
+          PY
 
       - name: Push to Target Repo
         run: |
