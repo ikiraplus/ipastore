@@ -3388,6 +3388,18 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T18:55:09.612Z",
       "updatedAt": "2026-07-01T18:55:09.612Z"
+    },
+    {
+      "id": "app-1783131285163",
+      "name": "Tiktok Na",
+      "version": "45.8.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok-na9.45.8.0",
+      "icon": "",
+      "size": "444.8 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-07-04T02:14:45.168Z",
+      "updatedAt": "2026-07-04T02:14:45.168Z"
     }
   ]
 }
