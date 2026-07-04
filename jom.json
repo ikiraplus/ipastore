@@ -3394,12 +3394,12 @@
       "name": "Tiktok Na",
       "version": "45.8.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok-na9.45.8.0",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783131285163.png",
       "size": "444.8 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-04T02:14:45.168Z",
-      "updatedAt": "2026-07-04T02:14:45.168Z"
+      "updatedAt": "2026-07-04T07:46:40.565Z"
     }
   ]
 }
