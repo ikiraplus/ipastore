@@ -30,17 +30,32 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          from collections import Counter
+
           with open('old_repo/ipastore', 'r', encoding='utf-8') as f:
               data = json.load(f)
-          bad_dates = [app.get('name') for app in data.get('apps', []) if app.get('versionDate') == '']
-          bad_urls = [app.get('name') for app in data.get('apps', []) if not app.get('downloadURL')]
+
+          apps = data.get('apps', [])
+          bad_dates = [app.get('name') for app in apps if app.get('versionDate') == '']
+          bad_urls = [app.get('name') for app in apps if not app.get('downloadURL')]
+          bad_bundles = [app.get('name') for app in apps if not app.get('bundleIdentifier')]
+
+          bundle_counts = Counter(app.get('bundleIdentifier') for app in apps if app.get('bundleIdentifier'))
+          duplicate_bundles = [bundle for bundle, count in bundle_counts.items() if count > 1]
+
           if bad_dates:
               raise SystemExit(f'Invalid empty versionDate values: {bad_dates[:20]}')
           if bad_urls:
               raise SystemExit(f'Invalid empty downloadURL values: {bad_urls[:20]}')
-          print(f"✅ JSON valid, apps: {len(data.get('apps', []))}")
+          if bad_bundles:
+              raise SystemExit(f'Missing bundleIdentifier values: {bad_bundles[:20]}')
+          if duplicate_bundles:
+              raise SystemExit(f'Duplicate bundleIdentifier values: {duplicate_bundles[:20]}')
+
+          print(f"✅ JSON valid, apps: {len(apps)}")
           print('✅ No empty versionDate values')
           print('✅ No empty downloadURL values')
+          print('✅ All bundleIdentifier values are unique')
           PY
 
       - name: Push to Target Repo
