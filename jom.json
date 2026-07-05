@@ -3388,6 +3388,18 @@
       "category": "تواصل",
       "addedAt": "2026-07-04T02:14:45.168Z",
       "updatedAt": "2026-07-04T07:46:40.565Z"
+    },
+    {
+      "id": "app-1783260943366",
+      "name": "سينمانا X لكل الشبكات",
+      "version": "4.1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-x",
+      "icon": "https://play-lh.googleusercontent.com/gADral9GuTv1-ue5EQbifq2mX0vkBamrT83iaL88PfAP_IuWAXWt-fumX4iJ5QQdL7atuXTewdpyb0vDBxg6cA",
+      "size": "44.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-05T14:15:43.368Z",
+      "updatedAt": "2026-07-05T14:15:43.368Z"
     }
   ]
 }
