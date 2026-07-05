@@ -3400,6 +3400,18 @@
       "category": "ترفيه",
       "addedAt": "2026-07-05T14:15:43.368Z",
       "updatedAt": "2026-07-05T14:15:43.368Z"
+    },
+    {
+      "id": "app-1783261002790",
+      "name": "CEE",
+      "version": "2.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cee_1.0",
+      "icon": "https://play-lh.googleusercontent.com/mUR43rIFTAdV0MEuNxegiGbRE7ebZs_74_hJeFypIyAbLSuwrs88-XkyUEHn8S-NU4M3UJhm2lP4AXhXsjmzpg",
+      "size": "2.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-05T14:16:42.791Z",
+      "updatedAt": "2026-07-05T14:16:42.791Z"
     }
   ]
 }
