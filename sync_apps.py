@@ -1,7 +1,15 @@
+#!/usr/bin/env python3
+import argparse
+import copy
 import hashlib
 import json
 import os
 import re
+import sys
+from collections import Counter
+
+START_APP_NAME = "ريكرام"
+BUNDLE_PREFIX = "com.ikiraplus.apps"
 
 SOURCE_FIELD_ORDER = [
     "name",
@@ -15,24 +23,27 @@ SOURCE_FIELD_ORDER = [
 ]
 
 APP_FIELD_ORDER = [
+    "id",
     "name",
     "bundleIdentifier",
+    "bundleId",
     "developerName",
     "version",
     "versionDate",
     "downloadURL",
+    "ipaUrl",
     "iconURL",
+    "icon",
     "localizedDescription",
+    "note",
     "size",
     "category",
+    "addedAt",
+    "updatedAt",
+    "hidden",
 ]
 
-# Every app written to the target source will get a stable, unique bundle id.
-# This avoids stores treating multiple apps as the same item because of duplicate bundles.
-FORCE_GENERATED_UNIQUE_BUNDLES = True
-BUNDLE_PREFIX = "com.ikiraplus.apps"
-
-DEFAULT_SOURCE = {
+DEFAULT_SOURCE_META = {
     "name": "iKiraPlus - IPA Store",
     "identifier": "com.ikiraplus.store",
     "sourceURL": "https://raw.githubusercontent.com/jacckop/source/main/ipastore",
@@ -50,68 +61,83 @@ DEFAULT_SOURCE = {
             "url": "https://t.me/iKiraPlus",
         }
     ],
-    "apps": [],
 }
+
+CERTIFICATE_ID_NEEDLES = (
+    "shahada-free",
+    "shahadda-free",
+    "shahada",
+    "shahadda",
+)
+CERTIFICATE_NAME_NEEDLES = (
+    "شهاده مجاني",
+    "شهاده",
+)
 
 
 def clean_text(value):
-    """Normalize text for comparison without changing the displayed value."""
     if value is None:
         return ""
-
     text = str(value)
-    # Remove invisible chars that often cause duplicate app names in JSON sources.
-    text = re.sub(r"[\u200b\u200c\u200d\ufeff]", "", text)
+    text = re.sub(r"[\u200b\u200c\u200d\ufeff\u2060]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
-def name_key(value):
-    return clean_text(value).casefold()
+def normalize_arabic(value):
+    text = clean_text(value)
+    text = re.sub(r"[\u064b-\u065f\u0670\u0640]", "", text)
+    text = text.replace("أ", "ا").replace("إ", "ا").replace("آ", "ا")
+    text = text.replace("ى", "ي")
+    text = text.replace("ة", "ه")
+    return text.casefold()
 
 
-def bundle_key(value):
-    return clean_text(value).casefold()
+def is_empty(value):
+    if value is None:
+        return True
+    if isinstance(value, str) and value.strip().lower() in {"", "null", "none", "nan"}:
+        return True
+    return False
 
 
-def slugify(text):
-    text = clean_text(text).casefold()
-    ascii_text = text.encode("ascii", "ignore").decode("ascii")
-    ascii_text = ascii_text.replace("'", "")
-    slug = re.sub(r"[^a-z0-9]+", "-", ascii_text).strip("-")
-    slug = re.sub(r"-+", "-", slug)
-    return (slug[:42].strip("-") or "app")
+def first_non_empty(*values):
+    for value in values:
+        if not is_empty(value):
+            return value
+    return None
 
 
-def stable_hash(text):
-    return hashlib.sha1(name_key(text).encode("utf-8")).hexdigest()[:8]
+def is_certificate_app(app):
+    if not isinstance(app, dict):
+        return False
 
+    name_key = normalize_arabic(app.get("name"))
+    id_key = clean_text(app.get("id")).casefold()
+    bundle_key = clean_text(app.get("bundleIdentifier") or app.get("bundleId")).casefold()
+    url_key = clean_text(app.get("downloadURL") or app.get("ipaUrl")).casefold()
+    blob = f"{id_key} {bundle_key} {url_key}"
 
-def make_unique_bundle(name, used_bundles):
-    base = f"{BUNDLE_PREFIX}.{slugify(name)}.{stable_hash(name)}"
-    candidate = base
-    counter = 2
-
-    while candidate in used_bundles:
-        candidate = f"{base}.{counter}"
-        counter += 1
-
-    used_bundles.add(candidate)
-    return candidate
+    if any(needle in name_key for needle in CERTIFICATE_NAME_NEEDLES):
+        return True
+    if any(needle in blob for needle in CERTIFICATE_ID_NEEDLES):
+        return True
+    return False
 
 
 def size_to_bytes(size):
     if size is None:
         return 0
-
+    if isinstance(size, bool):
+        return int(size)
     if isinstance(size, int):
         return size
-
     if isinstance(size, float):
         return int(size)
 
     text = str(size).strip().lower().replace(",", "")
-
+    if not text:
+        return 0
     if text.isdigit():
         return int(text)
 
@@ -120,331 +146,249 @@ def size_to_bytes(size):
         return 0
 
     value = float(match.group(1))
-
     if any(unit in text for unit in ["gb", "gib", "جيجا", "غيغا"]):
         return int(value * 1024 * 1024 * 1024)
-
     if any(unit in text for unit in ["mb", "mib", "ميجا", "ميكا", "مب"]):
         return int(value * 1024 * 1024)
-
     if any(unit in text for unit in ["kb", "kib", "كيلو", "كب"]):
         return int(value * 1024)
-
     return int(value)
 
 
 def normalize_version_date(value):
-    """Return a valid Feather-friendly versionDate.
-
-    Empty dates must be JSON null, not an empty string "".
-    """
+    value = first_non_empty(value)
     if value is None:
         return None
-
     text = str(value).strip()
-    if not text or text.lower() in {"null", "none", "nan"}:
-        return None
-
     if "T" in text:
         text = text.split("T", 1)[0].strip()
-
     return text or None
 
 
-def first_value(*values, default=""):
-    for value in values:
-        if value is not None and str(value).strip() != "":
-            return value
-    return default
+def slugify(text):
+    text = clean_text(text).casefold()
+    ascii_text = text.encode("ascii", "ignore").decode("ascii")
+    ascii_text = ascii_text.replace("'", "")
+    slug = re.sub(r"[^a-z0-9]+", "-", ascii_text).strip("-")
+    slug = re.sub(r"-+", "-", slug)
+    return slug[:42].strip("-") or "app"
 
 
-def set_if_present(app, field, value, allow_none=False):
-    if value is None:
-        if allow_none:
-            app[field] = None
-        return
-
-    if isinstance(value, str) and value.strip() == "":
-        return
-
-    app[field] = value
+def stable_hash(*parts):
+    raw = "|".join(clean_text(part) for part in parts if not is_empty(part))
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:10]
 
 
-def load_json_or_default(file_path):
-    if not os.path.exists(file_path):
-        return json.loads(json.dumps(DEFAULT_SOURCE, ensure_ascii=False))
+def make_bundle(app, used_bundles):
+    existing = first_non_empty(app.get("bundleIdentifier"), app.get("bundleId"))
+    existing_key = clean_text(existing).casefold()
+    if existing_key and existing_key not in used_bundles:
+        used_bundles.add(existing_key)
+        return clean_text(existing)
 
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            loaded = json.load(f)
-            if isinstance(loaded, dict):
-                return loaded
-    except Exception:
-        pass
+    base = (
+        f"{BUNDLE_PREFIX}."
+        f"{slugify(first_non_empty(app.get('name'), app.get('id'), 'app'))}."
+        f"{stable_hash(app.get('id'), app.get('name'), app.get('ipaUrl'), app.get('downloadURL'))}"
+    )
+    candidate = base
+    counter = 2
+    while candidate.casefold() in used_bundles:
+        candidate = f"{base}.{counter}"
+        counter += 1
 
-    return json.loads(json.dumps(DEFAULT_SOURCE, ensure_ascii=False))
-
-
-def ordered_news_item(item):
-    return {
-        "title": item.get("title", "كيرا بلس"),
-        "identifier": item.get("identifier", "com.ikiraplus.card"),
-        "caption": item.get("caption", "قناة كيرا بلس للتطبيقات والشهادات"),
-        "date": item.get("date", "2026-05-11"),
-        "tintColor": item.get("tintColor", "#7A7DFF"),
-        "imageURL": item.get("imageURL", DEFAULT_SOURCE["iconURL"]),
-        "url": item.get("url", "https://t.me/iKiraPlus"),
-    }
+    used_bundles.add(candidate.casefold())
+    return candidate
 
 
-def ordered_app(app):
-    return {
-        "name": clean_text(app.get("name", "")),
-        "bundleIdentifier": clean_text(app.get("bundleIdentifier", "")),
-        "developerName": app.get("developerName", "iKiraPlus"),
-        "version": app.get("version", ""),
-        "versionDate": normalize_version_date(app.get("versionDate")),
-        "downloadURL": app.get("downloadURL", ""),
-        "iconURL": app.get("iconURL", ""),
-        "localizedDescription": app.get("localizedDescription", ""),
-        "size": size_to_bytes(app.get("size")),
-        "category": app.get("category", "ألعاب"),
-    }
-
-
-def ordered_source(source):
-    source.setdefault("name", DEFAULT_SOURCE["name"])
-    source.setdefault("identifier", DEFAULT_SOURCE["identifier"])
-    source.setdefault("sourceURL", DEFAULT_SOURCE["sourceURL"])
-    source.setdefault("iconURL", DEFAULT_SOURCE["iconURL"])
-    source.setdefault("sourceIcon", source.get("iconURL", DEFAULT_SOURCE["sourceIcon"]))
-    source.setdefault("website", DEFAULT_SOURCE["website"])
-
-    news = source.get("news")
-    if not isinstance(news, list) or not news:
-        news = DEFAULT_SOURCE["news"]
-    source["news"] = [ordered_news_item(item if isinstance(item, dict) else {}) for item in news]
-
-    apps = source.get("apps")
-    if not isinstance(apps, list):
-        apps = []
-    source["apps"] = [ordered_app(app) for app in apps if isinstance(app, dict) and app.get("name")]
-
-    ordered = {key: source[key] for key in SOURCE_FIELD_ORDER if key in source}
-    for key, value in source.items():
+def order_dict(data, preferred_order):
+    ordered = {key: data[key] for key in preferred_order if key in data}
+    for key, value in data.items():
         if key not in ordered:
             ordered[key] = value
     return ordered
 
 
-def app_bundle_from_input(app):
-    return first_value(
-        app.get("bundleIdentifier"),
-        app.get("bundleId"),
-        app.get("identifier"),
-        default="",
+def load_json_file(path):
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} must contain a JSON object")
+    if not isinstance(data.get("apps"), list):
+        raise ValueError(f"{path} must contain an apps array")
+    return data
+
+
+def get_apps(source):
+    return [app for app in source.get("apps", []) if isinstance(app, dict)]
+
+
+def find_start_index(apps):
+    target = normalize_arabic(START_APP_NAME)
+    for index, app in enumerate(apps):
+        if normalize_arabic(app.get("name")) == target:
+            return index
+    names_preview = [clean_text(app.get("name")) for app in apps[:30]]
+    raise ValueError(f"Start app '{START_APP_NAME}' was not found. First apps: {names_preview}")
+
+
+def normalize_app(app, used_bundles):
+    fixed = copy.deepcopy(app)
+
+    if "name" in fixed:
+        fixed["name"] = clean_text(fixed.get("name"))
+
+    fixed["size"] = size_to_bytes(fixed.get("size"))
+    fixed["versionDate"] = normalize_version_date(
+        first_non_empty(fixed.get("versionDate"), fixed.get("updatedAt"), fixed.get("addedAt"))
     )
 
+    if is_empty(fixed.get("downloadURL")) and not is_empty(fixed.get("ipaUrl")):
+        fixed["downloadURL"] = fixed.get("ipaUrl")
+    if is_empty(fixed.get("iconURL")) and not is_empty(fixed.get("icon")):
+        fixed["iconURL"] = fixed.get("icon")
+    if is_empty(fixed.get("localizedDescription")) and not is_empty(fixed.get("note")):
+        fixed["localizedDescription"] = fixed.get("note")
 
-def merge_non_empty(target, source):
-    """Merge duplicate old entries. Later non-empty values win."""
-    for key, value in source.items():
-        if value is None:
-            continue
-        if isinstance(value, str) and value.strip() == "":
-            continue
-        target[key] = value
-
-
-def dedupe_old_apps(apps):
-    """Remove duplicates already created by older workflow runs.
-
-    The identity is the normalized app name first, because downloadURL/iconURL can change
-    and must never create a second app.
-    """
-    result = []
-    seen_by_name = {}
-
-    for app in apps:
-        if not isinstance(app, dict) or not app.get("name"):
-            continue
-
-        key = name_key(app.get("name"))
-        if key in seen_by_name:
-            merge_non_empty(seen_by_name[key], app)
-            continue
-
-        seen_by_name[key] = app
-        result.append(app)
-
-    return result
+    fixed["bundleIdentifier"] = make_bundle(fixed, used_bundles)
+    return order_dict(fixed, APP_FIELD_ORDER)
 
 
-def build_lookup_maps(apps):
-    by_name = {}
-    by_bundle = {}
+def build_source_from_regram(jom_source):
+    jom_apps = get_apps(jom_source)
+    start_index = find_start_index(jom_apps)
+    ignored_before_start = jom_apps[:start_index]
 
-    for app in apps:
-        n_key = name_key(app.get("name"))
-        b_key = bundle_key(app.get("bundleIdentifier"))
-
-        if n_key and n_key not in by_name:
-            by_name[n_key] = app
-        if b_key and b_key not in by_bundle:
-            by_bundle[b_key] = app
-
-    return by_name, by_bundle
-
-
-def find_existing_app(new_app, by_name, by_bundle):
-    """Find the old app without using downloadURL/iconURL as identity."""
-    incoming_bundle = bundle_key(app_bundle_from_input(new_app))
-    incoming_name = name_key(new_app.get("name"))
-
-    if incoming_bundle and incoming_bundle in by_bundle:
-        return by_bundle[incoming_bundle]
-
-    if incoming_name and incoming_name in by_name:
-        return by_name[incoming_name]
-
-    return None
-
-
-def update_app_from_jom(app, n_app):
-    name = clean_text(n_app.get("name"))
-    version_date = normalize_version_date(first_value(n_app.get("updatedAt"), n_app.get("versionDate"), default=None))
-    app_size = size_to_bytes(n_app.get("size"))
-    download_url = first_value(n_app.get("ipaUrl"), n_app.get("downloadURL"), default="")
-    icon_url = first_value(n_app.get("icon"), n_app.get("iconURL"), default="")
-    description = first_value(n_app.get("note"), n_app.get("localizedDescription"), default="")
-
-    # Keep name stable when the same normalized name matched. If a bundle matched and name changed,
-    # this allows the displayed name to be updated intentionally.
-    set_if_present(app, "name", name)
-    set_if_present(app, "developerName", n_app.get("developerName", "iKiraPlus"))
-    set_if_present(app, "version", n_app.get("version", app.get("version", "")))
-    app["versionDate"] = version_date
-    set_if_present(app, "downloadURL", download_url)
-    set_if_present(app, "iconURL", icon_url)
-    set_if_present(app, "localizedDescription", description)
-    app["size"] = app_size
-    set_if_present(app, "category", n_app.get("category", app.get("category", "ألعاب")))
-
-
-def create_app_from_jom(n_app):
-    name = clean_text(n_app.get("name"))
-    version_date = normalize_version_date(first_value(n_app.get("updatedAt"), n_app.get("versionDate"), default=None))
-    download_url = first_value(n_app.get("ipaUrl"), n_app.get("downloadURL"), default="")
-    icon_url = first_value(n_app.get("icon"), n_app.get("iconURL"), default="")
-    description = first_value(n_app.get("note"), n_app.get("localizedDescription"), default="")
-
-    return {
-        "name": name,
-        "bundleIdentifier": app_bundle_from_input(n_app),
-        "developerName": n_app.get("developerName", "iKiraPlus"),
-        "version": n_app.get("version", ""),
-        "versionDate": version_date,
-        "downloadURL": download_url,
-        "iconURL": icon_url,
-        "localizedDescription": description,
-        "size": size_to_bytes(n_app.get("size")),
-        "category": n_app.get("category", "ألعاب"),
-    }
-
-
-def ensure_unique_bundle_identifiers(apps):
     used_bundles = set()
+    clean_source = copy.deepcopy(DEFAULT_SOURCE_META)
 
-    for app in apps:
-        if FORCE_GENERATED_UNIQUE_BUNDLES:
-            app["bundleIdentifier"] = make_unique_bundle(app.get("name", "app"), used_bundles)
+    for key, value in jom_source.items():
+        if key != "apps":
+            clean_source[key] = copy.deepcopy(value)
+
+    clean_source.setdefault("name", DEFAULT_SOURCE_META["name"])
+    clean_source.setdefault("identifier", DEFAULT_SOURCE_META["identifier"])
+    clean_source.setdefault("sourceURL", DEFAULT_SOURCE_META["sourceURL"])
+    clean_source.setdefault("iconURL", DEFAULT_SOURCE_META["iconURL"])
+    clean_source.setdefault("sourceIcon", clean_source.get("iconURL", DEFAULT_SOURCE_META["sourceIcon"]))
+    clean_source.setdefault("website", DEFAULT_SOURCE_META["website"])
+    if not isinstance(clean_source.get("news"), list) or not clean_source.get("news"):
+        clean_source["news"] = copy.deepcopy(DEFAULT_SOURCE_META["news"])
+
+    clean_apps = []
+    skipped_certificates = []
+    for app in jom_apps[start_index:]:
+        if is_certificate_app(app):
+            skipped_certificates.append(clean_text(app.get("name") or app.get("id")))
             continue
+        fixed = normalize_app(app, used_bundles)
+        if is_certificate_app(fixed):
+            skipped_certificates.append(clean_text(fixed.get("name") or fixed.get("id")))
+            continue
+        clean_apps.append(fixed)
 
-        current = bundle_key(app.get("bundleIdentifier"))
-        if not current or current in used_bundles:
-            app["bundleIdentifier"] = make_unique_bundle(app.get("name", "app"), used_bundles)
-        else:
-            used_bundles.add(current)
+    clean_source["apps"] = clean_apps
+    return order_dict(clean_source, SOURCE_FIELD_ORDER), ignored_before_start, skipped_certificates
 
 
-def validate_source(source):
-    apps = source.get("apps", [])
-    empty_dates = [app.get("name") for app in apps if app.get("versionDate") == ""]
-    empty_urls = [app.get("name") for app in apps if not app.get("downloadURL")]
+def validate_output(jom_source, output_source, ignored_before_start):
+    jom_apps = get_apps(jom_source)
+    start_index = find_start_index(jom_apps)
+    expected_names = [clean_text(app.get("name")) for app in jom_apps[start_index:] if not is_certificate_app(app)]
+    output_apps = [app for app in output_source.get("apps", []) if isinstance(app, dict)]
+    output_names = [clean_text(app.get("name")) for app in output_apps]
 
-    bundles = [app.get("bundleIdentifier") for app in apps if app.get("bundleIdentifier")]
-    duplicate_bundles = sorted({bundle for bundle in bundles if bundles.count(bundle) > 1})
+    if not output_apps:
+        raise ValueError("Output has no apps")
 
+    first_name = output_apps[0].get("name")
+    if normalize_arabic(first_name) != normalize_arabic(START_APP_NAME):
+        raise ValueError(f"First app must be '{START_APP_NAME}', got '{first_name}'")
+
+    if output_names != expected_names:
+        raise ValueError("Output apps do not exactly match jom.json from ريكرام onward")
+
+    certificate_apps = [clean_text(app.get("name") or app.get("id")) for app in output_apps if is_certificate_app(app)]
+    if certificate_apps:
+        raise ValueError(f"Certificate apps leaked into output: {certificate_apps[:20]}")
+
+    ignored_names = {clean_text(app.get("name")) for app in ignored_before_start if clean_text(app.get("name"))}
+    leaked_before_start = [name for name in output_names if name in ignored_names]
+    if leaked_before_start:
+        raise ValueError(f"Apps before ريكرام leaked into output: {leaked_before_start[:20]}")
+
+    empty_dates = [app.get("name") for app in output_apps if app.get("versionDate") == ""]
     if empty_dates:
-        raise ValueError(f"Found empty versionDate values after cleanup: {empty_dates[:10]}")
-    if empty_urls:
-        raise ValueError(f"Found empty downloadURL values after cleanup: {empty_urls[:10]}")
+        raise ValueError(f"Empty versionDate values found: {empty_dates[:20]}")
+
+    bad_sizes = [app.get("name") for app in output_apps if not isinstance(app.get("size"), int)]
+    if bad_sizes:
+        raise ValueError(f"Size must be int bytes for: {bad_sizes[:20]}")
+
+    missing_bundles = [app.get("name") for app in output_apps if is_empty(app.get("bundleIdentifier"))]
+    if missing_bundles:
+        raise ValueError(f"Missing bundleIdentifier values: {missing_bundles[:20]}")
+
+    bundle_counts = Counter(app.get("bundleIdentifier") for app in output_apps if app.get("bundleIdentifier"))
+    duplicate_bundles = [bundle for bundle, count in bundle_counts.items() if count > 1]
     if duplicate_bundles:
-        raise ValueError(f"Found duplicate bundleIdentifier values after cleanup: {duplicate_bundles[:10]}")
+        raise ValueError(f"Duplicate bundleIdentifier values: {duplicate_bundles[:20]}")
 
 
-with open("jom.json", "r", encoding="utf-8") as f:
-    new_source = json.load(f)
+def hard_write_json(path, data):
+    directory = os.path.dirname(path)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
 
-new_apps = new_source.get("apps", [])
-files_to_update = ["old_repo/ipastore"]
+    try:
+        if os.path.exists(path):
+            os.chmod(path, 0o666)
+            os.remove(path)
+    except FileNotFoundError:
+        pass
 
-for file_path in files_to_update:
-    old_source = load_json_or_default(file_path)
-    old_apps = old_source.get("apps", [])
-    if not isinstance(old_apps, list):
-        old_apps = []
+    tmp_path = f"{path}.tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
 
-    old_apps = dedupe_old_apps(old_apps)
-    by_name, by_bundle = build_lookup_maps(old_apps)
+    os.replace(tmp_path, path)
 
-    added_count = 0
-    updated_count = 0
 
-    for n_app in new_apps:
-        if not isinstance(n_app, dict):
-            continue
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source", default="jom.json", help="Path to jom.json")
+    parser.add_argument("--target", default="old_repo/ipastore", help="Path to target ipastore file")
+    args = parser.parse_args()
 
-        name = clean_text(n_app.get("name"))
-        if not name:
-            continue
+    jom_source = load_json_file(args.source)
+    output_source, ignored_before_start, skipped_certificates = build_source_from_regram(jom_source)
+    validate_output(jom_source, output_source, ignored_before_start)
+    hard_write_json(args.target, output_source)
 
-        existing_app = find_existing_app(n_app, by_name, by_bundle)
+    written = load_json_file(args.target)
+    validate_output(jom_source, written, ignored_before_start)
 
-        if existing_app is not None:
-            old_name_key = name_key(existing_app.get("name"))
-            update_app_from_jom(existing_app, n_app)
-            new_name_key = name_key(existing_app.get("name"))
+    apps = written["apps"]
+    print("✅ HARD REBUILD OK")
+    print(f"✅ target wiped and rewritten: {args.target}")
+    print(f"✅ first app: {apps[0]['name']}")
+    print(f"✅ ignored before ريكرام: {len(ignored_before_start)}")
+    for app in ignored_before_start[:20]:
+        print(f"   - ignored: {clean_text(app.get('name') or app.get('id'))}")
+    print(f"✅ skipped certificate apps after ريكرام: {len(skipped_certificates)}")
+    for name in skipped_certificates[:20]:
+        print(f"   - skipped: {name}")
+    print(f"✅ apps written: {len(apps)}")
+    print("✅ no شهادة مجانية apps in output")
+    print("✅ size is bytes/int")
+    print("✅ versionDate is never empty string")
+    print("✅ bundleIdentifier values are unique")
 
-            # If a displayed name changed, keep the lookup table accurate during the same run.
-            if old_name_key != new_name_key:
-                by_name.pop(old_name_key, None)
-                by_name[new_name_key] = existing_app
 
-            updated_count += 1
-        else:
-            app = create_app_from_jom(n_app)
-            old_apps.append(app)
-            by_name[name_key(app.get("name"))] = app
-
-            incoming_bundle = bundle_key(app_bundle_from_input(n_app))
-            if incoming_bundle:
-                by_bundle[incoming_bundle] = app
-
-            added_count += 1
-
-    ensure_unique_bundle_identifiers(old_apps)
-    old_source["apps"] = old_apps
-    old_source = ordered_source(old_source)
-
-    validate_source(old_source)
-
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(old_source, f, indent=2, ensure_ascii=False)
-
-print("✅ ipastore updated successfully")
-print("✅ existing apps are matched by normalized name/bundle, not by downloadURL/iconURL")
-print("✅ duplicate old apps were merged before syncing")
-print("✅ bundleIdentifier values are unique")
-print(f"✅ updated apps: {updated_count}")
-print(f"✅ added apps: {added_count}")
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:
+        print(f"❌ sync failed: {exc}", file=sys.stderr)
+        sys.exit(1)
