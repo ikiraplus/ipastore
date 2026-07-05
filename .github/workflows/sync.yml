@@ -1,68 +1,177 @@
 name: Sync to iPaStore Source
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'jom.json'
       - 'sync_apps.py'
-  workflow_dispatch:
+      - '.github/workflows/sync.yml'
 
 jobs:
   sync:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout JOM repo
+        uses: actions/checkout@v4
+        with:
+          path: jom_repo
 
-      - name: Clone Target Repo
+      - name: Clone target source repo fresh
         run: |
-          git clone https://${{ secrets.PAT_TOKEN }}@github.com/jacckop/source.git old_repo
+          rm -rf target_repo
+          git clone --depth 1 --branch main https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jacckop/source.git target_repo
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Run Sync Script
-        run: python sync_apps.py
+      - name: HARD rebuild ipastore from ريكرام onward
+        run: |
+          set -euo pipefail
+          rm -f target_repo/ipastore
+          python jom_repo/sync_apps.py --source jom_repo/jom.json --target target_repo/ipastore
 
-      - name: Validate iPaStore Source
+      - name: Show first apps after rebuild
         run: |
           python - <<'PY'
           import json
-          from collections import Counter
-
-          with open('old_repo/ipastore', 'r', encoding='utf-8') as f:
+          with open('target_repo/ipastore', 'r', encoding='utf-8') as f:
               data = json.load(f)
-
           apps = data.get('apps', [])
-          bad_dates = [app.get('name') for app in apps if app.get('versionDate') == '']
-          bad_urls = [app.get('name') for app in apps if not app.get('downloadURL')]
-          bad_bundles = [app.get('name') for app in apps if not app.get('bundleIdentifier')]
-
-          bundle_counts = Counter(app.get('bundleIdentifier') for app in apps if app.get('bundleIdentifier'))
-          duplicate_bundles = [bundle for bundle, count in bundle_counts.items() if count > 1]
-
-          if bad_dates:
-              raise SystemExit(f'Invalid empty versionDate values: {bad_dates[:20]}')
-          if bad_urls:
-              raise SystemExit(f'Invalid empty downloadURL values: {bad_urls[:20]}')
-          if bad_bundles:
-              raise SystemExit(f'Missing bundleIdentifier values: {bad_bundles[:20]}')
-          if duplicate_bundles:
-              raise SystemExit(f'Duplicate bundleIdentifier values: {duplicate_bundles[:20]}')
-
-          print(f"✅ JSON valid, apps: {len(apps)}")
-          print('✅ No empty versionDate values')
-          print('✅ No empty downloadURL values')
-          print('✅ All bundleIdentifier values are unique')
+          print('apps count:', len(apps))
+          print('first 10 apps:')
+          for app in apps[:10]:
+              print('-', app.get('name'))
           PY
 
-      - name: Push to Target Repo
+      - name: Final safety validation
         run: |
-          cd old_repo
+          python - <<'PY'
+          import json
+          import re
+          from collections import Counter
+
+          START_APP_NAME = 'ريكرام'
+
+          def clean_text(value):
+              if value is None:
+                  return ''
+              text = str(value)
+              text = re.sub(r'[\u200b\u200c\u200d\ufeff\u2060]', '', text)
+              text = re.sub(r'\s+', ' ', text).strip()
+              return text
+
+          def normalize_arabic(value):
+              text = clean_text(value)
+              text = re.sub(r'[\u064b-\u065f\u0670\u0640]', '', text)
+              text = text.replace('أ', 'ا').replace('إ', 'ا').replace('آ', 'ا')
+              text = text.replace('ى', 'ي')
+              text = text.replace('ة', 'ه')
+              return text.casefold()
+
+          def is_certificate_app(app):
+              name = normalize_arabic(app.get('name'))
+              blob = ' '.join([
+                  clean_text(app.get('id')).casefold(),
+                  clean_text(app.get('bundleIdentifier') or app.get('bundleId')).casefold(),
+                  clean_text(app.get('downloadURL') or app.get('ipaUrl')).casefold(),
+              ])
+              return (
+                  'شهاده مجاني' in name
+                  or 'شهاده' in name
+                  or 'shahada-free' in blob
+                  or 'shahadda-free' in blob
+                  or 'shahada' in blob
+                  or 'shahadda' in blob
+              )
+
+          with open('jom_repo/jom.json', 'r', encoding='utf-8') as f:
+              jom = json.load(f)
+          with open('target_repo/ipastore', 'r', encoding='utf-8') as f:
+              target = json.load(f)
+
+          jom_apps = [app for app in jom.get('apps', []) if isinstance(app, dict)]
+          target_apps = [app for app in target.get('apps', []) if isinstance(app, dict)]
+
+          start_index = None
+          for index, app in enumerate(jom_apps):
+              if normalize_arabic(app.get('name')) == normalize_arabic(START_APP_NAME):
+                  start_index = index
+                  break
+          if start_index is None:
+              raise SystemExit('ريكرام was not found in jom.json')
+
+          expected_names = [clean_text(app.get('name')) for app in jom_apps[start_index:] if not is_certificate_app(app)]
+          target_names = [clean_text(app.get('name')) for app in target_apps]
+
+          if not target_apps:
+              raise SystemExit('target ipastore has no apps')
+          if normalize_arabic(target_apps[0].get('name')) != normalize_arabic(START_APP_NAME):
+              raise SystemExit(f"first copied app must be ريكرام, got {target_apps[0].get('name')}")
+          if target_names != expected_names:
+              raise SystemExit('target app list does not exactly match jom.json from ريكرام onward')
+
+          leaked_certificates = [clean_text(app.get('name') or app.get('id')) for app in target_apps if is_certificate_app(app)]
+          if leaked_certificates:
+              raise SystemExit(f'certificate apps leaked into target: {leaked_certificates[:20]}')
+
+          bad_dates = [app.get('name') for app in target_apps if app.get('versionDate') == '']
+          if bad_dates:
+              raise SystemExit(f'empty versionDate values found: {bad_dates[:20]}')
+
+          bad_sizes = [app.get('name') for app in target_apps if not isinstance(app.get('size'), int)]
+          if bad_sizes:
+              raise SystemExit(f'size is not int bytes for: {bad_sizes[:20]}')
+
+          bundle_counts = Counter(app.get('bundleIdentifier') for app in target_apps if app.get('bundleIdentifier'))
+          duplicate_bundles = [bundle for bundle, count in bundle_counts.items() if count > 1]
+          if duplicate_bundles:
+              raise SystemExit(f'duplicate bundleIdentifier values: {duplicate_bundles[:20]}')
+
+          print('✅ validation OK')
+          print(f'✅ ignored before ريكرام: {start_index}')
+          print(f'✅ apps written: {len(target_apps)}')
+          print('✅ first app is ريكرام')
+          print('✅ no شهادة مجانية apps')
+          PY
+
+      - name: Commit and force push rebuilt ipastore
+        run: |
+          set -euo pipefail
+          cd target_repo
           git config user.name "AutoSync"
           git config user.email "bot@github.com"
-          git add ipastore
-          git commit -m "Auto-update ipastore from jom.json" || echo "No changes to commit"
-          git push
+          git status --short
+          git add -A -- ipastore
+          git commit -m "Hard rebuild ipastore from Regram onward" || echo "No changes to commit"
+          git push origin HEAD:main
+
+      - name: Confirm pushed file is clean
+        run: |
+          set -euo pipefail
+          cd target_repo
+          git fetch origin main
+          git show origin/main:ipastore > /tmp/pushed_ipastore.json
+          python - <<'PY'
+          import json, re
+          with open('/tmp/pushed_ipastore.json', 'r', encoding='utf-8') as f:
+              data = json.load(f)
+          apps = data.get('apps', [])
+          def norm(s):
+              s = '' if s is None else str(s)
+              s = re.sub(r'[\u200b\u200c\u200d\ufeff\u2060]', '', s)
+              s = re.sub(r'\s+', ' ', s).strip()
+              s = s.replace('أ','ا').replace('إ','ا').replace('آ','ا').replace('ة','ه').replace('ى','ي')
+              return s.casefold()
+          if not apps or norm(apps[0].get('name')) != norm('ريكرام'):
+              raise SystemExit(f"remote still wrong, first app: {apps[0].get('name') if apps else 'NONE'}")
+          bad = [a.get('name') for a in apps if 'شهاده' in norm(a.get('name')) or 'shahada' in str(a.get('id','')).lower() or 'shahadda' in str(a.get('id','')).lower()]
+          if bad:
+              raise SystemExit(f'remote still has certificate apps: {bad[:20]}')
+          print('✅ remote main/ipastore is clean')
+          print('✅ remote first app:', apps[0].get('name'))
+          print('✅ remote apps count:', len(apps))
+          PY
