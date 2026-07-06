@@ -3424,6 +3424,18 @@
       "category": "ترفيه",
       "addedAt": "2026-07-05T14:17:32.170Z",
       "updatedAt": "2026-07-05T14:17:32.170Z"
+    },
+    {
+      "id": "app-1783353777050",
+      "name": "Anime Slayer",
+      "version": "3.3.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer",
+      "icon": "https://cdn-www.bluestacks.com/bs-images/Icon_com.anslayer.jpg",
+      "size": "17.1 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-06T16:02:57.053Z",
+      "updatedAt": "2026-07-06T16:02:57.053Z"
     }
   ]
 }
