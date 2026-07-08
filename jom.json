@@ -3460,6 +3460,18 @@
       "category": "تواصل",
       "addedAt": "2026-07-08T08:30:48.574Z",
       "updatedAt": "2026-07-08T08:30:48.574Z"
+    },
+    {
+      "id": "app-1783541382806",
+      "name": "hitv pro",
+      "version": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitv-pro_1.1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783541382806.png",
+      "size": "11.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-08T20:09:45.614Z",
+      "updatedAt": "2026-07-08T20:09:45.614Z"
     }
   ]
 }
