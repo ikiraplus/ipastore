@@ -28,13 +28,12 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: HARD rebuild ipastore from ريكرام onward
+      - name: Smart sync ipastore without changing existing order
         run: |
           set -euo pipefail
-          rm -f target_repo/ipastore
           python jom_repo/sync_apps.py --source jom_repo/jom.json --target target_repo/ipastore
 
-      - name: Show first apps after rebuild
+      - name: Show first apps after smart sync
         run: |
           python - <<'PY'
           import json
@@ -44,7 +43,7 @@ jobs:
           print('apps count:', len(apps))
           print('first 10 apps:')
           for app in apps[:10]:
-              print('-', app.get('name'))
+              print('-', app.get('name'), '| versionDate:', app.get('versionDate'), '| updatedAt:', app.get('updatedAt'))
           PY
 
       - name: Final safety validation
@@ -71,6 +70,11 @@ jobs:
               text = text.replace('ى', 'ي')
               text = text.replace('ة', 'ه')
               return text.casefold()
+
+          def is_empty(value):
+              if value is None:
+                  return True
+              return isinstance(value, str) and value.strip().lower() in {'', 'null', 'none', 'nan'}
 
           def is_certificate_app(app):
               name = normalize_arabic(app.get('name'))
@@ -104,21 +108,45 @@ jobs:
           if start_index is None:
               raise SystemExit('ريكرام was not found in jom.json')
 
-          expected_names = [clean_text(app.get('name')) for app in jom_apps[start_index:] if not is_certificate_app(app)]
+          seen_expected_keys = set()
+          expected_names = []
+          for app in jom_apps[start_index:]:
+              if is_certificate_app(app):
+                  continue
+              keys = []
+              bundle = clean_text(app.get('bundleIdentifier') or app.get('bundleId')).casefold()
+              app_id = clean_text(app.get('id')).casefold()
+              name = normalize_arabic(app.get('name'))
+              url = clean_text(app.get('downloadURL') or app.get('ipaUrl')).casefold()
+              if bundle:
+                  keys.append('bundle:' + bundle)
+              if app_id:
+                  keys.append('id:' + app_id)
+              if name:
+                  keys.append('name:' + name)
+              if url:
+                  keys.append('url:' + url)
+              if any(key in seen_expected_keys for key in keys):
+                  continue
+              seen_expected_keys.update(keys)
+              expected_names.append(clean_text(app.get('name')))
+
           target_names = [clean_text(app.get('name')) for app in target_apps]
 
           if not target_apps:
               raise SystemExit('target ipastore has no apps')
           if normalize_arabic(target_apps[0].get('name')) != normalize_arabic(START_APP_NAME):
               raise SystemExit(f"first copied app must be ريكرام, got {target_apps[0].get('name')}")
-          if target_names != expected_names:
-              raise SystemExit('target app list does not exactly match jom.json from ريكرام onward')
+          if Counter(target_names) != Counter(expected_names):
+              missing = list((Counter(expected_names) - Counter(target_names)).elements())[:20]
+              extra = list((Counter(target_names) - Counter(expected_names)).elements())[:20]
+              raise SystemExit(f'target app set does not match jom.json from ريكرام onward. missing={missing}, extra={extra}')
 
           leaked_certificates = [clean_text(app.get('name') or app.get('id')) for app in target_apps if is_certificate_app(app)]
           if leaked_certificates:
               raise SystemExit(f'certificate apps leaked into target: {leaked_certificates[:20]}')
 
-          bad_dates = [app.get('name') for app in target_apps if app.get('versionDate') == '']
+          bad_dates = [app.get('name') for app in target_apps if is_empty(app.get('versionDate'))]
           if bad_dates:
               raise SystemExit(f'empty versionDate values found: {bad_dates[:20]}')
 
@@ -126,19 +154,25 @@ jobs:
           if bad_sizes:
               raise SystemExit(f'size is not int bytes for: {bad_sizes[:20]}')
 
-          bundle_counts = Counter(app.get('bundleIdentifier') for app in target_apps if app.get('bundleIdentifier'))
+          bundle_counts = Counter(clean_text(app.get('bundleIdentifier')).casefold() for app in target_apps if app.get('bundleIdentifier'))
           duplicate_bundles = [bundle for bundle, count in bundle_counts.items() if count > 1]
           if duplicate_bundles:
               raise SystemExit(f'duplicate bundleIdentifier values: {duplicate_bundles[:20]}')
+
+          id_counts = Counter(clean_text(app.get('id')).casefold() for app in target_apps if not is_empty(app.get('id')))
+          duplicate_ids = [app_id for app_id, count in id_counts.items() if count > 1]
+          if duplicate_ids:
+              raise SystemExit(f'duplicate id values: {duplicate_ids[:20]}')
 
           print('✅ validation OK')
           print(f'✅ ignored before ريكرام: {start_index}')
           print(f'✅ apps written: {len(target_apps)}')
           print('✅ first app is ريكرام')
+          print('✅ order of existing target apps is preserved by sync_apps.py')
           print('✅ no شهادة مجانية apps')
           PY
 
-      - name: Commit and force push rebuilt ipastore
+      - name: Commit and push synced ipastore
         run: |
           set -euo pipefail
           cd target_repo
@@ -146,7 +180,7 @@ jobs:
           git config user.email "bot@github.com"
           git status --short
           git add -A -- ipastore
-          git commit -m "Hard rebuild ipastore from Regram onward" || echo "No changes to commit"
+          git commit -m "Smart sync ipastore with refreshed update dates" || echo "No changes to commit"
           git push origin HEAD:main
 
       - name: Confirm pushed file is clean
