@@ -7,9 +7,16 @@ import os
 import re
 import sys
 from collections import Counter
+from datetime import datetime, timezone
+
+try:
+    from zoneinfo import ZoneInfo
+except Exception:  # pragma: no cover
+    ZoneInfo = None
 
 START_APP_NAME = "ريكرام"
 BUNDLE_PREFIX = "com.ikiraplus.apps"
+LOCAL_TIMEZONE = "Asia/Baghdad"
 
 SOURCE_FIELD_ORDER = [
     "name",
@@ -43,6 +50,28 @@ APP_FIELD_ORDER = [
     "hidden",
 ]
 
+# هذه الحقول إذا تغيرت من السورس الأصلي، يتم تحديث versionDate و updatedAt إلى تاريخ اليوم.
+# حقول التاريخ نفسها غير موجودة هنا حتى لا يصير تحديث وهمي بسبب فرق التاريخ فقط.
+TRACKED_UPDATE_FIELDS = [
+    "id",
+    "name",
+    "bundleIdentifier",
+    "bundleId",
+    "developerName",
+    "version",
+    "downloadURL",
+    "ipaUrl",
+    "iconURL",
+    "icon",
+    "localizedDescription",
+    "note",
+    "size",
+    "category",
+    "hidden",
+]
+
+DATE_FIELDS = {"versionDate", "addedAt", "updatedAt"}
+
 DEFAULT_SOURCE_META = {
     "name": "iKiraPlus - IPA Store",
     "identifier": "com.ikiraplus.store",
@@ -73,6 +102,15 @@ CERTIFICATE_NAME_NEEDLES = (
     "شهاده مجاني",
     "شهاده",
 )
+
+
+def today_string():
+    if ZoneInfo is not None:
+        try:
+            return datetime.now(ZoneInfo(LOCAL_TIMEZONE)).strftime("%Y-%m-%d")
+        except Exception:
+            pass
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
 def clean_text(value):
@@ -179,17 +217,27 @@ def stable_hash(*parts):
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:10]
 
 
-def make_bundle(app, used_bundles):
+def make_bundle(app, used_bundles, fallback_bundle=None):
     existing = first_non_empty(app.get("bundleIdentifier"), app.get("bundleId"))
+    fallback = clean_text(fallback_bundle)
+
+    # إذا السورس الأصلي ما بيه bundleIdentifier، حافظ على القديم حتى لا يتغير تعريف التطبيق بسبب تغيير الرابط.
+    if is_empty(existing) and fallback:
+        fallback_key = fallback.casefold()
+        if fallback_key not in used_bundles:
+            used_bundles.add(fallback_key)
+            return fallback
+
     existing_key = clean_text(existing).casefold()
     if existing_key and existing_key not in used_bundles:
         used_bundles.add(existing_key)
         return clean_text(existing)
 
+    # لا نعتمد على رابط التحميل هنا حتى إذا تغير الرابط لا يتولد bundle جديد لنفس التطبيق.
     base = (
         f"{BUNDLE_PREFIX}."
         f"{slugify(first_non_empty(app.get('name'), app.get('id'), 'app'))}."
-        f"{stable_hash(app.get('id'), app.get('name'), app.get('ipaUrl'), app.get('downloadURL'))}"
+        f"{stable_hash(app.get('id'), app.get('name'))}"
     )
     candidate = base
     counter = 2
@@ -209,7 +257,11 @@ def order_dict(data, preferred_order):
     return ordered
 
 
-def load_json_file(path):
+def load_json_file(path, *, required=True):
+    if not os.path.exists(path):
+        if required:
+            raise FileNotFoundError(path)
+        return None
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     if not isinstance(data, dict):
@@ -220,6 +272,8 @@ def load_json_file(path):
 
 
 def get_apps(source):
+    if not isinstance(source, dict):
+        return []
     return [app for app in source.get("apps", []) if isinstance(app, dict)]
 
 
@@ -232,7 +286,7 @@ def find_start_index(apps):
     raise ValueError(f"Start app '{START_APP_NAME}' was not found. First apps: {names_preview}")
 
 
-def normalize_app(app, used_bundles):
+def normalize_app(app, used_bundles, fallback_bundle=None):
     fixed = copy.deepcopy(app)
 
     if "name" in fixed:
@@ -242,24 +296,241 @@ def normalize_app(app, used_bundles):
     fixed["versionDate"] = normalize_version_date(
         first_non_empty(fixed.get("versionDate"), fixed.get("updatedAt"), fixed.get("addedAt"))
     )
+    if "addedAt" in fixed:
+        fixed["addedAt"] = normalize_version_date(fixed.get("addedAt"))
+    if "updatedAt" in fixed:
+        fixed["updatedAt"] = normalize_version_date(fixed.get("updatedAt"))
 
     if is_empty(fixed.get("downloadURL")) and not is_empty(fixed.get("ipaUrl")):
         fixed["downloadURL"] = fixed.get("ipaUrl")
+    if is_empty(fixed.get("ipaUrl")) and not is_empty(fixed.get("downloadURL")):
+        fixed["ipaUrl"] = fixed.get("downloadURL")
     if is_empty(fixed.get("iconURL")) and not is_empty(fixed.get("icon")):
         fixed["iconURL"] = fixed.get("icon")
+    if is_empty(fixed.get("icon")) and not is_empty(fixed.get("iconURL")):
+        fixed["icon"] = fixed.get("iconURL")
     if is_empty(fixed.get("localizedDescription")) and not is_empty(fixed.get("note")):
         fixed["localizedDescription"] = fixed.get("note")
 
-    fixed["bundleIdentifier"] = make_bundle(fixed, used_bundles)
+    fixed["bundleIdentifier"] = make_bundle(fixed, used_bundles, fallback_bundle=fallback_bundle)
     return order_dict(fixed, APP_FIELD_ORDER)
 
 
-def build_source_from_regram(jom_source):
+def identity_keys(app, include_url=True):
+    if not isinstance(app, dict):
+        return []
+
+    keys = []
+    bundle = first_non_empty(app.get("bundleIdentifier"), app.get("bundleId"))
+    app_id = first_non_empty(app.get("id"))
+    name = normalize_arabic(app.get("name"))
+    url = first_non_empty(app.get("downloadURL"), app.get("ipaUrl"))
+
+    if not is_empty(bundle):
+        keys.append(f"bundle:{clean_text(bundle).casefold()}")
+    if not is_empty(app_id):
+        keys.append(f"id:{clean_text(app_id).casefold()}")
+    if name:
+        keys.append(f"name:{name}")
+    if include_url and not is_empty(url):
+        keys.append(f"url:{clean_text(url).casefold()}")
+
+    # إزالة التكرارات مع الحفاظ على الترتيب.
+    seen = set()
+    unique = []
+    for key in keys:
+        if key not in seen:
+            seen.add(key)
+            unique.append(key)
+    return unique
+
+
+def canonical_identity_key(app):
+    keys = identity_keys(app, include_url=True)
+    for prefix in ("bundle:", "id:", "name:", "url:"):
+        for key in keys:
+            if key.startswith(prefix):
+                return key
+    return None
+
+
+def build_target_lookup(target_apps):
+    lookup = {}
+    duplicate_keys = []
+    for index, app in enumerate(target_apps):
+        if is_certificate_app(app):
+            continue
+        for key in identity_keys(app, include_url=True):
+            if key in lookup:
+                duplicate_keys.append(key)
+                continue
+            lookup[key] = index
+    return lookup, duplicate_keys
+
+
+def find_matching_target_index(raw_app, fixed_app, target_lookup):
+    keys = []
+    keys.extend(identity_keys(raw_app, include_url=True))
+    keys.extend(identity_keys(fixed_app, include_url=True))
+
+    seen = set()
+    for key in keys:
+        if key in seen:
+            continue
+        seen.add(key)
+        if key in target_lookup:
+            return target_lookup[key]
+    return None
+
+
+def compare_value(key, value):
+    if key == "size":
+        return size_to_bytes(value)
+    if isinstance(value, str):
+        return clean_text(value)
+    if isinstance(value, (dict, list)):
+        return json.dumps(value, sort_keys=True, ensure_ascii=False)
+    return value
+
+
+def changed_field_names(old_app, new_app):
+    changed = []
+    for key in TRACKED_UPDATE_FIELDS:
+        old_exists = key in old_app and not is_empty(old_app.get(key))
+        new_exists = key in new_app and not is_empty(new_app.get(key))
+        old_value = compare_value(key, old_app.get(key)) if old_exists else None
+        new_value = compare_value(key, new_app.get(key)) if new_exists else None
+        if old_exists != new_exists or old_value != new_value:
+            changed.append(key)
+    return changed
+
+
+def merge_existing_app(existing_app, incoming_app, today):
+    updated = copy.deepcopy(existing_app)
+    original_dates = {key: updated.get(key) for key in DATE_FIELDS if key in updated}
+
+    # احذف الحقول القديمة التي اختفت من السورس الأصلي حتى لا تبقى معلومات قديمة.
+    for key in TRACKED_UPDATE_FIELDS:
+        if key in updated and key not in incoming_app:
+            updated.pop(key, None)
+
+    # حدّث معلومات التطبيق فقط، واترك التاريخ يقرر حسب وجود تغيير فعلي.
+    for key, value in incoming_app.items():
+        if key in DATE_FIELDS:
+            continue
+        updated[key] = value
+
+    changed = changed_field_names(existing_app, updated)
+
+    # افتراضياً حافظ على تواريخ التطبيق القديمة إذا لم يتغير شيء مهم.
+    for key in DATE_FIELDS:
+        if key in updated:
+            updated.pop(key, None)
+        if key in original_dates:
+            updated[key] = original_dates[key]
+
+    if changed:
+        updated["versionDate"] = today
+        updated["updatedAt"] = today
+        if is_empty(updated.get("addedAt")):
+            updated["addedAt"] = today
+    else:
+        if is_empty(updated.get("versionDate")):
+            updated["versionDate"] = normalize_version_date(incoming_app.get("versionDate")) or today
+        if is_empty(updated.get("updatedAt")) and not is_empty(incoming_app.get("updatedAt")):
+            updated["updatedAt"] = normalize_version_date(incoming_app.get("updatedAt"))
+        if is_empty(updated.get("addedAt")) and not is_empty(incoming_app.get("addedAt")):
+            updated["addedAt"] = normalize_version_date(incoming_app.get("addedAt"))
+
+    updated["versionDate"] = normalize_version_date(updated.get("versionDate")) or today
+    if not is_empty(updated.get("addedAt")):
+        updated["addedAt"] = normalize_version_date(updated.get("addedAt"))
+    if not is_empty(updated.get("updatedAt")):
+        updated["updatedAt"] = normalize_version_date(updated.get("updatedAt"))
+
+    return order_dict(updated, APP_FIELD_ORDER), changed
+
+
+def new_app_with_dates(incoming_app, today):
+    fixed = copy.deepcopy(incoming_app)
+    fixed["versionDate"] = today
+    fixed["addedAt"] = today
+    fixed["updatedAt"] = today
+    return order_dict(fixed, APP_FIELD_ORDER)
+
+
+def prepare_source_records(jom_source, target_apps):
     jom_apps = get_apps(jom_source)
     start_index = find_start_index(jom_apps)
     ignored_before_start = jom_apps[:start_index]
+    target_lookup, duplicate_target_keys = build_target_lookup(target_apps)
 
     used_bundles = set()
+    seen_source_keys = set()
+    source_records = []
+    skipped_certificates = []
+    skipped_source_duplicates = []
+    target_match_collisions = []
+
+    for source_index, raw_app in enumerate(jom_apps[start_index:], start=start_index):
+        if is_certificate_app(raw_app):
+            skipped_certificates.append(clean_text(raw_app.get("name") or raw_app.get("id")))
+            continue
+
+        preliminary_match = find_matching_target_index(raw_app, {}, target_lookup)
+        fallback_bundle = None
+        if preliminary_match is not None and preliminary_match < len(target_apps):
+            fallback_bundle = first_non_empty(
+                target_apps[preliminary_match].get("bundleIdentifier"),
+                target_apps[preliminary_match].get("bundleId"),
+            )
+
+        fixed_app = normalize_app(raw_app, used_bundles, fallback_bundle=fallback_bundle)
+        if is_certificate_app(fixed_app):
+            skipped_certificates.append(clean_text(fixed_app.get("name") or fixed_app.get("id")))
+            continue
+
+        match_index = find_matching_target_index(raw_app, fixed_app, target_lookup)
+        record_keys = identity_keys(raw_app, include_url=True) + identity_keys(fixed_app, include_url=True)
+        record_keys = list(dict.fromkeys(record_keys))
+
+        if any(key in seen_source_keys for key in record_keys):
+            skipped_source_duplicates.append(clean_text(fixed_app.get("name") or fixed_app.get("id")))
+            continue
+        seen_source_keys.update(record_keys)
+
+        source_records.append(
+            {
+                "source_index": source_index,
+                "raw": raw_app,
+                "fixed": fixed_app,
+                "match_index": match_index,
+                "keys": record_keys,
+            }
+        )
+
+    matched_by_target_index = {}
+    unique_source_records = []
+    for record in source_records:
+        match_index = record["match_index"]
+        if match_index is not None:
+            if match_index in matched_by_target_index:
+                target_match_collisions.append(clean_text(record["fixed"].get("name") or record["fixed"].get("id")))
+                continue
+            matched_by_target_index[match_index] = record
+        unique_source_records.append(record)
+
+    report = {
+        "ignored_before_start": ignored_before_start,
+        "skipped_certificates": skipped_certificates,
+        "skipped_source_duplicates": skipped_source_duplicates,
+        "duplicate_target_keys": duplicate_target_keys,
+        "target_match_collisions": target_match_collisions,
+    }
+    return unique_source_records, matched_by_target_index, report
+
+
+def build_source_metadata(jom_source):
     clean_source = copy.deepcopy(DEFAULT_SOURCE_META)
 
     for key, value in jom_source.items():
@@ -275,27 +546,72 @@ def build_source_from_regram(jom_source):
     if not isinstance(clean_source.get("news"), list) or not clean_source.get("news"):
         clean_source["news"] = copy.deepcopy(DEFAULT_SOURCE_META["news"])
 
-    clean_apps = []
-    skipped_certificates = []
-    for app in jom_apps[start_index:]:
-        if is_certificate_app(app):
-            skipped_certificates.append(clean_text(app.get("name") or app.get("id")))
+    return clean_source
+
+
+def build_source_from_regram(jom_source, target_source=None, today=None):
+    today = today or today_string()
+    target_apps = get_apps(target_source)
+    source_records, matched_by_target_index, report = prepare_source_records(jom_source, target_apps)
+
+    output_apps = []
+    used_record_ids = set()
+    changed_apps = []
+    unchanged_apps = []
+    new_apps = []
+    removed_apps = []
+
+    if target_apps:
+        for target_index, existing_app in enumerate(target_apps):
+            if is_certificate_app(existing_app):
+                removed_apps.append(clean_text(existing_app.get("name") or existing_app.get("id")))
+                continue
+
+            record = matched_by_target_index.get(target_index)
+            if record is None:
+                removed_apps.append(clean_text(existing_app.get("name") or existing_app.get("id")))
+                continue
+
+            merged_app, changed_fields = merge_existing_app(existing_app, record["fixed"], today)
+            output_apps.append(merged_app)
+            used_record_ids.add(id(record))
+
+            if changed_fields:
+                changed_apps.append(
+                    {
+                        "name": clean_text(merged_app.get("name") or merged_app.get("id")),
+                        "fields": changed_fields,
+                    }
+                )
+            else:
+                unchanged_apps.append(clean_text(merged_app.get("name") or merged_app.get("id")))
+
+    for record in source_records:
+        if id(record) in used_record_ids:
             continue
-        fixed = normalize_app(app, used_bundles)
-        if is_certificate_app(fixed):
-            skipped_certificates.append(clean_text(fixed.get("name") or fixed.get("id")))
-            continue
-        clean_apps.append(fixed)
+        app = new_app_with_dates(record["fixed"], today)
+        output_apps.append(app)
+        new_apps.append(clean_text(app.get("name") or app.get("id")))
 
-    clean_source["apps"] = clean_apps
-    return order_dict(clean_source, SOURCE_FIELD_ORDER), ignored_before_start, skipped_certificates
+    clean_source = build_source_metadata(jom_source)
+    clean_source["apps"] = output_apps
+
+    report.update(
+        {
+            "today": today,
+            "changed_apps": changed_apps,
+            "unchanged_apps": unchanged_apps,
+            "new_apps": new_apps,
+            "removed_apps": removed_apps,
+            "source_records": source_records,
+        }
+    )
+    return order_dict(clean_source, SOURCE_FIELD_ORDER), report
 
 
-def validate_output(jom_source, output_source, ignored_before_start):
-    jom_apps = get_apps(jom_source)
-    start_index = find_start_index(jom_apps)
-    expected_names = [clean_text(app.get("name")) for app in jom_apps[start_index:] if not is_certificate_app(app)]
+def validate_output(output_source, source_records, ignored_before_start):
     output_apps = [app for app in output_source.get("apps", []) if isinstance(app, dict)]
+    expected_names = [clean_text(record["fixed"].get("name")) for record in source_records]
     output_names = [clean_text(app.get("name")) for app in output_apps]
 
     if not output_apps:
@@ -305,8 +621,10 @@ def validate_output(jom_source, output_source, ignored_before_start):
     if normalize_arabic(first_name) != normalize_arabic(START_APP_NAME):
         raise ValueError(f"First app must be '{START_APP_NAME}', got '{first_name}'")
 
-    if output_names != expected_names:
-        raise ValueError("Output apps do not exactly match jom.json from ريكرام onward")
+    if Counter(output_names) != Counter(expected_names):
+        missing = list((Counter(expected_names) - Counter(output_names)).elements())[:20]
+        extra = list((Counter(output_names) - Counter(expected_names)).elements())[:20]
+        raise ValueError(f"Output app set does not match source apps. Missing: {missing}. Extra: {extra}")
 
     certificate_apps = [clean_text(app.get("name") or app.get("id")) for app in output_apps if is_certificate_app(app)]
     if certificate_apps:
@@ -317,7 +635,7 @@ def validate_output(jom_source, output_source, ignored_before_start):
     if leaked_before_start:
         raise ValueError(f"Apps before ريكرام leaked into output: {leaked_before_start[:20]}")
 
-    empty_dates = [app.get("name") for app in output_apps if app.get("versionDate") == ""]
+    empty_dates = [app.get("name") for app in output_apps if is_empty(app.get("versionDate"))]
     if empty_dates:
         raise ValueError(f"Empty versionDate values found: {empty_dates[:20]}")
 
@@ -329,10 +647,15 @@ def validate_output(jom_source, output_source, ignored_before_start):
     if missing_bundles:
         raise ValueError(f"Missing bundleIdentifier values: {missing_bundles[:20]}")
 
-    bundle_counts = Counter(app.get("bundleIdentifier") for app in output_apps if app.get("bundleIdentifier"))
+    bundle_counts = Counter(clean_text(app.get("bundleIdentifier")).casefold() for app in output_apps if app.get("bundleIdentifier"))
     duplicate_bundles = [bundle for bundle, count in bundle_counts.items() if count > 1]
     if duplicate_bundles:
         raise ValueError(f"Duplicate bundleIdentifier values: {duplicate_bundles[:20]}")
+
+    id_counts = Counter(clean_text(app.get("id")).casefold() for app in output_apps if not is_empty(app.get("id")))
+    duplicate_ids = [app_id for app_id, count in id_counts.items() if count > 1]
+    if duplicate_ids:
+        raise ValueError(f"Duplicate id values: {duplicate_ids[:20]}")
 
 
 def hard_write_json(path, data):
@@ -343,7 +666,6 @@ def hard_write_json(path, data):
     try:
         if os.path.exists(path):
             os.chmod(path, 0o666)
-            os.remove(path)
     except FileNotFoundError:
         pass
 
@@ -355,35 +677,68 @@ def hard_write_json(path, data):
     os.replace(tmp_path, path)
 
 
+def print_report(path, report, apps_count):
+    print("✅ SMART SYNC OK")
+    print(f"✅ target synced: {path}")
+    print(f"✅ today date used for changed/new apps: {report['today']}")
+    print(f"✅ ignored before ريكرام: {len(report['ignored_before_start'])}")
+    for app in report["ignored_before_start"][:20]:
+        print(f"   - ignored: {clean_text(app.get('name') or app.get('id'))}")
+
+    print(f"✅ changed apps refreshed to today: {len(report['changed_apps'])}")
+    for item in report["changed_apps"][:30]:
+        print(f"   - updated: {item['name']} | fields: {', '.join(item['fields'])}")
+
+    print(f"✅ new apps added: {len(report['new_apps'])}")
+    for name in report["new_apps"][:30]:
+        print(f"   - new: {name}")
+
+    print(f"✅ removed apps not in source / duplicates / certificates: {len(report['removed_apps'])}")
+    for name in report["removed_apps"][:30]:
+        print(f"   - removed: {name}")
+
+    print(f"✅ unchanged apps kept with same dates: {len(report['unchanged_apps'])}")
+    print(f"✅ skipped certificate apps after ريكرام: {len(report['skipped_certificates'])}")
+    for name in report["skipped_certificates"][:20]:
+        print(f"   - skipped certificate: {name}")
+
+    print(f"✅ skipped duplicate source apps: {len(report['skipped_source_duplicates'])}")
+    for name in report["skipped_source_duplicates"][:20]:
+        print(f"   - skipped duplicate: {name}")
+
+    if report["duplicate_target_keys"]:
+        print(f"⚠️ duplicate keys found in old target and safely collapsed: {len(report['duplicate_target_keys'])}")
+    if report["target_match_collisions"]:
+        print(f"⚠️ target match collisions skipped: {len(report['target_match_collisions'])}")
+
+    print(f"✅ apps written: {apps_count}")
+    print("✅ existing apps keep their same order")
+    print("✅ changed app info updates versionDate/updatedAt only, no second copy")
+    print("✅ no شهادة مجانية apps in output")
+    print("✅ size is bytes/int")
+    print("✅ versionDate is never empty")
+    print("✅ bundleIdentifier values are unique")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", default="jom.json", help="Path to jom.json")
     parser.add_argument("--target", default="old_repo/ipastore", help="Path to target ipastore file")
+    parser.add_argument("--today", default=None, help="Override today's date as YYYY-MM-DD, useful for tests")
     args = parser.parse_args()
 
     jom_source = load_json_file(args.source)
-    output_source, ignored_before_start, skipped_certificates = build_source_from_regram(jom_source)
-    validate_output(jom_source, output_source, ignored_before_start)
+    target_source = load_json_file(args.target, required=False)
+
+    output_source, report = build_source_from_regram(jom_source, target_source, today=args.today)
+    validate_output(output_source, report["source_records"], report["ignored_before_start"])
     hard_write_json(args.target, output_source)
 
     written = load_json_file(args.target)
-    validate_output(jom_source, written, ignored_before_start)
+    validate_output(written, report["source_records"], report["ignored_before_start"])
 
     apps = written["apps"]
-    print("✅ HARD REBUILD OK")
-    print(f"✅ target wiped and rewritten: {args.target}")
-    print(f"✅ first app: {apps[0]['name']}")
-    print(f"✅ ignored before ريكرام: {len(ignored_before_start)}")
-    for app in ignored_before_start[:20]:
-        print(f"   - ignored: {clean_text(app.get('name') or app.get('id'))}")
-    print(f"✅ skipped certificate apps after ريكرام: {len(skipped_certificates)}")
-    for name in skipped_certificates[:20]:
-        print(f"   - skipped: {name}")
-    print(f"✅ apps written: {len(apps)}")
-    print("✅ no شهادة مجانية apps in output")
-    print("✅ size is bytes/int")
-    print("✅ versionDate is never empty string")
-    print("✅ bundleIdentifier values are unique")
+    print_report(args.target, report, len(apps))
 
 
 if __name__ == "__main__":
