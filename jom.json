@@ -3472,6 +3472,18 @@
       "category": "ترفيه",
       "addedAt": "2026-07-08T20:09:45.614Z",
       "updatedAt": "2026-07-08T20:09:45.614Z"
+    },
+    {
+      "id": "app-1783541434135",
+      "name": "فاصل بلس",
+      "version": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fasil-plus",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783541434135.png",
+      "size": "6.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-08T20:10:36.129Z",
+      "updatedAt": "2026-07-08T20:10:36.129Z"
     }
   ]
 }
