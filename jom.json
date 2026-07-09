@@ -3535,6 +3535,18 @@
       "category": "تواصل",
       "addedAt": "2026-07-09T15:18:01.820Z",
       "updatedAt": "2026-07-09T15:18:01.820Z"
+    },
+    {
+      "id": "app-1783610325366",
+      "name": "instagram sparkle",
+      "version": "437.2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-sparkle-v437.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "301.5 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-07-09T15:18:45.367Z",
+      "updatedAt": "2026-07-09T15:18:45.367Z"
     }
   ]
 }
