@@ -3547,6 +3547,18 @@
       "category": "تواصل",
       "addedAt": "2026-07-09T15:18:45.367Z",
       "updatedAt": "2026-07-09T15:18:45.367Z"
+    },
+    {
+      "id": "app-1783611908490",
+      "name": "homescapes",
+      "version": "8.9.701",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-8.9.701",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPiOSxnagOIRgD2KtVOJCpsRYBoJ8NruWADxsqnW9C9Q&s=10",
+      "size": "193.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "addedAt": "2026-07-09T15:45:08.491Z",
+      "updatedAt": "2026-07-09T15:45:08.491Z"
     }
   ]
 }
