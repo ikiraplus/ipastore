@@ -3499,6 +3499,42 @@
       "addedAt": "2026-07-08T20:11:34.552Z",
       "updatedAt": "2026-07-08T20:11:34.552Z",
       "hidden": true
+    },
+    {
+      "id": "app-1783610012436",
+      "name": "Tiktok GT",
+      "version": "46.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_46.0.0_gt",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "size": "415.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-07-09T15:13:32.439Z",
+      "updatedAt": "2026-07-09T15:13:32.439Z"
+    },
+    {
+      "id": "app-1783610227446",
+      "name": "Tiktok Gt",
+      "version": "46.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_46.0.0_gt",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "size": "415.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-07-09T15:17:07.447Z",
+      "updatedAt": "2026-07-09T15:17:07.447Z"
+    },
+    {
+      "id": "app-1783610281819",
+      "name": "Tiktok Gt",
+      "version": "46.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_46.0.0_gt",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "size": "415.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "addedAt": "2026-07-09T15:18:01.820Z",
+      "updatedAt": "2026-07-09T15:18:01.820Z"
     }
   ]
 }
