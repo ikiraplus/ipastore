@@ -3582,6 +3582,18 @@
       "category": "ترفيه",
       "addedAt": "2026-07-14T09:57:52.806Z",
       "updatedAt": "2026-07-14T09:57:52.806Z"
+    },
+    {
+      "id": "app-1784023216713",
+      "name": "PineBox",
+      "version": "2.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023216713.png",
+      "size": "27.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-14T10:00:19.136Z",
+      "updatedAt": "2026-07-14T10:00:19.136Z"
     }
   ]
 }
