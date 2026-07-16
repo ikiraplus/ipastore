@@ -3606,6 +3606,18 @@
       "category": "تواصل",
       "addedAt": "2026-07-16T07:49:28.675Z",
       "updatedAt": "2026-07-16T07:49:28.675Z"
+    },
+    {
+      "id": "app-1784193262599",
+      "name": "Cinema box - سينما بوكس",
+      "version": "4.6.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
+      "size": "27.3 MB",
+      "note": "محذوف من الابستور \n- تم إزالة جميع الإعلانات منه",
+      "category": "ترفيه",
+      "addedAt": "2026-07-16T09:14:24.714Z",
+      "updatedAt": "2026-07-16T09:14:24.714Z"
     }
   ]
 }
