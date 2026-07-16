@@ -3594,6 +3594,18 @@
       "category": "ترفيه",
       "addedAt": "2026-07-14T10:00:19.136Z",
       "updatedAt": "2026-07-14T10:00:19.136Z"
+    },
+    {
+      "id": "app-1784188165660",
+      "name": "WhiteGram",
+      "version": "12.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram_12.8",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784188165660.png",
+      "size": "181.7 MB",
+      "note": "تطبيق \" وايتكرام \" أحد أفضل نسخة التيلكرام المعدلة !\n\nيمكنك تفعيل مميزات النسخة من خلال :\nالإعدادات = WhiteGram\n\nهناك مميزات إضافية أيضاً تتفعل من :\nالإعدادات = إضغط مطولاً على أيقونة ( أسأل سوالاً )",
+      "category": "تواصل",
+      "addedAt": "2026-07-16T07:49:28.675Z",
+      "updatedAt": "2026-07-16T07:49:28.675Z"
     }
   ]
 }
