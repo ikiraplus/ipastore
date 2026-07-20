@@ -2006,14 +2006,22 @@
     {
       "id": "app-1777652492142",
       "name": "Pubg TW hack",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pubg_tw_440_kingmod_update_02",
+      "version": "1.4.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kurd4u-tw-v1.4.5",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/13/c2/1013c2bb-c728-f6e0-073e-54879d5820e9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "size": "3608.7 MB",
+      "size": "3589.0 MB",
       "note": "نسخة تايوانية - لا تستخدم حسابك الاساسي\nكود التفعيل\nqCYhEQDO3fNYlroeS1tZkJue6KsX1hkd",
       "category": "ألعاب",
       "addedAt": "2026-05-01T16:21:32.143Z",
-      "updatedAt": "2026-07-01T18:49:04.693Z"
+      "updatedAt": "2026-07-20T14:52:24.526Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pubg_tw_440_kingmod_update_02",
+          "version": "last version"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1777652764722",
