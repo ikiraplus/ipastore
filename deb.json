@@ -575,6 +575,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T12:05:34.053Z",
       "updatedAt": "2026-07-20T12:05:52.412Z"
+    },
+    {
+      "id": "dylib-1784549200982",
+      "name": "Reaval Tweak",
+      "version": "2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wareaval-ikiraplus",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/b2/8a/e3b28a99-2fc5-641f-7b35-0a8094337b1a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "1.9 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T12:06:40.983Z",
+      "updatedAt": "2026-07-20T12:06:40.983Z"
     }
   ]
 }
