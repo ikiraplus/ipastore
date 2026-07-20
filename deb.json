@@ -127,6 +127,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T08:03:40.405Z",
       "updatedAt": "2026-07-20T08:03:40.405Z"
+    },
+    {
+      "id": "dylib-1784535162788",
+      "name": "لقطة شاشة مطولة",
+      "version": "",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chatcapture",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ba/35/8c/ba358cea-fead-dbf2-404b-f15e16576c96/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "1.1 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T08:12:42.790Z",
+      "updatedAt": "2026-07-20T08:12:42.790Z"
     }
   ]
 }
