@@ -374,13 +374,22 @@
     {
       "id": "app-1773546960824",
       "name": "X - Twitter (NeoFreeBird)",
-      "version": "11.65",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-twitter-neofreebird_v1165-1",
+      "version": "12.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x_12.9_neofreebird_liquidglass",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/65/60/f76560b0-13df-84b6-fb7f-9b40319c4018/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "166.0 MB",
+      "size": "217.8 MB",
       "note": "",
       "category": "تواصل",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-twitter-neofreebird_v1165-1",
+          "version": "11.65"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-07-20T14:13:34.667Z"
     },
     {
       "id": "app-iosgods-instagram-theta-1218",
