@@ -143,6 +143,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T08:12:42.790Z",
       "updatedAt": "2026-07-20T08:12:42.790Z"
+    },
+    {
+      "id": "dylib-1784535226534",
+      "name": "ازالة اشعارت كاب كات",
+      "version": "",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ccbypass_capcut",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/4d/7e/534d7ea2-2aa7-b897-683a-7fc2ea1e3753/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.4 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T08:13:46.534Z",
+      "updatedAt": "2026-07-20T08:13:46.534Z"
     }
   ]
 }
