@@ -831,6 +831,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T12:28:12.191Z",
       "updatedAt": "2026-07-20T12:28:12.191Z"
+    },
+    {
+      "id": "dylib-1784550532923",
+      "name": "Kettu Tweak",
+      "version": "3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kettutweak",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/bd/8e/b5bd8ea9-2301-b2d5-956a-f28b6b87ed94/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.1 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": true,
+      "addedAt": "2026-07-20T12:28:52.924Z",
+      "updatedAt": "2026-07-20T12:28:52.924Z"
     }
   ]
 }
