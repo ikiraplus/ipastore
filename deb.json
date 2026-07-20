@@ -559,6 +559,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T12:04:30.320Z",
       "updatedAt": "2026-07-20T12:04:30.320Z"
+    },
+    {
+      "id": "dylib-1784549134052",
+      "name": "Watusi Tweak",
+      "version": "",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/watusi-ikiraplus",
+      "icon": "whatsapp",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.0 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T12:05:34.053Z",
+      "updatedAt": "2026-07-20T12:05:34.053Z"
     }
   ]
 }
