@@ -2298,14 +2298,22 @@
     {
       "id": "app-1779129418604",
       "name": "Pubg Hack VIT",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pubg_vng_440_kingmod_update_02",
+      "version": "1.4.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kurd4u-vng-v1.4.5",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/a0/f1/42a0f10c-fde1-87ba-a22e-493304fd9c96/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "size": "3607.3 MB",
+      "size": "3590.9 MB",
       "note": "ببجي فيتناميه مهكره ( لا تستخدم حسابك الاساسي)\nكود التفعيل\nqCYhEQDO3fNYlroeS1tZkJue6KsX1hkd",
       "category": "ألعاب",
       "addedAt": "2026-05-18T18:36:58.605Z",
-      "updatedAt": "2026-07-01T18:52:36.712Z"
+      "updatedAt": "2026-07-20T14:53:54.989Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pubg_vng_440_kingmod_update_02",
+          "version": "last version"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1779560424696",
