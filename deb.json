@@ -31,6 +31,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T07:39:02.813Z",
       "updatedAt": "2026-07-20T07:39:02.813Z"
+    },
+    {
+      "id": "dylib-1784533726471",
+      "name": "اصلاح مشاكل التطبيقات",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sideload-fixer-ikiraplus",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/d8/60/41d860c9-0961-099c-3488-9cc8a09f48fd/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.1 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": true,
+      "addedAt": "2026-07-20T07:48:46.472Z",
+      "updatedAt": "2026-07-20T07:48:46.472Z"
     }
   ]
 }
