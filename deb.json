@@ -479,6 +479,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T11:55:45.327Z",
       "updatedAt": "2026-07-20T11:55:45.327Z"
+    },
+    {
+      "id": "dylib-1784548675710",
+      "name": "ASD Tweak",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asdtweak",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/d1/ea/d0d1eae0-540c-2a47-7977-6edd9f1898e3/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "1.8 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T11:57:55.711Z",
+      "updatedAt": "2026-07-20T11:57:55.711Z"
     }
   ]
 }
