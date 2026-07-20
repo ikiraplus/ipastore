@@ -95,6 +95,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T07:59:01.197Z",
       "updatedAt": "2026-07-20T07:59:01.197Z"
+    },
+    {
+      "id": "dylib-1784534372441",
+      "name": "حظر التطبيق من الانترنت",
+      "version": "",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/networkblocker",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/10/f0/7110f0e3-24a7-cb1b-1fa1-e0f00cab2bec/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.6 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T07:59:32.442Z",
+      "updatedAt": "2026-07-20T07:59:32.442Z"
     }
   ]
 }
