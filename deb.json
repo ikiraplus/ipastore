@@ -118,7 +118,7 @@
       "version": "",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/theoscleaner",
-      "icon": "clean",
+      "icon": "https://lh3.googleusercontent.com/vBLSdWUJaKbvuKwY5HLsHnhJiD9sFBefNGoPLg8uJTjohiPx8ZJRXbqAVRgFLxZG920",
       "fileType": "dylib",
       "previousVersions": [],
       "size": "0.5 MB",
@@ -126,7 +126,7 @@
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T08:03:40.405Z",
-      "updatedAt": "2026-07-20T08:03:40.405Z"
+      "updatedAt": "2026-07-20T08:15:06.661Z"
     },
     {
       "id": "dylib-1784535162788",
