@@ -303,6 +303,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T08:34:08.572Z",
       "updatedAt": "2026-07-20T08:34:08.572Z"
+    },
+    {
+      "id": "dylib-1784547808102",
+      "name": "Vibetok Tweak",
+      "version": "1.74",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vibetok",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "1.4 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": true,
+      "addedAt": "2026-07-20T11:43:28.104Z",
+      "updatedAt": "2026-07-20T11:43:28.104Z"
     }
   ]
 }
