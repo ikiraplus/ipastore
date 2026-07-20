@@ -3661,13 +3661,16 @@
       "id": "app-1783957839092",
       "name": "TikTok dog",
       "version": "45.8.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tikdog_beta1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tikdog_b~1-1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/d2/fe/38d2fe12-2dcb-7639-e032-2c395e8017b2/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "size": "403.8 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-13T15:50:39.092Z",
-      "updatedAt": "2026-07-13T15:51:26.830Z"
+      "updatedAt": "2026-07-20T15:04:20.451Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1784023070606",
