@@ -815,6 +815,22 @@
       "recommended": true,
       "addedAt": "2026-07-20T12:27:44.411Z",
       "updatedAt": "2026-07-20T12:27:44.411Z"
+    },
+    {
+      "id": "dylib-1784550492190",
+      "name": "Flow Tweak",
+      "version": "4.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/flow",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/86/a8/8586a8e9-16da-41f4-1fe0-bf376b4261ed/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.3 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T12:28:12.191Z",
+      "updatedAt": "2026-07-20T12:28:12.191Z"
     }
   ]
 }
