@@ -623,6 +623,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T12:07:56.714Z",
       "updatedAt": "2026-07-20T12:07:56.714Z"
+    },
+    {
+      "id": "dylib-1784549585630",
+      "name": "Kilier Tweak",
+      "version": "5.2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ytkilier-ikiraplus",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/4f/e2/8a4fe2b3-3b8d-ff90-7a34-fadbf2f39c3d/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "8.2 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": true,
+      "addedAt": "2026-07-20T12:13:05.631Z",
+      "updatedAt": "2026-07-20T12:13:05.631Z"
     }
   ]
 }
