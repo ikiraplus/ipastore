@@ -111,6 +111,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T07:59:32.442Z",
       "updatedAt": "2026-07-20T07:59:32.442Z"
+    },
+    {
+      "id": "dylib-1784534620404",
+      "name": "مسح الكاش تلقائياُ",
+      "version": "",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/theoscleaner",
+      "icon": "clean",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.5 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T08:03:40.405Z",
+      "updatedAt": "2026-07-20T08:03:40.405Z"
     }
   ]
 }
