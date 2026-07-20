@@ -50,7 +50,7 @@
     },
     {
       "id": "dylib-1784533857169",
-      "name": "Hackgames Ikiraplus",
+      "name": "فتح جواهر ومتاجر الالعاب",
       "version": "1.0",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hackgames-ikiraplus",
@@ -62,7 +62,7 @@
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T07:50:57.171Z",
-      "updatedAt": "2026-07-20T07:50:57.171Z"
+      "updatedAt": "2026-07-20T07:53:35.630Z"
     }
   ]
 }
