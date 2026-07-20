@@ -591,6 +591,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T12:06:40.983Z",
       "updatedAt": "2026-07-20T12:06:40.983Z"
+    },
+    {
+      "id": "dylib-1784549276712",
+      "name": "Enjoy Tweak",
+      "version": "3.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/waenjoy-ikiraplus",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/b2/8a/e3b28a99-2fc5-641f-7b35-0a8094337b1a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.3 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T12:07:56.714Z",
+      "updatedAt": "2026-07-20T12:07:56.714Z"
     }
   ]
 }
