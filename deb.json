@@ -527,6 +527,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T11:58:53.591Z",
       "updatedAt": "2026-07-20T11:58:53.591Z"
+    },
+    {
+      "id": "dylib-1784549021202",
+      "name": "Lead Tweak",
+      "version": "1.4.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lead",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784549021202.png",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "24.8 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": true,
+      "addedAt": "2026-07-20T12:03:43.753Z",
+      "updatedAt": "2026-07-20T12:03:43.753Z"
     }
   ]
 }
