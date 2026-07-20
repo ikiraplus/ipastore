@@ -639,6 +639,22 @@
       "recommended": true,
       "addedAt": "2026-07-20T12:13:05.631Z",
       "updatedAt": "2026-07-20T12:13:05.631Z"
+    },
+    {
+      "id": "dylib-1784549681346",
+      "name": "Kace Tweak",
+      "version": "0.6.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ytkace-ikiraplus",
+      "icon": "youtube",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.7 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T12:14:41.347Z",
+      "updatedAt": "2026-07-20T12:14:41.347Z"
     }
   ]
 }
