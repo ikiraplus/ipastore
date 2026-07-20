@@ -671,6 +671,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T12:15:42.780Z",
       "updatedAt": "2026-07-20T12:15:42.780Z"
+    },
+    {
+      "id": "dylib-1784549804640",
+      "name": "Youpro Tweak",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youpro-ikiraplus",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/4f/e2/8a4fe2b3-3b8d-ff90-7a34-fadbf2f39c3d/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.2 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T12:16:44.640Z",
+      "updatedAt": "2026-07-20T12:16:44.640Z"
     }
   ]
 }
