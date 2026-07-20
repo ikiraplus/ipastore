@@ -223,6 +223,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T08:29:18.393Z",
       "updatedAt": "2026-07-20T08:29:18.393Z"
+    },
+    {
+      "id": "dylib-1784536205774",
+      "name": "Igformat Tweak",
+      "version": "2.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/igformat",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "2.6 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T08:30:05.774Z",
+      "updatedAt": "2026-07-20T08:30:05.774Z"
     }
   ]
 }
