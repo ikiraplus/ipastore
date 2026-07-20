@@ -47,6 +47,22 @@
       "recommended": true,
       "addedAt": "2026-07-20T07:48:46.472Z",
       "updatedAt": "2026-07-20T07:48:46.472Z"
+    },
+    {
+      "id": "dylib-1784533857169",
+      "name": "Hackgames Ikiraplus",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hackgames-ikiraplus",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/bc/90/0abc9006-32cc-8058-c6b6-9ccd16c8fa9b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.6 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T07:50:57.171Z",
+      "updatedAt": "2026-07-20T07:50:57.171Z"
     }
   ]
 }
