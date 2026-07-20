@@ -29,14 +29,22 @@
     {
       "id": "app-1773401165477",
       "name": "ريكرام",
-      "version": "435.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram_435_regram_5.1_instaoled",
+      "version": "436.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-435-regram5.1_patch",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773401165477.png",
-      "size": "315.1 MB",
-      "note": "لتفعيل مميزات النسخة :\n- قم بتحويل لغة النسخة من الانكليزية الى العربية او بالعكس  ",
+      "size": "301.9 MB",
+      "note": "لتفعيل مميزات النسخة :\n- قم بتحويل لغة النسخة من الانكليزية الى العربية او بالعكس",
       "category": "تواصل",
       "addedAt": "2026-04-05",
-      "updatedAt": "2026-07-04T02:10:47.680Z"
+      "updatedAt": "2026-07-20T12:38:23.642Z",
+      "toolVersion": "5.1",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram_435_regram_5.1_instaoled",
+          "version": "435.0.0"
+        }
+      ],
+      "recommended": true
     },
     {
       "id": "app-1773510581948",
