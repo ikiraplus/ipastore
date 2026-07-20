@@ -543,6 +543,22 @@
       "recommended": true,
       "addedAt": "2026-07-20T12:03:43.753Z",
       "updatedAt": "2026-07-20T12:03:43.753Z"
+    },
+    {
+      "id": "dylib-1784549070319",
+      "name": "Tgextra Tweak",
+      "version": "1.7.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tgextra",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784549021202.png",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "3.3 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-20T12:04:30.320Z",
+      "updatedAt": "2026-07-20T12:04:30.320Z"
     }
   ]
 }
