@@ -179,18 +179,23 @@
     {
       "id": "dylib-1784536015470",
       "name": "Ryukgram Tweak",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Ryukgram-1.3.3",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
-      "previousVersions": [],
-      "size": "3.5 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram",
+          "version": "1.3.2"
+        }
+      ],
+      "size": "4.9 MB",
       "note": "",
       "category": "دايلب",
       "recommended": true,
       "addedAt": "2026-07-20T08:26:55.471Z",
-      "updatedAt": "2026-07-20T08:26:55.471Z"
+      "updatedAt": "2026-07-21T15:55:27.702Z"
     },
     {
       "id": "dylib-1784536072141",
