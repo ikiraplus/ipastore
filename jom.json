@@ -1404,13 +1404,22 @@
     {
       "id": "app-game-ios-1711600000014",
       "name": "Angry Birds 2",
-      "version": "3.24.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2-hack-09ipxr0e0t-1",
+      "version": "2.26.4.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2.26.4.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/f1/e7/e7f1e73a-f5ab-7b13-c710-aae081b3adb4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "size": "300 MB",
+      "size": "536.8 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2-hack-09ipxr0e0t-1",
+          "version": "3.24.1"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-07-21T15:10:50.529Z"
     },
     {
       "id": "app-game-ios-1711600000015",
