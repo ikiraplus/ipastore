@@ -3937,6 +3937,21 @@
       "recommended": false,
       "addedAt": "2026-07-21T15:27:28.966Z",
       "updatedAt": "2026-07-21T15:27:28.966Z"
+    },
+    {
+      "id": "app-1784795671480",
+      "name": "Instagram IQ",
+      "version": "438.0.0",
+      "toolVersion": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqgram_1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/ef/4c/deef4c28-359a-c51d-2585-f7f186cf28b1/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "332.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-07-23T08:34:31.490Z",
+      "updatedAt": "2026-07-23T08:34:31.490Z"
     }
   ]
 }
