@@ -3985,6 +3985,21 @@
       "recommended": false,
       "addedAt": "2026-07-23T08:34:31.490Z",
       "updatedAt": "2026-07-23T08:34:31.490Z"
+    },
+    {
+      "id": "app-1784812555366",
+      "name": "InfiniTok",
+      "version": "46.1.0",
+      "toolVersion": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infinitok-46.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/2f/ee/bd2fee5f-b778-03d7-5a98-872587cb0bda/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "420.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-07-23T13:15:55.374Z",
+      "updatedAt": "2026-07-23T13:15:55.374Z"
     }
   ]
 }
