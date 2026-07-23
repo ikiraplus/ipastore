@@ -1716,14 +1716,22 @@
     {
       "id": "app-iosgods-duolingo-142",
       "name": "Duolingo",
-      "version": "7.126.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duolingo_language_lessons_v7_126_0",
+      "version": "7.132.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duolingo_language_lessons_v7.132.0_duolingo_max_unlocked_",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/5d/4a/785d4a42-88aa-3c7c-5b2e-ba48816fdffe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "194.2 MB",
+      "size": "193.6 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-06-10T17:29:09.907Z"
+      "updatedAt": "2026-07-23T08:29:51.921Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duolingo_language_lessons_v7_126_0",
+          "version": "7.126.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-iosgods-temple-run-2-3655",
