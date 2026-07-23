@@ -1094,14 +1094,22 @@
     {
       "id": "app-1773546879604",
       "name": "Roblox - Delta",
-      "version": "2.727.1199",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.727.1199",
-      "icon": "https://appstore.nabzclan.vip/images/icon_6903dd43f1e0e.jpg",
-      "size": "129.6 MB",
+      "version": "2.729.838",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.729.838",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/84/da/9684da49-4027-e780-09e8-25d1dcc3950a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "3410.8 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-07-01T18:01:06.264Z"
+      "updatedAt": "2026-07-23T13:09:50.420Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.727.1199",
+          "version": "2.727.1199"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-game-ios-1711600000000",
