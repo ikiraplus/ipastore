@@ -906,6 +906,22 @@
       "recommended": true,
       "addedAt": "2026-07-20T12:28:52.924Z",
       "updatedAt": "2026-07-20T12:28:52.924Z"
+    },
+    {
+      "id": "dylib-1784821433327",
+      "name": "WolfTube Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/WolfTube-b1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/4f/e2/8a4fe2b3-3b8d-ff90-7a34-fadbf2f39c3d/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "1.2 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-23T15:43:53.328Z",
+      "updatedAt": "2026-07-23T15:43:53.328Z"
     }
   ]
 }
