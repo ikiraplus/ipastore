@@ -651,6 +651,22 @@
       "updatedAt": "2026-07-20T12:07:56.714Z"
     },
     {
+      "id": "dylib-1784812711653",
+      "name": "InfiniTok Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dylib-Infinitok-v1.0",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784812711653.png",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.8 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-23T13:18:33.482Z",
+      "updatedAt": "2026-07-23T13:18:33.482Z"
+    },
+    {
       "id": "dylib-1784549585630",
       "name": "Kilier Tweak",
       "version": "5.2.2",
@@ -889,22 +905,6 @@
       "recommended": true,
       "addedAt": "2026-07-20T12:28:52.924Z",
       "updatedAt": "2026-07-20T12:28:52.924Z"
-    },
-    {
-      "id": "dylib-1784812711653",
-      "name": "InfiniTok Tweak",
-      "version": "1.0",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dylib-Infinitok-v1.0",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784812711653.png",
-      "fileType": "dylib",
-      "previousVersions": [],
-      "size": "0.8 MB",
-      "note": "",
-      "category": "دايلب",
-      "recommended": false,
-      "addedAt": "2026-07-23T13:18:33.482Z",
-      "updatedAt": "2026-07-23T13:18:33.482Z"
     }
   ]
 }
