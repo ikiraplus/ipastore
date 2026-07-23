@@ -294,22 +294,6 @@
       "updatedAt": "2026-07-20T08:33:38.316Z"
     },
     {
-      "id": "dylib-1784795898576",
-      "name": "IQ Tweak",
-      "version": "1.0",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Iqgram-beta1.0",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/ef/4c/deef4c28-359a-c51d-2585-f7f186cf28b1/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "fileType": "dylib",
-      "previousVersions": [],
-      "size": "3.2 MB",
-      "note": "",
-      "category": "دايلب",
-      "recommended": false,
-      "addedAt": "2026-07-23T08:38:18.583Z",
-      "updatedAt": "2026-07-23T08:38:18.583Z"
-    },
-    {
       "id": "dylib-1784536448571",
       "name": "Oled Tweak",
       "version": "",
@@ -777,6 +761,22 @@
       "recommended": false,
       "addedAt": "2026-07-20T12:21:21.355Z",
       "updatedAt": "2026-07-20T12:21:21.355Z"
+    },
+    {
+      "id": "dylib-1784795898576",
+      "name": "IQ Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Iqgram-beta1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/ef/4c/deef4c28-359a-c51d-2585-f7f186cf28b1/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "3.2 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-23T08:38:18.583Z",
+      "updatedAt": "2026-07-23T08:38:18.583Z"
     },
     {
       "id": "dylib-1784550130418",
