@@ -485,14 +485,22 @@
     {
       "id": "app-1777314094685",
       "name": "Youtube killer plus",
-      "version": "21.22.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ytkplus_5.5.6crackedfix",
+      "version": "21.28",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube_21.28_ytkillerplus_5.9.9-cracked",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
-      "size": "127.7 MB",
+      "size": "128.7 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:21:36.213Z",
-      "updatedAt": "2026-06-16T21:36:45.232Z"
+      "updatedAt": "2026-07-23T13:10:26.471Z",
+      "toolVersion": "5.9.9",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ytkplus_5.5.6crackedfix",
+          "version": "21.22.4"
+        }
+      ],
+      "recommended": true
     },
     {
       "id": "app-1773226791309",
