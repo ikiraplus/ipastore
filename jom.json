@@ -4016,6 +4016,21 @@
       "recommended": false,
       "addedAt": "2026-07-23T15:41:21.306Z",
       "updatedAt": "2026-07-23T20:51:19.974Z"
+    },
+    {
+      "id": "app-1784914075063",
+      "name": "Pinatv",
+      "version": "2.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-noads-2.0.2",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784914075063.png",
+      "previousVersions": [],
+      "size": "21.6 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-07-24T17:28:07.767Z",
+      "updatedAt": "2026-07-24T17:28:07.767Z"
     }
   ]
 }
