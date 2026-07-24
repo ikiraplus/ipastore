@@ -4082,6 +4082,21 @@
       "recommended": false,
       "addedAt": "2026-07-24T18:55:00.449Z",
       "updatedAt": "2026-07-24T18:55:00.449Z"
+    },
+    {
+      "id": "app-1784919575272",
+      "name": "Block Blast",
+      "version": "7.3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-7.3.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/74/f5/6e74f555-a090-b9f6-71e2-c30907a12793/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "106.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-07-24T18:59:35.273Z",
+      "updatedAt": "2026-07-24T18:59:35.273Z"
     }
   ]
 }
