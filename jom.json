@@ -3973,17 +3973,22 @@
     {
       "id": "app-1784559089334",
       "name": "RVX instagram",
-      "version": "438.0.0",
-      "toolVersion": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rvxinstagram_438.0.0",
+      "version": "439.1.0",
+      "toolVersion": "2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rvxinsta-v439.1.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/4d/56/fd4d5647-b299-0ca9-67cd-a256af840bc4/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "299.5 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rvxinstagram_438.0.0",
+          "version": "438.0.0"
+        }
+      ],
+      "size": "314.6 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-20T14:51:29.352Z",
-      "updatedAt": "2026-07-20T14:51:29.352Z"
+      "updatedAt": "2026-07-25T10:20:58.129Z"
     },
     {
       "id": "app-1784647648962",
