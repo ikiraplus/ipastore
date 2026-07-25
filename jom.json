@@ -4110,6 +4110,21 @@
       "recommended": false,
       "addedAt": "2026-07-24T18:59:35.273Z",
       "updatedAt": "2026-07-24T18:59:35.273Z"
+    },
+    {
+      "id": "app-1784979660131",
+      "name": "Planet Of Lana",
+      "version": "last version",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/planet-of-lana",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/41/53/df4153af-3786-7dea-0117-80983f7a5476/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1776.6 MB",
+      "note": "لعبة مدفوعة في الابستور",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-07-25T11:41:00.133Z",
+      "updatedAt": "2026-07-25T11:41:00.133Z"
     }
   ]
 }
