@@ -264,18 +264,23 @@
     {
       "id": "dylib-1784536323285",
       "name": "Rvx Tweak",
-      "version": "",
+      "version": "2.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rvxinsta",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/RYX-Beta2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
-      "previousVersions": [],
-      "size": "3.6 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rvxinsta",
+          "version": "1.0"
+        }
+      ],
+      "size": "8.3 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T08:32:03.286Z",
-      "updatedAt": "2026-07-20T08:32:03.286Z"
+      "updatedAt": "2026-07-25T10:23:38.697Z"
     },
     {
       "id": "dylib-1784536418315",
