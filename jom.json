@@ -3878,14 +3878,14 @@
     {
       "id": "app-1783755989007",
       "name": "TikTok Rust",
-      "version": "46.1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rusttiktok-46.1.0",
+      "version": "46.2.0",
+      "ipaUrl": "https://www.svcdn-dl5.workers.dev/0:/dl/6a645634d54820cf062eb2b7",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "size": "409.8 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-11T07:46:29.007Z",
-      "updatedAt": "2026-07-25T06:27:18.006Z",
+      "updatedAt": "2026-07-25T06:34:18.101Z",
       "toolVersion": "3.0",
       "previousVersions": [
         {
