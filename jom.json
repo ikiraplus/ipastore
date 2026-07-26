@@ -4125,6 +4125,21 @@
       "recommended": false,
       "addedAt": "2026-07-25T11:41:00.133Z",
       "updatedAt": "2026-07-25T11:41:27.786Z"
+    },
+    {
+      "id": "app-1785054491924",
+      "name": "Freenotes Pro",
+      "version": "3.33.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/freenotes-pro",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/26/27/94262757-00b6-6afe-6bbb-e74b5f177347/AppIcon-0-0-1x_U007epad-0-1-0-P3-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "190.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-07-26T08:28:11.931Z",
+      "updatedAt": "2026-07-26T08:28:11.931Z"
     }
   ]
 }
