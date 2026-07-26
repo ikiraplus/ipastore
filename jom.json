@@ -4148,6 +4148,21 @@
       "recommended": false,
       "addedAt": "2026-07-26T08:28:11.931Z",
       "updatedAt": "2026-07-26T08:28:11.931Z"
+    },
+    {
+      "id": "app-1785076089849",
+      "name": "Anime Slayer Neo",
+      "version": "4.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer-neo_4.2",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1785076089849.png",
+      "previousVersions": [],
+      "size": "24.9 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-07-26T14:28:16.356Z",
+      "updatedAt": "2026-07-26T14:28:16.356Z"
     }
   ]
 }
