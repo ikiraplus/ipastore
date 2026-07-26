@@ -4077,17 +4077,22 @@
     {
       "id": "app-1784914958212",
       "name": "Youpro",
-      "version": "21.28",
-      "toolVersion": "1.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youpro_1.3",
+      "version": "21.29",
+      "toolVersion": "1.3.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youpro_1.3.1",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
-      "previousVersions": [],
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youpro_1.3",
+          "version": "21.28"
+        }
+      ],
       "size": "137.5 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-24T17:42:38.213Z",
-      "updatedAt": "2026-07-24T17:42:38.213Z"
+      "updatedAt": "2026-07-26T14:51:14.936Z"
     },
     {
       "id": "app-1784919300443",
