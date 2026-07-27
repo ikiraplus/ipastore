@@ -3636,14 +3636,22 @@
     {
       "id": "app-1782928472029",
       "name": "No Limit Drag Racing 2",
-      "version": "2.2.18.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/no-limit-2.2.18.2",
+      "version": "2.22.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/no-limit-2.2.22.4",
       "icon": "https://play-lh.googleusercontent.com/0cEXMXR4IUgdBUOdiIa2CnyKJVJ_zFgRHlPJEq6justVAJNG-dXklvoNnxp2kLpRJwg0C6oxVzNwRgjfMHH65Q=w240-h480-rw",
-      "size": "848.2 MB",
+      "size": "876.8 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:54:32.030Z",
-      "updatedAt": "2026-07-01T17:54:32.030Z"
+      "updatedAt": "2026-07-27T19:38:24.078Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/no-limit-2.2.18.2",
+          "version": "2.18.2"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1782928679650",
