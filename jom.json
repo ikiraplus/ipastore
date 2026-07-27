@@ -4219,6 +4219,21 @@
       "recommended": false,
       "addedAt": "2026-07-27T09:10:12.701Z",
       "updatedAt": "2026-07-27T09:10:12.701Z"
+    },
+    {
+      "id": "app-1785143484273",
+      "name": "Word Games Pro 101",
+      "version": "9.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/word-games-pro-101-v9.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/0a/03/210a03e6-6b02-4383-dc8e-7a1ede2359b8/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "64.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-07-27T09:11:24.274Z",
+      "updatedAt": "2026-07-27T09:11:24.274Z"
     }
   ]
 }
