@@ -4189,6 +4189,21 @@
       "recommended": false,
       "addedAt": "2026-07-26T14:28:16.356Z",
       "updatedAt": "2026-07-26T14:28:16.356Z"
+    },
+    {
+      "id": "app-1785143019976",
+      "name": "Wink",
+      "version": "3.7.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wink_3.7.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/f4/a3/38f4a370-62d7-9ab5-1279-77d7206723d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "113.2 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-07-27T09:03:39.976Z",
+      "updatedAt": "2026-07-27T09:03:39.976Z"
     }
   ]
 }
