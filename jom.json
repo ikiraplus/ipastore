@@ -2484,16 +2484,20 @@
     {
       "id": "app-1778257564894",
       "name": "Pubg KR Hack",
-      "version": "2.4.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kurd4u-kr-v2.4.5",
+      "version": "3.4.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kurd4u-kr-v3.4.5",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZFmyHs5ENejMyMXmdH4SrN1HSh9_DX3gj-w&s",
       "size": "3609.3 MB",
       "note": "ببجي كوريه هاك ( لا العبها ولا اعرف مطورها ولا تستخدم حسابك الاساسي )\nكود التفعيل\nqCYhEQDO3fNYlroeS1tZkJue6KsX1hkd",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:26:04.895Z",
-      "updatedAt": "2026-07-20T14:52:51.209Z",
+      "updatedAt": "2026-07-27T09:02:51.237Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kurd4u-kr-v2.4.5",
+          "version": "2.4.5"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pubg_kr_440_kingmod_update_02",
           "version": "last version"
