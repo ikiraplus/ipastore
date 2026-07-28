@@ -4005,14 +4005,22 @@
     {
       "id": "app-1784188165660",
       "name": "WhiteGram Arabic",
-      "version": "12.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.8",
+      "version": "12.9.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.9.2",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784188165660.png",
-      "size": "181.7 MB",
+      "size": "170.3 MB",
       "note": "تطبيق \" وايتكرام \" أحد أفضل نسخة التيلكرام المعدلة !\n\nيمكنك تفعيل مميزات النسخة من خلال :\nالإعدادات = WhiteGram\n\nهناك مميزات إضافية أيضاً تتفعل من :\nالإعدادات = إضغط مطولاً على أيقونة ( أسأل سوالاً )",
       "category": "تواصل",
       "addedAt": "2026-07-16T07:49:28.675Z",
-      "updatedAt": "2026-07-20T07:49:28.675Z"
+      "updatedAt": "2026-07-28T11:01:00.406Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.8",
+          "version": "12.8"
+        }
+      ],
+      "recommended": true
     },
     {
       "id": "app-1784193262599",
