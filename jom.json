@@ -4072,17 +4072,22 @@
     {
       "id": "app-1784795671480",
       "name": "Instagram IQ",
-      "version": "438.0.0",
-      "toolVersion": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqgram_1.0",
+      "version": "440.0.0",
+      "toolVersion": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqgram_v440.0.0-a1.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/ef/4c/deef4c28-359a-c51d-2585-f7f186cf28b1/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "332.9 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqgram_1.0",
+          "version": "438.0.0"
+        }
+      ],
+      "size": "331.7 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-23T08:34:31.490Z",
-      "updatedAt": "2026-07-23T08:34:31.490Z"
+      "updatedAt": "2026-07-29T07:41:30.359Z"
     },
     {
       "id": "app-1784812555366",
