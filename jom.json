@@ -321,16 +321,20 @@
     {
       "id": "app-1773436444365",
       "name": "Messenger Flow",
-      "version": "571.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fbms_v571.0.0_flow_v1.0",
+      "version": "572.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fbms_v572.0.0_flow_v1.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/e8/4c/bde84c1b-5280-dc66-07d5-f02eb7c8d2ab/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "88.3 MB",
+      "size": "88.8 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-07-21T15:15:31.068Z",
+      "updatedAt": "2026-07-30T13:45:12.244Z",
       "toolVersion": "1.0",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fbms_v571.0.0_flow_v1.0",
+          "version": "571.0.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/facebook-masenger-564.0",
           "version": "564.0"
