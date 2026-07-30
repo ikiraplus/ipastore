@@ -953,6 +953,22 @@
       "recommended": false,
       "addedAt": "2026-07-30T09:42:23.701Z",
       "updatedAt": "2026-07-30T09:49:22.243Z"
+    },
+    {
+      "id": "dylib-1785421016701",
+      "name": "XEnhancer Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/XEnhancer-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/65/60/f76560b0-13df-84b6-fb7f-9b40319c4018/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "3.3 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-30T14:16:56.702Z",
+      "updatedAt": "2026-07-30T14:16:56.702Z"
     }
   ]
 }
