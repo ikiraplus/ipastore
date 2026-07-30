@@ -2032,14 +2032,22 @@
     {
       "id": "app-1774779633396",
       "name": "VSCO",
-      "version": "460.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vsco_photo_&_video_editor_v461_1_0_subscription_unlocked_blatant",
+      "version": "461.6.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vsco_photo_-_video_editor_v461.6.1_subscription_unlocked",
       "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
-      "size": "202.4 MB",
+      "size": "200.0 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-04-21"
+      "updatedAt": "2026-07-30T13:44:42.762Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vsco_photo_&_video_editor_v461_1_0_subscription_unlocked_blatant",
+          "version": "460.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1777313056595",
