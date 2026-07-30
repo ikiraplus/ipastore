@@ -4333,6 +4333,21 @@
       "recommended": false,
       "addedAt": "2026-07-30T09:50:26.259Z",
       "updatedAt": "2026-07-30T09:50:26.259Z"
+    },
+    {
+      "id": "app-1785419223892",
+      "name": "X XEnhancer",
+      "version": "12.13",
+      "toolVersion": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.13-xe-1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/95/b6/b895b6df-6440-133f-362e-aef78053c26f/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "216.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-07-30T13:47:03.893Z",
+      "updatedAt": "2026-07-30T13:47:03.893Z"
     }
   ]
 }
