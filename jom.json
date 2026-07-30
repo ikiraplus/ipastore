@@ -161,14 +161,22 @@
     {
       "id": "app-1773497640216",
       "name": "Swiftgram",
-      "version": "12.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram_12.8_lead_1.4.3",
+      "version": "12.9.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram_12.9.2_lead_1.4.4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/d5/fa/c1d5faba-f9f3-2b37-959b-4e69452bb301/Swiftgram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "82.8 MB",
+      "size": "78.5 MB",
       "note": "لتفعيل مميزات النسخة اتبع التالي :\n- الاعدادات - انزل للاسفل - اضغط ضغطة مطوله على ايقونه (اسال سوالا )\nومبروك تم فتح المميزات",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-07-01T18:08:32.005Z"
+      "updatedAt": "2026-07-30T14:27:39.364Z",
+      "toolVersion": "1.4.4",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram_12.8_lead_1.4.3",
+          "version": "12.8"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1773498091935",
