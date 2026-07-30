@@ -4414,7 +4414,7 @@
     {
       "id": "app-1785421356260",
       "name": "Fcm26",
-      "version": "26.1.1.7",
+      "version": "1.1.7",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fcm26.1.1.7",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/26/92/75269233-4c2f-74a1-91b0-584d4d44870f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
@@ -4424,7 +4424,7 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-30T14:22:36.261Z",
-      "updatedAt": "2026-07-30T14:22:36.261Z"
+      "updatedAt": "2026-07-30T14:22:53.937Z"
     }
   ]
 }
