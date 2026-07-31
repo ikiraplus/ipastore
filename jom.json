@@ -1780,14 +1780,18 @@
     },
     {
       "id": "app-iosgods-eevee-spotify-4732",
-      "name": "Spotify - Eevee",
-      "version": "9.1.52.1059",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/eeveespotify-6.6.4-9.1.52.1059_patched",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/40/45/fc404575-f167-18b7-191e-c4a51122740e/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "name": "Spotify GS",
+      "version": "9.1.72",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.72_gs",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
       "size": "108 MB",
-      "note": "نسخة Eevee مهكرة - تفعيل Premium تلقائي",
+      "note": "تفعيل Premium تلقائي",
       "category": "ترفيه",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-07-31T19:01:42.239Z"
     },
     {
       "id": "app-iosgods-sniper-3d-169",
