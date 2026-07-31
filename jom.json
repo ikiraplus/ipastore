@@ -4496,6 +4496,21 @@
       "recommended": false,
       "addedAt": "2026-07-31T19:14:40.837Z",
       "updatedAt": "2026-07-31T19:14:40.837Z"
+    },
+    {
+      "id": "app-1785525444697",
+      "name": "God Rivals",
+      "version": "1.1.15",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/god-rivals-1.1.15",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/f4/52/a2f45272-1b00-783d-9218-38c73c24f373/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "439.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-07-31T19:17:24.698Z",
+      "updatedAt": "2026-07-31T19:17:24.698Z"
     }
   ]
 }
