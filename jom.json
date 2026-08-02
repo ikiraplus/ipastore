@@ -1363,14 +1363,18 @@
     },
     {
       "id": "app-1773657791706",
-      "name": "فودو",
-      "version": "1.7",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vood.cinema.v1.7-1",
+      "name": "فودو كيرا",
+      "version": "2.1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vodukira_2.1.2",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773657791706.png",
-      "size": "18.4 MB",
+      "size": "40.2 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-16"
+      "addedAt": "2026-03-16",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-02T14:25:16.334Z"
     },
     {
       "id": "app-1773574949588",
