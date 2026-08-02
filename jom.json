@@ -4617,6 +4617,21 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:29:41.042Z",
       "updatedAt": "2026-08-02T15:29:41.042Z"
+    },
+    {
+      "id": "app-1785684614701",
+      "name": "Westland Survival",
+      "version": "12.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/westland-survival-12.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/49/43/19494309-bc19-19f0-ee5b-1c742363e4d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "688.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-02T15:30:14.703Z",
+      "updatedAt": "2026-08-02T15:30:14.703Z"
     }
   ]
 }
