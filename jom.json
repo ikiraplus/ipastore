@@ -4511,6 +4511,21 @@
       "recommended": false,
       "addedAt": "2026-07-31T19:17:24.698Z",
       "updatedAt": "2026-07-31T19:17:24.698Z"
+    },
+    {
+      "id": "app-1785676918564",
+      "name": "Last Asylum",
+      "version": "1.0.53",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-asylum-1.0.53-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/a3/8d/ada38d9c-14e1-a318-ab2c-04db5058f703/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "475.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-02T13:21:58.574Z",
+      "updatedAt": "2026-08-02T13:21:58.574Z"
     }
   ]
 }
