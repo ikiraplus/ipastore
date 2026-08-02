@@ -4221,17 +4221,22 @@
     {
       "id": "app-1784821281301",
       "name": "WolfTube",
-      "version": "21.29.3",
-      "toolVersion": "1.19.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-wolftube-21.29.3",
+      "version": "21.30.5",
+      "toolVersion": "1.20",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-wolftube21.30.5",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
-      "previousVersions": [],
-      "size": "121.7 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-wolftube-21.29.3",
+          "version": "21.29.3"
+        }
+      ],
+      "size": "118.8 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-23T15:41:21.306Z",
-      "updatedAt": "2026-07-23T20:51:19.974Z"
+      "updatedAt": "2026-08-02T15:38:33.392Z"
     },
     {
       "id": "app-1784914075063",
