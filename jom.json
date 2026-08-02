@@ -4602,6 +4602,21 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:28:12.577Z",
       "updatedAt": "2026-08-02T15:28:12.577Z"
+    },
+    {
+      "id": "app-1785684581042",
+      "name": "Sky Children Of The Light",
+      "version": "0.34.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sky-children-of-the-light-0.34.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/79/82/61798265-b213-9c04-c318-7891a900a365/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2256.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-02T15:29:41.042Z",
+      "updatedAt": "2026-08-02T15:29:41.042Z"
     }
   ]
 }
