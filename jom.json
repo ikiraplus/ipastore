@@ -4677,6 +4677,21 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:33:33.203Z",
       "updatedAt": "2026-08-02T15:33:33.203Z"
+    },
+    {
+      "id": "app-1785684849036",
+      "name": "Shiba Wars 2",
+      "version": "2.05",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shiba-wars-2.2.05",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/db/93/85db93d4-2569-f691-0254-65d597d6e1a4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "513.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-02T15:34:09.037Z",
+      "updatedAt": "2026-08-02T15:34:09.037Z"
     }
   ]
 }
