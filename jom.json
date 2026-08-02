@@ -4400,17 +4400,22 @@
     {
       "id": "app-1785181137039",
       "name": "Fwd Assault",
-      "version": "1.2083",
+      "version": "1.2083.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fwd-assault-1.2083",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fwd-assault-1.2083.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/ea/ce/77eace85-80a8-0d45-a8bd-9a14c2d53eef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "462.3 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fwd-assault-1.2083",
+          "version": "1.2083"
+        }
+      ],
+      "size": "470.9 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-27T19:38:57.039Z",
-      "updatedAt": "2026-07-27T19:38:57.039Z"
+      "updatedAt": "2026-08-02T15:37:30.311Z"
     },
     {
       "id": "app-1785405026258",
