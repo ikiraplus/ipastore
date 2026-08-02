@@ -81,14 +81,22 @@
     {
       "id": "app-1773512283014",
       "name": "Telegram Dark",
-      "version": "12.7",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teledark_12.7",
+      "version": "12.9.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teledark_12.9.2-1",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773512283014.png",
-      "size": "75.1 MB",
+      "size": "76.1 MB",
       "note": "نسخة تدعم الاشعارات ( قم بتثبيتها مباشرة لا تكررها ولا تغير الباندل )\nمدمجة مع مميزات  Tgextra",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-05-18T18:35:25.723Z"
+      "updatedAt": "2026-08-02T15:43:13.026Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teledark_12.7",
+          "version": "12.7"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1773402408531",
