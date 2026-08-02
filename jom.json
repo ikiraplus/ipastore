@@ -4556,6 +4556,21 @@
       "recommended": false,
       "addedAt": "2026-08-02T13:28:46.638Z",
       "updatedAt": "2026-08-02T13:28:46.638Z"
+    },
+    {
+      "id": "app-1785677489859",
+      "name": "Car Simulator 2",
+      "version": "1.63.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-simulator-2.1.63.2-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/51/a2/9e51a2da-5cd6-902c-eb78-56a6be2386b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1050.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-02T13:31:29.862Z",
+      "updatedAt": "2026-08-02T13:31:29.862Z"
     }
   ]
 }
