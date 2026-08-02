@@ -4632,6 +4632,21 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:30:14.703Z",
       "updatedAt": "2026-08-02T15:30:14.703Z"
+    },
+    {
+      "id": "app-1785684678692",
+      "name": "Skullgirls",
+      "version": "8.9.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/skullgirls-8.9.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/88/51/1f88518b-0d3b-c4ff-3abf-26c97ad0b0b2/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "162.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-02T15:31:18.693Z",
+      "updatedAt": "2026-08-02T15:31:18.693Z"
     }
   ]
 }
