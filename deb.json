@@ -945,18 +945,23 @@
     {
       "id": "dylib-1785404543683",
       "name": "iQ Tweak",
-      "version": "1.0",
+      "version": "1.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/IqTele-1.0-dylibs",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele-v1.1",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784549021202.png",
       "fileType": "dylib",
-      "previousVersions": [],
-      "size": "0.7 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/IqTele-1.0-dylibs",
+          "version": "1.0"
+        }
+      ],
+      "size": "0.4 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-30T09:42:23.701Z",
-      "updatedAt": "2026-07-30T09:49:22.243Z"
+      "updatedAt": "2026-08-02T16:21:54.388Z"
     },
     {
       "id": "dylib-1785421016701",
