@@ -4541,6 +4541,21 @@
       "recommended": false,
       "addedAt": "2026-08-02T13:25:01.322Z",
       "updatedAt": "2026-08-02T13:25:01.322Z"
+    },
+    {
+      "id": "app-1785677326637",
+      "name": "Horizon walker",
+      "version": "1.50.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/horizonwalkerapple-1.50.0-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/02/34/b702349f-c1b7-bdc3-99a9-89c29b5a9a11/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "181.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-02T13:28:46.638Z",
+      "updatedAt": "2026-08-02T13:28:46.638Z"
     }
   ]
 }
