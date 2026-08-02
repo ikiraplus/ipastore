@@ -4647,6 +4647,21 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:31:18.693Z",
       "updatedAt": "2026-08-02T15:31:18.693Z"
+    },
+    {
+      "id": "app-1785684789295",
+      "name": "Elemental",
+      "version": "0.195",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elemental-195",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1785684789295.png",
+      "previousVersions": [],
+      "size": "186.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-02T15:33:11.631Z",
+      "updatedAt": "2026-08-02T15:33:11.631Z"
     }
   ]
 }
