@@ -526,7 +526,7 @@
       "name": "InfiniTok Tweak",
       "version": "1.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dylib-Infinitok-v1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Infinitok-dylib-v1.0",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784812711653.png",
       "fileType": "dylib",
       "previousVersions": [],
@@ -535,7 +535,7 @@
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-23T13:18:33.482Z",
-      "updatedAt": "2026-07-23T13:18:33.482Z",
+      "updatedAt": "2026-08-03T20:00:45.014Z",
       "hidden": false
     },
     {
