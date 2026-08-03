@@ -536,7 +536,7 @@
       "recommended": false,
       "addedAt": "2026-07-23T13:18:33.482Z",
       "updatedAt": "2026-07-23T13:18:33.482Z",
-      "hidden": true
+      "hidden": false
     },
     {
       "id": "dylib-1784548545325",
