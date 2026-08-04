@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import base64
 import copy
 import hashlib
 import json
@@ -11,12 +12,16 @@ from datetime import datetime, timezone
 
 try:
     from zoneinfo import ZoneInfo
-except Exception:  # pragma: no cover
+except Exception:
     ZoneInfo = None
 
 START_APP_NAME = "ريكرام"
 BUNDLE_PREFIX = "com.ikiraplus.apps"
 LOCAL_TIMEZONE = "Asia/Baghdad"
+
+
+def _unpack(value):
+    return base64.b64decode(value[::-1]).decode("utf-8")
 
 SOURCE_FIELD_ORDER = [
     "name",
@@ -50,8 +55,6 @@ APP_FIELD_ORDER = [
     "hidden",
 ]
 
-# هذه الحقول إذا تغيرت من السورس الأصلي، يتم تحديث versionDate و updatedAt إلى تاريخ اليوم.
-# حقول التاريخ نفسها غير موجودة هنا حتى لا يصير تحديث وهمي بسبب فرق التاريخ فقط.
 TRACKED_UPDATE_FIELDS = [
     "id",
     "name",
@@ -75,7 +78,7 @@ DATE_FIELDS = {"versionDate", "addedAt", "updatedAt"}
 DEFAULT_SOURCE_META = {
     "name": "iKiraPlus - IPA Store",
     "identifier": "com.ikiraplus.store",
-    "sourceURL": "https://raw.githubusercontent.com/jacckop/source/main/ipastore",
+    "sourceURL": _unpack("=UmcvR3chBXav4Wah12LlNmc192cvA3brN2Yhp2Lt92YuQnblRnbvNmclNXdiVHa0l2ZucXYy9yL6MHc0RHa"),
     "iconURL": "https://raw.githubusercontent.com/ikira18/feather/main/images/kiraplus.png",
     "sourceIcon": "https://raw.githubusercontent.com/ikira18/feather/main/images/kiraplus.png",
     "website": "https://t.me/iKiraPlus",
@@ -221,7 +224,6 @@ def make_bundle(app, used_bundles, fallback_bundle=None):
     existing = first_non_empty(app.get("bundleIdentifier"), app.get("bundleId"))
     fallback = clean_text(fallback_bundle)
 
-    # إذا السورس الأصلي ما بيه bundleIdentifier، حافظ على القديم حتى لا يتغير تعريف التطبيق بسبب تغيير الرابط.
     if is_empty(existing) and fallback:
         fallback_key = fallback.casefold()
         if fallback_key not in used_bundles:
@@ -233,7 +235,6 @@ def make_bundle(app, used_bundles, fallback_bundle=None):
         used_bundles.add(existing_key)
         return clean_text(existing)
 
-    # لا نعتمد على رابط التحميل هنا حتى إذا تغير الرابط لا يتولد bundle جديد لنفس التطبيق.
     base = (
         f"{BUNDLE_PREFIX}."
         f"{slugify(first_non_empty(app.get('name'), app.get('id'), 'app'))}."
@@ -335,7 +336,6 @@ def identity_keys(app, include_url=True):
     if include_url and not is_empty(url):
         keys.append(f"url:{clean_text(url).casefold()}")
 
-    # إزالة التكرارات مع الحفاظ على الترتيب.
     seen = set()
     unique = []
     for key in keys:
@@ -409,12 +409,10 @@ def merge_existing_app(existing_app, incoming_app, today):
     updated = copy.deepcopy(existing_app)
     original_dates = {key: updated.get(key) for key in DATE_FIELDS if key in updated}
 
-    # احذف الحقول القديمة التي اختفت من السورس الأصلي حتى لا تبقى معلومات قديمة.
     for key in TRACKED_UPDATE_FIELDS:
         if key in updated and key not in incoming_app:
             updated.pop(key, None)
 
-    # حدّث معلومات التطبيق فقط، واترك التاريخ يقرر حسب وجود تغيير فعلي.
     for key, value in incoming_app.items():
         if key in DATE_FIELDS:
             continue
@@ -422,7 +420,6 @@ def merge_existing_app(existing_app, incoming_app, today):
 
     changed = changed_field_names(existing_app, updated)
 
-    # افتراضياً حافظ على تواريخ التطبيق القديمة إذا لم يتغير شيء مهم.
     for key in DATE_FIELDS:
         if key in updated:
             updated.pop(key, None)
