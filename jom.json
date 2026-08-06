@@ -4931,6 +4931,21 @@
       "recommended": false,
       "addedAt": "2026-08-06T09:47:18.237Z",
       "updatedAt": "2026-08-06T09:47:18.237Z"
+    },
+    {
+      "id": "app-1786039385843",
+      "name": "Hitv Kira",
+      "version": "2.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitv-kira_2.4",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786039385843.png",
+      "previousVersions": [],
+      "size": "31.3 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": true,
+      "addedAt": "2026-08-06T18:03:09.086Z",
+      "updatedAt": "2026-08-06T18:03:09.086Z"
     }
   ]
 }
