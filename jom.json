@@ -645,12 +645,15 @@
       "name": "Red Dead Redemption (free paid)",
       "version": "1.50.6",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rdr-[v1.50.6029]",
-      "icon": "https://appstore.nabzclan.vip/images/icon_6995f4cf7744b.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/8a/32/6f8a3229-8cba-326d-624a-55e900774f64/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "size": "2749.7 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-04-12"
+      "updatedAt": "2026-08-06T09:50:45.489Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1773437364033",
