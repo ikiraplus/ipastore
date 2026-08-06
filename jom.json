@@ -3849,14 +3849,22 @@
     {
       "id": "app-1782930324003",
       "name": "videoleap",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap",
+      "version": "2.85",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap_ai_video_editor_v2.85_subscription_unlocked__patched",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXCyrI_MlmNKNnVVIe4XkXlHmLZsuhoudGDYarw-X-Q&s=10",
-      "size": "369.6 MB",
+      "size": "380.7 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-07-01T18:25:24.004Z",
-      "updatedAt": "2026-07-01T18:25:24.004Z"
+      "updatedAt": "2026-08-06T06:58:49.845Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap",
+          "version": "last version"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1782931474215",
