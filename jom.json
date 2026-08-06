@@ -4738,6 +4738,21 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:39:36.173Z",
       "updatedAt": "2026-08-02T15:39:36.173Z"
+    },
+    {
+      "id": "app-1785999201825",
+      "name": "Motionleap 3d Photo Animator",
+      "version": "1.9.38",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/motionleap_3d_photo_animator_v1.9.38_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/6f/27/b16f27d1-6977-6a98-6248-c6ab3d0926ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "178.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-06T06:53:21.833Z",
+      "updatedAt": "2026-08-06T06:53:21.833Z"
     }
   ]
 }
