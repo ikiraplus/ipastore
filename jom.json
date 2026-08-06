@@ -2981,14 +2981,22 @@
     {
       "id": "app-1781111205610",
       "name": "photoroom ai photo",
-      "version": "2026.27.01",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photoroom-ai-photo-editor-v2026.27.01",
+      "version": "2026.32.01",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photoroom-ai-photo-editor-v2026.32.01-sipas",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/07/9c/a1079cf7-b14b-13a3-995f-9d6d4ffb5c39/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "size": "165.1 MB",
+      "size": "226.2 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-10T17:06:45.611Z",
-      "updatedAt": "2026-07-01T18:38:06.392Z"
+      "updatedAt": "2026-08-06T06:57:37.412Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photoroom-ai-photo-editor-v2026.27.01",
+          "version": "2026.27.01"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1781111392639",
