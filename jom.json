@@ -440,23 +440,27 @@
     {
       "id": "app-1773546935772",
       "name": "X - Twitter - TWIGalaxy",
-      "version": "12.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x_12.9_dltwitter_2.17_twigalaxy",
+      "version": "12.14",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twigalaxyv1.14",
       "icon": "https://appstore.nabzclan.vip/images/icon_690aa6dcd1f26.jpg",
-      "size": "211.1 MB",
+      "size": "227.0 MB",
       "note": "",
       "bundleId": "",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "toolVersion": "2.7",
+      "toolVersion": "1.14",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x_12.9_dltwitter_2.17_twigalaxy",
+          "version": "12.9"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-twitter-twigalaxy_v1136-1",
           "version": "11.36"
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-07-20T14:07:49.793Z"
+      "updatedAt": "2026-08-06T07:06:39.120Z"
     },
     {
       "id": "app-1773546960824",
