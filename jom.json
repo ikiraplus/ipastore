@@ -599,14 +599,22 @@
     {
       "id": "app-1773437480214",
       "name": "lok tv premium",
-      "version": "2.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loktv-premium",
+      "version": "2.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loktv_new_2.1",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437480214.png",
-      "size": "16.5 MB",
+      "size": "16.4 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-07-08T20:08:40.223Z"
+      "updatedAt": "2026-08-06T07:07:01.149Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loktv-premium",
+          "version": "2.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1773510045224",
