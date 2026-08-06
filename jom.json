@@ -1706,23 +1706,23 @@
     {
       "id": "app-iosgods-camscanner-3095",
       "name": "CamScanner",
-      "version": "7.22.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.22.5_vip_unlocked_patched",
+      "version": "7.23.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.23.0_vip_unlocked__patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/2b/20/7a2b2005-16f7-8e45-c3ce-6f446785d98b/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "201.3 MB",
+      "size": "",
       "note": "نسخة مهكرة من iosgod",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-31T19:13:23.608Z",
+      "updatedAt": "2026-08-06T06:57:07.734Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.22.0_vip_unlocked__patched",
-          "version": "7.22.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.22.5_vip_unlocked_patched",
+          "version": "7.22.5"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7_15_5_vip_unlocked-",
-          "version": "7.15.5"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.22.0_vip_unlocked__patched",
+          "version": "7.22.0"
         }
       ],
       "recommended": false
