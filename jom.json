@@ -4055,23 +4055,23 @@
     {
       "id": "app-1783610012436",
       "name": "Tiktok GT",
-      "version": "46.2.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok-46.2.0-v1.6",
+      "version": "46.3.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok-v46.2.0-dyilb1.7",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "415.1 MB",
+      "size": "400.4 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-09T15:13:32.439Z",
-      "updatedAt": "2026-08-02T15:39:06.809Z",
-      "toolVersion": "1.6",
+      "updatedAt": "2026-08-06T07:10:47.528Z",
+      "toolVersion": "1.7",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok-46.2.0-v1.6",
+          "version": "46.2.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok-46.1.0-v1.5",
           "version": "46.1.0"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok-1.4",
-          "version": "46.0.0"
         }
       ],
       "recommended": false
