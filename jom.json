@@ -3697,14 +3697,22 @@
     {
       "id": "app-1781882139582",
       "name": "ilove pdf",
-      "version": "4.0.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ilovepdf_pdf_editor_&_scan",
+      "version": "4.0.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ilovepdf_pdf_editor_-_scan_v4.0.4_premium_unlocked_patched",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa6DCpo_BNCx0yEEUhuPYmq_ev64HQnXOzX8UivAOskQ&s=10",
-      "size": "121.1 MB",
+      "size": "132.2 MB",
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-06-19T15:15:39.583Z",
-      "updatedAt": "2026-06-19T15:15:39.583Z"
+      "updatedAt": "2026-08-06T07:01:11.576Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ilovepdf_pdf_editor_&_scan",
+          "version": "4.0.2"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1781882229071",
