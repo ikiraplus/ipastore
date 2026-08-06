@@ -4757,6 +4757,21 @@
       "recommended": false,
       "addedAt": "2026-08-06T06:53:21.833Z",
       "updatedAt": "2026-08-06T06:53:21.833Z"
+    },
+    {
+      "id": "app-1785999252866",
+      "name": "Scrl Photo Collage Maker",
+      "version": "9.47",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scrl_photo_collage_maker_v9.47_subscription_unlocked_patched",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/5f/76/db5f76e5-dc0b-94a6-d7d3-e53ff480d23f/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "69.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-06T06:54:12.867Z",
+      "updatedAt": "2026-08-06T06:54:12.867Z"
     }
   ]
 }
