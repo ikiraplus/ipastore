@@ -2077,16 +2077,20 @@
     {
       "id": "app-1774779575880",
       "name": "Lightroom",
-      "version": "11.4.20",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.4.20_subscription_unlocked_",
+      "version": "11.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.5_subscription_unlocked_patched",
       "icon": "https://fastsign.dev/tg-icon/blatants/9067.png",
-      "size": "199.7 MB",
+      "size": "206.6 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-21T15:29:38.683Z",
+      "updatedAt": "2026-08-06T06:53:43.796Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.4.20_subscription_unlocked_",
+          "version": "11.4.20"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11_3_1_subscription",
           "version": "11.3"
