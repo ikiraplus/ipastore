@@ -2974,14 +2974,22 @@
     {
       "id": "app-1780484875312",
       "name": "X DL",
-      "version": "11.96",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-(twitter)-dl-11.96",
+      "version": "12.15",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-dl_12.15",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/c5/9e/5fc59ee6-26bd-f9e2-66f4-67fda4f4c91a/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "203.2 MB",
+      "size": "233.9 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-06-03T11:07:55.314Z",
-      "updatedAt": "2026-06-03T11:07:55.314Z"
+      "updatedAt": "2026-08-07T08:25:50.196Z",
+      "toolVersion": "2.1.6",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-(twitter)-dl-11.96",
+          "version": "11.96"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1780485059348",
