@@ -2358,14 +2358,22 @@
     {
       "id": "app-1777315159741",
       "name": "Youtube DL",
-      "version": "21.22.05",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-dl-21.22.05",
+      "version": "21.31.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-dl_21.31.3",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777315159741.png",
-      "size": "132 MB",
+      "size": "140.0 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:39:21.262Z",
-      "updatedAt": "2026-06-03T11:08:48.075Z"
+      "updatedAt": "2026-08-07T08:27:29.913Z",
+      "toolVersion": "2.16.3",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-dl-21.22.05",
+          "version": "21.22.05"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1777315219858",
