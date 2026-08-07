@@ -2515,18 +2515,6 @@
       "recommended": false
     },
     {
-      "id": "app-1778256378617",
-      "name": "guardian hunter",
-      "version": "15.9.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter[15.9.9]",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/a2/c8/7aa2c801-680a-d09c-1afd-3339aa97700e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "64.1 MB",
-      "note": "",
-      "category": "ألعاب",
-      "addedAt": "2026-05-08T16:06:18.618Z",
-      "updatedAt": "2026-05-08T16:06:18.618Z"
-    },
-    {
       "id": "app-1778256453060",
       "name": "TikTok AC",
       "version": "45.0.0",
