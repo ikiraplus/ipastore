@@ -259,16 +259,21 @@
     {
       "id": "app-1773435396085",
       "name": "Tiktok DL",
-      "version": "45.4.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok-dl-45.4.0",
+      "version": "46.3.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok-dl_46.3.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "409.7 MB",
+      "size": "447.9 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-07-20T15:04:33.586Z",
-      "toolVersion": "",
-      "previousVersions": [],
+      "updatedAt": "2026-08-07T08:25:05.131Z",
+      "toolVersion": "2.1.4",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok-dl-45.4.0",
+          "version": "45.4.0"
+        }
+      ],
       "recommended": true
     },
     {
