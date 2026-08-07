@@ -2201,16 +2201,20 @@
     {
       "id": "app-1777313497967",
       "name": "b612 Ai",
-      "version": "15.3.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/b612_ai_photo-video_editor_v15.3.2_subscription_unlocked",
+      "version": "15.3.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/b612_ai_photo-video_editor_v15.3.5_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/16/97/bf169712-4c79-6cf1-1dce-2d672c9ba593/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "size": "144.4 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-04-27T18:11:37.968Z",
-      "updatedAt": "2026-08-02T15:28:49.785Z",
+      "updatedAt": "2026-08-07T08:20:45.213Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/b612_ai_photo-video_editor_v15.3.2_subscription_unlocked",
+          "version": "15.3.2"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/b612_ai_photo&video_editor_v15.1.6",
           "version": "15.1.6"
