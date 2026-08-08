@@ -5061,6 +5061,21 @@
       "recommended": false,
       "addedAt": "2026-08-08T08:23:10.460Z",
       "updatedAt": "2026-08-08T08:23:10.460Z"
+    },
+    {
+      "id": "app-1786196047646",
+      "name": "Moox TV Premium",
+      "version": "1.9.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moox-tv-premium_1.9.5",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786196047646.png",
+      "previousVersions": [],
+      "size": "46.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-08T13:34:15.019Z",
+      "updatedAt": "2026-08-08T13:34:15.019Z"
     }
   ]
 }
