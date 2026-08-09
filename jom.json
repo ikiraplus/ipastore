@@ -3546,14 +3546,22 @@
     {
       "id": "app-1781646204795",
       "name": "polish ai photo editor",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/polish-ai-photo-editor",
+      "version": "2.7.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/polish_ai_photo_editor_v2.7.0_premium_unlocked_patched",
       "icon": "https://play-lh.googleusercontent.com/q-z-Sbn2WLCUb4MSmmdhVr9KRfJ4qTlgoQEUGEKsnfVEEMNPxsabpr-yngqQ15o5b6gLhaBOhGZNv6oBWDMl",
-      "size": "132.6 MB",
+      "size": "140.2 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-16T21:43:24.796Z",
-      "updatedAt": "2026-06-16T21:43:24.796Z"
+      "updatedAt": "2026-08-09T15:45:36.482Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/polish-ai-photo-editor",
+          "version": "last version"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1781646287063",
