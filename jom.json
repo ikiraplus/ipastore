@@ -96,7 +96,8 @@
           "version": "12.7"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "hidden": true
     },
     {
       "id": "app-1773402408531",
