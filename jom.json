@@ -5152,6 +5152,21 @@
       "recommended": false,
       "addedAt": "2026-08-09T15:54:41.076Z",
       "updatedAt": "2026-08-09T15:54:41.076Z"
+    },
+    {
+      "id": "app-1786291169111",
+      "name": "Dead Trigger 2",
+      "version": "3.1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dead-trigger2.3.1.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/bc/12/1ebc1201-678b-2666-b053-4885f7ddc133/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "705.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-09T15:59:29.112Z",
+      "updatedAt": "2026-08-09T15:59:29.112Z"
     }
   ]
 }
