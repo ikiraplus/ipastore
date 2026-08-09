@@ -809,18 +809,23 @@
     {
       "id": "dylib-1784550013585",
       "name": "DL Tweak",
-      "version": "4.5",
+      "version": "2.1.6",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dltwitter",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dltwitter-1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/65/60/f76560b0-13df-84b6-fb7f-9b40319c4018/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
-      "previousVersions": [],
-      "size": "13.0 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dltwitter",
+          "version": "2.1.5"
+        }
+      ],
+      "size": "13.1 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T12:20:13.586Z",
-      "updatedAt": "2026-07-20T12:20:13.586Z"
+      "updatedAt": "2026-08-09T16:20:10.900Z"
     },
     {
       "id": "dylib-1784550081354",
