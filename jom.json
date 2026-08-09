@@ -4521,17 +4521,22 @@
     {
       "id": "app-1785143412687",
       "name": "Offline Games No Wifi Games",
-      "version": "3.13.2",
+      "version": "3.14.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-games-no-wifi-games-v3.13.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-games-no-wifi-games-v3.14.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/2b/9a/b32b9a2d-7cb0-720d-5b40-cc30b038931b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "97.9 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-games-no-wifi-games-v3.13.2",
+          "version": "3.13.2"
+        }
+      ],
+      "size": "104.0 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-27T09:10:12.701Z",
-      "updatedAt": "2026-07-27T09:10:12.701Z"
+      "updatedAt": "2026-08-09T15:46:59.697Z"
     },
     {
       "id": "app-1785143484273",
