@@ -3456,14 +3456,22 @@
     {
       "id": "app-1781377814424",
       "name": "into the dead 2",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/into-the-dead-2",
+      "version": "1.86.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/into-the-dead2.1.86.1",
       "icon": "https://play-lh.googleusercontent.com/KJzppbod8tdh0r8Jbh2BheG7zsYzByjlzfjbcvHz4_R-fhDQzBTcJnKgqdlKWDogEQ",
-      "size": "1753.3 MB",
+      "size": "1750.4 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:10:14.426Z",
-      "updatedAt": "2026-06-13T19:10:14.426Z"
+      "updatedAt": "2026-08-09T16:05:28.077Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/into-the-dead-2",
+          "version": "1.85"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1781377898456",
