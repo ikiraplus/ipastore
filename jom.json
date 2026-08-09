@@ -1841,17 +1841,22 @@
     {
       "id": "app-iosgods-eevee-spotify-4732",
       "name": "Spotify GS",
-      "version": "9.1.72",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.72_gs",
+      "version": "9.1.74",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
-      "size": "108 MB",
+      "size": "123.2 MB",
       "note": "تفعيل Premium تلقائي",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
       "toolVersion": "",
-      "previousVersions": [],
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.72_gs",
+          "version": "9.1.72"
+        }
+      ],
       "recommended": false,
-      "updatedAt": "2026-07-31T19:01:42.239Z"
+      "updatedAt": "2026-08-09T15:54:00.743Z"
     },
     {
       "id": "app-iosgods-sniper-3d-169",
