@@ -5183,6 +5183,21 @@
       "recommended": false,
       "addedAt": "2026-08-09T16:00:12.587Z",
       "updatedAt": "2026-08-09T16:00:12.587Z"
+    },
+    {
+      "id": "app-1786291278106",
+      "name": "Beach Buggy Racing 2",
+      "version": "2026.07.31",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bb-racing2.2026.07.31",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/67/77/c4677737-2358-6001-c393-164b8fe855f8/AppIcon-0-0-1x_U007emarketing-0-11-85-220.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "243.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-09T16:01:18.107Z",
+      "updatedAt": "2026-08-09T16:01:18.107Z"
     }
   ]
 }
