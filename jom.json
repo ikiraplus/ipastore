@@ -5198,6 +5198,21 @@
       "recommended": false,
       "addedAt": "2026-08-09T16:01:18.107Z",
       "updatedAt": "2026-08-09T16:01:18.107Z"
+    },
+    {
+      "id": "app-1786291459843",
+      "name": "Legend Of Witch",
+      "version": "1.05",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/legend-of-witch-1.05",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/44/76/7d4476e4-65e7-b343-0f4c-16f6ecbaad1d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "0.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-09T16:04:19.844Z",
+      "updatedAt": "2026-08-09T16:04:19.844Z"
     }
   ]
 }
