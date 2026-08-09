@@ -5104,6 +5104,21 @@
       "recommended": false,
       "addedAt": "2026-08-09T15:46:38.906Z",
       "updatedAt": "2026-08-09T15:46:38.906Z"
+    },
+    {
+      "id": "app-1786290802019",
+      "name": "Soundcloud Nexa",
+      "version": "8.71.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-nexa_8.71.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/f9/36/22f936bd-f61d-d1e1-8227-7352688e9367/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "112.9 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-09T15:53:22.020Z",
+      "updatedAt": "2026-08-09T15:53:22.020Z"
     }
   ]
 }
