@@ -4259,15 +4259,23 @@
     },
     {
       "id": "app-1784023216713",
-      "name": "PineBox",
-      "version": "2.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-noads",
+      "name": "PineBox Premium",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-premium_1.2",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023216713.png",
-      "size": "27.7 MB",
+      "size": "23.6 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-07-14T10:00:19.136Z",
-      "updatedAt": "2026-07-14T10:00:19.136Z"
+      "updatedAt": "2026-08-09T15:55:13.587Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-noads",
+          "version": "2.2"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1784188165660",
