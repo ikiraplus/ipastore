@@ -2230,16 +2230,20 @@
     {
       "id": "app-1777313769154",
       "name": "captions ai edits your video",
-      "version": "13.26.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/captions_ai_edits_your_video_v13.26.1_scale_subscription_unlocked",
+      "version": "13.29.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/captions-for-talking-videos-v13.29.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/e7/a2/efe7a20e-7e36-702c-821c-4be180aae922/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "114.8 MB",
+      "size": "111.6 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-04-27T18:16:09.155Z",
-      "updatedAt": "2026-07-23T08:29:31.585Z",
+      "updatedAt": "2026-08-09T15:47:20.332Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/captions_ai_edits_your_video_v13.26.1_scale_subscription_unlocked",
+          "version": "13.26.1"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/captions_ai_edits_your_video",
           "version": "13.17.0"
