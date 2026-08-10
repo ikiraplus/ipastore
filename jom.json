@@ -421,17 +421,21 @@
     },
     {
       "id": "app-1773510137674",
-      "name": "Threads",
-      "version": "439.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/threads_439.0.0_threadsaver",
+      "name": "Threads Saver",
+      "version": "442.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/threads_442.0.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/75/54/af7554a0-f3ac-d1b8-a0d7-6f9f791f64fc/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
-      "size": "96.8 MB",
+      "size": "100.6 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-07-23T13:10:48.325Z",
+      "updatedAt": "2026-08-10T17:30:16.195Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/threads_439.0.0_threadsaver",
+          "version": "439.0.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/threads_432.0.0_threadsaver",
           "version": "432.0.0"
