@@ -1021,14 +1021,22 @@
     {
       "id": "app-1773497717716",
       "name": "Hill Climb Racing",
-      "version": "1.70.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-racing-v1.70.0",
+      "version": "1.71.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-racing-v1.71.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/ea/66/e0ea66da-6969-88dc-2ce4-0997b85a5b3e/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg",
-      "size": "121.8 MB",
+      "size": "124.1 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-07-01T18:27:03.018Z"
+      "updatedAt": "2026-08-11T20:30:53.161Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-racing-v1.70.0",
+          "version": "1.70.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1773546829399",
