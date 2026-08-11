@@ -1535,14 +1535,22 @@
     {
       "id": "app-game-ios-1711600000006",
       "name": "Garena Free Fire",
-      "version": "1.123.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/free-fire_1.123.1",
+      "version": "1.130",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/free-fire-hack-v1.130",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/8d/ba/4b8dba37-a240-f450-9f99-c3a611c96536/AppIcon-1767797054-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "size": "943.7 MB",
+      "size": "1002.7 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-06-10T17:20:40.442Z"
+      "updatedAt": "2026-08-11T09:35:50.672Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/free-fire_1.123.1",
+          "version": "1.123.1"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-game-ios-1711600000007",
