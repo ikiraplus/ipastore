@@ -1125,6 +1125,22 @@
       "recommended": false,
       "addedAt": "2026-08-11T09:48:26.285Z",
       "updatedAt": "2026-08-11T09:48:26.285Z"
+    },
+    {
+      "id": "dylib-1786480592693",
+      "name": "نسخ احتياطي للملفات",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/na9backup",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/ea/16/49ea16e6-6798-1ba4-e05f-b66127a4d7eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.3 MB",
+      "note": "احقن ملف الدايلب في اي تطبيق لأخذ واستعادة وادارة النسخ الاحتياطي لمجلدات بيانات التطبيق\nDocuments \nLibrary\nStoreKit\nSystemData\ntmp\nو الـAppGroups المصرّح بالوصول لها",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-11T20:36:32.697Z",
+      "updatedAt": "2026-08-11T20:36:32.697Z"
     }
   ]
 }
