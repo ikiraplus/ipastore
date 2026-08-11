@@ -1099,6 +1099,22 @@
       "recommended": false,
       "addedAt": "2026-08-09T16:22:50.271Z",
       "updatedAt": "2026-08-09T16:22:50.271Z"
+    },
+    {
+      "id": "dylib-1786441706284",
+      "name": "تغيير موقع الخريطة",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Changelocation-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/0d/aa/e50daa3e-a739-faa7-058e-f30d4c3b0a59/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.5 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-11T09:48:26.285Z",
+      "updatedAt": "2026-08-11T09:48:26.285Z"
     }
   ]
 }
