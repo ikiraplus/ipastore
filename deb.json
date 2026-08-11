@@ -83,18 +83,23 @@
     {
       "id": "dylib-1784534341196",
       "name": "اختيار خط للتطبيق",
-      "version": "2.0",
+      "version": "3.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/na9fonts",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/na9fonts-1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/0f/25/7d0f25d9-a030-8fc9-f842-921b71e58410/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
-      "previousVersions": [],
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/na9fonts",
+          "version": "2.0"
+        }
+      ],
       "size": "0.1 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T07:59:01.197Z",
-      "updatedAt": "2026-07-20T07:59:01.197Z"
+      "updatedAt": "2026-08-11T20:33:08.148Z"
     },
     {
       "id": "dylib-1784534372441",
