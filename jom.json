@@ -4651,21 +4651,25 @@
       "id": "app-1785405026258",
       "name": "iQ Tele",
       "version": "12.9.2",
-      "toolVersion": "1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele_12.9.2-v1.1",
+      "toolVersion": "1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele_12.9.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/83/96/c183964f-32d7-16fe-57ab-8c66518f6625/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele_12.9.2-v1.1",
+          "version": "12.9.2"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele_v1.0",
           "version": "12.9.2"
         }
       ],
-      "size": "72.8 MB",
+      "size": "72.7 MB",
       "note": "لا تكرر النسخة",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-30T09:50:26.259Z",
-      "updatedAt": "2026-08-02T15:40:06.991Z"
+      "updatedAt": "2026-08-11T09:36:41.128Z"
     },
     {
       "id": "app-1785419223892",
