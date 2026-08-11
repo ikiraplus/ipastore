@@ -3688,16 +3688,20 @@
     {
       "id": "app-1781879182624",
       "name": "bazaart ai photo editor design",
-      "version": "26.3.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bazaart_ai_photo_editor_design_v26.3.9_premium_unlocked",
+      "version": "26.4.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bazaart_ai_photo_editor_design_v26.4.0_premium_unlocked",
       "icon": "https://play-lh.googleusercontent.com/5M15M4fZm5w7s7BhBAszwmz3VmgFwmTPH6Is_E5tWcdpOI96mCBnzCBP6t92TZ_is2DBxCUfI4S_a3paYgAdz0U",
-      "size": "99.1 MB",
+      "size": "102.3 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T14:26:22.625Z",
-      "updatedAt": "2026-07-30T14:20:40.477Z",
+      "updatedAt": "2026-08-11T09:34:39.987Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bazaart_ai_photo_editor_design_v26.3.9_premium_unlocked",
+          "version": "26.3.9"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bazaart-ai-photo-editor-design-1",
           "version": "last version"
