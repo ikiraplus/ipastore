@@ -4858,22 +4858,26 @@
     {
       "id": "app-1785684492574",
       "name": "YouTube Music Multi ultimate",
-      "version": "9.31.4",
+      "version": "9.32.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music_9.31.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music-plus_9.32.4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/33/fc/6b33fc06-e0e8-e5b2-16af-e65bb52658bd/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music_9.31.4",
+          "version": "9.31.4"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music-multiultimate_9.30.4",
           "version": "9.30.4"
         }
       ],
-      "size": "101.2 MB",
+      "size": "102.1 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-02T15:28:12.577Z",
-      "updatedAt": "2026-08-06T09:46:00.339Z"
+      "updatedAt": "2026-08-11T09:38:21.223Z"
     },
     {
       "id": "app-1785684581042",
