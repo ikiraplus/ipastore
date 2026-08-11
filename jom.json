@@ -4984,17 +4984,22 @@
     {
       "id": "app-1785685176172",
       "name": "365scores Live Scores News",
-      "version": "6.6.2",
+      "version": "6.6.3",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.3",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/7b/23/517b2300-c347-8a58-611a-973d08a5b2cb/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "82.1 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.2",
+          "version": "6.6.2"
+        }
+      ],
+      "size": "84.1 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-02T15:39:36.173Z",
-      "updatedAt": "2026-08-02T15:39:36.173Z"
+      "updatedAt": "2026-08-11T20:31:29.048Z"
     },
     {
       "id": "app-1785999201825",
