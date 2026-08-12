@@ -5420,6 +5420,21 @@
       "recommended": false,
       "addedAt": "2026-08-12T10:10:32.893Z",
       "updatedAt": "2026-08-12T10:10:32.893Z"
+    },
+    {
+      "id": "app-1786529488161",
+      "name": "Math AI Problem Solver Helper",
+      "version": "4.7.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/math-ai-problem-solver-helper-v4.7.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/1b/ab/3c1babb3-1ae5-6515-ea18-199781498b7e/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "106.2 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-12T10:11:28.163Z",
+      "updatedAt": "2026-08-12T10:11:28.163Z"
     }
   ]
 }
