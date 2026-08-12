@@ -5363,6 +5363,21 @@
       "recommended": false,
       "addedAt": "2026-08-12T03:10:16.631Z",
       "updatedAt": "2026-08-12T03:10:16.631Z"
+    },
+    {
+      "id": "app-1786504243148",
+      "name": "Infuse Plus",
+      "version": "8.5.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.1-infuse-plus-v2.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/bb/6c/fabb6cea-c350-8e36-a81f-97ed059f092c/AppIcon-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "97.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-12T03:10:43.149Z",
+      "updatedAt": "2026-08-12T03:10:43.149Z"
     }
   ]
 }
