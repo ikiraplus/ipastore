@@ -4262,23 +4262,23 @@
     {
       "id": "app-1783611908490",
       "name": "homescapes",
-      "version": "9.0.501",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.501",
+      "version": "9.0.602",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.602",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPiOSxnagOIRgD2KtVOJCpsRYBoJ8NruWADxsqnW9C9Q&s=10",
-      "size": "198.0 MB",
+      "size": "205.1 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-09T15:45:08.491Z",
-      "updatedAt": "2026-08-07T08:12:48.892Z",
+      "updatedAt": "2026-08-12T17:41:17.475Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.103",
-          "version": "9.0.103"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.501",
+          "version": "9.0.501"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-8.9.701",
-          "version": "8.9.701"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.103",
+          "version": "9.0.103"
         }
       ],
       "recommended": false
