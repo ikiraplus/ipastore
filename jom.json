@@ -5505,6 +5505,21 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:42:01.024Z",
       "updatedAt": "2026-08-12T17:42:01.024Z"
+    },
+    {
+      "id": "app-1786556547984",
+      "name": "Metro 2055 Survival Rpg",
+      "version": "0.0.064",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/metro-2055-survival-rpg-0.0.064",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/6e/bd/426ebd5e-0198-9e4e-a4a5-999ef98ed40d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1344.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-12T17:42:27.985Z",
+      "updatedAt": "2026-08-12T17:42:27.985Z"
     }
   ]
 }
