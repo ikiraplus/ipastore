@@ -5520,6 +5520,21 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:42:27.985Z",
       "updatedAt": "2026-08-12T17:42:27.985Z"
+    },
+    {
+      "id": "app-1786556573059",
+      "name": "Super Heavy Iron Tank",
+      "version": "1.1.16",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/super-heavy-iron-tank-1.1.16",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/21/78/c0217875-cef7-e112-d984-0d267225c932/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "151.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-12T17:42:53.059Z",
+      "updatedAt": "2026-08-12T17:42:53.059Z"
     }
   ]
 }
