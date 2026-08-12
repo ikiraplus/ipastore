@@ -5460,6 +5460,21 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:38:53.769Z",
       "updatedAt": "2026-08-12T17:38:53.769Z"
+    },
+    {
+      "id": "app-1786556382126",
+      "name": "Soulterra",
+      "version": "0.5.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soulterra-0.5.5",
+      "icon": "",
+      "previousVersions": [],
+      "size": "234.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-12T17:39:42.127Z",
+      "updatedAt": "2026-08-12T17:39:42.127Z"
     }
   ]
 }
