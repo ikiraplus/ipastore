@@ -5348,6 +5348,21 @@
       "recommended": false,
       "addedAt": "2026-08-11T20:32:38.178Z",
       "updatedAt": "2026-08-11T20:32:38.178Z"
+    },
+    {
+      "id": "app-1786504216624",
+      "name": "Offline Music Player",
+      "version": "3.9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-music-player-v3.9.2-pro-unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/bd/5a/4dbd5ac8-267a-bbe9-60c0-8cacecdbe017/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "106.6 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-12T03:10:16.631Z",
+      "updatedAt": "2026-08-12T03:10:16.631Z"
     }
   ]
 }
