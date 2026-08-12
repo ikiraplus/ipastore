@@ -5490,6 +5490,21 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:40:33.294Z",
       "updatedAt": "2026-08-12T17:40:33.294Z"
+    },
+    {
+      "id": "app-1786556521023",
+      "name": "Fishing Clash",
+      "version": "1.0.485",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fishing-clash-1.0.485",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/68/43/1d684353-ff63-ac93-676f-0596b2cb4a40/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "166.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-12T17:42:01.024Z",
+      "updatedAt": "2026-08-12T17:42:01.024Z"
     }
   ]
 }
