@@ -5576,6 +5576,21 @@
       "recommended": false,
       "addedAt": "2026-08-13T08:11:27.826Z",
       "updatedAt": "2026-08-13T08:11:27.826Z"
+    },
+    {
+      "id": "app-1786608841597",
+      "name": "Reddit Filter",
+      "version": "2026.32.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reddit-filter_2026.32.0_fl",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786608841597.png",
+      "previousVersions": [],
+      "size": "126.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-13T08:14:06.412Z",
+      "updatedAt": "2026-08-13T08:14:06.412Z"
     }
   ]
 }
