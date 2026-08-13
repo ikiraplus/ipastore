@@ -706,23 +706,23 @@
     {
       "id": "app-1773509781841",
       "name": "picsart pro",
-      "version": "30.5.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/picsart_ai_photo_editor-_video_v30.5.2_subscription_unlocked",
+      "version": "30.5.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/picsart_ai_photo_editor-_video_v30.5.3_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/af/12/9caf1214-1f7d-bdbb-d37e-0487be5ebba0/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "",
+      "size": "111.6 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-11T09:38:01.276Z",
+      "updatedAt": "2026-08-13T08:10:10.479Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/picsart_ai_photo_editor-_video_v30.5.1_subscription_unlocked",
-          "version": "30.5.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/picsart_ai_photo_editor-_video_v30.5.2_subscription_unlocked",
+          "version": "30.5.2"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/picsart_ai_photo_editor-_video_v30.3.3_subscription_unlocked_",
-          "version": "30.3.3"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/picsart_ai_photo_editor-_video_v30.5.1_subscription_unlocked",
+          "version": "30.5.1"
         }
       ],
       "recommended": false
