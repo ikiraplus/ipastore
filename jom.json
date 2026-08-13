@@ -4521,18 +4521,23 @@
     },
     {
       "id": "app-1784914075063",
-      "name": "Pinatv",
-      "version": "2.0.2",
+      "name": "PinaTv Pro",
+      "version": "2.6",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-noads-2.0.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-pro_2.6",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784914075063.png",
-      "previousVersions": [],
-      "size": "21.6 MB",
-      "note": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-noads-2.0.2",
+          "version": "2.0.2"
+        }
+      ],
+      "size": "21.3 MB",
+      "note": "تطبيق PinaTv Pro الإصدار المحدث مع ابرز الإضافات والتعديلات :\n\n- فتح جميع مميزات الـvip.\n- منع كافة الإعلانات والتوقفات.\n- إضافة زر pip ( يمكنك الخروج من التطبيق أثناء المشاهدة وسيتفعل وضع pip او يمكنك ضغط على زر feedback او وضع pip )\n- إضافة زر حفظ غلاف الفلم.\n- تحميل ومشاهدة بدقة 1080.",
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-07-24T17:28:07.767Z",
-      "updatedAt": "2026-07-24T17:28:07.767Z"
+      "updatedAt": "2026-08-13T14:33:40.798Z"
     },
     {
       "id": "app-1784914958212",
