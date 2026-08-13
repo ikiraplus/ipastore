@@ -5591,6 +5591,21 @@
       "recommended": false,
       "addedAt": "2026-08-13T08:14:06.412Z",
       "updatedAt": "2026-08-13T08:14:06.412Z"
+    },
+    {
+      "id": "app-1786608871157",
+      "name": "Co camera",
+      "version": "2.3.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cocamera_v2.3.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/ef/e7/a3efe7f3-96c1-eea6-ea19-0391077935ec/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "36.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-13T08:14:31.159Z",
+      "updatedAt": "2026-08-13T08:14:31.159Z"
     }
   ]
 }
