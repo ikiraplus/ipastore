@@ -5271,17 +5271,22 @@
     {
       "id": "app-1786290881074",
       "name": "Spotify Eevee",
-      "version": "9.1.74",
+      "version": "9.1.76",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-eavee_9.1.74",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_es",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/74/07/42740742-a513-c1f3-ae00-b4b0a7d56ba5/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "125.8 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-eavee_9.1.74",
+          "version": "9.1.74"
+        }
+      ],
+      "size": "126.8 MB",
       "note": "",
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-09T15:54:41.076Z",
-      "updatedAt": "2026-08-09T15:54:41.076Z"
+      "updatedAt": "2026-08-13T08:12:21.140Z"
     },
     {
       "id": "app-1786291169111",
