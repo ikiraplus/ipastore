@@ -742,14 +742,22 @@
     {
       "id": "app-1773511362148",
       "name": "pinterest pro",
-      "version": "14.25",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.25",
+      "version": "14.31",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.31",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/a5/d6/43a5d6ef-f21d-50df-519f-2dc707acadf1/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "131.4 MB",
+      "size": "137.3 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-07-01T18:36:54.366Z"
+      "updatedAt": "2026-08-13T08:06:21.445Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.25",
+          "version": "14.25"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1773508897375",
