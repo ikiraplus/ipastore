@@ -5552,6 +5552,21 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:42:53.059Z",
       "updatedAt": "2026-08-12T17:42:53.059Z"
+    },
+    {
+      "id": "app-1786608687825",
+      "name": "Twitch Control",
+      "version": "30.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twitch-control_30.8_tc",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/82/7f/d9827f07-1d10-0186-70f2-1218df91066e/TwitchAppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "133.2 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-13T08:11:27.826Z",
+      "updatedAt": "2026-08-13T08:11:27.826Z"
     }
   ]
 }
