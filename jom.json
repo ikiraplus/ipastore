@@ -5090,18 +5090,23 @@
     },
     {
       "id": "app-1785999503477",
-      "name": "Twitch",
-      "version": "30.7",
+      "name": "Twitch Cracked",
+      "version": "30.8",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twitch_30.7_crack",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twitch-cracked_30.8_tw",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/fd/78/5bfd78ad-6723-8e0e-545f-c1da6c9d7e98/TwitchAppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "141.1 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twitch_30.7_crack",
+          "version": "30.7"
+        }
+      ],
+      "size": "143.7 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-06T06:58:23.478Z",
-      "updatedAt": "2026-08-09T15:56:04.747Z"
+      "updatedAt": "2026-08-13T08:11:01.561Z"
     },
     {
       "id": "app-1785999590853",
