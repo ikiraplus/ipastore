@@ -5675,6 +5675,21 @@
       "recommended": false,
       "addedAt": "2026-08-17T07:47:51.669Z",
       "updatedAt": "2026-08-17T07:47:51.669Z"
+    },
+    {
+      "id": "app-1786953129617",
+      "name": "Simply Sing My Singing App",
+      "version": "3.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_sing_my_singing_app_v3.0.8_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/77/ec/3477ecc4-9dd4-0446-8395-e7b444e877bb/AppIcon-new-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "111.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-17T07:52:09.618Z",
+      "updatedAt": "2026-08-17T07:52:09.618Z"
     }
   ]
 }
