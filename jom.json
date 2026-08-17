@@ -1368,11 +1368,15 @@
       "name": "Five Nights at Freddy's 2",
       "version": "2.0.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys-2_v205-1",
-      "icon": "https://appstore.nabzclan.vip/images/icon_68fed02f23442.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/74/30/b1/7430b134-0ebe-53ef-88b9-53cfc8d3acce/AppIcon-0-0-1x_U007epad-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
       "size": "111.7 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-17T13:26:47.115Z"
     },
     {
       "id": "app-1773574683772",
