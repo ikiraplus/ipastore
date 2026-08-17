@@ -4024,16 +4024,20 @@
     {
       "id": "app-1782929381420",
       "name": "X twitter - NFB-TWIgalaxy",
-      "version": "12.14",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.14-nfb-twi",
+      "version": "12.17",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.17-nfb-twi",
       "icon": "https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg",
-      "size": "221.9 MB",
+      "size": "223.4 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-01T18:09:41.421Z",
-      "updatedAt": "2026-08-06T07:08:38.423Z",
+      "updatedAt": "2026-08-17T07:45:22.358Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.14-nfb-twi",
+          "version": "12.14"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x_12.3_dltwitter-2.17_twigalaxy_1.13",
           "version": "12.3"
