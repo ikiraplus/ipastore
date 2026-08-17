@@ -2744,14 +2744,22 @@
     {
       "id": "app-1778257326818",
       "name": "efootball",
-      "version": "10.5.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/efootball-10.5.0",
+      "version": "11.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/efootball-11.0.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/b4/ef/9cb4ef93-ae27-244b-4c80-430d1195bd1a/PesMobile-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "2929.0 MB",
+      "size": "3080.1 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:22:06.819Z",
-      "updatedAt": "2026-06-01T19:20:44.752Z"
+      "updatedAt": "2026-08-17T07:53:58.859Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/efootball-10.5.0",
+          "version": "10.5.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1778257378077",
