@@ -4609,26 +4609,26 @@
     {
       "id": "app-1784919575272",
       "name": "Block Blast",
-      "version": "7.3.3",
+      "version": "7.3.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-v7.3.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-7.3.4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/74/f5/6e74f555-a090-b9f6-71e2-c30907a12793/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-7.3.1",
-          "version": "7.3.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-v7.3.3",
+          "version": "7.3.3"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-v7.3.1",
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-7.3.1",
           "version": "7.3.1"
         }
       ],
-      "size": "100.0 MB",
+      "size": "85.4 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-24T18:59:35.273Z",
-      "updatedAt": "2026-08-06T07:11:13.425Z"
+      "updatedAt": "2026-08-17T07:58:55.115Z"
     },
     {
       "id": "app-1784979660131",
