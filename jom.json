@@ -5743,8 +5743,8 @@
     },
     {
       "id": "app-1786953711702",
-      "name": "Zombie Sniper War",
-      "version": "3.2.1",
+      "name": "Zombie Sniper War 3",
+      "version": "2.1",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zombie-sniper-war-3.2.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/7a/56/ee7a56e3-3f23-e4fc-3cac-140d3d59b88d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
@@ -5754,7 +5754,7 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T08:01:51.703Z",
-      "updatedAt": "2026-08-17T08:01:51.703Z"
+      "updatedAt": "2026-08-17T08:02:32.663Z"
     }
   ]
 }
