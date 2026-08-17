@@ -4008,16 +4008,20 @@
     {
       "id": "app-1782928679650",
       "name": "guardian hunter",
-      "version": "16.1.7",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.1.7",
+      "version": "16.1.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.1.9",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7cRsinhpWTf-cq1rC4LlvtwEf9k_WrZ9kPRBYSVV_4A&s=10",
-      "size": "65.6 MB",
+      "size": "65.7 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:57:59.651Z",
-      "updatedAt": "2026-08-07T08:17:21.102Z",
+      "updatedAt": "2026-08-17T07:52:49.802Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.1.7",
+          "version": "16.1.7"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.0.9",
           "version": "16.0.9"
