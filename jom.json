@@ -5624,6 +5624,21 @@
       "recommended": false,
       "addedAt": "2026-08-13T08:14:31.159Z",
       "updatedAt": "2026-08-13T08:14:31.159Z"
+    },
+    {
+      "id": "app-1786952822038",
+      "name": "iQ Tv",
+      "version": "3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f6/c3/83/f6c38342-856e-cbba-a312-5aeeec0b46aa/AppIcon-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "20.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-17T07:47:02.039Z",
+      "updatedAt": "2026-08-17T07:47:02.039Z"
     }
   ]
 }
