@@ -4220,23 +4220,23 @@
     {
       "id": "app-1783499448573",
       "name": "TikTok R3",
-      "version": "46.2.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/r3tok_46.2.0",
+      "version": "46.4.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/r3tok_46.4.0-v2.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "",
+      "size": "433.0 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-08T08:30:48.574Z",
-      "updatedAt": "2026-08-06T07:20:58.643Z",
-      "toolVersion": "2.0",
+      "updatedAt": "2026-08-17T08:12:58.494Z",
+      "toolVersion": "2.1",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/r3tok_46.2.0",
+          "version": "46.2.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/r3tok_1.8",
           "version": "46.0.0"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/r3tok_1.6",
-          "version": "45.9.0"
         }
       ],
       "recommended": false
