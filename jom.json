@@ -1302,11 +1302,15 @@
       "name": "Brawl Stars - Null's Brawl",
       "version": "65.165",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/null's-brawl-66.293",
-      "icon": "https://appstore.nabzclan.vip/images/icon_691a94c020d67.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/15/b1/d215b17b-b984-732c-0d74-41a45bbcb77d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "size": "996.3 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-04-07"
+      "addedAt": "2026-04-07",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-17T13:22:42.113Z"
     },
     {
       "id": "app-1773574679669",
