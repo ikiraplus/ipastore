@@ -5793,6 +5793,21 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:06:40.675Z",
       "updatedAt": "2026-08-17T08:06:40.675Z"
+    },
+    {
+      "id": "app-1786954131517",
+      "name": "Cinejoy",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinejoy-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/51/43/3d514393-b7fd-3235-3271-c01836e63ed5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1.9 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-17T08:08:51.518Z",
+      "updatedAt": "2026-08-17T08:08:51.518Z"
     }
   ]
 }
