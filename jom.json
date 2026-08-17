@@ -3024,22 +3024,22 @@
     {
       "id": "app-1780341422823",
       "name": "township",
-      "version": "37.1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-37.1.0",
+      "version": "38.0.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-38.0.1",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNbmzTIJu_ov2S5_TembSSsM6NVBmuVq1Sw&s",
-      "size": "211.3 MB",
+      "size": "206.8 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:17:02.824Z",
-      "updatedAt": "2026-07-21T15:10:03.081Z",
+      "updatedAt": "2026-08-17T08:00:06.863Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-37.0.1-1",
-          "version": "37.0.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-37.1.0",
+          "version": "37.1.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-37.0.1",
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-37.0.1-1",
           "version": "37.0.1"
         }
       ],
