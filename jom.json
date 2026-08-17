@@ -3392,14 +3392,22 @@
     {
       "id": "app-1781375241885",
       "name": "angry birds transformers",
-      "version": "2.40.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-transformers",
+      "version": "2.41.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2.41.0",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPyQB9iMdViIEgd8fl5e9xb5_v_paiV_3rGFvVpjvW4w&s=10",
-      "size": "342.0 MB",
+      "size": "349.2 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:27:21.886Z",
-      "updatedAt": "2026-06-13T18:27:21.886Z"
+      "updatedAt": "2026-08-17T07:59:34.360Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-transformers",
+          "version": "2.40.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1781375355051",
