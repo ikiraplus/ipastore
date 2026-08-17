@@ -5770,6 +5770,21 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:05:56.976Z",
       "updatedAt": "2026-08-17T08:05:56.976Z"
+    },
+    {
+      "id": "app-1786954000673",
+      "name": "Speedstorm",
+      "version": "1.20.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/speedstorm-1.20.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/80/c3/b280c3c2-fe19-0555-909c-8a598d710e46/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2650.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-17T08:06:40.675Z",
+      "updatedAt": "2026-08-17T08:06:40.675Z"
     }
   ]
 }
