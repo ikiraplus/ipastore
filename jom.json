@@ -5755,6 +5755,21 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:01:51.703Z",
       "updatedAt": "2026-08-17T08:02:32.663Z"
+    },
+    {
+      "id": "app-1786953956975",
+      "name": "Endless Wander",
+      "version": "4.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/endless-wander-4.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/c1/d9/15c1d9d8-5d60-ecdd-c142-2548314532ec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "394.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-17T08:05:56.976Z",
+      "updatedAt": "2026-08-17T08:05:56.976Z"
     }
   ]
 }
