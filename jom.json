@@ -1383,11 +1383,15 @@
       "name": "Five Nights at Freddy's 3",
       "version": "2.0.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys-3_v203-1",
-      "icon": "https://appstore.nabzclan.vip/images/icon_68feceb6f3c42.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/c1/68/67c16812-d955-5bc5-789d-a52eb8d38940/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
       "size": "62.7 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-17T13:28:46.272Z"
     },
     {
       "id": "app-1773575031572",
