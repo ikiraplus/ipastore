@@ -1433,11 +1433,15 @@
       "name": "Five Nights at Freddy's 4",
       "version": "2.0.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys-4_v202-1",
-      "icon": "https://appstore.nabzclan.vip/images/icon_68fed0dfb6994.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/73/d4/ad73d428-ce0b-5b46-2883-9b424d0a3408/AppIcon-1x_U007epad-0-85-220-0.png/512x512bb.jpg",
       "size": "42.2 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-17T13:29:09.210Z"
     },
     {
       "id": "app-1773597157329",
