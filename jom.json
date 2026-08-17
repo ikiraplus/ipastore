@@ -5808,6 +5808,21 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:08:51.518Z",
       "updatedAt": "2026-08-17T08:08:51.518Z"
+    },
+    {
+      "id": "app-1786954236382",
+      "name": "Qurmzi",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/qurmzi",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786954236382.png",
+      "previousVersions": [],
+      "size": "0.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-17T08:10:38.733Z",
+      "updatedAt": "2026-08-17T08:10:38.733Z"
     }
   ]
 }
