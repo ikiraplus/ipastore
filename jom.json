@@ -1102,13 +1102,17 @@
     {
       "id": "app-1773546985363",
       "name": "Bully",
-      "version": "Last",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bully-1",
+      "version": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bully-anniversary-edition-v1.1",
       "icon": "https://ittza7aa.com/aseets/icon/bully.png",
-      "size": "300 MB",
+      "size": "1781.3 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-18T16:49:54.006Z"
     },
     {
       "id": "app-1773547000504",
