@@ -1836,13 +1836,22 @@
     {
       "id": "app-iosgods-djay-3127",
       "name": "djay - DJ App & AI Mixer",
-      "version": "5.6.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/djay-dj-app-ai-mixer-mdthlckipv-1",
+      "version": "5.6.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/djay-dj-app-ai-mixer-v5.6.8",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/eb/f1/9bebf19f-98b7-7a74-228d-36d292ce2499/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-85-220.png/512x512bb.jpg",
-      "size": "572 MB",
+      "size": "185.2 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "أدوات",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/djay-dj-app-ai-mixer-mdthlckipv-1",
+          "version": "5.6.2"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-08-19T13:23:01.593Z"
     },
     {
       "id": "app-iosgods-camscanner-3095",
