@@ -367,14 +367,22 @@
     {
       "id": "app-1773436387699",
       "name": "Facebook Wolf",
-      "version": "544.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/facebook-(wolf)-v544.0.0",
+      "version": "511.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/facebook-wolf-511.0.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/38/f6/2e38f637-d73e-7125-2534-06e9ede567b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "163.9 MB",
+      "size": "164.1 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-04-21"
+      "updatedAt": "2026-08-19T13:22:18.300Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/facebook-(wolf)-v544.0.0",
+          "version": "544.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1773436444365",
