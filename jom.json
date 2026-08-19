@@ -2198,13 +2198,22 @@
     {
       "id": "app-iosgods-lego-duplo-peppa-5365",
       "name": "LEGO DUPLO: Peppa Pig",
-      "version": "3.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lego-duplo-peppa-pig-hack-5egfiq5nyb-1",
+      "version": "13.1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lego-duplo-peppa-pig-hack",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/d4/2c/54d42c5c-b956-4714-2596-8266dc938fcd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "165 MB",
+      "size": "208.3 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lego-duplo-peppa-pig-hack-5egfiq5nyb-1",
+          "version": "3.0.0"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-08-19T17:22:24.433Z"
     },
     {
       "id": "app-iosgods-supermarket-simulator-4582",
