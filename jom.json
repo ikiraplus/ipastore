@@ -3412,13 +3412,16 @@
       "id": "app-1781374974021",
       "name": "angry birds bounce",
       "version": "1.0.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_bounce",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_bounce-1",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6AQbJ_d1Zy-o1h1qiOrM79RjQMWup6fHzXqB6Njl4yA&s=10",
       "size": "412.3 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:22:54.023Z",
-      "updatedAt": "2026-06-13T18:22:54.023Z"
+      "updatedAt": "2026-08-19T15:34:58.047Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1781375046602",
