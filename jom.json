@@ -3442,13 +3442,16 @@
       "id": "app-1781375116495",
       "name": "angry birds go",
       "version": "2.8.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-go",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-go-1",
       "icon": "https://sm.ign.com/ign_me/cover/a/angry-birds-go/angry-birds-go_4hx3.jpg",
       "size": "249.2 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:25:16.497Z",
-      "updatedAt": "2026-06-13T18:25:16.497Z"
+      "updatedAt": "2026-08-19T15:35:58.299Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1781375167665",
