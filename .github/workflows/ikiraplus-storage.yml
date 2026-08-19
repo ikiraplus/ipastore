@@ -7,18 +7,26 @@ on:
 permissions:
   contents: write
 
+# نخلي مهام التخزين تدخل بالترتيب حتى ما يصير سباق عند امتلاء Release.
+concurrency:
+  group: ikiraplus-storage-serial
+  cancel-in-progress: false
+
 jobs:
   mirror-to-release:
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
     env:
-      STORAGE_TAG: storage
       # sourceUrl = رابط dl.ikiraplus الذي يعمل مع باقي المواقع
       PROXY_URL: ${{ github.event.client_payload.sourceUrl }}
       # originalUrl = الرابط الأصلي قبل الاختصار؛ مهم جداً لـ MediaFire
       ORIGINAL_URL: ${{ github.event.client_payload.originalUrl || github.event.client_payload.sourceUrl }}
       ASSET_NAME: ${{ github.event.client_payload.assetName }}
+      SHORT_ID: ${{ github.event.client_payload.shortId }}
+      CALLBACK_URL: ${{ github.event.client_payload.callbackUrl }}
+      CALLBACK_TOKEN: ${{ github.event.client_payload.callbackToken }}
+
 
     steps:
       - name: Validate request
@@ -28,6 +36,9 @@ jobs:
           test -n "$PROXY_URL"
           test -n "$ORIGINAL_URL"
           test -n "$ASSET_NAME"
+          test -n "$SHORT_ID"
+          test -n "$CALLBACK_URL"
+          test -n "$CALLBACK_TOKEN"
           case "$ASSET_NAME" in
             */*|*\\*) echo "Invalid asset name"; exit 1 ;;
           esac
@@ -329,27 +340,82 @@ jobs:
           print(f"Final size: {size} bytes ({size / 1024 / 1024:.2f} MiB)")
           PY
 
-      - name: Ensure storage release exists
+      - name: Choose storage release
+        id: storage
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
-          if ! gh release view "$STORAGE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh release create "$STORAGE_TAG" \
-              --repo "$GITHUB_REPOSITORY" \
-              --title "storage" \
-              --notes "iKiraPlus permanent file storage"
-          fi
 
-      - name: Upload validated file to storage release
+          # القاعدة:
+          # storage -> storage-2 -> storage-3 ...
+          # لا نفتح الجديد إلا إذا الحالي وصل 1000 Asset.
+          # وإذا نفس اسم الملف موجود بإصدار أقدم، نرجع لنفس Release ونستبدله هناك.
+          index=1
+          chosen=""
+
+          while true; do
+            if [ "$index" -eq 1 ]; then
+              tag="storage"
+            else
+              tag="storage-$index"
+            fi
+
+            if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+              release_id="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$tag" --jq '.id')"
+
+              existing="$({
+                gh api --paginate \
+                  "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" |
+                jq -r --arg n "$ASSET_NAME" '.[] | select(.name == $n) | .id'
+              } | head -n 1 || true)"
+
+              if [ -n "$existing" ]; then
+                chosen="$tag"
+                echo "Same asset name already exists in $tag; it will be replaced."
+                break
+              fi
+
+              count="$({
+                gh api --paginate \
+                  "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" \
+                  --jq '.[].id'
+              } | wc -l | tr -d ' ')"
+
+              echo "$tag contains $count assets"
+
+              if [ "$count" -lt 1000 ]; then
+                chosen="$tag"
+                break
+              fi
+
+              index=$((index + 1))
+              continue
+            fi
+
+            # أول Release غير موجود هو التالي المطلوب؛ ينشأ فقط بعد امتلاء السابق.
+            gh release create "$tag" \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$tag" \
+              --notes "iKiraPlus permanent file storage"
+            chosen="$tag"
+            break
+          done
+
+          test -n "$chosen"
+          echo "tag=$chosen" >> "$GITHUB_OUTPUT"
+          echo "Selected release: $chosen"
+
+      - name: Upload validated file to selected release
         env:
           GH_TOKEN: ${{ github.token }}
+          STORAGE_TAG: ${{ steps.storage.outputs.tag }}
         shell: bash
         run: |
           set -euo pipefail
           FILE="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
-          echo "Uploading:"
+          echo "Uploading to $STORAGE_TAG:"
           ls -lh "$FILE"
           gh release upload "$STORAGE_TAG" \
             "$FILE" \
@@ -359,22 +425,73 @@ jobs:
       - name: Verify uploaded asset size
         env:
           GH_TOKEN: ${{ github.token }}
+          STORAGE_TAG: ${{ steps.storage.outputs.tag }}
         shell: bash
         run: |
           set -euo pipefail
           LOCAL="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
           LOCAL_SIZE="$(stat -c%s "$LOCAL")"
 
-          REMOTE_SIZE="$(
-            gh api "repos/$GITHUB_REPOSITORY/releases/tags/$STORAGE_TAG" |
-            jq -r --arg name "$ASSET_NAME" \
-              '.assets[] | select(.name == $name) | .size' |
-            tail -n 1
-          )"
+          RELEASE_ID="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$STORAGE_TAG" --jq '.id')"
+          REMOTE_SIZE="$({
+            gh api --paginate \
+              "repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID/assets?per_page=100" |
+            jq -r --arg name "$ASSET_NAME" '.[] | select(.name == $name) | .size'
+          } | tail -n 1)"
 
           echo "Local size : $LOCAL_SIZE bytes"
           echo "GitHub size: $REMOTE_SIZE bytes"
-
           test -n "$REMOTE_SIZE"
           test "$LOCAL_SIZE" = "$REMOTE_SIZE"
           echo "Upload verified successfully."
+
+      - name: Make GitHub the primary DL source immediately
+        env:
+          STORAGE_TAG: ${{ steps.storage.outputs.tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          payload="$(jq -n \
+            --arg id "$SHORT_ID" \
+            --arg token "$CALLBACK_TOKEN" \
+            --arg releaseTag "$STORAGE_TAG" \
+            --arg assetName "$ASSET_NAME" \
+            '{id:$id,token:$token,releaseTag:$releaseTag,assetName:$assetName}')"
+
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --retry 12 \
+            --retry-delay 2 \
+            --retry-all-errors \
+            --header "Content-Type: application/json" \
+            --data "$payload" \
+            "$CALLBACK_URL"
+
+          echo "Worker callback completed. GitHub is now the primary DL source."
+
+      - name: Report failure to Worker
+        if: failure()
+        shell: bash
+        run: |
+          set +e
+          if [ -z "${CALLBACK_URL:-}" ] || [ -z "${CALLBACK_TOKEN:-}" ] || [ -z "${SHORT_ID:-}" ]; then
+            exit 0
+          fi
+
+          payload="$(jq -n \
+            --arg id "$SHORT_ID" \
+            --arg token "$CALLBACK_TOKEN" \
+            --arg message "GitHub Actions failed while downloading, validating, or uploading the file" \
+            '{id:$id,token:$token,message:$message}')"
+
+          curl \
+            --silent \
+            --show-error \
+            --retry 6 \
+            --retry-delay 2 \
+            --header "Content-Type: application/json" \
+            --data "$payload" \
+            "${CALLBACK_URL%/github-complete}/github-failed" || true
