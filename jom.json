@@ -3967,13 +3967,16 @@
       "id": "app-1781881831989",
       "name": "funimate video editor",
       "version": "17.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/funimate-video-editor",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/funimate-video-editor-pro",
       "icon": "https://play-lh.googleusercontent.com/yvkR0KYBGU4ZpZvn8gey7Bb6xNpQZ1Pn_xK6mX5zF8LmkwvgEdyoTYDkGPPOzbIVVFrOxNu7C18G2y8yhRGI",
       "size": "236.2 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T15:10:31.990Z",
-      "updatedAt": "2026-06-19T15:10:31.990Z"
+      "updatedAt": "2026-08-19T17:20:12.995Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1781881938327",
