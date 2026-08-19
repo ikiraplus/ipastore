@@ -49,14 +49,22 @@
     {
       "id": "app-1773510581948",
       "name": "Snapchat root",
-      "version": "13.90",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapchat-plus",
+      "version": "14.17.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapchatplus_14.17.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/06/90/5f0690d1-64ae-7c67-8213-a99ce2f9a58c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "204.5 MB",
-      "note": "حسابك مسؤليتك .........",
+      "size": "156.1 MB",
+      "note": "حسابك مسؤليتك .........\nنسخه سناب شات بلس معدلة ( لا تستخدمها مع حسابك الأساسي )\nطريقة التثبيت  :\n1- حول لغة جهازك للانكليزية\n2- ثبت النسخة وافتحها \n3- اضغط تسجيل او تسجيل دخول \n4- يطلب منك يوزر وباسورد اشتراك بالاداة استخدم هذي المعلومات \n\nاليوزر \nkanji\nالباسورد :\nisastupidnonce\n\nبعدها تكدر تسجل بحسابك طبيعي \nاكرر واعيد نسخة غيرر آمنة على حسابك الأساسي تسبب باند",
       "category": "تواصل",
       "addedAt": "2026-04-02",
-      "updatedAt": "2026-06-01T19:10:09.265Z"
+      "updatedAt": "2026-08-19T13:28:18.658Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapchat-plus",
+          "version": "13.90"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1773436028095",
