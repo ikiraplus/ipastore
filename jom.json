@@ -5955,6 +5955,21 @@
       "recommended": false,
       "addedAt": "2026-08-19T13:19:06.102Z",
       "updatedAt": "2026-08-19T13:19:06.102Z"
+    },
+    {
+      "id": "app-1787145608514",
+      "name": "Whitegram Original",
+      "version": "6.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-6.0.2-sideload",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784188165660.png",
+      "previousVersions": [],
+      "size": "168.2 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-19T13:20:08.515Z",
+      "updatedAt": "2026-08-19T13:20:08.515Z"
     }
   ]
 }
