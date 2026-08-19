@@ -3668,13 +3668,16 @@
       "id": "app-1781377898456",
       "name": "standoff 2",
       "version": "0.36.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/standoff-2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/standoff-2-.com",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJph7pl8RjpSLv5cBQ4auREYJsbnkjU5aBlKCv7sqeNw&s=10",
-      "size": "1506.6 MB",
+      "size": "2648.9 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:11:38.457Z",
-      "updatedAt": "2026-06-13T19:11:38.457Z"
+      "updatedAt": "2026-08-19T15:37:00.771Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1781377978601",
