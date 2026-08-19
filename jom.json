@@ -5912,6 +5912,21 @@
       "recommended": false,
       "addedAt": "2026-08-19T13:10:07.024Z",
       "updatedAt": "2026-08-19T13:10:07.024Z"
+    },
+    {
+      "id": "app-1787145165795",
+      "name": "Forza Football Live Scores",
+      "version": "7.0.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/forza-football-live-scores-v7.0.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/c5/7b/0ac57b95-188b-0d35-dc56-024a547d68f5/icon_default-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "124.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-19T13:12:45.795Z",
+      "updatedAt": "2026-08-19T13:12:45.795Z"
     }
   ]
 }
