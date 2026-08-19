@@ -1,0 +1,87 @@
+name: iKiraPlus Storage Backup
+
+on:
+  repository_dispatch:
+    types: [ikiraplus_storage]
+
+permissions:
+  contents: write
+
+jobs:
+  mirror-to-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      SOURCE_URL: ${{ github.event.client_payload.sourceUrl }}
+      ASSET_NAME: ${{ github.event.client_payload.assetName }}
+      STORAGE_TAG: storage
+
+    steps:
+      - name: Validate request
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$SOURCE_URL"
+          test -n "$ASSET_NAME"
+          case "$ASSET_NAME" in
+            */*|*\\*) echo "Invalid asset name"; exit 1 ;;
+          esac
+
+      - name: Download source file
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/ikiraplus-storage"
+          cd "$RUNNER_TEMP/ikiraplus-storage"
+
+          curl \
+            --fail \
+            --location \
+            --retry 6 \
+            --retry-delay 3 \
+            --retry-all-errors \
+            --connect-timeout 30 \
+            --max-time 1800 \
+            --user-agent "Mozilla/5.0 iKiraPlus-GitHub-Storage" \
+            --output "$ASSET_NAME" \
+            "$SOURCE_URL"
+
+          test -s "$ASSET_NAME"
+          echo "Downloaded:"
+          ls -lh "$ASSET_NAME"
+
+      - name: Ensure storage release exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! gh release view "$STORAGE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create "$STORAGE_TAG" \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "storage" \
+              --notes "iKiraPlus permanent backup storage"
+          fi
+
+      - name: Upload file to storage release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release upload "$STORAGE_TAG" \
+            "$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME" \
+            --repo "$GITHUB_REPOSITORY" \
+            --clobber
+
+      - name: Verify release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release view "$STORAGE_TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --json assets \
+            --jq '.assets[].name' | grep -Fx "$ASSET_NAME"
