@@ -5884,6 +5884,21 @@
       "recommended": false,
       "addedAt": "2026-08-17T13:07:13.317Z",
       "updatedAt": "2026-08-17T13:10:43.366Z"
+    },
+    {
+      "id": "app-1787145007023",
+      "name": "Pixel Color Paint By Number",
+      "version": "6.00.01",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pixel_color_paint_by_number_v6.00.01_subscription_unlocked_",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/b9/52/67b952c7-9a5f-297d-12e9-7b9b4d2233e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "51.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-19T13:10:07.024Z",
+      "updatedAt": "2026-08-19T13:10:07.024Z"
     }
   ]
 }
