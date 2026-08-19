@@ -4894,17 +4894,22 @@
     {
       "id": "app-1785421784128",
       "name": "Aloha Browser Private Vpn",
-      "version": "8.8.2",
+      "version": "8.9.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aloha_browser_private_vpn_v8.8.2_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aloha_browser_-_private_vpn_v8.9.0_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/6f/72/7a6f7268-715b-4c05-2095-b958f502cba7/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "131.1 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aloha_browser_private_vpn_v8.8.2_subscription_unlocked",
+          "version": "8.8.2"
+        }
+      ],
+      "size": "272.0 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-07-30T14:29:44.130Z",
-      "updatedAt": "2026-07-30T14:29:44.130Z"
+      "updatedAt": "2026-08-19T13:11:02.111Z"
     },
     {
       "id": "app-1785525280832",
