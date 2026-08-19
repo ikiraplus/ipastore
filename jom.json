@@ -2959,23 +2959,23 @@
     {
       "id": "app-1779560772086",
       "name": "reddit deluxe",
-      "version": "2026.32.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/redditdeluxes_2026.32.0",
+      "version": "2026.32.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/redditdeluxes_2026.32.2",
       "icon": "https://play-lh.googleusercontent.com/YlsjgA1pFEUqNaypaxE5ajushTBOt8IxVk_UEqzaXT7_n3JDgFq6KgtuE8tPBpvaCntB",
-      "size": "135.4 MB",
+      "size": "",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-05-23T18:26:12.087Z",
-      "updatedAt": "2026-08-11T20:32:07.127Z",
+      "updatedAt": "2026-08-19T13:17:30.420Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/redditdeluxes_2026.31.0",
-          "version": "2026.31.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/redditdeluxes_2026.32.0",
+          "version": "2026.32.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/redditdeluxes_2026.25.1",
-          "version": "2026.25.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/redditdeluxes_2026.31.0",
+          "version": "2026.31.0"
         }
       ],
       "recommended": false
