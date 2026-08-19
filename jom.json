@@ -2057,13 +2057,22 @@
     {
       "id": "app-iosgods-ibis-paint-x-2177",
       "name": "ibis Paint X",
-      "version": "13.1.18",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ibis-paint-x-modded-j0pcpyczcl-1",
+      "version": "13.2.16",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ibispaint_9.4.2-pro",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/db/bd/b1dbbda6-6919-dea9-7792-5eb896afdfaf/AppIconX-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "108.7 MB",
+      "size": "25.7 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "أدوات",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ibis-paint-x-modded-j0pcpyczcl-1",
+          "version": "13.1.18"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-08-19T17:21:56.713Z"
     },
     {
       "id": "app-iosgods-duolingo-142",
