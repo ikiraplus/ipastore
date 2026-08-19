@@ -4,38 +4,30 @@ on:
   repository_dispatch:
     types: [ikiraplus_storage]
 
-  workflow_dispatch:
-    inputs:
-      source_url:
-        description: "Direct/source URL"
-        required: true
-        type: string
-      asset_name:
-        description: "Release asset filename (example: app.ipa)"
-        required: true
-        type: string
-
 permissions:
   contents: write
 
 jobs:
   mirror-to-release:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     env:
       STORAGE_TAG: storage
-      SOURCE_URL: ${{ github.event.client_payload.sourceUrl || inputs.source_url }}
-      ASSET_NAME: ${{ github.event.client_payload.assetName || inputs.asset_name }}
+      # sourceUrl = رابط dl.ikiraplus الذي يعمل مع باقي المواقع
+      PROXY_URL: ${{ github.event.client_payload.sourceUrl }}
+      # originalUrl = الرابط الأصلي قبل الاختصار؛ مهم جداً لـ MediaFire
+      ORIGINAL_URL: ${{ github.event.client_payload.originalUrl || github.event.client_payload.sourceUrl }}
+      ASSET_NAME: ${{ github.event.client_payload.assetName }}
 
     steps:
       - name: Validate request
         shell: bash
         run: |
           set -euo pipefail
-          test -n "$SOURCE_URL"
+          test -n "$PROXY_URL"
+          test -n "$ORIGINAL_URL"
           test -n "$ASSET_NAME"
-
           case "$ASSET_NAME" in
             */*|*\\*) echo "Invalid asset name"; exit 1 ;;
           esac
@@ -50,14 +42,16 @@ jobs:
           import os
           import re
           import sys
+          import json
           import html
           import shutil
           import zipfile
           import pathlib
           import subprocess
-          from urllib.parse import urlparse, quote
+          import urllib.parse
 
-          source_url = os.environ["SOURCE_URL"].strip()
+          proxy_url = os.environ["PROXY_URL"].strip()
+          original_url = os.environ["ORIGINAL_URL"].strip()
           asset_name = os.environ["ASSET_NAME"].strip()
 
           work = pathlib.Path(os.environ["RUNNER_TEMP"]) / "ikiraplus-storage"
@@ -65,8 +59,9 @@ jobs:
 
           candidate = work / "candidate.bin"
           page_file = work / "mediafire-page.html"
+          api_file = work / "mediafire-api.json"
+          cookies = work / "cookies.txt"
           final_file = work / asset_name
-          cookie_file = work / "cookies.txt"
 
           UA = (
               "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -74,7 +69,7 @@ jobs:
               "Chrome/151.0.0.0 Safari/537.36"
           )
 
-          def run_curl(url, output, referer=None, use_cookies=False):
+          def run_curl(url, output, referer=None, cookies_enabled=False):
               if output.exists():
                   output.unlink()
 
@@ -86,27 +81,27 @@ jobs:
                   "--retry-delay", "3",
                   "--retry-all-errors",
                   "--connect-timeout", "30",
-                  "--max-time", "1800",
+                  "--max-time", "2400",
                   "--user-agent", UA,
                   "--header", "Accept: */*",
+                  "--header", "Accept-Language: en-US,en;q=0.9",
                   "--output", str(output),
               ]
 
               if referer:
                   cmd += ["--referer", referer]
 
-              if use_cookies:
+              if cookies_enabled:
                   cmd += [
-                      "--cookie-jar", str(cookie_file),
-                      "--cookie", str(cookie_file),
+                      "--cookie-jar", str(cookies),
+                      "--cookie", str(cookies),
                   ]
 
               cmd.append(url)
-
-              print("Downloading from:", urlparse(url).netloc or url)
+              print("Downloading from:", urllib.parse.urlparse(url).netloc or url)
               subprocess.run(cmd, check=True)
 
-          def validate_file(path, filename):
+          def validate(path, filename):
               if not path.exists() or path.stat().st_size <= 0:
                   return False, "empty file"
 
@@ -122,10 +117,10 @@ jobs:
                           with zipfile.ZipFile(path) as zf:
                               names = zf.namelist()
                           if not any(
-                              name.startswith("Payload/") and ".app/" in name
-                              for name in names
+                              n.startswith("Payload/") and ".app/" in n
+                              for n in names
                           ):
-                              return False, "ZIP exists but Payload/*.app is missing"
+                              return False, "Payload/*.app is missing"
                       except Exception as exc:
                           return False, f"IPA validation failed: {exc}"
 
@@ -133,146 +128,193 @@ jobs:
 
               if ext == ".dylib":
                   magic = path.read_bytes()[:4]
-                  mach_o_magics = {
-                      bytes.fromhex("feedface"),
-                      bytes.fromhex("cefaedfe"),
-                      bytes.fromhex("feedfacf"),
-                      bytes.fromhex("cffaedfe"),
-                      bytes.fromhex("cafebabe"),
-                      bytes.fromhex("bebafeca"),
-                      bytes.fromhex("cafebabf"),
-                      bytes.fromhex("bfbafeca"),
+                  mach_o = {
+                      bytes.fromhex("feedface"), bytes.fromhex("cefaedfe"),
+                      bytes.fromhex("feedfacf"), bytes.fromhex("cffaedfe"),
+                      bytes.fromhex("cafebabe"), bytes.fromhex("bebafeca"),
+                      bytes.fromhex("cafebabf"), bytes.fromhex("bfbafeca"),
                   }
-                  if magic not in mach_o_magics:
+                  if magic not in mach_o:
                       return False, "not a Mach-O dylib"
                   return True, f"valid dylib ({size} bytes)"
 
               head = path.read_bytes()[:4096].lstrip().lower()
-              if (
-                  head.startswith(b"<!doctype html")
-                  or head.startswith(b"<html")
-                  or b"<html" in head[:512]
-              ):
+              if head.startswith(b"<!doctype html") or b"<html" in head[:512]:
                   return False, "HTML page instead of file"
 
-              return True, f"downloaded binary ({size} bytes)"
+              return True, f"binary file ({size} bytes)"
 
-          def parse_mediafire_key(url):
-              parsed = urlparse(url)
-              host = parsed.netloc.lower()
-              parts = [part for part in parsed.path.split("/") if part]
+          def is_mediafire(url):
+              host = urllib.parse.urlparse(url).hostname or ""
+              host = host.lower()
+              return (
+                  host == "mediafire.com"
+                  or host == "www.mediafire.com"
+                  or re.fullmatch(r"download\d+\.mediafire\.com", host) is not None
+              )
 
-              # Canonical MediaFire page:
-              # /file/<key>/<filename>/file
-              if host.endswith("mediafire.com") and len(parts) >= 2:
-                  if parts[0].lower() == "file" and len(parts) >= 2:
+          def mediafire_quick_key(url):
+              parsed = urllib.parse.urlparse(url)
+              host = (parsed.hostname or "").lower()
+              parts = [urllib.parse.unquote(x) for x in parsed.path.split("/") if x]
+
+              # https://www.mediafire.com/file/<quickkey>/<filename>/file
+              if host in ("mediafire.com", "www.mediafire.com"):
+                  if len(parts) >= 2 and parts[0].lower() == "file":
                       return parts[1]
 
-              # Direct MediaFire CDN:
-              # /<temporary-token>/<key>/<filename>
+              # https://downloadNNNN.mediafire.com/<dkey>/<quickkey>/<filename>
               if re.fullmatch(r"download\d+\.mediafire\.com", host):
-                  if len(parts) >= 2:
+                  if len(parts) >= 3:
                       return parts[-2]
 
               return None
 
-          def canonical_mediafire_page(url):
-              key = parse_mediafire_key(url)
-              if not key:
-                  return None
-              return f"https://www.mediafire.com/file/{quote(key, safe='')}/file"
-
-          def extract_mediafire_direct(page_path):
-              try:
-                  raw = page_path.read_text("utf-8", errors="ignore")
-              except Exception:
-                  return None
-
+          def find_mediafire_direct_in_text(raw):
               raw = html.unescape(raw).replace("\\/", "/")
-
               patterns = [
+                  r'''https://download\d+\.mediafire\.com/[^"'<>\s\\]+''',
+                  r'''//download\d+\.mediafire\.com/[^"'<>\s\\]+''',
                   r'''id=["']downloadButton["'][^>]*href=["']([^"']+)["']''',
-                  r'''href=["'](https://download\d+\.mediafire\.com/[^"'<>\s]+)["']''',
-                  r'''(https://download\d+\.mediafire\.com/[^"'<>\s]+)''',
               ]
 
               for pattern in patterns:
-                  match = re.search(pattern, raw, flags=re.I | re.S)
-                  if not match:
+                  m = re.search(pattern, raw, flags=re.I | re.S)
+                  if not m:
                       continue
+                  value = m.group(1) if m.lastindex else m.group(0)
+                  value = value.strip()
+                  if value.startswith("//"):
+                      value = "https:" + value
+                  if value.startswith("https://"):
+                      return value
+              return None
 
-                  direct = match.group(1).strip()
+          def mediafire_api_direct(qkey):
+              # Ask MediaFire for a link FROM THE GITHUB RUNNER IP.
+              # If this endpoint changes/fails, page parsing below remains as fallback.
+              api_url = (
+                  "https://www.mediafire.com/api/1.5/file/get_links.php"
+                  "?quick_key=" + urllib.parse.quote(qkey, safe="") +
+                  "&response_format=json"
+              )
 
-                  if direct.startswith("//"):
-                      direct = "https:" + direct
+              try:
+                  run_curl(api_url, api_file, cookies_enabled=True)
+                  raw = api_file.read_text("utf-8", errors="ignore")
 
-                  if direct.startswith(("http://", "https://")):
+                  # First look for a direct MediaFire CDN URL anywhere in JSON.
+                  direct = find_mediafire_direct_in_text(raw)
+                  if direct:
                       return direct
+
+                  # Also inspect JSON values recursively.
+                  try:
+                      obj = json.loads(raw)
+                      stack = [obj]
+                      while stack:
+                          item = stack.pop()
+                          if isinstance(item, dict):
+                              stack.extend(item.values())
+                          elif isinstance(item, list):
+                              stack.extend(item)
+                          elif isinstance(item, str):
+                              if "download" in item and "mediafire.com" in item:
+                                  if item.startswith("//"):
+                                      item = "https:" + item
+                                  if item.startswith("https://"):
+                                      return item
+                  except Exception:
+                      pass
+              except Exception as exc:
+                  print("MediaFire API resolution failed; using page fallback:", exc)
 
               return None
 
-          def download_from_mediafire(url):
-              page_url = canonical_mediafire_page(url)
-              if not page_url:
-                  raise RuntimeError("Could not determine MediaFire file key")
-
-              print("Resolving fresh MediaFire direct URL from:")
-              print(page_url)
-
-              # Get a fresh MediaFire file page at Action runtime.
-              run_curl(page_url, page_file, use_cookies=True)
-
-              direct_url = extract_mediafire_direct(page_file)
-              if not direct_url:
-                  raise RuntimeError(
-                      "MediaFire page loaded but no fresh download URL was found"
-                  )
-
-              print("Fresh MediaFire direct URL resolved.")
-              run_curl(
-                  direct_url,
-                  candidate,
-                  referer=page_url,
-                  use_cookies=True,
+          def mediafire_page_direct(qkey):
+              # Filename is unnecessary; MediaFire resolves by quick key.
+              page_url = (
+                  "https://www.mediafire.com/file/"
+                  + urllib.parse.quote(qkey, safe="")
+                  + "/file"
               )
 
-          parsed_source = urlparse(source_url)
-          source_host = parsed_source.netloc.lower()
+              run_curl(page_url, page_file, cookies_enabled=True)
+              raw = page_file.read_text("utf-8", errors="ignore")
+              direct = find_mediafire_direct_in_text(raw)
 
-          # Important:
-          # downloadNNNN.mediafire.com URLs are temporary.
-          # Never trust an old one saved by the Worker. Re-resolve it from the
-          # permanent MediaFire file key at the moment this Action runs.
-          if (
-              source_host == "mediafire.com"
-              or source_host == "www.mediafire.com"
-              or re.fullmatch(r"download\d+\.mediafire\.com", source_host)
-          ):
-              download_from_mediafire(source_url)
-          else:
-              run_curl(source_url, candidate)
+              if not direct:
+                  raise RuntimeError(
+                      "MediaFire page opened but no fresh download URL was found"
+                  )
 
-          valid, reason = validate_file(candidate, asset_name)
+              return page_url, direct
 
-          # Fallback: if a non-canonical source still returned an HTML MediaFire
-          # response, try resolving through MediaFire once more.
-          if not valid:
+          def download_mediafire(url):
+              qkey = mediafire_quick_key(url)
+              if not qkey:
+                  raise RuntimeError(
+                      "Could not extract MediaFire quick key from original URL"
+                  )
+
+              print("MediaFire quick key:", qkey)
+              print(
+                  "Ignoring the old downloadNNNN.mediafire.com dkey because "
+                  "it is session/IP dependent."
+              )
+
+              # Generate a fresh link from the same GitHub runner that will download it.
+              direct = mediafire_api_direct(qkey)
+              referer = f"https://www.mediafire.com/file/{qkey}/file"
+
+              if not direct:
+                  referer, direct = mediafire_page_direct(qkey)
+
+              print("Fresh MediaFire URL generated for this GitHub runner.")
+              print("Fresh host:", urllib.parse.urlparse(direct).hostname)
+
+              run_curl(
+                  direct,
+                  candidate,
+                  referer=referer,
+                  cookies_enabled=True,
+              )
+
+              ok, reason = validate(candidate, asset_name)
+              if ok:
+                  return
+
               size = candidate.stat().st_size if candidate.exists() else 0
-              head = candidate.read_bytes()[:32] if size else b""
-
-              print("First response is not the requested file:", reason)
-              print("Downloaded size:", size, "bytes")
+              head = candidate.read_bytes()[:80] if size else b""
+              print("Fresh MediaFire URL still did not return the file:", reason)
+              print("Size:", size)
               print("First bytes:", repr(head))
 
-              mediafire_key = parse_mediafire_key(source_url)
-              if mediafire_key:
-                  download_from_mediafire(source_url)
-                  valid, reason = validate_file(candidate, asset_name)
+              # One more completely fresh resolution, because dkeys can be short-lived.
+              referer, direct = mediafire_page_direct(qkey)
+              print("Retrying with a second freshly generated MediaFire URL.")
+              run_curl(
+                  direct,
+                  candidate,
+                  referer=referer,
+                  cookies_enabled=True,
+              )
+
+          # Critical rule:
+          # MediaFire MUST use originalUrl, not the dl.ikiraplus proxy and not an
+          # old downloadNNNN dkey. Other hosts keep using the working proxy path.
+          if is_mediafire(original_url):
+              print("MediaFire source detected from ORIGINAL_URL.")
+              download_mediafire(original_url)
+          else:
+              print("Non-MediaFire source: using iKiraPlus proxy.")
+              run_curl(proxy_url, candidate)
+
+          valid, reason = validate(candidate, asset_name)
 
           if not valid:
               size = candidate.stat().st_size if candidate.exists() else 0
-              head = candidate.read_bytes()[:32] if size else b""
-
+              head = candidate.read_bytes()[:80] if size else b""
               print("Final validation failed:", reason)
               print("Downloaded size:", size, "bytes")
               print("First bytes:", repr(head))
@@ -280,11 +322,6 @@ jobs:
               sys.exit(2)
 
           shutil.move(str(candidate), str(final_file))
-
-          valid, reason = validate_file(final_file, asset_name)
-          if not valid:
-              print("Unexpected final validation failure:", reason)
-              sys.exit(3)
 
           size = final_file.stat().st_size
           print("Validated real file:", final_file)
@@ -298,7 +335,6 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           if ! gh release view "$STORAGE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release create "$STORAGE_TAG" \
               --repo "$GITHUB_REPOSITORY" \
@@ -312,12 +348,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           FILE="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
-
           echo "Uploading:"
           ls -lh "$FILE"
-
           gh release upload "$STORAGE_TAG" \
             "$FILE" \
             --repo "$GITHUB_REPOSITORY" \
@@ -329,7 +362,6 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           LOCAL="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
           LOCAL_SIZE="$(stat -c%s "$LOCAL")"
 
@@ -345,5 +377,4 @@ jobs:
 
           test -n "$REMOTE_SIZE"
           test "$LOCAL_SIZE" = "$REMOTE_SIZE"
-
           echo "Upload verified successfully."
