@@ -5297,22 +5297,26 @@
     {
       "id": "app-1786091020989",
       "name": "YouTube Kace",
-      "version": "21.31.4",
-      "toolVersion": "0.8.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-kace_21.31.3-dylib_0.8.2",
+      "version": "21.32.4",
+      "toolVersion": "0.8.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ytkace_21.32.4-v0.8.4_youtube",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-kace_21.31.3-dylib_0.8.2",
+          "version": "21.31.4"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-21.31.3_kace_0.8.1",
           "version": "21.31.3"
         }
       ],
-      "size": "123.4 MB",
+      "size": "125.8 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-07T08:23:40.989Z",
-      "updatedAt": "2026-08-09T15:58:10.862Z"
+      "updatedAt": "2026-08-19T13:11:56.998Z"
     },
     {
       "id": "app-1786177390456",
