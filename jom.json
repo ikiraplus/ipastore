@@ -3385,28 +3385,28 @@
       "id": "app-1781374791233",
       "name": "angry birds rush",
       "version": "1.24.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_rush",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_rush-1",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0BDxlKYl1K6aXAcPGJr0xAX_SuEPaBSjabVve_ZJ4HA&s=10",
       "size": "177.7 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:19:51.234Z",
-      "updatedAt": "2026-06-13T18:19:51.234Z"
+      "updatedAt": "2026-08-19T15:34:28.726Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1781374905950",
       "name": "angry birds reloaded",
       "version": "1.10.13",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-reloaded-2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-reloaded",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsrbMHuOZ0YnpgT5aZ-CUXoCKS6303TIlKvZskqRhVs9ew-gAWALRbUFQA&s=10",
       "size": "377.1 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:21:45.952Z",
-      "updatedAt": "2026-08-19T15:33:35.440Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false
+      "updatedAt": "2026-06-13T18:21:45.952Z"
     },
     {
       "id": "app-1781374974021",
