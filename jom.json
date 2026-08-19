@@ -5216,22 +5216,26 @@
     {
       "id": "app-1785999590853",
       "name": "Sofascore Live Sports Scores",
-      "version": "26.08.03",
+      "version": "26.08.10",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sofascore-live-sports-scores-v26.08.03",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sofascore-live-sports-scores-v26.08.10",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/cf/c5/e4cfc5a4-a65d-69f5-f6ca-da2a48c05617/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sofascore-live-sports-scores-v26.08.03",
+          "version": "26.08.03"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sofascore-live-sports-scores-v26.07.27",
           "version": "26.07.27"
         }
       ],
-      "size": "94.6 MB",
+      "size": "94.4 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-06T06:59:50.854Z",
-      "updatedAt": "2026-08-17T07:45:50.502Z"
+      "updatedAt": "2026-08-19T13:13:46.854Z"
     },
     {
       "id": "app-1785999708915",
