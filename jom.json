@@ -4256,14 +4256,22 @@
     {
       "id": "app-1783499405678",
       "name": "كملنا",
-      "version": "3.8.7",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kammelna_asd",
+      "version": "3.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kammelna_asd_v3.0",
       "icon": "https://play-lh.googleusercontent.com/VBz6u_UhbTK0ydisLodRu2olAz2oHiU-Iv_KfSPRGuZQlEJiMzbUvBy9rWD3D_XDRseVr_LFCIJxe4vtfaUhpA",
-      "size": "204.1 MB",
+      "size": "200.8 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-08T08:30:05.679Z",
-      "updatedAt": "2026-07-08T08:30:05.679Z"
+      "updatedAt": "2026-08-19T13:25:25.456Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kammelna_asd",
+          "version": "3.8.7"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1783499448573",
