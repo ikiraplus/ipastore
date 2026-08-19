@@ -3979,14 +3979,22 @@
     {
       "id": "app-1781882229071",
       "name": "cute cut pro",
-      "version": "2.3.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cute-cut-pro",
+      "version": "2.4.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cute-cut-pro-v2.4.4",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW-5vprXDReVth-POrW9Nj6IXHJthrZqPFz1zFPA9ZHw&s=10",
-      "size": "62.5 MB",
+      "size": "65.4 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T15:17:09.071Z",
-      "updatedAt": "2026-06-19T15:17:09.071Z"
+      "updatedAt": "2026-08-19T13:22:35.561Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cute-cut-pro",
+          "version": "2.3.9"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1782927901147",
