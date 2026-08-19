@@ -837,23 +837,23 @@
     {
       "id": "app-1773509627631",
       "name": "mojo pro",
-      "version": "1.273.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mojo_ai_video_-_reels_editor_v1.273.1_subscription_unlocked",
+      "version": "1.274.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mojo_ai_video_-_reels_editor_v1.274.0_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/26/db/3226db82-75b1-ca84-8b56-4d6f94ce9932/AppIcon-AppStore-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "size": "166.4 MB",
+      "size": "166.6 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-11T09:37:36.840Z",
+      "updatedAt": "2026-08-19T13:09:27.689Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mojo_ai_video_-_reels_editor_v1.273.0_subscription_unlocked",
-          "version": "1.273.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mojo_ai_video_-_reels_editor_v1.273.1_subscription_unlocked",
+          "version": "1.273.1"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mojo_ai_video_-_reels_editor_v1.272.0_subscription_unlocked_",
-          "version": "1.272.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mojo_ai_video_-_reels_editor_v1.273.0_subscription_unlocked",
+          "version": "1.273.0"
         }
       ],
       "recommended": false
