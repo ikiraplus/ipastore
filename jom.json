@@ -61,23 +61,23 @@
     {
       "id": "app-1773436028095",
       "name": "WhatsApp Gold",
-      "version": "26.31.74",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsappgold_26.31.74",
+      "version": "26.32.75",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.32.75_wgoldplus",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
-      "size": "146.8 MB",
+      "size": "147.5 MB",
       "note": "سجل بالنسخة كجهاز مصاحب فقطططط\nمدمجة مع عدة إضافات مثلاً تغيير الموقع وتغيير الخط",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-11T20:30:32.845Z",
+      "updatedAt": "2026-08-19T13:27:06.282Z",
       "toolVersion": "2.3",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wgold_26.29.76-v2.3",
-          "version": "26.29.76"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsappgold_26.31.74",
+          "version": "26.31.74"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wgold_2.1",
-          "version": "26.22"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wgold_26.29.76-v2.3",
+          "version": "26.29.76"
         }
       ],
       "recommended": false
