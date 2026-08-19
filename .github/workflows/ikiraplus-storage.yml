@@ -4,6 +4,17 @@ on:
   repository_dispatch:
     types: [ikiraplus_storage]
 
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: "Direct/source URL"
+        required: true
+        type: string
+      asset_name:
+        description: "Release asset filename (example: app.ipa)"
+        required: true
+        type: string
+
 permissions:
   contents: write
 
@@ -13,9 +24,9 @@ jobs:
     timeout-minutes: 30
 
     env:
-      SOURCE_URL: ${{ github.event.client_payload.sourceUrl }}
-      ASSET_NAME: ${{ github.event.client_payload.assetName }}
       STORAGE_TAG: storage
+      SOURCE_URL: ${{ github.event.client_payload.sourceUrl || inputs.source_url }}
+      ASSET_NAME: ${{ github.event.client_payload.assetName || inputs.asset_name }}
 
     steps:
       - name: Validate request
@@ -24,32 +35,167 @@ jobs:
           set -euo pipefail
           test -n "$SOURCE_URL"
           test -n "$ASSET_NAME"
+
           case "$ASSET_NAME" in
             */*|*\\*) echo "Invalid asset name"; exit 1 ;;
           esac
 
-      - name: Download source file
+      - name: Download and validate real file
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/ikiraplus-storage"
-          cd "$RUNNER_TEMP/ikiraplus-storage"
 
-          curl \
-            --fail \
-            --location \
-            --retry 6 \
-            --retry-delay 3 \
-            --retry-all-errors \
-            --connect-timeout 30 \
-            --max-time 1800 \
-            --user-agent "Mozilla/5.0 iKiraPlus-GitHub-Storage" \
-            --output "$ASSET_NAME" \
-            "$SOURCE_URL"
+          python3 <<'PY'
+          import os
+          import re
+          import sys
+          import html
+          import shutil
+          import zipfile
+          import pathlib
+          import subprocess
+          from urllib.parse import urlparse
 
-          test -s "$ASSET_NAME"
-          echo "Downloaded:"
-          ls -lh "$ASSET_NAME"
+          source_url = os.environ["SOURCE_URL"].strip()
+          asset_name = os.environ["ASSET_NAME"].strip()
+          work = pathlib.Path(os.environ["RUNNER_TEMP"]) / "ikiraplus-storage"
+          work.mkdir(parents=True, exist_ok=True)
+
+          candidate = work / "candidate.bin"
+          final_file = work / asset_name
+          headers_file = work / "headers.txt"
+
+          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 iKiraPlus-GitHub-Storage"
+
+          def curl_download(url: str, output: pathlib.Path):
+              if output.exists():
+                  output.unlink()
+              if headers_file.exists():
+                  headers_file.unlink()
+
+              cmd = [
+                  "curl",
+                  "--fail",
+                  "--location",
+                  "--retry", "6",
+                  "--retry-delay", "3",
+                  "--retry-all-errors",
+                  "--connect-timeout", "30",
+                  "--max-time", "1800",
+                  "--user-agent", UA,
+                  "--header", "Accept: */*",
+                  "--dump-header", str(headers_file),
+                  "--output", str(output),
+                  url,
+              ]
+              print("Downloading from:", urlparse(url).netloc or url)
+              subprocess.run(cmd, check=True)
+
+          def is_valid_file(path: pathlib.Path, filename: str):
+              if not path.exists() or path.stat().st_size <= 0:
+                  return False, "empty file"
+
+              ext = pathlib.Path(filename).suffix.lower()
+              size = path.stat().st_size
+
+              if ext in (".ipa", ".zip"):
+                  if not zipfile.is_zipfile(path):
+                      return False, "not a ZIP/IPA file"
+
+                  if ext == ".ipa":
+                      try:
+                          with zipfile.ZipFile(path) as zf:
+                              names = zf.namelist()
+                          if not any(name.startswith("Payload/") and ".app/" in name for name in names):
+                              return False, "ZIP exists but Payload/*.app is missing"
+                      except Exception as e:
+                          return False, f"IPA validation failed: {e}"
+
+                  return True, f"valid {ext[1:].upper()} ({size} bytes)"
+
+              if ext == ".dylib":
+                  magic = path.read_bytes()[:4]
+                  mach_o_magics = {
+                      bytes.fromhex("feedface"),
+                      bytes.fromhex("cefaedfe"),
+                      bytes.fromhex("feedfacf"),
+                      bytes.fromhex("cffaedfe"),
+                      bytes.fromhex("cafebabe"),
+                      bytes.fromhex("bebafeca"),
+                      bytes.fromhex("cafebabf"),
+                      bytes.fromhex("bfbafeca"),
+                  }
+                  if magic not in mach_o_magics:
+                      return False, "not a Mach-O dylib"
+                  return True, f"valid dylib ({size} bytes)"
+
+              head = path.read_bytes()[:4096].lstrip().lower()
+              if head.startswith(b"<!doctype html") or head.startswith(b"<html") or b"<html" in head[:512]:
+                  return False, "HTML page instead of file"
+
+              return True, f"downloaded binary ({size} bytes)"
+
+          def extract_direct_url(page_path: pathlib.Path):
+              try:
+                  raw = page_path.read_text("utf-8", errors="ignore")
+              except Exception:
+                  return None
+
+              raw = html.unescape(raw).replace("\\/", "/")
+
+              patterns = [
+                  r'''id=["']downloadButton["'][^>]*href=["']([^"']+)["']''',
+                  r'''href=["'](https://download\d+\.mediafire\.com/[^"'<>\s]+)["']''',
+                  r'''(https://download\d+\.mediafire\.com/[^"'<>\s]+)''',
+              ]
+
+              for pattern in patterns:
+                  match = re.search(pattern, raw, flags=re.I | re.S)
+                  if match:
+                      direct = match.group(1)
+                      if direct.startswith(("http://", "https://")):
+                          return direct
+              return None
+
+          curl_download(source_url, candidate)
+          valid, reason = is_valid_file(candidate, asset_name)
+
+          if not valid:
+              size = candidate.stat().st_size if candidate.exists() else 0
+              head = candidate.read_bytes()[:16] if size else b""
+              print(f"First response is not the requested file: {reason}")
+              print(f"Downloaded size: {size} bytes")
+              print(f"First bytes: {head!r}")
+
+              direct_url = extract_direct_url(candidate)
+
+              if direct_url:
+                  print("A direct download URL was found inside the response. Retrying with it...")
+                  curl_download(direct_url, candidate)
+                  valid, reason = is_valid_file(candidate, asset_name)
+
+              if not valid:
+                  size = candidate.stat().st_size if candidate.exists() else 0
+                  head = candidate.read_bytes()[:16] if size else b""
+                  print(f"Final validation failed: {reason}")
+                  print(f"Downloaded size: {size} bytes")
+                  print(f"First bytes: {head!r}")
+                  print("Refusing to upload this response to GitHub Release.")
+                  sys.exit(2)
+
+          shutil.move(str(candidate), str(final_file))
+
+          valid, reason = is_valid_file(final_file, asset_name)
+          if not valid:
+              print("Unexpected final validation failure:", reason)
+              sys.exit(3)
+
+          size = final_file.stat().st_size
+          print("Validated real file:", final_file)
+          print("Validation:", reason)
+          print(f"Final size: {size} bytes ({size / 1024 / 1024:.2f} MiB)")
+          PY
 
       - name: Ensure storage release exists
         env:
@@ -57,31 +203,51 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+
           if ! gh release view "$STORAGE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release create "$STORAGE_TAG" \
               --repo "$GITHUB_REPOSITORY" \
               --title "storage" \
-              --notes "iKiraPlus permanent backup storage"
+              --notes "iKiraPlus permanent file storage"
           fi
 
-      - name: Upload file to storage release
+      - name: Upload validated file to storage release
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
+
+          FILE="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
+
+          echo "Uploading:"
+          ls -lh "$FILE"
+
           gh release upload "$STORAGE_TAG" \
-            "$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME" \
+            "$FILE" \
             --repo "$GITHUB_REPOSITORY" \
             --clobber
 
-      - name: Verify release asset
+      - name: Verify uploaded asset size
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
-          gh release view "$STORAGE_TAG" \
-            --repo "$GITHUB_REPOSITORY" \
-            --json assets \
-            --jq '.assets[].name' | grep -Fx "$ASSET_NAME"
+
+          LOCAL="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
+          LOCAL_SIZE="$(stat -c%s "$LOCAL")"
+
+          REMOTE_SIZE="$(
+            gh api "repos/$GITHUB_REPOSITORY/releases/tags/$STORAGE_TAG" |
+            jq -r --arg name "$ASSET_NAME" '.assets[] | select(.name == $name) | .size' |
+            tail -n 1
+          )"
+
+          echo "Local size : $LOCAL_SIZE bytes"
+          echo "GitHub size: $REMOTE_SIZE bytes"
+
+          test -n "$REMOTE_SIZE"
+          test "$LOCAL_SIZE" = "$REMOTE_SIZE"
+
+          echo "Upload verified successfully."
