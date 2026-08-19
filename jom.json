@@ -3385,16 +3385,13 @@
       "id": "app-1781374791233",
       "name": "angry birds rush",
       "version": "1.24.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_rush-1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_rush",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0BDxlKYl1K6aXAcPGJr0xAX_SuEPaBSjabVve_ZJ4HA&s=10",
       "size": "177.7 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:19:51.234Z",
-      "updatedAt": "2026-08-19T15:34:28.726Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false
+      "updatedAt": "2026-06-13T18:19:51.234Z"
     },
     {
       "id": "app-1781374905950",
@@ -3412,46 +3409,37 @@
       "id": "app-1781374974021",
       "name": "angry birds bounce",
       "version": "1.0.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_bounce-1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_bounce",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6AQbJ_d1Zy-o1h1qiOrM79RjQMWup6fHzXqB6Njl4yA&s=10",
       "size": "412.3 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:22:54.023Z",
-      "updatedAt": "2026-08-19T15:34:58.047Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false
+      "updatedAt": "2026-06-13T18:22:54.023Z"
     },
     {
       "id": "app-1781375046602",
       "name": "angry birds star wars",
       "version": "1.9.24",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-star-wars-1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-star-wars",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4F3IaZQyFox5jCtTxWzaCaCCkOI4neaKKr9EsEH8nGg&s=10",
       "size": "80.9 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:24:06.603Z",
-      "updatedAt": "2026-08-19T15:35:26.191Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false
+      "updatedAt": "2026-06-13T18:24:06.603Z"
     },
     {
       "id": "app-1781375116495",
       "name": "angry birds go",
       "version": "2.8.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-go-1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-go",
       "icon": "https://sm.ign.com/ign_me/cover/a/angry-birds-go/angry-birds-go_4hx3.jpg",
       "size": "249.2 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:25:16.497Z",
-      "updatedAt": "2026-08-19T15:35:58.299Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false
+      "updatedAt": "2026-06-13T18:25:16.497Z"
     },
     {
       "id": "app-1781375167665",
@@ -3513,16 +3501,13 @@
       "id": "app-1781375497727",
       "name": "angry birds friends",
       "version": "13.4.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-friends-1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-friends",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1781375497727.png",
       "size": "169.0 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:31:40.082Z",
-      "updatedAt": "2026-08-19T15:36:26.288Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false
+      "updatedAt": "2026-06-13T18:31:40.082Z"
     },
     {
       "id": "app-1781377094299",
@@ -3668,16 +3653,13 @@
       "id": "app-1781377898456",
       "name": "standoff 2",
       "version": "0.36.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/standoff-2-.com",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/standoff-2",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJph7pl8RjpSLv5cBQ4auREYJsbnkjU5aBlKCv7sqeNw&s=10",
-      "size": "2648.9 MB",
+      "size": "1506.6 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:11:38.457Z",
-      "updatedAt": "2026-08-19T15:37:00.771Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false
+      "updatedAt": "2026-06-13T19:11:38.457Z"
     },
     {
       "id": "app-1781377978601",
@@ -3979,13 +3961,16 @@
       "id": "app-1781881938327",
       "name": "clipboard pro",
       "version": "1.27",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clipboard",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clipboard-pro",
       "icon": "https://ipaomtk.com/wp-content/uploads/2023/04/images-12.jpg",
       "size": "18.1 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T15:12:18.328Z",
-      "updatedAt": "2026-06-19T15:12:18.328Z"
+      "updatedAt": "2026-08-19T17:18:50.469Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1781882139582",
