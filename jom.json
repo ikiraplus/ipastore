@@ -6052,6 +6052,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:03:56.492Z",
       "updatedAt": "2026-08-20T11:03:56.492Z"
+    },
+    {
+      "id": "app-1787223873637",
+      "name": "Bus Simulator Coach Driver",
+      "version": "1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bus-simulator-coach-driver",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/b9/ec/c3/b9ecc32c-4f51-9b82-7db5-3ebaa30e8407/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "134.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:04:33.639Z",
+      "updatedAt": "2026-08-20T11:04:33.639Z"
     }
   ]
 }
