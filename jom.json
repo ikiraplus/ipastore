@@ -6439,6 +6439,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:32:46.693Z",
       "updatedAt": "2026-08-20T16:32:46.693Z"
+    },
+    {
+      "id": "app-1787243654701",
+      "name": "Idle Supermarket",
+      "version": "4.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-supermarket-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ee/a7/09eea708-020b-704a-b881-1faf3261dd7b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "158.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:34:14.703Z",
+      "updatedAt": "2026-08-20T16:34:14.703Z"
     }
   ]
 }
