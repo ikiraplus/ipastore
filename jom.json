@@ -2046,13 +2046,22 @@
     {
       "id": "app-iosgods-mob-control-4664",
       "name": "Mob Control",
-      "version": "3.6.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mob-control-ios-mod-ipa-qrpcudwdc3-1",
+      "version": "3.21.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mob-control-hack",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/50/f0/de50f033-80f4-6c62-98bb-bc84cb134c37/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "200 MB",
+      "size": "191.4 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mob-control-ios-mod-ipa-qrpcudwdc3-1",
+          "version": "3.6.2"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-08-19T17:23:11.341Z"
     },
     {
       "id": "app-iosgods-ibis-paint-x-2177",
