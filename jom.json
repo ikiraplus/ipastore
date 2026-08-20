@@ -6247,6 +6247,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:11:44.554Z",
       "updatedAt": "2026-08-20T11:11:44.554Z"
+    },
+    {
+      "id": "app-1787224325370",
+      "name": "World War 2 Army Fps Shooter",
+      "version": "5.03",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-war-2-army-fps-shooter",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/07/9c/c0079c28-3b8f-e69f-4975-68c4e2dfbaa7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "633.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:12:05.372Z",
+      "updatedAt": "2026-08-20T11:12:05.372Z"
     }
   ]
 }
