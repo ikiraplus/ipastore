@@ -6664,6 +6664,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:50:36.709Z",
       "updatedAt": "2026-08-20T16:50:36.709Z"
+    },
+    {
+      "id": "app-1787244698960",
+      "name": "Ala Mobile",
+      "version": "7.5.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ala-mobile-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/2f/09/f32f0990-88f3-d002-2193-86db0c4b310a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "367.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:51:38.962Z",
+      "updatedAt": "2026-08-20T16:51:38.962Z"
     }
   ]
 }
