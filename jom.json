@@ -6454,6 +6454,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:34:14.703Z",
       "updatedAt": "2026-08-20T16:34:14.703Z"
+    },
+    {
+      "id": "app-1787243694097",
+      "name": "Hitman go",
+      "version": "1.16",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitmango-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/23/79/7a2379f3-b3e3-4f59-033d-145e1f7677bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "503.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:34:54.099Z",
+      "updatedAt": "2026-08-20T16:34:54.099Z"
     }
   ]
 }
