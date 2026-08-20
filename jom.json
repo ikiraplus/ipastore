@@ -6649,6 +6649,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:48:57.428Z",
       "updatedAt": "2026-08-20T16:48:57.428Z"
+    },
+    {
+      "id": "app-1787244636708",
+      "name": "Slender Rising 2",
+      "version": "1.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/slender2-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/c0/97/62/c09762b2-e5ea-2764-ba30-6f893c0b1dec/pr_source.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "105.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:50:36.709Z",
+      "updatedAt": "2026-08-20T16:50:36.709Z"
     }
   ]
 }
