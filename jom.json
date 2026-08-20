@@ -6112,6 +6112,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:05:42.115Z",
       "updatedAt": "2026-08-20T11:05:42.115Z"
+    },
+    {
+      "id": "app-1787224016103",
+      "name": "Rules Of Battlefield 3d Fps",
+      "version": "1.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rules-of-battlefield-3d-fps",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/87/90/a38790a8-ec82-5317-e5d6-a57a1eae6a60/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "168.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:06:56.105Z",
+      "updatedAt": "2026-08-20T11:06:56.105Z"
     }
   ]
 }
