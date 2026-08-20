@@ -6187,6 +6187,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:09:00.457Z",
       "updatedAt": "2026-08-20T11:09:00.457Z"
+    },
+    {
+      "id": "app-1787224166687",
+      "name": "Scary Horror Escape Room Game",
+      "version": "3.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scary-horror-escape-room-game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/67/31/c56731d8-173f-76a5-719e-fe6f27d5b3c5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "88.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:09:26.689Z",
+      "updatedAt": "2026-08-20T11:09:26.689Z"
     }
   ]
 }
