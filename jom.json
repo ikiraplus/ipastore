@@ -6157,6 +6157,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:07:53.943Z",
       "updatedAt": "2026-08-20T11:07:53.943Z"
+    },
+    {
+      "id": "app-1787224110969",
+      "name": "Scary Grandma Escape Challenge",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scary-grandma-escape-challenge",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/27/76/43277613-6b2e-c1ba-51e8-2706b1618f43/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "110.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:08:30.971Z",
+      "updatedAt": "2026-08-20T11:08:30.971Z"
     }
   ]
 }
