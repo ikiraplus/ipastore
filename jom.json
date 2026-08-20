@@ -6202,6 +6202,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:09:26.689Z",
       "updatedAt": "2026-08-20T11:09:26.689Z"
+    },
+    {
+      "id": "app-1787224190092",
+      "name": "Tactical Ops Modern Strike",
+      "version": "0.95",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tactical-ops-modern-strike",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/0b/67/110b6773-6432-33bd-abee-57b058731bb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "622.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:09:50.094Z",
+      "updatedAt": "2026-08-20T11:09:50.094Z"
     }
   ]
 }
