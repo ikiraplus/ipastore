@@ -6544,6 +6544,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:41:16.387Z",
       "updatedAt": "2026-08-20T16:41:16.387Z"
+    },
+    {
+      "id": "app-1787244132013",
+      "name": "Brothers",
+      "version": "1.7.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/brothers_1.7.2-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/3e/8c/f2/3e8cf28d-7488-c8d9-166c-833bdc8a923c/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1081.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:42:12.015Z",
+      "updatedAt": "2026-08-20T16:42:12.015Z"
     }
   ]
 }
