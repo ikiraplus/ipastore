@@ -6232,6 +6232,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:10:10.108Z",
       "updatedAt": "2026-08-20T11:10:10.108Z"
+    },
+    {
+      "id": "app-1787224304552",
+      "name": "Yakuza Online Japan",
+      "version": "5.0.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yakuza-online-japan",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MS_e-vZNaGDYmlvZt3WXQ4OF0NdsmAQQwsnPpsUiwe3fHI2ln_lGCBJM&s=10",
+      "previousVersions": [],
+      "size": "177.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:11:44.554Z",
+      "updatedAt": "2026-08-20T11:11:44.554Z"
     }
   ]
 }
