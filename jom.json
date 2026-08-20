@@ -6217,6 +6217,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:09:50.094Z",
       "updatedAt": "2026-08-20T11:09:50.094Z"
+    },
+    {
+      "id": "app-1787224210107",
+      "name": "Tacticool 5v5 Tactical Shooter",
+      "version": "2.14.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tacticool-5v5-tactical-shooter",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/cf/51/26cf512b-60b6-83d4-9cff-35e1c18c8472/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1010.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:10:10.108Z",
+      "updatedAt": "2026-08-20T11:10:10.108Z"
     }
   ]
 }
