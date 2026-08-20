@@ -6484,6 +6484,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:35:56.923Z",
       "updatedAt": "2026-08-20T16:35:56.923Z"
+    },
+    {
+      "id": "app-1787243817077",
+      "name": "Playdead",
+      "version": "1.1.14",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/playdead-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/83/ae/8b83ae1c-1be7-89bd-3cfa-211204ba8f2f/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "636.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:36:57.079Z",
+      "updatedAt": "2026-08-20T16:36:57.079Z"
     }
   ]
 }
