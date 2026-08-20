@@ -1,4 +1,5 @@
 name: iKiraPlus Storage Backup
+run-name: "iKiraPlus storage • ${{ github.event.client_payload.shortId }}"
 
 on:
   repository_dispatch:
@@ -6,29 +7,40 @@ on:
 
 permissions:
   contents: write
-
-# نخلي مهام التخزين تدخل بالترتيب حتى ما يصير سباق عند امتلاء Release.
-concurrency:
-  group: ikiraplus-storage-serial
-  cancel-in-progress: false
+  actions: read
 
 jobs:
   mirror-to-release:
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
+    # ماكو global concurrency: ملفات متعددة تشتغل بالتوازي حسب حدود GitHub.
     env:
-      # sourceUrl = رابط dl.ikiraplus الذي يعمل مع باقي المواقع
       PROXY_URL: ${{ github.event.client_payload.sourceUrl }}
-      # originalUrl = الرابط الأصلي قبل الاختصار؛ مهم جداً لـ MediaFire
       ORIGINAL_URL: ${{ github.event.client_payload.originalUrl || github.event.client_payload.sourceUrl }}
       ASSET_NAME: ${{ github.event.client_payload.assetName }}
       SHORT_ID: ${{ github.event.client_payload.shortId }}
       CALLBACK_URL: ${{ github.event.client_payload.callbackUrl }}
+      CALLBACK_START_URL: ${{ github.event.client_payload.callbackStartUrl }}
+      CALLBACK_FAIL_URL: ${{ github.event.client_payload.callbackFailUrl }}
       CALLBACK_TOKEN: ${{ github.event.client_payload.callbackToken }}
 
-
     steps:
+      - name: Report started to Worker
+        shell: bash
+        run: |
+          set +e
+          RUN_URL="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          payload="$(jq -n \
+            --arg id "$SHORT_ID" \
+            --arg token "$CALLBACK_TOKEN" \
+            --argjson runId "$GITHUB_RUN_ID" \
+            --arg runUrl "$RUN_URL" \
+            '{id:$id,token:$token,runId:$runId,runUrl:$runUrl}')"
+          curl --silent --show-error --retry 8 --retry-delay 1 --retry-all-errors \
+            --header "Content-Type: application/json" \
+            --data "$payload" "$CALLBACK_START_URL" || true
+
       - name: Validate request
         shell: bash
         run: |
@@ -38,6 +50,8 @@ jobs:
           test -n "$ASSET_NAME"
           test -n "$SHORT_ID"
           test -n "$CALLBACK_URL"
+          test -n "$CALLBACK_START_URL"
+          test -n "$CALLBACK_FAIL_URL"
           test -n "$CALLBACK_TOKEN"
           case "$ASSET_NAME" in
             */*|*\\*) echo "Invalid asset name"; exit 1 ;;
@@ -53,7 +67,6 @@ jobs:
           import os
           import re
           import sys
-          import json
           import html
           import shutil
           import zipfile
@@ -69,7 +82,7 @@ jobs:
           work.mkdir(parents=True, exist_ok=True)
 
           candidate = work / "candidate.bin"
-          page_file = work / "mediafire-page.html"
+          page_file = work / "source-page.html"
           api_file = work / "mediafire-api.json"
           cookies = work / "cookies.txt"
           final_file = work / asset_name
@@ -80,7 +93,10 @@ jobs:
               "Chrome/151.0.0.0 Safari/537.36"
           )
 
-          def run_curl(url, output, referer=None, cookies_enabled=False):
+          def host_of(url):
+              return (urllib.parse.urlparse(url).hostname or "").lower()
+
+          def run_curl(url, output, referer=None, cookies_enabled=False, extra_headers=None):
               if output.exists():
                   output.unlink()
 
@@ -88,14 +104,15 @@ jobs:
                   "curl",
                   "--fail",
                   "--location",
-                  "--retry", "6",
-                  "--retry-delay", "3",
+                  "--retry", "5",
+                  "--retry-delay", "1",
                   "--retry-all-errors",
-                  "--connect-timeout", "30",
+                  "--connect-timeout", "20",
                   "--max-time", "2400",
                   "--user-agent", UA,
-                  "--header", "Accept: */*",
+                  "--header", "Accept: application/octet-stream,application/zip,*/*;q=0.8",
                   "--header", "Accept-Language: en-US,en;q=0.9",
+                  "--header", "Accept-Encoding: identity",
                   "--output", str(output),
               ]
 
@@ -103,13 +120,13 @@ jobs:
                   cmd += ["--referer", referer]
 
               if cookies_enabled:
-                  cmd += [
-                      "--cookie-jar", str(cookies),
-                      "--cookie", str(cookies),
-                  ]
+                  cmd += ["--cookie-jar", str(cookies), "--cookie", str(cookies)]
+
+              for header in (extra_headers or []):
+                  cmd += ["--header", header]
 
               cmd.append(url)
-              print("Downloading from:", urllib.parse.urlparse(url).netloc or url)
+              print("Downloading from:", host_of(url) or url)
               subprocess.run(cmd, check=True)
 
           def validate(path, filename):
@@ -127,10 +144,7 @@ jobs:
                       try:
                           with zipfile.ZipFile(path) as zf:
                               names = zf.namelist()
-                          if not any(
-                              n.startswith("Payload/") and ".app/" in n
-                              for n in names
-                          ):
+                          if not any(n.startswith("Payload/") and ".app/" in n for n in names):
                               return False, "Payload/*.app is missing"
                       except Exception as exc:
                           return False, f"IPA validation failed: {exc}"
@@ -152,187 +166,185 @@ jobs:
               head = path.read_bytes()[:4096].lstrip().lower()
               if head.startswith(b"<!doctype html") or b"<html" in head[:512]:
                   return False, "HTML page instead of file"
-
               return True, f"binary file ({size} bytes)"
 
+          def try_download(url, referer=None, cookies_enabled=False, extra_headers=None):
+              try:
+                  run_curl(url, candidate, referer, cookies_enabled, extra_headers)
+              except Exception as exc:
+                  print("Download attempt failed:", exc)
+                  return False
+
+              ok, reason = validate(candidate, asset_name)
+              if ok:
+                  print("Validated:", reason)
+                  return True
+
+              size = candidate.stat().st_size if candidate.exists() else 0
+              head = candidate.read_bytes()[:80] if size else b""
+              print("Downloaded response is invalid:", reason)
+              print("Size:", size, "First bytes:", repr(head))
+              return False
+
+          # ---------------- MediaFire ----------------
           def is_mediafire(url):
-              host = urllib.parse.urlparse(url).hostname or ""
-              host = host.lower()
-              return (
-                  host == "mediafire.com"
-                  or host == "www.mediafire.com"
-                  or re.fullmatch(r"download\d+\.mediafire\.com", host) is not None
-              )
+              host = host_of(url)
+              return host in ("mediafire.com", "www.mediafire.com") or re.fullmatch(r"download\d+\.mediafire\.com", host) is not None
 
           def mediafire_quick_key(url):
               parsed = urllib.parse.urlparse(url)
               host = (parsed.hostname or "").lower()
               parts = [urllib.parse.unquote(x) for x in parsed.path.split("/") if x]
-
-              # https://www.mediafire.com/file/<quickkey>/<filename>/file
-              if host in ("mediafire.com", "www.mediafire.com"):
-                  if len(parts) >= 2 and parts[0].lower() == "file":
-                      return parts[1]
-
-              # https://downloadNNNN.mediafire.com/<dkey>/<quickkey>/<filename>
-              if re.fullmatch(r"download\d+\.mediafire\.com", host):
-                  if len(parts) >= 3:
-                      return parts[-2]
-
+              if host in ("mediafire.com", "www.mediafire.com") and len(parts) >= 2 and parts[0].lower() == "file":
+                  return parts[1]
+              if re.fullmatch(r"download\d+\.mediafire\.com", host) and len(parts) >= 3:
+                  return parts[-2]
               return None
 
-          def find_mediafire_direct_in_text(raw):
+          def find_mediafire_direct(raw):
               raw = html.unescape(raw).replace("\\/", "/")
               patterns = [
                   r'''https://download\d+\.mediafire\.com/[^"'<>\s\\]+''',
                   r'''//download\d+\.mediafire\.com/[^"'<>\s\\]+''',
                   r'''id=["']downloadButton["'][^>]*href=["']([^"']+)["']''',
               ]
-
               for pattern in patterns:
                   m = re.search(pattern, raw, flags=re.I | re.S)
                   if not m:
                       continue
                   value = m.group(1) if m.lastindex else m.group(0)
-                  value = value.strip()
                   if value.startswith("//"):
                       value = "https:" + value
                   if value.startswith("https://"):
                       return value
               return None
 
-          def mediafire_api_direct(qkey):
-              # Ask MediaFire for a link FROM THE GITHUB RUNNER IP.
-              # If this endpoint changes/fails, page parsing below remains as fallback.
-              api_url = (
-                  "https://www.mediafire.com/api/1.5/file/get_links.php"
-                  "?quick_key=" + urllib.parse.quote(qkey, safe="") +
-                  "&response_format=json"
-              )
-
-              try:
-                  run_curl(api_url, api_file, cookies_enabled=True)
-                  raw = api_file.read_text("utf-8", errors="ignore")
-
-                  # First look for a direct MediaFire CDN URL anywhere in JSON.
-                  direct = find_mediafire_direct_in_text(raw)
-                  if direct:
-                      return direct
-
-                  # Also inspect JSON values recursively.
-                  try:
-                      obj = json.loads(raw)
-                      stack = [obj]
-                      while stack:
-                          item = stack.pop()
-                          if isinstance(item, dict):
-                              stack.extend(item.values())
-                          elif isinstance(item, list):
-                              stack.extend(item)
-                          elif isinstance(item, str):
-                              if "download" in item and "mediafire.com" in item:
-                                  if item.startswith("//"):
-                                      item = "https:" + item
-                                  if item.startswith("https://"):
-                                      return item
-                  except Exception:
-                      pass
-              except Exception as exc:
-                  print("MediaFire API resolution failed; using page fallback:", exc)
-
-              return None
-
-          def mediafire_page_direct(qkey):
-              # Filename is unnecessary; MediaFire resolves by quick key.
-              page_url = (
-                  "https://www.mediafire.com/file/"
-                  + urllib.parse.quote(qkey, safe="")
-                  + "/file"
-              )
-
-              run_curl(page_url, page_file, cookies_enabled=True)
-              raw = page_file.read_text("utf-8", errors="ignore")
-              direct = find_mediafire_direct_in_text(raw)
-
-              if not direct:
-                  raise RuntimeError(
-                      "MediaFire page opened but no fresh download URL was found"
-                  )
-
-              return page_url, direct
-
           def download_mediafire(url):
               qkey = mediafire_quick_key(url)
               if not qkey:
-                  raise RuntimeError(
-                      "Could not extract MediaFire quick key from original URL"
-                  )
+                  return False
 
-              print("MediaFire quick key:", qkey)
-              print(
-                  "Ignoring the old downloadNNNN.mediafire.com dkey because "
-                  "it is session/IP dependent."
-              )
+              api_url = "https://www.mediafire.com/api/1.5/file/get_links.php?quick_key=" + urllib.parse.quote(qkey, safe="") + "&response_format=json"
+              direct = None
+              try:
+                  run_curl(api_url, api_file, cookies_enabled=True)
+                  direct = find_mediafire_direct(api_file.read_text("utf-8", errors="ignore"))
+              except Exception:
+                  pass
 
-              # Generate a fresh link from the same GitHub runner that will download it.
-              direct = mediafire_api_direct(qkey)
-              referer = f"https://www.mediafire.com/file/{qkey}/file"
-
+              page_url = "https://www.mediafire.com/file/" + urllib.parse.quote(qkey, safe="") + "/file"
               if not direct:
-                  referer, direct = mediafire_page_direct(qkey)
+                  try:
+                      run_curl(page_url, page_file, cookies_enabled=True)
+                      direct = find_mediafire_direct(page_file.read_text("utf-8", errors="ignore"))
+                  except Exception:
+                      pass
 
-              print("Fresh MediaFire URL generated for this GitHub runner.")
-              print("Fresh host:", urllib.parse.urlparse(direct).hostname)
+              return bool(direct) and try_download(direct, referer=page_url, cookies_enabled=True)
 
-              run_curl(
-                  direct,
-                  candidate,
-                  referer=referer,
-                  cookies_enabled=True,
-              )
+          # ---------------- IPAOMTK ----------------
+          def is_ipaomtk(url):
+              host = host_of(url)
+              return host in ("ipaomtk.com", "www.ipaomtk.com", "file.ipaomtk.com") or host.endswith(".ipaomtk.com")
 
-              ok, reason = validate(candidate, asset_name)
-              if ok:
-                  return
+          def ipaomtk_page_for(url):
+              parsed = urllib.parse.urlparse(url)
+              host = (parsed.hostname or "").lower()
+              parts = [urllib.parse.unquote(x) for x in parsed.path.split("/") if x]
+              if host == "file.ipaomtk.com" and parts:
+                  return "https://ipaomtk.com/" + urllib.parse.quote(parts[0]) + "/"
+              if host in ("ipaomtk.com", "www.ipaomtk.com"):
+                  return url
+              return "https://ipaomtk.com/"
 
-              size = candidate.stat().st_size if candidate.exists() else 0
-              head = candidate.read_bytes()[:80] if size else b""
-              print("Fresh MediaFire URL still did not return the file:", reason)
-              print("Size:", size)
-              print("First bytes:", repr(head))
+          def extract_ipaomtk_direct(raw):
+              raw = html.unescape(raw).replace("\\/", "/")
+              patterns = [
+                  r'''https://file\.ipaomtk\.com/[^"'<>\s\\]+?\.ipa(?:\?[^"'<>\s\\]*)?''',
+                  r'''href=["']([^"']+\.ipa(?:\?[^"']*)?)["']''',
+              ]
+              for pattern in patterns:
+                  m = re.search(pattern, raw, flags=re.I | re.S)
+                  if not m:
+                      continue
+                  value = m.group(1) if m.lastindex else m.group(0)
+                  value = urllib.parse.urljoin("https://ipaomtk.com/", value)
+                  if value.startswith("https://"):
+                      return value
+              return None
 
-              # One more completely fresh resolution, because dkeys can be short-lived.
-              referer, direct = mediafire_page_direct(qkey)
-              print("Retrying with a second freshly generated MediaFire URL.")
-              run_curl(
-                  direct,
-                  candidate,
-                  referer=referer,
-                  cookies_enabled=True,
-              )
+          def download_ipaomtk(url):
+              page_url = ipaomtk_page_for(url)
+              direct = None
 
-          # Critical rule:
-          # MediaFire MUST use originalUrl, not the dl.ikiraplus proxy and not an
-          # old downloadNNNN dkey. Other hosts keep using the working proxy path.
+              # زيارة صفحة التطبيق أولاً للحصول على cookies والرابط المباشر الحالي.
+              try:
+                  run_curl(
+                      page_url,
+                      page_file,
+                      referer="https://ipaomtk.com/",
+                      cookies_enabled=True,
+                      extra_headers=[
+                          "Sec-Fetch-Site: same-origin",
+                          "Sec-Fetch-Mode: navigate",
+                          "Sec-Fetch-Dest: document",
+                      ],
+                  )
+                  direct = extract_ipaomtk_direct(page_file.read_text("utf-8", errors="ignore"))
+              except Exception as exc:
+                  print("IPAOMTK page preload failed:", exc)
+
+              candidates = []
+              if direct:
+                  candidates.append(direct)
+              if host_of(url) == "file.ipaomtk.com":
+                  candidates.append(url)
+
+              seen = set()
+              for direct_url in candidates:
+                  if not direct_url or direct_url in seen:
+                      continue
+                  seen.add(direct_url)
+                  if try_download(
+                      direct_url,
+                      referer=page_url,
+                      cookies_enabled=True,
+                      extra_headers=[
+                          "Sec-Fetch-Site: same-site",
+                          "Sec-Fetch-Mode: navigate",
+                          "Sec-Fetch-Dest: document",
+                          "Sec-Fetch-User: ?1",
+                      ],
+                  ):
+                      return True
+
+              # fallback: رابط DL الذي يعمل عندك بالمتصفح.
+              return try_download(proxy_url)
+
+          # ---------------- Strategy ----------------
           if is_mediafire(original_url):
-              print("MediaFire source detected from ORIGINAL_URL.")
-              download_mediafire(original_url)
+              print("MediaFire strategy")
+              ok = download_mediafire(original_url)
+          elif is_ipaomtk(original_url):
+              print("IPAOMTK anti-hotlink strategy")
+              ok = download_ipaomtk(original_url)
           else:
-              print("Non-MediaFire source: using iKiraPlus proxy.")
-              run_curl(proxy_url, candidate)
+              # أسرع مسار: GitHub يحمل المصدر مباشرة بدون hop إضافي عبر Worker.
+              print("Direct-first strategy")
+              ok = try_download(original_url)
+              if not ok:
+                  print("Direct source failed; falling back to iKiraPlus proxy.")
+                  ok = try_download(proxy_url)
 
-          valid, reason = validate(candidate, asset_name)
-
-          if not valid:
-              size = candidate.stat().st_size if candidate.exists() else 0
-              head = candidate.read_bytes()[:80] if size else b""
-              print("Final validation failed:", reason)
-              print("Downloaded size:", size, "bytes")
-              print("First bytes:", repr(head))
-              print("Refusing to upload an invalid response to GitHub Release.")
+          if not ok:
+              print("All download strategies failed.")
               sys.exit(2)
 
           shutil.move(str(candidate), str(final_file))
+          valid, reason = validate(final_file, asset_name)
+          if not valid:
+              print("Unexpected final validation failure:", reason)
+              sys.exit(3)
 
           size = final_file.stat().st_size
           print("Validated real file:", final_file)
@@ -340,87 +352,50 @@ jobs:
           print(f"Final size: {size} bytes ({size / 1024 / 1024:.2f} MiB)")
           PY
 
-      - name: Choose storage release
+      - name: Upload to first available storage release
         id: storage
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
-
-          # القاعدة:
-          # storage -> storage-2 -> storage-3 ...
-          # لا نفتح الجديد إلا إذا الحالي وصل 1000 Asset.
-          # وإذا نفس اسم الملف موجود بإصدار أقدم، نرجع لنفس Release ونستبدله هناك.
+          FILE="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
           index=1
-          chosen=""
 
           while true; do
-            if [ "$index" -eq 1 ]; then
-              tag="storage"
-            else
-              tag="storage-$index"
+            if [ "$index" -eq 1 ]; then tag="storage"; else tag="storage-$index"; fi
+
+            if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+              gh release create "$tag" --repo "$GITHUB_REPOSITORY" --title "$tag" \
+                --notes "iKiraPlus permanent file storage" >/dev/null 2>&1 || true
             fi
 
-            if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-              release_id="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$tag" --jq '.id')"
-
-              existing="$({
-                gh api --paginate \
-                  "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" |
-                jq -r --arg n "$ASSET_NAME" '.[] | select(.name == $n) | .id'
-              } | head -n 1 || true)"
-
-              if [ -n "$existing" ]; then
-                chosen="$tag"
-                echo "Same asset name already exists in $tag; it will be replaced."
-                break
-              fi
-
-              count="$({
-                gh api --paginate \
-                  "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" \
-                  --jq '.[].id'
-              } | wc -l | tr -d ' ')"
-
-              echo "$tag contains $count assets"
-
-              if [ "$count" -lt 1000 ]; then
-                chosen="$tag"
-                break
-              fi
-
-              index=$((index + 1))
-              continue
+            if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+              index=$((index + 1)); continue
             fi
 
-            # أول Release غير موجود هو التالي المطلوب؛ ينشأ فقط بعد امتلاء السابق.
-            gh release create "$tag" \
-              --repo "$GITHUB_REPOSITORY" \
-              --title "$tag" \
-              --notes "iKiraPlus permanent file storage"
-            chosen="$tag"
-            break
+            release_id="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$tag" --jq '.id')"
+            existing="$({ gh api --paginate "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" | jq -r --arg n "$ASSET_NAME" '.[] | select(.name == $n) | .id'; } | head -n 1 || true)"
+
+            if [ -n "$existing" ]; then
+              if gh release upload "$tag" "$FILE" --repo "$GITHUB_REPOSITORY" --clobber; then
+                echo "tag=$tag" >> "$GITHUB_OUTPUT"; break
+              fi
+              index=$((index + 1)); continue
+            fi
+
+            count="$({ gh api --paginate "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" --jq '.[].id'; } | wc -l | tr -d ' ')"
+            echo "$tag contains $count assets"
+            if [ "$count" -ge 1000 ]; then index=$((index + 1)); continue; fi
+
+            # إذا job آخر أخذ آخر slot بنفس اللحظة، نجرب Release التالي بدل الفشل.
+            if gh release upload "$tag" "$FILE" --repo "$GITHUB_REPOSITORY"; then
+              echo "tag=$tag" >> "$GITHUB_OUTPUT"; break
+            fi
+
+            echo "Upload to $tag failed; trying next release."
+            index=$((index + 1))
           done
-
-          test -n "$chosen"
-          echo "tag=$chosen" >> "$GITHUB_OUTPUT"
-          echo "Selected release: $chosen"
-
-      - name: Upload validated file to selected release
-        env:
-          GH_TOKEN: ${{ github.token }}
-          STORAGE_TAG: ${{ steps.storage.outputs.tag }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          FILE="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
-          echo "Uploading to $STORAGE_TAG:"
-          ls -lh "$FILE"
-          gh release upload "$STORAGE_TAG" \
-            "$FILE" \
-            --repo "$GITHUB_REPOSITORY" \
-            --clobber
 
       - name: Verify uploaded asset size
         env:
@@ -431,19 +406,12 @@ jobs:
           set -euo pipefail
           LOCAL="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
           LOCAL_SIZE="$(stat -c%s "$LOCAL")"
-
           RELEASE_ID="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$STORAGE_TAG" --jq '.id')"
-          REMOTE_SIZE="$({
-            gh api --paginate \
-              "repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID/assets?per_page=100" |
-            jq -r --arg name "$ASSET_NAME" '.[] | select(.name == $name) | .size'
-          } | tail -n 1)"
-
+          REMOTE_SIZE="$({ gh api --paginate "repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID/assets?per_page=100" | jq -r --arg name "$ASSET_NAME" '.[] | select(.name == $name) | .size'; } | tail -n 1)"
           echo "Local size : $LOCAL_SIZE bytes"
           echo "GitHub size: $REMOTE_SIZE bytes"
           test -n "$REMOTE_SIZE"
           test "$LOCAL_SIZE" = "$REMOTE_SIZE"
-          echo "Upload verified successfully."
 
       - name: Make GitHub the primary DL source immediately
         env:
@@ -451,47 +419,32 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
+          RUN_URL="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           payload="$(jq -n \
             --arg id "$SHORT_ID" \
             --arg token "$CALLBACK_TOKEN" \
             --arg releaseTag "$STORAGE_TAG" \
             --arg assetName "$ASSET_NAME" \
-            '{id:$id,token:$token,releaseTag:$releaseTag,assetName:$assetName}')"
-
-          curl \
-            --fail \
-            --silent \
-            --show-error \
-            --retry 12 \
-            --retry-delay 2 \
-            --retry-all-errors \
-            --header "Content-Type: application/json" \
-            --data "$payload" \
-            "$CALLBACK_URL"
-
-          echo "Worker callback completed. GitHub is now the primary DL source."
+            --argjson runId "$GITHUB_RUN_ID" \
+            --arg runUrl "$RUN_URL" \
+            '{id:$id,token:$token,releaseTag:$releaseTag,assetName:$assetName,runId:$runId,runUrl:$runUrl}')"
+          curl --fail --silent --show-error --retry 12 --retry-delay 1 --retry-all-errors \
+            --header "Content-Type: application/json" --data "$payload" "$CALLBACK_URL"
 
       - name: Report failure to Worker
-        if: failure()
+        if: ${{ failure() || cancelled() }}
         shell: bash
         run: |
           set +e
-          if [ -z "${CALLBACK_URL:-}" ] || [ -z "${CALLBACK_TOKEN:-}" ] || [ -z "${SHORT_ID:-}" ]; then
-            exit 0
-          fi
-
+          if [ -z "${CALLBACK_FAIL_URL:-}" ] || [ -z "${CALLBACK_TOKEN:-}" ] || [ -z "${SHORT_ID:-}" ]; then exit 0; fi
+          RUN_URL="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           payload="$(jq -n \
             --arg id "$SHORT_ID" \
             --arg token "$CALLBACK_TOKEN" \
-            --arg message "GitHub Actions failed while downloading, validating, or uploading the file" \
-            '{id:$id,token:$token,message:$message}')"
-
-          curl \
-            --silent \
-            --show-error \
-            --retry 6 \
-            --retry-delay 2 \
-            --header "Content-Type: application/json" \
-            --data "$payload" \
-            "${CALLBACK_URL%/github-complete}/github-failed" || true
+            --arg message "iKiraPlus Storage Backup failed — افتح GitHub Action للتفاصيل" \
+            --arg conclusion "failure" \
+            --argjson runId "$GITHUB_RUN_ID" \
+            --arg runUrl "$RUN_URL" \
+            '{id:$id,token:$token,message:$message,conclusion:$conclusion,runId:$runId,runUrl:$runUrl}')"
+          curl --silent --show-error --retry 8 --retry-delay 1 --retry-all-errors \
+            --header "Content-Type: application/json" --data "$payload" "$CALLBACK_FAIL_URL" || true
