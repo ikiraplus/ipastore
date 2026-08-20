@@ -6067,6 +6067,51 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:04:33.639Z",
       "updatedAt": "2026-08-20T11:04:33.639Z"
+    },
+    {
+      "id": "app-1787223901132",
+      "name": "Animal Shooting 2024 Gun Games",
+      "version": "1.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animal-shooting-2024-gun-games",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/d2/58/40d25839-c040-e592-fb21-5085617e5336/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "144.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:05:01.133Z",
+      "updatedAt": "2026-08-20T11:05:01.133Z"
+    },
+    {
+      "id": "app-1787223921717",
+      "name": "Prison Escape Simulator 3d",
+      "version": "1.0.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/prison-escape-simulator-3d",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/ba/90/aeba9048-559e-6958-3ea4-bffb6ca36d1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "252.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:05:21.718Z",
+      "updatedAt": "2026-08-20T11:05:21.718Z"
+    },
+    {
+      "id": "app-1787223942114",
+      "name": "Pro Series Drag Racing",
+      "version": "2.20",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pro-series-drag-racing",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/f0/00/29/f00029a8-205a-91ac-1b3c-c8547f71c9b5/AppIcon-1x_U007emarketing-0-85-220-0-8.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "83.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:05:42.115Z",
+      "updatedAt": "2026-08-20T11:05:42.115Z"
     }
   ]
 }
