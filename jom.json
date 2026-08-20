@@ -6274,6 +6274,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:12:05.372Z",
       "updatedAt": "2026-08-20T11:12:05.372Z"
+    },
+    {
+      "id": "app-1787242026142",
+      "name": "Blasphemous",
+      "version": "1.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/blasphemous-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/c4/52/48c45261-2265-96f7-fc2a-e8896df3b560/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "792.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:07:06.143Z",
+      "updatedAt": "2026-08-20T16:07:06.143Z"
     }
   ]
 }
