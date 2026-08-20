@@ -6529,6 +6529,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:39:42.246Z",
       "updatedAt": "2026-08-20T16:39:42.246Z"
+    },
+    {
+      "id": "app-1787244076386",
+      "name": "Streets Of Rage",
+      "version": "9.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streets-of-rage-hack",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnKjhyI3Xh0AFgqiFUkBsahEIK5YBjEGp9GnB1n0_NeAD3JDSf81wJR_nW&s=10",
+      "previousVersions": [],
+      "size": "45.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:41:16.387Z",
+      "updatedAt": "2026-08-20T16:41:16.387Z"
     }
   ]
 }
