@@ -6289,6 +6289,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:07:06.143Z",
       "updatedAt": "2026-08-20T16:07:06.143Z"
+    },
+    {
+      "id": "app-1787242192877",
+      "name": "Snake Io",
+      "version": "1.21.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snake-io-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/fe/96/f9fe967b-1253-0c0a-dea8-fd9fc636b212/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "101.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:09:52.878Z",
+      "updatedAt": "2026-08-20T16:09:52.878Z"
     }
   ]
 }
