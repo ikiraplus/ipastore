@@ -6694,6 +6694,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:52:39.529Z",
       "updatedAt": "2026-08-20T16:52:39.529Z"
+    },
+    {
+      "id": "app-1787244878843",
+      "name": "Supermario 64",
+      "version": "1.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/supermario64.60fps-hack",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZP3Qed8CDtPfnho2n4Ygmgfi5L8lhbygGsAzvfgQXt0lm-7HAqn7PnN0&s=10",
+      "previousVersions": [],
+      "size": "8.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:54:38.844Z",
+      "updatedAt": "2026-08-20T16:54:38.844Z"
     }
   ]
 }
