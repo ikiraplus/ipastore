@@ -2103,13 +2103,22 @@
     {
       "id": "app-iosgods-swamp-attack-2-4823",
       "name": "Swamp Attack 2",
-      "version": "1.1.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swamp-attack-2-hack-tccm6ctd8a-1",
+      "version": "4.0.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swamp-attack-hack",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/d6/61/51d66197-123c-253b-9878-57cba24fe4a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "300 MB",
+      "size": "131.2 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swamp-attack-2-hack-tccm6ctd8a-1",
+          "version": "1.1.3"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-08-20T09:30:18.735Z"
     },
     {
       "id": "app-iosgods-zombie-state-4002",
