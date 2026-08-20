@@ -3525,14 +3525,17 @@
     {
       "id": "app-1781377151874",
       "name": "temple run",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/templerun",
+      "version": "1.29.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/templerun-hack",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/cd/de/62cdde56-75c6-ef97-32f1-b6aea96b052a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
       "size": "80.7 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:59:11.875Z",
-      "updatedAt": "2026-06-13T18:59:11.875Z"
+      "updatedAt": "2026-08-20T09:29:31.645Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1781377205864",
