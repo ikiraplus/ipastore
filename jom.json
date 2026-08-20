@@ -6127,6 +6127,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:06:56.105Z",
       "updatedAt": "2026-08-20T11:06:56.105Z"
+    },
+    {
+      "id": "app-1787224052222",
+      "name": "Rush Hour 3d Car Game",
+      "version": "3.0004002",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rush-hour-3d-car-game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/19/2b/09192b27-7f4e-5a71-71e4-bb157be2e837/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "122.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T11:07:32.223Z",
+      "updatedAt": "2026-08-20T11:07:32.223Z"
     }
   ]
 }
