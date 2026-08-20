@@ -6589,6 +6589,21 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:44:00.060Z",
       "updatedAt": "2026-08-20T16:44:00.060Z"
+    },
+    {
+      "id": "app-1787244344661",
+      "name": "Resident Evil survival unit",
+      "version": "1.8.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/93/2c/83932cd4-c550-e7ef-f17c-2b425675e1dd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1298.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-20T16:45:44.663Z",
+      "updatedAt": "2026-08-20T16:45:44.663Z"
     }
   ]
 }
