@@ -7492,6 +7492,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:00:20.889Z",
       "updatedAt": "2026-08-21T11:00:20.889Z"
+    },
+    {
+      "id": "app-1787311587515",
+      "name": "Full Code Medical simulation",
+      "version": "3.7.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/full-code",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/44/d0/6444d03b-827a-dc10-3219-64afb1174fa7/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "77.3 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-21T11:26:27.516Z",
+      "updatedAt": "2026-08-21T11:26:27.516Z"
     }
   ]
 }
