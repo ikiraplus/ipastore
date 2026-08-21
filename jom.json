@@ -7612,6 +7612,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:00:05.454Z",
       "updatedAt": "2026-08-21T15:00:06.319Z"
+    },
+    {
+      "id": "app-1787324436782",
+      "name": "Tag halal Food",
+      "version": "4.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/taghalal-food",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/ad/36/4bad3652-451f-a9d1-b7b5-900209afe670/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "17.2 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:00:36.782Z",
+      "updatedAt": "2026-08-21T15:00:37.656Z"
     }
   ]
 }
