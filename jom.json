@@ -5002,21 +5002,6 @@
       "updatedAt": "2026-07-31T19:17:24.698Z"
     },
     {
-      "id": "app-1785677012696",
-      "name": "Watcher Of Realms",
-      "version": "1.6.22",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/watcher-of-realms-1.6.22-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/70/26/8a702680-71bf-75d2-5c7b-0145574d6bd7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "216.3 MB",
-      "note": "",
-      "category": "ألعاب",
-      "recommended": false,
-      "addedAt": "2026-08-02T13:23:32.697Z",
-      "updatedAt": "2026-08-02T13:23:32.697Z"
-    },
-    {
       "id": "app-1785677101322",
       "name": "Watcher Of Realms",
       "version": "1.6.22",
