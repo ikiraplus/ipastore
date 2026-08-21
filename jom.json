@@ -6851,6 +6851,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:53:43.381Z",
       "updatedAt": "2026-08-21T07:53:43.381Z"
+    },
+    {
+      "id": "app-1787298880970",
+      "name": "Breaking Bad Criminal Elements",
+      "version": "1.23.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/breaking-bad-criminal-elements",
+      "icon": "https://cdn2.steamgriddb.com/thumb/e1ef1ee1cbe27c86748cf6d633ba2122.jpg",
+      "previousVersions": [],
+      "size": "106.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:54:40.970Z",
+      "updatedAt": "2026-08-21T07:54:40.970Z"
     }
   ]
 }
