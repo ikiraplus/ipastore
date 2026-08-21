@@ -7369,6 +7369,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:45:47.735Z",
       "updatedAt": "2026-08-21T10:45:47.735Z"
+    },
+    {
+      "id": "app-1787309200947",
+      "name": "Anatomy Learning 3d Atlas",
+      "version": "3.2.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anatomy-learning-3d-atlas",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/1c/59/e01c59cb-1a3f-4dd8-d6b0-e0e44e8c0686/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "135.1 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:46:40.948Z",
+      "updatedAt": "2026-08-21T10:46:40.948Z"
     }
   ]
 }
