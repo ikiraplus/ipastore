@@ -7687,6 +7687,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:13:49.502Z",
       "updatedAt": "2026-08-21T15:13:52.687Z"
+    },
+    {
+      "id": "app-1787325286821",
+      "name": "Afk Journey",
+      "version": "1.7.31",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/afk-journey-1.7.31",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/b2/7c/3ab27c63-8246-fdab-a19f-150a5021a085/AppIcon-Global-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "880.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:14:46.821Z",
+      "updatedAt": "2026-08-21T15:14:48.453Z"
     }
   ]
 }
