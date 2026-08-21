@@ -6956,6 +6956,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:59:26.626Z",
       "updatedAt": "2026-08-21T07:59:26.626Z"
+    },
+    {
+      "id": "app-1787299193592",
+      "name": "Real Car Parking 2",
+      "version": "6.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/real-car-parking-2-v6.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/a6/bb/74a6bbfa-4f2e-a144-901d-208691fd60f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "441.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:59:53.592Z",
+      "updatedAt": "2026-08-21T07:59:53.592Z"
     }
   ]
 }
