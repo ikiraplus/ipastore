@@ -6941,6 +6941,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:58:15.913Z",
       "updatedAt": "2026-08-21T07:58:15.913Z"
+    },
+    {
+      "id": "app-1787299124749",
+      "name": "Guns Of Boom",
+      "version": "30.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guns-of-boom",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/9d/61/83/9d6183ed-55f6-f8e4-c060-c82151865910/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1177.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:58:44.750Z",
+      "updatedAt": "2026-08-21T07:58:44.750Z"
     }
   ]
 }
