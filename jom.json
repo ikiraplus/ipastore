@@ -7256,6 +7256,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:14:55.532Z",
       "updatedAt": "2026-08-21T08:14:55.532Z"
+    },
+    {
+      "id": "app-1787300126019",
+      "name": "The Room Three",
+      "version": "1.0.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-room-three",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/9b/be/fa/9bbefa87-a9a5-a8b8-1443-aed1c1740558/AppIcon-1x_U007emarketing-0-85-220-0-8.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "561.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:15:26.021Z",
+      "updatedAt": "2026-08-21T08:15:26.021Z"
     }
   ]
 }
