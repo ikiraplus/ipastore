@@ -7459,6 +7459,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:52:00.283Z",
       "updatedAt": "2026-08-21T10:52:00.283Z"
+    },
+    {
+      "id": "app-1787309583082",
+      "name": "Visual Anatomy",
+      "version": "7.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/visual-anatomy",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/7d/ff/b87dff61-2500-6239-3728-136c9379495a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "236.8 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:53:03.083Z",
+      "updatedAt": "2026-08-21T10:53:03.083Z"
     }
   ]
 }
