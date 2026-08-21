@@ -7444,6 +7444,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:50:53.490Z",
       "updatedAt": "2026-08-21T10:50:53.490Z"
+    },
+    {
+      "id": "app-1787309520282",
+      "name": "صلاتي واذكاري",
+      "version": "1.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/salaty-athkari",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/a8/b1/58a8b11a-6c13-c56f-b4d4-265587a07aff/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "24.8 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:52:00.283Z",
+      "updatedAt": "2026-08-21T10:52:00.283Z"
     }
   ]
 }
