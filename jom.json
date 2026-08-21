@@ -7537,6 +7537,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:29:15.472Z",
       "updatedAt": "2026-08-21T11:29:15.472Z"
+    },
+    {
+      "id": "app-1787311813193",
+      "name": "3d Anatomy",
+      "version": "6.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/3d-anatomy",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/74/28/59742839-3495-17f5-9c3d-a20d2bccf95a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "130.3 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-21T11:30:13.194Z",
+      "updatedAt": "2026-08-21T11:30:13.194Z"
     }
   ]
 }
