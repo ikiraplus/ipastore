@@ -7552,6 +7552,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:30:13.194Z",
       "updatedAt": "2026-08-21T11:30:13.194Z"
+    },
+    {
+      "id": "app-1787311875032",
+      "name": "Logo Maker generator",
+      "version": "3.7.57",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/logo-maker",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/a0/52/1aa05285-5398-e7b9-7b3d-101a13fecef3/AppIconFree-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "67.4 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T11:31:15.032Z",
+      "updatedAt": "2026-08-21T11:31:15.032Z"
     }
   ]
 }
