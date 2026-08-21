@@ -7741,6 +7741,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:16:23.469Z",
       "updatedAt": "2026-08-21T15:16:25.399Z"
+    },
+    {
+      "id": "app-1787325418872",
+      "name": "Earn To Die Rogue",
+      "version": "1.28.251",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/earn-to-die-rogue-1.28.251",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/ec/35/26ec35ff-e800-e488-9882-f842c0a32ae7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "194.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:16:58.872Z",
+      "updatedAt": "2026-08-21T15:17:02.008Z"
     }
   ]
 }
