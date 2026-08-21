@@ -7761,6 +7761,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:16:58.872Z",
       "updatedAt": "2026-08-21T15:17:02.008Z"
+    },
+    {
+      "id": "app-1787325520896",
+      "name": "Bendys Nightmare Run",
+      "version": "2.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bendy-run-2.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/60/2c/1c602c12-3340-38eb-35db-924d9f14e5b9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "252.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:18:40.896Z",
+      "updatedAt": "2026-08-21T15:18:45.633Z"
     }
   ]
 }
