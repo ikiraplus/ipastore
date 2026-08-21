@@ -7339,6 +7339,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:31:18.855Z",
       "updatedAt": "2026-08-21T08:31:18.855Z"
+    },
+    {
+      "id": "app-1787309103653",
+      "name": "AI Invitation Maker Countdown",
+      "version": "1.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ai-invitation-maker-countdown",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/0e/ae/830eae37-e636-7af2-abe3-be10e8574eb4/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "11.4 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:45:03.655Z",
+      "updatedAt": "2026-08-21T10:45:03.655Z"
     }
   ]
 }
