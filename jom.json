@@ -7672,6 +7672,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:12:29.827Z",
       "updatedAt": "2026-08-21T15:12:33.650Z"
+    },
+    {
+      "id": "app-1787325229502",
+      "name": "Monsters",
+      "version": "20.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monsters-20.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/8b/37/a08b377b-551d-fc89-e171-89b72a7151fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "139.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:13:49.502Z",
+      "updatedAt": "2026-08-21T15:13:52.687Z"
     }
   ]
 }
