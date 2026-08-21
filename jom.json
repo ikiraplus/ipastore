@@ -7582,6 +7582,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:32:26.891Z",
       "updatedAt": "2026-08-21T11:32:26.891Z"
+    },
+    {
+      "id": "app-1787311999751",
+      "name": "Shadowx VPN",
+      "version": "3.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadowx",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/48/f6/8a48f60c-7a6c-3e7c-45ad-0d11382c65ba/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "9.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T11:33:19.751Z",
+      "updatedAt": "2026-08-21T11:33:19.751Z"
     }
   ]
 }
