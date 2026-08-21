@@ -7384,6 +7384,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:46:40.948Z",
       "updatedAt": "2026-08-21T10:46:40.948Z"
+    },
+    {
+      "id": "app-1787309252802",
+      "name": "Muscle Trigger Points",
+      "version": "6.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/muscle-trigger-points",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/5b/2c/50/5b2c507c-0ee4-2cd4-785e-bf59a535f5bf/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "229.6 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:47:32.803Z",
+      "updatedAt": "2026-08-21T10:47:32.803Z"
     }
   ]
 }
