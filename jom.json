@@ -7196,6 +7196,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:12:32.324Z",
       "updatedAt": "2026-08-21T08:12:32.324Z"
+    },
+    {
+      "id": "app-1787299973998",
+      "name": "Monument Valley 2",
+      "version": "3.10.604",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monument-valley-2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/f1/15/97f11538-719a-d660-41d2-d1cde2c59258/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "270.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:12:53.998Z",
+      "updatedAt": "2026-08-21T08:12:53.998Z"
     }
   ]
 }
