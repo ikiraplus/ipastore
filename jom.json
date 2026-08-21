@@ -7136,6 +7136,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:09:10.566Z",
       "updatedAt": "2026-08-21T08:09:10.566Z"
+    },
+    {
+      "id": "app-1787299827021",
+      "name": "Bubble Shooter Pop Blast",
+      "version": "123.4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bubble-shooter-pop-blast",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/a8/bd/88a8bd83-1578-d939-1359-da5d4a52a2fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "139.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:10:27.022Z",
+      "updatedAt": "2026-08-21T08:10:27.022Z"
     }
   ]
 }
