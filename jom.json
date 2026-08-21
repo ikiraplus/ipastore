@@ -7166,17 +7166,17 @@
     {
       "id": "app-1787299895229",
       "name": "Grimvalor",
-      "version": "1.0.5",
+      "version": "1.2.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grimvalor",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grimvalor-v1.2.4-paid",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/40/26/514026bd-600a-8677-5a02-9225c944be00/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
       "previousVersions": [],
-      "size": "602.9 MB",
+      "size": "718.3 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:11:35.230Z",
-      "updatedAt": "2026-08-21T08:11:35.230Z"
+      "updatedAt": "2026-08-21T12:15:45.295Z"
     },
     {
       "id": "app-1787299952323",
