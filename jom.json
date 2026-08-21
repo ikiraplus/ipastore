@@ -909,26 +909,26 @@
     {
       "id": "app-1773509724484",
       "name": "Alight Motion hack",
-      "version": "6.2.56",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/alight-motion-v6.2.56-subscription-unlocked",
+      "version": "6.2.58",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/alight-motion-v6.2.58-subscription-unlocked-patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/9b/92/2d9b9214-e9c0-64a0-382c-1470cc96a3c0/AppIcon-0-0-1x_U007emarketing-0-5-0-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "122.7 MB",
+      "size": "123.1 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-29",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/alight-motion-v6.2.55-subscription-unlocked-patched",
-          "version": "6.2.55"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/alight-motion-v6.2.56-subscription-unlocked",
+          "version": "6.2.56"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/alight.motion_6.2.53-1",
-          "version": "6.2.53"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/alight-motion-v6.2.55-subscription-unlocked-patched",
+          "version": "6.2.55"
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-11T20:31:45.190Z"
+      "updatedAt": "2026-08-21T08:24:43.142Z"
     },
     {
       "id": "app-1773511677771",
