@@ -7151,6 +7151,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:10:27.022Z",
       "updatedAt": "2026-08-21T08:10:27.022Z"
+    },
+    {
+      "id": "app-1787299846802",
+      "name": "Crossy Road",
+      "version": "7.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crossy-road",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/41/82/54418242-1b2a-46ff-cb3b-db0588da2015/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "136.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:10:46.803Z",
+      "updatedAt": "2026-08-21T08:10:46.803Z"
     }
   ]
 }
