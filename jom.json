@@ -7271,6 +7271,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:15:26.021Z",
       "updatedAt": "2026-08-21T08:15:26.021Z"
+    },
+    {
+      "id": "app-1787300158317",
+      "name": "Chrono Trigger",
+      "version": "2.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chrono-trigger",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cb/a9/07/cba90727-83dc-9913-527f-ee4207f7b112/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "534.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:15:58.318Z",
+      "updatedAt": "2026-08-21T08:15:58.318Z"
     }
   ]
 }
