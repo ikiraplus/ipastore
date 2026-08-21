@@ -7474,6 +7474,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:53:03.083Z",
       "updatedAt": "2026-08-21T10:53:03.083Z"
+    },
+    {
+      "id": "app-1787309730473",
+      "name": "Easy Anatomy 3D with Voice AI",
+      "version": "5.40.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/easy_anatomy_3d_atlas",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/fd/db/7efddb1d-cdcb-4bcc-8abf-3555402b53ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1345.8 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:55:30.474Z",
+      "updatedAt": "2026-08-21T10:55:30.474Z"
     }
   ]
 }
