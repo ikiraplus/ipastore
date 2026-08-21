@@ -7290,6 +7290,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:15:58.318Z",
       "updatedAt": "2026-08-21T08:15:58.318Z"
+    },
+    {
+      "id": "app-1787300793050",
+      "name": "Idle Miner Tycoon",
+      "version": "5.61.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-miner-tycoon-v5.61.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/a5/42/a9a542fe-ead3-36e9-0331-48c17af92afd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "135.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:26:33.051Z",
+      "updatedAt": "2026-08-21T08:26:33.051Z"
     }
   ]
 }
