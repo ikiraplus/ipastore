@@ -7507,6 +7507,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:26:27.516Z",
       "updatedAt": "2026-08-21T11:26:27.516Z"
+    },
+    {
+      "id": "app-1787311678712",
+      "name": "Islamic Wallpapers themes",
+      "version": "2.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wallpapers",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/fc/fa/a4fcfaf0-3eba-43b8-d570-2fbc1416bbb6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "38.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T11:27:58.713Z",
+      "updatedAt": "2026-08-21T11:27:58.713Z"
     }
   ]
 }
