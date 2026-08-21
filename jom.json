@@ -6821,6 +6821,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:52:37.318Z",
       "updatedAt": "2026-08-21T07:52:37.318Z"
+    },
+    {
+      "id": "app-1787298791759",
+      "name": "Boxing Star Pvp Match 3",
+      "version": "1.4.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/boxing_star-pvp_match_3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/43/1d/24431daf-e034-ca78-1b78-16bf800221e1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "76.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:53:11.760Z",
+      "updatedAt": "2026-08-21T07:53:11.760Z"
     }
   ]
 }
