@@ -7702,6 +7702,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:14:46.821Z",
       "updatedAt": "2026-08-21T15:14:48.453Z"
+    },
+    {
+      "id": "app-1787325308553",
+      "name": "Zombie Slasher",
+      "version": "1.13.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zombie-slasher-1.13.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/47/ff/0447ffa3-c0ae-1d61-8d6a-c3fab72c7229/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "228.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:15:08.553Z",
+      "updatedAt": "2026-08-21T15:15:09.824Z"
     }
   ]
 }
