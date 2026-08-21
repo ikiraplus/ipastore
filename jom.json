@@ -7001,6 +7001,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:02:35.338Z",
       "updatedAt": "2026-08-21T08:02:35.338Z"
+    },
+    {
+      "id": "app-1787299402670",
+      "name": "Invincible",
+      "version": "3.5.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/invincible",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/37/70/e9377051-b94b-4f79-3b87-830e94087e2f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "136.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:03:22.671Z",
+      "updatedAt": "2026-08-21T08:03:22.671Z"
     }
   ]
 }
