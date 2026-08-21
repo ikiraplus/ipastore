@@ -7567,6 +7567,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:31:15.032Z",
       "updatedAt": "2026-08-21T11:31:15.032Z"
+    },
+    {
+      "id": "app-1787311946890",
+      "name": "Python Coding editor IDE",
+      "version": "1.12.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/python-codepad",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/9e/d0/4a9ed0c7-d8e5-7ed1-ce2d-e9f868fd3a4d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "91.4 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T11:32:26.891Z",
+      "updatedAt": "2026-08-21T11:32:26.891Z"
     }
   ]
 }
