@@ -7642,6 +7642,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:00:58.146Z",
       "updatedAt": "2026-08-21T15:00:59.141Z"
+    },
+    {
+      "id": "app-1787324481472",
+      "name": "Termius Terminal Ssh Client",
+      "version": "5.9.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/termius_terminal_ssh_client-v5.9.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/92/81/0f928136-ffb8-42b9-0f45-82b15708b785/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "103.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:01:21.472Z",
+      "updatedAt": "2026-08-21T15:01:22.499Z"
     }
   ]
 }
