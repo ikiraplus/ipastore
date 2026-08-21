@@ -7121,6 +7121,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:07:46.489Z",
       "updatedAt": "2026-08-21T08:07:46.489Z"
+    },
+    {
+      "id": "app-1787299750566",
+      "name": "D-Day",
+      "version": "3.0.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/d-day",
+      "icon": "https://img.skich.io/games/icons/df05f34e-6643-4f81-a0c5-2dce58f9b5b1.jpg",
+      "previousVersions": [],
+      "size": "346.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:09:10.566Z",
+      "updatedAt": "2026-08-21T08:09:10.566Z"
     }
   ]
 }
