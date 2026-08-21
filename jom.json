@@ -7076,6 +7076,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:06:01.258Z",
       "updatedAt": "2026-08-21T08:06:01.258Z"
+    },
+    {
+      "id": "app-1787299587546",
+      "name": "Sunday City Sim Life",
+      "version": "1.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sunday-city_sim-life",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/d6/f4/dad6f4ce-6b4a-4574-a72e-6110af99370a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "881.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:06:27.547Z",
+      "updatedAt": "2026-08-21T08:06:27.547Z"
     }
   ]
 }
