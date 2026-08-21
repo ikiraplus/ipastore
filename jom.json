@@ -7226,6 +7226,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:13:26.824Z",
       "updatedAt": "2026-08-21T08:13:26.824Z"
+    },
+    {
+      "id": "app-1787300044572",
+      "name": "The Room Two",
+      "version": "1.0.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-room-two",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/2a/19/dd/2a19dd0f-f01d-262d-d82c-c1cf38084c3f/AppIcon-1x_U007emarketing-0-85-220-0-8.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "306.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:14:04.572Z",
+      "updatedAt": "2026-08-21T08:14:04.572Z"
     }
   ]
 }
