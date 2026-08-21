@@ -7061,6 +7061,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:05:13.018Z",
       "updatedAt": "2026-08-21T08:05:13.018Z"
+    },
+    {
+      "id": "app-1787299561256",
+      "name": "Cut The Rope 3",
+      "version": "1.6.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cut_the_rope_3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/e1/68/12e168a4-738c-86aa-fe78-226e2ae7421d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "325.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:06:01.258Z",
+      "updatedAt": "2026-08-21T08:06:01.258Z"
     }
   ]
 }
