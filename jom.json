@@ -7091,6 +7091,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:06:27.547Z",
       "updatedAt": "2026-08-21T08:06:27.547Z"
+    },
+    {
+      "id": "app-1787299626010",
+      "name": "Monopoly The Board Game",
+      "version": "1.15.15",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monopoly-the-board-game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/b9/92/88b9927e-e9cf-815e-8dac-741b91822bc4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "649.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:07:06.011Z",
+      "updatedAt": "2026-08-21T08:07:06.011Z"
     }
   ]
 }
