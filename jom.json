@@ -6926,6 +6926,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:57:34.848Z",
       "updatedAt": "2026-08-21T07:57:34.848Z"
+    },
+    {
+      "id": "app-1787299095912",
+      "name": "Drift Legends 2",
+      "version": "1.5.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/drift-legends-2.1.4.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/cf/66/04cf66da-b5ba-2515-e89a-112319564501/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "575.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:58:15.913Z",
+      "updatedAt": "2026-08-21T07:58:15.913Z"
     }
   ]
 }
