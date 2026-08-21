@@ -1823,13 +1823,17 @@
     {
       "id": "app-game-ios-1711600000017",
       "name": "My Talking Tom 2",
-      "version": "4.9.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-talking-tom-2-hack-5t2p6iff2c-1",
+      "version": "26.3.10",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-talking-tom",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/2a/00/572a00c6-c23d-2736-f431-088aabbdae14/AppIcon-0-0-1x_U007emarketing-0-9-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "400 MB",
+      "size": "241.3 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-21T07:52:15.357Z"
     },
     {
       "id": "app-iosgods-dazz-cam-1697",
