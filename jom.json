@@ -6956,6 +6956,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:58:44.750Z",
       "updatedAt": "2026-08-21T07:58:44.750Z"
+    },
+    {
+      "id": "app-1787299166625",
+      "name": "Sas Zombie Assault 4",
+      "version": "2.2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sas-zombie-assault.4.1.9.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/b0/fa/d4b0faeb-9f3e-30eb-3b9e-2b515820e285/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "129.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:59:26.626Z",
+      "updatedAt": "2026-08-21T07:59:26.626Z"
     }
   ]
 }
