@@ -7522,6 +7522,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:27:58.713Z",
       "updatedAt": "2026-08-21T11:27:58.713Z"
+    },
+    {
+      "id": "app-1787311755471",
+      "name": "ادارة الملفات",
+      "version": "10.029",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idara-malafat",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/2d/e5/d42de533-39fd-978c-d22a-e7a8612cb313/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "290.3 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T11:29:15.472Z",
+      "updatedAt": "2026-08-21T11:29:15.472Z"
     }
   ]
 }
