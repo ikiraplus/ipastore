@@ -6971,6 +6971,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:59:53.592Z",
       "updatedAt": "2026-08-21T07:59:53.592Z"
+    },
+    {
+      "id": "app-1787299223299",
+      "name": "Gunship Operator 3d",
+      "version": "2.8.4.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gunship-operator-3d",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/98/e2/1c98e25a-436b-a3cb-fecd-b4ad2fbb95a3/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "317.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:00:23.299Z",
+      "updatedAt": "2026-08-21T08:00:23.299Z"
     }
   ]
 }
