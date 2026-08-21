@@ -6896,6 +6896,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:55:53.147Z",
       "updatedAt": "2026-08-21T07:55:53.147Z"
+    },
+    {
+      "id": "app-1787299027594",
+      "name": "Ghost Slayer",
+      "version": "1.52",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ghost-slayer-1.52",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSufrMVBKahE1LlMVLI_C-UPRwaqluY9PAZ4MFHqyp-Fw&s",
+      "previousVersions": [],
+      "size": "91.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:57:07.595Z",
+      "updatedAt": "2026-08-21T07:57:07.595Z"
     }
   ]
 }
