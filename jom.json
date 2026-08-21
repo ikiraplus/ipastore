@@ -6836,6 +6836,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:53:11.760Z",
       "updatedAt": "2026-08-21T07:53:11.760Z"
+    },
+    {
+      "id": "app-1787298823380",
+      "name": "Summoners War",
+      "version": "9.2.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/summoners-war",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/fb/a1/f3fba188-7a8c-3c9f-8aa8-9b3a410ed903/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1471.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:53:43.381Z",
+      "updatedAt": "2026-08-21T07:53:43.381Z"
     }
   ]
 }
