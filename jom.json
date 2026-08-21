@@ -7106,6 +7106,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:07:06.011Z",
       "updatedAt": "2026-08-21T08:07:06.011Z"
+    },
+    {
+      "id": "app-1787299666488",
+      "name": "Jetpack Joyride",
+      "version": "1.104.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jetpack-joyride",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/5f/b7/975fb768-0ead-faff-d690-1835ce44408e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "306.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:07:46.489Z",
+      "updatedAt": "2026-08-21T08:07:46.489Z"
     }
   ]
 }
