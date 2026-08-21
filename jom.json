@@ -7597,6 +7597,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:33:19.751Z",
       "updatedAt": "2026-08-21T11:33:19.751Z"
+    },
+    {
+      "id": "app-1787324405454",
+      "name": "Termux",
+      "version": "1.0.25",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/termux",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/21/34/2d213415-2aee-4293-058a-7b387cd8c681/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "32.4 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:00:05.454Z",
+      "updatedAt": "2026-08-21T15:00:06.319Z"
     }
   ]
 }
