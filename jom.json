@@ -6866,6 +6866,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:54:40.970Z",
       "updatedAt": "2026-08-21T07:54:40.970Z"
+    },
+    {
+      "id": "app-1787298900970",
+      "name": "Carx Drift Racing 3",
+      "version": "1.15.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-drift-racing-3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/08/5d/ba085d25-6300-4827-da18-bc39e6639b32/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "937.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:55:00.971Z",
+      "updatedAt": "2026-08-21T07:55:00.971Z"
     }
   ]
 }
