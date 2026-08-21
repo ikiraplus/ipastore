@@ -6911,6 +6911,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:57:07.595Z",
       "updatedAt": "2026-08-21T07:57:07.595Z"
+    },
+    {
+      "id": "app-1787299054848",
+      "name": "Traffic Driving",
+      "version": "1.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/traffic-driving-1.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/49/b2/0649b29b-6b8c-d5d2-41b5-32aaa870b39a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "155.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:57:34.848Z",
+      "updatedAt": "2026-08-21T07:57:34.848Z"
     }
   ]
 }
