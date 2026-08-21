@@ -7309,6 +7309,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:26:33.051Z",
       "updatedAt": "2026-08-21T08:26:33.051Z"
+    },
+    {
+      "id": "app-1787301000081",
+      "name": "Gunship Battle 3d",
+      "version": "2.6.60",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gunship-battle-3d-v2.6.60",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/66/f6/6a/66f66ac6-a725-db85-973b-b1e4c97f2547/mzl.uvkdqtlk.jpg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "143.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:30:00.082Z",
+      "updatedAt": "2026-08-21T08:30:00.082Z"
     }
   ]
 }
