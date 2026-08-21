@@ -7399,6 +7399,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:47:32.803Z",
       "updatedAt": "2026-08-21T10:47:32.803Z"
+    },
+    {
+      "id": "app-1787309312136",
+      "name": "Boon AI Logo Maker Design",
+      "version": "2.23.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/boon-ai-logo-maker-design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/75/db/f475db42-6480-c91a-b635-e71cce2fb709/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "837.2 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:48:32.137Z",
+      "updatedAt": "2026-08-21T10:48:32.137Z"
     }
   ]
 }
