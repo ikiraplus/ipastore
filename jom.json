@@ -7414,6 +7414,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:48:32.137Z",
       "updatedAt": "2026-08-21T10:48:32.137Z"
+    },
+    {
+      "id": "app-1787309399702",
+      "name": "Profile Picture Maker New Pfp",
+      "version": "1.2.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/profile-picture-maker-new-pfp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/39/d2/c1/39d2c10c-49f4-ea82-0d94-0852010e77ab/AppIcon-1x_U007emarketing-0-7-0-sRGB-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "47.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:49:59.703Z",
+      "updatedAt": "2026-08-21T10:49:59.703Z"
     }
   ]
 }
