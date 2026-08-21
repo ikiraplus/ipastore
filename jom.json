@@ -7016,6 +7016,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:03:22.671Z",
       "updatedAt": "2026-08-21T08:03:22.671Z"
+    },
+    {
+      "id": "app-1787299455404",
+      "name": "Nickelodeon Card Clash",
+      "version": "1.5.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nickelodeon_card_clash",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtyQFQ533i5Wn9FSFwz86UjBlQBWTi1IDDAU8Q9SThQ&s=10",
+      "previousVersions": [],
+      "size": "221.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:04:15.405Z",
+      "updatedAt": "2026-08-21T08:04:15.405Z"
     }
   ]
 }
