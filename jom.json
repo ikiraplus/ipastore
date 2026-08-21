@@ -7494,21 +7494,6 @@
       "updatedAt": "2026-08-21T11:00:20.889Z"
     },
     {
-      "id": "app-1787310060222",
-      "name": "Presets Filters Koloro",
-      "version": "4.4.9",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/presets_-_filters_koloro",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/8d/c2/178dc2a8-8ea1-8777-2597-6748683866fa/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "90.1 MB",
-      "note": "",
-      "category": "أدوات",
-      "recommended": false,
-      "addedAt": "2026-08-21T11:01:00.224Z",
-      "updatedAt": "2026-08-21T11:01:00.224Z"
-    },
-    {
       "id": "app-1787310107324",
       "name": "Presets Filters Koloro",
       "version": "4.4.9",
