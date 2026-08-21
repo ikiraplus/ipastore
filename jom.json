@@ -7241,6 +7241,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:14:04.572Z",
       "updatedAt": "2026-08-21T08:14:04.572Z"
+    },
+    {
+      "id": "app-1787300095531",
+      "name": "Playdeadis Limbo",
+      "version": "1.2.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/playdeadis-limbo",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/93/37/27933752-b38e-368a-c72f-ecab44dc2ccd/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "110.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:14:55.532Z",
+      "updatedAt": "2026-08-21T08:14:55.532Z"
     }
   ]
 }
