@@ -7354,6 +7354,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:45:03.655Z",
       "updatedAt": "2026-08-21T10:45:03.655Z"
+    },
+    {
+      "id": "app-1787309147733",
+      "name": "AI Aging App",
+      "version": "6.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ai-aging-app",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/03/52/7e035260-f325-448b-43cc-91f5989d7595/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "17.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:45:47.735Z",
+      "updatedAt": "2026-08-21T10:45:47.735Z"
     }
   ]
 }
