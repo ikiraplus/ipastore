@@ -1728,13 +1728,22 @@
     {
       "id": "app-game-ios-1711600000011",
       "name": "Hill Climb Racing 2",
-      "version": "1.62.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-2",
+      "version": "1.73.6",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-2.1.73.6",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/63/91/8b6391dd-b31a-070e-e1b5-6e025e32c695/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "300 MB",
+      "size": "212.1 MB",
       "note": "نسخة مهكرة من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-2",
+          "version": "1.62.1"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-08-21T15:15:39.666Z"
     },
     {
       "id": "app-game-ios-1711600000012",
