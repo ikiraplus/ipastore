@@ -6806,6 +6806,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:51:40.824Z",
       "updatedAt": "2026-08-21T07:51:40.824Z"
+    },
+    {
+      "id": "app-1787298757317",
+      "name": "Shadow Rival Action War Game",
+      "version": "1.0.24",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow_rival_action_war_game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/7d/04/6e7d0436-e90d-46c2-08aa-2c5f05913d1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "320.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:52:37.318Z",
+      "updatedAt": "2026-08-21T07:52:37.318Z"
     }
   ]
 }
