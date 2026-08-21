@@ -7657,6 +7657,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:01:21.472Z",
       "updatedAt": "2026-08-21T15:01:22.499Z"
+    },
+    {
+      "id": "app-1787325149827",
+      "name": "Switching Heroes",
+      "version": "5.20",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/switching-heroes-5.20",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/f1/3e/28f13e5a-59bf-22b2-a085-b67e32dd3fbb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "220.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:12:29.827Z",
+      "updatedAt": "2026-08-21T15:12:33.650Z"
     }
   ]
 }
