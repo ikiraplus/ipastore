@@ -6881,6 +6881,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:55:00.971Z",
       "updatedAt": "2026-08-21T07:55:00.971Z"
+    },
+    {
+      "id": "app-1787298953147",
+      "name": "World War 2 Ww2 Strategy Games",
+      "version": "1.0.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world_war_2_ww2_strategy_games",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/7a/87/ae7a872f-4271-7876-e3a6-b6c24fa770e4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "560.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:55:53.147Z",
+      "updatedAt": "2026-08-21T07:55:53.147Z"
     }
   ]
 }
