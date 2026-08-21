@@ -7627,6 +7627,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:00:36.782Z",
       "updatedAt": "2026-08-21T15:00:37.656Z"
+    },
+    {
+      "id": "app-1787324458146",
+      "name": "Gearup Game Booster Lower Lag",
+      "version": "3.29.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gearup_game_booster_lower_lag-v3.28.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/cf/12/c1cf12d5-dba8-bcf1-6aa0-b240e7857adc/AppIcon.release-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "33.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T15:00:58.146Z",
+      "updatedAt": "2026-08-21T15:00:59.141Z"
     }
   ]
 }
