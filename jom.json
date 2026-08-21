@@ -7211,6 +7211,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:12:53.998Z",
       "updatedAt": "2026-08-21T08:12:53.998Z"
+    },
+    {
+      "id": "app-1787300006823",
+      "name": "Final Fantasy Iv",
+      "version": "2.0.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/final-fantasy-iv",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/e2/e1/cfe2e10e-e65a-d164-df34-c27837bb25ba/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "549.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:13:26.824Z",
+      "updatedAt": "2026-08-21T08:13:26.824Z"
     }
   ]
 }
