@@ -7429,6 +7429,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:49:59.703Z",
       "updatedAt": "2026-08-21T10:49:59.703Z"
+    },
+    {
+      "id": "app-1787309453489",
+      "name": "Rocket Video Cast",
+      "version": "4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rocket-video-cast",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/46/2d/08/462d08b0-01be-b38f-2f43-147edef41b04/AppIcon-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "42.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-21T10:50:53.490Z",
+      "updatedAt": "2026-08-21T10:50:53.490Z"
     }
   ]
 }
