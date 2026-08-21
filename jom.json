@@ -6787,6 +6787,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:50:48.085Z",
       "updatedAt": "2026-08-21T07:50:48.085Z"
+    },
+    {
+      "id": "app-1787298700823",
+      "name": "Tegra Zombie Survival Island",
+      "version": "1.96",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tegra_zombie_survival_island",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/67/83/db67838b-9889-6196-6115-02a570beaa31/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "817.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T07:51:40.824Z",
+      "updatedAt": "2026-08-21T07:51:40.824Z"
     }
   ]
 }
