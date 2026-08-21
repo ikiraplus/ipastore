@@ -7324,6 +7324,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:30:00.082Z",
       "updatedAt": "2026-08-21T08:30:00.082Z"
+    },
+    {
+      "id": "app-1787301078854",
+      "name": "Ultimate Ninja Storm",
+      "version": "1.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ultimate-ninja-storm-1.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/13/56/051356bc-1538-1773-a503-e98a243b5800/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3096.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-21T08:31:18.855Z",
+      "updatedAt": "2026-08-21T08:31:18.855Z"
     }
   ]
 }
