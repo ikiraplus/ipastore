@@ -8190,6 +8190,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:02:28.845Z",
       "updatedAt": "2026-08-22T07:02:31.278Z"
+    },
+    {
+      "id": "app-1787382377591",
+      "name": "Essential Anatomy 5",
+      "version": "5.0.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/essentialanatomy5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/08/46/2c/08462c1c-e385-fe46-b1ab-8a063855f766/AppIconEA-1x_U007emarketing-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "620.9 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:06:17.591Z",
+      "updatedAt": "2026-08-22T07:06:19.126Z"
     }
   ]
 }
