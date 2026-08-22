@@ -7900,6 +7900,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:48:19.098Z",
       "updatedAt": "2026-08-22T06:48:20.442Z"
+    },
+    {
+      "id": "app-1787381320316",
+      "name": "Hello Kitty Friends Match",
+      "version": "1.0.29",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hello_kitty_friends_match",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/b5/cf/77b5cf5c-c051-1c2f-b64b-795198df9874/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "167.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:48:40.316Z",
+      "updatedAt": "2026-08-22T06:48:41.746Z"
     }
   ]
 }
