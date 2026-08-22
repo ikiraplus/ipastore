@@ -7870,6 +7870,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:47:30.319Z",
       "updatedAt": "2026-08-22T06:47:32.033Z"
+    },
+    {
+      "id": "app-1787381274979",
+      "name": "West Game Ii",
+      "version": "1.5.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/west_game_ii",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/d8/dd/14d8dd5c-9592-2ab2-23b0-a83f7edce1b7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "671.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:47:54.979Z",
+      "updatedAt": "2026-08-22T06:47:56.629Z"
     }
   ]
 }
