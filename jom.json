@@ -7840,6 +7840,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:45:31.455Z",
       "updatedAt": "2026-08-22T06:45:33.277Z"
+    },
+    {
+      "id": "app-1787381154145",
+      "name": "Flappybird",
+      "version": "4.3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/flappybird",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/72/0b/d8/720bd80b-3d21-1af0-8daa-9075834787e5/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:45:54.145Z",
+      "updatedAt": "2026-08-22T06:45:56.679Z"
     }
   ]
 }
