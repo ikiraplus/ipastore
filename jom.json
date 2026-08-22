@@ -8228,6 +8228,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:07:06.191Z",
       "updatedAt": "2026-08-22T07:07:07.597Z"
+    },
+    {
+      "id": "app-1787382750818",
+      "name": "Cooking diary",
+      "version": "2.56.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cookingdiary-v2.56.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/e9/87/9ce9871e-481c-0ec2-5dbd-7f9c70589b95/AppIcon-1x_U007emarketing-0-10-0-P3-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "406.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:12:30.818Z",
+      "updatedAt": "2026-08-22T07:12:32.361Z"
     }
   ]
 }
