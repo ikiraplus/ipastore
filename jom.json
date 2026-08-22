@@ -8288,6 +8288,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:16:48.660Z",
       "updatedAt": "2026-08-22T07:16:50.185Z"
+    },
+    {
+      "id": "app-1787383035328",
+      "name": "Video star Hacked 2",
+      "version": "15.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videostar-15.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/55/6d/64556ddd-7c34-10cd-9cad-3306757da564/AppIconVS-0-0-1x_U007emarketing-0-0-0-8-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "525.8 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:17:15.328Z",
+      "updatedAt": "2026-08-22T07:17:16.427Z"
     }
   ]
 }
