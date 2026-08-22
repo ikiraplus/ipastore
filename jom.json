@@ -7885,6 +7885,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:47:54.979Z",
       "updatedAt": "2026-08-22T06:47:56.629Z"
+    },
+    {
+      "id": "app-1787381299098",
+      "name": "Basketball Goat",
+      "version": "1.0.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/basketball-goat",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/83/33/fc833317-b9ff-bfbc-b997-5a64de7c5be4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "142.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:48:19.098Z",
+      "updatedAt": "2026-08-22T06:48:20.442Z"
     }
   ]
 }
