@@ -7825,6 +7825,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:45:06.945Z",
       "updatedAt": "2026-08-22T06:45:08.340Z"
+    },
+    {
+      "id": "app-1787381131455",
+      "name": "Chrome Valley Customs",
+      "version": "35.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chrome_valley_customs",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/9e/1f/9a9e1f84-3210-de49-6b3c-8a6b140aa7ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "224.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:45:31.455Z",
+      "updatedAt": "2026-08-22T06:45:33.277Z"
     }
   ]
 }
