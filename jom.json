@@ -8333,6 +8333,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:34:26.087Z",
       "updatedAt": "2026-08-22T07:34:27.047Z"
+    },
+    {
+      "id": "app-1787384138503",
+      "name": "Dream League Soccer",
+      "version": "12.120",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dreamleague",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787384138503.png",
+      "previousVersions": [],
+      "size": "196.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:35:38.503Z",
+      "updatedAt": "2026-08-22T07:35:42.071Z"
     }
   ]
 }
