@@ -8243,6 +8243,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:12:30.818Z",
       "updatedAt": "2026-08-22T07:12:32.361Z"
+    },
+    {
+      "id": "app-1787382768885",
+      "name": "Slime Rancher",
+      "version": "1.0.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/slime-rancher-v1.0.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/97/1b/81971ba5-2155-2874-407b-5f85e1fb9a29/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "485.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:12:48.885Z",
+      "updatedAt": "2026-08-22T07:12:50.008Z"
     }
   ]
 }
