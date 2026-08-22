@@ -8066,6 +8066,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:57:40.569Z",
       "updatedAt": "2026-08-22T06:57:41.832Z"
+    },
+    {
+      "id": "app-1787381913206",
+      "name": "Mudness 2 Offroad Car",
+      "version": "1.0.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mudness-2-offroad-car",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/60/6c/84606c87-32d3-ecd0-c8ce-16cf6d5df78a/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "793.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:58:33.206Z",
+      "updatedAt": "2026-08-22T06:58:34.837Z"
     }
   ]
 }
