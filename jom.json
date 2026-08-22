@@ -8081,6 +8081,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:58:33.206Z",
       "updatedAt": "2026-08-22T06:58:34.837Z"
+    },
+    {
+      "id": "app-1787381957015",
+      "name": "FRAG Pro Shooter",
+      "version": "5.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/frag",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/88/f9/8288f9ef-6e18-0bdf-667d-8bf1832f8915/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "210.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:59:17.015Z",
+      "updatedAt": "2026-08-22T06:59:18.415Z"
     }
   ]
 }
