@@ -8096,6 +8096,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:59:17.015Z",
       "updatedAt": "2026-08-22T06:59:18.415Z"
+    },
+    {
+      "id": "app-1787381999019",
+      "name": "Zooba Zoo",
+      "version": "6.22.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zooba_zoo",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/94/2d/a2942d51-31f9-4b4a-4e14-9c1ec6d0e191/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "205.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:59:59.019Z",
+      "updatedAt": "2026-08-22T07:00:00.673Z"
     }
   ]
 }
