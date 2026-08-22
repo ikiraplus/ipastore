@@ -7810,6 +7810,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:44:16.210Z",
       "updatedAt": "2026-08-22T06:44:17.523Z"
+    },
+    {
+      "id": "app-1787381106945",
+      "name": "True Skate",
+      "version": "1.5.106",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/true-skate",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/63/e9/fa63e957-8511-fde6-c003-40018a5976af/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "118.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:45:06.945Z",
+      "updatedAt": "2026-08-22T06:45:08.340Z"
     }
   ]
 }
