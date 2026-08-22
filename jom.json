@@ -8156,6 +8156,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:01:40.782Z",
       "updatedAt": "2026-08-22T07:01:42.996Z"
+    },
+    {
+      "id": "app-1787382121540",
+      "name": "World Conqueror 4",
+      "version": "3.4.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-conqueror-4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/75/f5/8375f58b-aae9-9bdc-8089-30cf0ec0f951/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "168.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:02:01.540Z",
+      "updatedAt": "2026-08-22T07:02:04.271Z"
     }
   ]
 }
