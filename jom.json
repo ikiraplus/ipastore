@@ -7983,6 +7983,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:51:04.712Z",
       "updatedAt": "2026-08-22T06:51:06.130Z"
+    },
+    {
+      "id": "app-1787381589097",
+      "name": "Survivalist invasion zombie",
+      "version": "2.115",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/survivalist_hack",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787381589097.png",
+      "previousVersions": [],
+      "size": "472.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:53:09.097Z",
+      "updatedAt": "2026-08-22T06:53:12.683Z"
     }
   ]
 }
