@@ -8126,6 +8126,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:00:24.740Z",
       "updatedAt": "2026-08-22T07:00:25.657Z"
+    },
+    {
+      "id": "app-1787382058106",
+      "name": "Spongebob Adventures In A Jam",
+      "version": "2.34.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spongebob_adventures_in_a_jam",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/13/1c/9d131c41-1b1c-52c4-d37d-1aa0827f98d3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "886.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:00:58.106Z",
+      "updatedAt": "2026-08-22T07:00:59.706Z"
     }
   ]
 }
