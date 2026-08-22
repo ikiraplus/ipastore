@@ -7998,6 +7998,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:53:09.097Z",
       "updatedAt": "2026-08-22T06:53:12.683Z"
+    },
+    {
+      "id": "app-1787381674746",
+      "name": "Dead by Daylight Mobile",
+      "version": "1.202.37103",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/deadbydaylight",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/f3/4f/06f34f2c-b9f7-d519-4de1-f15009846d75/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2376.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:54:34.746Z",
+      "updatedAt": "2026-08-22T06:54:36.193Z"
     }
   ]
 }
