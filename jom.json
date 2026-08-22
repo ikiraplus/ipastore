@@ -8318,6 +8318,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:33:57.034Z",
       "updatedAt": "2026-08-22T07:33:58.019Z"
+    },
+    {
+      "id": "app-1787384066087",
+      "name": "Cat quest",
+      "version": "2.0.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/catquest",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/83/42/f1/8342f16a-af77-3119-c496-a558c802bcbb/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "94.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:34:26.087Z",
+      "updatedAt": "2026-08-22T07:34:27.047Z"
     }
   ]
 }
