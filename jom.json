@@ -8051,6 +8051,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:56:51.686Z",
       "updatedAt": "2026-08-22T06:56:57.710Z"
+    },
+    {
+      "id": "app-1787381860569",
+      "name": "Mini Soccer Star 26",
+      "version": "1.89",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mini_soccer_star",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/a6/4f/39a64fff-b6f9-a3df-7946-5dd55b7d3e6e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "114.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:57:40.569Z",
+      "updatedAt": "2026-08-22T06:57:41.832Z"
     }
   ]
 }
