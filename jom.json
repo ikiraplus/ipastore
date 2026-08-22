@@ -7780,6 +7780,21 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:18:40.896Z",
       "updatedAt": "2026-08-21T15:18:45.633Z"
+    },
+    {
+      "id": "app-1787381020671",
+      "name": "Armed Heist",
+      "version": "3.2.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/armed-heist",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/e6/d5/1ce6d55a-dee9-eb66-aad1-f40f3f293aaf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "626.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:43:40.671Z",
+      "updatedAt": "2026-08-22T06:43:42.250Z"
     }
   ]
 }
