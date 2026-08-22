@@ -8111,6 +8111,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:59:59.019Z",
       "updatedAt": "2026-08-22T07:00:00.673Z"
+    },
+    {
+      "id": "app-1787382024740",
+      "name": "Good Pizza Great Pizza",
+      "version": "5.53.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/good_pizza_great_pizza",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/44/c6/c544c6ab-e981-b7c9-ae78-728c6b7cc189/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "356.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:00:24.740Z",
+      "updatedAt": "2026-08-22T07:00:25.657Z"
     }
   ]
 }
