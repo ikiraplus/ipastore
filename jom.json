@@ -8021,6 +8021,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:54:34.746Z",
       "updatedAt": "2026-08-22T06:54:36.193Z"
+    },
+    {
+      "id": "app-1787381738396",
+      "name": "Toon blast",
+      "version": "7.2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/toonblast",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/6d/7d/1a6d7d64-9a0f-ffdb-8659-213baa423351/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "173.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:55:38.396Z",
+      "updatedAt": "2026-08-22T06:55:39.606Z"
     }
   ]
 }
