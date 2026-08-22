@@ -1963,13 +1963,17 @@
     {
       "id": "app-dropbox-fortnite-3940",
       "name": "Fortnite",
-      "version": "39.40",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/com.epicgames.fortnitegame_39.40_und3fined",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/f5/8f/9bf58f21-c585-e524-03cb-097571b8bbdb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "3500 MB",
+      "version": "40.40.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fortnite",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/2e/d6/682ed612-d479-3387-c1a0-0f41247f8ff4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "size": "2432.6 MB",
       "note": "نسخة تعمل بدون متجر - لا تتطلب جيلبريك",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-22T07:03:30.894Z"
     },
     {
       "id": "app-dropbox-brawl-stars-63265",
