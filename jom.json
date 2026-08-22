@@ -7795,6 +7795,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:43:40.671Z",
       "updatedAt": "2026-08-22T06:43:42.250Z"
+    },
+    {
+      "id": "app-1787381056210",
+      "name": "Traffic Rider",
+      "version": "2.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/traffic_rider",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/0a/ed/430aed0d-316c-7722-6baf-008eb7a20f3a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "161.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:44:16.210Z",
+      "updatedAt": "2026-08-22T06:44:17.523Z"
     }
   ]
 }
