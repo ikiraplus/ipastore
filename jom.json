@@ -7915,6 +7915,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:48:40.316Z",
       "updatedAt": "2026-08-22T06:48:41.746Z"
+    },
+    {
+      "id": "app-1787381346578",
+      "name": "Hello Kitty Merch Match",
+      "version": "6.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hello_kitty_merch_match",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/65/b8/9465b84b-7a82-9ec3-8da0-8f5ee4707264/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "482.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:49:06.578Z",
+      "updatedAt": "2026-08-22T06:49:08.194Z"
     }
   ]
 }
