@@ -8273,6 +8273,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:15:12.839Z",
       "updatedAt": "2026-08-22T07:15:16.406Z"
+    },
+    {
+      "id": "app-1787383008660",
+      "name": "OTR 2 - Off The Road",
+      "version": "1.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/otr2-v1.2.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/d6/0d/bed60df9-2f64-0e95-ee1b-8384cc79e94f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "911.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:16:48.660Z",
+      "updatedAt": "2026-08-22T07:16:50.185Z"
     }
   ]
 }
