@@ -8303,6 +8303,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:17:15.328Z",
       "updatedAt": "2026-08-22T07:17:16.427Z"
+    },
+    {
+      "id": "app-1787384037034",
+      "name": "Dice Lords",
+      "version": "1.7.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dice_lords",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/48/7d/54487d34-dfd1-3b0a-a2ad-bb999d0ecdb0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "179.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:33:57.034Z",
+      "updatedAt": "2026-08-22T07:33:58.019Z"
     }
   ]
 }
