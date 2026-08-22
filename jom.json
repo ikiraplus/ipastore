@@ -8205,6 +8205,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:06:17.591Z",
       "updatedAt": "2026-08-22T07:06:19.126Z"
+    },
+    {
+      "id": "app-1787382426191",
+      "name": "Tinder plus",
+      "version": "16.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tinder",
+      "icon": "https://tinder.com/static/tinder.png",
+      "previousVersions": [],
+      "size": "97.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:07:06.191Z",
+      "updatedAt": "2026-08-22T07:07:07.597Z"
     }
   ]
 }
