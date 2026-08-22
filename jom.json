@@ -7930,6 +7930,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:49:06.578Z",
       "updatedAt": "2026-08-22T06:49:08.194Z"
+    },
+    {
+      "id": "app-1787381371689",
+      "name": "The Kingdom Medieval Tales",
+      "version": "1.1.2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the_kingdom_medieval_tales",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/b3/7d/64b37d69-09dd-c3c1-e468-e5bc05ca382f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "986.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:49:31.689Z",
+      "updatedAt": "2026-08-22T06:49:33.642Z"
     }
   ]
 }
