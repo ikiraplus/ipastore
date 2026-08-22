@@ -8171,6 +8171,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:02:01.540Z",
       "updatedAt": "2026-08-22T07:02:04.271Z"
+    },
+    {
+      "id": "app-1787382148845",
+      "name": "Truckers Of Europe 3",
+      "version": "0.70.64",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/truckers_of_europe_3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/a3/0f/85a30fc9-a6b3-d8cd-4e9f-bbfb938d31d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "856.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T07:02:28.845Z",
+      "updatedAt": "2026-08-22T07:02:31.278Z"
     }
   ]
 }
