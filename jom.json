@@ -7855,6 +7855,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:45:54.145Z",
       "updatedAt": "2026-08-22T06:45:56.679Z"
+    },
+    {
+      "id": "app-1787381250319",
+      "name": "Injustice 2",
+      "version": "6.6.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/injustice-2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/71/a3/4771a3fb-95b5-b1a8-2eaf-3e41c3549f13/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1544.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:47:30.319Z",
+      "updatedAt": "2026-08-22T06:47:32.033Z"
     }
   ]
 }
