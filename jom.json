@@ -7953,6 +7953,21 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:49:31.689Z",
       "updatedAt": "2026-08-22T06:49:33.642Z"
+    },
+    {
+      "id": "app-1787381445331",
+      "name": "Air Force Airplane Games",
+      "version": "1.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/air_force_airplane_games",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/2b/a5/ee2ba5e9-55a2-51db-955d-17f5bd400b6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "93.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-22T06:50:45.331Z",
+      "updatedAt": "2026-08-22T06:50:46.583Z"
     }
   ]
 }
