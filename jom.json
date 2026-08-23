@@ -8473,6 +8473,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:18:15.130Z",
       "updatedAt": "2026-08-23T11:18:31.736Z"
+    },
+    {
+      "id": "app-1787484023671",
+      "name": "Marmot Survivor",
+      "version": "1.3.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/marmot-survivor-1.3.3",
+      "icon": "https://play-lh.googleusercontent.com/TOlgPzzbHfnOG0c53MXYaskFzbccq5JJ6ALfV53PND7n7rXTjcJkyvdMkdpV82mkWNzouLH7qifX4Yw6jnui5Q",
+      "previousVersions": [],
+      "size": "178.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-23T11:20:23.671Z",
+      "updatedAt": "2026-08-23T11:20:45.057Z"
     }
   ]
 }
