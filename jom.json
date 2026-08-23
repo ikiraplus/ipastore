@@ -8518,6 +8518,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:23:14.414Z",
       "updatedAt": "2026-08-23T11:23:40.917Z"
+    },
+    {
+      "id": "app-1787484256831",
+      "name": "Moonvale",
+      "version": "1.3.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moonvale-1.3.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/b4/b9/4bb4b98a-e77c-d245-c362-c4e5cb11bd2d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "340.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-23T11:24:16.831Z",
+      "updatedAt": "2026-08-23T11:24:47.676Z"
     }
   ]
 }
