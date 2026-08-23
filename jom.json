@@ -8430,6 +8430,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:45:20.220Z",
       "updatedAt": "2026-08-23T03:45:22.546Z"
+    },
+    {
+      "id": "app-1787456749450",
+      "name": "Egg Inc",
+      "version": "1.37.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/egg-inc-v1.37.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/3d/e2/ce3de211-82e2-5ff1-0516-05369f963a93/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "51.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-23T03:45:49.450Z",
+      "updatedAt": "2026-08-23T03:45:51.757Z"
     }
   ]
 }
