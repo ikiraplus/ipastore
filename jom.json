@@ -8415,6 +8415,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:44:47.784Z",
       "updatedAt": "2026-08-23T03:44:49.689Z"
+    },
+    {
+      "id": "app-1787456720220",
+      "name": "Snow AI",
+      "version": "15.3.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snow-ai-15.3.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/9d/6e/7d9d6eb9-3054-4ee8-e3ed-217d46f23eb1/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "137.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-23T03:45:20.220Z",
+      "updatedAt": "2026-08-23T03:45:22.546Z"
     }
   ]
 }
