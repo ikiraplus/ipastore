@@ -169,7 +169,7 @@
       "note": "لتفعيل مميزات التطبيق:\n- اضغط على زر الملف الشخصي، ستجد أيقونة الريشة، اضغط عليها لفتح المميزات",
       "category": "تواصل",
       "addedAt": "2026-04-08",
-      "updatedAt": "2026-08-23T12:14:43.879Z",
+      "updatedAt": "2026-08-23T19:24:34.059Z",
       "toolVersion": "2.5.0",
       "previousVersions": [
         {
@@ -177,7 +177,8 @@
           "version": "435.0.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": ""
     },
     {
       "id": "app-1773436098791",
@@ -189,10 +190,11 @@
       "note": "سجل الدخول في التطبيق كجهاز مرتبط فقط",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-07-09T15:41:54.020Z"
+      "updatedAt": "2026-08-23T19:25:13.062Z",
+      "bundleId": ""
     },
     {
-      "id": "app-1773574523577",
+      "id": "net.whatsapp.WhatsAppSMB",
       "name": "WhatsApp Business - Gold",
       "version": "26.32.75",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wa-business_26.32.75_wgoldplus",
@@ -201,7 +203,7 @@
       "note": "سجل الدخول في التطبيق كجهاز مرتبط فقط",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-19T13:27:45.094Z",
+      "updatedAt": "2026-08-23T19:25:54.941Z",
       "toolVersion": "2.3",
       "previousVersions": [
         {
@@ -209,7 +211,8 @@
           "version": "26.25.10"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "net.whatsapp.WhatsAppSMB"
     },
     {
       "id": "app-1773497640216",
