@@ -8443,6 +8443,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:45:49.450Z",
       "updatedAt": "2026-08-23T03:45:51.757Z"
+    },
+    {
+      "id": "app-1787483805684",
+      "name": "Toca World",
+      "version": "1.137.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/toca-world-1.137.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/d1/f3/0fd1f393-2585-ae5c-d434-6c936c0898c9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "779.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-23T11:16:45.684Z",
+      "updatedAt": "2026-08-23T11:16:52.362Z"
     }
   ]
 }
