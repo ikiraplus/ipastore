@@ -1241,14 +1241,17 @@
     {
       "id": "app-1773573983434",
       "name": "Happy Chick",
-      "version": "1.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/happychick-1",
+      "version": "2.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/happychick-2",
       "icon": "https://cdn.aptoide.com/imgs/7/b/6/7b6c9138878256d0a02404abb95c1dce_fgraphic.png",
-      "size": "280.0 MB",
-      "note": "",
+      "size": "113.4 MB",
+      "note": "محاكي العاب قديمة - تم حذفه من الابستور",
       "category": "أخرى",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-06-13T07:42:13.337Z"
+      "updatedAt": "2026-08-23T10:56:25.748Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1773574559049",
