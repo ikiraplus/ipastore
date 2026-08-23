@@ -8458,6 +8458,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:16:45.684Z",
       "updatedAt": "2026-08-23T11:16:52.362Z"
+    },
+    {
+      "id": "app-1787483895130",
+      "name": "My Car Empire",
+      "version": "0.0.85",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-car-empire-0.0.85",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/ab/0a/65ab0ab1-2ec7-8a1c-cf9c-3f96b6cfea45/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "216.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-23T11:18:15.130Z",
+      "updatedAt": "2026-08-23T11:18:31.736Z"
     }
   ]
 }
