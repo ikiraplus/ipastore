@@ -106,7 +106,7 @@
       "note": "هذا التطبيق يدعم الإشعارات، ثبته مباشرة ولا تكرر تثبيته ولا تغير معرف الباندل الخاص به\nيتضمن مميزات إضافة Tgextra",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-02T15:43:13.026Z",
+      "updatedAt": "2026-08-23T19:23:24.871Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -115,7 +115,8 @@
         }
       ],
       "recommended": false,
-      "hidden": false
+      "hidden": false,
+      "bundleId": ""
     },
     {
       "id": "app-1773402408531",
@@ -138,7 +139,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773402346513",
+      "id": "com.burbn.instagram",
       "name": "بيكرام",
       "version": "438.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/beegram_2.8",
@@ -147,7 +148,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-08",
-      "updatedAt": "2026-07-20T14:07:01.021Z",
+      "updatedAt": "2026-08-23T19:23:59.143Z",
       "toolVersion": "2.8",
       "previousVersions": [
         {
@@ -155,7 +156,8 @@
           "version": "437.1.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.burbn.instagram"
     },
     {
       "id": "app-1773402450838",
