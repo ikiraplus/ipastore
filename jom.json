@@ -2047,13 +2047,17 @@
     {
       "id": "app-iosgods-gangstar-vegas-3543",
       "name": "Gangstar Vegas",
-      "version": "880",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gangstar-vegas-mafia-action-hack-vgdnekl6ty-1",
+      "version": "9.8.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gangstar-vegas-iv-9.8.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/13/36/cb133694-d890-e916-2bbc-0f0fbe15222f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "1800 MB",
+      "size": "2461.5 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-23T11:05:06.932Z"
     },
     {
       "id": "app-iosgods-gta-vice-city-1081",
