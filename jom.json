@@ -8384,7 +8384,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-23T03:40:34.325Z",
-      "updatedAt": "2026-08-23T03:40:36.285Z"
+      "updatedAt": "2026-08-23T03:40:36.285Z",
+      "hidden": true
     },
     {
       "id": "app-1787456655981",
