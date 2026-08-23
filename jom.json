@@ -8372,22 +8372,6 @@
       "updatedAt": "2026-08-23T03:38:28.295Z"
     },
     {
-      "id": "app-1787456434325",
-      "name": "Hello Weather Vip",
-      "version": "3.13.15",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hello-weather-vip-3.13.15",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/01/29/7601290a-4e48-df1f-d768-b7e9dcf667d9/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "9.8 MB",
-      "note": "تم فتح جميع مميزات البريميوم -Vip",
-      "category": "أدوات",
-      "recommended": false,
-      "addedAt": "2026-08-23T03:40:34.325Z",
-      "updatedAt": "2026-08-23T03:40:36.285Z",
-      "hidden": true
-    },
-    {
       "id": "app-1787456655981",
       "name": "Hello Weather Forecast",
       "version": "3.13.7",
