@@ -2107,13 +2107,17 @@
     {
       "id": "app-iosgods-temple-run-2-3655",
       "name": "Temple Run 2",
-      "version": "7.5.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/temple-run-2-hack-9gevigw4cm-1",
+      "version": "1.135.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/temple-run-2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/6d/43/b96d43a3-bec3-a1ec-b9eb-703f433bb904/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
-      "size": "312 MB",
+      "size": "142.7 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-08-23T10:57:01.219Z"
     },
     {
       "id": "app-iosgods-sonic-dash-4086",
