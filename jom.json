@@ -39,7 +39,7 @@
       "note": "لتفعيل مميزات التطبيق:\n- قم بتغيير لغة التطبيق من الإنكليزية إلى العربية أو العكس",
       "category": "تواصل",
       "addedAt": "2026-04-05",
-      "updatedAt": "2026-07-20T12:38:23.642Z",
+      "updatedAt": "2026-08-23T19:22:19.443Z",
       "toolVersion": "5.1",
       "previousVersions": [
         {
@@ -47,10 +47,11 @@
           "version": "435.0.0"
         }
       ],
-      "recommended": true
+      "recommended": true,
+      "bundleId": ""
     },
     {
-      "id": "app-1773510581948",
+      "id": "com.toyopagroup.picabdd12",
       "name": "Snapchat root",
       "version": "14.17.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapchatplus_14.17.1",
@@ -59,7 +60,7 @@
       "note": "استخدام هذا التطبيق على مسؤوليتك الخاصة\nهذا تطبيق سناب شات بلس المعدل، لا تستخدمه مع حسابك الأساسي\nطريقة التثبيت:\n1- غير لغة جهازك إلى الإنكليزية\n2- ثبت التطبيق وافتحه\n3- اضغط على تسجيل أو تسجيل الدخول\n4- سيطلب منك اسم مستخدم وكلمة مرور خاصين بالأداة، استخدم المعلومات التالية\n\nاسم المستخدم\nkanji\nكلمة المرور:\nisastupidnonce\n\nبعد ذلك يمكنك تسجيل الدخول بحسابك بشكل طبيعي\nالتطبيق غير آمن، وتسجيل الدخول به على حسابك الأساسي قد يعرضه للحظر",
       "category": "تواصل",
       "addedAt": "2026-04-02",
-      "updatedAt": "2026-08-19T13:28:18.658Z",
+      "updatedAt": "2026-08-23T19:22:49.974Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -67,7 +68,8 @@
           "version": "13.90"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.toyopagroup.picabdd12"
     },
     {
       "id": "net.whatsapp.WhatsApp",
