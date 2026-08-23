@@ -3684,14 +3684,17 @@
     {
       "id": "app-1781377720834",
       "name": "into the dead",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/intothedead",
+      "version": "2.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/intothedead-1",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvDrKGV9r7ZjQxH8nkyhZARlGJ_l4BTjnKKIIWlEbCag&s=10",
       "size": "1375.8 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:08:40.836Z",
-      "updatedAt": "2026-06-13T19:08:40.836Z"
+      "updatedAt": "2026-08-23T10:55:25.399Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "app-1781377814424",
