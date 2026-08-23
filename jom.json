@@ -8503,6 +8503,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:21:30.623Z",
       "updatedAt": "2026-08-23T11:21:57.816Z"
+    },
+    {
+      "id": "app-1787484194414",
+      "name": "Discounty",
+      "version": "1.2.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discounty-1.2.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/aa/03/d9aa03f7-cd5e-d68c-23da-b048b884c81e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "563.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-23T11:23:14.414Z",
+      "updatedAt": "2026-08-23T11:23:40.917Z"
     }
   ]
 }
