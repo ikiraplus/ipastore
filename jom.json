@@ -8357,21 +8357,6 @@
       "updatedAt": "2026-08-22T07:35:42.071Z"
     },
     {
-      "id": "app-1787456306246",
-      "name": "Across Calendar",
-      "version": "1.12.8",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/across-premium-v1.12.8",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/0d/ca/540dcae7-3982-4c72-f177-02dacbcc0bd3/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "9.5 MB",
-      "note": "تم فتح جميع مميزات البريميوم -Vip",
-      "category": "أدوات",
-      "recommended": false,
-      "addedAt": "2026-08-23T03:38:26.246Z",
-      "updatedAt": "2026-08-23T03:38:28.295Z"
-    },
-    {
       "id": "app-1787456655981",
       "name": "Hello Weather Forecast",
       "version": "3.13.15",
