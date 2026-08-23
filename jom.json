@@ -8385,6 +8385,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:40:34.325Z",
       "updatedAt": "2026-08-23T03:40:36.285Z"
+    },
+    {
+      "id": "app-1787456655981",
+      "name": "Hello Weather Forecast",
+      "version": "3.13.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hello_weather_forecast_v3.13.7",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1787456655981.png",
+      "previousVersions": [],
+      "size": "7.2 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-23T03:44:15.981Z",
+      "updatedAt": "2026-08-23T03:44:19.909Z"
     }
   ]
 }
