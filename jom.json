@@ -8400,6 +8400,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:44:15.981Z",
       "updatedAt": "2026-08-23T03:44:19.909Z"
+    },
+    {
+      "id": "app-1787456687784",
+      "name": "Shapecraft",
+      "version": "2.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shapecraft_v2.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/c2/5c/32c25cfe-aff4-3e7f-d40a-9143271f5f8a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "41.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-23T03:44:47.784Z",
+      "updatedAt": "2026-08-23T03:44:49.689Z"
     }
   ]
 }
