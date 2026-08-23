@@ -70,7 +70,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773436028095",
+      "id": "net.whatsapp.WhatsApp",
       "name": "WhatsApp Gold",
       "version": "26.32.75",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.32.75_wgoldplus",
@@ -79,7 +79,7 @@
       "note": "سجل الدخول في التطبيق كجهاز مرتبط فقط\nيتضمن التطبيق عدة إضافات مثل تغيير الموقع الجغرافي وتغيير الخط",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-19T13:27:06.282Z",
+      "updatedAt": "2026-08-23T19:21:27.525Z",
       "toolVersion": "2.3",
       "previousVersions": [
         {
@@ -91,7 +91,8 @@
           "version": "26.29.76"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "net.whatsapp.WhatsApp"
     },
     {
       "id": "app-1773512283014",
