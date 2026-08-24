@@ -2303,7 +2303,7 @@
       "updatedAt": "2026-08-24T06:52:22.426Z"
     },
     {
-      "id": "app-iosgods-zombie-state-4002",
+      "id": "games.my.zombie.shooter",
       "name": "Zombie State: FPS Shooter",
       "version": "2.5.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zombie-state-hack",
@@ -2311,7 +2311,9 @@
       "size": "350 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "games.my.zombie.shooter",
+      "updatedAt": "2026-08-24T06:53:45.681Z"
     },
     {
       "id": "com.GoPlayGames.FCM25",
