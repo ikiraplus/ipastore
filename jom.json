@@ -7494,7 +7494,7 @@
       "updatedAt": "2026-08-21T08:14:04.572Z"
     },
     {
-      "id": "app-1787300095531",
+      "id": "com.playdeadgames.limbo.ios",
       "name": "Playdeadis Limbo",
       "version": "1.2.4",
       "toolVersion": "",
@@ -7506,7 +7506,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:14:55.532Z",
-      "updatedAt": "2026-08-21T08:14:55.532Z"
+      "updatedAt": "2026-08-24T06:22:13.469Z",
+      "bundleId": "com.playdeadgames.limbo.ios"
     },
     {
       "id": "app-1787300126019",
