@@ -4468,7 +4468,7 @@
       "bundleId": "com.abishkking.maleworkout"
     },
     {
-      "id": "app-1782930324003",
+      "id": "com.lightricks.Enlight-Video",
       "name": "videoleap",
       "version": "2.85",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap_ai_video_editor_v2.85_subscription_unlocked__patched",
@@ -4477,7 +4477,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-07-01T18:25:24.004Z",
-      "updatedAt": "2026-08-06T06:58:49.845Z",
+      "updatedAt": "2026-08-24T06:54:04.437Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4485,7 +4485,8 @@
           "version": "last version"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.lightricks.Enlight-Video"
     },
     {
       "id": "com.hathiphuonglinh.clickerapp",
