@@ -3466,7 +3466,7 @@
       "updatedAt": "2026-06-03T11:10:59.350Z"
     },
     {
-      "id": "app-1780485149362",
+      "id": "jp.co.capcom.RE3US",
       "name": "Resident evil 3",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-3",
@@ -3475,7 +3475,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:12:29.364Z",
-      "updatedAt": "2026-06-03T11:12:29.364Z"
+      "updatedAt": "2026-08-24T09:27:19.022Z",
+      "bundleId": "jp.co.capcom.RE3US"
     },
     {
       "id": "jp.co.capcom.RE4US",
