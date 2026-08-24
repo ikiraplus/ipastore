@@ -8369,7 +8369,7 @@
       "updatedAt": "2026-08-22T06:54:36.193Z"
     },
     {
-      "id": "app-1787381738396",
+      "id": "net.peakgames.toonblast",
       "name": "Toon blast",
       "version": "7.2.2",
       "toolVersion": "",
@@ -8381,7 +8381,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:55:38.396Z",
-      "updatedAt": "2026-08-22T06:55:39.606Z"
+      "updatedAt": "2026-08-24T06:47:19.177Z",
+      "bundleId": "net.peakgames.toonblast"
     },
     {
       "id": "app-1787381811686",
