@@ -5983,7 +5983,7 @@
       "updatedAt": "2026-08-12T17:42:27.985Z"
     },
     {
-      "id": "app-1786556573059",
+      "id": "net.gameduo.vg",
       "name": "Super Heavy Iron Tank",
       "version": "1.1.16",
       "toolVersion": "",
@@ -5995,7 +5995,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:42:53.059Z",
-      "updatedAt": "2026-08-12T17:42:53.059Z"
+      "updatedAt": "2026-08-24T06:45:44.607Z",
+      "bundleId": "net.gameduo.vg"
     },
     {
       "id": "tv.twitch.beta",
