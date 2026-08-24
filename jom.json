@@ -652,7 +652,7 @@
       "recommended": true
     },
     {
-      "id": "app-1773226791309",
+      "id": "com.kira.cinemanaa.fixed",
       "name": "سينمانا",
       "version": "4.1.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-kira",
@@ -661,7 +661,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-05T13:59:06.375Z"
+      "updatedAt": "2026-08-24T06:17:15.008Z",
+      "bundleId": "com.kira.cinemanaa.fixed"
     },
     {
       "id": "com.airmovie.ikiraplus",
