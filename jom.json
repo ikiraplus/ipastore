@@ -7013,7 +7013,7 @@
       "updatedAt": "2026-08-21T07:52:37.318Z"
     },
     {
-      "id": "app-1787298791759",
+      "id": "com.ftt.boxingstar.match3.ios",
       "name": "Boxing Star Pvp Match 3",
       "version": "1.4.4",
       "toolVersion": "",
@@ -7025,7 +7025,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:53:11.760Z",
-      "updatedAt": "2026-08-21T07:53:11.760Z"
+      "updatedAt": "2026-08-24T06:18:51.329Z",
+      "bundleId": "com.ftt.boxingstar.match3.ios"
     },
     {
       "id": "app-1787298823380",
