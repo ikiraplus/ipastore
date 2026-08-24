@@ -853,7 +853,7 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773510255249",
+      "id": "com.animecloud.rm",
       "name": "Anime Cloud",
       "version": "6.5.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
@@ -862,7 +862,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-04-27T07:39:09.938Z"
+      "updatedAt": "2026-08-24T06:14:01.767Z",
+      "bundleId": "com.animecloud.rm"
     },
     {
       "id": "app-1773510394623",
