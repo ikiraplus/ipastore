@@ -6704,7 +6704,7 @@
       "updatedAt": "2026-08-20T16:39:42.246Z"
     },
     {
-      "id": "app-1787244076386",
+      "id": "com.sega.StreetsOfRage",
       "name": "Streets Of Rage",
       "version": "9.0.0",
       "toolVersion": "",
@@ -6716,7 +6716,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:41:16.387Z",
-      "updatedAt": "2026-08-20T16:41:16.387Z"
+      "updatedAt": "2026-08-24T06:17:21.843Z",
+      "bundleId": "com.sega.StreetsOfRage"
     },
     {
       "id": "app-1787244132013",
