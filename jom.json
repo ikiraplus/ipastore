@@ -3991,7 +3991,7 @@
       "updatedAt": "2026-06-19T14:24:01.561Z"
     },
     {
-      "id": "app-1781879103624",
+      "id": "localhost.lunar",
       "name": "lunar proxy for minecraft",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lunar-proxy-for-minecraft-pe-1",
@@ -4000,7 +4000,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T14:25:03.625Z",
-      "updatedAt": "2026-07-01T18:11:52.491Z"
+      "updatedAt": "2026-08-24T06:16:27.703Z",
+      "bundleId": "localhost.lunar"
     },
     {
       "id": "app-1781879182624",
