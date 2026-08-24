@@ -2417,7 +2417,9 @@
       "size": "710 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "",
+      "updatedAt": "2026-08-24T10:06:55.430Z"
     },
     {
       "id": "dev-movlix.player",
@@ -3000,7 +3002,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:11:48.113Z",
-      "updatedAt": "2026-08-07T08:20:05.814Z",
+      "updatedAt": "2026-08-24T10:08:02.640Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3008,7 +3010,8 @@
           "version": "1.6.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": ""
     },
     {
       "id": "app-1778256761769",
@@ -3093,7 +3096,7 @@
       "recommended": false
     },
     {
-      "id": "app-1778257378077",
+      "id": "com.hutchgames.rebelracing",
       "name": "rebel racing",
       "version": "27.03.19281",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rebel-racing[27.03.19281]",
@@ -3102,7 +3105,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:22:58.079Z",
-      "updatedAt": "2026-05-08T16:22:58.079Z"
+      "updatedAt": "2026-08-24T10:08:33.313Z",
+      "bundleId": "com.hutchgames.rebelracing"
     },
     {
       "id": "app-1778257564894",
@@ -7691,7 +7695,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:11:35.230Z",
-      "updatedAt": "2026-08-21T12:15:45.295Z"
+      "updatedAt": "2026-08-24T10:07:29.138Z",
+      "bundleId": ""
     },
     {
       "id": "com.ustwo.monumentvalley",
