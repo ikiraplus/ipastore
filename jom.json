@@ -8518,7 +8518,7 @@
       "bundleId": "com.apple.compilers.llvm.clang.1_0"
     },
     {
-      "id": "app-1787456687784",
+      "id": "com.gamezaur.shapecraft",
       "name": "Shapecraft",
       "version": "2.0.1",
       "toolVersion": "",
@@ -8530,7 +8530,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T03:44:47.784Z",
-      "updatedAt": "2026-08-23T03:44:49.689Z"
+      "updatedAt": "2026-08-24T06:17:07.898Z",
+      "bundleId": "com.gamezaur.shapecraft"
     },
     {
       "id": "app-1787456720220",
