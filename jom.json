@@ -6879,7 +6879,7 @@
       "bundleId": "com.hegi.scaregame"
     },
     {
-      "id": "app-1787244636708",
+      "id": "com.hegi.scaregame2",
       "name": "Slender Rising 2",
       "version": "1.3",
       "toolVersion": "",
@@ -6891,7 +6891,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:50:36.709Z",
-      "updatedAt": "2026-08-20T16:50:36.709Z"
+      "updatedAt": "2026-08-24T06:21:30.279Z",
+      "bundleId": "com.hegi.scaregame2"
     },
     {
       "id": "app-1787244698960",
