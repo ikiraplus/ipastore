@@ -6131,7 +6131,7 @@
       "bundleId": "com.man.kuuflix.app"
     },
     {
-      "id": "app-1787145007023",
+      "id": "com.djitlabs.pixelcolor",
       "name": "Pixel Color Paint By Number",
       "version": "6.00.01",
       "toolVersion": "",
@@ -6143,7 +6143,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-19T13:10:07.024Z",
-      "updatedAt": "2026-08-19T13:10:07.024Z"
+      "updatedAt": "2026-08-24T06:17:48.694Z",
+      "bundleId": "com.djitlabs.pixelcolor"
     },
     {
       "id": "app-1787145165795",
