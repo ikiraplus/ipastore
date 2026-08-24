@@ -7707,7 +7707,7 @@
       "bundleId": "com.ustwo.monumentvalley2"
     },
     {
-      "id": "app-1787300006823",
+      "id": "com.square-enix.FinalFantasy4Arcade",
       "name": "Final Fantasy Iv",
       "version": "2.0.3",
       "toolVersion": "",
@@ -7719,7 +7719,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:13:26.824Z",
-      "updatedAt": "2026-08-21T08:13:26.824Z"
+      "updatedAt": "2026-08-24T09:27:40.849Z",
+      "bundleId": "com.square-enix.FinalFantasy4Arcade"
     },
     {
       "id": "com.FireproofStudios.TheRoom2",
