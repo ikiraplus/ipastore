@@ -3714,7 +3714,7 @@
       "updatedAt": "2026-06-13T18:31:40.082Z"
     },
     {
-      "id": "app-1781377094299",
+      "id": "com.imangi.templerun2",
       "name": "temple run 2",
       "version": "1.39.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/temple-run-2-hack",
@@ -3723,7 +3723,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:58:14.300Z",
-      "updatedAt": "2026-06-13T18:58:14.300Z"
+      "updatedAt": "2026-08-24T06:24:38.867Z",
+      "bundleId": "com.imangi.templerun2"
     },
     {
       "id": "com.imangi.templerun",
