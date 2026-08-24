@@ -7772,7 +7772,7 @@
       "updatedAt": "2026-08-21T15:00:06.319Z"
     },
     {
-      "id": "app-1787324436782",
+      "id": "com.myonlyislam.scanhalalfood",
       "name": "Tag halal Food",
       "version": "4.2",
       "toolVersion": "",
@@ -7784,7 +7784,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T15:00:36.782Z",
-      "updatedAt": "2026-08-21T15:00:37.656Z"
+      "updatedAt": "2026-08-24T06:15:17.823Z",
+      "bundleId": "com.myonlyislam.scanhalalfood"
     },
     {
       "id": "app-1787324458146",
