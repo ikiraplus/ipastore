@@ -5251,7 +5251,7 @@
       "updatedAt": "2026-07-30T14:22:53.937Z"
     },
     {
-      "id": "app-1785421784128",
+      "id": "com.alohabrowser.alohabrowser",
       "name": "Aloha Browser Private Vpn",
       "version": "8.9.0",
       "toolVersion": "",
@@ -5268,7 +5268,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-07-30T14:29:44.130Z",
-      "updatedAt": "2026-08-19T13:11:02.111Z"
+      "updatedAt": "2026-08-24T06:51:56.693Z",
+      "bundleId": "com.alohabrowser.alohabrowser"
     },
     {
       "id": "com.earlymorningstudio.vampiresfall2",
