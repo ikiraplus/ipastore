@@ -1996,7 +1996,7 @@
       "recommended": false
     },
     {
-      "id": "app-movieboxpro-latest",
+      "id": "com.xd.mbp31",
       "name": "MovieBox Pro",
       "version": "3.9",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movieboxpro_15.5-1",
@@ -2004,7 +2004,9 @@
       "size": "65 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.xd.mbp31",
+      "updatedAt": "2026-08-24T06:18:14.884Z"
     },
     {
       "id": "com.kooapps.pianotiles2arcade",
