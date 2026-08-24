@@ -2226,7 +2226,7 @@
       "recommended": false
     },
     {
-      "id": "app-iosgods-temple-run-2-3655",
+      "id": "com.imangi.templerun2",
       "name": "Temple Run 2",
       "version": "1.135.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/temple-run-2",
@@ -2238,7 +2238,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-23T10:57:01.219Z"
+      "updatedAt": "2026-08-24T06:45:03.004Z",
+      "bundleId": "com.imangi.templerun2"
     },
     {
       "id": "app-iosgods-sonic-dash-4086",
