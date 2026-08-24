@@ -3202,7 +3202,7 @@
       "bundleId": "com.boundlessdrop.jawaker"
     },
     {
-      "id": "app-1779560571805",
+      "id": "com.kingsoft.office.g.wpsoffice",
       "name": "WPS office ai",
       "version": "26.7.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wps_office_ai_doc-_pdf-_sheet_v26.7.1_pro-ai_unlocked_patched",
@@ -3211,7 +3211,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-05-23T18:22:51.806Z",
-      "updatedAt": "2026-07-30T14:20:20.427Z",
+      "updatedAt": "2026-08-24T08:29:12.444Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3219,7 +3219,8 @@
           "version": "26.4.2"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.kingsoft.office.g.wpsoffice"
     },
     {
       "id": "app-1779560637139",
