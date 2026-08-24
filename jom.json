@@ -6940,7 +6940,7 @@
       "bundleId": "xyz.cypwn.sm64ios-60fps"
     },
     {
-      "id": "app-1787244935006",
+      "id": "io.supercent.beachamp2",
       "name": "Gangster Universe",
       "version": "6.0.0",
       "toolVersion": "",
@@ -6952,7 +6952,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:55:35.008Z",
-      "updatedAt": "2026-08-20T16:55:35.008Z"
+      "updatedAt": "2026-08-24T06:21:24.935Z",
+      "bundleId": "io.supercent.beachamp2"
     },
     {
       "id": "app-1787244989777",
