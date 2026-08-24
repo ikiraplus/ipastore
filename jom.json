@@ -2180,7 +2180,7 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-iosgods-mob-control-4664",
+      "id": "com.vincentb.MobControl",
       "name": "Mob Control",
       "version": "3.6.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mob-control-hack",
@@ -2188,7 +2188,9 @@
       "size": "200 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.vincentb.MobControl",
+      "updatedAt": "2026-08-24T06:48:38.369Z"
     },
     {
       "id": "jp.ne.ibis.ibisPaintX",
