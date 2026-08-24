@@ -5248,7 +5248,7 @@
       "updatedAt": "2026-08-19T13:11:02.111Z"
     },
     {
-      "id": "app-1785525280832",
+      "id": "com.earlymorningstudio.vampiresfall2",
       "name": "Vampires Fall Origins",
       "version": "1.18.123",
       "toolVersion": "",
@@ -5260,7 +5260,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-31T19:14:40.837Z",
-      "updatedAt": "2026-07-31T19:14:40.837Z"
+      "updatedAt": "2026-08-24T06:49:02.536Z",
+      "bundleId": "com.earlymorningstudio.vampiresfall2"
     },
     {
       "id": "app-1785525444697",
