@@ -2807,7 +2807,7 @@
       "recommended": false
     },
     {
-      "id": "app-1778255829394",
+      "id": "com.ikiraplus.cinemana",
       "name": "سينمانا القديمة",
       "version": "3.4.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-old3.4.2",
@@ -2816,7 +2816,8 @@
       "note": "يدعم التحميل ويدعم تسجيل الدخول",
       "category": "ترفيه",
       "addedAt": "2026-05-08T15:57:11.135Z",
-      "updatedAt": "2026-05-08T15:57:11.135Z"
+      "updatedAt": "2026-08-24T06:16:50.368Z",
+      "bundleId": "com.ikiraplus.cinemana"
     },
     {
       "id": "app-1778256305074",
