@@ -1927,7 +1927,7 @@
       "updatedAt": "2026-07-01T17:58:15.648Z"
     },
     {
-      "id": "app-game-ios-1711600000016",
+      "id": "com.nekki.shadowfight",
       "name": "Shadow Fight 2",
       "version": "2.46.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-2.2.46.0",
@@ -1936,7 +1936,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-27T19:39:44.864Z",
+      "updatedAt": "2026-08-24T06:45:28.866Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1944,7 +1944,8 @@
           "version": "2.44.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.nekki.shadowfight"
     },
     {
       "id": "app-game-ios-1711600000017",
