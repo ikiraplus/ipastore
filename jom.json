@@ -2582,7 +2582,7 @@
       "updatedAt": "2026-06-01T19:20:24.511Z"
     },
     {
-      "id": "app-1777314416174",
+      "id": "com.topfreegames.bikeracefree",
       "name": "bike race",
       "version": "8.15.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bike-race-[8.15.0]",
@@ -2591,7 +2591,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:26:56.175Z",
-      "updatedAt": "2026-04-27T18:26:56.175Z"
+      "updatedAt": "2026-08-24T06:23:05.333Z",
+      "bundleId": "com.topfreegames.bikeracefree"
     },
     {
       "id": "app-1777314524609",
