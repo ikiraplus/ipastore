@@ -5959,7 +5959,7 @@
       "updatedAt": "2026-08-12T17:42:53.059Z"
     },
     {
-      "id": "app-1786608687825",
+      "id": "tv.twitch.beta",
       "name": "Twitch Control",
       "version": "30.8",
       "toolVersion": "",
@@ -5971,7 +5971,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-13T08:11:27.826Z",
-      "updatedAt": "2026-08-13T08:11:27.826Z"
+      "updatedAt": "2026-08-24T06:24:34.366Z",
+      "bundleId": "tv.twitch.beta"
     },
     {
       "id": "app-1786608841597",
