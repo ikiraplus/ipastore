@@ -493,7 +493,7 @@
       "updatedAt": "2026-08-24T06:19:36.511Z"
     },
     {
-      "id": "app-1773510137674",
+      "id": "com.burbn.barcelona",
       "name": "Threads Saver",
       "version": "443.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/threads_443.0.0_threadsaver",
@@ -502,7 +502,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-19T13:12:14.717Z",
+      "updatedAt": "2026-08-24T06:20:49.572Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -514,7 +514,8 @@
           "version": "439.0.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.burbn.barcelona"
     },
     {
       "id": "app-1773546912837",
