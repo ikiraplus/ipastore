@@ -874,7 +874,7 @@
       "bundleId": "com.animecloud.rm"
     },
     {
-      "id": "app-1773510394623",
+      "id": "com.ideploy-storage.25a6a8",
       "name": "Gbox",
       "version": "1.6",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gbox-4",
@@ -882,7 +882,9 @@
       "size": "18.4 MB",
       "note": "",
       "category": "أخرى",
-      "addedAt": "2026-03-14"
+      "addedAt": "2026-03-14",
+      "bundleId": "com.ideploy-storage.25a6a8",
+      "updatedAt": "2026-08-24T06:15:28.883Z"
     },
     {
       "id": "p3.xyz.yyyue.esign",
