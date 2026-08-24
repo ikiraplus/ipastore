@@ -4948,7 +4948,7 @@
       "bundleId": "com.burbn.instagram"
     },
     {
-      "id": "app-1784812555366",
+      "id": "com.zhiliaoapp.musically",
       "name": "InfiniTok",
       "version": "46.2.0",
       "toolVersion": "2.0",
@@ -4965,8 +4965,9 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-23T13:15:55.374Z",
-      "updatedAt": "2026-08-06T09:44:40.706Z",
-      "hidden": false
+      "updatedAt": "2026-08-24T08:30:35.770Z",
+      "hidden": false,
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "com.google.ios.youtubeee",
