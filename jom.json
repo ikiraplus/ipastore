@@ -2955,7 +2955,7 @@
       "updatedAt": "2026-05-08T16:07:33.061Z"
     },
     {
-      "id": "app-1778256567722",
+      "id": "com.zhiliaoapp.musically",
       "name": "TikTok RX",
       "version": "43.9.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rxtiktok-43.9.0",
@@ -2964,7 +2964,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-05-08T16:09:27.723Z",
-      "updatedAt": "2026-05-08T16:09:27.723Z"
+      "updatedAt": "2026-08-24T06:53:27.329Z",
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "app-1778256708111",
