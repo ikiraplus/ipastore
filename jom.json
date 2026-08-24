@@ -3383,7 +3383,7 @@
       "updatedAt": "2026-06-01T19:19:52.409Z"
     },
     {
-      "id": "app-1780341839763",
+      "id": "com.pusugames.streetpro",
       "name": "street pro racing",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/street-pro-racing-hack",
@@ -3392,7 +3392,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:23:59.764Z",
-      "updatedAt": "2026-06-01T19:23:59.764Z"
+      "updatedAt": "2026-08-24T08:29:16.731Z",
+      "bundleId": "com.pusugames.streetpro"
     },
     {
       "id": "com.scarlet.app",
