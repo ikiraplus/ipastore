@@ -3994,7 +3994,7 @@
       "updatedAt": "2026-06-16T21:46:15.819Z"
     },
     {
-      "id": "app-1781646437732",
+      "id": "net.Foddy.GettingOverIt",
       "name": "getting over it",
       "version": "1.14",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/getting-over-it-v1.14",
@@ -4003,7 +4003,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:47:17.733Z",
-      "updatedAt": "2026-06-16T21:47:17.733Z"
+      "updatedAt": "2026-08-24T06:23:24.109Z",
+      "bundleId": "net.Foddy.GettingOverIt"
     },
     {
       "id": "app-1781646498022",
