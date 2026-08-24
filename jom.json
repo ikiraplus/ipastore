@@ -4203,7 +4203,7 @@
       "updatedAt": "2026-06-19T15:08:12.352Z"
     },
     {
-      "id": "app-1781881831989",
+      "id": "com.avcr.Funimate",
       "name": "funimate video editor",
       "version": "17.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/funimate-video-editor-pro",
@@ -4212,10 +4212,11 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T15:10:31.990Z",
-      "updatedAt": "2026-08-20T11:14:13.469Z",
+      "updatedAt": "2026-08-24T06:50:52.000Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.avcr.Funimate"
     },
     {
       "id": "it.beatcode.clipboardpro",
