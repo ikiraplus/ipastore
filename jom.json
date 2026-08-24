@@ -8587,6 +8587,21 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:26:21.579Z",
       "updatedAt": "2026-08-23T11:26:47.805Z"
+    },
+    {
+      "id": "app-1787549882966",
+      "name": "Oniro Arpg",
+      "version": "1.5.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/oniro-arpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/0e/f2/4b0ef20a-b8e2-1ecd-dd3b-1bd64e95f211/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2913.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-24T05:38:02.966Z",
+      "updatedAt": "2026-08-24T05:38:04.572Z"
     }
   ]
 }
