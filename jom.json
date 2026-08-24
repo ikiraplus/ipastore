@@ -8677,7 +8677,7 @@
       "updatedAt": "2026-08-22T07:00:59.706Z"
     },
     {
-      "id": "app-1787382100782",
+      "id": "com.RoadburnGames.Gumball",
       "name": "Gumball 3000: World Tour Race",
       "version": "1.72",
       "toolVersion": "",
@@ -8689,7 +8689,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:01:40.782Z",
-      "updatedAt": "2026-08-22T07:01:42.996Z"
+      "updatedAt": "2026-08-24T10:03:56.304Z",
+      "bundleId": "com.RoadburnGames.Gumball"
     },
     {
       "id": "com.zhangyue.wc4",
