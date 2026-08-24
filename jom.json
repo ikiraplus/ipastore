@@ -6684,7 +6684,7 @@
       "updatedAt": "2026-08-20T16:27:03.109Z"
     },
     {
-      "id": "app-1787243345508",
+      "id": "com.kolka.tdgame",
       "name": "Last King Survival",
       "version": "1.0.14",
       "toolVersion": "",
@@ -6696,7 +6696,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:29:05.509Z",
-      "updatedAt": "2026-08-20T16:29:05.509Z"
+      "updatedAt": "2026-08-24T06:47:45.903Z",
+      "bundleId": "com.kolka.tdgame"
     },
     {
       "id": "app-1787243424233",
