@@ -5352,7 +5352,7 @@
       "updatedAt": "2026-08-02T15:30:14.703Z"
     },
     {
-      "id": "app-1785684678692",
+      "id": "com.autumn.skullgirls",
       "name": "Skullgirls",
       "version": "8.9.0",
       "toolVersion": "",
@@ -5364,7 +5364,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T15:31:18.693Z",
-      "updatedAt": "2026-08-02T15:31:18.693Z"
+      "updatedAt": "2026-08-24T06:46:20.418Z",
+      "bundleId": "com.autumn.skullgirls"
     },
     {
       "id": "app-1785684789295",
