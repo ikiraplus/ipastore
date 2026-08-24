@@ -5349,7 +5349,7 @@
       "bundleId": "com.td.uswatcherofrealms"
     },
     {
-      "id": "app-1785677326637",
+      "id": "com.GentleManiac.HorizonWalkerApple",
       "name": "Horizon walker",
       "version": "1.50.0",
       "toolVersion": "",
@@ -5361,7 +5361,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T13:28:46.638Z",
-      "updatedAt": "2026-08-02T13:28:46.638Z"
+      "updatedAt": "2026-08-24T08:28:46.270Z",
+      "bundleId": "com.GentleManiac.HorizonWalkerApple"
     },
     {
       "id": "app-1785677489859",
