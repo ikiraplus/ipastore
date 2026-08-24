@@ -8700,7 +8700,7 @@
       "bundleId": "com.cardify.tinder"
     },
     {
-      "id": "app-1787382750818",
+      "id": "com.mytonallc.cookingdiary",
       "name": "Cooking diary",
       "version": "2.56.1",
       "toolVersion": "",
@@ -8712,7 +8712,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:12:30.818Z",
-      "updatedAt": "2026-08-22T07:12:32.361Z"
+      "updatedAt": "2026-08-24T08:30:07.816Z",
+      "bundleId": "com.mytonallc.cookingdiary"
     },
     {
       "id": "app-1787382768885",
