@@ -6444,7 +6444,7 @@
       "bundleId": "com.wild.dino.hunt.animal.hunt"
     },
     {
-      "id": "app-1787223921717",
+      "id": "com.dmg.prison.escape.simulator",
       "name": "Prison Escape Simulator 3d",
       "version": "1.0.7",
       "toolVersion": "",
@@ -6456,7 +6456,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:05:21.718Z",
-      "updatedAt": "2026-08-20T11:05:21.718Z"
+      "updatedAt": "2026-08-24T06:51:34.198Z",
+      "bundleId": "com.dmg.prison.escape.simulator"
     },
     {
       "id": "com.battlecreek.proseries",
