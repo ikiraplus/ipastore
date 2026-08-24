@@ -119,7 +119,7 @@
       "bundleId": "app.teledark"
     },
     {
-      "id": "app-1773402408531",
+      "id": "com.burbn.instagram",
       "name": "instagram DL",
       "version": "441.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-dl_441.0.0",
@@ -128,7 +128,7 @@
       "note": "لتفعيل مميزات التطبيق:\n- اضغط على زر Home ضغطة طويلة",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-07T08:26:47.881Z",
+      "updatedAt": "2026-08-24T05:42:18.546Z",
       "toolVersion": "2.5",
       "previousVersions": [
         {
@@ -136,7 +136,8 @@
           "version": "432.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.burbn.instagram"
     },
     {
       "id": "com.burbn.instagram",
