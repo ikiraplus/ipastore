@@ -6779,7 +6779,7 @@
       "bundleId": "jet.fighter.games"
     },
     {
-      "id": "app-1787243566691",
+      "id": "com.sniper3d.game",
       "name": "Sniper Ops Covert Missions",
       "version": "1.8",
       "toolVersion": "",
@@ -6791,7 +6791,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:32:46.693Z",
-      "updatedAt": "2026-08-20T16:32:46.693Z"
+      "updatedAt": "2026-08-24T06:50:41.228Z",
+      "bundleId": "com.sniper3d.game"
     },
     {
       "id": "com.codigames.idle.supermarket.tycoon",
