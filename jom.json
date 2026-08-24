@@ -8461,7 +8461,7 @@
       "updatedAt": "2026-08-22T06:58:34.837Z"
     },
     {
-      "id": "app-1787381957015",
+      "id": "com.ohbibi.fps",
       "name": "FRAG Pro Shooter",
       "version": "5.2.0",
       "toolVersion": "",
@@ -8473,7 +8473,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:59:17.015Z",
-      "updatedAt": "2026-08-22T06:59:18.415Z"
+      "updatedAt": "2026-08-24T06:49:32.842Z",
+      "bundleId": "com.ohbibi.fps"
     },
     {
       "id": "com.fungames.battleroyale",
