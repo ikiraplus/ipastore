@@ -8742,7 +8742,7 @@
       "bundleId": "com.mytonallc.cookingdiary"
     },
     {
-      "id": "app-1787382768885",
+      "id": "com.playdigious.slimerancher",
       "name": "Slime Rancher",
       "version": "1.0.5",
       "toolVersion": "",
@@ -8754,7 +8754,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:12:48.885Z",
-      "updatedAt": "2026-08-22T07:12:50.008Z"
+      "updatedAt": "2026-08-24T09:04:49.831Z",
+      "bundleId": "com.playdigious.slimerancher"
     },
     {
       "id": "com.hhimhira.magicka",
