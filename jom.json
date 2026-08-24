@@ -818,7 +818,7 @@
       "bundleId": "com.picsart.studio"
     },
     {
-      "id": "app-1773546788287",
+      "id": "com.frontierdesign.videostar",
       "name": "VideoStar Hacked 1",
       "version": "15.1.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videostar_pro",
@@ -827,7 +827,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-22T07:08:05.628Z",
+      "updatedAt": "2026-08-24T09:27:12.028Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -835,7 +835,8 @@
           "version": "15.7.2"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.frontierdesign.videostar"
     },
     {
       "id": "com.pinterest.background.experiments-refresh",
