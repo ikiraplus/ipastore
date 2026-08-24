@@ -3535,7 +3535,7 @@
       "updatedAt": "2026-06-10T17:09:52.640Z"
     },
     {
-      "id": "app-1781111860874",
+      "id": "com.zhiliaoapp.musically",
       "name": "TikTok Al-asd",
       "version": "45.8.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_v45.8.0_asdtiktok_v1.2",
@@ -3544,7 +3544,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-06-10T17:17:40.874Z",
-      "updatedAt": "2026-07-11T07:46:58.458Z"
+      "updatedAt": "2026-08-24T08:31:05.015Z",
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "app-1781112118740",
