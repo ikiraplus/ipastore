@@ -7102,7 +7102,7 @@
       "updatedAt": "2026-08-21T07:55:53.147Z"
     },
     {
-      "id": "app-1787299027594",
+      "id": "com.nostellar.ghostslayer2",
       "name": "Ghost Slayer",
       "version": "1.52",
       "toolVersion": "",
@@ -7114,7 +7114,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:57:07.595Z",
-      "updatedAt": "2026-08-21T07:57:07.595Z"
+      "updatedAt": "2026-08-24T06:19:59.554Z",
+      "bundleId": "com.nostellar.ghostslayer2"
     },
     {
       "id": "app-1787299054848",
