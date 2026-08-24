@@ -2142,7 +2142,7 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-iosgods-ibis-paint-x-2177",
+      "id": "jp.ne.ibis.ibisPaintX",
       "name": "ibis Paint X",
       "version": "13.1.13",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ibispaint-x-13.1.13",
@@ -2154,7 +2154,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-23T11:29:19.137Z"
+      "updatedAt": "2026-08-24T06:17:56.311Z",
+      "bundleId": "jp.ne.ibis.ibisPaintX"
     },
     {
       "id": "app-iosgods-duolingo-142",
