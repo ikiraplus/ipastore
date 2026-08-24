@@ -5956,7 +5956,7 @@
       "updatedAt": "2026-08-12T17:46:07.023Z"
     },
     {
-      "id": "app-1786556433294",
+      "id": "es.socialpoint.dragoncity",
       "name": "Dragoncity",
       "version": "26.10.4",
       "toolVersion": "",
@@ -5968,7 +5968,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:40:33.294Z",
-      "updatedAt": "2026-08-12T17:40:33.294Z"
+      "updatedAt": "2026-08-24T06:48:04.406Z",
+      "bundleId": "es.socialpoint.dragoncity"
     },
     {
       "id": "com.tensquaregames.letsfish2",
