@@ -2012,7 +2012,7 @@
       "bundleId": "com.algoriddim.djay-iphone-free"
     },
     {
-      "id": "app-iosgods-camscanner-3095",
+      "id": "com.intsig.CamScannerLite",
       "name": "CamScanner",
       "version": "7.23.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.23.5_vip_unlocked_patched",
@@ -2021,7 +2021,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-11T20:31:11.720Z",
+      "updatedAt": "2026-08-24T06:48:50.486Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2033,7 +2033,8 @@
           "version": "7.22.5"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.intsig.CamScannerLite"
     },
     {
       "id": "com.xd.mbp31",
