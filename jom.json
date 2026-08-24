@@ -2291,7 +2291,7 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-iosgods-football-club-2025-4472",
+      "id": "com.GoPlayGames.FCM25",
       "name": "Football Club Management 2025",
       "version": "1.7.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/football-club-management-2025-hack-mek4a3boqo-1",
@@ -2299,7 +2299,9 @@
       "size": "200 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.GoPlayGames.FCM25",
+      "updatedAt": "2026-08-24T06:48:25.428Z"
     },
     {
       "id": "app-iosgods-bloom-city-match-5603",
