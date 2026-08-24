@@ -8445,7 +8445,7 @@
       "updatedAt": "2026-08-22T07:35:42.071Z"
     },
     {
-      "id": "app-1787456655981",
+      "id": "com.apple.compilers.llvm.clang.1_0",
       "name": "Hello Weather Forecast",
       "version": "3.13.15",
       "toolVersion": "",
@@ -8457,7 +8457,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-23T03:44:15.981Z",
-      "updatedAt": "2026-08-23T04:18:14.339Z"
+      "updatedAt": "2026-08-24T06:14:13.313Z",
+      "bundleId": "com.apple.compilers.llvm.clang.1_0"
     },
     {
       "id": "app-1787456687784",
