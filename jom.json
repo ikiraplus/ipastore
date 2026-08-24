@@ -2293,7 +2293,7 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-1774774792819",
+      "id": "dev-movlix.player",
       "name": "Movilx",
       "version": "1.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movlix_1.1_1774767312-1",
@@ -2301,7 +2301,9 @@
       "size": "4.1 MB",
       "note": "تطبيق مشابه لنتفليكس، بدون إعلانات ويدعم الترجمة",
       "category": "ترفيه",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "dev-movlix.player",
+      "updatedAt": "2026-08-24T06:13:54.051Z"
     },
     {
       "id": "app-1774779049196",
