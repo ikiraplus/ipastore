@@ -4225,7 +4225,7 @@
       "bundleId": "com.mobivio.cutecutpro"
     },
     {
-      "id": "app-1782927901147",
+      "id": "com.hammerandchisel.discord",
       "name": "discord Al-Asd",
       "version": "335.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord_asd_335.0_v1.0",
@@ -4234,7 +4234,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-01T17:45:01.149Z",
-      "updatedAt": "2026-07-01T17:45:01.149Z"
+      "updatedAt": "2026-08-24T06:43:34.853Z",
+      "bundleId": "com.hammerandchisel.discord"
     },
     {
       "id": "app-1782928027002",
