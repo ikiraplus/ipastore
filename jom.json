@@ -6703,7 +6703,7 @@
       "bundleId": "com.sega.ron"
     },
     {
-      "id": "app-1787224325370",
+      "id": "com.edkongames.ww2",
       "name": "World War 2 Army Fps Shooter",
       "version": "5.03",
       "toolVersion": "",
@@ -6715,7 +6715,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:12:05.372Z",
-      "updatedAt": "2026-08-20T11:12:05.372Z"
+      "updatedAt": "2026-08-24T09:29:20.043Z",
+      "bundleId": "com.edkongames.ww2"
     },
     {
       "id": "app-1787242026142",
