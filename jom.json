@@ -2407,7 +2407,7 @@
       "bundleId": "joker.app"
     },
     {
-      "id": "app-1774779365404",
+      "id": "com.fiksu",
       "name": "8ball-pool hack 2",
       "version": "56.25.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/8-ball-pool-hacked2",
@@ -2416,7 +2416,7 @@
       "note": "استخدام هذا التطبيق على مسؤوليتك الخاصة، ولا نضمن اللعبة ولا نعرف الجهة المطورة لها",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-23T12:15:34.399Z",
+      "updatedAt": "2026-08-24T06:21:15.389Z",
       "hidden": false,
       "toolVersion": "",
       "previousVersions": [
@@ -2425,7 +2425,8 @@
           "version": "56.25.1"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.fiksu"
     },
     {
       "id": "app-1774779575880",
