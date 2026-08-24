@@ -8110,7 +8110,7 @@
       "updatedAt": "2026-08-21T15:14:48.453Z"
     },
     {
-      "id": "app-1787325308553",
+      "id": "com.zombie.slasher",
       "name": "Zombie Slasher",
       "version": "1.13.7",
       "toolVersion": "",
@@ -8122,7 +8122,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:15:08.553Z",
-      "updatedAt": "2026-08-21T15:15:09.824Z"
+      "updatedAt": "2026-08-24T06:50:19.836Z",
+      "bundleId": "com.zombie.slasher"
     },
     {
       "id": "app-1787325383469",
