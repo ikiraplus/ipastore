@@ -6304,7 +6304,7 @@
       "updatedAt": "2026-08-20T11:05:21.718Z"
     },
     {
-      "id": "app-1787223942114",
+      "id": "com.battlecreek.proseries",
       "name": "Pro Series Drag Racing",
       "version": "2.20",
       "toolVersion": "",
@@ -6316,7 +6316,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:05:42.115Z",
-      "updatedAt": "2026-08-20T11:05:42.115Z"
+      "updatedAt": "2026-08-24T06:19:32.798Z",
+      "bundleId": "com.battlecreek.proseries"
     },
     {
       "id": "app-1787224016103",
