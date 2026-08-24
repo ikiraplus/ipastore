@@ -6555,7 +6555,7 @@
       "updatedAt": "2026-08-20T11:10:10.108Z"
     },
     {
-      "id": "app-1787224304552",
+      "id": "com.sega.ron",
       "name": "Yakuza Online Japan",
       "version": "5.0.4",
       "toolVersion": "",
@@ -6567,7 +6567,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:11:44.554Z",
-      "updatedAt": "2026-08-20T11:11:44.554Z"
+      "updatedAt": "2026-08-24T06:47:26.207Z",
+      "bundleId": "com.sega.ron"
     },
     {
       "id": "app-1787224325370",
