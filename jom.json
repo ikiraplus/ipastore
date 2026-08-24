@@ -4278,7 +4278,7 @@
       "bundleId": "com.miniclip.drone1"
     },
     {
-      "id": "app-1781880881312",
+      "id": "com.coffeestain.goatsimulator3.multiverse",
       "name": "goat simulator 3 - multiverse",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/goat-simulator-3-multiverse",
@@ -4287,7 +4287,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-19T14:54:41.313Z",
-      "updatedAt": "2026-06-19T14:54:41.313Z"
+      "updatedAt": "2026-08-24T10:38:09.243Z",
+      "bundleId": "com.coffeestain.goatsimulator3.multiverse"
     },
     {
       "id": "app-1781881692351",
