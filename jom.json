@@ -6374,7 +6374,7 @@
       "updatedAt": "2026-08-20T11:06:56.105Z"
     },
     {
-      "id": "app-1787224052222",
+      "id": "com.utincomputer.hyperovertake",
       "name": "Rush Hour 3d Car Game",
       "version": "3.0004002",
       "toolVersion": "",
@@ -6386,7 +6386,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:07:32.223Z",
-      "updatedAt": "2026-08-20T11:07:32.223Z"
+      "updatedAt": "2026-08-24T06:23:31.739Z",
+      "bundleId": "com.utincomputer.hyperovertake"
     },
     {
       "id": "com.madfingergames.Samurai2",
