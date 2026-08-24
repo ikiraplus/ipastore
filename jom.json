@@ -4326,7 +4326,7 @@
       "bundleId": "com.hammerandchisel.discord"
     },
     {
-      "id": "app-1782928027002",
+      "id": "com.dvloper.grannychaptertwo",
       "name": "Granny: Chapter Two",
       "version": "1.1.14",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/granny-chapter-two-1.1.14",
@@ -4335,7 +4335,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:47:07.003Z",
-      "updatedAt": "2026-07-01T17:47:07.003Z"
+      "updatedAt": "2026-08-24T08:29:06.580Z",
+      "bundleId": "com.dvloper.grannychaptertwo"
     },
     {
       "id": "com.vizor-apps.Road-Trip",
