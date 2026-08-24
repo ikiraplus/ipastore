@@ -2266,7 +2266,7 @@
       "bundleId": "com.imangi.templerun2"
     },
     {
-      "id": "app-iosgods-sonic-dash-4086",
+      "id": "com.sega.sonicdash",
       "name": "Sonic Dash",
       "version": "8.5.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sonic-dash-hack",
@@ -2274,7 +2274,9 @@
       "size": "337 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.sega.sonicdash",
+      "updatedAt": "2026-08-24T06:53:16.087Z"
     },
     {
       "id": "app-iosgods-hunting-sniper-4128",
