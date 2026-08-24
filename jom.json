@@ -456,7 +456,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773436669968",
+      "id": "com.locket.Locket",
       "name": "Locket Gold",
       "version": "2.61.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/locket-widget-v2.61.0-locket-gold-patched",
@@ -465,7 +465,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-08-23T03:36:44.652Z",
+      "updatedAt": "2026-08-24T06:21:55.795Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -477,7 +477,8 @@
           "version": "2.56.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.locket.Locket"
     },
     {
       "id": "de.tellonym.app",
