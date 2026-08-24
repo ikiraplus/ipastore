@@ -4347,7 +4347,7 @@
       "updatedAt": "2026-07-05T14:15:43.368Z"
     },
     {
-      "id": "app-1783261002790",
+      "id": "com.cer.buzz",
       "name": "CEE",
       "version": "2.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cee_1.0",
@@ -4356,7 +4356,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-07-05T14:16:42.791Z",
-      "updatedAt": "2026-07-05T14:16:42.791Z"
+      "updatedAt": "2026-08-24T06:13:49.577Z",
+      "bundleId": "com.cer.buzz"
     },
     {
       "id": "app-1783261052169",
