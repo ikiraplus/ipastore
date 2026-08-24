@@ -6744,7 +6744,7 @@
       "updatedAt": "2026-08-20T16:32:46.693Z"
     },
     {
-      "id": "app-1787243654701",
+      "id": "com.codigames.idle.supermarket.tycoon",
       "name": "Idle Supermarket",
       "version": "4.2.1",
       "toolVersion": "",
@@ -6756,7 +6756,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:34:14.703Z",
-      "updatedAt": "2026-08-20T16:34:14.703Z"
+      "updatedAt": "2026-08-24T06:46:16.590Z",
+      "bundleId": "com.codigames.idle.supermarket.tycoon"
     },
     {
       "id": "app-1787243694097",
