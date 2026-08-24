@@ -2759,7 +2759,7 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "app-1777360462719",
+      "id": "com.soundcloud.TouchApp",
       "name": "sound cloud",
       "version": "8.73.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
@@ -2768,7 +2768,7 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-04-28T07:14:22.721Z",
-      "updatedAt": "2026-08-17T08:07:22.411Z",
+      "updatedAt": "2026-08-24T08:28:27.044Z",
       "toolVersion": "2.0",
       "previousVersions": [
         {
@@ -2780,7 +2780,8 @@
           "version": "8.70.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.soundcloud.TouchApp"
     },
     {
       "id": "fun.ask",
