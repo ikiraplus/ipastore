@@ -2747,7 +2747,7 @@
       "updatedAt": "2026-05-01T16:28:16.260Z"
     },
     {
-      "id": "app-1777653026917",
+      "id": "com.yalla-shoot.Yalla",
       "name": "يلا شوت",
       "version": "2.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yalla-shoot-noads",
@@ -2756,7 +2756,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-05-01T16:30:28.921Z",
-      "updatedAt": "2026-05-01T16:30:28.921Z"
+      "updatedAt": "2026-08-24T06:16:20.704Z",
+      "bundleId": "com.yalla-shoot.Yalla"
     },
     {
       "id": "app-1777920925565",
