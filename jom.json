@@ -8418,7 +8418,7 @@
       "updatedAt": "2026-08-22T07:06:19.126Z"
     },
     {
-      "id": "app-1787382426191",
+      "id": "com.cardify.tinder",
       "name": "Tinder plus",
       "version": "16.0.0",
       "toolVersion": "",
@@ -8430,7 +8430,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-22T07:07:06.191Z",
-      "updatedAt": "2026-08-22T07:07:07.597Z"
+      "updatedAt": "2026-08-24T06:20:21.909Z",
+      "bundleId": "com.cardify.tinder"
     },
     {
       "id": "app-1787382750818",
