@@ -6318,7 +6318,7 @@
       "bundleId": "com.huami.LoadController"
     },
     {
-      "id": "app-1787145987630",
+      "id": "com.joytunes.asla",
       "name": "Simply Piano Learn Piano Fast",
       "version": "9.10.86",
       "toolVersion": "",
@@ -6330,7 +6330,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-19T13:26:27.631Z",
-      "updatedAt": "2026-08-19T13:26:27.631Z"
+      "updatedAt": "2026-08-24T06:45:48.797Z",
+      "bundleId": "com.joytunes.asla"
     },
     {
       "id": "com.bareed-kuw.mkhmkh-ha",
