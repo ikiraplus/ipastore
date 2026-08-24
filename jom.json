@@ -2006,7 +2006,7 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-game-ios-1711600000018",
+      "id": "com.kooapps.pianotiles2arcade",
       "name": "Piano Tiles 2",
       "version": "4.3.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/piano-tiles-2-1",
@@ -2018,7 +2018,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-23T10:58:12.592Z"
+      "updatedAt": "2026-08-24T06:17:59.980Z",
+      "bundleId": "com.kooapps.pianotiles2arcade"
     },
     {
       "id": "app-game-ios-1711600000019",
