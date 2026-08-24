@@ -4285,7 +4285,7 @@
       "updatedAt": "2026-07-01T17:47:07.003Z"
     },
     {
-      "id": "app-1782928109318",
+      "id": "com.vizor-apps.Road-Trip",
       "name": "road trip",
       "version": "2604.0.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/road-trip-2604.0.2",
@@ -4294,7 +4294,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:48:29.320Z",
-      "updatedAt": "2026-07-01T17:48:29.320Z"
+      "updatedAt": "2026-08-24T06:48:29.704Z",
+      "bundleId": "com.vizor-apps.Road-Trip"
     },
     {
       "id": "app-1782928184479",
