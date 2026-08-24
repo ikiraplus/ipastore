@@ -6656,7 +6656,7 @@
       "bundleId": "com.aaa.adventures.scary.horror"
     },
     {
-      "id": "app-1787224190092",
+      "id": "com.edkongames.tops",
       "name": "Tactical Ops Modern Strike",
       "version": "0.95",
       "toolVersion": "",
@@ -6668,7 +6668,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:09:50.094Z",
-      "updatedAt": "2026-08-20T11:09:50.094Z"
+      "updatedAt": "2026-08-24T09:29:11.634Z",
+      "bundleId": "com.edkongames.tops"
     },
     {
       "id": "app-1787224210107",
