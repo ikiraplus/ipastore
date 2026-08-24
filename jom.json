@@ -3347,7 +3347,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:06:21.599Z",
-      "updatedAt": "2026-06-01T19:06:21.599Z"
+      "updatedAt": "2026-08-24T10:29:28.153Z",
+      "bundleId": ""
     },
     {
       "id": "com.wejoy.weplay.us",
@@ -3662,7 +3663,7 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "app-1781336473552",
+      "id": "com.rockstargames.maxpayne",
       "name": "max payne",
       "version": "2.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/max-payne-v2.0",
@@ -3671,7 +3672,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:41:13.553Z",
-      "updatedAt": "2026-06-13T07:41:13.553Z"
+      "updatedAt": "2026-08-24T10:30:03.879Z",
+      "bundleId": "com.rockstargames.maxpayne"
     },
     {
       "id": "com.leosfortune.arcade",
@@ -7051,7 +7053,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:42:12.015Z",
-      "updatedAt": "2026-08-20T16:42:12.015Z"
+      "updatedAt": "2026-08-24T10:28:52.744Z",
+      "bundleId": ""
     },
     {
       "id": "com.atomicplayapps.swordhero",
