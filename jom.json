@@ -3088,7 +3088,7 @@
       "recommended": false
     },
     {
-      "id": "app-1779560424696",
+      "id": "com.minichat",
       "name": "Minichat",
       "version": "5.379",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/minichat-5.379",
@@ -3097,7 +3097,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-05-23T18:20:28.947Z",
-      "updatedAt": "2026-05-23T18:20:28.947Z"
+      "updatedAt": "2026-08-24T06:20:42.318Z",
+      "bundleId": "com.minichat"
     },
     {
       "id": "app-1779560484440",
