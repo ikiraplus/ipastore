@@ -6730,7 +6730,7 @@
       "bundleId": "com.amelosinteractive.snake"
     },
     {
-      "id": "app-1787242216965",
+      "id": "com.gamedevltd.infinityops",
       "name": "Infinity Ops Sci Fi Fps",
       "version": "1.13.7",
       "toolVersion": "",
@@ -6742,7 +6742,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:10:16.966Z",
-      "updatedAt": "2026-08-20T16:10:16.966Z"
+      "updatedAt": "2026-08-24T09:04:19.935Z",
+      "bundleId": "com.gamedevltd.infinityops"
     },
     {
       "id": "com.venturesis.lastwave",
