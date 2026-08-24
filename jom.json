@@ -1508,7 +1508,7 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773594415489",
+      "id": "com.youthhr.Phonto",
       "name": "Phonto Pro",
       "version": "4.9.43",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/phonto.pro.4.9.43-1",
@@ -1516,7 +1516,9 @@
       "size": "36.5 MB",
       "note": "",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.youthhr.Phonto",
+      "updatedAt": "2026-08-24T06:16:43.417Z"
     },
     {
       "id": "app-1773574686163",
