@@ -8115,7 +8115,7 @@
       "updatedAt": "2026-08-21T15:16:25.399Z"
     },
     {
-      "id": "app-1787325418872",
+      "id": "com.notdoppler.earntodierogue",
       "name": "Earn To Die Rogue",
       "version": "1.28.251",
       "toolVersion": "",
@@ -8127,7 +8127,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:16:58.872Z",
-      "updatedAt": "2026-08-21T15:17:02.008Z"
+      "updatedAt": "2026-08-24T06:48:17.065Z",
+      "bundleId": "com.notdoppler.earntodierogue"
     },
     {
       "id": "app-1787325520896",
