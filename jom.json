@@ -6071,7 +6071,7 @@
       "updatedAt": "2026-08-17T07:57:27.599Z"
     },
     {
-      "id": "app-1786953650858",
+      "id": "com.ea.pvzfree.bv",
       "name": "Plants vs. Zombies",
       "version": "3.17.0",
       "toolVersion": "",
@@ -6083,7 +6083,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T08:00:50.859Z",
-      "updatedAt": "2026-08-17T08:00:50.859Z"
+      "updatedAt": "2026-08-24T06:24:05.567Z",
+      "bundleId": "com.ea.pvzfree.bv"
     },
     {
       "id": "app-1786953711702",
