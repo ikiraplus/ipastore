@@ -4980,7 +4980,7 @@
       "updatedAt": "2026-08-09T15:46:59.697Z"
     },
     {
-      "id": "app-1785143484273",
+      "id": "com.littlebigplay.games.wordgamespro",
       "name": "Word Games Pro 101",
       "version": "9.0",
       "toolVersion": "",
@@ -4992,7 +4992,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-27T09:11:24.274Z",
-      "updatedAt": "2026-07-27T09:11:24.274Z"
+      "updatedAt": "2026-08-24T06:18:07.488Z",
+      "bundleId": "com.littlebigplay.games.wordgamespro"
     },
     {
       "id": "app-1785181137039",
