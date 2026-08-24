@@ -5337,7 +5337,7 @@
       "bundleId": "com.earlymorningstudio.vampiresfall2"
     },
     {
-      "id": "app-1785525444697",
+      "id": "com.gamee.godslayer.rpg.rougelike",
       "name": "God Rivals",
       "version": "1.1.15",
       "toolVersion": "",
@@ -5349,7 +5349,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-31T19:17:24.698Z",
-      "updatedAt": "2026-07-31T19:17:24.698Z"
+      "updatedAt": "2026-08-24T08:30:40.039Z",
+      "bundleId": "com.gamee.godslayer.rpg.rougelike"
     },
     {
       "id": "com.td.uswatcherofrealms",
