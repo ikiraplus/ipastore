@@ -4260,7 +4260,7 @@
       "recommended": false
     },
     {
-      "id": "app-1782928679650",
+      "id": "com.troll.GuardianHunter",
       "name": "guardian hunter",
       "version": "16.1.9",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.1.9",
@@ -4269,7 +4269,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:57:59.651Z",
-      "updatedAt": "2026-08-17T07:52:49.802Z",
+      "updatedAt": "2026-08-24T06:18:25.010Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4281,7 +4281,8 @@
           "version": "16.0.9"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.troll.GuardianHunter"
     },
     {
       "id": "app-1782928941535",
