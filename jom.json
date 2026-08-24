@@ -5184,7 +5184,7 @@
       "bundleId": "com.littlebigplay.games.wordgamespro"
     },
     {
-      "id": "app-1785181137039",
+      "id": "com.blayzegames.newfps",
       "name": "Fwd Assault",
       "version": "1.2083.1",
       "toolVersion": "",
@@ -5201,7 +5201,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-27T19:38:57.039Z",
-      "updatedAt": "2026-08-02T15:37:30.311Z"
+      "updatedAt": "2026-08-24T09:04:31.117Z",
+      "bundleId": "com.blayzegames.newfps"
     },
     {
       "id": "ph.telegra.Telegraph",
