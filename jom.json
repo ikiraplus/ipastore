@@ -5514,7 +5514,7 @@
       "bundleId": "com.superpixel.undyinghero"
     },
     {
-      "id": "app-1785684849036",
+      "id": "com.shibamaru.shibawars",
       "name": "Shiba Wars 2",
       "version": "2.05",
       "toolVersion": "",
@@ -5526,7 +5526,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T15:34:09.037Z",
-      "updatedAt": "2026-08-02T15:34:09.037Z"
+      "updatedAt": "2026-08-24T09:05:08.410Z",
+      "bundleId": "com.shibamaru.shibawars"
     },
     {
       "id": "com.365scores.365scroesapp",
