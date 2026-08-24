@@ -6035,7 +6035,7 @@
       "bundleId": "krmzi.dfms.free"
     },
     {
-      "id": "app-1786954324328",
+      "id": "alooytv.dfms.free",
       "name": "Alooytv",
       "version": "1.0",
       "toolVersion": "",
@@ -6047,7 +6047,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-17T08:12:07.026Z",
-      "updatedAt": "2026-08-17T08:12:07.026Z"
+      "updatedAt": "2026-08-24T06:13:39.237Z",
+      "bundleId": "alooytv.dfms.free"
     },
     {
       "id": "app-1786972033317",
