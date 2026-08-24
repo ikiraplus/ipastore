@@ -1287,7 +1287,7 @@
       "updatedAt": "2026-07-01T17:25:23.545Z"
     },
     {
-      "id": "app-1773567995904",
+      "id": "com.kinemaster.kios",
       "name": "KineMaster Pro",
       "version": "8.1.18",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kinemaster_video_editor_v8.1.18_pro_unlocked",
@@ -1296,7 +1296,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-12T03:12:21.527Z",
+      "updatedAt": "2026-08-24T06:43:41.192Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1304,7 +1304,8 @@
           "version": "8.1.11"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.kinemaster.kios"
     },
     {
       "id": "com.xiaoji.gamecenter",
