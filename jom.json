@@ -1519,7 +1519,7 @@
       "bundleId": "com.scottgames.fivenights3"
     },
     {
-      "id": "app-1773575031572",
+      "id": "com.vivacut.videoeditor",
       "name": "VivaCut",
       "version": "4.6.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vivacut-ai-video-editor",
@@ -1528,7 +1528,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-06-13T07:35:16.717Z"
+      "updatedAt": "2026-08-24T06:49:28.662Z",
+      "bundleId": "com.vivacut.videoeditor"
     },
     {
       "id": "com.smallpdf.app.ios",
