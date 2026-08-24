@@ -7708,7 +7708,7 @@
       "updatedAt": "2026-08-21T10:55:30.474Z"
     },
     {
-      "id": "app-1787310020888",
+      "id": "org.skydomain.foodcamera",
       "name": "Presets Filters Koloro",
       "version": "4.4.9",
       "toolVersion": "",
@@ -7720,7 +7720,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T11:00:20.889Z",
-      "updatedAt": "2026-08-21T11:00:20.889Z"
+      "updatedAt": "2026-08-24T06:19:55.820Z",
+      "bundleId": "org.skydomain.foodcamera"
     },
     {
       "id": "com.minerva-medical.fullcode",
