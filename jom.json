@@ -5373,7 +5373,7 @@
       "updatedAt": "2026-08-06T06:53:21.833Z"
     },
     {
-      "id": "app-1785999252866",
+      "id": "com.dopedevelopment.Panels",
       "name": "Scrl Photo Collage Maker",
       "version": "9.49",
       "toolVersion": "",
@@ -5394,7 +5394,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-06T06:54:12.867Z",
-      "updatedAt": "2026-08-19T13:11:23.732Z"
+      "updatedAt": "2026-08-24T06:18:47.892Z",
+      "bundleId": "com.dopedevelopment.Panels"
     },
     {
       "id": "app-1785999276553",
