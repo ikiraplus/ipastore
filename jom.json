@@ -1560,7 +1560,7 @@
       "updatedAt": "2026-08-24T06:16:53.887Z"
     },
     {
-      "id": "app-1773657649683",
+      "id": "com.sfun.snapedit",
       "name": "SnapEdit Premium",
       "version": "6.25.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapedit_photo_editor_ai_v6.25.1_pro_unlocked_patched",
@@ -1569,7 +1569,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-16",
-      "updatedAt": "2026-08-21T08:24:02.531Z",
+      "updatedAt": "2026-08-24T06:20:26.038Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1581,7 +1581,8 @@
           "version": "6.22.3"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.sfun.snapedit"
     },
     {
       "id": "com.vodu.ikiraplus",
