@@ -7520,7 +7520,7 @@
       "updatedAt": "2026-08-21T08:07:06.011Z"
     },
     {
-      "id": "app-1787299666488",
+      "id": "com.halfbrick.jetpack",
       "name": "Jetpack Joyride",
       "version": "1.104.1",
       "toolVersion": "",
@@ -7532,7 +7532,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:07:46.489Z",
-      "updatedAt": "2026-08-21T08:07:46.489Z"
+      "updatedAt": "2026-08-24T06:52:36.873Z",
+      "bundleId": "com.halfbrick.jetpack"
     },
     {
       "id": "app-1787299750566",
