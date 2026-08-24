@@ -6815,7 +6815,7 @@
       "bundleId": "com.ares.twd"
     },
     {
-      "id": "app-1787243223108",
+      "id": "com.gameloft.gangstar3",
       "name": "Gangstar Rio City Of Saints",
       "version": "1.4.11",
       "toolVersion": "",
@@ -6827,7 +6827,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:27:03.109Z",
-      "updatedAt": "2026-08-20T16:27:03.109Z"
+      "updatedAt": "2026-08-24T10:13:38.951Z",
+      "bundleId": "com.gameloft.gangstar3"
     },
     {
       "id": "com.kolka.tdgame",
@@ -7288,7 +7289,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:51:40.824Z",
-      "updatedAt": "2026-08-21T07:51:40.824Z"
+      "updatedAt": "2026-08-24T10:13:07.747Z",
+      "bundleId": ""
     },
     {
       "id": "com.ondi.shadow.rival",
@@ -8624,7 +8626,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:58:33.206Z",
-      "updatedAt": "2026-08-22T06:58:34.837Z"
+      "updatedAt": "2026-08-24T10:12:30.864Z",
+      "bundleId": ""
     },
     {
       "id": "com.ohbibi.fps",
