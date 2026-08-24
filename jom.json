@@ -1639,7 +1639,7 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773574951892",
+      "id": "com.squareenix.tombraider2classic",
       "name": "Tomb Raider II",
       "version": "1.0.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tomb-raider-ii_v103-1",
@@ -1647,7 +1647,9 @@
       "size": "228.4 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.squareenix.tombraider2classic",
+      "updatedAt": "2026-08-24T06:51:10.702Z"
     },
     {
       "id": "com.kiloo.subwaysurfers",
