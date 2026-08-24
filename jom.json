@@ -6819,7 +6819,7 @@
       "updatedAt": "2026-08-20T16:52:39.529Z"
     },
     {
-      "id": "app-1787244878843",
+      "id": "xyz.cypwn.sm64ios-60fps",
       "name": "Supermario 64",
       "version": "1.2.1",
       "toolVersion": "",
@@ -6831,7 +6831,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:54:38.844Z",
-      "updatedAt": "2026-08-20T16:54:38.844Z"
+      "updatedAt": "2026-08-24T06:14:16.384Z",
+      "bundleId": "xyz.cypwn.sm64ios-60fps"
     },
     {
       "id": "app-1787244935006",
