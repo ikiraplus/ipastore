@@ -846,7 +846,7 @@
       "updatedAt": "2026-08-24T06:14:48.773Z"
     },
     {
-      "id": "app-1773509863438",
+      "id": "com.buztv.player",
       "name": "buz tv pro",
       "version": "1.2.11",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
@@ -854,7 +854,9 @@
       "size": "16.4 MB",
       "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
       "category": "ترفيه",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.buztv.player",
+      "updatedAt": "2026-08-24T06:15:00.294Z"
     },
     {
       "id": "com.animecloud.rm",
