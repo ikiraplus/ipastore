@@ -5519,7 +5519,7 @@
       "bundleId": "com.365scores.365scroesapp"
     },
     {
-      "id": "app-1785999201825",
+      "id": "com.lightricks.Enlight-Phoenix",
       "name": "Motionleap 3d Photo Animator",
       "version": "1.9.38",
       "toolVersion": "",
@@ -5531,7 +5531,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-06T06:53:21.833Z",
-      "updatedAt": "2026-08-06T06:53:21.833Z"
+      "updatedAt": "2026-08-24T08:28:36.645Z",
+      "bundleId": "com.lightricks.Enlight-Phoenix"
     },
     {
       "id": "com.dopedevelopment.Panels",
