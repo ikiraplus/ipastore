@@ -4097,7 +4097,7 @@
       "recommended": false
     },
     {
-      "id": "app-1781881938327",
+      "id": "it.beatcode.clipboardpro",
       "name": "clipboard pro",
       "version": "1.27",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clipboard-pro",
@@ -4106,7 +4106,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T15:12:18.328Z",
-      "updatedAt": "2026-06-19T15:12:18.328Z"
+      "updatedAt": "2026-08-24T06:15:25.333Z",
+      "bundleId": "it.beatcode.clipboardpro"
     },
     {
       "id": "app-1781882139582",
