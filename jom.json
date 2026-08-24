@@ -2891,7 +2891,7 @@
       "updatedAt": "2026-05-08T16:12:41.770Z"
     },
     {
-      "id": "app-1778256904437",
+      "id": "com.Semicolon.Maraya",
       "name": "مرايا",
       "version": "11.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maraya_11.1",
@@ -2900,7 +2900,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-05-08T16:15:04.439Z",
-      "updatedAt": "2026-05-08T16:15:04.439Z"
+      "updatedAt": "2026-08-24T06:15:57.546Z",
+      "bundleId": "com.Semicolon.Maraya"
     },
     {
       "id": "app-1778256978012",
