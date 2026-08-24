@@ -8504,7 +8504,7 @@
       "updatedAt": "2026-08-22T07:01:42.996Z"
     },
     {
-      "id": "app-1787382121540",
+      "id": "com.zhangyue.wc4",
       "name": "World Conqueror 4",
       "version": "3.4.2",
       "toolVersion": "",
@@ -8516,7 +8516,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:02:01.540Z",
-      "updatedAt": "2026-08-22T07:02:04.271Z"
+      "updatedAt": "2026-08-24T06:47:11.552Z",
+      "bundleId": "com.zhangyue.wc4"
     },
     {
       "id": "app-1787382148845",
