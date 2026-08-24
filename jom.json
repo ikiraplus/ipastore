@@ -1225,7 +1225,7 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.518Z",
       "bundleId": "store.ipa.gta3.de"
     },
     {
@@ -1726,7 +1726,7 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.518Z",
       "bundleId": "com.carx-tech.carxdr2"
     },
     {
@@ -1958,7 +1958,7 @@
       "bundleId": "com.rovio.baba"
     },
     {
-      "id": "app-game-ios-1711600000015",
+      "id": "com.blayzegames.iosfps",
       "name": "Bullet Force",
       "version": "1.113",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bullet-force-1.113",
@@ -1967,8 +1967,8 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T10:09:16.383Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:58:36.518Z",
+      "bundleId": "com.blayzegames.iosfps"
     },
     {
       "id": "com.nekki.shadowfight",
@@ -3280,7 +3280,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-23T18:23:57.140Z",
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.518Z",
       "bundleId": "com.carxtech.sr"
     },
     {
@@ -3985,7 +3985,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:08:40.836Z",
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.518Z",
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
@@ -4077,7 +4077,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:31:25.797Z",
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.517Z",
       "bundleId": "com.ea.ios.fifaworld"
     },
     {
@@ -6181,7 +6181,7 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:42:27.985Z",
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.518Z",
       "bundleId": "com.gdv.subway2055"
     },
     {
@@ -7135,7 +7135,7 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:45:44.663Z",
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.518Z",
       "bundleId": "com.joycity.resu"
     },
     {
@@ -8079,7 +8079,7 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-21T10:55:30.474Z",
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.518Z",
       "bundleId": "AB.iOsteology"
     },
     {
@@ -9169,7 +9169,7 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-24T05:38:27.822Z",
-      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "updatedAt": "2026-08-24T13:58:36.518Z",
       "bundleId": "com.ExiliumGames.Anima"
     }
   ]
