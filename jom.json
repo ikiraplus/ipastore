@@ -412,7 +412,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773436387699",
+      "id": "com.facebook.Facebook",
       "name": "Facebook Wolf",
       "version": "511.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/facebook-wolf-511.0.0",
@@ -421,7 +421,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-08-19T13:22:18.300Z",
+      "updatedAt": "2026-08-24T06:46:29.371Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -429,7 +429,8 @@
           "version": "544.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.facebook.Facebook"
     },
     {
       "id": "com.facebook.Messenger",
