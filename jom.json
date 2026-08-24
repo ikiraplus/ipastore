@@ -1524,7 +1524,7 @@
       "updatedAt": "2026-08-24T06:16:43.417Z"
     },
     {
-      "id": "app-1773574686163",
+      "id": "com.scottgames.fnaf4",
       "name": "Five Nights at Freddy's 4",
       "version": "2.0.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys-4_v202-1",
@@ -1536,7 +1536,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-17T13:29:09.210Z"
+      "updatedAt": "2026-08-24T06:17:37.808Z",
+      "bundleId": "com.scottgames.fnaf4"
     },
     {
       "id": "com.dreamora",
