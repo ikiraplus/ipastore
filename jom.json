@@ -271,7 +271,7 @@
       "updatedAt": "2026-08-24T05:42:28.667Z"
     },
     {
-      "id": "app-1773497492154",
+      "id": "app.nicegram",
       "name": "Nicegram",
       "version": "12.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nicegram-2.5.3",
@@ -280,8 +280,8 @@
       "note": "لتفعيل مميزات التطبيق:\nالإعدادات، انزل إلى الأسفل، ثم اضغط ضغطة طويلة على خانة (اسأل سؤالا)",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-23T19:28:07.268Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T05:42:39.992Z",
+      "bundleId": "app.nicegram"
     },
     {
       "id": "com.seastar.turrit",
