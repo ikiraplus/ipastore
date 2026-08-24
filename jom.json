@@ -8061,7 +8061,7 @@
       "bundleId": "com.crystalnix.ServerAuditor"
     },
     {
-      "id": "app-1787325149827",
+      "id": "com.zilliongames.collectionidle",
       "name": "Switching Heroes",
       "version": "5.20",
       "toolVersion": "",
@@ -8073,7 +8073,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:12:29.827Z",
-      "updatedAt": "2026-08-21T15:12:33.650Z"
+      "updatedAt": "2026-08-24T06:50:01.688Z",
+      "bundleId": "com.zilliongames.collectionidle"
     },
     {
       "id": "es.socialpoint.MonsterCity",
