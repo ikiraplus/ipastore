@@ -885,7 +885,7 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773511219130",
+      "id": "p3.xyz.yyyue.esign",
       "name": "Esign",
       "version": "1.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/esign-1",
@@ -893,7 +893,9 @@
       "size": "18.0 MB",
       "note": "",
       "category": "أخرى",
-      "addedAt": "2026-03-14"
+      "addedAt": "2026-03-14",
+      "bundleId": "p3.xyz.yyyue.esign",
+      "updatedAt": "2026-08-24T06:15:21.810Z"
     },
     {
       "id": "nya.asami.ksign",
