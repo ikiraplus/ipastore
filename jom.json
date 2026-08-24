@@ -8179,7 +8179,7 @@
       "bundleId": "com.notdoppler.earntodierogue"
     },
     {
-      "id": "app-1787325520896",
+      "id": "com.jds.bnr",
       "name": "Bendys Nightmare Run",
       "version": "2.0.2",
       "toolVersion": "",
@@ -8196,7 +8196,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:18:40.896Z",
-      "updatedAt": "2026-08-23T11:13:42.820Z"
+      "updatedAt": "2026-08-24T06:51:37.812Z",
+      "bundleId": "com.jds.bnr"
     },
     {
       "id": "app-1787381020671",
