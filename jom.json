@@ -4449,7 +4449,7 @@
       "updatedAt": "2026-07-14T10:07:31.345Z"
     },
     {
-      "id": "app-1783541434135",
+      "id": "com.fasilplus.ikiraplus",
       "name": "فاصل بلس",
       "version": "1.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fasil-plus",
@@ -4458,8 +4458,9 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-07-08T20:10:36.129Z",
-      "updatedAt": "2026-07-08T20:10:36.129Z",
-      "hidden": false
+      "updatedAt": "2026-08-24T06:14:10.445Z",
+      "hidden": false,
+      "bundleId": "com.fasilplus.ikiraplus"
     },
     {
       "id": "com.qissateshqplus.ikiraplus",
