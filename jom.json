@@ -376,7 +376,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773574853532",
+      "id": "com.zhiliaoapp.musically",
       "name": "+TikTok - tiktokBH",
       "version": "45.6.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_45.6.0_bhtt+_1.2.1",
@@ -385,7 +385,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-06-16T21:37:21.868Z"
+      "updatedAt": "2026-08-24T08:29:33.647Z",
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "app-1773436350178",
