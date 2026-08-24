@@ -971,7 +971,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773509724484",
+      "id": "com.alightcreative.motion",
       "name": "Alight Motion hack",
       "version": "6.2.58",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/alight-motion-v6.2.58-subscription-unlocked-patched",
@@ -992,7 +992,8 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-21T08:24:43.142Z"
+      "updatedAt": "2026-08-24T06:23:36.014Z",
+      "bundleId": "com.alightcreative.motion"
     },
     {
       "id": "app-1773511677771",
