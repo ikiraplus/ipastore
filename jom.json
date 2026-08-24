@@ -1225,7 +1225,7 @@
       "updatedAt": "2026-08-24T06:15:37.159Z"
     },
     {
-      "id": "app-1773547011458",
+      "id": "com.truesoftware.TrueCallerOther",
       "name": "Truecaller",
       "version": "26.19",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/truecaller_premium_caller_id_v26_19_gold_unlocked",
@@ -1234,7 +1234,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-04-27T18:12:52.327Z"
+      "updatedAt": "2026-08-24T06:19:44.553Z",
+      "bundleId": "com.truesoftware.TrueCallerOther"
     },
     {
       "id": "app-1773567772330",
