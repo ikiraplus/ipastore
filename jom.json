@@ -6899,7 +6899,7 @@
       "bundleId": "com.codigames.idle.supermarket.tycoon"
     },
     {
-      "id": "app-1787243694097",
+      "id": "com.squareenixmontreal.hitmango",
       "name": "Hitman go",
       "version": "1.16",
       "toolVersion": "",
@@ -6911,7 +6911,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:34:54.099Z",
-      "updatedAt": "2026-08-20T16:34:54.099Z"
+      "updatedAt": "2026-08-24T09:05:02.683Z",
+      "bundleId": "com.squareenixmontreal.hitmango"
     },
     {
       "id": "com.inspectorstudios.ultimateflightsimulatorpro",
