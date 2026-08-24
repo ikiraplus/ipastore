@@ -8726,7 +8726,7 @@
       "bundleId": "com.zhangyue.wc4"
     },
     {
-      "id": "app-1787382148845",
+      "id": "com.WandaSoftware.TruckersofEurope3",
       "name": "Truckers Of Europe 3",
       "version": "0.70.64",
       "toolVersion": "",
@@ -8738,7 +8738,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:02:28.845Z",
-      "updatedAt": "2026-08-22T07:02:31.278Z"
+      "updatedAt": "2026-08-24T10:15:04.768Z",
+      "bundleId": "com.WandaSoftware.TruckersofEurope3"
     },
     {
       "id": "com.3d4medical.EssentialAnatomyiPad",
