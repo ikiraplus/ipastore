@@ -8805,7 +8805,7 @@
       "updatedAt": "2026-08-23T11:16:52.362Z"
     },
     {
-      "id": "app-1787483895130",
+      "id": "com.deviloper.car.empire.idle.tycoon",
       "name": "My Car Empire",
       "version": "0.0.85",
       "toolVersion": "",
@@ -8817,7 +8817,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T11:18:15.130Z",
-      "updatedAt": "2026-08-23T11:18:31.736Z"
+      "updatedAt": "2026-08-24T06:49:49.301Z",
+      "bundleId": "com.deviloper.car.empire.idle.tycoon"
     },
     {
       "id": "com.badbeans.legendofmarmot",
