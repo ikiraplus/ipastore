@@ -1473,7 +1473,7 @@
       "updatedAt": "2026-08-17T13:26:47.115Z"
     },
     {
-      "id": "app-1773574683772",
+      "id": "com.scottgames.fivenights3",
       "name": "Five Nights at Freddy's 3",
       "version": "2.0.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys-3_v203-1",
@@ -1485,7 +1485,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-17T13:28:46.272Z"
+      "updatedAt": "2026-08-24T06:18:21.674Z",
+      "bundleId": "com.scottgames.fivenights3"
     },
     {
       "id": "app-1773575031572",
