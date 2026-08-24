@@ -1536,7 +1536,7 @@
       "updatedAt": "2026-08-17T13:29:09.210Z"
     },
     {
-      "id": "app-1773597157329",
+      "id": "com.dreamora",
       "name": "Streameast no ads",
       "version": "1.1.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
@@ -1544,7 +1544,9 @@
       "size": "37.8 MB",
       "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
       "category": "ترفيه",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.dreamora",
+      "updatedAt": "2026-08-24T06:16:53.887Z"
     },
     {
       "id": "app-1773657649683",
