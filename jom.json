@@ -5017,7 +5017,7 @@
       "bundleId": "com.meitu.wink"
     },
     {
-      "id": "app-1785143412687",
+      "id": "com.JindoBlu.OfflineGamesIOS",
       "name": "Offline Games No Wifi Games",
       "version": "3.14.1",
       "toolVersion": "",
@@ -5034,7 +5034,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-27T09:10:12.701Z",
-      "updatedAt": "2026-08-09T15:46:59.697Z"
+      "updatedAt": "2026-08-24T06:43:14.538Z",
+      "bundleId": "com.JindoBlu.OfflineGamesIOS"
     },
     {
       "id": "com.littlebigplay.games.wordgamespro",
