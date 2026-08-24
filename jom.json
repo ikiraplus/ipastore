@@ -7709,7 +7709,7 @@
       "updatedAt": "2026-08-21T11:00:20.889Z"
     },
     {
-      "id": "app-1787311587515",
+      "id": "com.minerva-medical.fullcode",
       "name": "Full Code Medical simulation",
       "version": "3.7.2",
       "toolVersion": "",
@@ -7721,7 +7721,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-21T11:26:27.516Z",
-      "updatedAt": "2026-08-21T11:26:27.516Z"
+      "updatedAt": "2026-08-24T06:18:55.556Z",
+      "bundleId": "com.minerva-medical.fullcode"
     },
     {
       "id": "Wallpapers.iPad",
