@@ -3697,7 +3697,7 @@
       "bundleId": "com.rovio.abreloaded"
     },
     {
-      "id": "app-1781374974021",
+      "id": "com.rovio.ab-bounce",
       "name": "angry birds bounce",
       "version": "1.0.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_bounce-1",
@@ -3706,7 +3706,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:22:54.023Z",
-      "updatedAt": "2026-06-13T18:22:54.023Z"
+      "updatedAt": "2026-08-24T08:30:16.858Z",
+      "bundleId": "com.rovio.ab-bounce"
     },
     {
       "id": "com.rovio.angrybirdsstarwarsii",
