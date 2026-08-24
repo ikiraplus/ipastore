@@ -5843,7 +5843,7 @@
       "updatedAt": "2026-08-21T15:17:22.965Z"
     },
     {
-      "id": "app-1786291278106",
+      "id": "com.vectorunit.cobalt",
       "name": "Beach Buggy Racing 2",
       "version": "2026.07.31",
       "toolVersion": "",
@@ -5855,7 +5855,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-09T16:01:18.107Z",
-      "updatedAt": "2026-08-09T16:01:18.107Z"
+      "updatedAt": "2026-08-24T08:28:53.244Z",
+      "bundleId": "com.vectorunit.cobalt"
     },
     {
       "id": "com.dreamplay.legendofwitch.apple",
