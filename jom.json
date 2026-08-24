@@ -3838,7 +3838,7 @@
       "bundleId": "com.dnddream.headsoccer"
     },
     {
-      "id": "app-1781377470992",
+      "id": "com.amanotes.magictiles",
       "name": "magic tiles 3",
       "version": "13.13.10",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/magic_tiles_3_piano_game",
@@ -3847,7 +3847,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:04:30.993Z",
-      "updatedAt": "2026-08-22T06:50:20.527Z",
+      "updatedAt": "2026-08-24T06:51:45.883Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3855,7 +3855,8 @@
           "version": "7.54"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.amanotes.magictiles"
     },
     {
       "id": "app-1781377522274",
