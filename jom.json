@@ -7396,7 +7396,7 @@
       "bundleId": "com.bc23.traffic.car.driving.city.game3D"
     },
     {
-      "id": "app-1787299095912",
+      "id": "com.starkom.DriftLegends2",
       "name": "Drift Legends 2",
       "version": "1.5.2",
       "toolVersion": "",
@@ -7408,7 +7408,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:58:15.913Z",
-      "updatedAt": "2026-08-21T07:58:15.913Z"
+      "updatedAt": "2026-08-24T09:28:20.493Z",
+      "bundleId": "com.starkom.DriftLegends2"
     },
     {
       "id": "app-1787299124749",
