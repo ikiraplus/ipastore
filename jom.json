@@ -1366,7 +1366,7 @@
       "bundleId": "com.virtualapplications.play"
     },
     {
-      "id": "app-1773546879604",
+      "id": "com.gloop.deltamobile",
       "name": "Roblox - Delta",
       "version": "2.733.988",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.733.988",
@@ -1375,7 +1375,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-12T17:43:19.066Z",
+      "updatedAt": "2026-08-24T06:44:43.148Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1387,7 +1387,8 @@
           "version": "2.727.1199"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.gloop.deltamobile"
     },
     {
       "id": "app-game-ios-1711600000000",
