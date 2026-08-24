@@ -7449,7 +7449,7 @@
       "updatedAt": "2026-08-21T08:09:10.566Z"
     },
     {
-      "id": "app-1787299827021",
+      "id": "com.ilyondynamics.bubbleShooterClassic",
       "name": "Bubble Shooter Pop Blast",
       "version": "123.4.0",
       "toolVersion": "",
@@ -7461,7 +7461,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:10:27.022Z",
-      "updatedAt": "2026-08-21T08:10:27.022Z"
+      "updatedAt": "2026-08-24T06:44:46.827Z",
+      "bundleId": "com.ilyondynamics.bubbleShooterClassic"
     },
     {
       "id": "com.hipsterwhale.crossy",
