@@ -2354,7 +2354,7 @@
       "updatedAt": "2026-08-24T06:46:37.928Z"
     },
     {
-      "id": "app-iosgods-supermarket-simulator-4582",
+      "id": "com.playspare.store",
       "name": "My Supermarket Simulator 3D",
       "version": "1.36.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-supermarket-simulator-3d",
@@ -2366,7 +2366,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-23T10:59:21.391Z"
+      "updatedAt": "2026-08-24T06:51:49.368Z",
+      "bundleId": "com.playspare.store"
     },
     {
       "id": "net.halasat.tv",
