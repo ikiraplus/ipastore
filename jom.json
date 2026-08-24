@@ -2655,7 +2655,7 @@
       "bundleId": "com.topfreegames.bikeracefree"
     },
     {
-      "id": "app-1777314524609",
+      "id": "com.gameinsight.airportcity",
       "name": "airport city",
       "version": "8.47.03",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/airport-city-[8.47.03]",
@@ -2664,7 +2664,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:28:44.610Z",
-      "updatedAt": "2026-04-27T18:28:44.610Z"
+      "updatedAt": "2026-08-24T08:28:59.976Z",
+      "bundleId": "com.gameinsight.airportcity"
     },
     {
       "id": "fantasy.survival.game.rpg",
