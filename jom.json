@@ -4042,7 +4042,7 @@
       "bundleId": "localhost.lunar"
     },
     {
-      "id": "app-1781879182624",
+      "id": "co.bazaart.app",
       "name": "bazaart ai photo editor design",
       "version": "26.4.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bazaart_ai_photo_editor_design_v26.4.0_premium_unlocked",
@@ -4051,7 +4051,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T14:26:22.625Z",
-      "updatedAt": "2026-08-11T09:34:39.987Z",
+      "updatedAt": "2026-08-24T06:21:05.789Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4063,7 +4063,8 @@
           "version": "last version"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "co.bazaart.app"
     },
     {
       "id": "com.vacotv.app",
