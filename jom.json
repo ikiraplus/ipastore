@@ -3669,7 +3669,7 @@
       "bundleId": "com.darkmatter.abfam"
     },
     {
-      "id": "app-1781374905950",
+      "id": "com.rovio.abreloaded",
       "name": "angry birds reloaded",
       "version": "1.10.13",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-reloaded-2",
@@ -3678,7 +3678,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:21:45.952Z",
-      "updatedAt": "2026-06-13T18:21:45.952Z"
+      "updatedAt": "2026-08-24T06:54:00.299Z",
+      "bundleId": "com.rovio.abreloaded"
     },
     {
       "id": "app-1781374974021",
