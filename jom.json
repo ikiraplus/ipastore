@@ -5462,7 +5462,7 @@
       "updatedAt": "2026-08-06T09:47:18.237Z"
     },
     {
-      "id": "app-1786039385843",
+      "id": "com.hitvneo.ikiraplus",
       "name": "Hitv Kira",
       "version": "2.4",
       "toolVersion": "",
@@ -5474,7 +5474,8 @@
       "category": "ترفيه",
       "recommended": true,
       "addedAt": "2026-08-06T18:03:09.086Z",
-      "updatedAt": "2026-08-06T18:03:09.086Z"
+      "updatedAt": "2026-08-24T06:16:17.042Z",
+      "bundleId": "com.hitvneo.ikiraplus"
     },
     {
       "id": "app-1786090445958",
