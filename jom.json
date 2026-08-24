@@ -6108,7 +6108,7 @@
       "bundleId": "com.joytunes.Sing"
     },
     {
-      "id": "app-1786953444104",
+      "id": "com.ea.ios.pvzn3xt",
       "name": "Plants vs. Zombies 3",
       "version": "30.4.9",
       "toolVersion": "",
@@ -6120,7 +6120,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T07:57:27.599Z",
-      "updatedAt": "2026-08-17T07:57:27.599Z"
+      "updatedAt": "2026-08-24T06:46:42.100Z",
+      "bundleId": "com.ea.ios.pvzn3xt"
     },
     {
       "id": "com.ea.pvzfree.bv",
