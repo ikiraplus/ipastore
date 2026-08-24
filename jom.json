@@ -1954,7 +1954,7 @@
       "bundleId": "com.nekki.shadowfight"
     },
     {
-      "id": "app-game-ios-1711600000017",
+      "id": "com.outfit7.mytalkingtomfriends",
       "name": "My Talking Tom 2",
       "version": "26.3.10",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-talking-tom",
@@ -1966,7 +1966,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-21T07:52:15.357Z"
+      "updatedAt": "2026-08-24T06:51:07.209Z",
+      "bundleId": "com.outfit7.mytalkingtomfriends"
     },
     {
       "id": "dazz.camera.vintagecamera",
