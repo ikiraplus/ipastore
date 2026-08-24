@@ -1845,7 +1845,7 @@
       "recommended": false
     },
     {
-      "id": "app-game-ios-1711600000011",
+      "id": "com.fingersoft.hillclimbracing2",
       "name": "Hill Climb Racing 2",
       "version": "1.73.6",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-2.1.73.6",
@@ -1862,7 +1862,8 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-21T15:15:39.666Z"
+      "updatedAt": "2026-08-24T06:49:41.035Z",
+      "bundleId": "com.fingersoft.hillclimbracing2"
     },
     {
       "id": "com.midasplayer.apps.candycrushsaga",
