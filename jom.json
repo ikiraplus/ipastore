@@ -8717,7 +8717,7 @@
       "updatedAt": "2026-08-22T07:02:31.278Z"
     },
     {
-      "id": "app-1787382377591",
+      "id": "com.3d4medical.EssentialAnatomyiPad",
       "name": "Essential Anatomy 5",
       "version": "5.0.11",
       "toolVersion": "",
@@ -8729,7 +8729,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-22T07:06:17.591Z",
-      "updatedAt": "2026-08-22T07:06:19.126Z"
+      "updatedAt": "2026-08-24T09:29:06.803Z",
+      "bundleId": "com.3d4medical.EssentialAnatomyiPad"
     },
     {
       "id": "com.cardify.tinder",
