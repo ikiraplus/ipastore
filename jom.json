@@ -6637,7 +6637,7 @@
       "updatedAt": "2026-08-20T16:31:18.089Z"
     },
     {
-      "id": "app-1787243522919",
+      "id": "jet.fighter.games",
       "name": "Jet Fighter Airplane Racing",
       "version": "1.1",
       "toolVersion": "",
@@ -6649,7 +6649,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:32:02.921Z",
-      "updatedAt": "2026-08-20T16:32:02.921Z"
+      "updatedAt": "2026-08-24T06:21:47.907Z",
+      "bundleId": "jet.fighter.games"
     },
     {
       "id": "app-1787243566691",
