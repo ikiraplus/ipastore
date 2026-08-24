@@ -216,7 +216,7 @@
       "bundleId": "net.whatsapp.WhatsAppSMB"
     },
     {
-      "id": "app-1773497640216",
+      "id": "app.swiftgram.ios",
       "name": "Swiftgram",
       "version": "12.9.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram_12.9.2_lead_1.4.4",
@@ -225,7 +225,7 @@
       "note": "لتفعيل مميزات التطبيق اتبع الخطوات التالية:\n- الإعدادات، انزل إلى الأسفل، ثم اضغط ضغطة طويلة على أيقونة (اسأل سؤالا)\nوبذلك يتم فتح المميزات",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-23T19:26:41.488Z",
+      "updatedAt": "2026-08-24T05:42:23.269Z",
       "toolVersion": "1.4.4",
       "previousVersions": [
         {
@@ -234,7 +234,7 @@
         }
       ],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "app.swiftgram.ios"
     },
     {
       "id": "app-1773498091935",
