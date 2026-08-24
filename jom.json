@@ -4676,7 +4676,7 @@
       "recommended": true
     },
     {
-      "id": "app-1784193262599",
+      "id": "co.albox.cinema",
       "name": "Cinema box - سينما بوكس",
       "version": "4.6.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
@@ -4685,7 +4685,8 @@
       "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
       "category": "ترفيه",
       "addedAt": "2026-07-16T09:14:24.714Z",
-      "updatedAt": "2026-07-16T09:14:24.714Z"
+      "updatedAt": "2026-08-24T06:16:07.067Z",
+      "bundleId": "co.albox.cinema"
     },
     {
       "id": "app-1784559089334",
