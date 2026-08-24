@@ -3584,7 +3584,7 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
-      "id": "app-1781112118740",
+      "id": "com.carx-tech.carxdr3",
       "name": "car x drift racing 3",
       "version": "1.13.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-drift-racing3-1.13.0",
@@ -3593,7 +3593,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-10T17:21:58.741Z",
-      "updatedAt": "2026-06-10T17:21:58.741Z"
+      "updatedAt": "2026-08-24T10:37:33.092Z",
+      "bundleId": "com.carx-tech.carxdr3"
     },
     {
       "id": "com.example.sevenscore",
@@ -8462,7 +8463,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:47:30.319Z",
-      "updatedAt": "2026-08-22T06:47:32.033Z"
+      "updatedAt": "2026-08-24T10:37:01.464Z",
+      "bundleId": ""
     },
     {
       "id": "leyi.westgamepro",
@@ -8636,7 +8638,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:56:51.686Z",
-      "updatedAt": "2026-08-22T06:56:57.710Z"
+      "updatedAt": "2026-08-24T10:36:25.796Z",
+      "bundleId": ""
     },
     {
       "id": "com.touch2goal.soccer",
