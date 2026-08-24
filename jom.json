@@ -5805,7 +5805,7 @@
       "updatedAt": "2026-08-12T03:10:43.149Z"
     },
     {
-      "id": "app-1786504270925",
+      "id": "com.joytunes.Draw",
       "name": "Simply Draw Learn To Draw",
       "version": "1.7.3",
       "toolVersion": "",
@@ -5817,7 +5817,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-12T03:11:10.926Z",
-      "updatedAt": "2026-08-12T03:11:10.926Z"
+      "updatedAt": "2026-08-24T06:22:26.783Z",
+      "bundleId": "com.joytunes.Draw"
     },
     {
       "id": "com.rainystaion.app",
