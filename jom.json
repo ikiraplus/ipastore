@@ -7020,7 +7020,7 @@
       "updatedAt": "2026-08-20T16:58:28.111Z"
     },
     {
-      "id": "app-1787298648084",
+      "id": "sk.inlogic.footballministars",
       "name": "Football Mini Stars 24",
       "version": "1.0.1",
       "toolVersion": "",
@@ -7032,7 +7032,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:50:48.085Z",
-      "updatedAt": "2026-08-21T07:50:48.085Z"
+      "updatedAt": "2026-08-24T06:23:17.262Z",
+      "bundleId": "sk.inlogic.footballministars"
     },
     {
       "id": "app-1787298700823",
