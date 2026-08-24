@@ -5968,7 +5968,7 @@
       "updatedAt": "2026-08-12T17:38:53.769Z"
     },
     {
-      "id": "app-1786556382126",
+      "id": "jp.co.bandainamcoent.BNEI0447",
       "name": "Soulterra",
       "version": "0.5.5",
       "toolVersion": "",
@@ -5980,7 +5980,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:39:42.127Z",
-      "updatedAt": "2026-08-12T17:46:07.023Z"
+      "updatedAt": "2026-08-24T06:50:45.271Z",
+      "bundleId": "jp.co.bandainamcoent.BNEI0447"
     },
     {
       "id": "es.socialpoint.dragoncity",
