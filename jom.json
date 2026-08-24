@@ -1507,16 +1507,17 @@
       "updatedAt": "2026-06-13T07:35:16.717Z"
     },
     {
-      "id": "app-1773575084642",
+      "id": "com.smallpdf.app.ios",
       "name": "Smallpdf",
       "version": "1.53.60",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/smallpdf_v15360-1",
       "icon": "https://appstore.nabzclan.vip/images/1761373688.png",
       "size": "100.5 MB",
       "note": "",
-      "bundleId": "",
+      "bundleId": "com.smallpdf.app.ios",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-08-24T06:20:45.751Z"
     },
     {
       "id": "com.youthhr.Phonto",
