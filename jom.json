@@ -3380,7 +3380,7 @@
       "bundleId": "com.playrix.township-ios"
     },
     {
-      "id": "app-1780341592407",
+      "id": "com.gamedevltd.infinityops",
       "name": "infinity ops",
       "version": "1.13.7",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infinity-ops-1.13.7",
@@ -3389,7 +3389,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:19:52.409Z",
-      "updatedAt": "2026-06-01T19:19:52.409Z"
+      "updatedAt": "2026-08-24T09:04:42.256Z",
+      "bundleId": "com.gamedevltd.infinityops"
     },
     {
       "id": "com.pusugames.streetpro",
