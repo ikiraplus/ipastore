@@ -1241,7 +1241,7 @@
       "bundleId": "com.truesoftware.TrueCallerOther"
     },
     {
-      "id": "app-1773567772330",
+      "id": "com.aichatbot.assistant",
       "name": "Al chatbot",
       "version": "2.31",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ai.chatbot.2.31-1",
@@ -1249,7 +1249,9 @@
       "size": "102.1 MB",
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.aichatbot.assistant",
+      "updatedAt": "2026-08-24T06:20:53.793Z"
     },
     {
       "id": "com.talgat.AIChat",
