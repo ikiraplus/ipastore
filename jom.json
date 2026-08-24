@@ -7070,7 +7070,7 @@
       "bundleId": "com.hegi.scaregame2"
     },
     {
-      "id": "app-1787244698960",
+      "id": "com.Vince.Alamobile",
       "name": "Ala Mobile",
       "version": "7.5.3",
       "toolVersion": "",
@@ -7082,7 +7082,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:51:38.962Z",
-      "updatedAt": "2026-08-20T16:51:38.962Z"
+      "updatedAt": "2026-08-24T06:53:52.609Z",
+      "bundleId": "com.Vince.Alamobile"
     },
     {
       "id": "com.mattel163.uno2",
