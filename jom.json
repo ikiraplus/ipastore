@@ -411,7 +411,8 @@
           "version": "565.0.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.facebook.Facebook"
     },
     {
       "id": "com.facebook.Facebook",
@@ -578,7 +579,8 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-07-20T14:13:34.667Z"
+      "updatedAt": "2026-07-20T14:13:34.667Z",
+      "bundleId": "com.atebits.Tweetie2"
     },
     {
       "id": "com.burbn.instagram",
@@ -1069,7 +1071,8 @@
           "version": "last version"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.tencent.ig"
     },
     {
       "id": "com.camerasideas.InstaShot",
@@ -1129,7 +1132,8 @@
       "size": "1827.9 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.rockstargames.gtasa"
     },
     {
       "id": "com.supercell.scroll",
@@ -1197,7 +1201,8 @@
       "size": "1700 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.rockstargames.gtavc"
     },
     {
       "id": "com.adobe.photoshop.ios",
@@ -2147,7 +2152,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-22T07:03:30.894Z"
+      "updatedAt": "2026-08-22T07:03:30.894Z",
+      "bundleId": "com.epicgames.fortnite"
     },
     {
       "id": "app-dropbox-brawl-stars-63265",
@@ -2159,7 +2165,8 @@
       "note": "هاك KamoHacks، تطبيق معدل",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-04-27T18:09:59.509Z"
+      "updatedAt": "2026-04-27T18:09:59.509Z",
+      "bundleId": "com.supercell.brawlstars"
     },
     {
       "id": "com.spotify.client",
@@ -2224,7 +2231,8 @@
       "size": "1700 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.rockstargames.gtavc"
     },
     {
       "id": "com.vincentb.MobControl",
@@ -2439,7 +2447,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "bundleId": "",
+      "bundleId": "com.gamedevltd.modernstrikeonline",
       "updatedAt": "2026-08-24T10:06:55.430Z"
     },
     {
@@ -2862,7 +2870,8 @@
           "version": "last version"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.rekoo.pubgm"
     },
     {
       "id": "com.anime.animeRiftApp",
@@ -3159,7 +3168,8 @@
           "version": "last version"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.pubg.krmobile"
     },
     {
       "id": "com.aloula",
@@ -3221,7 +3231,8 @@
           "version": "last version"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.vng.pubgmobile"
     },
     {
       "id": "com.minichat",
@@ -3305,7 +3316,8 @@
           "version": "2026.31.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.reddit.Reddit"
     },
     {
       "id": "com.facebook.Messenger",
@@ -4090,7 +4102,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:34:06.339Z",
-      "updatedAt": "2026-06-14T09:34:06.339Z"
+      "updatedAt": "2026-06-14T09:34:06.339Z",
+      "bundleId": "com.2ksports.nba2k20"
     },
     {
       "id": "com.ea.sims3deluxe.ipad.inc",
@@ -5742,7 +5755,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-06T07:01:48.916Z",
-      "updatedAt": "2026-08-12T17:08:08.661Z"
+      "updatedAt": "2026-08-12T17:08:08.661Z",
+      "bundleId": "com.readdle.PDFExpert-ios"
     },
     {
       "id": "com.burbn.instagram",
