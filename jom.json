@@ -5920,7 +5920,7 @@
       "updatedAt": "2026-08-13T08:14:31.159Z"
     },
     {
-      "id": "app-1786952822038",
+      "id": "night.ntv1.iQTv",
       "name": "iQ Tv",
       "version": "3.0",
       "toolVersion": "",
@@ -5932,7 +5932,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-17T07:47:02.039Z",
-      "updatedAt": "2026-08-17T07:47:02.039Z"
+      "updatedAt": "2026-08-24T06:15:41.993Z",
+      "bundleId": "night.ntv1.iQTv"
     },
     {
       "id": "app-1786952871668",
