@@ -5853,7 +5853,7 @@
       "bundleId": "com.bbauman.Scripty"
     },
     {
-      "id": "app-1786480358177",
+      "id": "com.chess.iphone",
       "name": "Chess assistant",
       "version": "4.10.22",
       "toolVersion": "",
@@ -5865,7 +5865,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-11T20:32:38.178Z",
-      "updatedAt": "2026-08-11T20:32:38.178Z"
+      "updatedAt": "2026-08-24T06:49:57.983Z",
+      "bundleId": "com.chess.iphone"
     },
     {
       "id": "com.offlinemusic",
