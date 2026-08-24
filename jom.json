@@ -5917,7 +5917,7 @@
       "updatedAt": "2026-08-17T07:49:34.376Z"
     },
     {
-      "id": "app-1786608871157",
+      "id": "com.recordtoolvideo.camera",
       "name": "Co camera",
       "version": "2.3.3",
       "toolVersion": "",
@@ -5929,7 +5929,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-13T08:14:31.159Z",
-      "updatedAt": "2026-08-13T08:14:31.159Z"
+      "updatedAt": "2026-08-24T06:16:46.694Z",
+      "bundleId": "com.recordtoolvideo.camera"
     },
     {
       "id": "night.ntv1.iQTv",
