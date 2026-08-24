@@ -7809,7 +7809,7 @@
       "bundleId": "com.myonlyislam.scanhalalfood"
     },
     {
-      "id": "app-1787324458146",
+      "id": "com.gearup.booster",
       "name": "Gearup Game Booster Lower Lag",
       "version": "3.29.0",
       "toolVersion": "",
@@ -7821,7 +7821,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T15:00:58.146Z",
-      "updatedAt": "2026-08-21T15:00:59.141Z"
+      "updatedAt": "2026-08-24T06:16:35.395Z",
+      "bundleId": "com.gearup.booster"
     },
     {
       "id": "app-1787324481472",
