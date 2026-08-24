@@ -6808,7 +6808,7 @@
       "bundleId": "com.atomicplayapps.swordhero"
     },
     {
-      "id": "app-1787244240059",
+      "id": "com.mobirix.fishinghook2",
       "name": "Fishing Hook 2",
       "version": "1.0.4",
       "toolVersion": "",
@@ -6820,7 +6820,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:44:00.060Z",
-      "updatedAt": "2026-08-20T16:44:00.060Z"
+      "updatedAt": "2026-08-24T06:22:05.002Z",
+      "bundleId": "com.mobirix.fishinghook2"
     },
     {
       "id": "app-1787244344661",
