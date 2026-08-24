@@ -8771,7 +8771,7 @@
       "updatedAt": "2026-08-23T11:20:45.057Z"
     },
     {
-      "id": "app-1787484090623",
+      "id": "com.cloverdy.cat",
       "name": "Kamnyang Knight",
       "version": "0.9.12",
       "toolVersion": "",
@@ -8783,7 +8783,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T11:21:30.623Z",
-      "updatedAt": "2026-08-23T11:21:57.816Z"
+      "updatedAt": "2026-08-24T06:45:32.725Z",
+      "bundleId": "com.cloverdy.cat"
     },
     {
       "id": "app-1787484194414",
