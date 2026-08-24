@@ -3572,7 +3572,7 @@
       "bundleId": "com.soccer.football.score.ios"
     },
     {
-      "id": "app-1781336242165",
+      "id": "archery.clash.game",
       "name": "archery clash",
       "version": "0.53.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archery_clash",
@@ -3581,7 +3581,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:37:22.166Z",
-      "updatedAt": "2026-08-22T06:55:09.750Z",
+      "updatedAt": "2026-08-24T06:52:26.058Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3589,7 +3589,8 @@
           "version": "0.46.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "archery.clash.game"
     },
     {
       "id": "com.google.ios.youtube",
