@@ -3817,7 +3817,7 @@
       "bundleId": "com.firsttouch.story"
     },
     {
-      "id": "app-1781377331881",
+      "id": "com.dnddream.headsoccer",
       "name": "head soccer",
       "version": "6.22",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/head-soccer",
@@ -3826,7 +3826,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:02:11.882Z",
-      "updatedAt": "2026-06-13T19:02:11.882Z"
+      "updatedAt": "2026-08-24T06:51:02.919Z",
+      "bundleId": "com.dnddream.headsoccer"
     },
     {
       "id": "app-1781377470992",
