@@ -284,7 +284,7 @@
       "bundleId": ""
     },
     {
-      "id": "app-1773596873141",
+      "id": "com.seastar.turrit",
       "name": "Turrit",
       "version": "1.5.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/turrit-1.5.2-lead-1.4.4",
@@ -293,7 +293,7 @@
       "note": "لتفعيل مميزات التطبيق اتبع الخطوات التالية:\n- الإعدادات، انزل إلى الأسفل، ثم اضغط ضغطة طويلة على أيقونة (اسأل سؤالا)\nوبذلك يتم فتح المميزات",
       "category": "تواصل",
       "addedAt": "2026-04-08",
-      "updatedAt": "2026-08-23T19:29:07.155Z",
+      "updatedAt": "2026-08-24T05:42:36.317Z",
       "toolVersion": "1.4.4",
       "previousVersions": [
         {
@@ -306,7 +306,7 @@
         }
       ],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "com.seastar.turrit"
     },
     {
       "id": "com.tiktoklrd.ikiraplus",
