@@ -3001,7 +3001,7 @@
       "updatedAt": "2026-05-08T16:18:46.132Z"
     },
     {
-      "id": "app-1778257267385",
+      "id": "com.thp021.stickman.survivor.epic.idle.rpg",
       "name": "stickman survivor",
       "version": "0.0.162",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/stickman-survivor[0.0.162]",
@@ -3010,7 +3010,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:21:07.386Z",
-      "updatedAt": "2026-05-08T16:21:07.386Z"
+      "updatedAt": "2026-08-24T06:46:33.145Z",
+      "bundleId": "com.thp021.stickman.survivor.epic.idle.rpg"
     },
     {
       "id": "app-1778257326818",
