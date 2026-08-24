@@ -6251,7 +6251,7 @@
       "updatedAt": "2026-08-17T08:02:32.663Z"
     },
     {
-      "id": "app-1786953956975",
+      "id": "com.FirstPickStudios.Endless-Wander",
       "name": "Endless Wander",
       "version": "4.1.1",
       "toolVersion": "",
@@ -6263,7 +6263,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T08:05:56.976Z",
-      "updatedAt": "2026-08-17T08:05:56.976Z"
+      "updatedAt": "2026-08-24T08:29:39.563Z",
+      "bundleId": "com.FirstPickStudios.Endless-Wander"
     },
     {
       "id": "app-1786954000673",
