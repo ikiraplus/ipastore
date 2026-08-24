@@ -7768,7 +7768,7 @@
       "updatedAt": "2026-08-21T08:15:26.021Z"
     },
     {
-      "id": "app-1787300158317",
+      "id": "com.square-enix.chronotrigger",
       "name": "Chrono Trigger",
       "version": "2.1.1",
       "toolVersion": "",
@@ -7780,7 +7780,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:15:58.318Z",
-      "updatedAt": "2026-08-21T08:15:58.318Z"
+      "updatedAt": "2026-08-24T09:27:29.865Z",
+      "bundleId": "com.square-enix.chronotrigger"
     },
     {
       "id": "com.fluffyfairygames.idleminertycoon",
