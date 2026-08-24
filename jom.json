@@ -1650,7 +1650,7 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773596999600",
+      "id": "com.kiloo.subwaysurfers",
       "name": "Subway Surfers mod",
       "version": "3.67.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.67.3",
@@ -1659,7 +1659,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-23T11:14:32.738Z",
+      "updatedAt": "2026-08-24T06:50:56.601Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1671,7 +1671,8 @@
           "version": "3.65.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.kiloo.subwaysurfers"
     },
     {
       "id": "com.miniclip.agar.io.shark",
