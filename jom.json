@@ -7601,7 +7601,7 @@
       "bundleId": "com.ustwo.monumentvalley"
     },
     {
-      "id": "app-1787299973998",
+      "id": "com.ustwo.monumentvalley2",
       "name": "Monument Valley 2",
       "version": "3.10.604",
       "toolVersion": "",
@@ -7613,7 +7613,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:12:53.998Z",
-      "updatedAt": "2026-08-21T08:12:53.998Z"
+      "updatedAt": "2026-08-24T06:51:53.035Z",
+      "bundleId": "com.ustwo.monumentvalley2"
     },
     {
       "id": "app-1787300006823",
