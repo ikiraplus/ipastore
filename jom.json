@@ -1142,7 +1142,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773546781256",
+      "id": "com.supercell.magic",
       "name": "Clash of Clans -nulls clash",
       "version": "18.400.7",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clash-of-clans-hack",
@@ -1151,10 +1151,11 @@
       "note": "التطبيق آمن، ويمكنك حفظ تقدمك عن طريق تسجيل الدخول",
       "category": "ألعاب",
       "addedAt": "2026-04-07",
-      "updatedAt": "2026-08-20T16:03:19.427Z",
+      "updatedAt": "2026-08-24T08:29:49.162Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.supercell.magic"
     },
     {
       "id": "com.fingersoft.hillclimbracing",
