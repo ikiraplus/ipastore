@@ -3138,7 +3138,7 @@
       "bundleId": "com.aloula"
     },
     {
-      "id": "app-1778257772845",
+      "id": "com.ares.twd",
       "name": "the walking dead",
       "version": "0.8.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-walking-dead-0.8.1",
@@ -3147,7 +3147,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:29:32.847Z",
-      "updatedAt": "2026-07-01T17:58:54.257Z"
+      "updatedAt": "2026-08-24T09:28:12.061Z",
+      "bundleId": "com.ares.twd"
     },
     {
       "id": "app-1778258191181",
