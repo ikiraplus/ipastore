@@ -6275,7 +6275,7 @@
       "bundleId": "com.footballaddicts.livescoreaddicts"
     },
     {
-      "id": "app-1787145546101",
+      "id": "com.youssef.developer.Full-Browser",
       "name": "Tor Browser The Onion Vpn",
       "version": "12.0",
       "toolVersion": "",
@@ -6287,7 +6287,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-19T13:19:06.102Z",
-      "updatedAt": "2026-08-19T13:19:06.102Z"
+      "updatedAt": "2026-08-24T06:46:08.220Z",
+      "bundleId": "com.youssef.developer.Full-Browser"
     },
     {
       "id": "app-1787145608514",
