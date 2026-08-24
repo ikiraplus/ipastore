@@ -4529,7 +4529,7 @@
       "bundleId": "com.lastsoult.aanime"
     },
     {
-      "id": "app-1783499405678",
+      "id": "net.peakgames.kammelna",
       "name": "كملنا",
       "version": "3.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kammelna_asd_v3.0",
@@ -4538,7 +4538,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-08T08:30:05.679Z",
-      "updatedAt": "2026-08-19T13:25:25.456Z",
+      "updatedAt": "2026-08-24T06:48:34.134Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4546,7 +4546,8 @@
           "version": "3.8.7"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "net.peakgames.kammelna"
     },
     {
       "id": "app-1783499448573",
