@@ -7459,7 +7459,7 @@
       "updatedAt": "2026-08-21T08:10:27.022Z"
     },
     {
-      "id": "app-1787299846802",
+      "id": "com.hipsterwhale.crossy",
       "name": "Crossy Road",
       "version": "7.13",
       "toolVersion": "",
@@ -7471,7 +7471,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:10:46.803Z",
-      "updatedAt": "2026-08-21T08:10:46.803Z"
+      "updatedAt": "2026-08-24T06:44:20.887Z",
+      "bundleId": "com.hipsterwhale.crossy"
     },
     {
       "id": "app-1787299895229",
