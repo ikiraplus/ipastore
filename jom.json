@@ -7362,7 +7362,7 @@
       "bundleId": "com.ftxgames.bb"
     },
     {
-      "id": "app-1787298900970",
+      "id": "com.carx-tech.carxdr3",
       "name": "Carx Drift Racing 3",
       "version": "1.15.0",
       "toolVersion": "",
@@ -7374,7 +7374,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:55:00.971Z",
-      "updatedAt": "2026-08-21T07:55:00.971Z"
+      "updatedAt": "2026-08-24T10:20:44.519Z",
+      "bundleId": "com.carx-tech.carxdr3"
     },
     {
       "id": "com.strategy.world.war.tactics.games",
@@ -8843,7 +8844,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:16:48.660Z",
-      "updatedAt": "2026-08-22T07:16:50.185Z"
+      "updatedAt": "2026-08-24T10:20:12.334Z",
+      "bundleId": ""
     },
     {
       "id": "com.frontierdesign.videostar",
