@@ -4798,7 +4798,7 @@
       "updatedAt": "2026-08-23T11:27:36.759Z"
     },
     {
-      "id": "app-1784914075063",
+      "id": "com.kevin.pinatv",
       "name": "PinaTv Pro",
       "version": "2.6",
       "toolVersion": "",
@@ -4815,7 +4815,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-07-24T17:28:07.767Z",
-      "updatedAt": "2026-08-13T14:33:40.798Z"
+      "updatedAt": "2026-08-24T06:15:49.389Z",
+      "bundleId": "com.kevin.pinatv"
     },
     {
       "id": "app-1784914958212",
