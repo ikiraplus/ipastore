@@ -3050,7 +3050,7 @@
       "recommended": false
     },
     {
-      "id": "app-1778257699526",
+      "id": "com.aloula",
       "name": "الاولى",
       "version": "2.1.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aloula_2.1.2",
@@ -3059,7 +3059,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-05-08T16:28:19.527Z",
-      "updatedAt": "2026-05-08T16:28:19.527Z"
+      "updatedAt": "2026-08-24T06:42:59.462Z",
+      "bundleId": "com.aloula"
     },
     {
       "id": "app-1778257772845",
