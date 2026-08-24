@@ -3963,7 +3963,7 @@
       "updatedAt": "2026-06-14T09:35:55.940Z"
     },
     {
-      "id": "app-1781646204795",
+      "id": "com.photoeditor.polish",
       "name": "polish ai photo editor",
       "version": "2.7.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/polish_ai_photo_editor_v2.7.0_premium_unlocked_patched",
@@ -3972,7 +3972,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-16T21:43:24.796Z",
-      "updatedAt": "2026-08-09T15:45:36.482Z",
+      "updatedAt": "2026-08-24T06:44:59.024Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3980,7 +3980,8 @@
           "version": "last version"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.photoeditor.polish"
     },
     {
       "id": "app-1781646287063",
