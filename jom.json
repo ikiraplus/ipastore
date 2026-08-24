@@ -1222,7 +1222,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-20T17:02:46.879Z"
+      "updatedAt": "2026-08-24T10:34:15.046Z",
+      "bundleId": ""
     },
     {
       "id": "app-1773546985363",
@@ -1720,7 +1721,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-21T15:19:58.024Z"
+      "updatedAt": "2026-08-24T10:31:58.289Z",
+      "bundleId": ""
     },
     {
       "id": "com.popcap.ios.PvZ2",
@@ -1827,7 +1829,9 @@
       "size": "1200 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "",
+      "updatedAt": "2026-08-24T10:32:45.496Z"
     },
     {
       "id": "com.nekki.shadowfight3",
@@ -3262,7 +3266,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-23T18:23:57.140Z",
-      "updatedAt": "2026-05-23T18:23:57.140Z"
+      "updatedAt": "2026-08-24T10:32:52.849Z",
+      "bundleId": ""
     },
     {
       "id": "app-1779560772086",
@@ -3965,10 +3970,11 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:08:40.836Z",
-      "updatedAt": "2026-08-23T10:55:25.399Z",
+      "updatedAt": "2026-08-24T10:32:58.043Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": ""
     },
     {
       "id": "app-1781377814424",
@@ -3991,7 +3997,7 @@
       "recommended": false
     },
     {
-      "id": "app-1781377898456",
+      "id": "com.axlebolt.standoff2",
       "name": "standoff 2",
       "version": "0.22.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/standoff2-v0.22.2",
@@ -4000,10 +4006,11 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:11:38.457Z",
-      "updatedAt": "2026-08-23T11:29:54.547Z",
+      "updatedAt": "2026-08-24T10:35:50.790Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.axlebolt.standoff2"
     },
     {
       "id": "com.ansangha.drdriving",
@@ -4054,7 +4061,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:31:25.797Z",
-      "updatedAt": "2026-06-14T09:31:25.797Z"
+      "updatedAt": "2026-08-24T10:32:49.637Z",
+      "bundleId": ""
     },
     {
       "id": "app-1781429646338",
@@ -4078,7 +4086,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:35:55.940Z",
-      "updatedAt": "2026-06-14T09:35:55.940Z"
+      "updatedAt": "2026-08-24T10:35:23.248Z",
+      "bundleId": ""
     },
     {
       "id": "com.photoeditor.polish",
@@ -4137,7 +4146,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:46:15.819Z",
-      "updatedAt": "2026-06-16T21:46:15.819Z"
+      "updatedAt": "2026-08-24T10:32:59.670Z",
+      "bundleId": ""
     },
     {
       "id": "net.Foddy.GettingOverIt",
@@ -5759,7 +5769,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-07T08:14:05.959Z",
-      "updatedAt": "2026-08-07T08:14:05.959Z"
+      "updatedAt": "2026-08-24T10:33:34.948Z",
+      "bundleId": ""
     },
     {
       "id": "com.google.ios.youtube",
@@ -6150,7 +6161,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:42:27.985Z",
-      "updatedAt": "2026-08-12T17:42:27.985Z"
+      "updatedAt": "2026-08-24T10:32:54.491Z",
+      "bundleId": ""
     },
     {
       "id": "net.gameduo.vg",
@@ -7102,7 +7114,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:45:44.663Z",
-      "updatedAt": "2026-08-20T16:45:44.663Z"
+      "updatedAt": "2026-08-24T10:32:50.960Z",
+      "bundleId": ""
     },
     {
       "id": "com.sensusgames.powerzone",
@@ -7357,7 +7370,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:53:43.381Z",
-      "updatedAt": "2026-08-21T07:53:43.381Z"
+      "updatedAt": "2026-08-24T10:34:47.119Z",
+      "bundleId": ""
     },
     {
       "id": "com.ftxgames.bb",
@@ -8043,7 +8057,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-21T10:55:30.474Z",
-      "updatedAt": "2026-08-21T10:55:30.474Z"
+      "updatedAt": "2026-08-24T10:32:55.883Z",
+      "bundleId": ""
     },
     {
       "id": "org.skydomain.foodcamera",
@@ -9130,7 +9145,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-24T05:38:27.822Z",
-      "updatedAt": "2026-08-24T05:38:28.888Z"
+      "updatedAt": "2026-08-24T10:32:47.936Z",
+      "bundleId": ""
     }
   ]
 }
