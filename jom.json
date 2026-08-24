@@ -3802,7 +3802,7 @@
       "bundleId": "com.skgames.racer"
     },
     {
-      "id": "app-1781377252027",
+      "id": "com.firsttouch.story",
       "name": "score hero",
       "version": "4.60",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/score-hero",
@@ -3811,7 +3811,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:00:52.029Z",
-      "updatedAt": "2026-06-13T19:00:52.029Z"
+      "updatedAt": "2026-08-24T06:49:53.526Z",
+      "bundleId": "com.firsttouch.story"
     },
     {
       "id": "app-1781377331881",
