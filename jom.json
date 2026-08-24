@@ -833,7 +833,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773508897375",
+      "id": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
       "name": "Rodjo",
       "version": "2.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rodjo-1",
@@ -841,7 +841,9 @@
       "size": "13.9 MB",
       "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5129",
       "category": "ترفيه",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "bundleId": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
+      "updatedAt": "2026-08-24T06:14:48.773Z"
     },
     {
       "id": "app-1773509863438",
