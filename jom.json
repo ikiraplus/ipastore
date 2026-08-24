@@ -1471,7 +1471,7 @@
       "bundleId": "com.AppChief.ArabicArt"
     },
     {
-      "id": "app-1773574681601",
+      "id": "com.scottgames.fnaf2",
       "name": "Five Nights at Freddy's 2",
       "version": "2.0.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys-2_v205-1",
@@ -1483,7 +1483,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-17T13:26:47.115Z"
+      "updatedAt": "2026-08-24T06:22:56.836Z",
+      "bundleId": "com.scottgames.fnaf2"
     },
     {
       "id": "com.scottgames.fivenights3",
