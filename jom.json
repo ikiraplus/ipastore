@@ -3195,7 +3195,7 @@
       "updatedAt": "2026-06-01T19:10:54.297Z"
     },
     {
-      "id": "app-1780341277232",
+      "id": "thewonderofyou.Feather",
       "name": "Feather",
       "version": "2.8.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/feather_v2.8.2",
@@ -3204,7 +3204,8 @@
       "note": "",
       "category": "أخرى",
       "addedAt": "2026-06-01T19:14:40.011Z",
-      "updatedAt": "2026-06-01T19:14:40.011Z"
+      "updatedAt": "2026-08-24T06:14:44.758Z",
+      "bundleId": "thewonderofyou.Feather"
     },
     {
       "id": "app-1780341422823",
