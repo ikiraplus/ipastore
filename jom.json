@@ -7296,7 +7296,7 @@
       "bundleId": "com.zeptolab.ctrexperiments"
     },
     {
-      "id": "app-1787299513017",
+      "id": "com.kingsofgames.chessuniverseplus",
       "name": "Chess Universe",
       "version": "1.21.5",
       "toolVersion": "",
@@ -7308,7 +7308,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:05:13.018Z",
-      "updatedAt": "2026-08-21T08:05:13.018Z"
+      "updatedAt": "2026-08-24T06:21:59.882Z",
+      "bundleId": "com.kingsofgames.chessuniverseplus"
     },
     {
       "id": "app-1787299561256",
