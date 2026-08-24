@@ -6000,7 +6000,7 @@
       "bundleId": "tv.twitch.beta"
     },
     {
-      "id": "app-1786608841597",
+      "id": "com.reddit.Reddit",
       "name": "Reddit Filter",
       "version": "2026.33.0",
       "toolVersion": "",
@@ -6017,7 +6017,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-13T08:14:06.412Z",
-      "updatedAt": "2026-08-17T07:49:34.376Z"
+      "updatedAt": "2026-08-24T06:44:07.390Z",
+      "bundleId": "com.reddit.Reddit"
     },
     {
       "id": "com.recordtoolvideo.camera",
