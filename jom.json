@@ -7419,7 +7419,7 @@
       "bundleId": "com.ninjakiwi.sasza4"
     },
     {
-      "id": "app-1787299193592",
+      "id": "com.genetic.realcarparking2",
       "name": "Real Car Parking 2",
       "version": "6.1.0",
       "toolVersion": "",
@@ -7431,7 +7431,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:59:53.592Z",
-      "updatedAt": "2026-08-21T07:59:53.592Z"
+      "updatedAt": "2026-08-24T08:31:00.171Z",
+      "bundleId": "com.genetic.realcarparking2"
     },
     {
       "id": "com.IronEqual.GunshipOperator3D",
