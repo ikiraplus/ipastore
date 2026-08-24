@@ -3529,7 +3529,7 @@
       "bundleId": "com.example.sevenscore"
     },
     {
-      "id": "app-1781336010869",
+      "id": "com.dreamgames.royalmatch",
       "name": "royal match",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/royal-match-37281",
@@ -3538,7 +3538,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:33:30.871Z",
-      "updatedAt": "2026-07-09T15:45:48.006Z"
+      "updatedAt": "2026-08-24T06:49:24.474Z",
+      "bundleId": "com.dreamgames.royalmatch"
     },
     {
       "id": "com.soccer.football.score.ios",
