@@ -6207,7 +6207,7 @@
       "updatedAt": "2026-08-19T13:26:27.631Z"
     },
     {
-      "id": "app-1787223836490",
+      "id": "com.bareed-kuw.mkhmkh-ha",
       "name": "تربع",
       "version": "4.0.1",
       "toolVersion": "",
@@ -6219,7 +6219,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:03:56.492Z",
-      "updatedAt": "2026-08-20T11:03:56.492Z"
+      "updatedAt": "2026-08-24T06:16:39.428Z",
+      "bundleId": "com.bareed-kuw.mkhmkh-ha"
     },
     {
       "id": "app-1787223873637",
