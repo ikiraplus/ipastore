@@ -3994,7 +3994,7 @@
       "updatedAt": "2026-06-13T19:14:00.022Z"
     },
     {
-      "id": "app-1781429396246",
+      "id": "com.dnddream.headbasketball",
       "name": "head basketball",
       "version": "4.5.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/head-basketball",
@@ -4003,7 +4003,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:29:56.247Z",
-      "updatedAt": "2026-06-14T09:29:56.247Z"
+      "updatedAt": "2026-08-24T08:30:22.005Z",
+      "bundleId": "com.dnddream.headbasketball"
     },
     {
       "id": "app-1781429485796",
