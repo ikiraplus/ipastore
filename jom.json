@@ -3060,7 +3060,7 @@
       "updatedAt": "2026-05-08T16:16:18.013Z"
     },
     {
-      "id": "app-1778257126131",
+      "id": "com.googleusercontent.apps.24327066530-ks0rlpm37gffpbtpq5gkpmp8ba2h2okr",
       "name": "bus simulator evo",
       "version": "4.30.32",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bus-simulatorevo[4.30.32]",
@@ -3069,7 +3069,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:18:46.132Z",
-      "updatedAt": "2026-05-08T16:18:46.132Z"
+      "updatedAt": "2026-08-24T10:26:02.416Z",
+      "bundleId": "com.googleusercontent.apps.24327066530-ks0rlpm37gffpbtpq5gkpmp8ba2h2okr"
     },
     {
       "id": "com.thp021.stickman.survivor.epic.idle.rpg",
@@ -3520,7 +3521,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:15:14.939Z",
-      "updatedAt": "2026-06-03T11:15:14.939Z"
+      "updatedAt": "2026-08-24T10:24:56.628Z",
+      "bundleId": ""
     },
     {
       "id": "com.dr1ven.eraser",
@@ -4565,7 +4567,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T18:55:09.612Z",
-      "updatedAt": "2026-07-01T18:55:09.612Z"
+      "updatedAt": "2026-08-24T10:25:32.107Z",
+      "bundleId": ""
     },
     {
       "id": "com.zhiliaoapp.musically",
