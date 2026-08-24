@@ -2719,7 +2719,7 @@
       "recommended": false
     },
     {
-      "id": "app-1777360588132",
+      "id": "fun.ask",
       "name": "NGL",
       "version": "6.4.108",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ngl-ask-me-anything-2",
@@ -2728,7 +2728,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-28T07:16:28.133Z",
-      "updatedAt": "2026-07-09T15:41:30.021Z"
+      "updatedAt": "2026-08-24T06:22:18.203Z",
+      "bundleId": "fun.ask"
     },
     {
       "id": "app-1777652492142",
