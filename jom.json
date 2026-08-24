@@ -1877,7 +1877,7 @@
       "bundleId": "com.midasplayer.apps.candycrushsaga"
     },
     {
-      "id": "app-game-ios-1711600000013",
+      "id": "com.playrix.gardenscapes-m3-ios",
       "name": "Garden scapes",
       "version": "9.8.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gardenscapes-9.8.0",
@@ -1886,7 +1886,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-27T19:28:34.890Z",
+      "updatedAt": "2026-08-24T06:48:54.766Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1894,7 +1894,8 @@
           "version": "9.7.5"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.playrix.gardenscapes-m3-ios"
     },
     {
       "id": "app-game-ios-1711600000014",
