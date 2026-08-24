@@ -8303,7 +8303,7 @@
       "updatedAt": "2026-08-22T06:56:57.710Z"
     },
     {
-      "id": "app-1787381860569",
+      "id": "com.touch2goal.soccer",
       "name": "Mini Soccer Star 26",
       "version": "1.89",
       "toolVersion": "",
@@ -8315,7 +8315,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:57:40.569Z",
-      "updatedAt": "2026-08-22T06:57:41.832Z"
+      "updatedAt": "2026-08-24T06:22:47.786Z",
+      "bundleId": "com.touch2goal.soccer"
     },
     {
       "id": "app-1787381913206",
