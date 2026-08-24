@@ -8992,7 +8992,7 @@
       "bundleId": "com.cloverdy.cat"
     },
     {
-      "id": "app-1787484194414",
+      "id": "com.snapbreak.discounty",
       "name": "Discounty",
       "version": "1.2.3",
       "toolVersion": "",
@@ -9004,7 +9004,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T11:23:14.414Z",
-      "updatedAt": "2026-08-23T11:23:40.917Z"
+      "updatedAt": "2026-08-24T09:28:06.930Z",
+      "bundleId": "com.snapbreak.discounty"
     },
     {
       "id": "com.everbytestudio.interactive.story.moonvale",
