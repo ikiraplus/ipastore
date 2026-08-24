@@ -7576,7 +7576,7 @@
       "updatedAt": "2026-08-21T12:15:45.295Z"
     },
     {
-      "id": "app-1787299952323",
+      "id": "com.ustwo.monumentvalley",
       "name": "Monument Valley",
       "version": "3.9.744",
       "toolVersion": "",
@@ -7588,7 +7588,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:12:32.324Z",
-      "updatedAt": "2026-08-21T08:12:32.324Z"
+      "updatedAt": "2026-08-24T06:51:18.512Z",
+      "bundleId": "com.ustwo.monumentvalley"
     },
     {
       "id": "app-1787299973998",
