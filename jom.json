@@ -2823,7 +2823,7 @@
       "recommended": false
     },
     {
-      "id": "app-1777921064164",
+      "id": "com.hassantaleb.mockup",
       "name": "animock 3D mockup",
       "version": "5.10",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animock_3d_mockup_animator_v5.10_pro_unlocked_patched",
@@ -2832,7 +2832,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-05-04T18:57:44.165Z",
-      "updatedAt": "2026-08-19T13:13:26.077Z",
+      "updatedAt": "2026-08-24T06:22:52.293Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2844,7 +2844,8 @@
           "version": "5.9"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.hassantaleb.mockup"
     },
     {
       "id": "com.ikiraplus.cinemana",
