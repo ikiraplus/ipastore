@@ -1203,20 +1203,20 @@
       "updatedAt": "2026-08-18T16:49:54.006Z"
     },
     {
-      "id": "app-1773547000504",
+      "id": "org.ppsspp.ppsspp-goldlu5",
       "name": "PPSSPP Gold",
       "version": "10017.3.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ppsspp-gold-3",
       "icon": "https://ittza7aa.com/aseets/icon/ppssppgold.png",
       "size": "20.2 MB",
       "note": "",
-      "bundleId": "",
+      "bundleId": "org.ppsspp.ppsspp-goldlu5",
       "category": "أدوات",
       "addedAt": "2026-03-15",
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-23T11:00:10.721Z"
+      "updatedAt": "2026-08-24T06:15:37.159Z"
     },
     {
       "id": "app-1773547011458",
