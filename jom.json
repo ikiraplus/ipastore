@@ -5597,7 +5597,7 @@
       "updatedAt": "2026-08-12T17:08:08.661Z"
     },
     {
-      "id": "app-1786009638236",
+      "id": "com.burbn.instagram",
       "name": "Instagram Rocket",
       "version": "437.2.0",
       "toolVersion": "4.3.3",
@@ -5609,7 +5609,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-06T09:47:18.237Z",
-      "updatedAt": "2026-08-06T09:47:18.237Z"
+      "updatedAt": "2026-08-24T06:50:27.804Z",
+      "bundleId": "com.burbn.instagram"
     },
     {
       "id": "com.hitvneo.ikiraplus",
