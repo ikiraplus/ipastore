@@ -5379,7 +5379,7 @@
       "bundleId": "com.autumn.skullgirls"
     },
     {
-      "id": "app-1785684789295",
+      "id": "com.daerigame.elemental",
       "name": "Elemental",
       "version": "0.195",
       "toolVersion": "",
@@ -5391,7 +5391,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T15:33:11.631Z",
-      "updatedAt": "2026-08-02T15:33:11.631Z"
+      "updatedAt": "2026-08-24T06:47:53.830Z",
+      "bundleId": "com.daerigame.elemental"
     },
     {
       "id": "app-1785684813203",
