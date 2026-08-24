@@ -2554,7 +2554,7 @@
       "bundleId": "co.visualsupply.cam"
     },
     {
-      "id": "app-1777313056595",
+      "id": "com.squareenixmontreal.hitmansniper",
       "name": "hitman sniper hack",
       "version": "last",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitman-sniper",
@@ -2563,7 +2563,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:04:16.596Z",
-      "updatedAt": "2026-04-27T18:04:16.596Z"
+      "updatedAt": "2026-08-24T09:28:54.581Z",
+      "bundleId": "com.squareenixmontreal.hitmansniper"
     },
     {
       "id": "app-1777313244441",
