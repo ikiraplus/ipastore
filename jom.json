@@ -237,7 +237,7 @@
       "bundleId": "app.swiftgram.ios"
     },
     {
-      "id": "app-1773498091935",
+      "id": "com.olcorporation.olai",
       "name": "ime",
       "version": "12.8.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ime-12.8.1-mxgram",
@@ -246,7 +246,7 @@
       "note": "مميزات التطبيق مفعلة تلقائيا\n- جميع مميزات الذكاء الاصطناعي مفتوحة\n- مميزات الاشتراك المميز (Premium) الخاصة بتطبيق ime مفتوحة\n- إمكانية حفظ ونسخ المحتوى المقيد في (القنوات، القصص، المجموعات، المحادثات الخاصة)\n- إمكانية حفظ الصور المؤقتة والقصص المقيدة",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-23T19:27:25.378Z",
+      "updatedAt": "2026-08-24T05:42:31.248Z",
       "toolVersion": "1.0",
       "previousVersions": [
         {
@@ -255,7 +255,7 @@
         }
       ],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "com.olcorporation.olai"
     },
     {
       "id": "app.intentchat",
