@@ -2468,7 +2468,7 @@
       "bundleId": "com.fiksu"
     },
     {
-      "id": "app-1774779575880",
+      "id": "com.adobe.lrmobilephone",
       "name": "Lightroom",
       "version": "11.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.5_subscription_unlocked_patched",
@@ -2477,7 +2477,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-06T06:53:43.796Z",
+      "updatedAt": "2026-08-24T06:49:17.502Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2489,7 +2489,8 @@
           "version": "11.3"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.adobe.lrmobilephone"
     },
     {
       "id": "co.visualsupply.cam",
