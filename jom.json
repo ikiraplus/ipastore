@@ -2322,7 +2322,7 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-iosgods-lego-duplo-peppa-5365",
+      "id": "com.storytoys.lego.duplo.peppa.pig.ios",
       "name": "LEGO DUPLO: Peppa Pig",
       "version": "3.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lego-duplo-peppa-pig-hack",
@@ -2330,7 +2330,9 @@
       "size": "165 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.storytoys.lego.duplo.peppa.pig.ios",
+      "updatedAt": "2026-08-24T06:46:37.928Z"
     },
     {
       "id": "app-iosgods-supermarket-simulator-4582",
