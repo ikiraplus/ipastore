@@ -1246,7 +1246,7 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773567852935",
+      "id": "com.talgat.AIChat",
       "name": "chatto ai",
       "version": "3.48",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ai-chatbot-ai-chat-assistant-v3.48",
@@ -1255,7 +1255,8 @@
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-06-10T17:08:25.019Z"
+      "updatedAt": "2026-08-24T06:17:41.161Z",
+      "bundleId": "com.talgat.AIChat"
     },
     {
       "id": "app-1773567925855",
