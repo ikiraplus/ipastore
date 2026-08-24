@@ -6425,7 +6425,7 @@
       "bundleId": "com.battlecreek.proseries"
     },
     {
-      "id": "app-1787224016103",
+      "id": "com.modern.battlefield.worldwar.rules.fps.shooting",
       "name": "Rules Of Battlefield 3d Fps",
       "version": "1.8",
       "toolVersion": "",
@@ -6437,7 +6437,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:06:56.105Z",
-      "updatedAt": "2026-08-20T11:06:56.105Z"
+      "updatedAt": "2026-08-24T06:46:58.570Z",
+      "bundleId": "com.modern.battlefield.worldwar.rules.fps.shooting"
     },
     {
       "id": "com.utincomputer.hyperovertake",
