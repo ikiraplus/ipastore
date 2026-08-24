@@ -2109,7 +2109,7 @@
       "updatedAt": "2026-04-27T18:09:59.509Z"
     },
     {
-      "id": "app-iosgods-eevee-spotify-4732",
+      "id": "com.spotify.client",
       "name": "Spotify GS",
       "version": "9.1.76",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
@@ -2130,7 +2130,8 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-13T08:12:45.513Z"
+      "updatedAt": "2026-08-24T06:43:50.309Z",
+      "bundleId": "com.spotify.client"
     },
     {
       "id": "app-iosgods-sniper-3d-169",
