@@ -3309,7 +3309,7 @@
       "updatedAt": "2026-06-01T19:06:21.599Z"
     },
     {
-      "id": "app-1780341054296",
+      "id": "com.wejoy.weplay.us",
       "name": "weplay",
       "version": "6.6.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/weplay-cracked-6.6.0",
@@ -3318,7 +3318,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:10:54.297Z",
-      "updatedAt": "2026-06-01T19:10:54.297Z"
+      "updatedAt": "2026-08-24T06:53:30.938Z",
+      "bundleId": "com.wejoy.weplay.us"
     },
     {
       "id": "thewonderofyou.Feather",
