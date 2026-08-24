@@ -3796,7 +3796,7 @@
       "recommended": false
     },
     {
-      "id": "app-1781377978601",
+      "id": "com.ansangha.drdriving",
       "name": "dr driving",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/drdriving",
@@ -3805,7 +3805,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:12:58.603Z",
-      "updatedAt": "2026-06-13T19:12:58.603Z"
+      "updatedAt": "2026-08-24T06:14:31.854Z",
+      "bundleId": "com.ansangha.drdriving"
     },
     {
       "id": "app-1781378040020",
