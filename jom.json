@@ -8142,7 +8142,7 @@
       "updatedAt": "2026-08-22T06:43:42.250Z"
     },
     {
-      "id": "app-1787381056210",
+      "id": "com.skgames.motor",
       "name": "Traffic Rider",
       "version": "2.10",
       "toolVersion": "",
@@ -8154,7 +8154,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:44:16.210Z",
-      "updatedAt": "2026-08-22T06:44:17.523Z"
+      "updatedAt": "2026-08-24T06:46:24.646Z",
+      "bundleId": "com.skgames.motor"
     },
     {
       "id": "com.trueaxis.skate",
