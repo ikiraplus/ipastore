@@ -4665,7 +4665,7 @@
       "recommended": true
     },
     {
-      "id": "app-1783611908490",
+      "id": "com.playrix.gardenscapes-sweethome",
       "name": "homescapes",
       "version": "9.0.602",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.602",
@@ -4674,7 +4674,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-09T15:45:08.491Z",
-      "updatedAt": "2026-08-12T17:41:17.475Z",
+      "updatedAt": "2026-08-24T06:48:58.850Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4686,7 +4686,8 @@
           "version": "9.0.103"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.playrix.gardenscapes-sweethome"
     },
     {
       "id": "app-1783755989007",
