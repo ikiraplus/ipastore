@@ -5968,7 +5968,7 @@
       "bundleId": "com.plusminusone.math.hero.answer.scanner.solver"
     },
     {
-      "id": "app-1786556333769",
+      "id": "com.longgammagames.elementra.journy",
       "name": "Elementra The Boy S Adventur",
       "version": "65.0",
       "toolVersion": "",
@@ -5980,7 +5980,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:38:53.769Z",
-      "updatedAt": "2026-08-12T17:38:53.769Z"
+      "updatedAt": "2026-08-24T06:52:04.091Z",
+      "bundleId": "com.longgammagames.elementra.journy"
     },
     {
       "id": "jp.co.bandainamcoent.BNEI0447",
