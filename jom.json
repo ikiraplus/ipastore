@@ -6005,7 +6005,7 @@
       "updatedAt": "2026-08-17T08:06:40.675Z"
     },
     {
-      "id": "app-1786954131517",
+      "id": "arab.ipaarab.com",
       "name": "Cinejoy",
       "version": "1.0",
       "toolVersion": "",
@@ -6017,7 +6017,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-17T08:08:51.518Z",
-      "updatedAt": "2026-08-17T08:08:51.518Z"
+      "updatedAt": "2026-08-24T06:13:44.765Z",
+      "bundleId": "arab.ipaarab.com"
     },
     {
       "id": "krmzi.dfms.free",
