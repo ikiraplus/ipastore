@@ -3311,7 +3311,7 @@
       "bundleId": "thewonderofyou.Feather"
     },
     {
-      "id": "app-1780341422823",
+      "id": "com.playrix.township-ios",
       "name": "township",
       "version": "38.0.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-38.0.1",
@@ -3320,7 +3320,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:17:02.824Z",
-      "updatedAt": "2026-08-17T08:00:06.863Z",
+      "updatedAt": "2026-08-24T06:49:13.745Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3332,7 +3332,8 @@
           "version": "37.0.1"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.playrix.township-ios"
     },
     {
       "id": "app-1780341592407",
