@@ -2683,7 +2683,7 @@
       "updatedAt": "2026-04-27T18:38:30.031Z"
     },
     {
-      "id": "app-1777315159741",
+      "id": "com.google.ios.youtube",
       "name": "Youtube DL",
       "version": "21.31.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-dl_21.31.3",
@@ -2692,7 +2692,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:39:21.262Z",
-      "updatedAt": "2026-08-07T08:27:29.913Z",
+      "updatedAt": "2026-08-24T06:44:54.990Z",
       "toolVersion": "2.16.3",
       "previousVersions": [
         {
@@ -2700,7 +2700,8 @@
           "version": "21.22.05"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.google.ios.youtube"
     },
     {
       "id": "com.google.ios.youtube",
