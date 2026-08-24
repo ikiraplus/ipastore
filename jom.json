@@ -5854,7 +5854,7 @@
       "bundleId": "com.spotify.client"
     },
     {
-      "id": "app-1786291169111",
+      "id": "com.madfingergames.deadtrigger2",
       "name": "Dead Trigger 2",
       "version": "3.1.5",
       "toolVersion": "",
@@ -5866,7 +5866,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-09T15:59:29.112Z",
-      "updatedAt": "2026-08-09T15:59:29.112Z"
+      "updatedAt": "2026-08-24T10:06:11.304Z",
+      "bundleId": "com.madfingergames.deadtrigger2"
     },
     {
       "id": "com.phs.global.ios",
