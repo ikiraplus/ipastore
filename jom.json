@@ -608,7 +608,7 @@
       "recommended": true
     },
     {
-      "id": "app-1777313166085",
+      "id": "sh.weme.wemesh",
       "name": "rave",
       "version": "8.1.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rave-(8.1.2)",
@@ -617,7 +617,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:06:06.087Z",
-      "updatedAt": "2026-04-27T18:06:06.087Z"
+      "updatedAt": "2026-08-24T06:24:24.576Z",
+      "bundleId": "sh.weme.wemesh"
     },
     {
       "id": "com.hammerandchisel.discord",
