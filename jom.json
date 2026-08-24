@@ -5443,7 +5443,7 @@
       "updatedAt": "2026-08-13T08:11:01.561Z"
     },
     {
-      "id": "app-1785999590853",
+      "id": "com.SofaScore.iOS",
       "name": "Sofascore Live Sports Scores",
       "version": "26.08.10",
       "toolVersion": "",
@@ -5464,7 +5464,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-06T06:59:50.854Z",
-      "updatedAt": "2026-08-19T13:13:46.854Z"
+      "updatedAt": "2026-08-24T06:20:17.939Z",
+      "bundleId": "com.SofaScore.iOS"
     },
     {
       "id": "app-1785999708915",
