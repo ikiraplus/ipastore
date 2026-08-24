@@ -1573,7 +1573,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773657791706",
+      "id": "com.vodu.ikiraplus",
       "name": "فودو كيرا",
       "version": "2.1.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vodu-kira_2.1.2-last",
@@ -1585,7 +1585,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-23T11:28:25.854Z"
+      "updatedAt": "2026-08-24T06:16:57.097Z",
+      "bundleId": "com.vodu.ikiraplus"
     },
     {
       "id": "app-1773574949588",
