@@ -7049,7 +7049,7 @@
       "updatedAt": "2026-08-20T16:56:29.779Z"
     },
     {
-      "id": "app-1787245052523",
+      "id": "com.nekki.vector.iphone.free",
       "name": "Vector Parkour Run",
       "version": "2.10.0",
       "toolVersion": "",
@@ -7061,7 +7061,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:57:32.524Z",
-      "updatedAt": "2026-08-20T16:57:32.524Z"
+      "updatedAt": "2026-08-24T06:45:56.895Z",
+      "bundleId": "com.nekki.vector.iphone.free"
     },
     {
       "id": "app-1787245108109",
