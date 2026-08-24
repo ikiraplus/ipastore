@@ -8082,7 +8082,7 @@
       "updatedAt": "2026-08-22T06:44:17.523Z"
     },
     {
-      "id": "app-1787381106945",
+      "id": "com.trueaxis.skate",
       "name": "True Skate",
       "version": "1.5.106",
       "toolVersion": "",
@@ -8094,7 +8094,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:45:06.945Z",
-      "updatedAt": "2026-08-22T06:45:08.340Z"
+      "updatedAt": "2026-08-24T06:23:20.542Z",
+      "bundleId": "com.trueaxis.skate"
     },
     {
       "id": "app-1787381131455",
