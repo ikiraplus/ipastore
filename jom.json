@@ -7595,7 +7595,7 @@
       "updatedAt": "2026-08-21T10:48:32.137Z"
     },
     {
-      "id": "app-1787309399702",
+      "id": "com.algotwist.profilepicturemaker",
       "name": "Profile Picture Maker New Pfp",
       "version": "1.2.4",
       "toolVersion": "",
@@ -7607,7 +7607,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T10:49:59.703Z",
-      "updatedAt": "2026-08-21T10:49:59.703Z"
+      "updatedAt": "2026-08-24T06:17:34.219Z",
+      "bundleId": "com.algotwist.profilepicturemaker"
     },
     {
       "id": "com.gplexdb.musicplayeriphone",
