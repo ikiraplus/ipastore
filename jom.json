@@ -6734,7 +6734,7 @@
       "updatedAt": "2026-08-20T16:30:24.234Z"
     },
     {
-      "id": "app-1787243478087",
+      "id": "com.zombie.gun.shooter",
       "name": "Zombie Hunt Apocalypse Games",
       "version": "2.11.1",
       "toolVersion": "",
@@ -6746,7 +6746,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:31:18.089Z",
-      "updatedAt": "2026-08-20T16:31:18.089Z"
+      "updatedAt": "2026-08-24T06:49:09.787Z",
+      "bundleId": "com.zombie.gun.shooter"
     },
     {
       "id": "jet.fighter.games",
