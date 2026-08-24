@@ -4024,7 +4024,7 @@
       "recommended": false
     },
     {
-      "id": "app-1781880304205",
+      "id": "com.vacotv.app",
       "name": "vaco tv",
       "version": "2.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vaco-tv-videos",
@@ -4033,7 +4033,8 @@
       "note": "تطبيق لمشاهدة القنوات الرياضية\nكود التفعيل: 22455",
       "category": "ترفيه",
       "addedAt": "2026-06-19T14:45:04.206Z",
-      "updatedAt": "2026-06-19T14:45:04.206Z"
+      "updatedAt": "2026-08-24T06:15:45.809Z",
+      "bundleId": "com.vacotv.app"
     },
     {
       "id": "app-1781880388155",
