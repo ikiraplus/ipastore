@@ -5156,7 +5156,7 @@
       "bundleId": "ph.telegra.Telegraph"
     },
     {
-      "id": "app-1785419223892",
+      "id": "com.atebits.Tweetie2",
       "name": "X XEnhancer",
       "version": "12.15",
       "toolVersion": "1.0",
@@ -5173,7 +5173,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-30T13:47:03.893Z",
-      "updatedAt": "2026-08-06T07:22:09.529Z"
+      "updatedAt": "2026-08-24T06:49:36.762Z",
+      "bundleId": "com.atebits.Tweetie2"
     },
     {
       "id": "app-1785420985772",
