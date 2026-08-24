@@ -6946,7 +6946,7 @@
       "bundleId": "com.inspectorstudios.ultimateflightsimulatorpro"
     },
     {
-      "id": "app-1787243817077",
+      "id": "com.playdeadgames.inside.ios",
       "name": "Playdead",
       "version": "1.1.14",
       "toolVersion": "",
@@ -6958,7 +6958,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:36:57.079Z",
-      "updatedAt": "2026-08-20T16:36:57.079Z"
+      "updatedAt": "2026-08-24T09:29:25.244Z",
+      "bundleId": "com.playdeadgames.inside.ios"
     },
     {
       "id": "com.avecreation.drivingzoneoffroadlite",
