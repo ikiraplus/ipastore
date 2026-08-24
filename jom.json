@@ -8785,7 +8785,7 @@
       "updatedAt": "2026-08-23T11:18:31.736Z"
     },
     {
-      "id": "app-1787484023671",
+      "id": "com.badbeans.legendofmarmot",
       "name": "Marmot Survivor",
       "version": "1.3.3",
       "toolVersion": "",
@@ -8797,7 +8797,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T11:20:23.671Z",
-      "updatedAt": "2026-08-23T11:20:45.057Z"
+      "updatedAt": "2026-08-24T06:47:29.944Z",
+      "bundleId": "com.badbeans.legendofmarmot"
     },
     {
       "id": "com.cloverdy.cat",
