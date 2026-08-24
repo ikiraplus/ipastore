@@ -8930,7 +8930,7 @@
       "updatedAt": "2026-08-23T11:23:40.917Z"
     },
     {
-      "id": "app-1787484256831",
+      "id": "com.everbytestudio.interactive.story.moonvale",
       "name": "Moonvale",
       "version": "1.3.9",
       "toolVersion": "",
@@ -8942,7 +8942,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T11:24:16.831Z",
-      "updatedAt": "2026-08-23T11:24:47.676Z"
+      "updatedAt": "2026-08-24T06:53:23.668Z",
+      "bundleId": "com.everbytestudio.interactive.story.moonvale"
     },
     {
       "id": "com.google.ios.youtube",
