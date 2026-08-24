@@ -3729,7 +3729,7 @@
       "bundleId": "com.rovio.dream"
     },
     {
-      "id": "app-1781375241885",
+      "id": "com.rovio.angrybirdstransformers",
       "name": "angry birds transformers",
       "version": "2.41.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2.41.0",
@@ -3738,7 +3738,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:27:21.886Z",
-      "updatedAt": "2026-08-17T07:59:34.360Z",
+      "updatedAt": "2026-08-24T06:53:38.005Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3746,7 +3746,8 @@
           "version": "2.40.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.rovio.angrybirdstransformers"
     },
     {
       "id": "app-1781375355051",
