@@ -707,7 +707,7 @@
       "bundleId": "com.loktv.ikiraplus"
     },
     {
-      "id": "app-1773510045224",
+      "id": "com.chengzu.book",
       "name": "Netflix - مقلد",
       "version": "2.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/netflix-kira",
@@ -716,7 +716,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-07-01T18:53:37.625Z"
+      "updatedAt": "2026-08-24T06:16:24.258Z",
+      "bundleId": "com.chengzu.book"
     },
     {
       "id": "com.microblink.PhotoMath",
