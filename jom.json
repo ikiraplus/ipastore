@@ -8679,7 +8679,7 @@
       "bundleId": "com.gamezaur.shapecraft"
     },
     {
-      "id": "app-1787456720220",
+      "id": "com.campmobile.snow",
       "name": "Snow AI",
       "version": "15.3.8",
       "toolVersion": "",
@@ -8691,7 +8691,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-23T03:45:20.220Z",
-      "updatedAt": "2026-08-23T03:45:22.546Z"
+      "updatedAt": "2026-08-24T06:44:31.464Z",
+      "bundleId": "com.campmobile.snow"
     },
     {
       "id": "com.auxbrain.egginc",
