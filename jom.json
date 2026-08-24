@@ -6163,7 +6163,7 @@
       "updatedAt": "2026-08-19T13:20:08.515Z"
     },
     {
-      "id": "app-1787145705788",
+      "id": "com.huami.LoadController",
       "name": "Lcsign",
       "version": "1.2.7",
       "toolVersion": "",
@@ -6175,7 +6175,8 @@
       "category": "أخرى",
       "recommended": false,
       "addedAt": "2026-08-19T13:21:45.789Z",
-      "updatedAt": "2026-08-19T13:21:45.789Z"
+      "updatedAt": "2026-08-24T06:15:32.780Z",
+      "bundleId": "com.huami.LoadController"
     },
     {
       "id": "app-1787145987630",
