@@ -8471,7 +8471,7 @@
       "updatedAt": "2026-08-22T06:59:18.415Z"
     },
     {
-      "id": "app-1787381999019",
+      "id": "com.fungames.battleroyale",
       "name": "Zooba Zoo",
       "version": "6.22.0",
       "toolVersion": "",
@@ -8483,7 +8483,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:59:59.019Z",
-      "updatedAt": "2026-08-22T07:00:00.673Z"
+      "updatedAt": "2026-08-24T06:49:06.061Z",
+      "bundleId": "com.fungames.battleroyale"
     },
     {
       "id": "app-1787382024740",
