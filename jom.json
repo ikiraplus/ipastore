@@ -686,7 +686,7 @@
       "addedAt": "2026-03-13"
     },
     {
-      "id": "app-1773437480214",
+      "id": "com.loktv.ikiraplus",
       "name": "lok tv premium",
       "version": "2.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loktv_new_2.1",
@@ -695,7 +695,7 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-06T07:07:01.149Z",
+      "updatedAt": "2026-08-24T06:15:03.570Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -703,7 +703,8 @@
           "version": "2.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.loktv.ikiraplus"
     },
     {
       "id": "app-1773510045224",
