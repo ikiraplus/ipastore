@@ -592,7 +592,7 @@
       "bundleId": "com.burbn.instagram"
     },
     {
-      "id": "app-1774774633445",
+      "id": "com.burbn.instagram",
       "name": "RyukGram",
       "version": "439.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram-sideload-439.0.0",
@@ -601,7 +601,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-21T15:54:49.777Z",
+      "updatedAt": "2026-08-24T06:52:50.082Z",
       "toolVersion": "1.3.3",
       "previousVersions": [
         {
@@ -609,7 +609,8 @@
           "version": "434.0.0"
         }
       ],
-      "recommended": true
+      "recommended": true,
+      "bundleId": "com.burbn.instagram"
     },
     {
       "id": "sh.weme.wemesh",
