@@ -6401,7 +6401,7 @@
       "updatedAt": "2026-08-20T11:09:00.457Z"
     },
     {
-      "id": "app-1787224166687",
+      "id": "com.aaa.adventures.scary.horror",
       "name": "Scary Horror Escape Room Game",
       "version": "3.6",
       "toolVersion": "",
@@ -6413,7 +6413,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:09:26.689Z",
-      "updatedAt": "2026-08-20T11:09:26.689Z"
+      "updatedAt": "2026-08-24T06:19:52.186Z",
+      "bundleId": "com.aaa.adventures.scary.horror"
     },
     {
       "id": "app-1787224190092",
