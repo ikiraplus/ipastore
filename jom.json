@@ -7346,7 +7346,7 @@
       "updatedAt": "2026-08-21T07:55:00.971Z"
     },
     {
-      "id": "app-1787298953147",
+      "id": "com.strategy.world.war.tactics.games",
       "name": "World War 2 Ww2 Strategy Games",
       "version": "1.0.9",
       "toolVersion": "",
@@ -7358,7 +7358,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:55:53.147Z",
-      "updatedAt": "2026-08-21T07:55:53.147Z"
+      "updatedAt": "2026-08-24T09:27:53.039Z",
+      "bundleId": "com.strategy.world.war.tactics.games"
     },
     {
       "id": "com.nostellar.ghostslayer2",
