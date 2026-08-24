@@ -4424,7 +4424,7 @@
       "bundleId": "com.troll.GuardianHunter"
     },
     {
-      "id": "app-1782928941535",
+      "id": "com.nintendo.zara",
       "name": "super mario run",
       "version": "3.4.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mario-run-3.4.2",
@@ -4433,7 +4433,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T18:02:21.536Z",
-      "updatedAt": "2026-07-01T18:02:21.536Z"
+      "updatedAt": "2026-08-24T08:28:56.539Z",
+      "bundleId": "com.nintendo.zara"
     },
     {
       "id": "com.atebits.Tweetie2",
