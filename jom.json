@@ -4751,7 +4751,7 @@
       "updatedAt": "2026-08-11T09:29:27.362Z"
     },
     {
-      "id": "app-1784647648962",
+      "id": "com.adobe.premiere.ios",
       "name": "Adobe Premiere AI Video Editor",
       "version": "26.18.0",
       "toolVersion": "",
@@ -4772,7 +4772,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-07-21T15:27:28.966Z",
-      "updatedAt": "2026-08-21T08:24:25.120Z"
+      "updatedAt": "2026-08-24T06:20:35.342Z",
+      "bundleId": "com.adobe.premiere.ios"
     },
     {
       "id": "app-1784795671480",
