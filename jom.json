@@ -5440,7 +5440,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T13:31:29.862Z",
-      "updatedAt": "2026-08-02T13:31:29.862Z"
+      "updatedAt": "2026-08-24T10:27:23.360Z",
+      "bundleId": ""
     },
     {
       "id": "com.google.ios.youtubemusic",
@@ -5942,7 +5943,7 @@
       "bundleId": "com.dreamplay.legendofwitch.apple"
     },
     {
-      "id": "app-1786382962069",
+      "id": "com.ovilex.truckerzoneamericanroadways",
       "name": "Truck Simulator Drive Usa Evo",
       "version": "1.2.13",
       "toolVersion": "",
@@ -5954,7 +5955,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-10T17:29:22.081Z",
-      "updatedAt": "2026-08-11T09:28:09.346Z"
+      "updatedAt": "2026-08-24T10:28:01.229Z",
+      "bundleId": "com.ovilex.truckerzoneamericanroadways"
     },
     {
       "id": "com.bbauman.Scripty",
