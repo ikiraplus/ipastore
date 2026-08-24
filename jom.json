@@ -6690,7 +6690,7 @@
       "updatedAt": "2026-08-20T16:38:10.291Z"
     },
     {
-      "id": "app-1787243982245",
+      "id": "com.sega.streetsofrage2",
       "name": "Streets Of Rage 2",
       "version": "9.0.0",
       "toolVersion": "",
@@ -6702,7 +6702,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:39:42.246Z",
-      "updatedAt": "2026-08-20T16:39:42.246Z"
+      "updatedAt": "2026-08-24T06:17:30.639Z",
+      "bundleId": "com.sega.streetsofrage2"
     },
     {
       "id": "com.sega.StreetsOfRage",
