@@ -6808,7 +6808,7 @@
       "bundleId": "com.kolka.tdgame"
     },
     {
-      "id": "app-1787243424233",
+      "id": "com.GoPlayGames.FCM26",
       "name": "Football Club Management 2026",
       "version": "1.1.7",
       "toolVersion": "",
@@ -6820,7 +6820,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:30:24.234Z",
-      "updatedAt": "2026-08-20T16:30:24.234Z"
+      "updatedAt": "2026-08-24T08:31:08.609Z",
+      "bundleId": "com.GoPlayGames.FCM26"
     },
     {
       "id": "com.zombie.gun.shooter",
