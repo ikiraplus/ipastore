@@ -719,7 +719,7 @@
       "updatedAt": "2026-07-01T18:53:37.625Z"
     },
     {
-      "id": "app-1773496444211",
+      "id": "com.microblink.PhotoMath",
       "name": "Photomath_8.42.0",
       "version": "8.46.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photomath-v8.46.0-subscription-unlocked",
@@ -728,7 +728,8 @@
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-05-23T18:31:31.863Z"
+      "updatedAt": "2026-08-24T06:15:06.993Z",
+      "bundleId": "com.microblink.PhotoMath"
     },
     {
       "id": "app-1773546889028",
