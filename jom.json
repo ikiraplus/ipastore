@@ -2315,7 +2315,7 @@
       "updatedAt": "2026-08-24T06:48:25.428Z"
     },
     {
-      "id": "app-iosgods-bloom-city-match-5603",
+      "id": "com.rovio.bloom",
       "name": "Bloom City: Match",
       "version": "1.5.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bloom-city-match-hack-xpztqgvicz-1",
@@ -2323,7 +2323,9 @@
       "size": "250 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.rovio.bloom",
+      "updatedAt": "2026-08-24T06:51:27.224Z"
     },
     {
       "id": "app-iosgods-gladiators-survival-4482",
