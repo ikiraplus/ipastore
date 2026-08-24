@@ -2539,7 +2539,7 @@
       "recommended": false
     },
     {
-      "id": "app-1777313497967",
+      "id": "com.linecorp.b612",
       "name": "b612 Ai",
       "version": "15.3.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/b612_ai_photo-video_editor_v15.3.5_subscription_unlocked",
@@ -2548,7 +2548,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-04-27T18:11:37.968Z",
-      "updatedAt": "2026-08-07T08:20:45.213Z",
+      "updatedAt": "2026-08-24T06:45:24.904Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2560,7 +2560,8 @@
           "version": "15.1.6"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.linecorp.b612"
     },
     {
       "id": "boomer.Smart-Video",
