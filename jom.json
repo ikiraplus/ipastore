@@ -3989,7 +3989,7 @@
       "bundleId": "com.photoeditor.polish"
     },
     {
-      "id": "app-1781646287063",
+      "id": "io.veed.appstore",
       "name": "veed shorts ai videos",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/veed-shorts-ai-videos",
@@ -3998,7 +3998,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-16T21:44:47.065Z",
-      "updatedAt": "2026-06-16T21:44:47.065Z"
+      "updatedAt": "2026-08-24T06:45:40.981Z",
+      "bundleId": "io.veed.appstore"
     },
     {
       "id": "app-1781646325971",
