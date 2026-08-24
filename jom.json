@@ -6333,7 +6333,7 @@
       "updatedAt": "2026-08-20T11:07:32.223Z"
     },
     {
-      "id": "app-1787224073942",
+      "id": "com.madfingergames.Samurai2",
       "name": "Samurai 2 Vengeance",
       "version": "1.5.0",
       "toolVersion": "",
@@ -6345,7 +6345,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:07:53.943Z",
-      "updatedAt": "2026-08-20T11:07:53.943Z"
+      "updatedAt": "2026-08-24T06:18:11.065Z",
+      "bundleId": "com.madfingergames.Samurai2"
     },
     {
       "id": "app-1787224110969",
