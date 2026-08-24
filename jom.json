@@ -4758,7 +4758,7 @@
       "bundleId": "com.pinebox.app"
     },
     {
-      "id": "app-1784188165660",
+      "id": "ph.telegra.Telegraph2",
       "name": "WhiteGram Arabic",
       "version": "12.9.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.9.2",
@@ -4767,7 +4767,7 @@
       "note": "تطبيق \"وايت كرام\" أحد أفضل تطبيقات تيليجرام المعدلة\n\nيمكنك تفعيل مميزات التطبيق من خلال:\nالإعدادات > WhiteGram\n\nهناك مميزات إضافية تتفعل من:\nالإعدادات > اضغط ضغطة طويلة على أيقونة (اسأل سؤالا)",
       "category": "تواصل",
       "addedAt": "2026-07-16T07:49:28.675Z",
-      "updatedAt": "2026-07-28T11:01:00.406Z",
+      "updatedAt": "2026-08-24T06:47:15.514Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4775,7 +4775,8 @@
           "version": "12.8"
         }
       ],
-      "recommended": true
+      "recommended": true,
+      "bundleId": "ph.telegra.Telegraph2"
     },
     {
       "id": "co.albox.cinema",
