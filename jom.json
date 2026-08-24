@@ -3707,7 +3707,7 @@
       "bundleId": "com.imangi.templerun"
     },
     {
-      "id": "app-1781377205864",
+      "id": "com.skgames.racer",
       "name": "traffic racer",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/traffic-racer-hack",
@@ -3716,7 +3716,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:00:05.865Z",
-      "updatedAt": "2026-06-13T19:00:05.865Z"
+      "updatedAt": "2026-08-24T06:19:24.323Z",
+      "bundleId": "com.skgames.racer"
     },
     {
       "id": "app-1781377252027",
