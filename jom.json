@@ -4395,7 +4395,7 @@
       "updatedAt": "2026-07-01T18:02:21.536Z"
     },
     {
-      "id": "app-1782929381420",
+      "id": "com.atebits.Tweetie2",
       "name": "X twitter - NFB-TWIgalaxy",
       "version": "12.17",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.17-nfb-twi",
@@ -4404,7 +4404,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-01T18:09:41.421Z",
-      "updatedAt": "2026-08-17T07:45:22.358Z",
+      "updatedAt": "2026-08-24T06:50:05.231Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4416,7 +4416,8 @@
           "version": "12.3"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.atebits.Tweetie2"
     },
     {
       "id": "com.abishkking.maleworkout",
