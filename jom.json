@@ -5802,7 +5802,7 @@
       "updatedAt": "2026-08-11T20:32:38.178Z"
     },
     {
-      "id": "app-1786504216624",
+      "id": "com.offlinemusic",
       "name": "Offline Music Player",
       "version": "3.9.2",
       "toolVersion": "",
@@ -5814,7 +5814,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-12T03:10:16.631Z",
-      "updatedAt": "2026-08-12T03:10:16.631Z"
+      "updatedAt": "2026-08-24T06:43:28.788Z",
+      "bundleId": "com.offlinemusic"
     },
     {
       "id": "com.firecore.infuse",
