@@ -6024,7 +6024,7 @@
       "bundleId": "com.financeillustrated.TradingGame"
     },
     {
-      "id": "app-1786953129617",
+      "id": "com.joytunes.Sing",
       "name": "Simply Sing My Singing App",
       "version": "3.0.8",
       "toolVersion": "",
@@ -6036,7 +6036,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-17T07:52:09.618Z",
-      "updatedAt": "2026-08-17T07:52:09.618Z"
+      "updatedAt": "2026-08-24T06:22:22.073Z",
+      "bundleId": "com.joytunes.Sing"
     },
     {
       "id": "app-1786953444104",
