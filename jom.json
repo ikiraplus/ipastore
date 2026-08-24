@@ -3271,7 +3271,7 @@
       "bundleId": "com.scarlet.app"
     },
     {
-      "id": "app-1780342690369",
+      "id": "com.almutafoq.iq.app",
       "name": "المتفوق",
       "version": "1.0.71",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/almtfooq1.0.71",
@@ -3280,7 +3280,8 @@
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-06-01T19:38:10.370Z",
-      "updatedAt": "2026-06-01T19:38:10.370Z"
+      "updatedAt": "2026-08-24T06:14:52.626Z",
+      "bundleId": "com.almutafoq.iq.app"
     },
     {
       "id": "app-1780484875312",
