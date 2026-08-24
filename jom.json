@@ -3988,7 +3988,7 @@
       "bundleId": "com.ansangha.drdriving"
     },
     {
-      "id": "app-1781378040020",
+      "id": "com.gameloft.Bullet",
       "name": "six guns",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/six-guns-gang-showdown-hack",
@@ -3997,7 +3997,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:14:00.022Z",
-      "updatedAt": "2026-06-13T19:14:00.022Z"
+      "updatedAt": "2026-08-24T09:04:57.965Z",
+      "bundleId": "com.gameloft.Bullet"
     },
     {
       "id": "com.dnddream.headbasketball",
