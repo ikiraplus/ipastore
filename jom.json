@@ -4703,7 +4703,7 @@
       "updatedAt": "2026-07-14T09:57:52.806Z"
     },
     {
-      "id": "app-1784023216713",
+      "id": "com.pinebox.app",
       "name": "PineBox Premium",
       "version": "2.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-premium_1.2",
@@ -4712,7 +4712,7 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-07-14T10:00:19.136Z",
-      "updatedAt": "2026-08-09T15:55:13.587Z",
+      "updatedAt": "2026-08-24T06:42:55.850Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4720,7 +4720,8 @@
           "version": "2.2"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.pinebox.app"
     },
     {
       "id": "app-1784188165660",
