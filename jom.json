@@ -7672,7 +7672,7 @@
       "bundleId": "com.alik472.ai-aging-app"
     },
     {
-      "id": "app-1787309200947",
+      "id": "com.muscleandmotion.Anatomy",
       "name": "Anatomy Learning 3d Atlas",
       "version": "3.2.4",
       "toolVersion": "",
@@ -7684,7 +7684,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-21T10:46:40.948Z",
-      "updatedAt": "2026-08-21T10:46:40.948Z"
+      "updatedAt": "2026-08-24T06:44:14.196Z",
+      "bundleId": "com.muscleandmotion.Anatomy"
     },
     {
       "id": "app-1787309252802",
