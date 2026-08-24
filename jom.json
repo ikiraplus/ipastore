@@ -2485,7 +2485,7 @@
       "recommended": false
     },
     {
-      "id": "app-1774779633396",
+      "id": "co.visualsupply.cam",
       "name": "VSCO",
       "version": "461.7.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vsco_photo_video_editor_v461.7.0_subscription_unlocked",
@@ -2494,7 +2494,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-23T03:37:07.951Z",
+      "updatedAt": "2026-08-24T06:48:08.607Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2506,7 +2506,8 @@
           "version": "460.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "co.visualsupply.cam"
     },
     {
       "id": "app-1777313056595",
