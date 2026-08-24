@@ -3610,7 +3610,7 @@
       "recommended": false
     },
     {
-      "id": "app-1781374656407",
+      "id": "com.rovio.abm3",
       "name": "angry birds match",
       "version": "0.9.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-match",
@@ -3619,7 +3619,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:17:38.515Z",
-      "updatedAt": "2026-06-13T18:17:38.515Z"
+      "updatedAt": "2026-08-24T06:48:46.352Z",
+      "bundleId": "com.rovio.abm3"
     },
     {
       "id": "com.darkmatter.abfam",
