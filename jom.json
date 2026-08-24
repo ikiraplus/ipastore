@@ -1342,7 +1342,7 @@
       "bundleId": "com.xiaoji.gamecenter"
     },
     {
-      "id": "app-1773574559049",
+      "id": "com.abishkking.sixpack",
       "name": "Six Pack in 30 Days - 6 Pack (Hacked)",
       "version": "1.41.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/six-pack-in-30-days-6-pack-hacked_v1460-1",
@@ -1351,7 +1351,8 @@
       "note": "",
       "bundleId": "com.abishkking.sixpack",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-08-24T08:30:12.682Z"
     },
     {
       "id": "app-1773574583186",
