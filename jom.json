@@ -7594,7 +7594,7 @@
       "updatedAt": "2026-08-21T08:15:58.318Z"
     },
     {
-      "id": "app-1787300793050",
+      "id": "com.fluffyfairygames.idleminertycoon",
       "name": "Idle Miner Tycoon",
       "version": "5.61.1",
       "toolVersion": "",
@@ -7606,7 +7606,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:26:33.051Z",
-      "updatedAt": "2026-08-21T08:26:33.051Z"
+      "updatedAt": "2026-08-24T06:44:10.947Z",
+      "bundleId": "com.fluffyfairygames.idleminertycoon"
     },
     {
       "id": "app-1787301000081",
