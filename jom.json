@@ -8688,7 +8688,7 @@
       "updatedAt": "2026-08-22T07:34:27.047Z"
     },
     {
-      "id": "app-1787384138503",
+      "id": "com.firsttouch.dls7",
       "name": "Dream League Soccer",
       "version": "12.120",
       "toolVersion": "",
@@ -8700,7 +8700,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:35:38.503Z",
-      "updatedAt": "2026-08-22T07:35:42.071Z"
+      "updatedAt": "2026-08-24T06:48:21.266Z",
+      "bundleId": "com.firsttouch.dls7"
     },
     {
       "id": "com.apple.compilers.llvm.clang.1_0",
