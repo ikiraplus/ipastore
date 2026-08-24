@@ -4885,7 +4885,7 @@
       "updatedAt": "2026-07-24T18:55:00.449Z"
     },
     {
-      "id": "app-1784919575272",
+      "id": "com.blockpuzzle.us.ios",
       "name": "Block Blast",
       "version": "7.3.6",
       "toolVersion": "",
@@ -4906,7 +4906,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-24T18:59:35.273Z",
-      "updatedAt": "2026-08-23T03:46:21.887Z"
+      "updatedAt": "2026-08-24T06:18:59.822Z",
+      "bundleId": "com.blockpuzzle.us.ios"
     },
     {
       "id": "app-1784979660131",
