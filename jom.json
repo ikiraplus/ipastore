@@ -7199,7 +7199,7 @@
       "updatedAt": "2026-08-21T07:51:40.824Z"
     },
     {
-      "id": "app-1787298757317",
+      "id": "com.ondi.shadow.rival",
       "name": "Shadow Rival Action War Game",
       "version": "1.0.24",
       "toolVersion": "",
@@ -7211,7 +7211,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:52:37.318Z",
-      "updatedAt": "2026-08-21T07:52:37.318Z"
+      "updatedAt": "2026-08-24T06:53:00.766Z",
+      "bundleId": "com.ondi.shadow.rival"
     },
     {
       "id": "com.ftt.boxingstar.match3.ios",
