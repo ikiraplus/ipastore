@@ -97,7 +97,7 @@
       "bundleId": "net.whatsapp.WhatsApp"
     },
     {
-      "id": "app-1773512283014",
+      "id": "app.teledark",
       "name": "Telegram Dark",
       "version": "12.9.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teledark_12.9.2-1",
@@ -106,7 +106,7 @@
       "note": "هذا التطبيق يدعم الإشعارات، ثبته مباشرة ولا تكرر تثبيته ولا تغير معرف الباندل الخاص به\nيتضمن مميزات إضافة Tgextra",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-23T19:23:24.871Z",
+      "updatedAt": "2026-08-24T05:42:13.749Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -116,7 +116,7 @@
       ],
       "recommended": false,
       "hidden": false,
-      "bundleId": ""
+      "bundleId": "app.teledark"
     },
     {
       "id": "app-1773402408531",
