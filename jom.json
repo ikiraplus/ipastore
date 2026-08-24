@@ -4443,7 +4443,7 @@
       "recommended": false
     },
     {
-      "id": "app-1783541382806",
+      "id": "com.hitv.ikiraplus",
       "name": "Hitv pro",
       "version": "1.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitv-pro_1.1",
@@ -4452,7 +4452,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-07-08T20:09:45.614Z",
-      "updatedAt": "2026-07-14T10:07:31.345Z"
+      "updatedAt": "2026-08-24T06:14:38.459Z",
+      "bundleId": "com.hitv.ikiraplus"
     },
     {
       "id": "com.fasilplus.ikiraplus",
