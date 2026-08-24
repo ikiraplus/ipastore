@@ -933,7 +933,7 @@
       "updatedAt": "2026-08-24T06:14:28.961Z"
     },
     {
-      "id": "app-1773509627631",
+      "id": "archery.storify",
       "name": "mojo pro",
       "version": "1.274.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mojo_ai_video_-_reels_editor_v1.274.0_subscription_unlocked",
@@ -942,7 +942,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-19T13:09:27.689Z",
+      "updatedAt": "2026-08-24T06:46:50.375Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -954,7 +954,8 @@
           "version": "1.273.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "archery.storify"
     },
     {
       "id": "app-1773511422450",
