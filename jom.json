@@ -4893,7 +4893,7 @@
       "bundleId": "com.adobe.premiere.ios"
     },
     {
-      "id": "app-1784795671480",
+      "id": "com.burbn.instagram",
       "name": "Instagram IQ",
       "version": "440.0.0",
       "toolVersion": "1.1",
@@ -4910,7 +4910,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-23T08:34:31.490Z",
-      "updatedAt": "2026-07-29T07:41:30.359Z"
+      "updatedAt": "2026-08-24T06:53:09.057Z",
+      "bundleId": "com.burbn.instagram"
     },
     {
       "id": "app-1784812555366",
