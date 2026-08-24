@@ -4401,7 +4401,7 @@
       "recommended": false
     },
     {
-      "id": "app-1782930205544",
+      "id": "com.abishkking.maleworkout",
       "name": "Home Workout - No Equipment",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/home-workout-no-equipments",
@@ -4410,7 +4410,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-07-01T18:23:25.545Z",
-      "updatedAt": "2026-07-01T18:23:25.545Z"
+      "updatedAt": "2026-08-24T06:47:49.739Z",
+      "bundleId": "com.abishkking.maleworkout"
     },
     {
       "id": "app-1782930324003",
