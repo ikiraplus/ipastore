@@ -5023,7 +5023,7 @@
       "updatedAt": "2026-08-02T15:37:30.311Z"
     },
     {
-      "id": "app-1785405026258",
+      "id": "ph.telegra.Telegraph",
       "name": "iQ Tele",
       "version": "12.9.2",
       "toolVersion": "1.2",
@@ -5044,7 +5044,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-30T09:50:26.259Z",
-      "updatedAt": "2026-08-11T09:36:41.128Z"
+      "updatedAt": "2026-08-24T06:18:40.022Z",
+      "bundleId": "ph.telegra.Telegraph"
     },
     {
       "id": "app-1785419223892",
