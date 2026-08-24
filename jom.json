@@ -4364,7 +4364,7 @@
       "bundleId": "com.cer.buzz"
     },
     {
-      "id": "app-1783261052169",
+      "id": "com.flow.tube",
       "name": "YouTube vanced",
       "version": "1.0.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vanced-tube_1.0.2",
@@ -4373,7 +4373,8 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-07-05T14:17:32.170Z",
-      "updatedAt": "2026-07-05T14:17:32.170Z"
+      "updatedAt": "2026-08-24T06:13:56.525Z",
+      "bundleId": "com.flow.tube"
     },
     {
       "id": "app-1783353777050",
