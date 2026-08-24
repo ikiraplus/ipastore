@@ -3314,7 +3314,7 @@
       "bundleId": "com.facebook.Messenger"
     },
     {
-      "id": "app-1780340610338",
+      "id": "jp.co.capcom.VillageUSios",
       "name": "resident evil village",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-village",
@@ -3323,7 +3323,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:03:30.340Z",
-      "updatedAt": "2026-06-01T19:03:30.340Z"
+      "updatedAt": "2026-08-24T10:30:44.780Z",
+      "bundleId": "jp.co.capcom.VillageUSios"
     },
     {
       "id": "app-1780340674753",
