@@ -8560,7 +8560,7 @@
       "updatedAt": "2026-08-23T03:45:22.546Z"
     },
     {
-      "id": "app-1787456749450",
+      "id": "com.auxbrain.egginc",
       "name": "Egg Inc",
       "version": "1.37.2",
       "toolVersion": "",
@@ -8572,7 +8572,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T03:45:49.450Z",
-      "updatedAt": "2026-08-23T03:45:51.757Z"
+      "updatedAt": "2026-08-24T06:17:52.159Z",
+      "bundleId": "com.auxbrain.egginc"
     },
     {
       "id": "app-1787483805684",
