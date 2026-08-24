@@ -960,7 +960,7 @@
       "bundleId": "archery.storify"
     },
     {
-      "id": "app-1773511422450",
+      "id": "com.gingerlabs.Notability",
       "name": "Notability Plus",
       "version": "16.9",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/notability_ai_notes_-_planner_v16.9_pro_unlocked_patched",
@@ -969,7 +969,7 @@
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-11T09:29:56.461Z",
+      "updatedAt": "2026-08-24T08:28:49.809Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -981,7 +981,8 @@
           "version": "16.8"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.gingerlabs.Notability"
     },
     {
       "id": "com.alightcreative.motion",
