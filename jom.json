@@ -6884,7 +6884,7 @@
       "updatedAt": "2026-08-20T16:34:54.099Z"
     },
     {
-      "id": "app-1787243756921",
+      "id": "com.inspectorstudios.ultimateflightsimulatorpro",
       "name": "Ultimate Flight Simulator Pro",
       "version": "7.0",
       "toolVersion": "",
@@ -6896,7 +6896,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:35:56.923Z",
-      "updatedAt": "2026-08-20T16:35:56.923Z"
+      "updatedAt": "2026-08-24T08:29:23.472Z",
+      "bundleId": "com.inspectorstudios.ultimateflightsimulatorpro"
     },
     {
       "id": "app-1787243817077",
