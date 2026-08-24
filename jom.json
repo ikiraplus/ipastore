@@ -2688,7 +2688,7 @@
       "recommended": false
     },
     {
-      "id": "app-1777315219858",
+      "id": "com.google.ios.youtube",
       "name": "Youtube LRD",
       "version": "20.50.9",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-lrd-20.50.9-",
@@ -2697,7 +2697,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:40:21.634Z",
-      "updatedAt": "2026-04-27T18:40:21.634Z"
+      "updatedAt": "2026-08-24T06:23:46.085Z",
+      "bundleId": "com.google.ios.youtube"
     },
     {
       "id": "app-1777360462719",
