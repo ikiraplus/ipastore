@@ -1138,10 +1138,11 @@
       "note": "التطبيق آمن، ويمكنك حفظ تقدمك عن طريق تسجيل الدخول",
       "category": "ألعاب",
       "addedAt": "2026-04-07",
-      "updatedAt": "2026-08-20T16:03:00.377Z",
+      "updatedAt": "2026-08-24T10:09:57.193Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": ""
     },
     {
       "id": "com.supercell.magic",
@@ -1751,7 +1752,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-21T15:10:30.164Z",
+      "updatedAt": "2026-08-24T10:10:32.877Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1759,7 +1760,8 @@
           "version": "last"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": ""
     },
     {
       "id": "app-game-ios-1711600000005",
@@ -1950,7 +1952,8 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-01T17:58:15.648Z"
+      "updatedAt": "2026-08-24T10:09:16.383Z",
+      "bundleId": ""
     },
     {
       "id": "com.nekki.shadowfight",
@@ -6727,7 +6730,7 @@
       "bundleId": "com.edkongames.ww2"
     },
     {
-      "id": "app-1787242026142",
+      "id": "com.thegamekitchen.blasphemous",
       "name": "Blasphemous",
       "version": "1.7",
       "toolVersion": "",
@@ -6739,7 +6742,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:07:06.143Z",
-      "updatedAt": "2026-08-20T16:07:06.143Z"
+      "updatedAt": "2026-08-24T10:11:48.274Z",
+      "bundleId": "com.thegamekitchen.blasphemous"
     },
     {
       "id": "com.amelosinteractive.snake",
@@ -8967,7 +8971,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T11:16:45.684Z",
-      "updatedAt": "2026-08-23T11:16:52.362Z"
+      "updatedAt": "2026-08-24T10:11:04.729Z",
+      "bundleId": ""
     },
     {
       "id": "com.deviloper.car.empire.idle.tycoon",
