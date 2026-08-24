@@ -7899,7 +7899,7 @@
       "bundleId": "com.gearup.booster"
     },
     {
-      "id": "app-1787324481472",
+      "id": "com.crystalnix.ServerAuditor",
       "name": "Termius Terminal Ssh Client",
       "version": "5.9.5",
       "toolVersion": "",
@@ -7911,7 +7911,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T15:01:21.472Z",
-      "updatedAt": "2026-08-21T15:01:22.499Z"
+      "updatedAt": "2026-08-24T06:21:10.097Z",
+      "bundleId": "com.crystalnix.ServerAuditor"
     },
     {
       "id": "app-1787325149827",
