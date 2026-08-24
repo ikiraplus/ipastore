@@ -633,7 +633,7 @@
       "bundleId": "com.hammerandchisel.discord"
     },
     {
-      "id": "app-1777314094685",
+      "id": "com.google.ios.youtube",
       "name": "Youtube killer plus",
       "version": "21.30",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube_21.30_ytkillerplus_5.23-patched",
@@ -642,7 +642,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:21:36.213Z",
-      "updatedAt": "2026-07-30T13:47:56.134Z",
+      "updatedAt": "2026-08-24T06:24:15.446Z",
       "toolVersion": "5.9.9",
       "previousVersions": [
         {
@@ -654,7 +654,8 @@
           "version": "21.22.4"
         }
       ],
-      "recommended": true
+      "recommended": true,
+      "bundleId": "com.google.ios.youtube"
     },
     {
       "id": "com.kira.cinemanaa.fixed",
