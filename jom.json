@@ -3916,7 +3916,7 @@
       "bundleId": "com.halfbrick.FruitNinjaLite"
     },
     {
-      "id": "app-1781377591774",
+      "id": "com.halfbrick.fruitninjax",
       "name": "fruit ninja 2",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fruit-ninja-2",
@@ -3925,7 +3925,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:06:31.774Z",
-      "updatedAt": "2026-06-13T19:06:31.774Z"
+      "updatedAt": "2026-08-24T09:27:46.130Z",
+      "bundleId": "com.halfbrick.fruitninjax"
     },
     {
       "id": "app-1781377720834",
