@@ -8312,7 +8312,7 @@
       "bundleId": "com.jds.bnr"
     },
     {
-      "id": "app-1787381020671",
+      "id": "com.sozap.badmen",
       "name": "Armed Heist",
       "version": "3.2.13",
       "toolVersion": "",
@@ -8324,7 +8324,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:43:40.671Z",
-      "updatedAt": "2026-08-22T06:43:42.250Z"
+      "updatedAt": "2026-08-24T09:29:16.139Z",
+      "bundleId": "com.sozap.badmen"
     },
     {
       "id": "com.skgames.motor",
