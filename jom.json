@@ -343,7 +343,7 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
-      "id": "app-1773435499722",
+      "id": "com.tiktokdx.ikiraplus",
       "name": "Tiktok DX",
       "version": "44.3.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok.dx-1",
@@ -351,7 +351,9 @@
       "size": "337.2 MB",
       "note": "",
       "category": "تواصل",
-      "addedAt": "2026-03-13"
+      "addedAt": "2026-03-13",
+      "bundleId": "com.tiktokdx.ikiraplus",
+      "updatedAt": "2026-08-24T05:42:43.353Z"
     },
     {
       "id": "app-1773435887141",
