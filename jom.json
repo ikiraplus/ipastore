@@ -3250,7 +3250,7 @@
       "updatedAt": "2026-06-01T19:23:59.764Z"
     },
     {
-      "id": "app-1780341894722",
+      "id": "com.scarlet.app",
       "name": "scarlet",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scarlet",
@@ -3259,7 +3259,8 @@
       "note": "",
       "category": "أخرى",
       "addedAt": "2026-06-01T19:24:54.723Z",
-      "updatedAt": "2026-06-01T19:24:54.723Z"
+      "updatedAt": "2026-08-24T06:14:07.558Z",
+      "bundleId": "com.scarlet.app"
     },
     {
       "id": "app-1780342690369",
