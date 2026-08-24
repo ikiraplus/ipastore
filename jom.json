@@ -8431,7 +8431,7 @@
       "bundleId": "com.linegames.hkfm"
     },
     {
-      "id": "app-1787381346578",
+      "id": "jp.co.applibot.HelloKittyMerchMatch",
       "name": "Hello Kitty Merch Match",
       "version": "6.2.0",
       "toolVersion": "",
@@ -8443,7 +8443,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:49:06.578Z",
-      "updatedAt": "2026-08-22T06:49:08.194Z"
+      "updatedAt": "2026-08-24T09:04:45.633Z",
+      "bundleId": "jp.co.applibot.HelloKittyMerchMatch"
     },
     {
       "id": "app-1787381371689",
