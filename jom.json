@@ -3548,7 +3548,7 @@
       "recommended": false
     },
     {
-      "id": "app-1781336383760",
+      "id": "com.google.ios.youtube",
       "name": "YouTube Al-Asd",
       "version": "21.22.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube_asd_v21.22.4",
@@ -3557,7 +3557,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-06-13T07:39:43.761Z",
-      "updatedAt": "2026-06-13T07:39:43.761Z"
+      "updatedAt": "2026-08-24T06:44:03.595Z",
+      "bundleId": "com.google.ios.youtube"
     },
     {
       "id": "app-1781336473552",
