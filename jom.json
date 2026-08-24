@@ -8224,7 +8224,7 @@
       "bundleId": "com.zombie.slasher"
     },
     {
-      "id": "app-1787325383469",
+      "id": "com.football.soccer.league",
       "name": "Football League 26",
       "version": "0.2.11",
       "toolVersion": "",
@@ -8236,7 +8236,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:16:23.469Z",
-      "updatedAt": "2026-08-21T15:16:25.399Z"
+      "updatedAt": "2026-08-24T08:30:55.913Z",
+      "bundleId": "com.football.soccer.league"
     },
     {
       "id": "com.notdoppler.earntodierogue",
