@@ -258,7 +258,7 @@
       "bundleId": ""
     },
     {
-      "id": "app-1773510353911",
+      "id": "app.intentchat",
       "name": "Lingogram",
       "version": "11.12",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lingogram-1",
@@ -266,7 +266,9 @@
       "size": "74.1 MB",
       "note": "لتفعيل مميزات التطبيق اتبع الخطوات التالية:\n- الإعدادات، انزل إلى الأسفل، ثم اضغط ضغطة طويلة على أيقونة (اسأل سؤالا)\nوبذلك يتم فتح المميزات",
       "category": "تواصل",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "bundleId": "app.intentchat",
+      "updatedAt": "2026-08-24T05:42:28.667Z"
     },
     {
       "id": "app-1773497492154",
