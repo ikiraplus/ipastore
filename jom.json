@@ -3675,7 +3675,7 @@
       "updatedAt": "2026-06-13T18:25:16.497Z"
     },
     {
-      "id": "app-1781375167665",
+      "id": "com.rovio.dream",
       "name": "angry birds dream",
       "version": "2.0.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-dream",
@@ -3684,7 +3684,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:26:07.666Z",
-      "updatedAt": "2026-06-13T18:26:07.666Z"
+      "updatedAt": "2026-08-24T06:47:38.227Z",
+      "bundleId": "com.rovio.dream"
     },
     {
       "id": "app-1781375241885",
