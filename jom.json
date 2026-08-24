@@ -1401,7 +1401,7 @@
       "updatedAt": "2026-08-17T13:24:13.409Z"
     },
     {
-      "id": "app-1773574696988",
+      "id": "com.codebysms",
       "name": "CodebySMS",
       "version": "1.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/codebysms_v10-1",
@@ -1410,7 +1410,8 @@
       "note": "",
       "bundleId": "com.codebysms",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-08-24T06:14:04.714Z"
     },
     {
       "id": "app-1773574707185",
