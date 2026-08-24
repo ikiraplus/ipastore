@@ -1434,7 +1434,7 @@
       "updatedAt": "2026-08-24T06:14:04.714Z"
     },
     {
-      "id": "app-1773574707185",
+      "id": "com.AppChief.ArabicArt",
       "name": "AndalusiDesign",
       "version": "10.0.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/andalusi_ai_design_photo_video_v10.0.5_pro_unlocked_patched",
@@ -1443,7 +1443,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-09T15:58:29.433Z",
+      "updatedAt": "2026-08-24T06:18:32.516Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1455,7 +1455,8 @@
           "version": "10.1"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.AppChief.ArabicArt"
     },
     {
       "id": "app-1773574681601",
