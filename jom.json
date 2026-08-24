@@ -3654,7 +3654,7 @@
       "updatedAt": "2026-06-13T07:41:13.553Z"
     },
     {
-      "id": "app-1781337880155",
+      "id": "com.leosfortune.arcade",
       "name": "leo's fortune",
       "version": "1.0.6",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/leo-s-fortune-last",
@@ -3663,10 +3663,11 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T08:04:40.156Z",
-      "updatedAt": "2026-08-20T11:13:41.268Z",
+      "updatedAt": "2026-08-24T09:28:28.990Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.leosfortune.arcade"
     },
     {
       "id": "com.rovio.abm3",
