@@ -1772,7 +1772,9 @@
       "size": "900 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "",
+      "updatedAt": "2026-08-24T10:18:13.792Z"
     },
     {
       "id": "app-game-ios-1711600000006",
@@ -2294,7 +2296,7 @@
       "updatedAt": "2026-08-24T06:53:16.087Z"
     },
     {
-      "id": "app-iosgods-hunting-sniper-4128",
+      "id": "com.europe.huntingsniper",
       "name": "Hunting Sniper: Showdown",
       "version": "3.05.01101",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hunting-sniper-showdown-hack-t9mrwhqcxx-1",
@@ -2302,7 +2304,9 @@
       "size": "900 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.europe.huntingsniper",
+      "updatedAt": "2026-08-24T10:18:49.165Z"
     },
     {
       "id": "com.outfit7.movingeye.swampattack",
@@ -7607,7 +7611,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:06:27.547Z",
-      "updatedAt": "2026-08-21T08:06:27.547Z"
+      "updatedAt": "2026-08-24T10:17:01.712Z",
+      "bundleId": ""
     },
     {
       "id": "com.marmalade.monopoly",
@@ -8693,7 +8698,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:00:58.106Z",
-      "updatedAt": "2026-08-22T07:00:59.706Z"
+      "updatedAt": "2026-08-24T10:17:38.722Z",
+      "bundleId": ""
     },
     {
       "id": "com.RoadburnGames.Gumball",
