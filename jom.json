@@ -8258,7 +8258,7 @@
       "bundleId": "com.redfalcon.basketballgoat.ios"
     },
     {
-      "id": "app-1787381320316",
+      "id": "com.linegames.hkfm",
       "name": "Hello Kitty Friends Match",
       "version": "1.0.29",
       "toolVersion": "",
@@ -8270,7 +8270,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:48:40.316Z",
-      "updatedAt": "2026-08-22T06:48:41.746Z"
+      "updatedAt": "2026-08-24T06:46:54.016Z",
+      "bundleId": "com.linegames.hkfm"
     },
     {
       "id": "app-1787381346578",
