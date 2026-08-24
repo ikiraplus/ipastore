@@ -4985,7 +4985,7 @@
       "updatedAt": "2026-07-26T08:28:11.931Z"
     },
     {
-      "id": "app-1785076089849",
+      "id": "com.rahiazathar.animequest",
       "name": "Anime Slayer Neo",
       "version": "4.2",
       "toolVersion": "",
@@ -4997,7 +4997,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-07-26T14:28:16.356Z",
-      "updatedAt": "2026-07-26T14:28:16.356Z"
+      "updatedAt": "2026-08-24T06:43:06.045Z",
+      "bundleId": "com.rahiazathar.animequest"
     },
     {
       "id": "com.meitu.wink",
