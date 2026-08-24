@@ -5566,7 +5566,7 @@
       "updatedAt": "2026-08-07T08:14:05.959Z"
     },
     {
-      "id": "app-1786091020989",
+      "id": "com.google.ios.youtube",
       "name": "YouTube Kace",
       "version": "21.33.5",
       "toolVersion": "0.8.5",
@@ -5587,7 +5587,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-07T08:23:40.989Z",
-      "updatedAt": "2026-08-22T07:11:47.617Z"
+      "updatedAt": "2026-08-24T06:23:56.197Z",
+      "bundleId": "com.google.ios.youtube"
     },
     {
       "id": "app-1786177390456",
