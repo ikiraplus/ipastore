@@ -752,7 +752,7 @@
       "bundleId": "com.microblink.PhotoMath"
     },
     {
-      "id": "app-1773546889028",
+      "id": "com.rockstargames.rdr",
       "name": "Red Dead Redemption (free paid)",
       "version": "1.50.6",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rdr-[v1.50.6029]",
@@ -761,10 +761,11 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-06T09:50:45.489Z",
+      "updatedAt": "2026-08-24T13:56:43.705Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.rockstargames.rdr"
     },
     {
       "id": "com.genral.ikiraplus",
@@ -1107,7 +1108,7 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1774774543218",
+      "id": "com.activision.callofduty.shooter",
       "name": "Call of duty hack",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/call-of-duty-hack_1.0.54_1774227663",
@@ -1115,7 +1116,9 @@
       "size": "2760 MB",
       "note": "استخدام هذا التطبيق على مسؤوليتك الخاصة، ولا نضمن الحساب ولا نعرف الجهة المطورة له، قم بفك ضغط الملف وتثبيت ملف الـ ipa\n\nمميزات الهاك:\n- مدى رمي سريع\n- رصاصة سحرية\n- ثبات التصويب\n- رؤية عبر الجدران\n- انعدام التشتت",
       "category": "ألعاب",
-      "addedAt": "2026-04-05"
+      "addedAt": "2026-04-05",
+      "bundleId": "com.activision.callofduty.shooter",
+      "updatedAt": "2026-08-24T13:56:43.705Z"
     },
     {
       "id": "app-1773546824423",
@@ -1210,7 +1213,7 @@
       "updatedAt": "2026-08-24T06:52:07.617Z"
     },
     {
-      "id": "app-1773546983257",
+      "id": "store.ipa.gta3.de",
       "name": "GTA: III",
       "version": "1.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gta-3-definitive-edition",
@@ -1222,11 +1225,11 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-24T10:34:15.046Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "store.ipa.gta3.de"
     },
     {
-      "id": "app-1773546985363",
+      "id": "com.rockstargames.bully",
       "name": "Bully",
       "version": "1.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bully-anniversary-edition-v1.1",
@@ -1238,7 +1241,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-18T16:49:54.006Z"
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.rockstargames.bully"
     },
     {
       "id": "org.ppsspp.ppsspp-goldlu5",
@@ -1710,7 +1714,7 @@
       "updatedAt": "2026-08-24T06:20:31.097Z"
     },
     {
-      "id": "app-game-ios-1711600000003",
+      "id": "com.carx-tech.carxdr2",
       "name": "CarX Drift Racing 2",
       "version": "1.42.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-drift-racing-2-v1.42.1",
@@ -1722,8 +1726,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-24T10:31:58.289Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "com.carx-tech.carxdr2"
     },
     {
       "id": "com.popcap.ios.PvZ2",
@@ -1802,7 +1806,7 @@
       "bundleId": "com.dts.freefiremaxs"
     },
     {
-      "id": "app-game-ios-1711600000007",
+      "id": "com.gameloft.asphalt9",
       "name": "Asphalt Legends Unite",
       "version": "52.0.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asphalt-52.0.8",
@@ -1819,7 +1823,8 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-07-23T13:08:47.835Z"
+      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "bundleId": "com.gameloft.asphalt9"
     },
     {
       "id": "com.ea.nfs13.inc",
@@ -1856,7 +1861,7 @@
       "bundleId": "com.nekki.shadowfight3"
     },
     {
-      "id": "app-game-ios-1711600000010",
+      "id": "com.wb.MK.Brawler2015",
       "name": "Mortal Kombat",
       "version": "7.3.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mortal-kombat-7.3.0",
@@ -1865,7 +1870,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-07-24T18:58:22.548Z",
+      "updatedAt": "2026-08-24T13:56:43.704Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1873,7 +1878,8 @@
           "version": "7.2.1"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.wb.MK.Brawler2015"
     },
     {
       "id": "com.fingersoft.hillclimbracing2",
@@ -2194,7 +2200,7 @@
       "updatedAt": "2026-08-24T08:30:03.855Z"
     },
     {
-      "id": "app-iosgods-gangstar-vegas-3543",
+      "id": "com.gameloft.gangstar4",
       "name": "Gangstar Vegas",
       "version": "9.8.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gangstar-vegas-iv-9.8.0",
@@ -2206,7 +2212,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-23T11:05:06.932Z"
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.gameloft.gangstar4"
     },
     {
       "id": "app-iosgods-gta-vice-city-1081",
@@ -2659,7 +2666,7 @@
       "bundleId": "boomer.Smart-Video"
     },
     {
-      "id": "app-1777314367473",
+      "id": "com.naturalmotion.customstreetracer2",
       "name": "csr racing 2",
       "version": "6.5.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/csr-racing2-6.5.1",
@@ -2668,7 +2675,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:26:07.473Z",
-      "updatedAt": "2026-06-01T19:20:24.511Z"
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.naturalmotion.customstreetracer2"
     },
     {
       "id": "com.topfreegames.bikeracefree",
@@ -2722,7 +2730,7 @@
       "bundleId": "fantasy.survival.game.rpg"
     },
     {
-      "id": "app-1777314693238",
+      "id": "com.aidana.cardriving.ios",
       "name": "car parking",
       "version": "4.9.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-parking-[4.9.8]",
@@ -2731,10 +2739,11 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:31:33.239Z",
-      "updatedAt": "2026-04-27T18:31:33.239Z"
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.aidana.cardriving.ios"
     },
     {
-      "id": "app-1777314795514",
+      "id": "com.gameloft.asphalt8",
       "name": "asphalt 8",
       "version": "8.8.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asphalt-8-[8.8.1]",
@@ -2743,7 +2752,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:33:15.514Z",
-      "updatedAt": "2026-04-27T18:33:15.514Z"
+      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "bundleId": "com.gameloft.asphalt8"
     },
     {
       "id": "com.google.ios.youtube",
@@ -3029,7 +3039,7 @@
       "bundleId": "com.dualcarbon.bigrigstruckadventure"
     },
     {
-      "id": "app-1778256761769",
+      "id": "com.miHoYo.bh3global",
       "name": "honkai impact 3rd",
       "version": "8.8.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/honkai-impact-3rd[8.8.0]",
@@ -3038,7 +3048,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:12:41.770Z",
-      "updatedAt": "2026-05-08T16:12:41.770Z"
+      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "bundleId": "com.miHoYo.bh3global"
     },
     {
       "id": "com.Semicolon.Maraya",
@@ -3054,7 +3065,7 @@
       "bundleId": "com.Semicolon.Maraya"
     },
     {
-      "id": "app-1778256978012",
+      "id": "com.cornfox.oceanhorn2",
       "name": "oceanhorn 2",
       "version": "4.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/oceanhorn2",
@@ -3063,7 +3074,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:16:18.013Z",
-      "updatedAt": "2026-05-08T16:16:18.013Z"
+      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "bundleId": "com.cornfox.oceanhorn2"
     },
     {
       "id": "com.googleusercontent.apps.24327066530-ks0rlpm37gffpbtpq5gkpmp8ba2h2okr",
@@ -3092,7 +3104,7 @@
       "bundleId": "com.thp021.stickman.survivor.epic.idle.rpg"
     },
     {
-      "id": "app-1778257326818",
+      "id": "jp.konami.pesactionmobile",
       "name": "efootball",
       "version": "11.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/efootball-11.0.0",
@@ -3101,7 +3113,7 @@
       "note": "تطبيق معدل يدعم الذكاء الاصطناعي",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:22:06.819Z",
-      "updatedAt": "2026-08-17T08:15:11.762Z",
+      "updatedAt": "2026-08-24T13:56:43.705Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3109,7 +3121,8 @@
           "version": "10.5.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "jp.konami.pesactionmobile"
     },
     {
       "id": "com.hutchgames.rebelracing",
@@ -3258,7 +3271,7 @@
       "bundleId": "com.kingsoft.office.g.wpsoffice"
     },
     {
-      "id": "app-1779560637139",
+      "id": "com.carxtech.sr",
       "name": "Car X street",
       "version": "1.16.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-street-1.16.1",
@@ -3267,8 +3280,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-23T18:23:57.140Z",
-      "updatedAt": "2026-08-24T10:32:52.849Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "com.carxtech.sr"
     },
     {
       "id": "app-1779560772086",
@@ -3963,7 +3976,7 @@
       "bundleId": "com.halfbrick.fruitninjax"
     },
     {
-      "id": "app-1781377720834",
+      "id": "com.pikpok.dr2.iosstore",
       "name": "into the dead",
       "version": "2.7",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/intothedead-1",
@@ -3972,14 +3985,14 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:08:40.836Z",
-      "updatedAt": "2026-08-24T10:32:58.043Z",
+      "updatedAt": "2026-08-24T13:56:43.703Z",
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "com.pikpok.dr2.iosstore"
     },
     {
-      "id": "app-1781377814424",
+      "id": "com.pikpok.dr2.iosstore",
       "name": "into the dead 2",
       "version": "1.86.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/into-the-dead2.1.86.1",
@@ -3988,7 +4001,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:10:14.426Z",
-      "updatedAt": "2026-08-09T16:05:28.077Z",
+      "updatedAt": "2026-08-24T13:56:43.704Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3996,7 +4009,8 @@
           "version": "1.85"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.pikpok.dr2.iosstore"
     },
     {
       "id": "com.axlebolt.standoff2",
@@ -4054,7 +4068,7 @@
       "bundleId": "com.dnddream.headbasketball"
     },
     {
-      "id": "app-1781429485796",
+      "id": "com.ea.ios.fifaworld",
       "name": "fifa 16",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fifa-16-ultimate-team",
@@ -4063,8 +4077,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:31:25.797Z",
-      "updatedAt": "2026-08-24T10:32:49.637Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "com.ea.ios.fifaworld"
     },
     {
       "id": "app-1781429646338",
@@ -4079,7 +4093,7 @@
       "updatedAt": "2026-06-14T09:34:06.339Z"
     },
     {
-      "id": "app-1781429755939",
+      "id": "com.ea.sims3deluxe.ipad.inc",
       "name": "the sims free play",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sims-freeplay",
@@ -4088,8 +4102,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:35:55.940Z",
-      "updatedAt": "2026-08-24T10:35:23.248Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.ea.sims3deluxe.ipad.inc"
     },
     {
       "id": "com.photoeditor.polish",
@@ -4139,7 +4153,7 @@
       "bundleId": "au.com.savageinteractive.procreate"
     },
     {
-      "id": "app-1781646375819",
+      "id": "com.tinybuildgames.helloneighbor",
       "name": "hello neighbor",
       "version": "2.3.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hello-neighbor-2.3.8",
@@ -4148,8 +4162,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:46:15.819Z",
-      "updatedAt": "2026-08-24T10:32:59.670Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.tinybuildgames.helloneighbor"
     },
     {
       "id": "net.Foddy.GettingOverIt",
@@ -4165,7 +4179,7 @@
       "bundleId": "net.Foddy.GettingOverIt"
     },
     {
-      "id": "app-1781646498022",
+      "id": "com.feralinteractive.rome-ios",
       "name": "rome total war",
       "version": "1.10.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rome_total_war_v1.10.5",
@@ -4174,7 +4188,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:48:18.024Z",
-      "updatedAt": "2026-06-16T21:48:18.024Z"
+      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "bundleId": "com.feralinteractive.rome-ios"
     },
     {
       "id": "app-1781646541963",
@@ -5134,7 +5149,7 @@
       "bundleId": "com.blockpuzzle.us.ios"
     },
     {
-      "id": "app-1784979660131",
+      "id": "com.playdigious.planetoflana",
       "name": "Planet Of Lana",
       "version": "last version",
       "toolVersion": "",
@@ -5146,7 +5161,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-25T11:41:00.133Z",
-      "updatedAt": "2026-07-25T11:41:27.786Z"
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.playdigious.planetoflana"
     },
     {
       "id": "com.freenotes.freenotes",
@@ -5485,7 +5501,7 @@
       "bundleId": "com.google.ios.youtubemusic"
     },
     {
-      "id": "app-1785684581042",
+      "id": "com.tgc.sky.ios",
       "name": "Sky Children Of The Light",
       "version": "0.34.1",
       "toolVersion": "",
@@ -5497,7 +5513,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T15:29:41.042Z",
-      "updatedAt": "2026-08-02T15:29:41.042Z"
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.tgc.sky.ios"
     },
     {
       "id": "com.heliogames.a1",
@@ -5760,7 +5777,7 @@
       "bundleId": "com.hitvneo.ikiraplus"
     },
     {
-      "id": "app-1786090445958",
+      "id": "com.pikpok.hrc.iosstore",
       "name": "Horse Racing",
       "version": "1.75",
       "toolVersion": "",
@@ -5772,8 +5789,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-07T08:14:05.959Z",
-      "updatedAt": "2026-08-24T10:33:34.948Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.pikpok.hrc.iosstore"
     },
     {
       "id": "com.google.ios.youtube",
@@ -6152,7 +6169,7 @@
       "bundleId": "com.tensquaregames.letsfish2"
     },
     {
-      "id": "app-1786556547984",
+      "id": "com.gdv.subway2055",
       "name": "Metro 2055 Survival Rpg",
       "version": "0.0.064",
       "toolVersion": "",
@@ -6164,8 +6181,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:42:27.985Z",
-      "updatedAt": "2026-08-24T10:32:54.491Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "com.gdv.subway2055"
     },
     {
       "id": "net.gameduo.vg",
@@ -6349,7 +6366,7 @@
       "bundleId": "com.FirstPickStudios.Endless-Wander"
     },
     {
-      "id": "app-1786954000673",
+      "id": "com.gameloft.disneyspeedstorm",
       "name": "Speedstorm",
       "version": "1.20.1",
       "toolVersion": "",
@@ -6361,7 +6378,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T08:06:40.675Z",
-      "updatedAt": "2026-08-17T08:06:40.675Z"
+      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "bundleId": "com.gameloft.disneyspeedstorm"
     },
     {
       "id": "arab.ipaarab.com",
@@ -7105,7 +7123,7 @@
       "bundleId": "com.mobirix.fishinghook2"
     },
     {
-      "id": "app-1787244344661",
+      "id": "com.joycity.resu",
       "name": "Resident Evil survival unit",
       "version": "1.8.8",
       "toolVersion": "",
@@ -7117,8 +7135,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:45:44.663Z",
-      "updatedAt": "2026-08-24T10:32:50.960Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "com.joycity.resu"
     },
     {
       "id": "com.sensusgames.powerzone",
@@ -7361,7 +7379,7 @@
       "bundleId": "com.ftt.boxingstar.match3.ios"
     },
     {
-      "id": "app-1787298823380",
+      "id": "com.com2us.smon.normal.freefull.apple.kr.ios.universal",
       "name": "Summoners War",
       "version": "9.2.6",
       "toolVersion": "",
@@ -7373,8 +7391,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:53:43.381Z",
-      "updatedAt": "2026-08-24T10:34:47.119Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "com.com2us.smon.normal.freefull.apple.kr.ios.universal"
     },
     {
       "id": "com.ftxgames.bb",
@@ -7889,7 +7907,7 @@
       "bundleId": "com.theonegames.gunshipbattle"
     },
     {
-      "id": "app-1787301078854",
+      "id": "jp.co.bandainamcoent.BNEI0431",
       "name": "Ultimate Ninja Storm",
       "version": "1.1.1",
       "toolVersion": "",
@@ -7901,7 +7919,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:31:18.855Z",
-      "updatedAt": "2026-08-21T08:31:18.855Z"
+      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "bundleId": "jp.co.bandainamcoent.BNEI0431"
     },
     {
       "id": "com.countdown.for.all.app",
@@ -8048,7 +8067,7 @@
       "bundleId": "com.HSSN.VisAnatomy"
     },
     {
-      "id": "app-1787309730473",
+      "id": "AB.iOsteology",
       "name": "Easy Anatomy 3D with Voice AI",
       "version": "5.40.0",
       "toolVersion": "",
@@ -8060,8 +8079,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-21T10:55:30.474Z",
-      "updatedAt": "2026-08-24T10:32:55.883Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "AB.iOsteology"
     },
     {
       "id": "org.skydomain.foodcamera",
@@ -8453,7 +8472,7 @@
       "bundleId": "org.brandonplank.flappybird"
     },
     {
-      "id": "app-1787381250319",
+      "id": "com.wb.Injustice.Brawler2017",
       "name": "Injustice 2",
       "version": "6.6.1",
       "toolVersion": "",
@@ -8465,8 +8484,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:47:30.319Z",
-      "updatedAt": "2026-08-24T10:37:01.464Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.wb.Injustice.Brawler2017"
     },
     {
       "id": "leyi.westgamepro",
@@ -8628,7 +8647,7 @@
       "bundleId": "net.peakgames.toonblast"
     },
     {
-      "id": "app-1787381811686",
+      "id": "com.vqw.aelh",
       "name": "Awakening Of Dragon",
       "version": "1.0.617",
       "toolVersion": "",
@@ -8640,8 +8659,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:56:51.686Z",
-      "updatedAt": "2026-08-24T10:36:25.796Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "bundleId": "com.vqw.aelh"
     },
     {
       "id": "com.touch2goal.soccer",
@@ -9138,7 +9157,7 @@
       "updatedAt": "2026-08-24T05:38:04.572Z"
     },
     {
-      "id": "app-1787549907822",
+      "id": "com.ExiliumGames.Anima",
       "name": "Anima Arpg",
       "version": "2.2.0",
       "toolVersion": "",
@@ -9150,8 +9169,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-24T05:38:27.822Z",
-      "updatedAt": "2026-08-24T10:32:47.936Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:56:43.703Z",
+      "bundleId": "com.ExiliumGames.Anima"
     }
   ]
 }
