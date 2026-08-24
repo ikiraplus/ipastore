@@ -4678,7 +4678,7 @@
       "bundleId": "com.qissateshqplus.ikiraplus"
     },
     {
-      "id": "app-1783610012436",
+      "id": "com.zhiliaoapp.musically",
       "name": "Tiktok GT",
       "version": "46.3.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok-v46.2.0-dyilb1.7",
@@ -4687,7 +4687,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-09T15:13:32.439Z",
-      "updatedAt": "2026-08-06T07:10:47.528Z",
+      "updatedAt": "2026-08-24T08:29:54.712Z",
       "toolVersion": "1.7",
       "previousVersions": [
         {
@@ -4699,7 +4699,8 @@
           "version": "46.1.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "com.burbn.instagram",
