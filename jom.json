@@ -1061,7 +1061,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773511774575",
+      "id": "com.camerasideas.InstaShot",
       "name": "Inshot",
       "version": "1.98.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inshot-1.98.2",
@@ -1070,7 +1070,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-21T08:25:15.241Z",
+      "updatedAt": "2026-08-24T06:45:10.523Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1082,7 +1082,8 @@
           "version": "1.98.1"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.camerasideas.InstaShot"
     },
     {
       "id": "app-1773546801873",
