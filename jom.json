@@ -1007,7 +1007,7 @@
       "bundleId": "com.alightcreative.motion"
     },
     {
-      "id": "app-1773511677771",
+      "id": "com.adobe.photoshop.ios",
       "name": "Adobe Photoshop pro",
       "version": "7.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe.photoshop.pro.7.4-1",
@@ -1015,7 +1015,9 @@
       "size": "252.2 MB",
       "note": "",
       "category": "أدوات",
-      "addedAt": "2026-03-14"
+      "addedAt": "2026-03-14",
+      "bundleId": "com.adobe.photoshop.ios",
+      "updatedAt": "2026-08-24T06:51:30.543Z"
     },
     {
       "id": "com.miniclip.8ballpoolmult",
