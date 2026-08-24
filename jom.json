@@ -7763,7 +7763,7 @@
       "updatedAt": "2026-08-21T11:30:13.194Z"
     },
     {
-      "id": "app-1787311875032",
+      "id": "com.protools.Watermark",
       "name": "Logo Maker generator",
       "version": "3.7.57",
       "toolVersion": "",
@@ -7775,7 +7775,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T11:31:15.032Z",
-      "updatedAt": "2026-08-21T11:31:15.032Z"
+      "updatedAt": "2026-08-24T06:18:28.731Z",
+      "bundleId": "com.protools.Watermark"
     },
     {
       "id": "app-1787311946890",
