@@ -8010,7 +8010,7 @@
       "updatedAt": "2026-08-21T15:12:33.650Z"
     },
     {
-      "id": "app-1787325229502",
+      "id": "es.socialpoint.MonsterCity",
       "name": "Monsters",
       "version": "20.2",
       "toolVersion": "",
@@ -8022,7 +8022,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:13:49.502Z",
-      "updatedAt": "2026-08-21T15:13:52.687Z"
+      "updatedAt": "2026-08-24T06:44:50.941Z",
+      "bundleId": "es.socialpoint.MonsterCity"
     },
     {
       "id": "app-1787325286821",
