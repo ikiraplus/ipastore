@@ -1414,7 +1414,7 @@
       "updatedAt": "2026-08-17T13:22:42.113Z"
     },
     {
-      "id": "app-1773574679669",
+      "id": "com.scottgames.fivenights",
       "name": "Five Nights at Freddy's",
       "version": "2.0.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys_v205-1",
@@ -1426,7 +1426,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-17T13:24:13.409Z"
+      "updatedAt": "2026-08-24T06:21:43.268Z",
+      "bundleId": "com.scottgames.fivenights"
     },
     {
       "id": "com.codebysms",
