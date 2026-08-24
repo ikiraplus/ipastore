@@ -6504,7 +6504,7 @@
       "updatedAt": "2026-08-20T16:07:06.143Z"
     },
     {
-      "id": "app-1787242192877",
+      "id": "com.amelosinteractive.snake",
       "name": "Snake Io",
       "version": "1.21.0",
       "toolVersion": "",
@@ -6516,7 +6516,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:09:52.878Z",
-      "updatedAt": "2026-08-20T16:09:52.878Z"
+      "updatedAt": "2026-08-24T06:20:58.157Z",
+      "bundleId": "com.amelosinteractive.snake"
     },
     {
       "id": "app-1787242216965",
