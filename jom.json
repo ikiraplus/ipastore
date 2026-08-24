@@ -7953,7 +7953,7 @@
       "bundleId": "Wallpapers.iPad"
     },
     {
-      "id": "app-1787311755471",
+      "id": "Alluhaybi.Hammel",
       "name": "ادارة الملفات",
       "version": "10.029",
       "toolVersion": "",
@@ -7965,7 +7965,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T11:29:15.472Z",
-      "updatedAt": "2026-08-21T11:29:15.472Z"
+      "updatedAt": "2026-08-24T06:52:18.911Z",
+      "bundleId": "Alluhaybi.Hammel"
     },
     {
       "id": "com.hssn.anatomy3d",
