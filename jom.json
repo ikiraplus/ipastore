@@ -3863,7 +3863,7 @@
       "bundleId": "com.amanotes.magictiles"
     },
     {
-      "id": "app-1781377522274",
+      "id": "com.halfbrick.FruitNinjaLite",
       "name": "fruit ninja",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fruit-ninja",
@@ -3872,7 +3872,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:05:22.276Z",
-      "updatedAt": "2026-06-13T19:05:22.276Z"
+      "updatedAt": "2026-08-24T06:52:15.149Z",
+      "bundleId": "com.halfbrick.FruitNinjaLite"
     },
     {
       "id": "app-1781377591774",
