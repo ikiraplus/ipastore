@@ -3389,7 +3389,7 @@
       "bundleId": "com.almutafoq.iq.app"
     },
     {
-      "id": "app-1780484875312",
+      "id": "com.atebits.Tweetie2",
       "name": "X DL",
       "version": "12.15",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-dl_12.15",
@@ -3398,7 +3398,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-06-03T11:07:55.314Z",
-      "updatedAt": "2026-08-07T08:25:50.196Z",
+      "updatedAt": "2026-08-24T06:50:37.244Z",
       "toolVersion": "2.1.6",
       "previousVersions": [
         {
@@ -3406,7 +3406,8 @@
           "version": "11.96"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.atebits.Tweetie2"
     },
     {
       "id": "app-1780485059348",
