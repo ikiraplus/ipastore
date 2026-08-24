@@ -4838,7 +4838,7 @@
       "hidden": false
     },
     {
-      "id": "app-1784821281301",
+      "id": "com.google.ios.youtubeee",
       "name": "WolfTube",
       "version": "21.33.5",
       "toolVersion": "1.20",
@@ -4859,7 +4859,8 @@
       "category": "تواصل",
       "recommended": true,
       "addedAt": "2026-07-23T15:41:21.306Z",
-      "updatedAt": "2026-08-23T11:27:36.759Z"
+      "updatedAt": "2026-08-24T06:23:27.511Z",
+      "bundleId": "com.google.ios.youtubeee"
     },
     {
       "id": "com.kevin.pinatv",
