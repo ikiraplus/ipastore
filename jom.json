@@ -779,7 +779,7 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773509781841",
+      "id": "com.picsart.studio",
       "name": "picsart pro",
       "version": "30.6.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/picsart_ai_photo_editor-_video_v30.6.2_subscription_unlocked",
@@ -788,7 +788,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-21T08:25:52.625Z",
+      "updatedAt": "2026-08-24T06:21:51.888Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -800,7 +800,8 @@
           "version": "30.5.2"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.picsart.studio"
     },
     {
       "id": "app-1773546788287",
