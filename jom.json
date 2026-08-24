@@ -1356,7 +1356,7 @@
       "updatedAt": "2026-08-24T08:30:12.682Z"
     },
     {
-      "id": "app-1773574583186",
+      "id": "com.adobe.ailogo",
       "name": "Adobe Illustrator: Graphic Art (hacked)",
       "version": "3.0.10",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe-illustrator-graphic-art-hacked_v3010-1",
@@ -1365,7 +1365,8 @@
       "note": "",
       "bundleId": "com.adobe.ailogo",
       "category": "أدوات",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-08-24T09:04:12.892Z"
     },
     {
       "id": "com.virtualapplications.play",
