@@ -2209,7 +2209,7 @@
       "bundleId": "jp.ne.ibis.ibisPaintX"
     },
     {
-      "id": "app-iosgods-duolingo-142",
+      "id": "com.duolingo.DuolingoMobile",
       "name": "Duolingo",
       "version": "7.135.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duolingo_language_lessons_v7.135.1_duolingo_max_unlocked",
@@ -2218,7 +2218,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-12T17:17:19.736Z",
+      "updatedAt": "2026-08-24T06:48:42.011Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2230,7 +2230,8 @@
           "version": "7.134.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.duolingo.DuolingoMobile"
     },
     {
       "id": "com.imangi.templerun2",
