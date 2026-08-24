@@ -2383,7 +2383,7 @@
       "updatedAt": "2026-08-24T06:13:51.816Z"
     },
     {
-      "id": "app-1774779522423",
+      "id": "joker.app",
       "name": "الجوكر سبورت",
       "version": "1.0.40",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/joker-sport-mod2",
@@ -2392,10 +2392,11 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-21T07:51:16.714Z",
+      "updatedAt": "2026-08-24T06:20:14.282Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "joker.app"
     },
     {
       "id": "app-1774779365404",
