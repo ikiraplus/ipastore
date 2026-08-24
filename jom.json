@@ -2038,7 +2038,7 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-iosgods-fonts-2014",
+      "id": "fontskeyboard.fonts",
       "name": "Fonts",
       "version": "7.2.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fonts-yfalfudaak-1",
@@ -2046,7 +2046,9 @@
       "size": "70 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "أدوات",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "fontskeyboard.fonts",
+      "updatedAt": "2026-08-24T06:18:43.883Z"
     },
     {
       "id": "app-dropbox-fortnite-3940",
