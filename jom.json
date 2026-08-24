@@ -890,7 +890,7 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773511257862",
+      "id": "nya.asami.ksign",
       "name": "Ksign",
       "version": "1.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ksign-1",
@@ -898,7 +898,9 @@
       "size": "10.3 MB",
       "note": "",
       "category": "أخرى",
-      "addedAt": "2026-03-14"
+      "addedAt": "2026-03-14",
+      "bundleId": "nya.asami.ksign",
+      "updatedAt": "2026-08-24T06:14:28.961Z"
     },
     {
       "id": "app-1773509627631",
