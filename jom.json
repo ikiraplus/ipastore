@@ -618,7 +618,7 @@
       "updatedAt": "2026-04-27T18:06:06.087Z"
     },
     {
-      "id": "app-1777314281114",
+      "id": "com.hammerandchisel.discord",
       "name": "Discord KT",
       "version": "332.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord-kr-332.0",
@@ -627,7 +627,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:24:41.115Z",
-      "updatedAt": "2026-06-01T20:52:37.684Z"
+      "updatedAt": "2026-08-24T06:19:48.545Z",
+      "bundleId": "com.hammerandchisel.discord"
     },
     {
       "id": "app-1777314094685",
