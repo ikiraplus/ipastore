@@ -3731,7 +3731,7 @@
       "bundleId": "com.rovio.abcasual"
     },
     {
-      "id": "app-1781375497727",
+      "id": "com.rovio.angrybirdsfriends",
       "name": "angry birds friends",
       "version": "13.4.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-friends-1",
@@ -3740,7 +3740,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:31:40.082Z",
-      "updatedAt": "2026-06-13T18:31:40.082Z"
+      "updatedAt": "2026-08-24T06:47:06.713Z",
+      "bundleId": "com.rovio.angrybirdsfriends"
     },
     {
       "id": "com.imangi.templerun2",
