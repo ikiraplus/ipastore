@@ -7605,7 +7605,7 @@
       "updatedAt": "2026-08-21T10:49:59.703Z"
     },
     {
-      "id": "app-1787309453489",
+      "id": "com.gplexdb.musicplayeriphone",
       "name": "Rocket Video Cast",
       "version": "4.0",
       "toolVersion": "",
@@ -7617,7 +7617,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T10:50:53.490Z",
-      "updatedAt": "2026-08-21T10:50:53.490Z"
+      "updatedAt": "2026-08-24T06:17:11.070Z",
+      "bundleId": "com.gplexdb.musicplayeriphone"
     },
     {
       "id": "com.inasser.salaty",
