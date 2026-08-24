@@ -5740,7 +5740,7 @@
       "bundleId": "com.moox.app"
     },
     {
-      "id": "app-1786290398904",
+      "id": "com.photo.beautytuneapp",
       "name": "Facelab Face Body Editor",
       "version": "2.94",
       "toolVersion": "",
@@ -5752,7 +5752,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-09T15:46:38.906Z",
-      "updatedAt": "2026-08-09T15:46:38.906Z"
+      "updatedAt": "2026-08-24T06:53:56.308Z",
+      "bundleId": "com.photo.beautytuneapp"
     },
     {
       "id": "com.soundcloud.TouchApp",
