@@ -1696,7 +1696,7 @@
       "updatedAt": "2026-08-21T15:19:58.024Z"
     },
     {
-      "id": "app-game-ios-1711600000002",
+      "id": "com.popcap.ios.PvZ2",
       "name": "Plants vs. Zombies 2",
       "version": "2.998",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz-2.998",
@@ -1713,7 +1713,8 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-07-24T18:44:56.201Z"
+      "updatedAt": "2026-08-24T06:44:17.574Z",
+      "bundleId": "com.popcap.ios.PvZ2"
     },
     {
       "id": "app-game-ios-1711600000004",
