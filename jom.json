@@ -5698,7 +5698,7 @@
       "updatedAt": "2026-08-11T09:28:09.346Z"
     },
     {
-      "id": "app-1786440543470",
+      "id": "com.bbauman.Scripty",
       "name": "Coconote AI Note Taker",
       "version": "2.48",
       "toolVersion": "",
@@ -5710,7 +5710,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-11T09:29:03.471Z",
-      "updatedAt": "2026-08-11T09:29:03.471Z"
+      "updatedAt": "2026-08-24T06:17:45.057Z",
+      "bundleId": "com.bbauman.Scripty"
     },
     {
       "id": "app-1786480358177",
