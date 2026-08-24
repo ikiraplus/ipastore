@@ -8223,7 +8223,7 @@
       "bundleId": "com.trueaxis.skate"
     },
     {
-      "id": "app-1787381131455",
+      "id": "com.spaceapegames.carsuperstar",
       "name": "Chrome Valley Customs",
       "version": "35.0.0",
       "toolVersion": "",
@@ -8235,7 +8235,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:45:31.455Z",
-      "updatedAt": "2026-08-22T06:45:33.277Z"
+      "updatedAt": "2026-08-24T06:50:16.063Z",
+      "bundleId": "com.spaceapegames.carsuperstar"
     },
     {
       "id": "org.brandonplank.flappybird",
