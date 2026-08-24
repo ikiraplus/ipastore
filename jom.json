@@ -2713,7 +2713,7 @@
       "updatedAt": "2026-04-27T18:33:15.514Z"
     },
     {
-      "id": "app-1777315108415",
+      "id": "com.google.ios.youtube",
       "name": "Youtube OLED",
       "version": "20.49.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-oled-20.49.5",
@@ -2722,7 +2722,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-27T18:38:30.031Z",
-      "updatedAt": "2026-04-27T18:38:30.031Z"
+      "updatedAt": "2026-08-24T08:28:30.580Z",
+      "bundleId": "com.google.ios.youtube"
     },
     {
       "id": "com.google.ios.youtube",
