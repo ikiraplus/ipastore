@@ -7374,7 +7374,7 @@
       "updatedAt": "2026-08-21T08:00:23.299Z"
     },
     {
-      "id": "app-1787299352868",
+      "id": "com.niklas.fpsdefense",
       "name": "Infantry Attack",
       "version": "1.28.4",
       "toolVersion": "",
@@ -7386,7 +7386,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:02:35.338Z",
-      "updatedAt": "2026-08-21T08:02:35.338Z"
+      "updatedAt": "2026-08-24T06:51:14.561Z",
+      "bundleId": "com.niklas.fpsdefense"
     },
     {
       "id": "com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk",
