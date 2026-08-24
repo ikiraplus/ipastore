@@ -4754,7 +4754,7 @@
       "bundleId": "com.playrix.gardenscapes-sweethome"
     },
     {
-      "id": "app-1783755989007",
+      "id": "com.ss.iphone.ugc.Ame",
       "name": "TikTok Rust",
       "version": "46.4.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rusttiktok_46.4.0",
@@ -4763,7 +4763,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-11T07:46:29.007Z",
-      "updatedAt": "2026-08-17T08:13:55.760Z",
+      "updatedAt": "2026-08-24T08:30:29.044Z",
       "toolVersion": "5.0",
       "previousVersions": [
         {
@@ -4775,7 +4775,8 @@
           "version": "46.1.0"
         }
       ],
-      "recommended": true
+      "recommended": true,
+      "bundleId": "com.ss.iphone.ugc.Ame"
     },
     {
       "id": "com.cinee.trend",
