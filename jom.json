@@ -4843,7 +4843,7 @@
       "bundleId": "co.albox.cinema"
     },
     {
-      "id": "app-1784559089334",
+      "id": "com.burbn.instagram",
       "name": "RVX instagram",
       "version": "441.0.0",
       "toolVersion": "3.0",
@@ -4864,7 +4864,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-20T14:51:29.352Z",
-      "updatedAt": "2026-08-11T09:29:27.362Z"
+      "updatedAt": "2026-08-24T06:53:04.823Z",
+      "bundleId": "com.burbn.instagram"
     },
     {
       "id": "com.adobe.premiere.ios",
