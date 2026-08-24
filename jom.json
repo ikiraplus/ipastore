@@ -7720,7 +7720,7 @@
       "updatedAt": "2026-08-21T11:32:26.891Z"
     },
     {
-      "id": "app-1787311999751",
+      "id": "com.Turbo.vpn",
       "name": "Shadowx VPN",
       "version": "3.0.8",
       "toolVersion": "",
@@ -7732,7 +7732,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T11:33:19.751Z",
-      "updatedAt": "2026-08-21T11:33:19.751Z"
+      "updatedAt": "2026-08-24T06:14:19.804Z",
+      "bundleId": "com.Turbo.vpn"
     },
     {
       "id": "app-1787324405454",
