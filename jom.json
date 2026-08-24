@@ -7168,7 +7168,7 @@
       "bundleId": "io.supercent.beachamp2"
     },
     {
-      "id": "app-1787244989777",
+      "id": "com.football.soccer.league",
       "name": "Football 2026",
       "version": "1.6.3",
       "toolVersion": "",
@@ -7180,7 +7180,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:56:29.779Z",
-      "updatedAt": "2026-08-20T16:56:29.779Z"
+      "updatedAt": "2026-08-24T08:30:45.232Z",
+      "bundleId": "com.football.soccer.league"
     },
     {
       "id": "com.nekki.vector.iphone.free",
