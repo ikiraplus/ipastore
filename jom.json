@@ -5483,7 +5483,7 @@
       "bundleId": "com.daerigame.elemental"
     },
     {
-      "id": "app-1785684813203",
+      "id": "com.superpixel.undyinghero",
       "name": "Undying Hero",
       "version": "1.0.20",
       "toolVersion": "",
@@ -5495,7 +5495,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T15:33:33.203Z",
-      "updatedAt": "2026-08-02T15:33:33.203Z"
+      "updatedAt": "2026-08-24T08:30:26.392Z",
+      "bundleId": "com.superpixel.undyinghero"
     },
     {
       "id": "app-1785684849036",
