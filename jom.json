@@ -1147,7 +1147,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773497717716",
+      "id": "com.fingersoft.hillclimbracing",
       "name": "Hill Climb Racing",
       "version": "1.71.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-racing-v1.71.1",
@@ -1156,7 +1156,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-17T07:47:23.980Z",
+      "updatedAt": "2026-08-24T06:43:53.171Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1168,7 +1168,8 @@
           "version": "1.70.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.fingersoft.hillclimbracing"
     },
     {
       "id": "app-1773546829399",
