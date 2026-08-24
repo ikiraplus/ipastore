@@ -4786,7 +4786,7 @@
       "bundleId": "com.cinee.trend"
     },
     {
-      "id": "app-1783957839092",
+      "id": "com.zhiliaoapp.musically",
       "name": "TikTok dog",
       "version": "45.8.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tikdog_b~1-1",
@@ -4795,10 +4795,11 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-13T15:50:39.092Z",
-      "updatedAt": "2026-07-20T15:04:20.451Z",
+      "updatedAt": "2026-08-24T08:29:59.695Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "com.rumaisahassan.CineMap",
