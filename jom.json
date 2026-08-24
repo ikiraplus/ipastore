@@ -7158,7 +7158,7 @@
       "bundleId": "com.nekki.vector.iphone.free"
     },
     {
-      "id": "app-1787245108109",
+      "id": "com.nfg.lod.survival",
       "name": "Live Or Die 1",
       "version": "0.2.469",
       "toolVersion": "",
@@ -7170,7 +7170,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:58:28.111Z",
-      "updatedAt": "2026-08-20T16:58:28.111Z"
+      "updatedAt": "2026-08-24T06:53:19.826Z",
+      "bundleId": "com.nfg.lod.survival"
     },
     {
       "id": "sk.inlogic.footballministars",
