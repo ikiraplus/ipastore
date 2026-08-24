@@ -5180,7 +5180,7 @@
       "bundleId": "com.atebits.Tweetie2"
     },
     {
-      "id": "app-1785420985772",
+      "id": "co.detail.duo",
       "name": "Detail AI Video Editor",
       "version": "5.7.1",
       "toolVersion": "",
@@ -5197,7 +5197,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-07-30T14:16:25.773Z",
-      "updatedAt": "2026-08-06T07:05:17.502Z"
+      "updatedAt": "2026-08-24T06:50:32.829Z",
+      "bundleId": "co.detail.duo"
     },
     {
       "id": "com.mobile-softing.coinmaster",
