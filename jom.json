@@ -4535,7 +4535,7 @@
       "updatedAt": "2026-07-01T18:55:09.612Z"
     },
     {
-      "id": "app-1783131285163",
+      "id": "com.zhiliaoapp.musically",
       "name": "Tiktok Na",
       "version": "45.8.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok-na9.45.8.0",
@@ -4544,7 +4544,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-04T02:14:45.168Z",
-      "updatedAt": "2026-07-04T07:46:40.565Z"
+      "updatedAt": "2026-08-24T08:31:12.622Z",
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "com.kira.cinemanaa.x",
