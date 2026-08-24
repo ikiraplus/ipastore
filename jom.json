@@ -4191,7 +4191,7 @@
       "bundleId": "it.beatcode.clipboardpro"
     },
     {
-      "id": "app-1781882139582",
+      "id": "com.ilovepdf.www",
       "name": "ilove pdf",
       "version": "4.0.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ilovepdf_pdf_editor_-_scan_v4.0.4_premium_unlocked_patched",
@@ -4200,7 +4200,7 @@
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-06-19T15:15:39.583Z",
-      "updatedAt": "2026-08-06T07:01:11.576Z",
+      "updatedAt": "2026-08-24T06:43:56.421Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4208,7 +4208,8 @@
           "version": "4.0.2"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.ilovepdf.www"
     },
     {
       "id": "com.mobivio.cutecutpro",
