@@ -5464,7 +5464,7 @@
       "updatedAt": "2026-08-02T15:29:41.042Z"
     },
     {
-      "id": "app-1785684614701",
+      "id": "com.heliogames.a1",
       "name": "Westland Survival",
       "version": "12.0.1",
       "toolVersion": "",
@@ -5476,7 +5476,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T15:30:14.703Z",
-      "updatedAt": "2026-08-02T15:30:14.703Z"
+      "updatedAt": "2026-08-24T10:05:36.865Z",
+      "bundleId": "com.heliogames.a1"
     },
     {
       "id": "com.autumn.skullgirls",
