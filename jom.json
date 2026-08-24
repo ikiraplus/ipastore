@@ -1315,7 +1315,7 @@
       "addedAt": "2026-03-15"
     },
     {
-      "id": "app-1773574652583",
+      "id": "com.virtualapplications.play",
       "name": "Play!",
       "version": "1.58",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/play_v058-8-g70a126e3-1",
@@ -1324,7 +1324,8 @@
       "note": "",
       "category": "أخرى",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-04-27T07:29:06.862Z"
+      "updatedAt": "2026-08-24T06:14:41.479Z",
+      "bundleId": "com.virtualapplications.play"
     },
     {
       "id": "app-1773546879604",
