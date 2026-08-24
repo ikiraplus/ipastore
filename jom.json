@@ -5124,7 +5124,7 @@
       "updatedAt": "2026-08-06T07:05:17.502Z"
     },
     {
-      "id": "app-1785421328557",
+      "id": "com.mobile-softing.coinmaster",
       "name": "Coin Master",
       "version": "3.5.2651",
       "toolVersion": "",
@@ -5141,7 +5141,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-30T14:22:08.561Z",
-      "updatedAt": "2026-08-07T08:13:26.464Z"
+      "updatedAt": "2026-08-24T06:23:08.764Z",
+      "bundleId": "com.mobile-softing.coinmaster"
     },
     {
       "id": "app-1785421356260",
