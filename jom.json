@@ -2164,7 +2164,7 @@
       "bundleId": "com.spotify.client"
     },
     {
-      "id": "app-iosgods-sniper-3d-169",
+      "id": "com.fungames.sniper3d",
       "name": "Sniper 3D",
       "version": "4.45.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sniper-3d-gun-shooting-games-hack",
@@ -2172,7 +2172,9 @@
       "size": "406 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
-      "addedAt": "2026-03-29"
+      "addedAt": "2026-03-29",
+      "bundleId": "com.fungames.sniper3d",
+      "updatedAt": "2026-08-24T08:30:03.855Z"
     },
     {
       "id": "app-iosgods-gangstar-vegas-3543",
