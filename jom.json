@@ -2878,7 +2878,7 @@
       "bundleId": "com.yalla-shoot.Yalla"
     },
     {
-      "id": "app-1777920925565",
+      "id": "com.frontrow.vlog",
       "name": "VN video editor",
       "version": "2.18.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vn_photo_-_video_editor_v2.18.0_subscription_unlocked_patched",
@@ -2887,7 +2887,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-05-04T18:55:25.567Z",
-      "updatedAt": "2026-08-11T09:35:28.440Z",
+      "updatedAt": "2026-08-24T08:30:50.737Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2895,7 +2895,8 @@
           "version": "2.5.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.frontrow.vlog"
     },
     {
       "id": "com.hassantaleb.mockup",
