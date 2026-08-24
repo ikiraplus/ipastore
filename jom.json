@@ -5814,7 +5814,7 @@
       "updatedAt": "2026-08-12T03:10:16.631Z"
     },
     {
-      "id": "app-1786504243148",
+      "id": "com.firecore.infuse",
       "name": "Infuse Plus",
       "version": "8.5.1",
       "toolVersion": "",
@@ -5826,7 +5826,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-12T03:10:43.149Z",
-      "updatedAt": "2026-08-12T03:10:43.149Z"
+      "updatedAt": "2026-08-24T06:43:11.081Z",
+      "bundleId": "com.firecore.infuse"
     },
     {
       "id": "com.joytunes.Draw",
