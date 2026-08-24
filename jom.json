@@ -6360,7 +6360,7 @@
       "bundleId": "com.games2win.ultimatebusdriver"
     },
     {
-      "id": "app-1787223901132",
+      "id": "com.wild.dino.hunt.animal.hunt",
       "name": "Animal Shooting 2024 Gun Games",
       "version": "1.10",
       "toolVersion": "",
@@ -6372,7 +6372,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:05:01.133Z",
-      "updatedAt": "2026-08-20T11:05:01.133Z"
+      "updatedAt": "2026-08-24T06:45:21.226Z",
+      "bundleId": "com.wild.dino.hunt.animal.hunt"
     },
     {
       "id": "app-1787223921717",
