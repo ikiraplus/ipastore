@@ -6869,7 +6869,7 @@
       "updatedAt": "2026-08-20T16:36:57.079Z"
     },
     {
-      "id": "app-1787243890289",
+      "id": "com.avecreation.drivingzoneoffroadlite",
       "name": "Driving Zone Offroad Lite",
       "version": "1.004",
       "toolVersion": "",
@@ -6881,7 +6881,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:38:10.291Z",
-      "updatedAt": "2026-08-20T16:38:10.291Z"
+      "updatedAt": "2026-08-24T06:51:41.724Z",
+      "bundleId": "com.avecreation.drivingzoneoffroadlite"
     },
     {
       "id": "com.sega.streetsofrage2",
