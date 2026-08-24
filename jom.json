@@ -7757,7 +7757,7 @@
       "bundleId": "com.playdeadgames.limbo.ios"
     },
     {
-      "id": "app-1787300126019",
+      "id": "com.FireproofStudios.TheRoom3",
       "name": "The Room Three",
       "version": "1.0.3",
       "toolVersion": "",
@@ -7769,7 +7769,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:15:26.021Z",
-      "updatedAt": "2026-08-21T08:15:26.021Z"
+      "updatedAt": "2026-08-24T09:28:00.582Z",
+      "bundleId": "com.FireproofStudios.TheRoom3"
     },
     {
       "id": "com.square-enix.chronotrigger",
