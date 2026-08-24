@@ -4982,7 +4982,7 @@
       "updatedAt": "2026-07-26T14:28:16.356Z"
     },
     {
-      "id": "app-1785143019976",
+      "id": "com.meitu.wink",
       "name": "Wink",
       "version": "3.7.0",
       "toolVersion": "",
@@ -4994,7 +4994,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-07-27T09:03:39.976Z",
-      "updatedAt": "2026-07-27T09:03:39.976Z"
+      "updatedAt": "2026-08-24T06:22:38.831Z",
+      "bundleId": "com.meitu.wink"
     },
     {
       "id": "app-1785143412687",
