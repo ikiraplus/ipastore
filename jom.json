@@ -5768,7 +5768,7 @@
       "updatedAt": "2026-08-09T16:01:18.107Z"
     },
     {
-      "id": "app-1786291459843",
+      "id": "com.dreamplay.legendofwitch.apple",
       "name": "Legend Of Witch",
       "version": "1.05",
       "toolVersion": "",
@@ -5780,7 +5780,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-09T16:04:19.844Z",
-      "updatedAt": "2026-08-09T16:04:39.469Z"
+      "updatedAt": "2026-08-24T06:46:00.543Z",
+      "bundleId": "com.dreamplay.legendofwitch.apple"
     },
     {
       "id": "app-1786382962069",
