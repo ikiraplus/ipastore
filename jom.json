@@ -5009,7 +5009,7 @@
       "updatedAt": "2026-07-25T11:41:27.786Z"
     },
     {
-      "id": "app-1785054491924",
+      "id": "com.freenotes.freenotes",
       "name": "Freenotes Pro",
       "version": "3.33.1",
       "toolVersion": "",
@@ -5021,7 +5021,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-07-26T08:28:11.931Z",
-      "updatedAt": "2026-07-26T08:28:11.931Z"
+      "updatedAt": "2026-08-24T06:48:00.875Z",
+      "bundleId": "com.freenotes.freenotes"
     },
     {
       "id": "com.rahiazathar.animequest",
