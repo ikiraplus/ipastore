@@ -7953,7 +7953,7 @@
       "updatedAt": "2026-08-22T06:45:33.277Z"
     },
     {
-      "id": "app-1787381154145",
+      "id": "org.brandonplank.flappybird",
       "name": "Flappybird",
       "version": "4.3.0",
       "toolVersion": "",
@@ -7965,7 +7965,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:45:54.145Z",
-      "updatedAt": "2026-08-22T06:45:56.679Z"
+      "updatedAt": "2026-08-24T06:13:47.086Z",
+      "bundleId": "org.brandonplank.flappybird"
     },
     {
       "id": "app-1787381250319",
