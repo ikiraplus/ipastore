@@ -7480,7 +7480,7 @@
       "bundleId": "com.kingsofgames.chessuniverseplus"
     },
     {
-      "id": "app-1787299561256",
+      "id": "com.zeptolab.ctr3",
       "name": "Cut The Rope 3",
       "version": "1.6.0",
       "toolVersion": "",
@@ -7492,7 +7492,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:06:01.258Z",
-      "updatedAt": "2026-08-21T08:06:01.258Z"
+      "updatedAt": "2026-08-24T06:52:57.240Z",
+      "bundleId": "com.zeptolab.ctr3"
     },
     {
       "id": "app-1787299587546",
