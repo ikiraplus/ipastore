@@ -4452,7 +4452,7 @@
       "hidden": false
     },
     {
-      "id": "app-1783541492552",
+      "id": "com.qissateshqplus.ikiraplus",
       "name": "قصة عشق - قرمزي",
       "version": "1.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/qsa-ashq",
@@ -4461,8 +4461,9 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-07-08T20:11:34.552Z",
-      "updatedAt": "2026-07-08T20:11:34.552Z",
-      "hidden": false
+      "updatedAt": "2026-08-24T06:13:42.106Z",
+      "hidden": false,
+      "bundleId": "com.qissateshqplus.ikiraplus"
     },
     {
       "id": "app-1783610012436",
