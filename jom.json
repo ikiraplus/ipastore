@@ -6691,7 +6691,7 @@
       "updatedAt": "2026-08-20T16:10:16.966Z"
     },
     {
-      "id": "app-1787242566716",
+      "id": "com.venturesis.lastwave",
       "name": "Last Wave Shooting Game",
       "version": "1.9.2",
       "toolVersion": "",
@@ -6703,7 +6703,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:16:06.717Z",
-      "updatedAt": "2026-08-20T16:16:06.717Z"
+      "updatedAt": "2026-08-24T06:52:29.950Z",
+      "bundleId": "com.venturesis.lastwave"
     },
     {
       "id": "app-1787243112094",
