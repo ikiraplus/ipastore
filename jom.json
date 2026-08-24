@@ -3479,7 +3479,7 @@
       "updatedAt": "2026-06-10T17:21:58.741Z"
     },
     {
-      "id": "app-1781113230161",
+      "id": "com.example.sevenscore",
       "name": "SevenScore",
       "version": "1.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sevenscore",
@@ -3488,7 +3488,8 @@
       "note": "كود التفعيل: 22466",
       "category": "ترفيه",
       "addedAt": "2026-06-10T17:40:30.162Z",
-      "updatedAt": "2026-06-10T17:40:30.162Z"
+      "updatedAt": "2026-08-24T06:42:51.128Z",
+      "bundleId": "com.example.sevenscore"
     },
     {
       "id": "app-1781336010869",
