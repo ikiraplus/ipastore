@@ -7046,7 +7046,7 @@
       "updatedAt": "2026-08-20T16:45:44.663Z"
     },
     {
-      "id": "app-1787244399344",
+      "id": "com.sensusgames.powerzone",
       "name": "Power Zone Battle Royale",
       "version": "1.7.30",
       "toolVersion": "",
@@ -7058,7 +7058,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:46:39.346Z",
-      "updatedAt": "2026-08-20T16:46:39.346Z"
+      "updatedAt": "2026-08-24T08:31:23.032Z",
+      "bundleId": "com.sensusgames.powerzone"
     },
     {
       "id": "com.realdrift.sipon",
