@@ -4154,7 +4154,7 @@
       "recommended": false
     },
     {
-      "id": "app-1781882229071",
+      "id": "com.mobivio.cutecutpro",
       "name": "cute cut pro",
       "version": "2.4.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cute-cut-pro-v2.4.4",
@@ -4163,7 +4163,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T15:17:09.071Z",
-      "updatedAt": "2026-08-19T13:22:35.561Z",
+      "updatedAt": "2026-08-24T06:18:18.362Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -4171,7 +4171,8 @@
           "version": "2.3.9"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.mobivio.cutecutpro"
     },
     {
       "id": "app-1782927901147",
