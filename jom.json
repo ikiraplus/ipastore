@@ -4105,7 +4105,7 @@
       "updatedAt": "2026-06-16T21:49:01.964Z"
     },
     {
-      "id": "app-1781879041560",
+      "id": "ai.verba.ios",
       "name": "verba auto captions for video",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/verba-auto-captions-for-video",
@@ -4114,7 +4114,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T14:24:01.561Z",
-      "updatedAt": "2026-06-19T14:24:01.561Z"
+      "updatedAt": "2026-08-24T06:52:11.231Z",
+      "bundleId": "ai.verba.ios"
     },
     {
       "id": "localhost.lunar",
