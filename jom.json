@@ -7851,7 +7851,7 @@
       "bundleId": "com.inasser.salaty"
     },
     {
-      "id": "app-1787309583082",
+      "id": "com.HSSN.VisAnatomy",
       "name": "Visual Anatomy",
       "version": "7.1",
       "toolVersion": "",
@@ -7863,7 +7863,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-21T10:53:03.083Z",
-      "updatedAt": "2026-08-21T10:53:03.083Z"
+      "updatedAt": "2026-08-24T06:50:59.765Z",
+      "bundleId": "com.HSSN.VisAnatomy"
     },
     {
       "id": "app-1787309730473",
