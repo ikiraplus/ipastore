@@ -7645,7 +7645,7 @@
       "updatedAt": "2026-08-21T08:13:26.824Z"
     },
     {
-      "id": "app-1787300044572",
+      "id": "com.FireproofStudios.TheRoom2",
       "name": "The Room Two",
       "version": "1.0.5",
       "toolVersion": "",
@@ -7657,7 +7657,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:14:04.572Z",
-      "updatedAt": "2026-08-21T08:14:04.572Z"
+      "updatedAt": "2026-08-24T06:52:40.216Z",
+      "bundleId": "com.FireproofStudios.TheRoom2"
     },
     {
       "id": "com.playdeadgames.limbo.ios",
