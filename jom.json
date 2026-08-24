@@ -4347,7 +4347,7 @@
       "updatedAt": "2026-07-01T17:49:44.480Z"
     },
     {
-      "id": "app-1782928316065",
+      "id": "com.halfbrick.aeroracer",
       "name": "Jetpack Joyride Racing",
       "version": "1.1.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jj-racing-1.1.4",
@@ -4356,7 +4356,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:51:56.066Z",
-      "updatedAt": "2026-07-01T17:51:56.066Z"
+      "updatedAt": "2026-08-24T06:53:12.606Z",
+      "bundleId": "com.halfbrick.aeroracer"
     },
     {
       "id": "app-1782928472029",
