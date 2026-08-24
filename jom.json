@@ -6290,7 +6290,7 @@
       "bundleId": "com.ea.pvzfree.bv"
     },
     {
-      "id": "app-1786953711702",
+      "id": "com.JESoftware.LastHopeSniper3",
       "name": "Zombie Sniper War 3",
       "version": "2.1",
       "toolVersion": "",
@@ -6302,7 +6302,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T08:01:51.703Z",
-      "updatedAt": "2026-08-17T08:02:32.663Z"
+      "updatedAt": "2026-08-24T10:19:31.810Z",
+      "bundleId": "com.JESoftware.LastHopeSniper3"
     },
     {
       "id": "com.FirstPickStudios.Endless-Wander",
