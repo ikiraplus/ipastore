@@ -8602,6 +8602,21 @@
       "recommended": false,
       "addedAt": "2026-08-24T05:38:02.966Z",
       "updatedAt": "2026-08-24T05:38:04.572Z"
+    },
+    {
+      "id": "app-1787549907822",
+      "name": "Anima Arpg",
+      "version": "2.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anima_arpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/de/6d/eade6df9-4602-264b-42af-8364bb8dcea1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1229.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-24T05:38:27.822Z",
+      "updatedAt": "2026-08-24T05:38:28.888Z"
     }
   ]
 }
