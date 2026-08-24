@@ -5942,7 +5942,7 @@
       "bundleId": "night.ntv1.iQTv"
     },
     {
-      "id": "app-1786952871668",
+      "id": "com.financeillustrated.TradingGame",
       "name": "Trading Game Stock Simulator",
       "version": "4.82",
       "toolVersion": "",
@@ -5954,7 +5954,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T07:47:51.669Z",
-      "updatedAt": "2026-08-17T07:47:51.669Z"
+      "updatedAt": "2026-08-24T06:16:10.038Z",
+      "bundleId": "com.financeillustrated.TradingGame"
     },
     {
       "id": "app-1786953129617",
