@@ -8646,7 +8646,7 @@
       "updatedAt": "2026-08-22T07:17:16.427Z"
     },
     {
-      "id": "app-1787384037034",
+      "id": "com.oxvgames.dicelords",
       "name": "Dice Lords",
       "version": "1.7.6",
       "toolVersion": "",
@@ -8658,7 +8658,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:33:57.034Z",
-      "updatedAt": "2026-08-22T07:33:58.019Z"
+      "updatedAt": "2026-08-24T06:47:33.722Z",
+      "bundleId": "com.oxvgames.dicelords"
     },
     {
       "id": "app-1787384066087",
