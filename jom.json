@@ -1129,7 +1129,7 @@
       "addedAt": "2026-03-29"
     },
     {
-      "id": "app-1773546764372",
+      "id": "com.supercell.scroll",
       "name": "Clash Royale - nulls royal",
       "version": "15.535.13",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clash-royale-hack",
@@ -1138,11 +1138,11 @@
       "note": "التطبيق آمن، ويمكنك حفظ تقدمك عن طريق تسجيل الدخول",
       "category": "ألعاب",
       "addedAt": "2026-04-07",
-      "updatedAt": "2026-08-24T10:09:57.193Z",
+      "updatedAt": "2026-08-24T13:20:40.310Z",
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "com.supercell.scroll"
     },
     {
       "id": "com.supercell.magic",
@@ -1410,7 +1410,7 @@
       "bundleId": "com.gloop.deltamobile"
     },
     {
-      "id": "app-game-ios-1711600000000",
+      "id": "com.mojang.minecraftpreview",
       "name": "Minecraft",
       "version": "1.26.50",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/minecraft_withlogin_1.26.50",
@@ -1419,7 +1419,7 @@
       "note": "تطبيق معدل، ويدعم تسجيل الدخول عبر حساب Xbox",
       "category": "ألعاب",
       "addedAt": "2026-03-28",
-      "updatedAt": "2026-08-17T08:14:23.306Z",
+      "updatedAt": "2026-08-24T13:20:40.310Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1431,10 +1431,11 @@
           "version": "1.26.40"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.mojang.minecraftpreview"
     },
     {
-      "id": "app-1773546905045",
+      "id": "nt.nb.ios",
       "name": "Brawl Stars - Null's Brawl",
       "version": "65.165",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/null's-brawl-66.293",
@@ -1446,8 +1447,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-24T10:22:43.435Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "nt.nb.ios"
     },
     {
       "id": "com.scottgames.fivenights",
@@ -1746,7 +1747,7 @@
       "bundleId": "com.popcap.ios.PvZ2"
     },
     {
-      "id": "app-game-ios-1711600000004",
+      "id": "com.innersloth.amongus",
       "name": "Among Us",
       "version": "2026.6.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/among-us-2026.6.5",
@@ -1755,7 +1756,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T10:10:32.877Z",
+      "updatedAt": "2026-08-24T13:20:40.310Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1764,10 +1765,10 @@
         }
       ],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "com.innersloth.amongus"
     },
     {
-      "id": "app-game-ios-1711600000005",
+      "id": "jp.co.bandainamcogames.BNGI0221",
       "name": "Dragon Ball Z Dokkan Battle",
       "version": "5.23.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dragon-ball-pro",
@@ -1776,11 +1777,11 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "bundleId": "",
-      "updatedAt": "2026-08-24T10:18:13.792Z"
+      "bundleId": "jp.co.bandainamcogames.BNGI0221",
+      "updatedAt": "2026-08-24T13:20:40.310Z"
     },
     {
-      "id": "app-game-ios-1711600000006",
+      "id": "com.dts.freefiremaxs",
       "name": "Garena Free Fire",
       "version": "1.130",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/free-fire-hack-v1.130",
@@ -1789,7 +1790,7 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T10:23:26.604Z",
+      "updatedAt": "2026-08-24T13:20:40.310Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1798,7 +1799,7 @@
         }
       ],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "com.dts.freefiremaxs"
     },
     {
       "id": "app-game-ios-1711600000007",
@@ -1821,7 +1822,7 @@
       "updatedAt": "2026-07-23T13:08:47.835Z"
     },
     {
-      "id": "app-game-ios-1711600000008",
+      "id": "com.ea.nfs13.inc",
       "name": "Need for Speed Most Wanted",
       "version": "1.3.128",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/need-for-speed-most-wanted-hack-8hzmi6jrpm-1",
@@ -1830,8 +1831,8 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "bundleId": "",
-      "updatedAt": "2026-08-24T10:32:45.496Z"
+      "bundleId": "com.ea.nfs13.inc",
+      "updatedAt": "2026-08-24T13:20:40.310Z"
     },
     {
       "id": "com.nekki.shadowfight3",
@@ -3007,7 +3008,7 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
-      "id": "app-1778256708111",
+      "id": "com.dualcarbon.bigrigstruckadventure",
       "name": "truck simulator big rigs",
       "version": "1.6.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/truck-simulator-big-rigs-1.6.3",
@@ -3016,7 +3017,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:11:48.113Z",
-      "updatedAt": "2026-08-24T10:08:02.640Z",
+      "updatedAt": "2026-08-24T13:20:40.310Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3025,7 +3026,7 @@
         }
       ],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "com.dualcarbon.bigrigstruckadventure"
     },
     {
       "id": "app-1778256761769",
@@ -3344,7 +3345,7 @@
       "updatedAt": "2026-06-01T19:04:34.754Z"
     },
     {
-      "id": "app-1780340781598",
+      "id": "com.AlfaBravo.WorldWarLegion",
       "name": "world war 2 legion",
       "version": "0.3.31",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-war-legion-0.3.31",
@@ -3353,8 +3354,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:06:21.599Z",
-      "updatedAt": "2026-08-24T10:29:28.153Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.AlfaBravo.WorldWarLegion"
     },
     {
       "id": "com.wejoy.weplay.us",
@@ -3520,7 +3521,7 @@
       "bundleId": "jp.co.capcom.RE4US"
     },
     {
-      "id": "app-1780485314936",
+      "id": "jp.co.capcom.RE7US",
       "name": "Resident evil 7 Biohazard",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-7-biohazard",
@@ -3529,8 +3530,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:15:14.939Z",
-      "updatedAt": "2026-08-24T10:24:56.628Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "jp.co.capcom.RE7US"
     },
     {
       "id": "com.dr1ven.eraser",
@@ -4125,7 +4126,7 @@
       "bundleId": "io.veed.appstore"
     },
     {
-      "id": "app-1781646325971",
+      "id": "au.com.savageinteractive.procreate",
       "name": "procreate",
       "version": "5.4.9",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/procreate-5.4.9",
@@ -4134,8 +4135,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-16T21:45:25.972Z",
-      "updatedAt": "2026-08-24T10:21:30.001Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "au.com.savageinteractive.procreate"
     },
     {
       "id": "app-1781646375819",
@@ -4574,7 +4575,7 @@
       "bundleId": "com.hathiphuonglinh.clickerapp"
     },
     {
-      "id": "app-1782932109611",
+      "id": "com.billionairegames.serares",
       "name": "legend of avatar",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/legend-of-avatar",
@@ -4583,8 +4584,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-01T18:55:09.612Z",
-      "updatedAt": "2026-08-24T10:25:32.107Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.billionairegames.serares"
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -5443,7 +5444,7 @@
       "bundleId": "com.GentleManiac.HorizonWalkerApple"
     },
     {
-      "id": "app-1785677489859",
+      "id": "com.oppanagames.car.simulator",
       "name": "Car Simulator 2",
       "version": "1.63.2",
       "toolVersion": "",
@@ -5455,8 +5456,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T13:31:29.862Z",
-      "updatedAt": "2026-08-24T10:27:23.360Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.oppanagames.car.simulator"
     },
     {
       "id": "com.google.ios.youtubemusic",
@@ -7056,7 +7057,7 @@
       "bundleId": "com.sega.StreetsOfRage"
     },
     {
-      "id": "app-1787244132013",
+      "id": "com.505games.brothers",
       "name": "Brothers",
       "version": "1.7.2",
       "toolVersion": "",
@@ -7068,8 +7069,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:42:12.015Z",
-      "updatedAt": "2026-08-24T10:28:52.744Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.505games.brothers"
     },
     {
       "id": "com.atomicplayapps.swordhero",
@@ -7312,7 +7313,7 @@
       "bundleId": "sk.inlogic.footballministars"
     },
     {
-      "id": "app-1787298700823",
+      "id": "com.tegra.magic.craft.survival",
       "name": "Tegra Zombie Survival Island",
       "version": "1.96",
       "toolVersion": "",
@@ -7324,8 +7325,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:51:40.824Z",
-      "updatedAt": "2026-08-24T10:13:07.747Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.tegra.magic.craft.survival"
     },
     {
       "id": "com.ondi.shadow.rival",
@@ -7632,7 +7633,7 @@
       "bundleId": "com.zeptolab.ctr3"
     },
     {
-      "id": "app-1787299587546",
+      "id": "adventure.party.real.life",
       "name": "Sunday City Sim Life",
       "version": "1.10",
       "toolVersion": "",
@@ -7644,8 +7645,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:06:27.547Z",
-      "updatedAt": "2026-08-24T10:17:01.712Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "adventure.party.real.life"
     },
     {
       "id": "com.marmalade.monopoly",
@@ -7728,7 +7729,7 @@
       "bundleId": "com.hipsterwhale.crossy"
     },
     {
-      "id": "app-1787299895229",
+      "id": "com.direlight.grimvalor",
       "name": "Grimvalor",
       "version": "1.2.4",
       "toolVersion": "",
@@ -7740,8 +7741,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:11:35.230Z",
-      "updatedAt": "2026-08-24T10:07:29.138Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.309Z",
+      "bundleId": "com.direlight.grimvalor"
     },
     {
       "id": "com.ustwo.monumentvalley",
@@ -8287,7 +8288,7 @@
       "bundleId": "es.socialpoint.MonsterCity"
     },
     {
-      "id": "app-1787325286821",
+      "id": "com.farlightgames.igame.ios",
       "name": "Afk Journey",
       "version": "1.7.31",
       "toolVersion": "",
@@ -8299,8 +8300,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:14:46.821Z",
-      "updatedAt": "2026-08-24T10:15:46.332Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.farlightgames.igame.ios"
     },
     {
       "id": "com.zombie.slasher",
@@ -8532,7 +8533,7 @@
       "bundleId": "jp.co.applibot.HelloKittyMerchMatch"
     },
     {
-      "id": "app-1787381371689",
+      "id": "com.stratospheregames.The.Kingdom.Medieval.Tales.Strategy.Building.Games",
       "name": "The Kingdom Medieval Tales",
       "version": "1.1.2.2",
       "toolVersion": "",
@@ -8544,8 +8545,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:49:31.689Z",
-      "updatedAt": "2026-08-24T10:22:05.798Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.stratospheregames.The.Kingdom.Medieval.Tales.Strategy.Building.Games"
     },
     {
       "id": "com.spaceshooter.fighterforce",
@@ -8659,7 +8660,7 @@
       "bundleId": "com.touch2goal.soccer"
     },
     {
-      "id": "app-1787381913206",
+      "id": "com.midnightgames.mudness2",
       "name": "Mudness 2 Offroad Car",
       "version": "1.0.4",
       "toolVersion": "",
@@ -8671,8 +8672,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:58:33.206Z",
-      "updatedAt": "2026-08-24T10:12:30.864Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.midnightgames.mudness2"
     },
     {
       "id": "com.ohbibi.fps",
@@ -8723,7 +8724,7 @@
       "bundleId": "com.tapblaze.pizzabusiness"
     },
     {
-      "id": "app-1787382058106",
+      "id": "com.tiltingpoint.sbadventures",
       "name": "Spongebob Adventures In A Jam",
       "version": "2.34.0",
       "toolVersion": "",
@@ -8735,8 +8736,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:00:58.106Z",
-      "updatedAt": "2026-08-24T10:17:38.722Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.tiltingpoint.sbadventures"
     },
     {
       "id": "com.RoadburnGames.Gumball",
@@ -8867,7 +8868,7 @@
       "bundleId": "com.hhimhira.magicka"
     },
     {
-      "id": "app-1787383008660",
+      "id": "com.dogbytegames.OtrNext",
       "name": "OTR 2 - Off The Road",
       "version": "1.2.1",
       "toolVersion": "",
@@ -8879,8 +8880,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:16:48.660Z",
-      "updatedAt": "2026-08-24T10:20:12.334Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.dogbytegames.OtrNext"
     },
     {
       "id": "com.frontierdesign.videostar",
@@ -9010,7 +9011,7 @@
       "bundleId": "com.auxbrain.egginc"
     },
     {
-      "id": "app-1787483805684",
+      "id": "com.tocaboca.tocalifeworld",
       "name": "Toca World",
       "version": "1.137.1",
       "toolVersion": "",
@@ -9022,8 +9023,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-23T11:16:45.684Z",
-      "updatedAt": "2026-08-24T10:11:04.729Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "bundleId": "com.tocaboca.tocalifeworld"
     },
     {
       "id": "com.deviloper.car.empire.idle.tycoon",
