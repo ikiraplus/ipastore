@@ -7551,7 +7551,7 @@
       "bundleId": "com.halfbrick.jetpack"
     },
     {
-      "id": "app-1787299750566",
+      "id": "com.glu.flcn",
       "name": "D-Day",
       "version": "3.0.6",
       "toolVersion": "",
@@ -7563,7 +7563,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:09:10.566Z",
-      "updatedAt": "2026-08-21T08:09:10.566Z"
+      "updatedAt": "2026-08-24T06:53:34.548Z",
+      "bundleId": "com.glu.flcn"
     },
     {
       "id": "com.ilyondynamics.bubbleShooterClassic",
