@@ -2953,7 +2953,7 @@
       "bundleId": "com.nekki.shadowfightarena"
     },
     {
-      "id": "app-1778256453060",
+      "id": "com.zhiliaoapp.musically",
       "name": "TikTok AC",
       "version": "45.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/actiktok-45.0.0",
@@ -2962,7 +2962,8 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-05-08T16:07:33.061Z",
-      "updatedAt": "2026-05-08T16:07:33.061Z"
+      "updatedAt": "2026-08-24T08:29:44.279Z",
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "com.zhiliaoapp.musically",
