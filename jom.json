@@ -7499,7 +7499,7 @@
       "bundleId": "com.countdown.for.all.app"
     },
     {
-      "id": "app-1787309147733",
+      "id": "com.alik472.ai-aging-app",
       "name": "AI Aging App",
       "version": "6.0.0",
       "toolVersion": "",
@@ -7511,7 +7511,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T10:45:47.735Z",
-      "updatedAt": "2026-08-21T10:45:47.735Z"
+      "updatedAt": "2026-08-24T06:15:10.991Z",
+      "bundleId": "com.alik472.ai-aging-app"
     },
     {
       "id": "app-1787309200947",
