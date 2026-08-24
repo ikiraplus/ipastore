@@ -5793,7 +5793,7 @@
       "updatedAt": "2026-08-12T03:11:10.926Z"
     },
     {
-      "id": "app-1786529432891",
+      "id": "com.rainystaion.app",
       "name": "Rainy Station",
       "version": "1.0.1",
       "toolVersion": "",
@@ -5805,7 +5805,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T10:10:32.893Z",
-      "updatedAt": "2026-08-12T10:10:32.893Z"
+      "updatedAt": "2026-08-24T06:19:28.696Z",
+      "bundleId": "com.rainystaion.app"
     },
     {
       "id": "app-1786529488161",
