@@ -4307,7 +4307,7 @@
       "recommended": false
     },
     {
-      "id": "app-1782931474215",
+      "id": "com.hathiphuonglinh.clickerapp",
       "name": "auto clicker",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/auto-clicker",
@@ -4316,7 +4316,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-07-01T18:44:34.216Z",
-      "updatedAt": "2026-07-01T18:44:34.216Z"
+      "updatedAt": "2026-08-24T06:14:23.042Z",
+      "bundleId": "com.hathiphuonglinh.clickerapp"
     },
     {
       "id": "app-1782932109611",
