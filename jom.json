@@ -5043,7 +5043,7 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "app-1784919300443",
+      "id": "com.pandagaming.armada",
       "name": "Armada",
       "version": "3.9.0",
       "toolVersion": "",
@@ -5055,7 +5055,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-24T18:55:00.449Z",
-      "updatedAt": "2026-07-24T18:55:00.449Z"
+      "updatedAt": "2026-08-24T09:04:27.275Z",
+      "bundleId": "com.pandagaming.armada"
     },
     {
       "id": "com.blockpuzzle.us.ios",
