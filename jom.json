@@ -6207,7 +6207,7 @@
       "bundleId": "com.djitlabs.pixelcolor"
     },
     {
-      "id": "app-1787145165795",
+      "id": "com.footballaddicts.livescoreaddicts",
       "name": "Forza Football Live Scores",
       "version": "7.0.11",
       "toolVersion": "",
@@ -6219,7 +6219,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-19T13:12:45.795Z",
-      "updatedAt": "2026-08-19T13:12:45.795Z"
+      "updatedAt": "2026-08-24T06:23:41.216Z",
+      "bundleId": "com.footballaddicts.livescoreaddicts"
     },
     {
       "id": "app-1787145546101",
