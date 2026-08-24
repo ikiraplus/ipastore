@@ -3785,7 +3785,7 @@
       "bundleId": "com.rovio.angrybirdstransformers"
     },
     {
-      "id": "app-1781375355051",
+      "id": "com.rovio.baba",
       "name": "angry birds 2",
       "version": "10.0.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2",
@@ -3794,7 +3794,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:29:15.052Z",
-      "updatedAt": "2026-06-13T18:29:15.052Z"
+      "updatedAt": "2026-08-24T09:29:29.919Z",
+      "bundleId": "com.rovio.baba"
     },
     {
       "id": "com.rovio.abcasual",
