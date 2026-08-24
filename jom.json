@@ -8565,7 +8565,7 @@
       "bundleId": "com.fungames.battleroyale"
     },
     {
-      "id": "app-1787382024740",
+      "id": "com.tapblaze.pizzabusiness",
       "name": "Good Pizza Great Pizza",
       "version": "5.53.0",
       "toolVersion": "",
@@ -8577,7 +8577,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:00:24.740Z",
-      "updatedAt": "2026-08-22T07:00:25.657Z"
+      "updatedAt": "2026-08-24T06:53:49.222Z",
+      "bundleId": "com.tapblaze.pizzabusiness"
     },
     {
       "id": "app-1787382058106",
