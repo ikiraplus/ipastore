@@ -1003,7 +1003,7 @@
       "addedAt": "2026-03-14"
     },
     {
-      "id": "app-1773546872464",
+      "id": "com.miniclip.8ballpoolmult",
       "name": "8ball-pool hack1",
       "version": "56.27.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/8ballpool-hack-v56.27.0",
@@ -1012,7 +1012,7 @@
       "note": "لا تستخدم حسابك الأساسي\nاستخدام هذا التطبيق على مسؤوليتك الخاصة، ولا نضمن اللعبة ولا نعرف الجهة المطورة لها",
       "category": "ألعاب",
       "addedAt": "2026-04-05",
-      "updatedAt": "2026-08-06T07:22:58.171Z",
+      "updatedAt": "2026-08-24T06:20:38.944Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -1024,7 +1024,8 @@
           "version": "56.26.1"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.miniclip.8ballpoolmult"
     },
     {
       "id": "app-1774774281798",
