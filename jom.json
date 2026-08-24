@@ -7240,7 +7240,7 @@
       "updatedAt": "2026-08-21T08:04:15.405Z"
     },
     {
-      "id": "app-1787299476952",
+      "id": "com.zeptolab.ctrexperiments",
       "name": "Cut The Rope Experiments Gold",
       "version": "1.13.0",
       "toolVersion": "",
@@ -7252,7 +7252,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:04:36.953Z",
-      "updatedAt": "2026-08-21T08:04:36.953Z"
+      "updatedAt": "2026-08-24T06:19:03.832Z",
+      "bundleId": "com.zeptolab.ctrexperiments"
     },
     {
       "id": "app-1787299513017",
