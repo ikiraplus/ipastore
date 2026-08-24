@@ -7222,7 +7222,7 @@
       "bundleId": "com.nostellar.ghostslayer2"
     },
     {
-      "id": "app-1787299054848",
+      "id": "com.bc23.traffic.car.driving.city.game3D",
       "name": "Traffic Driving",
       "version": "1.2.0",
       "toolVersion": "",
@@ -7234,7 +7234,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:57:34.848Z",
-      "updatedAt": "2026-08-21T07:57:34.848Z"
+      "updatedAt": "2026-08-24T06:46:12.314Z",
+      "bundleId": "com.bc23.traffic.car.driving.city.game3D"
     },
     {
       "id": "app-1787299095912",
