@@ -3476,7 +3476,7 @@
       "updatedAt": "2026-06-03T11:12:29.364Z"
     },
     {
-      "id": "app-1780485237497",
+      "id": "jp.co.capcom.RE4US",
       "name": "Resident evil 4",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-4",
@@ -3485,7 +3485,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:13:57.498Z",
-      "updatedAt": "2026-06-03T11:13:57.498Z"
+      "updatedAt": "2026-08-24T09:04:16.893Z",
+      "bundleId": "jp.co.capcom.RE4US"
     },
     {
       "id": "app-1780485314936",
