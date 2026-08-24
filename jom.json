@@ -6431,7 +6431,7 @@
       "bundleId": "com.frigate.grannyeyes"
     },
     {
-      "id": "app-1787224140456",
+      "id": "com.escape.adventure.scary2",
       "name": "Scary Horror 2 Escape Room",
       "version": "2.6",
       "toolVersion": "",
@@ -6443,7 +6443,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:09:00.457Z",
-      "updatedAt": "2026-08-20T11:09:00.457Z"
+      "updatedAt": "2026-08-24T06:24:30.309Z",
+      "bundleId": "com.escape.adventure.scary2"
     },
     {
       "id": "com.aaa.adventures.scary.horror",
