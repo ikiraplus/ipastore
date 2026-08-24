@@ -356,7 +356,7 @@
       "updatedAt": "2026-08-24T05:42:43.353Z"
     },
     {
-      "id": "app-1773435887141",
+      "id": "com.ss.iphone.ugc.Ame",
       "name": "Tiktok Vibe",
       "version": "46.1.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vibetokv1.75",
@@ -365,7 +365,7 @@
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-07-21T15:48:24.759Z",
+      "updatedAt": "2026-08-24T08:31:17.732Z",
       "toolVersion": "1.75",
       "previousVersions": [
         {
@@ -373,7 +373,8 @@
           "version": "45.8.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.ss.iphone.ugc.Ame"
     },
     {
       "id": "com.zhiliaoapp.musically",
