@@ -7007,7 +7007,7 @@
       "updatedAt": "2026-08-20T16:46:39.346Z"
     },
     {
-      "id": "app-1787244467858",
+      "id": "com.realdrift.sipon",
       "name": "Real Drift Car Racing lite",
       "version": "5.0.7",
       "toolVersion": "",
@@ -7019,7 +7019,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:47:47.860Z",
-      "updatedAt": "2026-08-20T16:47:47.860Z"
+      "updatedAt": "2026-08-24T06:52:33.543Z",
+      "bundleId": "com.realdrift.sipon"
     },
     {
       "id": "com.hegi.scaregame",
