@@ -3532,7 +3532,7 @@
       "updatedAt": "2026-07-09T15:45:48.006Z"
     },
     {
-      "id": "app-1781336172793",
+      "id": "com.soccer.football.score.ios",
       "name": "soccer super hero",
       "version": "0.36.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soccer-super-hero_0.36.3",
@@ -3541,7 +3541,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:36:12.794Z",
-      "updatedAt": "2026-06-13T07:36:12.794Z"
+      "updatedAt": "2026-08-24T06:48:12.743Z",
+      "bundleId": "com.soccer.football.score.ios"
     },
     {
       "id": "app-1781336242165",
