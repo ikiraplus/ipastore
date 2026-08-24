@@ -6332,7 +6332,7 @@
       "bundleId": "com.bareed-kuw.mkhmkh-ha"
     },
     {
-      "id": "app-1787223873637",
+      "id": "com.games2win.ultimatebusdriver",
       "name": "Bus Simulator Coach Driver",
       "version": "1.4",
       "toolVersion": "",
@@ -6344,7 +6344,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:04:33.639Z",
-      "updatedAt": "2026-08-20T11:04:33.639Z"
+      "updatedAt": "2026-08-24T06:44:00.135Z",
+      "bundleId": "com.games2win.ultimatebusdriver"
     },
     {
       "id": "app-1787223901132",
