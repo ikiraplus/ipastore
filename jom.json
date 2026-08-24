@@ -5487,7 +5487,7 @@
       "updatedAt": "2026-08-06T06:54:36.554Z"
     },
     {
-      "id": "app-1785999503477",
+      "id": "tv.twitch.beta",
       "name": "Twitch Cracked",
       "version": "30.8",
       "toolVersion": "",
@@ -5504,7 +5504,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-06T06:58:23.478Z",
-      "updatedAt": "2026-08-13T08:11:01.561Z"
+      "updatedAt": "2026-08-24T06:45:14.099Z",
+      "bundleId": "tv.twitch.beta"
     },
     {
       "id": "com.SofaScore.iOS",
