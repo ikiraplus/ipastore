@@ -686,7 +686,7 @@
       "updatedAt": "2026-08-24T06:17:04.400Z"
     },
     {
-      "id": "app-1773437273175",
+      "id": "com.bigwinepot.nwdn.international",
       "name": "Remini Pro",
       "version": "29.4.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/remini_-_ai_photo_enhancer_2.10.198_1778930433",
@@ -694,7 +694,9 @@
       "size": "108 MB",
       "note": "",
       "category": "أدوات",
-      "addedAt": "2026-03-13"
+      "addedAt": "2026-03-13",
+      "bundleId": "com.bigwinepot.nwdn.international",
+      "updatedAt": "2026-08-24T06:43:31.924Z"
     },
     {
       "id": "com.loktv.ikiraplus",
