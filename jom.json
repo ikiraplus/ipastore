@@ -664,7 +664,7 @@
       "updatedAt": "2026-07-05T13:59:06.375Z"
     },
     {
-      "id": "air-movie",
+      "id": "com.airmovie.ikiraplus",
       "name": "Air movie",
       "version": "2.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/air.movie._.kira-1",
@@ -672,7 +672,9 @@
       "size": "42 MB",
       "note": "- يعمل على جميع الشبكات\n- يدعم التحميل\n- بدون إعلانات",
       "category": "ترفيه",
-      "addedAt": "2026-03-14"
+      "addedAt": "2026-03-14",
+      "bundleId": "com.airmovie.ikiraplus",
+      "updatedAt": "2026-08-24T06:17:04.400Z"
     },
     {
       "id": "app-1773437273175",
