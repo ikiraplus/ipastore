@@ -5285,7 +5285,7 @@
       "updatedAt": "2026-07-31T19:17:24.698Z"
     },
     {
-      "id": "app-1785677101322",
+      "id": "com.td.uswatcherofrealms",
       "name": "Watcher Of Realms",
       "version": "1.6.22",
       "toolVersion": "",
@@ -5297,7 +5297,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T13:25:01.322Z",
-      "updatedAt": "2026-08-02T13:25:01.322Z"
+      "updatedAt": "2026-08-24T06:49:45.272Z",
+      "bundleId": "com.td.uswatcherofrealms"
     },
     {
       "id": "app-1785677326637",
