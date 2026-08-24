@@ -7456,7 +7456,7 @@
       "bundleId": "com.starkom.DriftLegends2"
     },
     {
-      "id": "app-1787299124749",
+      "id": "com.gameinsight.gobios",
       "name": "Guns Of Boom",
       "version": "30.0",
       "toolVersion": "",
@@ -7468,7 +7468,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:58:44.750Z",
-      "updatedAt": "2026-08-21T07:58:44.750Z"
+      "updatedAt": "2026-08-24T10:31:26.412Z",
+      "bundleId": "com.gameinsight.gobios"
     },
     {
       "id": "com.ninjakiwi.sasza4",
