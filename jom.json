@@ -6758,7 +6758,7 @@
       "updatedAt": "2026-08-20T16:42:12.015Z"
     },
     {
-      "id": "app-1787244183265",
+      "id": "com.atomicplayapps.swordhero",
       "name": "Sword Hero Survivor",
       "version": "1.6.10",
       "toolVersion": "",
@@ -6770,7 +6770,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:43:03.267Z",
-      "updatedAt": "2026-08-20T16:43:03.267Z"
+      "updatedAt": "2026-08-24T06:19:07.714Z",
+      "bundleId": "com.atomicplayapps.swordhero"
     },
     {
       "id": "app-1787244240059",
