@@ -5340,7 +5340,7 @@
       "updatedAt": "2026-08-02T15:34:09.037Z"
     },
     {
-      "id": "app-1785685176172",
+      "id": "com.365scores.365scroesapp",
       "name": "365scores Live Scores News",
       "version": "6.6.4",
       "toolVersion": "",
@@ -5361,7 +5361,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-02T15:39:36.173Z",
-      "updatedAt": "2026-08-21T08:27:15.680Z"
+      "updatedAt": "2026-08-24T06:19:40.478Z",
+      "bundleId": "com.365scores.365scroesapp"
     },
     {
       "id": "app-1785999201825",
