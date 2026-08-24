@@ -3589,7 +3589,7 @@
       "updatedAt": "2026-06-13T18:22:54.023Z"
     },
     {
-      "id": "app-1781375046602",
+      "id": "com.rovio.angrybirdsstarwarsii",
       "name": "angry birds star wars",
       "version": "1.9.24",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-star-wars-1",
@@ -3598,7 +3598,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:24:06.603Z",
-      "updatedAt": "2026-06-13T18:24:06.603Z"
+      "updatedAt": "2026-08-24T06:19:19.948Z",
+      "bundleId": "com.rovio.angrybirdsstarwarsii"
     },
     {
       "id": "app-1781375116495",
