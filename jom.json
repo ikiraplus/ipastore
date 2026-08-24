@@ -5477,7 +5477,7 @@
       "bundleId": "com.dopedevelopment.Panels"
     },
     {
-      "id": "app-1785999276553",
+      "id": "com.pixite.pigment",
       "name": "Adult Coloring Book Pigment",
       "version": "3.14",
       "toolVersion": "",
@@ -5489,7 +5489,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-06T06:54:36.554Z",
-      "updatedAt": "2026-08-06T06:54:36.554Z"
+      "updatedAt": "2026-08-24T06:46:04.112Z",
+      "bundleId": "com.pixite.pigment"
     },
     {
       "id": "tv.twitch.beta",
