@@ -8412,7 +8412,7 @@
       "updatedAt": "2026-08-22T06:47:32.033Z"
     },
     {
-      "id": "app-1787381274979",
+      "id": "leyi.westgamepro",
       "name": "West Game Ii",
       "version": "1.5.3",
       "toolVersion": "",
@@ -8424,7 +8424,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:47:54.979Z",
-      "updatedAt": "2026-08-22T06:47:56.629Z"
+      "updatedAt": "2026-08-24T10:05:06.135Z",
+      "bundleId": "leyi.westgamepro"
     },
     {
       "id": "com.redfalcon.basketballgoat.ios",
