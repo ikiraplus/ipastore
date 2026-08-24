@@ -182,7 +182,7 @@
       "bundleId": ""
     },
     {
-      "id": "app-1773436098791",
+      "id": "net.whatsapp.WhatsApp",
       "name": "Watusi",
       "version": "26.26.10",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/watusi-26.26.10_wc",
@@ -191,8 +191,8 @@
       "note": "سجل الدخول في التطبيق كجهاز مرتبط فقط",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-23T19:25:13.062Z",
-      "bundleId": ""
+      "updatedAt": "2026-08-24T05:42:21.084Z",
+      "bundleId": "net.whatsapp.WhatsApp"
     },
     {
       "id": "net.whatsapp.WhatsAppSMB",
