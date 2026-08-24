@@ -7597,7 +7597,7 @@
       "updatedAt": "2026-08-21T08:06:27.547Z"
     },
     {
-      "id": "app-1787299626010",
+      "id": "com.marmalade.monopoly",
       "name": "Monopoly The Board Game",
       "version": "1.15.15",
       "toolVersion": "",
@@ -7609,7 +7609,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:07:06.011Z",
-      "updatedAt": "2026-08-21T08:07:06.011Z"
+      "updatedAt": "2026-08-24T10:04:30.296Z",
+      "bundleId": "com.marmalade.monopoly"
     },
     {
       "id": "com.halfbrick.jetpack",
