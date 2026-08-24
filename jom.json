@@ -7777,7 +7777,7 @@
       "bundleId": "com.Turbo.vpn"
     },
     {
-      "id": "app-1787324405454",
+      "id": "com.fau.sshterminal",
       "name": "Termux",
       "version": "1.0.25",
       "toolVersion": "",
@@ -7789,7 +7789,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T15:00:05.454Z",
-      "updatedAt": "2026-08-21T15:00:06.319Z"
+      "updatedAt": "2026-08-24T06:16:31.529Z",
+      "bundleId": "com.fau.sshterminal"
     },
     {
       "id": "com.myonlyislam.scanhalalfood",
