@@ -8796,7 +8796,7 @@
       "updatedAt": "2026-08-22T07:16:50.185Z"
     },
     {
-      "id": "app-1787383035328",
+      "id": "com.frontierdesign.videostar",
       "name": "Video star Hacked 2",
       "version": "15.1.1",
       "toolVersion": "",
@@ -8808,7 +8808,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-22T07:17:15.328Z",
-      "updatedAt": "2026-08-22T07:17:16.427Z"
+      "updatedAt": "2026-08-24T09:27:23.982Z",
+      "bundleId": "com.frontierdesign.videostar"
     },
     {
       "id": "com.oxvgames.dicelords",
