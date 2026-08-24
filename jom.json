@@ -7043,7 +7043,7 @@
       "updatedAt": "2026-08-20T16:51:38.962Z"
     },
     {
-      "id": "app-1787244759527",
+      "id": "com.mattel163.uno2",
       "name": "Uno Wonder",
       "version": "1.3.8716",
       "toolVersion": "",
@@ -7055,7 +7055,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:52:39.529Z",
-      "updatedAt": "2026-08-20T16:52:39.529Z"
+      "updatedAt": "2026-08-24T06:50:48.676Z",
+      "bundleId": "com.mattel163.uno2"
     },
     {
       "id": "xyz.cypwn.sm64ios-60fps",
