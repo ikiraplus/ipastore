@@ -3415,7 +3415,7 @@
       "updatedAt": "2026-06-03T11:15:14.939Z"
     },
     {
-      "id": "app-1781111205610",
+      "id": "com.dr1ven.eraser",
       "name": "photoroom ai photo",
       "version": "2026.34.02",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photoroom-ai-photo-editor-v2026.34.02",
@@ -3424,7 +3424,7 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-10T17:06:45.611Z",
-      "updatedAt": "2026-08-21T08:27:55.115Z",
+      "updatedAt": "2026-08-24T06:23:50.863Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -3436,7 +3436,8 @@
           "version": "2026.33.01"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.dr1ven.eraser"
     },
     {
       "id": "app-1781111392639",
