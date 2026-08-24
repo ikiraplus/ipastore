@@ -8491,7 +8491,7 @@
       "updatedAt": "2026-08-22T06:51:06.130Z"
     },
     {
-      "id": "app-1787381589097",
+      "id": "com.megaloot.survivalist",
       "name": "Survivalist invasion zombie",
       "version": "2.115",
       "toolVersion": "",
@@ -8503,7 +8503,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:53:09.097Z",
-      "updatedAt": "2026-08-22T06:53:12.683Z"
+      "updatedAt": "2026-08-24T09:04:34.903Z",
+      "bundleId": "com.megaloot.survivalist"
     },
     {
       "id": "app-1787381674746",
