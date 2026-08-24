@@ -745,7 +745,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773437364033",
+      "id": "com.genral.ikiraplus",
       "name": "Genral Pro",
       "version": "1.5",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/genral-pro-v1.4",
@@ -753,7 +753,9 @@
       "size": "9.6 MB",
       "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5050",
       "category": "ترفيه",
-      "addedAt": "2026-03-13"
+      "addedAt": "2026-03-13",
+      "bundleId": "com.genral.ikiraplus",
+      "updatedAt": "2026-08-24T06:14:25.984Z"
     },
     {
       "id": "app-1773509189937",
