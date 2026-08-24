@@ -8175,7 +8175,7 @@
       "updatedAt": "2026-08-22T06:49:33.642Z"
     },
     {
-      "id": "app-1787381445331",
+      "id": "com.spaceshooter.fighterforce",
       "name": "Air Force Airplane Games",
       "version": "1.0.0",
       "toolVersion": "",
@@ -8187,7 +8187,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:50:45.331Z",
-      "updatedAt": "2026-08-22T06:50:46.583Z"
+      "updatedAt": "2026-08-24T06:20:10.887Z",
+      "bundleId": "com.spaceshooter.fighterforce"
     },
     {
       "id": "app-1787381464712",
