@@ -534,14 +534,14 @@
       "bundleId": "com.atebits.Tweetie2"
     },
     {
-      "id": "app-1773546935772",
+      "id": "com.atebits.Tweetie2",
       "name": "X - Twitter - TWIGalaxy",
       "version": "12.14",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twigalaxyv1.14",
       "icon": "https://appstore.nabzclan.vip/images/icon_690aa6dcd1f26.jpg",
       "size": "227.0 MB",
       "note": "",
-      "bundleId": "",
+      "bundleId": "com.atebits.Tweetie2",
       "category": "تواصل",
       "addedAt": "2026-03-15",
       "toolVersion": "1.14",
@@ -556,7 +556,7 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-06T07:06:39.120Z"
+      "updatedAt": "2026-08-24T06:50:12.758Z"
     },
     {
       "id": "app-1773546960824",
