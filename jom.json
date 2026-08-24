@@ -2891,7 +2891,7 @@
       "bundleId": "com.ikiraplus.cinemana"
     },
     {
-      "id": "app-1778256305074",
+      "id": "com.nekki.shadowfightarena",
       "name": "shadow fight 4",
       "version": "4.1.9.83",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-4.1.9.83-1",
@@ -2900,7 +2900,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:05:05.075Z",
-      "updatedAt": "2026-08-02T13:33:37.977Z",
+      "updatedAt": "2026-08-24T06:47:41.957Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2908,7 +2908,8 @@
           "version": "1.9.80"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.nekki.shadowfightarena"
     },
     {
       "id": "app-1778256453060",
