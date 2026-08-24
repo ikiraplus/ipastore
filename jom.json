@@ -3455,7 +3455,7 @@
       "bundleId": "com.atebits.Tweetie2"
     },
     {
-      "id": "app-1780485059348",
+      "id": "jp.co.capcom.RE2US",
       "name": "Resident evil 2",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/resident-evil-2",
@@ -3464,7 +3464,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:10:59.350Z",
-      "updatedAt": "2026-06-03T11:10:59.350Z"
+      "updatedAt": "2026-08-24T09:28:16.260Z",
+      "bundleId": "jp.co.capcom.RE2US"
     },
     {
       "id": "jp.co.capcom.RE3US",
