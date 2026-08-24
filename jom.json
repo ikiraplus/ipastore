@@ -2662,7 +2662,7 @@
       "updatedAt": "2026-04-27T18:28:44.610Z"
     },
     {
-      "id": "app-1777314593377",
+      "id": "fantasy.survival.game.rpg",
       "name": "grim soul",
       "version": "8.3.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grim-soul-8.3.1",
@@ -2671,7 +2671,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:29:53.378Z",
-      "updatedAt": "2026-07-24T18:45:46.025Z",
+      "updatedAt": "2026-08-24T06:53:41.458Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2683,7 +2683,8 @@
           "version": "8.2.5"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "fantasy.survival.game.rpg"
     },
     {
       "id": "app-1777314693238",
