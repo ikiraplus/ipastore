@@ -6019,7 +6019,7 @@
       "updatedAt": "2026-08-17T08:08:51.518Z"
     },
     {
-      "id": "app-1786954236382",
+      "id": "krmzi.dfms.free",
       "name": "Qurmzi",
       "version": "1.0",
       "toolVersion": "",
@@ -6031,7 +6031,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-17T08:10:38.733Z",
-      "updatedAt": "2026-08-17T08:10:38.733Z"
+      "updatedAt": "2026-08-24T06:13:35.746Z",
+      "bundleId": "krmzi.dfms.free"
     },
     {
       "id": "app-1786954324328",
