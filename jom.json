@@ -7214,7 +7214,7 @@
       "updatedAt": "2026-08-21T07:58:44.750Z"
     },
     {
-      "id": "app-1787299166625",
+      "id": "com.ninjakiwi.sasza4",
       "name": "Sas Zombie Assault 4",
       "version": "2.2.2",
       "toolVersion": "",
@@ -7226,7 +7226,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-21T07:59:26.626Z",
-      "updatedAt": "2026-08-21T07:59:26.626Z"
+      "updatedAt": "2026-08-24T06:24:10.546Z",
+      "bundleId": "com.ninjakiwi.sasza4"
     },
     {
       "id": "app-1787299193592",
