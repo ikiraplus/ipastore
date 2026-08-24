@@ -161,7 +161,7 @@
       "bundleId": "com.burbn.instagram"
     },
     {
-      "id": "app-1773402450838",
+      "id": "com.burbn.instagram",
       "name": "instagram IG",
       "version": "443.1.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/igformat-443.1.0-v2.5.0",
@@ -170,7 +170,7 @@
       "note": "لتفعيل مميزات التطبيق:\n- اضغط على زر الملف الشخصي، ستجد أيقونة الريشة، اضغط عليها لفتح المميزات",
       "category": "تواصل",
       "addedAt": "2026-04-08",
-      "updatedAt": "2026-08-23T19:24:34.059Z",
+      "updatedAt": "2026-08-24T05:42:26.060Z",
       "toolVersion": "2.5.0",
       "previousVersions": [
         {
@@ -179,7 +179,7 @@
         }
       ],
       "recommended": false,
-      "bundleId": ""
+      "bundleId": "com.burbn.instagram"
     },
     {
       "id": "net.whatsapp.WhatsApp",
