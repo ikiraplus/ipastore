@@ -7827,7 +7827,7 @@
       "updatedAt": "2026-08-21T11:29:15.472Z"
     },
     {
-      "id": "app-1787311813193",
+      "id": "com.hssn.anatomy3d",
       "name": "3d Anatomy",
       "version": "6.7",
       "toolVersion": "",
@@ -7839,7 +7839,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-21T11:30:13.194Z",
-      "updatedAt": "2026-08-21T11:30:13.194Z"
+      "updatedAt": "2026-08-24T06:24:19.905Z",
+      "bundleId": "com.hssn.anatomy3d"
     },
     {
       "id": "com.protools.Watermark",
