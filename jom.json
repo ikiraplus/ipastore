@@ -3186,7 +3186,7 @@
       "bundleId": "com.minichat"
     },
     {
-      "id": "app-1779560484440",
+      "id": "com.boundlessdrop.jawaker",
       "name": "جواكر",
       "version": "28.2.92",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jawaker-28.2.92",
@@ -3195,7 +3195,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-23T18:21:24.441Z",
-      "updatedAt": "2026-05-23T18:21:24.441Z"
+      "updatedAt": "2026-08-24T08:28:39.834Z",
+      "bundleId": "com.boundlessdrop.jawaker"
     },
     {
       "id": "app-1779560571805",
