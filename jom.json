@@ -3613,7 +3613,7 @@
       "updatedAt": "2026-06-13T18:17:38.515Z"
     },
     {
-      "id": "app-1781374791233",
+      "id": "com.darkmatter.abfam",
       "name": "angry birds rush",
       "version": "1.24.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry_birds_rush-1",
@@ -3622,7 +3622,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:19:51.234Z",
-      "updatedAt": "2026-06-13T18:19:51.234Z"
+      "updatedAt": "2026-08-24T06:47:22.695Z",
+      "bundleId": "com.darkmatter.abfam"
     },
     {
       "id": "app-1781374905950",
