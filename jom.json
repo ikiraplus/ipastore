@@ -7764,7 +7764,7 @@
       "bundleId": "com.muscleandmotion.Anatomy"
     },
     {
-      "id": "app-1787309252802",
+      "id": "com.gabrielvicente.anatomy",
       "name": "Muscle Trigger Points",
       "version": "6.5",
       "toolVersion": "",
@@ -7776,7 +7776,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-21T10:47:32.803Z",
-      "updatedAt": "2026-08-21T10:47:32.803Z"
+      "updatedAt": "2026-08-24T06:50:23.622Z",
+      "bundleId": "com.gabrielvicente.anatomy"
     },
     {
       "id": "app-1787309312136",
