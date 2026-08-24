@@ -5658,7 +5658,7 @@
       "bundleId": "com.soundcloud.TouchApp"
     },
     {
-      "id": "app-1786290881074",
+      "id": "com.spotify.client",
       "name": "Spotify Eevee",
       "version": "9.1.76",
       "toolVersion": "",
@@ -5675,7 +5675,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-09T15:54:41.076Z",
-      "updatedAt": "2026-08-13T08:12:21.140Z"
+      "updatedAt": "2026-08-24T06:24:01.114Z",
+      "bundleId": "com.spotify.client"
     },
     {
       "id": "app-1786291169111",
