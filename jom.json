@@ -1301,7 +1301,7 @@
       "recommended": false
     },
     {
-      "id": "app-1773573983434",
+      "id": "com.xiaoji.gamecenter",
       "name": "Happy Chick",
       "version": "2.8",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/happychick-2",
@@ -1310,10 +1310,11 @@
       "note": "محاكي العاب قديمة - تم حذفه من الابستور",
       "category": "أخرى",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-23T10:56:25.748Z",
+      "updatedAt": "2026-08-24T06:22:43.114Z",
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.xiaoji.gamecenter"
     },
     {
       "id": "app-1773574559049",
