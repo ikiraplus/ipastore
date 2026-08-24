@@ -30,7 +30,7 @@
       "hidden": true
     },
     {
-      "id": "app-1773401165477",
+      "id": "com.burbn.instagram",
       "name": "ريكرام",
       "version": "436.0.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-435-regram5.1_patch",
@@ -39,7 +39,7 @@
       "note": "لتفعيل مميزات التطبيق:\n- قم بتغيير لغة التطبيق من الإنكليزية إلى العربية أو العكس",
       "category": "تواصل",
       "addedAt": "2026-04-05",
-      "updatedAt": "2026-08-23T19:22:19.443Z",
+      "updatedAt": "2026-08-24T05:42:16.370Z",
       "toolVersion": "5.1",
       "previousVersions": [
         {
@@ -48,7 +48,7 @@
         }
       ],
       "recommended": true,
-      "bundleId": ""
+      "bundleId": "com.burbn.instagram"
     },
     {
       "id": "com.toyopagroup.picabdd12",
