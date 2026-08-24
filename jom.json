@@ -7803,7 +7803,7 @@
       "bundleId": "com.protools.Watermark"
     },
     {
-      "id": "app-1787311946890",
+      "id": "com.markodevcic.python-code-pad",
       "name": "Python Coding editor IDE",
       "version": "1.12.11",
       "toolVersion": "",
@@ -7815,7 +7815,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-21T11:32:26.891Z",
-      "updatedAt": "2026-08-21T11:32:26.891Z"
+      "updatedAt": "2026-08-24T06:20:02.839Z",
+      "bundleId": "com.markodevcic.python-code-pad"
     },
     {
       "id": "com.Turbo.vpn",
