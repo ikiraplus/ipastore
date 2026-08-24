@@ -6096,7 +6096,7 @@
       "bundleId": "alooytv.dfms.free"
     },
     {
-      "id": "app-1786972033317",
+      "id": "com.man.kuuflix.app",
       "name": "Kumoflix",
       "version": "2.2",
       "toolVersion": "",
@@ -6108,7 +6108,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-17T13:07:13.317Z",
-      "updatedAt": "2026-08-17T13:10:43.366Z"
+      "updatedAt": "2026-08-24T06:16:13.472Z",
+      "bundleId": "com.man.kuuflix.app"
     },
     {
       "id": "app-1787145007023",
