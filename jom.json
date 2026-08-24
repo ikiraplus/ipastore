@@ -7623,7 +7623,7 @@
       "bundleId": "com.fluffyfairygames.idleminertycoon"
     },
     {
-      "id": "app-1787301000081",
+      "id": "com.theonegames.gunshipbattle",
       "name": "Gunship Battle 3d",
       "version": "2.6.60",
       "toolVersion": "",
@@ -7635,7 +7635,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:30:00.082Z",
-      "updatedAt": "2026-08-21T08:30:00.082Z"
+      "updatedAt": "2026-08-24T06:45:17.561Z",
+      "bundleId": "com.theonegames.gunshipbattle"
     },
     {
       "id": "app-1787301078854",
