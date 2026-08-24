@@ -2579,7 +2579,7 @@
       "bundleId": "com.squareenixmontreal.hitmansniper"
     },
     {
-      "id": "app-1777313244441",
+      "id": "zombie.survival.craft.z",
       "name": "last day on earth survival",
       "version": "1.51.1",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.51.1",
@@ -2588,7 +2588,7 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:07:24.442Z",
-      "updatedAt": "2026-08-17T07:53:23.257Z",
+      "updatedAt": "2026-08-24T10:26:45.224Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2600,7 +2600,8 @@
           "version": "1.50.0"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "zombie.survival.craft.z"
     },
     {
       "id": "com.linecorp.b612",
