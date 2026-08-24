@@ -7393,7 +7393,7 @@
       "bundleId": "com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk"
     },
     {
-      "id": "app-1787299455404",
+      "id": "io.monumental.cardclash",
       "name": "Nickelodeon Card Clash",
       "version": "1.5.0",
       "toolVersion": "",
@@ -7405,7 +7405,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:04:15.405Z",
-      "updatedAt": "2026-08-21T08:04:15.405Z"
+      "updatedAt": "2026-08-24T06:50:09.357Z",
+      "bundleId": "io.monumental.cardclash"
     },
     {
       "id": "com.zeptolab.ctrexperiments",
