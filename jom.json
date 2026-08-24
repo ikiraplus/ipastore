@@ -3693,7 +3693,7 @@
       "updatedAt": "2026-06-13T18:58:14.300Z"
     },
     {
-      "id": "app-1781377151874",
+      "id": "com.imangi.templerun",
       "name": "temple run",
       "version": "last version",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/templerun-hack",
@@ -3702,7 +3702,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:59:11.875Z",
-      "updatedAt": "2026-06-13T18:59:11.875Z"
+      "updatedAt": "2026-08-24T06:19:15.801Z",
+      "bundleId": "com.imangi.templerun"
     },
     {
       "id": "app-1781377205864",
