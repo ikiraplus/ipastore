@@ -2733,7 +2733,7 @@
       "recommended": false
     },
     {
-      "id": "app-1777652764722",
+      "id": "com.anime.animeRiftApp",
       "name": "Anime Land noads",
       "version": "3.13.17",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.13.17",
@@ -2742,7 +2742,7 @@
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-05-01T16:26:07.251Z",
-      "updatedAt": "2026-07-26T14:26:41.049Z",
+      "updatedAt": "2026-08-24T06:18:36.372Z",
       "toolVersion": "",
       "previousVersions": [
         {
@@ -2750,7 +2750,8 @@
           "version": "3.11.5"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "bundleId": "com.anime.animeRiftApp"
     },
     {
       "id": "app-1777652894490",
