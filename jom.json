@@ -7078,7 +7078,7 @@
       "updatedAt": "2026-08-21T07:53:43.381Z"
     },
     {
-      "id": "app-1787298880970",
+      "id": "com.ftxgames.bb",
       "name": "Breaking Bad Criminal Elements",
       "version": "1.23.0",
       "toolVersion": "",
@@ -7090,7 +7090,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:54:40.970Z",
-      "updatedAt": "2026-08-21T07:54:40.970Z"
+      "updatedAt": "2026-08-24T06:21:34.903Z",
+      "bundleId": "com.ftxgames.bb"
     },
     {
       "id": "app-1787298900970",
