@@ -6392,7 +6392,7 @@
       "bundleId": "com.madfingergames.Samurai2"
     },
     {
-      "id": "app-1787224110969",
+      "id": "com.frigate.grannyeyes",
       "name": "Scary Grandma Escape Challenge",
       "version": "2.0",
       "toolVersion": "",
@@ -6404,7 +6404,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T11:08:30.971Z",
-      "updatedAt": "2026-08-20T11:08:30.971Z"
+      "updatedAt": "2026-08-24T06:22:09.312Z",
+      "bundleId": "com.frigate.grannyeyes"
     },
     {
       "id": "app-1787224140456",
