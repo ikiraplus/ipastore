@@ -1920,7 +1920,7 @@
       "bundleId": "com.playrix.gardenscapes-m3-ios"
     },
     {
-      "id": "app-game-ios-1711600000014",
+      "id": "com.rovio.baba",
       "name": "Angry Birds 2",
       "version": "2.26.4.2",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2.26.4.2",
@@ -1937,7 +1937,8 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-07-21T15:10:50.529Z"
+      "updatedAt": "2026-08-24T10:03:23.431Z",
+      "bundleId": "com.rovio.baba"
     },
     {
       "id": "app-game-ios-1711600000015",
