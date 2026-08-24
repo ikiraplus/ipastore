@@ -1633,7 +1633,7 @@
       "bundleId": "com.vodu.ikiraplus"
     },
     {
-      "id": "app-1773574949588",
+      "id": "com.squareenix.tombraider1classic",
       "name": "Tomb Raider I",
       "version": "1.0.4",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tomb-raider-i_v104-1",
@@ -1641,7 +1641,9 @@
       "size": "286.7 MB",
       "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.squareenix.tombraider1classic",
+      "updatedAt": "2026-08-24T06:52:43.421Z"
     },
     {
       "id": "com.squareenix.tombraider2classic",
