@@ -5853,7 +5853,7 @@
       "updatedAt": "2026-08-09T15:59:29.112Z"
     },
     {
-      "id": "app-1786291212585",
+      "id": "com.phs.global.ios",
       "name": "Last Asylum",
       "version": "1.0.59",
       "toolVersion": "",
@@ -5870,7 +5870,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-09T16:00:12.587Z",
-      "updatedAt": "2026-08-21T15:17:22.965Z"
+      "updatedAt": "2026-08-24T09:04:53.659Z",
+      "bundleId": "com.phs.global.ios"
     },
     {
       "id": "com.vectorunit.cobalt",
