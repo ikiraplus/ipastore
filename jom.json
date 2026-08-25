@@ -5397,26 +5397,26 @@
     {
       "id": "com.google.ios.youtubeee",
       "name": "WolfTube",
-      "version": "21.33.5",
-      "toolVersion": "1.20",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wolftube_21.33.5",
+      "version": "21.34.3",
+      "toolVersion": "1.28.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wolftube_1.28.13",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-wolftube21.30.5",
-          "version": "21.30.5"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wolftube_21.33.5",
+          "version": "21.33.5"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-wolftube-21.29.3",
-          "version": "21.29.3"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-wolftube21.30.5",
+          "version": "21.30.5"
         }
       ],
-      "size": "122.5 MB",
+      "size": "130.5 MB",
       "note": "",
       "category": "تواصل",
       "recommended": true,
       "addedAt": "2026-07-23T15:41:21.306Z",
-      "updatedAt": "2026-08-24T06:23:27.511Z",
+      "updatedAt": "2026-08-25T11:03:04.735Z",
       "bundleId": "com.google.ios.youtubeee",
       "_rowKey": 306
     },
@@ -10005,7 +10005,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-25T11:01:51.998Z",
-      "updatedAt": "2026-08-25T11:01:55.527Z"
+      "updatedAt": "2026-08-25T11:01:55.527Z",
+      "_rowKey": 67
     }
   ]
 }
