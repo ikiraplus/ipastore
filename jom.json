@@ -9991,6 +9991,21 @@
       "addedAt": "2026-08-25T10:59:01.169Z",
       "updatedAt": "2026-08-25T10:59:03.702Z",
       "_rowKey": 66
+    },
+    {
+      "id": "app-1787655711998",
+      "name": "Scenebox",
+      "version": "1.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scenebox-1.0.2",
+      "icon": "https://m.media-amazon.com/images/I/51cNmo949NL.png",
+      "previousVersions": [],
+      "size": "28.9 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-25T11:01:51.998Z",
+      "updatedAt": "2026-08-25T11:01:55.527Z"
     }
   ]
 }
