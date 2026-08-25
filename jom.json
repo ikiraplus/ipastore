@@ -2171,26 +2171,26 @@
     {
       "id": "com.spotify.client",
       "name": "Spotify GS",
-      "version": "9.1.76",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
+      "version": "9.1.78",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_gs",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
-      "size": "124.2 MB",
+      "size": "125.7 MB",
       "note": "تفعيل ميزة Premium تلقائيا",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
-          "version": "9.1.74"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
+          "version": "9.1.76"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.72_gs",
-          "version": "9.1.72"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
+          "version": "9.1.74"
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-24T06:43:50.309Z",
+      "updatedAt": "2026-08-25T07:33:08.216Z",
       "bundleId": "com.spotify.client"
     },
     {
