@@ -9867,7 +9867,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:27:06.034Z",
-      "updatedAt": "2026-08-25T10:27:33.730Z"
+      "updatedAt": "2026-08-25T10:27:33.730Z",
+      "_rowKey": 67
+    },
+    {
+      "id": "app-1787653736635",
+      "name": "House Flipper",
+      "version": "1.682",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/house-flipper-1.682",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/bf/a5/68bfa5ee-01d3-ff0d-dbe2-6a1536284789/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "487.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:28:56.635Z",
+      "updatedAt": "2026-08-25T10:29:31.169Z"
     }
   ]
 }
