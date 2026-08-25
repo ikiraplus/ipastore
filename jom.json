@@ -9821,6 +9821,21 @@
       "addedAt": "2026-08-25T07:35:56.839Z",
       "updatedAt": "2026-08-25T07:35:58.018Z",
       "_rowKey": 556
+    },
+    {
+      "id": "app-1787653349380",
+      "name": "Bloons Td",
+      "version": "6.56.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bloons-td-6.56.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/3e/91/d33e9163-6780-5e8e-f86d-7eb206e09339/AppIcon-0-0-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "99.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:22:29.380Z",
+      "updatedAt": "2026-08-25T10:22:50.500Z"
     }
   ]
 }
