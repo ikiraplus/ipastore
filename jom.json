@@ -9835,7 +9835,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:22:29.380Z",
-      "updatedAt": "2026-08-25T10:22:50.500Z"
+      "updatedAt": "2026-08-25T10:22:50.500Z",
+      "_rowKey": 66
+    },
+    {
+      "id": "app-1787653454539",
+      "name": "Family Guy",
+      "version": "8.3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/family-guy-8.3.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/ef/d1/7defd14a-4d83-fca2-3ed3-1ee7ddf43ddb/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "88.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:24:14.539Z",
+      "updatedAt": "2026-08-25T10:24:34.303Z"
     }
   ]
 }
