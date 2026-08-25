@@ -9853,6 +9853,21 @@
       "addedAt": "2026-08-25T10:24:14.539Z",
       "updatedAt": "2026-08-25T10:24:34.303Z",
       "_rowKey": 1
+    },
+    {
+      "id": "app-1787653626034",
+      "name": "Golf Dreams",
+      "version": "3.7.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/golf-dreams-3.7.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/60/e8/d160e8e3-1dc7-8e9b-0900-232cb5b8191f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "375.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:27:06.034Z",
+      "updatedAt": "2026-08-25T10:27:33.730Z"
     }
   ]
 }
