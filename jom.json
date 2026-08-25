@@ -1792,23 +1792,23 @@
     {
       "id": "com.kiloo.subwaysurfers",
       "name": "Subway Surfers mod",
-      "version": "3.67.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.67.3",
+      "version": "3.68.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.68.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/ac/4e/98ac4ed7-7da4-c5ae-8bea-c2adc70b7960/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "236.3 MB",
+      "size": "233.8 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T06:50:56.601Z",
+      "updatedAt": "2026-08-25T10:26:01.234Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.67.0",
-          "version": "3.67.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.67.3",
+          "version": "3.67.3"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.65.0",
-          "version": "3.65.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.67.0",
+          "version": "3.67.0"
         }
       ],
       "recommended": false,
@@ -9851,7 +9851,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:24:14.539Z",
-      "updatedAt": "2026-08-25T10:24:34.303Z"
+      "updatedAt": "2026-08-25T10:24:34.303Z",
+      "_rowKey": 1
     }
   ]
 }
