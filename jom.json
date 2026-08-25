@@ -3635,23 +3635,23 @@
     {
       "id": "com.playrix.township-ios",
       "name": "township",
-      "version": "38.0.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-38.0.1",
+      "version": "38.1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-38.1.0",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNbmzTIJu_ov2S5_TembSSsM6NVBmuVq1Sw&s",
-      "size": "206.8 MB",
+      "size": "208.5 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:17:02.824Z",
-      "updatedAt": "2026-08-24T06:49:13.745Z",
+      "updatedAt": "2026-08-25T10:46:08.055Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-37.1.0",
-          "version": "37.1.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-38.0.1",
+          "version": "38.0.1"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-37.0.1-1",
-          "version": "37.0.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-37.1.0",
+          "version": "37.1.0"
         }
       ],
       "recommended": false,
@@ -9968,7 +9968,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-25T10:39:29.143Z",
-      "updatedAt": "2026-08-25T10:40:07.889Z"
+      "updatedAt": "2026-08-25T10:40:07.889Z",
+      "_rowKey": 73
     }
   ]
 }
