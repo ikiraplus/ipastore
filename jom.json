@@ -9883,7 +9883,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:28:56.635Z",
-      "updatedAt": "2026-08-25T10:29:31.169Z"
+      "updatedAt": "2026-08-25T10:29:31.169Z",
+      "_rowKey": 68
+    },
+    {
+      "id": "app-1787653820527",
+      "name": "Tetris Block Party",
+      "version": "1.9.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tetris-block-party-1.9.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/06/d2/b306d2af-af1a-1314-8970-72ba4c086f93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "189.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:30:20.527Z",
+      "updatedAt": "2026-08-25T10:30:41.845Z"
     }
   ]
 }
