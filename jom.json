@@ -9970,6 +9970,21 @@
       "addedAt": "2026-08-25T10:39:29.143Z",
       "updatedAt": "2026-08-25T10:40:07.889Z",
       "_rowKey": 73
+    },
+    {
+      "id": "app-1787655541169",
+      "name": "Discord unbound",
+      "version": "342.0",
+      "toolVersion": "2.5.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord-342.0-unbound-2.5.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/54/bf/e954bfcc-dbe3-7531-99d9-1696ab804e46/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "109.2 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:59:01.169Z",
+      "updatedAt": "2026-08-25T10:59:03.702Z"
     }
   ]
 }
