@@ -4162,15 +4162,23 @@
     {
       "id": "io.veed.appstore",
       "name": "veed shorts ai videos",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/veed-shorts-ai-videos",
+      "version": "8.15.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/veed-ai-captions-and-shorts-v8.15.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/ac/1b/69ac1bdf-4943-adda-320e-7b816a740bb5/Placeholder.mill/400x400bb-75.webp",
-      "size": "149.1 MB",
+      "size": "151.2 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-16T21:44:47.065Z",
-      "updatedAt": "2026-08-24T06:45:40.981Z",
-      "bundleId": "io.veed.appstore"
+      "updatedAt": "2026-08-25T07:36:28.602Z",
+      "bundleId": "io.veed.appstore",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/veed-shorts-ai-videos",
+          "version": "last version"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "au.com.savageinteractive.procreate",
