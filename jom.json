@@ -9922,6 +9922,21 @@
       "addedAt": "2026-08-25T10:31:19.530Z",
       "updatedAt": "2026-08-25T10:31:39.588Z",
       "_rowKey": 70
+    },
+    {
+      "id": "app-1787654189860",
+      "name": "Bloodbound Lord : Idle RPG",
+      "version": "1.21",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lord-1.21",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcs9SYYh77_2ue4b3Utr6rl3iqf0X2g99OUK7-sRHRtw&s",
+      "previousVersions": [],
+      "size": "220.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:36:29.860Z",
+      "updatedAt": "2026-08-25T10:37:11.369Z"
     }
   ]
 }
