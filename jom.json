@@ -9936,7 +9936,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:36:29.860Z",
-      "updatedAt": "2026-08-25T10:37:11.369Z"
+      "updatedAt": "2026-08-25T10:37:11.369Z",
+      "_rowKey": 71
+    },
+    {
+      "id": "app-1787654290680",
+      "name": "Triple fantasy",
+      "version": "7.109.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/triplefantasy-7.109.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/64/a1/2964a190-56fe-8784-499e-61d91325cfeb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "325.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:38:10.680Z",
+      "updatedAt": "2026-08-25T10:38:39.954Z"
     }
   ]
 }
