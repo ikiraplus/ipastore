@@ -9952,7 +9952,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:38:10.680Z",
-      "updatedAt": "2026-08-25T10:38:39.954Z"
+      "updatedAt": "2026-08-25T10:38:39.954Z",
+      "_rowKey": 72
+    },
+    {
+      "id": "app-1787654369143",
+      "name": "AI Chat Chatty AI Chatbot",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ai-chat-chatty.ai-chatbot-v2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/5c/ee/cf5cee40-70b6-7230-1b71-fe126be7f9e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "50.2 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:39:29.143Z",
+      "updatedAt": "2026-08-25T10:40:07.889Z"
     }
   ]
 }
