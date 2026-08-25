@@ -14,7 +14,8 @@
       "hidden": false,
       "toolVersion": "",
       "previousVersions": [],
-      "recommended": false
+      "recommended": false,
+      "_rowKey": 1
     },
     {
       "id": "app-shahadda-free",
@@ -27,7 +28,8 @@
       "category": "أخرى",
       "addedAt": "2026-04-24",
       "updatedAt": "2026-04-24",
-      "hidden": true
+      "hidden": true,
+      "_rowKey": 2
     },
     {
       "id": "com.burbn.instagram",
@@ -48,7 +50,8 @@
         }
       ],
       "recommended": true,
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 3
     },
     {
       "id": "com.toyopagroup.picabdd12",
@@ -69,7 +72,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.toyopagroup.picabdd12"
+      "bundleId": "com.toyopagroup.picabdd12",
+      "_rowKey": 4
     },
     {
       "id": "net.whatsapp.WhatsApp",
@@ -94,7 +98,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "net.whatsapp.WhatsApp"
+      "bundleId": "net.whatsapp.WhatsApp",
+      "_rowKey": 5
     },
     {
       "id": "app.teledark",
@@ -116,7 +121,8 @@
       ],
       "recommended": false,
       "hidden": false,
-      "bundleId": "app.teledark"
+      "bundleId": "app.teledark",
+      "_rowKey": 6
     },
     {
       "id": "com.burbn.instagram",
@@ -137,7 +143,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 7
     },
     {
       "id": "com.burbn.instagram",
@@ -158,7 +165,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 8
     },
     {
       "id": "com.burbn.instagram",
@@ -179,7 +187,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 9
     },
     {
       "id": "net.whatsapp.WhatsApp",
@@ -192,7 +201,8 @@
       "category": "تواصل",
       "addedAt": "2026-03-15",
       "updatedAt": "2026-08-24T05:42:21.084Z",
-      "bundleId": "net.whatsapp.WhatsApp"
+      "bundleId": "net.whatsapp.WhatsApp",
+      "_rowKey": 10
     },
     {
       "id": "net.whatsapp.WhatsAppSMB",
@@ -213,7 +223,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "net.whatsapp.WhatsAppSMB"
+      "bundleId": "net.whatsapp.WhatsAppSMB",
+      "_rowKey": 11
     },
     {
       "id": "app.swiftgram.ios",
@@ -234,7 +245,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "app.swiftgram.ios"
+      "bundleId": "app.swiftgram.ios",
+      "_rowKey": 12
     },
     {
       "id": "com.olcorporation.olai",
@@ -255,7 +267,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.olcorporation.olai"
+      "bundleId": "com.olcorporation.olai",
+      "_rowKey": 13
     },
     {
       "id": "app.intentchat",
@@ -268,7 +281,8 @@
       "category": "تواصل",
       "addedAt": "2026-03-15",
       "bundleId": "app.intentchat",
-      "updatedAt": "2026-08-24T05:42:28.667Z"
+      "updatedAt": "2026-08-24T05:42:28.667Z",
+      "_rowKey": 14
     },
     {
       "id": "app.nicegram",
@@ -281,7 +295,8 @@
       "category": "تواصل",
       "addedAt": "2026-03-14",
       "updatedAt": "2026-08-24T05:42:39.992Z",
-      "bundleId": "app.nicegram"
+      "bundleId": "app.nicegram",
+      "_rowKey": 15
     },
     {
       "id": "com.seastar.turrit",
@@ -306,7 +321,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.seastar.turrit"
+      "bundleId": "com.seastar.turrit",
+      "_rowKey": 16
     },
     {
       "id": "com.tiktoklrd.ikiraplus",
@@ -319,7 +335,8 @@
       "category": "تواصل",
       "addedAt": "2026-03-14",
       "bundleId": "com.tiktoklrd.ikiraplus",
-      "updatedAt": "2026-08-23T19:29:55.663Z"
+      "updatedAt": "2026-08-23T19:29:55.663Z",
+      "_rowKey": 17
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -340,7 +357,8 @@
         }
       ],
       "recommended": true,
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 18
     },
     {
       "id": "com.tiktokdx.ikiraplus",
@@ -353,7 +371,8 @@
       "category": "تواصل",
       "addedAt": "2026-03-13",
       "bundleId": "com.tiktokdx.ikiraplus",
-      "updatedAt": "2026-08-24T05:42:43.353Z"
+      "updatedAt": "2026-08-24T05:42:43.353Z",
+      "_rowKey": 19
     },
     {
       "id": "com.ss.iphone.ugc.Ame",
@@ -374,7 +393,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.ss.iphone.ugc.Ame"
+      "bundleId": "com.ss.iphone.ugc.Ame",
+      "_rowKey": 20
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -387,7 +407,8 @@
       "category": "تواصل",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-08-24T08:29:33.647Z",
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 21
     },
     {
       "id": "app-1773436350178",
@@ -412,7 +433,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.facebook.Facebook"
+      "bundleId": "com.facebook.Facebook",
+      "_rowKey": 22
     },
     {
       "id": "com.facebook.Facebook",
@@ -433,7 +455,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.facebook.Facebook"
+      "bundleId": "com.facebook.Facebook",
+      "_rowKey": 23
     },
     {
       "id": "com.facebook.Messenger",
@@ -458,7 +481,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.facebook.Messenger"
+      "bundleId": "com.facebook.Messenger",
+      "_rowKey": 24
     },
     {
       "id": "com.locket.Locket",
@@ -483,7 +507,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.locket.Locket"
+      "bundleId": "com.locket.Locket",
+      "_rowKey": 25
     },
     {
       "id": "de.tellonym.app",
@@ -496,7 +521,8 @@
       "category": "تواصل",
       "addedAt": "2026-04-08",
       "bundleId": "de.tellonym.app",
-      "updatedAt": "2026-08-24T06:19:36.511Z"
+      "updatedAt": "2026-08-24T06:19:36.511Z",
+      "_rowKey": 26
     },
     {
       "id": "com.burbn.barcelona",
@@ -521,7 +547,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.burbn.barcelona"
+      "bundleId": "com.burbn.barcelona",
+      "_rowKey": 27
     },
     {
       "id": "com.atebits.Tweetie2",
@@ -534,7 +561,8 @@
       "category": "تواصل",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-08-24T06:43:44.209Z",
-      "bundleId": "com.atebits.Tweetie2"
+      "bundleId": "com.atebits.Tweetie2",
+      "_rowKey": 28
     },
     {
       "id": "com.atebits.Tweetie2",
@@ -559,7 +587,8 @@
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-24T06:50:12.758Z"
+      "updatedAt": "2026-08-24T06:50:12.758Z",
+      "_rowKey": 29
     },
     {
       "id": "app-1773546960824",
@@ -580,7 +609,8 @@
       ],
       "recommended": false,
       "updatedAt": "2026-07-20T14:13:34.667Z",
-      "bundleId": "com.atebits.Tweetie2"
+      "bundleId": "com.atebits.Tweetie2",
+      "_rowKey": 30
     },
     {
       "id": "com.burbn.instagram",
@@ -593,28 +623,34 @@
       "category": "تواصل",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-08-24T06:52:00.175Z",
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 31
     },
     {
       "id": "com.burbn.instagram",
       "name": "RyukGram",
-      "version": "439.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram-sideload-439.0.0",
+      "version": "444.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram-444.0.0-v1.3.3",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/ef/ec/eeefec6f-582d-90c7-ac6c-ea2ed8fd269a/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "316.0 MB",
+      "size": "306.2 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T06:52:50.082Z",
+      "updatedAt": "2026-08-25T08:07:41.683Z",
       "toolVersion": "1.3.3",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram-sideload-439.0.0",
+          "version": "439.0.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ryukgram-1.3.2",
           "version": "434.0.0"
         }
       ],
       "recommended": true,
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 32
     },
     {
       "id": "sh.weme.wemesh",
@@ -627,7 +663,8 @@
       "category": "تواصل",
       "addedAt": "2026-04-27T18:06:06.087Z",
       "updatedAt": "2026-08-24T06:24:24.576Z",
-      "bundleId": "sh.weme.wemesh"
+      "bundleId": "sh.weme.wemesh",
+      "_rowKey": 33
     },
     {
       "id": "com.hammerandchisel.discord",
@@ -640,7 +677,8 @@
       "category": "تواصل",
       "addedAt": "2026-04-27T18:24:41.115Z",
       "updatedAt": "2026-08-24T06:19:48.545Z",
-      "bundleId": "com.hammerandchisel.discord"
+      "bundleId": "com.hammerandchisel.discord",
+      "_rowKey": 34
     },
     {
       "id": "com.google.ios.youtube",
@@ -665,7 +703,8 @@
         }
       ],
       "recommended": true,
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 35
     },
     {
       "id": "com.kira.cinemanaa.fixed",
@@ -678,7 +717,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-08-24T06:17:15.008Z",
-      "bundleId": "com.kira.cinemanaa.fixed"
+      "bundleId": "com.kira.cinemanaa.fixed",
+      "_rowKey": 36
     },
     {
       "id": "com.airmovie.ikiraplus",
@@ -691,7 +731,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-14",
       "bundleId": "com.airmovie.ikiraplus",
-      "updatedAt": "2026-08-24T06:17:04.400Z"
+      "updatedAt": "2026-08-24T06:17:04.400Z",
+      "_rowKey": 37
     },
     {
       "id": "com.bigwinepot.nwdn.international",
@@ -704,7 +745,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-13",
       "bundleId": "com.bigwinepot.nwdn.international",
-      "updatedAt": "2026-08-24T06:43:31.924Z"
+      "updatedAt": "2026-08-24T06:43:31.924Z",
+      "_rowKey": 38
     },
     {
       "id": "com.loktv.ikiraplus",
@@ -725,7 +767,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.loktv.ikiraplus"
+      "bundleId": "com.loktv.ikiraplus",
+      "_rowKey": 39
     },
     {
       "id": "com.chengzu.book",
@@ -738,7 +781,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-15",
       "updatedAt": "2026-08-24T06:16:24.258Z",
-      "bundleId": "com.chengzu.book"
+      "bundleId": "com.chengzu.book",
+      "_rowKey": 40
     },
     {
       "id": "com.microblink.PhotoMath",
@@ -751,7 +795,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-15",
       "updatedAt": "2026-08-24T06:15:06.993Z",
-      "bundleId": "com.microblink.PhotoMath"
+      "bundleId": "com.microblink.PhotoMath",
+      "_rowKey": 41
     },
     {
       "id": "com.rockstargames.rdr",
@@ -767,7 +812,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.rockstargames.rdr"
+      "bundleId": "com.rockstargames.rdr",
+      "_rowKey": 42
     },
     {
       "id": "com.genral.ikiraplus",
@@ -780,7 +826,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-13",
       "bundleId": "com.genral.ikiraplus",
-      "updatedAt": "2026-08-24T06:14:25.984Z"
+      "updatedAt": "2026-08-24T06:14:25.984Z",
+      "_rowKey": 43
     },
     {
       "id": "net.quochuywdm.collanote496",
@@ -801,7 +848,8 @@
           "version": "4.0.6"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "_rowKey": 44
     },
     {
       "id": "com.picsart.studio",
@@ -826,7 +874,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.picsart.studio"
+      "bundleId": "com.picsart.studio",
+      "_rowKey": 45
     },
     {
       "id": "com.frontierdesign.videostar",
@@ -847,7 +896,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.frontierdesign.videostar"
+      "bundleId": "com.frontierdesign.videostar",
+      "_rowKey": 46
     },
     {
       "id": "com.pinterest.background.experiments-refresh",
@@ -868,7 +918,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.pinterest.background.experiments-refresh"
+      "bundleId": "com.pinterest.background.experiments-refresh",
+      "_rowKey": 47
     },
     {
       "id": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
@@ -881,7 +932,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-15",
       "bundleId": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
-      "updatedAt": "2026-08-24T06:14:48.773Z"
+      "updatedAt": "2026-08-24T06:14:48.773Z",
+      "_rowKey": 48
     },
     {
       "id": "com.buztv.player",
@@ -894,7 +946,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-15",
       "bundleId": "com.buztv.player",
-      "updatedAt": "2026-08-24T06:15:00.294Z"
+      "updatedAt": "2026-08-24T06:15:00.294Z",
+      "_rowKey": 49
     },
     {
       "id": "com.animecloud.rm",
@@ -907,7 +960,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-14",
       "updatedAt": "2026-08-24T06:14:01.767Z",
-      "bundleId": "com.animecloud.rm"
+      "bundleId": "com.animecloud.rm",
+      "_rowKey": 50
     },
     {
       "id": "com.ideploy-storage.25a6a8",
@@ -920,7 +974,8 @@
       "category": "أخرى",
       "addedAt": "2026-03-14",
       "bundleId": "com.ideploy-storage.25a6a8",
-      "updatedAt": "2026-08-24T06:15:28.883Z"
+      "updatedAt": "2026-08-24T06:15:28.883Z",
+      "_rowKey": 51
     },
     {
       "id": "p3.xyz.yyyue.esign",
@@ -933,7 +988,8 @@
       "category": "أخرى",
       "addedAt": "2026-03-14",
       "bundleId": "p3.xyz.yyyue.esign",
-      "updatedAt": "2026-08-24T06:15:21.810Z"
+      "updatedAt": "2026-08-24T06:15:21.810Z",
+      "_rowKey": 52
     },
     {
       "id": "nya.asami.ksign",
@@ -946,7 +1002,8 @@
       "category": "أخرى",
       "addedAt": "2026-03-14",
       "bundleId": "nya.asami.ksign",
-      "updatedAt": "2026-08-24T06:14:28.961Z"
+      "updatedAt": "2026-08-24T06:14:28.961Z",
+      "_rowKey": 53
     },
     {
       "id": "archery.storify",
@@ -971,7 +1028,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "archery.storify"
+      "bundleId": "archery.storify",
+      "_rowKey": 54
     },
     {
       "id": "com.gingerlabs.Notability",
@@ -996,7 +1054,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.gingerlabs.Notability"
+      "bundleId": "com.gingerlabs.Notability",
+      "_rowKey": 55
     },
     {
       "id": "com.alightcreative.motion",
@@ -1021,7 +1080,8 @@
       ],
       "recommended": false,
       "updatedAt": "2026-08-24T06:23:36.014Z",
-      "bundleId": "com.alightcreative.motion"
+      "bundleId": "com.alightcreative.motion",
+      "_rowKey": 56
     },
     {
       "id": "com.adobe.photoshop.ios",
@@ -1034,7 +1094,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-14",
       "bundleId": "com.adobe.photoshop.ios",
-      "updatedAt": "2026-08-24T06:51:30.543Z"
+      "updatedAt": "2026-08-24T06:51:30.543Z",
+      "_rowKey": 57
     },
     {
       "id": "com.miniclip.8ballpoolmult",
@@ -1059,7 +1120,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.miniclip.8ballpoolmult"
+      "bundleId": "com.miniclip.8ballpoolmult",
+      "_rowKey": 58
     },
     {
       "id": "app-1774774281798",
@@ -1080,7 +1142,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.tencent.ig"
+      "bundleId": "com.tencent.ig",
+      "_rowKey": 59
     },
     {
       "id": "com.camerasideas.InstaShot",
@@ -1105,7 +1168,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.camerasideas.InstaShot"
+      "bundleId": "com.camerasideas.InstaShot",
+      "_rowKey": 60
     },
     {
       "id": "app-1773546801873",
@@ -1116,7 +1180,8 @@
       "size": "711.7 MB",
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
-      "addedAt": "2026-03-15"
+      "addedAt": "2026-03-15",
+      "_rowKey": 61
     },
     {
       "id": "com.activision.callofduty.shooter",
@@ -1129,7 +1194,8 @@
       "category": "ألعاب",
       "addedAt": "2026-04-05",
       "bundleId": "com.activision.callofduty.shooter",
-      "updatedAt": "2026-08-24T13:56:43.705Z"
+      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "_rowKey": 62
     },
     {
       "id": "app-1773546824423",
@@ -1141,7 +1207,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "bundleId": "com.rockstargames.gtasa"
+      "bundleId": "com.rockstargames.gtasa",
+      "_rowKey": 63
     },
     {
       "id": "com.supercell.scroll",
@@ -1157,7 +1224,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.supercell.scroll"
+      "bundleId": "com.supercell.scroll",
+      "_rowKey": 64
     },
     {
       "id": "com.supercell.magic",
@@ -1173,7 +1241,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.supercell.magic"
+      "bundleId": "com.supercell.magic",
+      "_rowKey": 65
     },
     {
       "id": "com.fingersoft.hillclimbracing",
@@ -1198,7 +1267,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.fingersoft.hillclimbracing"
+      "bundleId": "com.fingersoft.hillclimbracing",
+      "_rowKey": 66
     },
     {
       "id": "app-1773546829399",
@@ -1210,7 +1280,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "bundleId": "com.rockstargames.gtavc"
+      "bundleId": "com.rockstargames.gtavc",
+      "_rowKey": 67
     },
     {
       "id": "com.adobe.photoshop.ios",
@@ -1223,7 +1294,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-29",
       "bundleId": "com.adobe.photoshop.ios",
-      "updatedAt": "2026-08-24T06:52:07.617Z"
+      "updatedAt": "2026-08-24T06:52:07.617Z",
+      "_rowKey": 68
     },
     {
       "id": "store.ipa.gta3.de",
@@ -1239,7 +1311,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T13:58:36.518Z",
-      "bundleId": "store.ipa.gta3.de"
+      "bundleId": "store.ipa.gta3.de",
+      "_rowKey": 69
     },
     {
       "id": "com.rockstargames.bully",
@@ -1255,7 +1328,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.rockstargames.bully"
+      "bundleId": "com.rockstargames.bully",
+      "_rowKey": 70
     },
     {
       "id": "org.ppsspp.ppsspp-goldlu5",
@@ -1271,7 +1345,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-24T06:15:37.159Z"
+      "updatedAt": "2026-08-24T06:15:37.159Z",
+      "_rowKey": 71
     },
     {
       "id": "com.truesoftware.TrueCallerOther",
@@ -1284,7 +1359,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-15",
       "updatedAt": "2026-08-24T06:19:44.553Z",
-      "bundleId": "com.truesoftware.TrueCallerOther"
+      "bundleId": "com.truesoftware.TrueCallerOther",
+      "_rowKey": 72
     },
     {
       "id": "com.aichatbot.assistant",
@@ -1297,7 +1373,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-15",
       "bundleId": "com.aichatbot.assistant",
-      "updatedAt": "2026-08-24T06:20:53.793Z"
+      "updatedAt": "2026-08-24T06:20:53.793Z",
+      "_rowKey": 73
     },
     {
       "id": "com.talgat.AIChat",
@@ -1310,7 +1387,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-15",
       "updatedAt": "2026-08-24T06:17:41.161Z",
-      "bundleId": "com.talgat.AIChat"
+      "bundleId": "com.talgat.AIChat",
+      "_rowKey": 74
     },
     {
       "id": "com.lemon.lvoversealu",
@@ -1323,7 +1401,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-15",
       "updatedAt": "2026-08-24T08:28:33.391Z",
-      "bundleId": "com.lemon.lvoversealu"
+      "bundleId": "com.lemon.lvoversealu",
+      "_rowKey": 75
     },
     {
       "id": "com.kinemaster.kios",
@@ -1344,7 +1423,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.kinemaster.kios"
+      "bundleId": "com.kinemaster.kios",
+      "_rowKey": 76
     },
     {
       "id": "com.xiaoji.gamecenter",
@@ -1360,7 +1440,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.xiaoji.gamecenter"
+      "bundleId": "com.xiaoji.gamecenter",
+      "_rowKey": 77
     },
     {
       "id": "com.abishkking.sixpack",
@@ -1373,7 +1454,8 @@
       "bundleId": "com.abishkking.sixpack",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T08:30:12.682Z"
+      "updatedAt": "2026-08-24T08:30:12.682Z",
+      "_rowKey": 78
     },
     {
       "id": "com.adobe.ailogo",
@@ -1386,7 +1468,8 @@
       "bundleId": "com.adobe.ailogo",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T09:04:12.892Z"
+      "updatedAt": "2026-08-24T09:04:12.892Z",
+      "_rowKey": 79
     },
     {
       "id": "com.virtualapplications.play",
@@ -1399,7 +1482,8 @@
       "category": "أخرى",
       "addedAt": "2026-03-15",
       "updatedAt": "2026-08-24T06:14:41.479Z",
-      "bundleId": "com.virtualapplications.play"
+      "bundleId": "com.virtualapplications.play",
+      "_rowKey": 80
     },
     {
       "id": "com.gloop.deltamobile",
@@ -1424,7 +1508,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.gloop.deltamobile"
+      "bundleId": "com.gloop.deltamobile",
+      "_rowKey": 81
     },
     {
       "id": "com.mojang.minecraftpreview",
@@ -1449,7 +1534,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.mojang.minecraftpreview"
+      "bundleId": "com.mojang.minecraftpreview",
+      "_rowKey": 82
     },
     {
       "id": "nt.nb.ios",
@@ -1465,7 +1551,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "nt.nb.ios"
+      "bundleId": "nt.nb.ios",
+      "_rowKey": 83
     },
     {
       "id": "com.scottgames.fivenights",
@@ -1481,7 +1568,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:21:43.268Z",
-      "bundleId": "com.scottgames.fivenights"
+      "bundleId": "com.scottgames.fivenights",
+      "_rowKey": 84
     },
     {
       "id": "com.codebysms",
@@ -1494,7 +1582,8 @@
       "bundleId": "com.codebysms",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T06:14:04.714Z"
+      "updatedAt": "2026-08-24T06:14:04.714Z",
+      "_rowKey": 85
     },
     {
       "id": "com.AppChief.ArabicArt",
@@ -1519,7 +1608,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.AppChief.ArabicArt"
+      "bundleId": "com.AppChief.ArabicArt",
+      "_rowKey": 86
     },
     {
       "id": "com.scottgames.fnaf2",
@@ -1535,7 +1625,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:22:56.836Z",
-      "bundleId": "com.scottgames.fnaf2"
+      "bundleId": "com.scottgames.fnaf2",
+      "_rowKey": 87
     },
     {
       "id": "com.scottgames.fivenights3",
@@ -1551,7 +1642,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:18:21.674Z",
-      "bundleId": "com.scottgames.fivenights3"
+      "bundleId": "com.scottgames.fivenights3",
+      "_rowKey": 88
     },
     {
       "id": "com.vivacut.videoeditor",
@@ -1564,7 +1656,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-15",
       "updatedAt": "2026-08-24T06:49:28.662Z",
-      "bundleId": "com.vivacut.videoeditor"
+      "bundleId": "com.vivacut.videoeditor",
+      "_rowKey": 89
     },
     {
       "id": "com.smallpdf.app.ios",
@@ -1577,7 +1670,8 @@
       "bundleId": "com.smallpdf.app.ios",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T06:20:45.751Z"
+      "updatedAt": "2026-08-24T06:20:45.751Z",
+      "_rowKey": 90
     },
     {
       "id": "com.youthhr.Phonto",
@@ -1590,7 +1684,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-15",
       "bundleId": "com.youthhr.Phonto",
-      "updatedAt": "2026-08-24T06:16:43.417Z"
+      "updatedAt": "2026-08-24T06:16:43.417Z",
+      "_rowKey": 91
     },
     {
       "id": "com.scottgames.fnaf4",
@@ -1606,7 +1701,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:17:37.808Z",
-      "bundleId": "com.scottgames.fnaf4"
+      "bundleId": "com.scottgames.fnaf4",
+      "_rowKey": 92
     },
     {
       "id": "com.dreamora",
@@ -1619,7 +1715,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-15",
       "bundleId": "com.dreamora",
-      "updatedAt": "2026-08-24T06:16:53.887Z"
+      "updatedAt": "2026-08-24T06:16:53.887Z",
+      "_rowKey": 93
     },
     {
       "id": "com.sfun.snapedit",
@@ -1644,7 +1741,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.sfun.snapedit"
+      "bundleId": "com.sfun.snapedit",
+      "_rowKey": 94
     },
     {
       "id": "com.vodu.ikiraplus",
@@ -1660,7 +1758,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:16:57.097Z",
-      "bundleId": "com.vodu.ikiraplus"
+      "bundleId": "com.vodu.ikiraplus",
+      "_rowKey": 95
     },
     {
       "id": "com.squareenix.tombraider1classic",
@@ -1673,7 +1772,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-15",
       "bundleId": "com.squareenix.tombraider1classic",
-      "updatedAt": "2026-08-24T06:52:43.421Z"
+      "updatedAt": "2026-08-24T06:52:43.421Z",
+      "_rowKey": 96
     },
     {
       "id": "com.squareenix.tombraider2classic",
@@ -1686,7 +1786,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-15",
       "bundleId": "com.squareenix.tombraider2classic",
-      "updatedAt": "2026-08-24T06:51:10.702Z"
+      "updatedAt": "2026-08-24T06:51:10.702Z",
+      "_rowKey": 97
     },
     {
       "id": "com.kiloo.subwaysurfers",
@@ -1711,7 +1812,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.kiloo.subwaysurfers"
+      "bundleId": "com.kiloo.subwaysurfers",
+      "_rowKey": 98
     },
     {
       "id": "com.miniclip.agar.io.shark",
@@ -1724,7 +1826,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.miniclip.agar.io.shark",
-      "updatedAt": "2026-08-24T06:20:31.097Z"
+      "updatedAt": "2026-08-24T06:20:31.097Z",
+      "_rowKey": 99
     },
     {
       "id": "com.carx-tech.carxdr2",
@@ -1740,7 +1843,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T13:58:36.518Z",
-      "bundleId": "com.carx-tech.carxdr2"
+      "bundleId": "com.carx-tech.carxdr2",
+      "_rowKey": 100
     },
     {
       "id": "com.popcap.ios.PvZ2",
@@ -1761,7 +1865,8 @@
       ],
       "recommended": false,
       "updatedAt": "2026-08-24T06:44:17.574Z",
-      "bundleId": "com.popcap.ios.PvZ2"
+      "bundleId": "com.popcap.ios.PvZ2",
+      "_rowKey": 101
     },
     {
       "id": "com.innersloth.amongus",
@@ -1782,7 +1887,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.innersloth.amongus"
+      "bundleId": "com.innersloth.amongus",
+      "_rowKey": 102
     },
     {
       "id": "jp.co.bandainamcogames.BNGI0221",
@@ -1795,7 +1901,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "jp.co.bandainamcogames.BNGI0221",
-      "updatedAt": "2026-08-24T13:20:40.310Z"
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "_rowKey": 103
     },
     {
       "id": "com.dts.freefiremaxs",
@@ -1816,7 +1923,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.dts.freefiremaxs"
+      "bundleId": "com.dts.freefiremaxs",
+      "_rowKey": 104
     },
     {
       "id": "com.gameloft.asphalt9",
@@ -1837,7 +1945,8 @@
       ],
       "recommended": false,
       "updatedAt": "2026-08-24T13:56:43.705Z",
-      "bundleId": "com.gameloft.asphalt9"
+      "bundleId": "com.gameloft.asphalt9",
+      "_rowKey": 105
     },
     {
       "id": "com.ea.nfs13.inc",
@@ -1850,7 +1959,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.ea.nfs13.inc",
-      "updatedAt": "2026-08-24T13:20:40.310Z"
+      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "_rowKey": 106
     },
     {
       "id": "com.nekki.shadowfight3",
@@ -1871,7 +1981,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.nekki.shadowfight3"
+      "bundleId": "com.nekki.shadowfight3",
+      "_rowKey": 107
     },
     {
       "id": "com.wb.MK.Brawler2015",
@@ -1892,7 +2003,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.wb.MK.Brawler2015"
+      "bundleId": "com.wb.MK.Brawler2015",
+      "_rowKey": 108
     },
     {
       "id": "com.fingersoft.hillclimbracing2",
@@ -1913,7 +2025,8 @@
       ],
       "recommended": false,
       "updatedAt": "2026-08-24T06:49:41.035Z",
-      "bundleId": "com.fingersoft.hillclimbracing2"
+      "bundleId": "com.fingersoft.hillclimbracing2",
+      "_rowKey": 109
     },
     {
       "id": "com.midasplayer.apps.candycrushsaga",
@@ -1926,7 +2039,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-08-24T06:23:01.586Z",
-      "bundleId": "com.midasplayer.apps.candycrushsaga"
+      "bundleId": "com.midasplayer.apps.candycrushsaga",
+      "_rowKey": 110
     },
     {
       "id": "com.playrix.gardenscapes-m3-ios",
@@ -1947,7 +2061,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.playrix.gardenscapes-m3-ios"
+      "bundleId": "com.playrix.gardenscapes-m3-ios",
+      "_rowKey": 111
     },
     {
       "id": "com.rovio.baba",
@@ -1968,7 +2083,8 @@
       ],
       "recommended": false,
       "updatedAt": "2026-08-24T10:03:23.431Z",
-      "bundleId": "com.rovio.baba"
+      "bundleId": "com.rovio.baba",
+      "_rowKey": 112
     },
     {
       "id": "com.blayzegames.iosfps",
@@ -1981,7 +2097,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-08-24T13:58:36.518Z",
-      "bundleId": "com.blayzegames.iosfps"
+      "bundleId": "com.blayzegames.iosfps",
+      "_rowKey": 113
     },
     {
       "id": "com.nekki.shadowfight",
@@ -2002,7 +2119,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.nekki.shadowfight"
+      "bundleId": "com.nekki.shadowfight",
+      "_rowKey": 114
     },
     {
       "id": "com.outfit7.mytalkingtomfriends",
@@ -2018,7 +2136,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:51:07.209Z",
-      "bundleId": "com.outfit7.mytalkingtomfriends"
+      "bundleId": "com.outfit7.mytalkingtomfriends",
+      "_rowKey": 115
     },
     {
       "id": "dazz.camera.vintagecamera",
@@ -2031,7 +2150,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-08-24T06:43:38.148Z",
-      "bundleId": "dazz.camera.vintagecamera"
+      "bundleId": "dazz.camera.vintagecamera",
+      "_rowKey": 116
     },
     {
       "id": "com.protools.Watermark",
@@ -2044,7 +2164,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-08-24T06:18:03.535Z",
-      "bundleId": "com.protools.Watermark"
+      "bundleId": "com.protools.Watermark",
+      "_rowKey": 117
     },
     {
       "id": "com.algoriddim.djay-iphone-free",
@@ -2065,7 +2186,8 @@
       ],
       "recommended": false,
       "updatedAt": "2026-08-24T06:47:57.368Z",
-      "bundleId": "com.algoriddim.djay-iphone-free"
+      "bundleId": "com.algoriddim.djay-iphone-free",
+      "_rowKey": 118
     },
     {
       "id": "com.intsig.CamScannerLite",
@@ -2090,7 +2212,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.intsig.CamScannerLite"
+      "bundleId": "com.intsig.CamScannerLite",
+      "_rowKey": 119
     },
     {
       "id": "com.xd.mbp31",
@@ -2103,7 +2226,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-29",
       "bundleId": "com.xd.mbp31",
-      "updatedAt": "2026-08-24T06:18:14.884Z"
+      "updatedAt": "2026-08-24T06:18:14.884Z",
+      "_rowKey": 120
     },
     {
       "id": "com.kooapps.pianotiles2arcade",
@@ -2119,7 +2243,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:17:59.980Z",
-      "bundleId": "com.kooapps.pianotiles2arcade"
+      "bundleId": "com.kooapps.pianotiles2arcade",
+      "_rowKey": 121
     },
     {
       "id": "com.scottgames.fivenights",
@@ -2132,7 +2257,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.scottgames.fivenights",
-      "updatedAt": "2026-08-24T06:21:19.998Z"
+      "updatedAt": "2026-08-24T06:21:19.998Z",
+      "_rowKey": 122
     },
     {
       "id": "fontskeyboard.fonts",
@@ -2145,7 +2271,8 @@
       "category": "أدوات",
       "addedAt": "2026-03-29",
       "bundleId": "fontskeyboard.fonts",
-      "updatedAt": "2026-08-24T06:18:43.883Z"
+      "updatedAt": "2026-08-24T06:18:43.883Z",
+      "_rowKey": 123
     },
     {
       "id": "app-dropbox-fortnite-3940",
@@ -2161,7 +2288,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-22T07:03:30.894Z",
-      "bundleId": "com.epicgames.fortnite"
+      "bundleId": "com.epicgames.fortnite",
+      "_rowKey": 124
     },
     {
       "id": "app-dropbox-brawl-stars-63265",
@@ -2174,7 +2302,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "updatedAt": "2026-04-27T18:09:59.509Z",
-      "bundleId": "com.supercell.brawlstars"
+      "bundleId": "com.supercell.brawlstars",
+      "_rowKey": 125
     },
     {
       "id": "com.spotify.client",
@@ -2199,7 +2328,8 @@
       ],
       "recommended": false,
       "updatedAt": "2026-08-25T07:33:56.424Z",
-      "bundleId": "com.spotify.client"
+      "bundleId": "com.spotify.client",
+      "_rowKey": 126
     },
     {
       "id": "com.fungames.sniper3d",
@@ -2212,7 +2342,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.fungames.sniper3d",
-      "updatedAt": "2026-08-24T08:30:03.855Z"
+      "updatedAt": "2026-08-24T08:30:03.855Z",
+      "_rowKey": 127
     },
     {
       "id": "com.gameloft.gangstar4",
@@ -2228,7 +2359,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.gameloft.gangstar4"
+      "bundleId": "com.gameloft.gangstar4",
+      "_rowKey": 128
     },
     {
       "id": "app-iosgods-gta-vice-city-1081",
@@ -2240,7 +2372,8 @@
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "bundleId": "com.rockstargames.gtavc"
+      "bundleId": "com.rockstargames.gtavc",
+      "_rowKey": 129
     },
     {
       "id": "com.vincentb.MobControl",
@@ -2253,7 +2386,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.vincentb.MobControl",
-      "updatedAt": "2026-08-24T06:48:38.369Z"
+      "updatedAt": "2026-08-24T06:48:38.369Z",
+      "_rowKey": 130
     },
     {
       "id": "jp.ne.ibis.ibisPaintX",
@@ -2269,7 +2403,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:17:56.311Z",
-      "bundleId": "jp.ne.ibis.ibisPaintX"
+      "bundleId": "jp.ne.ibis.ibisPaintX",
+      "_rowKey": 131
     },
     {
       "id": "com.duolingo.DuolingoMobile",
@@ -2294,7 +2429,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.duolingo.DuolingoMobile"
+      "bundleId": "com.duolingo.DuolingoMobile",
+      "_rowKey": 132
     },
     {
       "id": "com.imangi.templerun2",
@@ -2310,7 +2446,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:45:03.004Z",
-      "bundleId": "com.imangi.templerun2"
+      "bundleId": "com.imangi.templerun2",
+      "_rowKey": 133
     },
     {
       "id": "com.sega.sonicdash",
@@ -2323,7 +2460,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.sega.sonicdash",
-      "updatedAt": "2026-08-24T06:53:16.087Z"
+      "updatedAt": "2026-08-24T06:53:16.087Z",
+      "_rowKey": 134
     },
     {
       "id": "com.europe.huntingsniper",
@@ -2336,7 +2474,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.europe.huntingsniper",
-      "updatedAt": "2026-08-24T10:18:49.165Z"
+      "updatedAt": "2026-08-24T10:18:49.165Z",
+      "_rowKey": 135
     },
     {
       "id": "com.outfit7.movingeye.swampattack",
@@ -2349,7 +2488,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.outfit7.movingeye.swampattack",
-      "updatedAt": "2026-08-24T06:52:22.426Z"
+      "updatedAt": "2026-08-24T06:52:22.426Z",
+      "_rowKey": 136
     },
     {
       "id": "games.my.zombie.shooter",
@@ -2362,7 +2502,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "games.my.zombie.shooter",
-      "updatedAt": "2026-08-24T06:53:45.681Z"
+      "updatedAt": "2026-08-24T06:53:45.681Z",
+      "_rowKey": 137
     },
     {
       "id": "com.GoPlayGames.FCM25",
@@ -2375,7 +2516,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.GoPlayGames.FCM25",
-      "updatedAt": "2026-08-24T06:48:25.428Z"
+      "updatedAt": "2026-08-24T06:48:25.428Z",
+      "_rowKey": 138
     },
     {
       "id": "com.rovio.bloom",
@@ -2388,7 +2530,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.rovio.bloom",
-      "updatedAt": "2026-08-24T06:51:27.224Z"
+      "updatedAt": "2026-08-24T06:51:27.224Z",
+      "_rowKey": 139
     },
     {
       "id": "com.colossi.survival.gladiators",
@@ -2401,7 +2544,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.colossi.survival.gladiators",
-      "updatedAt": "2026-08-24T09:28:46.250Z"
+      "updatedAt": "2026-08-24T09:28:46.250Z",
+      "_rowKey": 140
     },
     {
       "id": "com.storytoys.lego.duplo.peppa.pig.ios",
@@ -2414,7 +2558,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.storytoys.lego.duplo.peppa.pig.ios",
-      "updatedAt": "2026-08-24T06:46:37.928Z"
+      "updatedAt": "2026-08-24T06:46:37.928Z",
+      "_rowKey": 141
     },
     {
       "id": "com.playspare.store",
@@ -2430,7 +2575,8 @@
       "previousVersions": [],
       "recommended": false,
       "updatedAt": "2026-08-24T06:51:49.368Z",
-      "bundleId": "com.playspare.store"
+      "bundleId": "com.playspare.store",
+      "_rowKey": 142
     },
     {
       "id": "net.halasat.tv",
@@ -2443,7 +2589,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-29",
       "bundleId": "net.halasat.tv",
-      "updatedAt": "2026-08-24T06:14:56.716Z"
+      "updatedAt": "2026-08-24T06:14:56.716Z",
+      "_rowKey": 143
     },
     {
       "id": "app-iosgods-modern-strike-online-4592",
@@ -2456,7 +2603,8 @@
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.gamedevltd.modernstrikeonline",
-      "updatedAt": "2026-08-24T10:06:55.430Z"
+      "updatedAt": "2026-08-24T10:06:55.430Z",
+      "_rowKey": 144
     },
     {
       "id": "dev-movlix.player",
@@ -2469,7 +2617,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-29",
       "bundleId": "dev-movlix.player",
-      "updatedAt": "2026-08-24T06:13:54.051Z"
+      "updatedAt": "2026-08-24T06:13:54.051Z",
+      "_rowKey": 145
     },
     {
       "id": "ali.Bawa",
@@ -2490,7 +2639,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "ali.Bawa"
+      "bundleId": "ali.Bawa",
+      "_rowKey": 146
     },
     {
       "id": "com.forfun.MovieBox-TV",
@@ -2503,7 +2653,8 @@
       "category": "ترفيه",
       "addedAt": "2026-03-29",
       "bundleId": "com.forfun.MovieBox-TV",
-      "updatedAt": "2026-08-24T06:13:51.816Z"
+      "updatedAt": "2026-08-24T06:13:51.816Z",
+      "_rowKey": 147
     },
     {
       "id": "joker.app",
@@ -2519,7 +2670,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "joker.app"
+      "bundleId": "joker.app",
+      "_rowKey": 148
     },
     {
       "id": "com.fiksu",
@@ -2541,7 +2693,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.fiksu"
+      "bundleId": "com.fiksu",
+      "_rowKey": 149
     },
     {
       "id": "com.adobe.lrmobilephone",
@@ -2566,7 +2719,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.adobe.lrmobilephone"
+      "bundleId": "com.adobe.lrmobilephone",
+      "_rowKey": 150
     },
     {
       "id": "co.visualsupply.cam",
@@ -2591,7 +2745,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "co.visualsupply.cam"
+      "bundleId": "co.visualsupply.cam",
+      "_rowKey": 151
     },
     {
       "id": "com.squareenixmontreal.hitmansniper",
@@ -2604,7 +2759,8 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:04:16.596Z",
       "updatedAt": "2026-08-24T09:28:54.581Z",
-      "bundleId": "com.squareenixmontreal.hitmansniper"
+      "bundleId": "com.squareenixmontreal.hitmansniper",
+      "_rowKey": 152
     },
     {
       "id": "zombie.survival.craft.z",
@@ -2629,7 +2785,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "zombie.survival.craft.z"
+      "bundleId": "zombie.survival.craft.z",
+      "_rowKey": 153
     },
     {
       "id": "com.linecorp.b612",
@@ -2654,7 +2811,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.linecorp.b612"
+      "bundleId": "com.linecorp.b612",
+      "_rowKey": 154
     },
     {
       "id": "boomer.Smart-Video",
@@ -2679,7 +2837,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "boomer.Smart-Video"
+      "bundleId": "boomer.Smart-Video",
+      "_rowKey": 155
     },
     {
       "id": "com.naturalmotion.customstreetracer2",
@@ -2692,7 +2851,8 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:26:07.473Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.naturalmotion.customstreetracer2"
+      "bundleId": "com.naturalmotion.customstreetracer2",
+      "_rowKey": 156
     },
     {
       "id": "com.topfreegames.bikeracefree",
@@ -2705,7 +2865,8 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:26:56.175Z",
       "updatedAt": "2026-08-24T06:23:05.333Z",
-      "bundleId": "com.topfreegames.bikeracefree"
+      "bundleId": "com.topfreegames.bikeracefree",
+      "_rowKey": 157
     },
     {
       "id": "com.gameinsight.airportcity",
@@ -2718,7 +2879,8 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:28:44.610Z",
       "updatedAt": "2026-08-24T08:28:59.976Z",
-      "bundleId": "com.gameinsight.airportcity"
+      "bundleId": "com.gameinsight.airportcity",
+      "_rowKey": 158
     },
     {
       "id": "fantasy.survival.game.rpg",
@@ -2743,7 +2905,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "fantasy.survival.game.rpg"
+      "bundleId": "fantasy.survival.game.rpg",
+      "_rowKey": 159
     },
     {
       "id": "com.aidana.cardriving.ios",
@@ -2756,7 +2919,8 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:31:33.239Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.aidana.cardriving.ios"
+      "bundleId": "com.aidana.cardriving.ios",
+      "_rowKey": 160
     },
     {
       "id": "com.gameloft.asphalt8",
@@ -2769,7 +2933,8 @@
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:33:15.514Z",
       "updatedAt": "2026-08-24T13:56:43.705Z",
-      "bundleId": "com.gameloft.asphalt8"
+      "bundleId": "com.gameloft.asphalt8",
+      "_rowKey": 161
     },
     {
       "id": "com.google.ios.youtube",
@@ -2782,7 +2947,8 @@
       "category": "تواصل",
       "addedAt": "2026-04-27T18:38:30.031Z",
       "updatedAt": "2026-08-24T08:28:30.580Z",
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 162
     },
     {
       "id": "com.google.ios.youtube",
@@ -2803,7 +2969,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 163
     },
     {
       "id": "com.google.ios.youtube",
@@ -2816,7 +2983,8 @@
       "category": "تواصل",
       "addedAt": "2026-04-27T18:40:21.634Z",
       "updatedAt": "2026-08-24T06:23:46.085Z",
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 164
     },
     {
       "id": "com.soundcloud.TouchApp",
@@ -2841,7 +3009,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.soundcloud.TouchApp"
+      "bundleId": "com.soundcloud.TouchApp",
+      "_rowKey": 165
     },
     {
       "id": "fun.ask",
@@ -2854,7 +3023,8 @@
       "category": "تواصل",
       "addedAt": "2026-04-28T07:16:28.133Z",
       "updatedAt": "2026-08-24T06:22:18.203Z",
-      "bundleId": "fun.ask"
+      "bundleId": "fun.ask",
+      "_rowKey": 166
     },
     {
       "id": "app-1777652492142",
@@ -2879,7 +3049,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.rekoo.pubgm"
+      "bundleId": "com.rekoo.pubgm",
+      "_rowKey": 167
     },
     {
       "id": "com.anime.animeRiftApp",
@@ -2900,7 +3071,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.anime.animeRiftApp"
+      "bundleId": "com.anime.animeRiftApp",
+      "_rowKey": 168
     },
     {
       "id": "com.madplay.ikiraplus",
@@ -2913,7 +3085,8 @@
       "category": "ترفيه",
       "addedAt": "2026-05-01T16:28:16.260Z",
       "updatedAt": "2026-08-24T06:42:46.285Z",
-      "bundleId": "com.madplay.ikiraplus"
+      "bundleId": "com.madplay.ikiraplus",
+      "_rowKey": 169
     },
     {
       "id": "com.yalla-shoot.Yalla",
@@ -2926,7 +3099,8 @@
       "category": "ترفيه",
       "addedAt": "2026-05-01T16:30:28.921Z",
       "updatedAt": "2026-08-24T06:16:20.704Z",
-      "bundleId": "com.yalla-shoot.Yalla"
+      "bundleId": "com.yalla-shoot.Yalla",
+      "_rowKey": 170
     },
     {
       "id": "com.frontrow.vlog",
@@ -2947,7 +3121,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.frontrow.vlog"
+      "bundleId": "com.frontrow.vlog",
+      "_rowKey": 171
     },
     {
       "id": "com.hassantaleb.mockup",
@@ -2972,7 +3147,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.hassantaleb.mockup"
+      "bundleId": "com.hassantaleb.mockup",
+      "_rowKey": 172
     },
     {
       "id": "com.ikiraplus.cinemana",
@@ -2985,7 +3161,8 @@
       "category": "ترفيه",
       "addedAt": "2026-05-08T15:57:11.135Z",
       "updatedAt": "2026-08-24T06:16:50.368Z",
-      "bundleId": "com.ikiraplus.cinemana"
+      "bundleId": "com.ikiraplus.cinemana",
+      "_rowKey": 173
     },
     {
       "id": "com.nekki.shadowfightarena",
@@ -3006,7 +3183,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.nekki.shadowfightarena"
+      "bundleId": "com.nekki.shadowfightarena",
+      "_rowKey": 174
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -3019,7 +3197,8 @@
       "category": "تواصل",
       "addedAt": "2026-05-08T16:07:33.061Z",
       "updatedAt": "2026-08-24T08:29:44.279Z",
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 175
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -3032,7 +3211,8 @@
       "category": "تواصل",
       "addedAt": "2026-05-08T16:09:27.723Z",
       "updatedAt": "2026-08-24T06:53:27.329Z",
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 176
     },
     {
       "id": "com.dualcarbon.bigrigstruckadventure",
@@ -3053,7 +3233,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.dualcarbon.bigrigstruckadventure"
+      "bundleId": "com.dualcarbon.bigrigstruckadventure",
+      "_rowKey": 177
     },
     {
       "id": "com.miHoYo.bh3global",
@@ -3066,7 +3247,8 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:12:41.770Z",
       "updatedAt": "2026-08-24T13:56:43.705Z",
-      "bundleId": "com.miHoYo.bh3global"
+      "bundleId": "com.miHoYo.bh3global",
+      "_rowKey": 178
     },
     {
       "id": "com.Semicolon.Maraya",
@@ -3079,7 +3261,8 @@
       "category": "ترفيه",
       "addedAt": "2026-05-08T16:15:04.439Z",
       "updatedAt": "2026-08-24T06:15:57.546Z",
-      "bundleId": "com.Semicolon.Maraya"
+      "bundleId": "com.Semicolon.Maraya",
+      "_rowKey": 179
     },
     {
       "id": "com.cornfox.oceanhorn2",
@@ -3092,7 +3275,8 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:16:18.013Z",
       "updatedAt": "2026-08-24T13:56:43.705Z",
-      "bundleId": "com.cornfox.oceanhorn2"
+      "bundleId": "com.cornfox.oceanhorn2",
+      "_rowKey": 180
     },
     {
       "id": "com.googleusercontent.apps.24327066530-ks0rlpm37gffpbtpq5gkpmp8ba2h2okr",
@@ -3105,7 +3289,8 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:18:46.132Z",
       "updatedAt": "2026-08-24T10:26:02.416Z",
-      "bundleId": "com.googleusercontent.apps.24327066530-ks0rlpm37gffpbtpq5gkpmp8ba2h2okr"
+      "bundleId": "com.googleusercontent.apps.24327066530-ks0rlpm37gffpbtpq5gkpmp8ba2h2okr",
+      "_rowKey": 181
     },
     {
       "id": "com.thp021.stickman.survivor.epic.idle.rpg",
@@ -3118,7 +3303,8 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:21:07.386Z",
       "updatedAt": "2026-08-24T06:46:33.145Z",
-      "bundleId": "com.thp021.stickman.survivor.epic.idle.rpg"
+      "bundleId": "com.thp021.stickman.survivor.epic.idle.rpg",
+      "_rowKey": 182
     },
     {
       "id": "jp.konami.pesactionmobile",
@@ -3139,7 +3325,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "jp.konami.pesactionmobile"
+      "bundleId": "jp.konami.pesactionmobile",
+      "_rowKey": 183
     },
     {
       "id": "com.hutchgames.rebelracing",
@@ -3152,7 +3339,8 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:22:58.079Z",
       "updatedAt": "2026-08-24T10:08:33.313Z",
-      "bundleId": "com.hutchgames.rebelracing"
+      "bundleId": "com.hutchgames.rebelracing",
+      "_rowKey": 184
     },
     {
       "id": "app-1778257564894",
@@ -3177,7 +3365,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.pubg.krmobile"
+      "bundleId": "com.pubg.krmobile",
+      "_rowKey": 185
     },
     {
       "id": "com.aloula",
@@ -3190,7 +3379,8 @@
       "category": "ترفيه",
       "addedAt": "2026-05-08T16:28:19.527Z",
       "updatedAt": "2026-08-24T06:42:59.462Z",
-      "bundleId": "com.aloula"
+      "bundleId": "com.aloula",
+      "_rowKey": 186
     },
     {
       "id": "com.ares.twd",
@@ -3203,7 +3393,8 @@
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:29:32.847Z",
       "updatedAt": "2026-08-24T09:28:12.061Z",
-      "bundleId": "com.ares.twd"
+      "bundleId": "com.ares.twd",
+      "_rowKey": 187
     },
     {
       "id": "app-1778258191181",
@@ -3215,7 +3406,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:36:31.183Z",
-      "updatedAt": "2026-05-08T16:36:31.183Z"
+      "updatedAt": "2026-05-08T16:36:31.183Z",
+      "_rowKey": 188
     },
     {
       "id": "app-1779129418604",
@@ -3240,7 +3432,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.vng.pubgmobile"
+      "bundleId": "com.vng.pubgmobile",
+      "_rowKey": 189
     },
     {
       "id": "com.minichat",
@@ -3253,7 +3446,8 @@
       "category": "تواصل",
       "addedAt": "2026-05-23T18:20:28.947Z",
       "updatedAt": "2026-08-24T06:20:42.318Z",
-      "bundleId": "com.minichat"
+      "bundleId": "com.minichat",
+      "_rowKey": 190
     },
     {
       "id": "com.boundlessdrop.jawaker",
@@ -3266,7 +3460,8 @@
       "category": "ألعاب",
       "addedAt": "2026-05-23T18:21:24.441Z",
       "updatedAt": "2026-08-24T08:28:39.834Z",
-      "bundleId": "com.boundlessdrop.jawaker"
+      "bundleId": "com.boundlessdrop.jawaker",
+      "_rowKey": 191
     },
     {
       "id": "com.kingsoft.office.g.wpsoffice",
@@ -3287,7 +3482,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.kingsoft.office.g.wpsoffice"
+      "bundleId": "com.kingsoft.office.g.wpsoffice",
+      "_rowKey": 192
     },
     {
       "id": "com.carxtech.sr",
@@ -3312,7 +3508,8 @@
           "version": "1.16.1"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "_rowKey": 193
     },
     {
       "id": "app-1779560772086",
@@ -3337,7 +3534,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.reddit.Reddit"
+      "bundleId": "com.reddit.Reddit",
+      "_rowKey": 194
     },
     {
       "id": "com.facebook.Messenger",
@@ -3362,7 +3560,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.facebook.Messenger"
+      "bundleId": "com.facebook.Messenger",
+      "_rowKey": 195
     },
     {
       "id": "jp.co.capcom.VillageUSios",
@@ -3375,7 +3574,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:03:30.340Z",
       "updatedAt": "2026-08-24T10:30:44.780Z",
-      "bundleId": "jp.co.capcom.VillageUSios"
+      "bundleId": "jp.co.capcom.VillageUSios",
+      "_rowKey": 196
     },
     {
       "id": "app-1780340674753",
@@ -3387,7 +3587,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:04:34.754Z",
-      "updatedAt": "2026-06-01T19:04:34.754Z"
+      "updatedAt": "2026-06-01T19:04:34.754Z",
+      "_rowKey": 197
     },
     {
       "id": "com.AlfaBravo.WorldWarLegion",
@@ -3400,7 +3601,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:06:21.599Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.AlfaBravo.WorldWarLegion"
+      "bundleId": "com.AlfaBravo.WorldWarLegion",
+      "_rowKey": 198
     },
     {
       "id": "com.wejoy.weplay.us",
@@ -3413,7 +3615,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:10:54.297Z",
       "updatedAt": "2026-08-24T06:53:30.938Z",
-      "bundleId": "com.wejoy.weplay.us"
+      "bundleId": "com.wejoy.weplay.us",
+      "_rowKey": 199
     },
     {
       "id": "thewonderofyou.Feather",
@@ -3426,7 +3629,8 @@
       "category": "أخرى",
       "addedAt": "2026-06-01T19:14:40.011Z",
       "updatedAt": "2026-08-24T06:14:44.758Z",
-      "bundleId": "thewonderofyou.Feather"
+      "bundleId": "thewonderofyou.Feather",
+      "_rowKey": 200
     },
     {
       "id": "com.playrix.township-ios",
@@ -3451,7 +3655,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.playrix.township-ios"
+      "bundleId": "com.playrix.township-ios",
+      "_rowKey": 201
     },
     {
       "id": "com.gamedevltd.infinityops",
@@ -3464,7 +3669,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:19:52.409Z",
       "updatedAt": "2026-08-24T09:04:42.256Z",
-      "bundleId": "com.gamedevltd.infinityops"
+      "bundleId": "com.gamedevltd.infinityops",
+      "_rowKey": 202
     },
     {
       "id": "com.pusugames.streetpro",
@@ -3477,7 +3683,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:23:59.764Z",
       "updatedAt": "2026-08-24T08:29:16.731Z",
-      "bundleId": "com.pusugames.streetpro"
+      "bundleId": "com.pusugames.streetpro",
+      "_rowKey": 203
     },
     {
       "id": "com.scarlet.app",
@@ -3490,7 +3697,8 @@
       "category": "أخرى",
       "addedAt": "2026-06-01T19:24:54.723Z",
       "updatedAt": "2026-08-24T06:14:07.558Z",
-      "bundleId": "com.scarlet.app"
+      "bundleId": "com.scarlet.app",
+      "_rowKey": 204
     },
     {
       "id": "com.almutafoq.iq.app",
@@ -3503,7 +3711,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-06-01T19:38:10.370Z",
       "updatedAt": "2026-08-24T06:14:52.626Z",
-      "bundleId": "com.almutafoq.iq.app"
+      "bundleId": "com.almutafoq.iq.app",
+      "_rowKey": 205
     },
     {
       "id": "com.atebits.Tweetie2",
@@ -3524,7 +3733,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.atebits.Tweetie2"
+      "bundleId": "com.atebits.Tweetie2",
+      "_rowKey": 206
     },
     {
       "id": "jp.co.capcom.RE2US",
@@ -3537,7 +3747,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:10:59.350Z",
       "updatedAt": "2026-08-24T09:28:16.260Z",
-      "bundleId": "jp.co.capcom.RE2US"
+      "bundleId": "jp.co.capcom.RE2US",
+      "_rowKey": 207
     },
     {
       "id": "jp.co.capcom.RE3US",
@@ -3550,7 +3761,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:12:29.364Z",
       "updatedAt": "2026-08-24T09:27:19.022Z",
-      "bundleId": "jp.co.capcom.RE3US"
+      "bundleId": "jp.co.capcom.RE3US",
+      "_rowKey": 208
     },
     {
       "id": "jp.co.capcom.RE4US",
@@ -3563,7 +3775,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:13:57.498Z",
       "updatedAt": "2026-08-24T09:04:16.893Z",
-      "bundleId": "jp.co.capcom.RE4US"
+      "bundleId": "jp.co.capcom.RE4US",
+      "_rowKey": 209
     },
     {
       "id": "jp.co.capcom.RE7US",
@@ -3576,7 +3789,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:15:14.939Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "jp.co.capcom.RE7US"
+      "bundleId": "jp.co.capcom.RE7US",
+      "_rowKey": 210
     },
     {
       "id": "com.dr1ven.eraser",
@@ -3601,7 +3815,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.dr1ven.eraser"
+      "bundleId": "com.dr1ven.eraser",
+      "_rowKey": 211
     },
     {
       "id": "co.vulcanlabs.moodtracker",
@@ -3614,7 +3829,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-06-10T17:09:52.640Z",
       "updatedAt": "2026-08-24T09:27:35.302Z",
-      "bundleId": "co.vulcanlabs.moodtracker"
+      "bundleId": "co.vulcanlabs.moodtracker",
+      "_rowKey": 212
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -3627,7 +3843,8 @@
       "category": "تواصل",
       "addedAt": "2026-06-10T17:17:40.874Z",
       "updatedAt": "2026-08-24T08:31:05.015Z",
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 213
     },
     {
       "id": "com.carx-tech.carxdr3",
@@ -3640,7 +3857,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-10T17:21:58.741Z",
       "updatedAt": "2026-08-24T10:37:33.092Z",
-      "bundleId": "com.carx-tech.carxdr3"
+      "bundleId": "com.carx-tech.carxdr3",
+      "_rowKey": 214
     },
     {
       "id": "com.example.sevenscore",
@@ -3653,7 +3871,8 @@
       "category": "ترفيه",
       "addedAt": "2026-06-10T17:40:30.162Z",
       "updatedAt": "2026-08-24T06:42:51.128Z",
-      "bundleId": "com.example.sevenscore"
+      "bundleId": "com.example.sevenscore",
+      "_rowKey": 215
     },
     {
       "id": "com.dreamgames.royalmatch",
@@ -3666,7 +3885,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:33:30.871Z",
       "updatedAt": "2026-08-24T06:49:24.474Z",
-      "bundleId": "com.dreamgames.royalmatch"
+      "bundleId": "com.dreamgames.royalmatch",
+      "_rowKey": 216
     },
     {
       "id": "com.soccer.football.score.ios",
@@ -3679,7 +3899,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:36:12.794Z",
       "updatedAt": "2026-08-24T06:48:12.743Z",
-      "bundleId": "com.soccer.football.score.ios"
+      "bundleId": "com.soccer.football.score.ios",
+      "_rowKey": 217
     },
     {
       "id": "archery.clash.game",
@@ -3700,7 +3921,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "archery.clash.game"
+      "bundleId": "archery.clash.game",
+      "_rowKey": 218
     },
     {
       "id": "com.google.ios.youtube",
@@ -3713,7 +3935,8 @@
       "category": "تواصل",
       "addedAt": "2026-06-13T07:39:43.761Z",
       "updatedAt": "2026-08-24T06:44:03.595Z",
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 219
     },
     {
       "id": "com.rockstargames.maxpayne",
@@ -3726,7 +3949,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:41:13.553Z",
       "updatedAt": "2026-08-24T10:30:03.879Z",
-      "bundleId": "com.rockstargames.maxpayne"
+      "bundleId": "com.rockstargames.maxpayne",
+      "_rowKey": 220
     },
     {
       "id": "com.leosfortune.arcade",
@@ -3742,7 +3966,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.leosfortune.arcade"
+      "bundleId": "com.leosfortune.arcade",
+      "_rowKey": 221
     },
     {
       "id": "com.rovio.abm3",
@@ -3755,7 +3980,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:17:38.515Z",
       "updatedAt": "2026-08-24T06:48:46.352Z",
-      "bundleId": "com.rovio.abm3"
+      "bundleId": "com.rovio.abm3",
+      "_rowKey": 222
     },
     {
       "id": "com.darkmatter.abfam",
@@ -3768,7 +3994,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:19:51.234Z",
       "updatedAt": "2026-08-24T06:47:22.695Z",
-      "bundleId": "com.darkmatter.abfam"
+      "bundleId": "com.darkmatter.abfam",
+      "_rowKey": 223
     },
     {
       "id": "com.rovio.abreloaded",
@@ -3781,7 +4008,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:21:45.952Z",
       "updatedAt": "2026-08-24T06:54:00.299Z",
-      "bundleId": "com.rovio.abreloaded"
+      "bundleId": "com.rovio.abreloaded",
+      "_rowKey": 224
     },
     {
       "id": "com.rovio.ab-bounce",
@@ -3794,7 +4022,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:22:54.023Z",
       "updatedAt": "2026-08-24T08:30:16.858Z",
-      "bundleId": "com.rovio.ab-bounce"
+      "bundleId": "com.rovio.ab-bounce",
+      "_rowKey": 225
     },
     {
       "id": "com.rovio.angrybirdsstarwarsii",
@@ -3807,7 +4036,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:24:06.603Z",
       "updatedAt": "2026-08-24T06:19:19.948Z",
-      "bundleId": "com.rovio.angrybirdsstarwarsii"
+      "bundleId": "com.rovio.angrybirdsstarwarsii",
+      "_rowKey": 226
     },
     {
       "id": "com.rovio.angrybirdsgo",
@@ -3820,7 +4050,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:25:16.497Z",
       "updatedAt": "2026-08-24T06:51:22.674Z",
-      "bundleId": "com.rovio.angrybirdsgo"
+      "bundleId": "com.rovio.angrybirdsgo",
+      "_rowKey": 227
     },
     {
       "id": "com.rovio.dream",
@@ -3833,7 +4064,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:26:07.666Z",
       "updatedAt": "2026-08-24T06:47:38.227Z",
-      "bundleId": "com.rovio.dream"
+      "bundleId": "com.rovio.dream",
+      "_rowKey": 228
     },
     {
       "id": "com.rovio.angrybirdstransformers",
@@ -3854,7 +4086,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.rovio.angrybirdstransformers"
+      "bundleId": "com.rovio.angrybirdstransformers",
+      "_rowKey": 229
     },
     {
       "id": "com.rovio.baba",
@@ -3867,7 +4100,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:29:15.052Z",
       "updatedAt": "2026-08-24T09:29:29.919Z",
-      "bundleId": "com.rovio.baba"
+      "bundleId": "com.rovio.baba",
+      "_rowKey": 230
     },
     {
       "id": "com.rovio.abcasual",
@@ -3880,7 +4114,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:30:41.517Z",
       "updatedAt": "2026-08-24T06:45:36.794Z",
-      "bundleId": "com.rovio.abcasual"
+      "bundleId": "com.rovio.abcasual",
+      "_rowKey": 231
     },
     {
       "id": "com.rovio.angrybirdsfriends",
@@ -3893,7 +4128,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:31:40.082Z",
       "updatedAt": "2026-08-24T06:47:06.713Z",
-      "bundleId": "com.rovio.angrybirdsfriends"
+      "bundleId": "com.rovio.angrybirdsfriends",
+      "_rowKey": 232
     },
     {
       "id": "com.imangi.templerun2",
@@ -3906,7 +4142,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:58:14.300Z",
       "updatedAt": "2026-08-24T06:24:38.867Z",
-      "bundleId": "com.imangi.templerun2"
+      "bundleId": "com.imangi.templerun2",
+      "_rowKey": 233
     },
     {
       "id": "com.imangi.templerun",
@@ -3919,7 +4156,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:59:11.875Z",
       "updatedAt": "2026-08-24T06:19:15.801Z",
-      "bundleId": "com.imangi.templerun"
+      "bundleId": "com.imangi.templerun",
+      "_rowKey": 234
     },
     {
       "id": "com.skgames.racer",
@@ -3932,7 +4170,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:00:05.865Z",
       "updatedAt": "2026-08-24T06:19:24.323Z",
-      "bundleId": "com.skgames.racer"
+      "bundleId": "com.skgames.racer",
+      "_rowKey": 235
     },
     {
       "id": "com.firsttouch.story",
@@ -3945,7 +4184,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:00:52.029Z",
       "updatedAt": "2026-08-24T06:49:53.526Z",
-      "bundleId": "com.firsttouch.story"
+      "bundleId": "com.firsttouch.story",
+      "_rowKey": 236
     },
     {
       "id": "com.dnddream.headsoccer",
@@ -3958,7 +4198,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:02:11.882Z",
       "updatedAt": "2026-08-24T06:51:02.919Z",
-      "bundleId": "com.dnddream.headsoccer"
+      "bundleId": "com.dnddream.headsoccer",
+      "_rowKey": 237
     },
     {
       "id": "com.amanotes.magictiles",
@@ -3979,7 +4220,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.amanotes.magictiles"
+      "bundleId": "com.amanotes.magictiles",
+      "_rowKey": 238
     },
     {
       "id": "com.halfbrick.FruitNinjaLite",
@@ -3992,7 +4234,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:05:22.276Z",
       "updatedAt": "2026-08-24T06:52:15.149Z",
-      "bundleId": "com.halfbrick.FruitNinjaLite"
+      "bundleId": "com.halfbrick.FruitNinjaLite",
+      "_rowKey": 239
     },
     {
       "id": "com.halfbrick.fruitninjax",
@@ -4005,7 +4248,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:06:31.774Z",
       "updatedAt": "2026-08-24T09:27:46.130Z",
-      "bundleId": "com.halfbrick.fruitninjax"
+      "bundleId": "com.halfbrick.fruitninjax",
+      "_rowKey": 240
     },
     {
       "id": "com.pikpok.dr2.iosstore",
@@ -4021,7 +4265,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.pikpok.dr2.iosstore"
+      "bundleId": "com.pikpok.dr2.iosstore",
+      "_rowKey": 241
     },
     {
       "id": "com.pikpok.dr2.iosstore",
@@ -4042,7 +4287,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.pikpok.dr2.iosstore"
+      "bundleId": "com.pikpok.dr2.iosstore",
+      "_rowKey": 242
     },
     {
       "id": "com.axlebolt.standoff2",
@@ -4058,7 +4304,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.axlebolt.standoff2"
+      "bundleId": "com.axlebolt.standoff2",
+      "_rowKey": 243
     },
     {
       "id": "com.ansangha.drdriving",
@@ -4071,7 +4318,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:12:58.603Z",
       "updatedAt": "2026-08-24T06:14:31.854Z",
-      "bundleId": "com.ansangha.drdriving"
+      "bundleId": "com.ansangha.drdriving",
+      "_rowKey": 244
     },
     {
       "id": "com.gameloft.Bullet",
@@ -4084,7 +4332,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:14:00.022Z",
       "updatedAt": "2026-08-24T09:04:57.965Z",
-      "bundleId": "com.gameloft.Bullet"
+      "bundleId": "com.gameloft.Bullet",
+      "_rowKey": 245
     },
     {
       "id": "com.dnddream.headbasketball",
@@ -4097,7 +4346,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:29:56.247Z",
       "updatedAt": "2026-08-24T08:30:22.005Z",
-      "bundleId": "com.dnddream.headbasketball"
+      "bundleId": "com.dnddream.headbasketball",
+      "_rowKey": 246
     },
     {
       "id": "com.ea.ios.fifaworld",
@@ -4110,7 +4360,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:31:25.797Z",
       "updatedAt": "2026-08-24T13:58:36.517Z",
-      "bundleId": "com.ea.ios.fifaworld"
+      "bundleId": "com.ea.ios.fifaworld",
+      "_rowKey": 247
     },
     {
       "id": "app-1781429646338",
@@ -4123,7 +4374,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:34:06.339Z",
       "updatedAt": "2026-06-14T09:34:06.339Z",
-      "bundleId": "com.2ksports.nba2k20"
+      "bundleId": "com.2ksports.nba2k20",
+      "_rowKey": 248
     },
     {
       "id": "com.ea.sims3deluxe.ipad.inc",
@@ -4136,7 +4388,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:35:55.940Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.ea.sims3deluxe.ipad.inc"
+      "bundleId": "com.ea.sims3deluxe.ipad.inc",
+      "_rowKey": 249
     },
     {
       "id": "com.photoeditor.polish",
@@ -4157,7 +4410,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.photoeditor.polish"
+      "bundleId": "com.photoeditor.polish",
+      "_rowKey": 250
     },
     {
       "id": "io.veed.appstore",
@@ -4178,7 +4432,8 @@
           "version": "last version"
         }
       ],
-      "recommended": false
+      "recommended": false,
+      "_rowKey": 251
     },
     {
       "id": "au.com.savageinteractive.procreate",
@@ -4191,7 +4446,8 @@
       "category": "أدوات",
       "addedAt": "2026-06-16T21:45:25.972Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "au.com.savageinteractive.procreate"
+      "bundleId": "au.com.savageinteractive.procreate",
+      "_rowKey": 252
     },
     {
       "id": "com.tinybuildgames.helloneighbor",
@@ -4204,7 +4460,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:46:15.819Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.tinybuildgames.helloneighbor"
+      "bundleId": "com.tinybuildgames.helloneighbor",
+      "_rowKey": 253
     },
     {
       "id": "net.Foddy.GettingOverIt",
@@ -4217,7 +4474,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:47:17.733Z",
       "updatedAt": "2026-08-24T06:23:24.109Z",
-      "bundleId": "net.Foddy.GettingOverIt"
+      "bundleId": "net.Foddy.GettingOverIt",
+      "_rowKey": 254
     },
     {
       "id": "com.feralinteractive.rome-ios",
@@ -4230,7 +4488,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:48:18.024Z",
       "updatedAt": "2026-08-24T13:56:43.705Z",
-      "bundleId": "com.feralinteractive.rome-ios"
+      "bundleId": "com.feralinteractive.rome-ios",
+      "_rowKey": 255
     },
     {
       "id": "app-1781646541963",
@@ -4242,7 +4501,8 @@
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-16T21:49:01.964Z",
-      "updatedAt": "2026-06-16T21:49:01.964Z"
+      "updatedAt": "2026-06-16T21:49:01.964Z",
+      "_rowKey": 256
     },
     {
       "id": "ai.verba.ios",
@@ -4255,7 +4515,8 @@
       "category": "أدوات",
       "addedAt": "2026-06-19T14:24:01.561Z",
       "updatedAt": "2026-08-24T06:52:11.231Z",
-      "bundleId": "ai.verba.ios"
+      "bundleId": "ai.verba.ios",
+      "_rowKey": 257
     },
     {
       "id": "localhost.lunar",
@@ -4268,7 +4529,8 @@
       "category": "أدوات",
       "addedAt": "2026-06-19T14:25:03.625Z",
       "updatedAt": "2026-08-24T06:16:27.703Z",
-      "bundleId": "localhost.lunar"
+      "bundleId": "localhost.lunar",
+      "_rowKey": 258
     },
     {
       "id": "co.bazaart.app",
@@ -4293,7 +4555,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "co.bazaart.app"
+      "bundleId": "co.bazaart.app",
+      "_rowKey": 259
     },
     {
       "id": "com.vacotv.app",
@@ -4306,7 +4569,8 @@
       "category": "ترفيه",
       "addedAt": "2026-06-19T14:45:04.206Z",
       "updatedAt": "2026-08-24T06:15:45.809Z",
-      "bundleId": "com.vacotv.app"
+      "bundleId": "com.vacotv.app",
+      "_rowKey": 260
     },
     {
       "id": "com.poopapps.animex",
@@ -4319,7 +4583,8 @@
       "category": "ترفيه",
       "addedAt": "2026-06-19T14:46:28.156Z",
       "updatedAt": "2026-08-24T06:16:04.072Z",
-      "bundleId": "com.poopapps.animex"
+      "bundleId": "com.poopapps.animex",
+      "_rowKey": 261
     },
     {
       "id": "com.miniclip.drone1",
@@ -4332,7 +4597,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-19T14:49:39.369Z",
       "updatedAt": "2026-08-24T06:45:52.814Z",
-      "bundleId": "com.miniclip.drone1"
+      "bundleId": "com.miniclip.drone1",
+      "_rowKey": 262
     },
     {
       "id": "com.coffeestain.goatsimulator3.multiverse",
@@ -4345,7 +4611,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-19T14:54:41.313Z",
       "updatedAt": "2026-08-24T10:38:09.243Z",
-      "bundleId": "com.coffeestain.goatsimulator3.multiverse"
+      "bundleId": "com.coffeestain.goatsimulator3.multiverse",
+      "_rowKey": 263
     },
     {
       "id": "app-1781881692351",
@@ -4357,7 +4624,8 @@
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-06-19T15:08:12.352Z",
-      "updatedAt": "2026-06-19T15:08:12.352Z"
+      "updatedAt": "2026-06-19T15:08:12.352Z",
+      "_rowKey": 264
     },
     {
       "id": "com.avcr.Funimate",
@@ -4373,7 +4641,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.avcr.Funimate"
+      "bundleId": "com.avcr.Funimate",
+      "_rowKey": 265
     },
     {
       "id": "it.beatcode.clipboardpro",
@@ -4386,7 +4655,8 @@
       "category": "أدوات",
       "addedAt": "2026-06-19T15:12:18.328Z",
       "updatedAt": "2026-08-24T06:15:25.333Z",
-      "bundleId": "it.beatcode.clipboardpro"
+      "bundleId": "it.beatcode.clipboardpro",
+      "_rowKey": 266
     },
     {
       "id": "com.ilovepdf.www",
@@ -4407,7 +4677,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.ilovepdf.www"
+      "bundleId": "com.ilovepdf.www",
+      "_rowKey": 267
     },
     {
       "id": "com.mobivio.cutecutpro",
@@ -4428,7 +4699,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.mobivio.cutecutpro"
+      "bundleId": "com.mobivio.cutecutpro",
+      "_rowKey": 268
     },
     {
       "id": "com.hammerandchisel.discord",
@@ -4441,7 +4713,8 @@
       "category": "تواصل",
       "addedAt": "2026-07-01T17:45:01.149Z",
       "updatedAt": "2026-08-24T06:43:34.853Z",
-      "bundleId": "com.hammerandchisel.discord"
+      "bundleId": "com.hammerandchisel.discord",
+      "_rowKey": 269
     },
     {
       "id": "com.dvloper.grannychaptertwo",
@@ -4454,7 +4727,8 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:47:07.003Z",
       "updatedAt": "2026-08-24T08:29:06.580Z",
-      "bundleId": "com.dvloper.grannychaptertwo"
+      "bundleId": "com.dvloper.grannychaptertwo",
+      "_rowKey": 270
     },
     {
       "id": "com.vizor-apps.Road-Trip",
@@ -4467,7 +4741,8 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:48:29.320Z",
       "updatedAt": "2026-08-24T06:48:29.704Z",
-      "bundleId": "com.vizor-apps.Road-Trip"
+      "bundleId": "com.vizor-apps.Road-Trip",
+      "_rowKey": 271
     },
     {
       "id": "games.war.strategy.dragon.clash.aaw.hourgames",
@@ -4480,7 +4755,8 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:49:44.480Z",
       "updatedAt": "2026-08-24T09:28:24.159Z",
-      "bundleId": "games.war.strategy.dragon.clash.aaw.hourgames"
+      "bundleId": "games.war.strategy.dragon.clash.aaw.hourgames",
+      "_rowKey": 272
     },
     {
       "id": "com.halfbrick.aeroracer",
@@ -4493,7 +4769,8 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:51:56.066Z",
       "updatedAt": "2026-08-24T06:53:12.606Z",
-      "bundleId": "com.halfbrick.aeroracer"
+      "bundleId": "com.halfbrick.aeroracer",
+      "_rowKey": 273
     },
     {
       "id": "com.battlecreek.nolimit2",
@@ -4518,7 +4795,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.battlecreek.nolimit2"
+      "bundleId": "com.battlecreek.nolimit2",
+      "_rowKey": 274
     },
     {
       "id": "com.troll.GuardianHunter",
@@ -4543,7 +4821,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.troll.GuardianHunter"
+      "bundleId": "com.troll.GuardianHunter",
+      "_rowKey": 275
     },
     {
       "id": "com.nintendo.zara",
@@ -4556,7 +4835,8 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T18:02:21.536Z",
       "updatedAt": "2026-08-24T08:28:56.539Z",
-      "bundleId": "com.nintendo.zara"
+      "bundleId": "com.nintendo.zara",
+      "_rowKey": 276
     },
     {
       "id": "com.atebits.Tweetie2",
@@ -4581,7 +4861,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.atebits.Tweetie2"
+      "bundleId": "com.atebits.Tweetie2",
+      "_rowKey": 277
     },
     {
       "id": "com.abishkking.maleworkout",
@@ -4594,7 +4875,8 @@
       "category": "أدوات",
       "addedAt": "2026-07-01T18:23:25.545Z",
       "updatedAt": "2026-08-24T06:47:49.739Z",
-      "bundleId": "com.abishkking.maleworkout"
+      "bundleId": "com.abishkking.maleworkout",
+      "_rowKey": 278
     },
     {
       "id": "com.lightricks.Enlight-Video",
@@ -4615,7 +4897,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.lightricks.Enlight-Video"
+      "bundleId": "com.lightricks.Enlight-Video",
+      "_rowKey": 279
     },
     {
       "id": "com.hathiphuonglinh.clickerapp",
@@ -4628,7 +4911,8 @@
       "category": "أدوات",
       "addedAt": "2026-07-01T18:44:34.216Z",
       "updatedAt": "2026-08-24T06:14:23.042Z",
-      "bundleId": "com.hathiphuonglinh.clickerapp"
+      "bundleId": "com.hathiphuonglinh.clickerapp",
+      "_rowKey": 280
     },
     {
       "id": "com.billionairegames.serares",
@@ -4641,7 +4925,8 @@
       "category": "ألعاب",
       "addedAt": "2026-07-01T18:55:09.612Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.billionairegames.serares"
+      "bundleId": "com.billionairegames.serares",
+      "_rowKey": 281
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -4654,7 +4939,8 @@
       "category": "تواصل",
       "addedAt": "2026-07-04T02:14:45.168Z",
       "updatedAt": "2026-08-24T08:31:12.622Z",
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 282
     },
     {
       "id": "com.kira.cinemanaa.x",
@@ -4667,7 +4953,8 @@
       "category": "ترفيه",
       "addedAt": "2026-07-05T14:15:43.368Z",
       "updatedAt": "2026-08-24T06:17:18.593Z",
-      "bundleId": "com.kira.cinemanaa.x"
+      "bundleId": "com.kira.cinemanaa.x",
+      "_rowKey": 283
     },
     {
       "id": "com.cer.buzz",
@@ -4680,7 +4967,8 @@
       "category": "ترفيه",
       "addedAt": "2026-07-05T14:16:42.791Z",
       "updatedAt": "2026-08-24T06:13:49.577Z",
-      "bundleId": "com.cer.buzz"
+      "bundleId": "com.cer.buzz",
+      "_rowKey": 284
     },
     {
       "id": "com.flow.tube",
@@ -4693,7 +4981,8 @@
       "category": "ترفيه",
       "addedAt": "2026-07-05T14:17:32.170Z",
       "updatedAt": "2026-08-24T06:13:56.525Z",
-      "bundleId": "com.flow.tube"
+      "bundleId": "com.flow.tube",
+      "_rowKey": 285
     },
     {
       "id": "com.lastsoult.aanime",
@@ -4706,7 +4995,8 @@
       "category": "ترفيه",
       "addedAt": "2026-07-06T16:02:57.053Z",
       "updatedAt": "2026-08-24T06:15:14.535Z",
-      "bundleId": "com.lastsoult.aanime"
+      "bundleId": "com.lastsoult.aanime",
+      "_rowKey": 286
     },
     {
       "id": "net.peakgames.kammelna",
@@ -4727,7 +5017,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "net.peakgames.kammelna"
+      "bundleId": "net.peakgames.kammelna",
+      "_rowKey": 287
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -4752,7 +5043,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 288
     },
     {
       "id": "com.hitv.ikiraplus",
@@ -4765,7 +5057,8 @@
       "category": "ترفيه",
       "addedAt": "2026-07-08T20:09:45.614Z",
       "updatedAt": "2026-08-24T06:14:38.459Z",
-      "bundleId": "com.hitv.ikiraplus"
+      "bundleId": "com.hitv.ikiraplus",
+      "_rowKey": 289
     },
     {
       "id": "com.fasilplus.ikiraplus",
@@ -4779,7 +5072,8 @@
       "addedAt": "2026-07-08T20:10:36.129Z",
       "updatedAt": "2026-08-24T06:14:10.445Z",
       "hidden": false,
-      "bundleId": "com.fasilplus.ikiraplus"
+      "bundleId": "com.fasilplus.ikiraplus",
+      "_rowKey": 290
     },
     {
       "id": "com.qissateshqplus.ikiraplus",
@@ -4793,7 +5087,8 @@
       "addedAt": "2026-07-08T20:11:34.552Z",
       "updatedAt": "2026-08-24T06:13:42.106Z",
       "hidden": false,
-      "bundleId": "com.qissateshqplus.ikiraplus"
+      "bundleId": "com.qissateshqplus.ikiraplus",
+      "_rowKey": 291
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -4818,7 +5113,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 292
     },
     {
       "id": "com.burbn.instagram",
@@ -4839,7 +5135,8 @@
         }
       ],
       "recommended": true,
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 293
     },
     {
       "id": "com.playrix.gardenscapes-sweethome",
@@ -4864,7 +5161,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.playrix.gardenscapes-sweethome"
+      "bundleId": "com.playrix.gardenscapes-sweethome",
+      "_rowKey": 294
     },
     {
       "id": "com.ss.iphone.ugc.Ame",
@@ -4889,7 +5187,8 @@
         }
       ],
       "recommended": true,
-      "bundleId": "com.ss.iphone.ugc.Ame"
+      "bundleId": "com.ss.iphone.ugc.Ame",
+      "_rowKey": 295
     },
     {
       "id": "com.cinee.trend",
@@ -4902,7 +5201,8 @@
       "category": "ترفيه",
       "addedAt": "2026-07-13T12:26:48.196Z",
       "updatedAt": "2026-08-24T06:16:01.077Z",
-      "bundleId": "com.cinee.trend"
+      "bundleId": "com.cinee.trend",
+      "_rowKey": 296
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -4918,7 +5218,8 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 297
     },
     {
       "id": "com.rumaisahassan.CineMap",
@@ -4931,7 +5232,8 @@
       "category": "ترفيه",
       "addedAt": "2026-07-14T09:57:52.806Z",
       "updatedAt": "2026-08-24T06:43:02.630Z",
-      "bundleId": "com.rumaisahassan.CineMap"
+      "bundleId": "com.rumaisahassan.CineMap",
+      "_rowKey": 298
     },
     {
       "id": "com.pinebox.app",
@@ -4952,7 +5254,8 @@
         }
       ],
       "recommended": false,
-      "bundleId": "com.pinebox.app"
+      "bundleId": "com.pinebox.app",
+      "_rowKey": 299
     },
     {
       "id": "ph.telegra.Telegraph2",
@@ -4973,7 +5276,8 @@
         }
       ],
       "recommended": true,
-      "bundleId": "ph.telegra.Telegraph2"
+      "bundleId": "ph.telegra.Telegraph2",
+      "_rowKey": 300
     },
     {
       "id": "co.albox.cinema",
@@ -4986,7 +5290,8 @@
       "category": "ترفيه",
       "addedAt": "2026-07-16T09:14:24.714Z",
       "updatedAt": "2026-08-24T06:16:07.067Z",
-      "bundleId": "co.albox.cinema"
+      "bundleId": "co.albox.cinema",
+      "_rowKey": 301
     },
     {
       "id": "com.burbn.instagram",
@@ -5011,7 +5316,8 @@
       "recommended": false,
       "addedAt": "2026-07-20T14:51:29.352Z",
       "updatedAt": "2026-08-24T06:53:04.823Z",
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 302
     },
     {
       "id": "com.adobe.premiere.ios",
@@ -5036,7 +5342,8 @@
       "recommended": false,
       "addedAt": "2026-07-21T15:27:28.966Z",
       "updatedAt": "2026-08-24T06:20:35.342Z",
-      "bundleId": "com.adobe.premiere.ios"
+      "bundleId": "com.adobe.premiere.ios",
+      "_rowKey": 303
     },
     {
       "id": "com.burbn.instagram",
@@ -5057,7 +5364,8 @@
       "recommended": false,
       "addedAt": "2026-07-23T08:34:31.490Z",
       "updatedAt": "2026-08-24T06:53:09.057Z",
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 304
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -5079,7 +5387,8 @@
       "addedAt": "2026-07-23T13:15:55.374Z",
       "updatedAt": "2026-08-24T08:30:35.770Z",
       "hidden": false,
-      "bundleId": "com.zhiliaoapp.musically"
+      "bundleId": "com.zhiliaoapp.musically",
+      "_rowKey": 305
     },
     {
       "id": "com.google.ios.youtubeee",
@@ -5104,7 +5413,8 @@
       "recommended": true,
       "addedAt": "2026-07-23T15:41:21.306Z",
       "updatedAt": "2026-08-24T06:23:27.511Z",
-      "bundleId": "com.google.ios.youtubeee"
+      "bundleId": "com.google.ios.youtubeee",
+      "_rowKey": 306
     },
     {
       "id": "com.kevin.pinatv",
@@ -5125,7 +5435,8 @@
       "recommended": false,
       "addedAt": "2026-07-24T17:28:07.767Z",
       "updatedAt": "2026-08-24T06:15:49.389Z",
-      "bundleId": "com.kevin.pinatv"
+      "bundleId": "com.kevin.pinatv",
+      "_rowKey": 307
     },
     {
       "id": "com.google.ios.youtube",
@@ -5146,7 +5457,8 @@
       "recommended": false,
       "addedAt": "2026-07-24T17:42:38.213Z",
       "updatedAt": "2026-08-24T06:44:35.071Z",
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 308
     },
     {
       "id": "com.pandagaming.armada",
@@ -5162,7 +5474,8 @@
       "recommended": false,
       "addedAt": "2026-07-24T18:55:00.449Z",
       "updatedAt": "2026-08-24T09:04:27.275Z",
-      "bundleId": "com.pandagaming.armada"
+      "bundleId": "com.pandagaming.armada",
+      "_rowKey": 309
     },
     {
       "id": "com.blockpuzzle.us.ios",
@@ -5187,7 +5500,8 @@
       "recommended": false,
       "addedAt": "2026-07-24T18:59:35.273Z",
       "updatedAt": "2026-08-24T06:18:59.822Z",
-      "bundleId": "com.blockpuzzle.us.ios"
+      "bundleId": "com.blockpuzzle.us.ios",
+      "_rowKey": 310
     },
     {
       "id": "com.playdigious.planetoflana",
@@ -5203,7 +5517,8 @@
       "recommended": false,
       "addedAt": "2026-07-25T11:41:00.133Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.playdigious.planetoflana"
+      "bundleId": "com.playdigious.planetoflana",
+      "_rowKey": 311
     },
     {
       "id": "com.freenotes.freenotes",
@@ -5219,7 +5534,8 @@
       "recommended": false,
       "addedAt": "2026-07-26T08:28:11.931Z",
       "updatedAt": "2026-08-24T06:48:00.875Z",
-      "bundleId": "com.freenotes.freenotes"
+      "bundleId": "com.freenotes.freenotes",
+      "_rowKey": 312
     },
     {
       "id": "com.rahiazathar.animequest",
@@ -5235,7 +5551,8 @@
       "recommended": false,
       "addedAt": "2026-07-26T14:28:16.356Z",
       "updatedAt": "2026-08-24T06:43:06.045Z",
-      "bundleId": "com.rahiazathar.animequest"
+      "bundleId": "com.rahiazathar.animequest",
+      "_rowKey": 313
     },
     {
       "id": "com.meitu.wink",
@@ -5251,7 +5568,8 @@
       "recommended": false,
       "addedAt": "2026-07-27T09:03:39.976Z",
       "updatedAt": "2026-08-24T06:22:38.831Z",
-      "bundleId": "com.meitu.wink"
+      "bundleId": "com.meitu.wink",
+      "_rowKey": 314
     },
     {
       "id": "com.JindoBlu.OfflineGamesIOS",
@@ -5272,7 +5590,8 @@
       "recommended": false,
       "addedAt": "2026-07-27T09:10:12.701Z",
       "updatedAt": "2026-08-24T06:43:14.538Z",
-      "bundleId": "com.JindoBlu.OfflineGamesIOS"
+      "bundleId": "com.JindoBlu.OfflineGamesIOS",
+      "_rowKey": 315
     },
     {
       "id": "com.littlebigplay.games.wordgamespro",
@@ -5288,7 +5607,8 @@
       "recommended": false,
       "addedAt": "2026-07-27T09:11:24.274Z",
       "updatedAt": "2026-08-24T06:18:07.488Z",
-      "bundleId": "com.littlebigplay.games.wordgamespro"
+      "bundleId": "com.littlebigplay.games.wordgamespro",
+      "_rowKey": 316
     },
     {
       "id": "com.blayzegames.newfps",
@@ -5309,7 +5629,8 @@
       "recommended": false,
       "addedAt": "2026-07-27T19:38:57.039Z",
       "updatedAt": "2026-08-24T09:04:31.117Z",
-      "bundleId": "com.blayzegames.newfps"
+      "bundleId": "com.blayzegames.newfps",
+      "_rowKey": 317
     },
     {
       "id": "ph.telegra.Telegraph",
@@ -5334,7 +5655,8 @@
       "recommended": false,
       "addedAt": "2026-07-30T09:50:26.259Z",
       "updatedAt": "2026-08-24T06:18:40.022Z",
-      "bundleId": "ph.telegra.Telegraph"
+      "bundleId": "ph.telegra.Telegraph",
+      "_rowKey": 318
     },
     {
       "id": "com.atebits.Tweetie2",
@@ -5355,7 +5677,8 @@
       "recommended": false,
       "addedAt": "2026-07-30T13:47:03.893Z",
       "updatedAt": "2026-08-24T06:49:36.762Z",
-      "bundleId": "com.atebits.Tweetie2"
+      "bundleId": "com.atebits.Tweetie2",
+      "_rowKey": 319
     },
     {
       "id": "co.detail.duo",
@@ -5376,7 +5699,8 @@
       "recommended": false,
       "addedAt": "2026-07-30T14:16:25.773Z",
       "updatedAt": "2026-08-24T06:50:32.829Z",
-      "bundleId": "co.detail.duo"
+      "bundleId": "co.detail.duo",
+      "_rowKey": 320
     },
     {
       "id": "com.mobile-softing.coinmaster",
@@ -5397,7 +5721,8 @@
       "recommended": false,
       "addedAt": "2026-07-30T14:22:08.561Z",
       "updatedAt": "2026-08-24T06:23:08.764Z",
-      "bundleId": "com.mobile-softing.coinmaster"
+      "bundleId": "com.mobile-softing.coinmaster",
+      "_rowKey": 321
     },
     {
       "id": "com.GoPlayGames.FCM26",
@@ -5413,7 +5738,8 @@
       "recommended": false,
       "addedAt": "2026-07-30T14:22:36.261Z",
       "updatedAt": "2026-08-24T09:04:24.131Z",
-      "bundleId": "com.GoPlayGames.FCM26"
+      "bundleId": "com.GoPlayGames.FCM26",
+      "_rowKey": 322
     },
     {
       "id": "com.alohabrowser.alohabrowser",
@@ -5434,7 +5760,8 @@
       "recommended": false,
       "addedAt": "2026-07-30T14:29:44.130Z",
       "updatedAt": "2026-08-24T06:51:56.693Z",
-      "bundleId": "com.alohabrowser.alohabrowser"
+      "bundleId": "com.alohabrowser.alohabrowser",
+      "_rowKey": 323
     },
     {
       "id": "com.earlymorningstudio.vampiresfall2",
@@ -5450,7 +5777,8 @@
       "recommended": false,
       "addedAt": "2026-07-31T19:14:40.837Z",
       "updatedAt": "2026-08-24T06:49:02.536Z",
-      "bundleId": "com.earlymorningstudio.vampiresfall2"
+      "bundleId": "com.earlymorningstudio.vampiresfall2",
+      "_rowKey": 324
     },
     {
       "id": "com.gamee.godslayer.rpg.rougelike",
@@ -5466,7 +5794,8 @@
       "recommended": false,
       "addedAt": "2026-07-31T19:17:24.698Z",
       "updatedAt": "2026-08-24T08:30:40.039Z",
-      "bundleId": "com.gamee.godslayer.rpg.rougelike"
+      "bundleId": "com.gamee.godslayer.rpg.rougelike",
+      "_rowKey": 325
     },
     {
       "id": "com.td.uswatcherofrealms",
@@ -5482,7 +5811,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T13:25:01.322Z",
       "updatedAt": "2026-08-24T06:49:45.272Z",
-      "bundleId": "com.td.uswatcherofrealms"
+      "bundleId": "com.td.uswatcherofrealms",
+      "_rowKey": 326
     },
     {
       "id": "com.GentleManiac.HorizonWalkerApple",
@@ -5498,7 +5828,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T13:28:46.638Z",
       "updatedAt": "2026-08-24T08:28:46.270Z",
-      "bundleId": "com.GentleManiac.HorizonWalkerApple"
+      "bundleId": "com.GentleManiac.HorizonWalkerApple",
+      "_rowKey": 327
     },
     {
       "id": "com.oppanagames.car.simulator",
@@ -5514,7 +5845,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T13:31:29.862Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.oppanagames.car.simulator"
+      "bundleId": "com.oppanagames.car.simulator",
+      "_rowKey": 328
     },
     {
       "id": "com.google.ios.youtubemusic",
@@ -5539,7 +5871,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:28:12.577Z",
       "updatedAt": "2026-08-24T06:21:01.902Z",
-      "bundleId": "com.google.ios.youtubemusic"
+      "bundleId": "com.google.ios.youtubemusic",
+      "_rowKey": 329
     },
     {
       "id": "com.tgc.sky.ios",
@@ -5555,7 +5888,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:29:41.042Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.tgc.sky.ios"
+      "bundleId": "com.tgc.sky.ios",
+      "_rowKey": 330
     },
     {
       "id": "com.heliogames.a1",
@@ -5571,7 +5905,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:30:14.703Z",
       "updatedAt": "2026-08-24T10:05:36.865Z",
-      "bundleId": "com.heliogames.a1"
+      "bundleId": "com.heliogames.a1",
+      "_rowKey": 331
     },
     {
       "id": "com.autumn.skullgirls",
@@ -5587,7 +5922,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:31:18.693Z",
       "updatedAt": "2026-08-24T06:46:20.418Z",
-      "bundleId": "com.autumn.skullgirls"
+      "bundleId": "com.autumn.skullgirls",
+      "_rowKey": 332
     },
     {
       "id": "com.daerigame.elemental",
@@ -5603,7 +5939,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:33:11.631Z",
       "updatedAt": "2026-08-24T06:47:53.830Z",
-      "bundleId": "com.daerigame.elemental"
+      "bundleId": "com.daerigame.elemental",
+      "_rowKey": 333
     },
     {
       "id": "com.superpixel.undyinghero",
@@ -5619,7 +5956,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:33:33.203Z",
       "updatedAt": "2026-08-24T08:30:26.392Z",
-      "bundleId": "com.superpixel.undyinghero"
+      "bundleId": "com.superpixel.undyinghero",
+      "_rowKey": 334
     },
     {
       "id": "com.shibamaru.shibawars",
@@ -5635,7 +5973,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:34:09.037Z",
       "updatedAt": "2026-08-24T09:05:08.410Z",
-      "bundleId": "com.shibamaru.shibawars"
+      "bundleId": "com.shibamaru.shibawars",
+      "_rowKey": 335
     },
     {
       "id": "com.365scores.365scroesapp",
@@ -5660,7 +5999,8 @@
       "recommended": false,
       "addedAt": "2026-08-02T15:39:36.173Z",
       "updatedAt": "2026-08-24T06:19:40.478Z",
-      "bundleId": "com.365scores.365scroesapp"
+      "bundleId": "com.365scores.365scroesapp",
+      "_rowKey": 336
     },
     {
       "id": "com.lightricks.Enlight-Phoenix",
@@ -5676,7 +6016,8 @@
       "recommended": false,
       "addedAt": "2026-08-06T06:53:21.833Z",
       "updatedAt": "2026-08-24T08:28:36.645Z",
-      "bundleId": "com.lightricks.Enlight-Phoenix"
+      "bundleId": "com.lightricks.Enlight-Phoenix",
+      "_rowKey": 337
     },
     {
       "id": "com.dopedevelopment.Panels",
@@ -5701,7 +6042,8 @@
       "recommended": false,
       "addedAt": "2026-08-06T06:54:12.867Z",
       "updatedAt": "2026-08-24T06:18:47.892Z",
-      "bundleId": "com.dopedevelopment.Panels"
+      "bundleId": "com.dopedevelopment.Panels",
+      "_rowKey": 338
     },
     {
       "id": "com.pixite.pigment",
@@ -5717,7 +6059,8 @@
       "recommended": false,
       "addedAt": "2026-08-06T06:54:36.554Z",
       "updatedAt": "2026-08-24T06:46:04.112Z",
-      "bundleId": "com.pixite.pigment"
+      "bundleId": "com.pixite.pigment",
+      "_rowKey": 339
     },
     {
       "id": "tv.twitch.beta",
@@ -5738,7 +6081,8 @@
       "recommended": false,
       "addedAt": "2026-08-06T06:58:23.478Z",
       "updatedAt": "2026-08-24T06:45:14.099Z",
-      "bundleId": "tv.twitch.beta"
+      "bundleId": "tv.twitch.beta",
+      "_rowKey": 340
     },
     {
       "id": "com.SofaScore.iOS",
@@ -5763,7 +6107,8 @@
       "recommended": false,
       "addedAt": "2026-08-06T06:59:50.854Z",
       "updatedAt": "2026-08-24T06:20:17.939Z",
-      "bundleId": "com.SofaScore.iOS"
+      "bundleId": "com.SofaScore.iOS",
+      "_rowKey": 341
     },
     {
       "id": "app-1785999708915",
@@ -5784,7 +6129,8 @@
       "recommended": false,
       "addedAt": "2026-08-06T07:01:48.916Z",
       "updatedAt": "2026-08-12T17:08:08.661Z",
-      "bundleId": "com.readdle.PDFExpert-ios"
+      "bundleId": "com.readdle.PDFExpert-ios",
+      "_rowKey": 342
     },
     {
       "id": "com.burbn.instagram",
@@ -5800,7 +6146,8 @@
       "recommended": false,
       "addedAt": "2026-08-06T09:47:18.237Z",
       "updatedAt": "2026-08-24T06:50:27.804Z",
-      "bundleId": "com.burbn.instagram"
+      "bundleId": "com.burbn.instagram",
+      "_rowKey": 343
     },
     {
       "id": "com.hitvneo.ikiraplus",
@@ -5816,7 +6163,8 @@
       "recommended": true,
       "addedAt": "2026-08-06T18:03:09.086Z",
       "updatedAt": "2026-08-24T06:16:17.042Z",
-      "bundleId": "com.hitvneo.ikiraplus"
+      "bundleId": "com.hitvneo.ikiraplus",
+      "_rowKey": 344
     },
     {
       "id": "com.pikpok.hrc.iosstore",
@@ -5832,7 +6180,8 @@
       "recommended": false,
       "addedAt": "2026-08-07T08:14:05.959Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.pikpok.hrc.iosstore"
+      "bundleId": "com.pikpok.hrc.iosstore",
+      "_rowKey": 345
     },
     {
       "id": "com.google.ios.youtube",
@@ -5857,7 +6206,8 @@
       "recommended": false,
       "addedAt": "2026-08-07T08:23:40.989Z",
       "updatedAt": "2026-08-24T06:23:56.197Z",
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 346
     },
     {
       "id": "com.google.ios.youtube",
@@ -5873,7 +6223,8 @@
       "recommended": false,
       "addedAt": "2026-08-08T08:23:10.460Z",
       "updatedAt": "2026-08-24T06:44:27.900Z",
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 347
     },
     {
       "id": "com.moox.app",
@@ -5889,7 +6240,8 @@
       "recommended": false,
       "addedAt": "2026-08-08T13:34:15.019Z",
       "updatedAt": "2026-08-24T06:17:26.144Z",
-      "bundleId": "com.moox.app"
+      "bundleId": "com.moox.app",
+      "_rowKey": 348
     },
     {
       "id": "com.photo.beautytuneapp",
@@ -5905,7 +6257,8 @@
       "recommended": false,
       "addedAt": "2026-08-09T15:46:38.906Z",
       "updatedAt": "2026-08-24T06:53:56.308Z",
-      "bundleId": "com.photo.beautytuneapp"
+      "bundleId": "com.photo.beautytuneapp",
+      "_rowKey": 349
     },
     {
       "id": "com.soundcloud.TouchApp",
@@ -5926,7 +6279,8 @@
       "recommended": false,
       "addedAt": "2026-08-09T15:53:22.020Z",
       "updatedAt": "2026-08-24T06:22:32.749Z",
-      "bundleId": "com.soundcloud.TouchApp"
+      "bundleId": "com.soundcloud.TouchApp",
+      "_rowKey": 350
     },
     {
       "id": "com.spotify.client",
@@ -5947,7 +6301,8 @@
       "recommended": false,
       "addedAt": "2026-08-09T15:54:41.076Z",
       "updatedAt": "2026-08-24T06:24:01.114Z",
-      "bundleId": "com.spotify.client"
+      "bundleId": "com.spotify.client",
+      "_rowKey": 351
     },
     {
       "id": "com.madfingergames.deadtrigger2",
@@ -5963,7 +6318,8 @@
       "recommended": false,
       "addedAt": "2026-08-09T15:59:29.112Z",
       "updatedAt": "2026-08-24T10:06:11.304Z",
-      "bundleId": "com.madfingergames.deadtrigger2"
+      "bundleId": "com.madfingergames.deadtrigger2",
+      "_rowKey": 352
     },
     {
       "id": "com.phs.global.ios",
@@ -5984,7 +6340,8 @@
       "recommended": false,
       "addedAt": "2026-08-09T16:00:12.587Z",
       "updatedAt": "2026-08-24T09:04:53.659Z",
-      "bundleId": "com.phs.global.ios"
+      "bundleId": "com.phs.global.ios",
+      "_rowKey": 353
     },
     {
       "id": "com.vectorunit.cobalt",
@@ -6000,7 +6357,8 @@
       "recommended": false,
       "addedAt": "2026-08-09T16:01:18.107Z",
       "updatedAt": "2026-08-24T08:28:53.244Z",
-      "bundleId": "com.vectorunit.cobalt"
+      "bundleId": "com.vectorunit.cobalt",
+      "_rowKey": 354
     },
     {
       "id": "com.dreamplay.legendofwitch.apple",
@@ -6016,7 +6374,8 @@
       "recommended": false,
       "addedAt": "2026-08-09T16:04:19.844Z",
       "updatedAt": "2026-08-24T06:46:00.543Z",
-      "bundleId": "com.dreamplay.legendofwitch.apple"
+      "bundleId": "com.dreamplay.legendofwitch.apple",
+      "_rowKey": 355
     },
     {
       "id": "com.ovilex.truckerzoneamericanroadways",
@@ -6032,7 +6391,8 @@
       "recommended": false,
       "addedAt": "2026-08-10T17:29:22.081Z",
       "updatedAt": "2026-08-24T10:28:01.229Z",
-      "bundleId": "com.ovilex.truckerzoneamericanroadways"
+      "bundleId": "com.ovilex.truckerzoneamericanroadways",
+      "_rowKey": 356
     },
     {
       "id": "com.bbauman.Scripty",
@@ -6048,7 +6408,8 @@
       "recommended": false,
       "addedAt": "2026-08-11T09:29:03.471Z",
       "updatedAt": "2026-08-24T06:17:45.057Z",
-      "bundleId": "com.bbauman.Scripty"
+      "bundleId": "com.bbauman.Scripty",
+      "_rowKey": 357
     },
     {
       "id": "com.chess.iphone",
@@ -6064,7 +6425,8 @@
       "recommended": false,
       "addedAt": "2026-08-11T20:32:38.178Z",
       "updatedAt": "2026-08-24T06:49:57.983Z",
-      "bundleId": "com.chess.iphone"
+      "bundleId": "com.chess.iphone",
+      "_rowKey": 358
     },
     {
       "id": "com.offlinemusic",
@@ -6080,7 +6442,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T03:10:16.631Z",
       "updatedAt": "2026-08-24T06:43:28.788Z",
-      "bundleId": "com.offlinemusic"
+      "bundleId": "com.offlinemusic",
+      "_rowKey": 359
     },
     {
       "id": "com.firecore.infuse",
@@ -6096,7 +6459,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T03:10:43.149Z",
       "updatedAt": "2026-08-24T06:43:11.081Z",
-      "bundleId": "com.firecore.infuse"
+      "bundleId": "com.firecore.infuse",
+      "_rowKey": 360
     },
     {
       "id": "com.joytunes.Draw",
@@ -6112,7 +6476,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T03:11:10.926Z",
       "updatedAt": "2026-08-24T06:22:26.783Z",
-      "bundleId": "com.joytunes.Draw"
+      "bundleId": "com.joytunes.Draw",
+      "_rowKey": 361
     },
     {
       "id": "com.rainystaion.app",
@@ -6128,7 +6493,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T10:10:32.893Z",
       "updatedAt": "2026-08-24T06:19:28.696Z",
-      "bundleId": "com.rainystaion.app"
+      "bundleId": "com.rainystaion.app",
+      "_rowKey": 362
     },
     {
       "id": "com.plusminusone.math.hero.answer.scanner.solver",
@@ -6144,7 +6510,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T10:11:28.163Z",
       "updatedAt": "2026-08-24T06:43:18.017Z",
-      "bundleId": "com.plusminusone.math.hero.answer.scanner.solver"
+      "bundleId": "com.plusminusone.math.hero.answer.scanner.solver",
+      "_rowKey": 363
     },
     {
       "id": "com.longgammagames.elementra.journy",
@@ -6160,7 +6527,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:38:53.769Z",
       "updatedAt": "2026-08-24T06:52:04.091Z",
-      "bundleId": "com.longgammagames.elementra.journy"
+      "bundleId": "com.longgammagames.elementra.journy",
+      "_rowKey": 364
     },
     {
       "id": "jp.co.bandainamcoent.BNEI0447",
@@ -6176,7 +6544,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:39:42.127Z",
       "updatedAt": "2026-08-24T06:50:45.271Z",
-      "bundleId": "jp.co.bandainamcoent.BNEI0447"
+      "bundleId": "jp.co.bandainamcoent.BNEI0447",
+      "_rowKey": 365
     },
     {
       "id": "es.socialpoint.dragoncity",
@@ -6192,7 +6561,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:40:33.294Z",
       "updatedAt": "2026-08-24T06:48:04.406Z",
-      "bundleId": "es.socialpoint.dragoncity"
+      "bundleId": "es.socialpoint.dragoncity",
+      "_rowKey": 366
     },
     {
       "id": "com.tensquaregames.letsfish2",
@@ -6208,7 +6578,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:42:01.024Z",
       "updatedAt": "2026-08-24T06:46:46.667Z",
-      "bundleId": "com.tensquaregames.letsfish2"
+      "bundleId": "com.tensquaregames.letsfish2",
+      "_rowKey": 367
     },
     {
       "id": "com.gdv.subway2055",
@@ -6224,7 +6595,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:42:27.985Z",
       "updatedAt": "2026-08-24T13:58:36.518Z",
-      "bundleId": "com.gdv.subway2055"
+      "bundleId": "com.gdv.subway2055",
+      "_rowKey": 368
     },
     {
       "id": "net.gameduo.vg",
@@ -6240,7 +6612,8 @@
       "recommended": false,
       "addedAt": "2026-08-12T17:42:53.059Z",
       "updatedAt": "2026-08-24T06:45:44.607Z",
-      "bundleId": "net.gameduo.vg"
+      "bundleId": "net.gameduo.vg",
+      "_rowKey": 369
     },
     {
       "id": "tv.twitch.beta",
@@ -6256,7 +6629,8 @@
       "recommended": false,
       "addedAt": "2026-08-13T08:11:27.826Z",
       "updatedAt": "2026-08-24T06:24:34.366Z",
-      "bundleId": "tv.twitch.beta"
+      "bundleId": "tv.twitch.beta",
+      "_rowKey": 370
     },
     {
       "id": "com.reddit.Reddit",
@@ -6281,7 +6655,8 @@
       "recommended": false,
       "addedAt": "2026-08-13T08:14:06.412Z",
       "updatedAt": "2026-08-25T07:32:51.537Z",
-      "bundleId": "com.reddit.Reddit"
+      "bundleId": "com.reddit.Reddit",
+      "_rowKey": 371
     },
     {
       "id": "com.recordtoolvideo.camera",
@@ -6297,7 +6672,8 @@
       "recommended": false,
       "addedAt": "2026-08-13T08:14:31.159Z",
       "updatedAt": "2026-08-24T06:16:46.694Z",
-      "bundleId": "com.recordtoolvideo.camera"
+      "bundleId": "com.recordtoolvideo.camera",
+      "_rowKey": 372
     },
     {
       "id": "night.ntv1.iQTv",
@@ -6313,7 +6689,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T07:47:02.039Z",
       "updatedAt": "2026-08-24T06:15:41.993Z",
-      "bundleId": "night.ntv1.iQTv"
+      "bundleId": "night.ntv1.iQTv",
+      "_rowKey": 373
     },
     {
       "id": "com.financeillustrated.TradingGame",
@@ -6329,7 +6706,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T07:47:51.669Z",
       "updatedAt": "2026-08-24T06:16:10.038Z",
-      "bundleId": "com.financeillustrated.TradingGame"
+      "bundleId": "com.financeillustrated.TradingGame",
+      "_rowKey": 374
     },
     {
       "id": "com.joytunes.Sing",
@@ -6350,7 +6728,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T07:52:09.618Z",
       "updatedAt": "2026-08-25T07:37:02.292Z",
-      "bundleId": "com.joytunes.Sing"
+      "bundleId": "com.joytunes.Sing",
+      "_rowKey": 375
     },
     {
       "id": "com.ea.ios.pvzn3xt",
@@ -6366,7 +6745,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T07:57:27.599Z",
       "updatedAt": "2026-08-24T06:46:42.100Z",
-      "bundleId": "com.ea.ios.pvzn3xt"
+      "bundleId": "com.ea.ios.pvzn3xt",
+      "_rowKey": 376
     },
     {
       "id": "com.ea.pvzfree.bv",
@@ -6382,7 +6762,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:00:50.859Z",
       "updatedAt": "2026-08-24T06:24:05.567Z",
-      "bundleId": "com.ea.pvzfree.bv"
+      "bundleId": "com.ea.pvzfree.bv",
+      "_rowKey": 377
     },
     {
       "id": "com.JESoftware.LastHopeSniper3",
@@ -6398,7 +6779,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:01:51.703Z",
       "updatedAt": "2026-08-24T10:19:31.810Z",
-      "bundleId": "com.JESoftware.LastHopeSniper3"
+      "bundleId": "com.JESoftware.LastHopeSniper3",
+      "_rowKey": 378
     },
     {
       "id": "com.FirstPickStudios.Endless-Wander",
@@ -6414,7 +6796,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:05:56.976Z",
       "updatedAt": "2026-08-24T08:29:39.563Z",
-      "bundleId": "com.FirstPickStudios.Endless-Wander"
+      "bundleId": "com.FirstPickStudios.Endless-Wander",
+      "_rowKey": 379
     },
     {
       "id": "com.gameloft.disneyspeedstorm",
@@ -6430,7 +6813,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:06:40.675Z",
       "updatedAt": "2026-08-24T13:56:43.705Z",
-      "bundleId": "com.gameloft.disneyspeedstorm"
+      "bundleId": "com.gameloft.disneyspeedstorm",
+      "_rowKey": 380
     },
     {
       "id": "arab.ipaarab.com",
@@ -6446,7 +6830,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:08:51.518Z",
       "updatedAt": "2026-08-24T06:13:44.765Z",
-      "bundleId": "arab.ipaarab.com"
+      "bundleId": "arab.ipaarab.com",
+      "_rowKey": 381
     },
     {
       "id": "krmzi.dfms.free",
@@ -6462,7 +6847,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:10:38.733Z",
       "updatedAt": "2026-08-24T06:13:35.746Z",
-      "bundleId": "krmzi.dfms.free"
+      "bundleId": "krmzi.dfms.free",
+      "_rowKey": 382
     },
     {
       "id": "alooytv.dfms.free",
@@ -6478,7 +6864,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T08:12:07.026Z",
       "updatedAt": "2026-08-24T06:13:39.237Z",
-      "bundleId": "alooytv.dfms.free"
+      "bundleId": "alooytv.dfms.free",
+      "_rowKey": 383
     },
     {
       "id": "com.man.kuuflix.app",
@@ -6494,7 +6881,8 @@
       "recommended": false,
       "addedAt": "2026-08-17T13:07:13.317Z",
       "updatedAt": "2026-08-24T06:16:13.472Z",
-      "bundleId": "com.man.kuuflix.app"
+      "bundleId": "com.man.kuuflix.app",
+      "_rowKey": 384
     },
     {
       "id": "com.djitlabs.pixelcolor",
@@ -6510,7 +6898,8 @@
       "recommended": false,
       "addedAt": "2026-08-19T13:10:07.024Z",
       "updatedAt": "2026-08-24T06:17:48.694Z",
-      "bundleId": "com.djitlabs.pixelcolor"
+      "bundleId": "com.djitlabs.pixelcolor",
+      "_rowKey": 385
     },
     {
       "id": "com.footballaddicts.livescoreaddicts",
@@ -6526,7 +6915,8 @@
       "recommended": false,
       "addedAt": "2026-08-19T13:12:45.795Z",
       "updatedAt": "2026-08-24T06:23:41.216Z",
-      "bundleId": "com.footballaddicts.livescoreaddicts"
+      "bundleId": "com.footballaddicts.livescoreaddicts",
+      "_rowKey": 386
     },
     {
       "id": "com.youssef.developer.Full-Browser",
@@ -6542,7 +6932,8 @@
       "recommended": false,
       "addedAt": "2026-08-19T13:19:06.102Z",
       "updatedAt": "2026-08-24T06:46:08.220Z",
-      "bundleId": "com.youssef.developer.Full-Browser"
+      "bundleId": "com.youssef.developer.Full-Browser",
+      "_rowKey": 387
     },
     {
       "id": "ph.telegra.Telegraph",
@@ -6558,7 +6949,8 @@
       "recommended": false,
       "addedAt": "2026-08-19T13:20:08.515Z",
       "updatedAt": "2026-08-24T06:47:02.765Z",
-      "bundleId": "ph.telegra.Telegraph"
+      "bundleId": "ph.telegra.Telegraph",
+      "_rowKey": 388
     },
     {
       "id": "com.huami.LoadController",
@@ -6574,7 +6966,8 @@
       "recommended": false,
       "addedAt": "2026-08-19T13:21:45.789Z",
       "updatedAt": "2026-08-24T06:15:32.780Z",
-      "bundleId": "com.huami.LoadController"
+      "bundleId": "com.huami.LoadController",
+      "_rowKey": 389
     },
     {
       "id": "com.joytunes.asla",
@@ -6595,7 +6988,8 @@
       "recommended": false,
       "addedAt": "2026-08-19T13:26:27.631Z",
       "updatedAt": "2026-08-25T07:32:06.348Z",
-      "bundleId": "com.joytunes.asla"
+      "bundleId": "com.joytunes.asla",
+      "_rowKey": 390
     },
     {
       "id": "com.bareed-kuw.mkhmkh-ha",
@@ -6611,7 +7005,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:03:56.492Z",
       "updatedAt": "2026-08-24T06:16:39.428Z",
-      "bundleId": "com.bareed-kuw.mkhmkh-ha"
+      "bundleId": "com.bareed-kuw.mkhmkh-ha",
+      "_rowKey": 391
     },
     {
       "id": "com.games2win.ultimatebusdriver",
@@ -6627,7 +7022,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:04:33.639Z",
       "updatedAt": "2026-08-24T06:44:00.135Z",
-      "bundleId": "com.games2win.ultimatebusdriver"
+      "bundleId": "com.games2win.ultimatebusdriver",
+      "_rowKey": 392
     },
     {
       "id": "com.wild.dino.hunt.animal.hunt",
@@ -6643,7 +7039,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:05:01.133Z",
       "updatedAt": "2026-08-24T06:45:21.226Z",
-      "bundleId": "com.wild.dino.hunt.animal.hunt"
+      "bundleId": "com.wild.dino.hunt.animal.hunt",
+      "_rowKey": 393
     },
     {
       "id": "com.dmg.prison.escape.simulator",
@@ -6659,7 +7056,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:05:21.718Z",
       "updatedAt": "2026-08-24T06:51:34.198Z",
-      "bundleId": "com.dmg.prison.escape.simulator"
+      "bundleId": "com.dmg.prison.escape.simulator",
+      "_rowKey": 394
     },
     {
       "id": "com.battlecreek.proseries",
@@ -6675,7 +7073,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:05:42.115Z",
       "updatedAt": "2026-08-24T06:19:32.798Z",
-      "bundleId": "com.battlecreek.proseries"
+      "bundleId": "com.battlecreek.proseries",
+      "_rowKey": 395
     },
     {
       "id": "com.modern.battlefield.worldwar.rules.fps.shooting",
@@ -6691,7 +7090,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:06:56.105Z",
       "updatedAt": "2026-08-24T06:46:58.570Z",
-      "bundleId": "com.modern.battlefield.worldwar.rules.fps.shooting"
+      "bundleId": "com.modern.battlefield.worldwar.rules.fps.shooting",
+      "_rowKey": 396
     },
     {
       "id": "com.utincomputer.hyperovertake",
@@ -6707,7 +7107,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:07:32.223Z",
       "updatedAt": "2026-08-24T06:23:31.739Z",
-      "bundleId": "com.utincomputer.hyperovertake"
+      "bundleId": "com.utincomputer.hyperovertake",
+      "_rowKey": 397
     },
     {
       "id": "com.madfingergames.Samurai2",
@@ -6723,7 +7124,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:07:53.943Z",
       "updatedAt": "2026-08-24T06:18:11.065Z",
-      "bundleId": "com.madfingergames.Samurai2"
+      "bundleId": "com.madfingergames.Samurai2",
+      "_rowKey": 398
     },
     {
       "id": "com.frigate.grannyeyes",
@@ -6739,7 +7141,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:08:30.971Z",
       "updatedAt": "2026-08-24T06:22:09.312Z",
-      "bundleId": "com.frigate.grannyeyes"
+      "bundleId": "com.frigate.grannyeyes",
+      "_rowKey": 399
     },
     {
       "id": "com.escape.adventure.scary2",
@@ -6755,7 +7158,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:09:00.457Z",
       "updatedAt": "2026-08-24T06:24:30.309Z",
-      "bundleId": "com.escape.adventure.scary2"
+      "bundleId": "com.escape.adventure.scary2",
+      "_rowKey": 400
     },
     {
       "id": "com.aaa.adventures.scary.horror",
@@ -6771,7 +7175,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:09:26.689Z",
       "updatedAt": "2026-08-24T06:19:52.186Z",
-      "bundleId": "com.aaa.adventures.scary.horror"
+      "bundleId": "com.aaa.adventures.scary.horror",
+      "_rowKey": 401
     },
     {
       "id": "com.edkongames.tops",
@@ -6787,7 +7192,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:09:50.094Z",
       "updatedAt": "2026-08-24T09:29:11.634Z",
-      "bundleId": "com.edkongames.tops"
+      "bundleId": "com.edkongames.tops",
+      "_rowKey": 402
     },
     {
       "id": "com.panzerdog.tacticool",
@@ -6803,7 +7209,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:10:10.108Z",
       "updatedAt": "2026-08-24T10:24:08.118Z",
-      "bundleId": "com.panzerdog.tacticool"
+      "bundleId": "com.panzerdog.tacticool",
+      "_rowKey": 403
     },
     {
       "id": "com.sega.ron",
@@ -6819,7 +7226,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:11:44.554Z",
       "updatedAt": "2026-08-24T06:47:26.207Z",
-      "bundleId": "com.sega.ron"
+      "bundleId": "com.sega.ron",
+      "_rowKey": 404
     },
     {
       "id": "com.edkongames.ww2",
@@ -6835,7 +7243,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T11:12:05.372Z",
       "updatedAt": "2026-08-24T09:29:20.043Z",
-      "bundleId": "com.edkongames.ww2"
+      "bundleId": "com.edkongames.ww2",
+      "_rowKey": 405
     },
     {
       "id": "com.thegamekitchen.blasphemous",
@@ -6851,7 +7260,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:07:06.143Z",
       "updatedAt": "2026-08-24T10:11:48.274Z",
-      "bundleId": "com.thegamekitchen.blasphemous"
+      "bundleId": "com.thegamekitchen.blasphemous",
+      "_rowKey": 406
     },
     {
       "id": "com.amelosinteractive.snake",
@@ -6867,7 +7277,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:09:52.878Z",
       "updatedAt": "2026-08-24T06:20:58.157Z",
-      "bundleId": "com.amelosinteractive.snake"
+      "bundleId": "com.amelosinteractive.snake",
+      "_rowKey": 407
     },
     {
       "id": "com.gamedevltd.infinityops",
@@ -6883,7 +7294,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:10:16.966Z",
       "updatedAt": "2026-08-24T09:04:19.935Z",
-      "bundleId": "com.gamedevltd.infinityops"
+      "bundleId": "com.gamedevltd.infinityops",
+      "_rowKey": 408
     },
     {
       "id": "com.venturesis.lastwave",
@@ -6899,7 +7311,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:16:06.717Z",
       "updatedAt": "2026-08-24T06:52:29.950Z",
-      "bundleId": "com.venturesis.lastwave"
+      "bundleId": "com.venturesis.lastwave",
+      "_rowKey": 409
     },
     {
       "id": "com.ares.twd",
@@ -6920,7 +7333,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:25:12.095Z",
       "updatedAt": "2026-08-24T09:28:35.213Z",
-      "bundleId": "com.ares.twd"
+      "bundleId": "com.ares.twd",
+      "_rowKey": 410
     },
     {
       "id": "com.gameloft.gangstar3",
@@ -6936,7 +7350,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:27:03.109Z",
       "updatedAt": "2026-08-24T10:13:38.951Z",
-      "bundleId": "com.gameloft.gangstar3"
+      "bundleId": "com.gameloft.gangstar3",
+      "_rowKey": 411
     },
     {
       "id": "com.kolka.tdgame",
@@ -6952,7 +7367,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:29:05.509Z",
       "updatedAt": "2026-08-24T06:47:45.903Z",
-      "bundleId": "com.kolka.tdgame"
+      "bundleId": "com.kolka.tdgame",
+      "_rowKey": 412
     },
     {
       "id": "com.GoPlayGames.FCM26",
@@ -6968,7 +7384,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:30:24.234Z",
       "updatedAt": "2026-08-24T08:31:08.609Z",
-      "bundleId": "com.GoPlayGames.FCM26"
+      "bundleId": "com.GoPlayGames.FCM26",
+      "_rowKey": 413
     },
     {
       "id": "com.zombie.gun.shooter",
@@ -6984,7 +7401,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:31:18.089Z",
       "updatedAt": "2026-08-24T06:49:09.787Z",
-      "bundleId": "com.zombie.gun.shooter"
+      "bundleId": "com.zombie.gun.shooter",
+      "_rowKey": 414
     },
     {
       "id": "jet.fighter.games",
@@ -7000,7 +7418,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:32:02.921Z",
       "updatedAt": "2026-08-24T06:21:47.907Z",
-      "bundleId": "jet.fighter.games"
+      "bundleId": "jet.fighter.games",
+      "_rowKey": 415
     },
     {
       "id": "com.sniper3d.game",
@@ -7016,7 +7435,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:32:46.693Z",
       "updatedAt": "2026-08-24T06:50:41.228Z",
-      "bundleId": "com.sniper3d.game"
+      "bundleId": "com.sniper3d.game",
+      "_rowKey": 416
     },
     {
       "id": "com.codigames.idle.supermarket.tycoon",
@@ -7032,7 +7452,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:34:14.703Z",
       "updatedAt": "2026-08-24T06:46:16.590Z",
-      "bundleId": "com.codigames.idle.supermarket.tycoon"
+      "bundleId": "com.codigames.idle.supermarket.tycoon",
+      "_rowKey": 417
     },
     {
       "id": "com.squareenixmontreal.hitmango",
@@ -7048,7 +7469,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:34:54.099Z",
       "updatedAt": "2026-08-24T09:05:02.683Z",
-      "bundleId": "com.squareenixmontreal.hitmango"
+      "bundleId": "com.squareenixmontreal.hitmango",
+      "_rowKey": 418
     },
     {
       "id": "com.inspectorstudios.ultimateflightsimulatorpro",
@@ -7064,7 +7486,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:35:56.923Z",
       "updatedAt": "2026-08-24T08:29:23.472Z",
-      "bundleId": "com.inspectorstudios.ultimateflightsimulatorpro"
+      "bundleId": "com.inspectorstudios.ultimateflightsimulatorpro",
+      "_rowKey": 419
     },
     {
       "id": "com.playdeadgames.inside.ios",
@@ -7080,7 +7503,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:36:57.079Z",
       "updatedAt": "2026-08-24T09:29:25.244Z",
-      "bundleId": "com.playdeadgames.inside.ios"
+      "bundleId": "com.playdeadgames.inside.ios",
+      "_rowKey": 420
     },
     {
       "id": "com.avecreation.drivingzoneoffroadlite",
@@ -7096,7 +7520,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:38:10.291Z",
       "updatedAt": "2026-08-24T06:51:41.724Z",
-      "bundleId": "com.avecreation.drivingzoneoffroadlite"
+      "bundleId": "com.avecreation.drivingzoneoffroadlite",
+      "_rowKey": 421
     },
     {
       "id": "com.sega.streetsofrage2",
@@ -7112,7 +7537,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:39:42.246Z",
       "updatedAt": "2026-08-24T06:17:30.639Z",
-      "bundleId": "com.sega.streetsofrage2"
+      "bundleId": "com.sega.streetsofrage2",
+      "_rowKey": 422
     },
     {
       "id": "com.sega.StreetsOfRage",
@@ -7128,7 +7554,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:41:16.387Z",
       "updatedAt": "2026-08-24T06:17:21.843Z",
-      "bundleId": "com.sega.StreetsOfRage"
+      "bundleId": "com.sega.StreetsOfRage",
+      "_rowKey": 423
     },
     {
       "id": "com.505games.brothers",
@@ -7144,7 +7571,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:42:12.015Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.505games.brothers"
+      "bundleId": "com.505games.brothers",
+      "_rowKey": 424
     },
     {
       "id": "com.atomicplayapps.swordhero",
@@ -7160,7 +7588,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:43:03.267Z",
       "updatedAt": "2026-08-24T06:19:07.714Z",
-      "bundleId": "com.atomicplayapps.swordhero"
+      "bundleId": "com.atomicplayapps.swordhero",
+      "_rowKey": 425
     },
     {
       "id": "com.mobirix.fishinghook2",
@@ -7176,7 +7605,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:44:00.060Z",
       "updatedAt": "2026-08-24T06:22:05.002Z",
-      "bundleId": "com.mobirix.fishinghook2"
+      "bundleId": "com.mobirix.fishinghook2",
+      "_rowKey": 426
     },
     {
       "id": "com.joycity.resu",
@@ -7192,7 +7622,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:45:44.663Z",
       "updatedAt": "2026-08-24T13:58:36.518Z",
-      "bundleId": "com.joycity.resu"
+      "bundleId": "com.joycity.resu",
+      "_rowKey": 427
     },
     {
       "id": "com.sensusgames.powerzone",
@@ -7208,7 +7639,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:46:39.346Z",
       "updatedAt": "2026-08-24T08:31:23.032Z",
-      "bundleId": "com.sensusgames.powerzone"
+      "bundleId": "com.sensusgames.powerzone",
+      "_rowKey": 428
     },
     {
       "id": "com.realdrift.sipon",
@@ -7224,7 +7656,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:47:47.860Z",
       "updatedAt": "2026-08-24T06:52:33.543Z",
-      "bundleId": "com.realdrift.sipon"
+      "bundleId": "com.realdrift.sipon",
+      "_rowKey": 429
     },
     {
       "id": "com.hegi.scaregame",
@@ -7240,7 +7673,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:48:57.428Z",
       "updatedAt": "2026-08-24T06:20:06.414Z",
-      "bundleId": "com.hegi.scaregame"
+      "bundleId": "com.hegi.scaregame",
+      "_rowKey": 430
     },
     {
       "id": "com.hegi.scaregame2",
@@ -7256,7 +7690,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:50:36.709Z",
       "updatedAt": "2026-08-24T06:21:30.279Z",
-      "bundleId": "com.hegi.scaregame2"
+      "bundleId": "com.hegi.scaregame2",
+      "_rowKey": 431
     },
     {
       "id": "com.Vince.Alamobile",
@@ -7272,7 +7707,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:51:38.962Z",
       "updatedAt": "2026-08-24T06:53:52.609Z",
-      "bundleId": "com.Vince.Alamobile"
+      "bundleId": "com.Vince.Alamobile",
+      "_rowKey": 432
     },
     {
       "id": "com.mattel163.uno2",
@@ -7288,7 +7724,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:52:39.529Z",
       "updatedAt": "2026-08-24T06:50:48.676Z",
-      "bundleId": "com.mattel163.uno2"
+      "bundleId": "com.mattel163.uno2",
+      "_rowKey": 433
     },
     {
       "id": "xyz.cypwn.sm64ios-60fps",
@@ -7304,7 +7741,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:54:38.844Z",
       "updatedAt": "2026-08-24T06:14:16.384Z",
-      "bundleId": "xyz.cypwn.sm64ios-60fps"
+      "bundleId": "xyz.cypwn.sm64ios-60fps",
+      "_rowKey": 434
     },
     {
       "id": "io.supercent.beachamp2",
@@ -7320,7 +7758,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:55:35.008Z",
       "updatedAt": "2026-08-24T06:21:24.935Z",
-      "bundleId": "io.supercent.beachamp2"
+      "bundleId": "io.supercent.beachamp2",
+      "_rowKey": 435
     },
     {
       "id": "com.football.soccer.league",
@@ -7336,7 +7775,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:56:29.779Z",
       "updatedAt": "2026-08-24T08:30:45.232Z",
-      "bundleId": "com.football.soccer.league"
+      "bundleId": "com.football.soccer.league",
+      "_rowKey": 436
     },
     {
       "id": "com.nekki.vector.iphone.free",
@@ -7352,7 +7792,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:57:32.524Z",
       "updatedAt": "2026-08-24T06:45:56.895Z",
-      "bundleId": "com.nekki.vector.iphone.free"
+      "bundleId": "com.nekki.vector.iphone.free",
+      "_rowKey": 437
     },
     {
       "id": "com.nfg.lod.survival",
@@ -7368,7 +7809,8 @@
       "recommended": false,
       "addedAt": "2026-08-20T16:58:28.111Z",
       "updatedAt": "2026-08-24T06:53:19.826Z",
-      "bundleId": "com.nfg.lod.survival"
+      "bundleId": "com.nfg.lod.survival",
+      "_rowKey": 438
     },
     {
       "id": "sk.inlogic.footballministars",
@@ -7384,7 +7826,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:50:48.085Z",
       "updatedAt": "2026-08-24T06:23:17.262Z",
-      "bundleId": "sk.inlogic.footballministars"
+      "bundleId": "sk.inlogic.footballministars",
+      "_rowKey": 439
     },
     {
       "id": "com.tegra.magic.craft.survival",
@@ -7400,7 +7843,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:51:40.824Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.tegra.magic.craft.survival"
+      "bundleId": "com.tegra.magic.craft.survival",
+      "_rowKey": 440
     },
     {
       "id": "com.ondi.shadow.rival",
@@ -7416,7 +7860,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:52:37.318Z",
       "updatedAt": "2026-08-24T06:53:00.766Z",
-      "bundleId": "com.ondi.shadow.rival"
+      "bundleId": "com.ondi.shadow.rival",
+      "_rowKey": 441
     },
     {
       "id": "com.ftt.boxingstar.match3.ios",
@@ -7432,7 +7877,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:53:11.760Z",
       "updatedAt": "2026-08-24T06:18:51.329Z",
-      "bundleId": "com.ftt.boxingstar.match3.ios"
+      "bundleId": "com.ftt.boxingstar.match3.ios",
+      "_rowKey": 442
     },
     {
       "id": "com.com2us.smon.normal.freefull.apple.kr.ios.universal",
@@ -7448,7 +7894,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:53:43.381Z",
       "updatedAt": "2026-08-24T13:56:43.703Z",
-      "bundleId": "com.com2us.smon.normal.freefull.apple.kr.ios.universal"
+      "bundleId": "com.com2us.smon.normal.freefull.apple.kr.ios.universal",
+      "_rowKey": 443
     },
     {
       "id": "com.ftxgames.bb",
@@ -7464,7 +7911,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:54:40.970Z",
       "updatedAt": "2026-08-24T06:21:34.903Z",
-      "bundleId": "com.ftxgames.bb"
+      "bundleId": "com.ftxgames.bb",
+      "_rowKey": 444
     },
     {
       "id": "com.carx-tech.carxdr3",
@@ -7480,7 +7928,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:55:00.971Z",
       "updatedAt": "2026-08-24T10:20:44.519Z",
-      "bundleId": "com.carx-tech.carxdr3"
+      "bundleId": "com.carx-tech.carxdr3",
+      "_rowKey": 445
     },
     {
       "id": "com.strategy.world.war.tactics.games",
@@ -7496,7 +7945,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:55:53.147Z",
       "updatedAt": "2026-08-24T09:27:53.039Z",
-      "bundleId": "com.strategy.world.war.tactics.games"
+      "bundleId": "com.strategy.world.war.tactics.games",
+      "_rowKey": 446
     },
     {
       "id": "com.nostellar.ghostslayer2",
@@ -7512,7 +7962,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:57:07.595Z",
       "updatedAt": "2026-08-24T06:19:59.554Z",
-      "bundleId": "com.nostellar.ghostslayer2"
+      "bundleId": "com.nostellar.ghostslayer2",
+      "_rowKey": 447
     },
     {
       "id": "com.bc23.traffic.car.driving.city.game3D",
@@ -7528,7 +7979,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:57:34.848Z",
       "updatedAt": "2026-08-24T06:46:12.314Z",
-      "bundleId": "com.bc23.traffic.car.driving.city.game3D"
+      "bundleId": "com.bc23.traffic.car.driving.city.game3D",
+      "_rowKey": 448
     },
     {
       "id": "com.starkom.DriftLegends2",
@@ -7544,7 +7996,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:58:15.913Z",
       "updatedAt": "2026-08-24T09:28:20.493Z",
-      "bundleId": "com.starkom.DriftLegends2"
+      "bundleId": "com.starkom.DriftLegends2",
+      "_rowKey": 449
     },
     {
       "id": "com.gameinsight.gobios",
@@ -7560,7 +8013,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:58:44.750Z",
       "updatedAt": "2026-08-24T10:31:26.412Z",
-      "bundleId": "com.gameinsight.gobios"
+      "bundleId": "com.gameinsight.gobios",
+      "_rowKey": 450
     },
     {
       "id": "com.ninjakiwi.sasza4",
@@ -7576,7 +8030,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:59:26.626Z",
       "updatedAt": "2026-08-24T06:24:10.546Z",
-      "bundleId": "com.ninjakiwi.sasza4"
+      "bundleId": "com.ninjakiwi.sasza4",
+      "_rowKey": 451
     },
     {
       "id": "com.genetic.realcarparking2",
@@ -7592,7 +8047,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T07:59:53.592Z",
       "updatedAt": "2026-08-24T08:31:00.171Z",
-      "bundleId": "com.genetic.realcarparking2"
+      "bundleId": "com.genetic.realcarparking2",
+      "_rowKey": 452
     },
     {
       "id": "com.IronEqual.GunshipOperator3D",
@@ -7608,7 +8064,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:00:23.299Z",
       "updatedAt": "2026-08-24T06:52:53.772Z",
-      "bundleId": "com.IronEqual.GunshipOperator3D"
+      "bundleId": "com.IronEqual.GunshipOperator3D",
+      "_rowKey": 453
     },
     {
       "id": "com.niklas.fpsdefense",
@@ -7624,7 +8081,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:02:35.338Z",
       "updatedAt": "2026-08-24T06:51:14.561Z",
-      "bundleId": "com.niklas.fpsdefense"
+      "bundleId": "com.niklas.fpsdefense",
+      "_rowKey": 454
     },
     {
       "id": "com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk",
@@ -7640,7 +8098,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:03:22.671Z",
       "updatedAt": "2026-08-24T06:44:24.236Z",
-      "bundleId": "com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk"
+      "bundleId": "com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk",
+      "_rowKey": 455
     },
     {
       "id": "io.monumental.cardclash",
@@ -7656,7 +8115,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:04:15.405Z",
       "updatedAt": "2026-08-24T06:50:09.357Z",
-      "bundleId": "io.monumental.cardclash"
+      "bundleId": "io.monumental.cardclash",
+      "_rowKey": 456
     },
     {
       "id": "com.zeptolab.ctrexperiments",
@@ -7672,7 +8132,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:04:36.953Z",
       "updatedAt": "2026-08-24T06:19:03.832Z",
-      "bundleId": "com.zeptolab.ctrexperiments"
+      "bundleId": "com.zeptolab.ctrexperiments",
+      "_rowKey": 457
     },
     {
       "id": "com.kingsofgames.chessuniverseplus",
@@ -7688,7 +8149,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:05:13.018Z",
       "updatedAt": "2026-08-24T06:21:59.882Z",
-      "bundleId": "com.kingsofgames.chessuniverseplus"
+      "bundleId": "com.kingsofgames.chessuniverseplus",
+      "_rowKey": 458
     },
     {
       "id": "com.zeptolab.ctr3",
@@ -7704,7 +8166,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:06:01.258Z",
       "updatedAt": "2026-08-24T06:52:57.240Z",
-      "bundleId": "com.zeptolab.ctr3"
+      "bundleId": "com.zeptolab.ctr3",
+      "_rowKey": 459
     },
     {
       "id": "adventure.party.real.life",
@@ -7720,7 +8183,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:06:27.547Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "adventure.party.real.life"
+      "bundleId": "adventure.party.real.life",
+      "_rowKey": 460
     },
     {
       "id": "com.marmalade.monopoly",
@@ -7736,7 +8200,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:07:06.011Z",
       "updatedAt": "2026-08-24T10:04:30.296Z",
-      "bundleId": "com.marmalade.monopoly"
+      "bundleId": "com.marmalade.monopoly",
+      "_rowKey": 461
     },
     {
       "id": "com.halfbrick.jetpack",
@@ -7752,7 +8217,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:07:46.489Z",
       "updatedAt": "2026-08-24T06:52:36.873Z",
-      "bundleId": "com.halfbrick.jetpack"
+      "bundleId": "com.halfbrick.jetpack",
+      "_rowKey": 462
     },
     {
       "id": "com.glu.flcn",
@@ -7768,7 +8234,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:09:10.566Z",
       "updatedAt": "2026-08-24T06:53:34.548Z",
-      "bundleId": "com.glu.flcn"
+      "bundleId": "com.glu.flcn",
+      "_rowKey": 463
     },
     {
       "id": "com.ilyondynamics.bubbleShooterClassic",
@@ -7784,7 +8251,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:10:27.022Z",
       "updatedAt": "2026-08-24T06:44:46.827Z",
-      "bundleId": "com.ilyondynamics.bubbleShooterClassic"
+      "bundleId": "com.ilyondynamics.bubbleShooterClassic",
+      "_rowKey": 464
     },
     {
       "id": "com.hipsterwhale.crossy",
@@ -7800,7 +8268,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:10:46.803Z",
       "updatedAt": "2026-08-24T06:44:20.887Z",
-      "bundleId": "com.hipsterwhale.crossy"
+      "bundleId": "com.hipsterwhale.crossy",
+      "_rowKey": 465
     },
     {
       "id": "com.direlight.grimvalor",
@@ -7816,7 +8285,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:11:35.230Z",
       "updatedAt": "2026-08-24T13:20:40.309Z",
-      "bundleId": "com.direlight.grimvalor"
+      "bundleId": "com.direlight.grimvalor",
+      "_rowKey": 466
     },
     {
       "id": "com.ustwo.monumentvalley",
@@ -7832,7 +8302,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:12:32.324Z",
       "updatedAt": "2026-08-24T06:51:18.512Z",
-      "bundleId": "com.ustwo.monumentvalley"
+      "bundleId": "com.ustwo.monumentvalley",
+      "_rowKey": 467
     },
     {
       "id": "com.ustwo.monumentvalley2",
@@ -7848,7 +8319,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:12:53.998Z",
       "updatedAt": "2026-08-24T06:51:53.035Z",
-      "bundleId": "com.ustwo.monumentvalley2"
+      "bundleId": "com.ustwo.monumentvalley2",
+      "_rowKey": 468
     },
     {
       "id": "com.square-enix.FinalFantasy4Arcade",
@@ -7864,7 +8336,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:13:26.824Z",
       "updatedAt": "2026-08-24T09:27:40.849Z",
-      "bundleId": "com.square-enix.FinalFantasy4Arcade"
+      "bundleId": "com.square-enix.FinalFantasy4Arcade",
+      "_rowKey": 469
     },
     {
       "id": "com.FireproofStudios.TheRoom2",
@@ -7880,7 +8353,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:14:04.572Z",
       "updatedAt": "2026-08-24T06:52:40.216Z",
-      "bundleId": "com.FireproofStudios.TheRoom2"
+      "bundleId": "com.FireproofStudios.TheRoom2",
+      "_rowKey": 470
     },
     {
       "id": "com.playdeadgames.limbo.ios",
@@ -7896,7 +8370,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:14:55.532Z",
       "updatedAt": "2026-08-24T06:22:13.469Z",
-      "bundleId": "com.playdeadgames.limbo.ios"
+      "bundleId": "com.playdeadgames.limbo.ios",
+      "_rowKey": 471
     },
     {
       "id": "com.FireproofStudios.TheRoom3",
@@ -7912,7 +8387,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:15:26.021Z",
       "updatedAt": "2026-08-24T09:28:00.582Z",
-      "bundleId": "com.FireproofStudios.TheRoom3"
+      "bundleId": "com.FireproofStudios.TheRoom3",
+      "_rowKey": 472
     },
     {
       "id": "com.square-enix.chronotrigger",
@@ -7928,7 +8404,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:15:58.318Z",
       "updatedAt": "2026-08-24T09:27:29.865Z",
-      "bundleId": "com.square-enix.chronotrigger"
+      "bundleId": "com.square-enix.chronotrigger",
+      "_rowKey": 473
     },
     {
       "id": "com.fluffyfairygames.idleminertycoon",
@@ -7944,7 +8421,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:26:33.051Z",
       "updatedAt": "2026-08-24T06:44:10.947Z",
-      "bundleId": "com.fluffyfairygames.idleminertycoon"
+      "bundleId": "com.fluffyfairygames.idleminertycoon",
+      "_rowKey": 474
     },
     {
       "id": "com.theonegames.gunshipbattle",
@@ -7960,7 +8438,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:30:00.082Z",
       "updatedAt": "2026-08-24T06:45:17.561Z",
-      "bundleId": "com.theonegames.gunshipbattle"
+      "bundleId": "com.theonegames.gunshipbattle",
+      "_rowKey": 475
     },
     {
       "id": "jp.co.bandainamcoent.BNEI0431",
@@ -7976,7 +8455,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T08:31:18.855Z",
       "updatedAt": "2026-08-24T13:56:43.705Z",
-      "bundleId": "jp.co.bandainamcoent.BNEI0431"
+      "bundleId": "jp.co.bandainamcoent.BNEI0431",
+      "_rowKey": 476
     },
     {
       "id": "com.countdown.for.all.app",
@@ -7992,7 +8472,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:45:03.655Z",
       "updatedAt": "2026-08-24T06:14:35.104Z",
-      "bundleId": "com.countdown.for.all.app"
+      "bundleId": "com.countdown.for.all.app",
+      "_rowKey": 477
     },
     {
       "id": "com.alik472.ai-aging-app",
@@ -8008,7 +8489,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:45:47.735Z",
       "updatedAt": "2026-08-24T06:15:10.991Z",
-      "bundleId": "com.alik472.ai-aging-app"
+      "bundleId": "com.alik472.ai-aging-app",
+      "_rowKey": 478
     },
     {
       "id": "com.muscleandmotion.Anatomy",
@@ -8024,7 +8506,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:46:40.948Z",
       "updatedAt": "2026-08-24T06:44:14.196Z",
-      "bundleId": "com.muscleandmotion.Anatomy"
+      "bundleId": "com.muscleandmotion.Anatomy",
+      "_rowKey": 479
     },
     {
       "id": "com.gabrielvicente.anatomy",
@@ -8040,7 +8523,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:47:32.803Z",
       "updatedAt": "2026-08-24T06:50:23.622Z",
-      "bundleId": "com.gabrielvicente.anatomy"
+      "bundleId": "com.gabrielvicente.anatomy",
+      "_rowKey": 480
     },
     {
       "id": "com.limepresso.logomaker",
@@ -8056,7 +8540,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:48:32.137Z",
       "updatedAt": "2026-08-24T10:14:12.905Z",
-      "bundleId": "com.limepresso.logomaker"
+      "bundleId": "com.limepresso.logomaker",
+      "_rowKey": 481
     },
     {
       "id": "com.algotwist.profilepicturemaker",
@@ -8072,7 +8557,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:49:59.703Z",
       "updatedAt": "2026-08-24T06:17:34.219Z",
-      "bundleId": "com.algotwist.profilepicturemaker"
+      "bundleId": "com.algotwist.profilepicturemaker",
+      "_rowKey": 482
     },
     {
       "id": "com.gplexdb.musicplayeriphone",
@@ -8088,7 +8574,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:50:53.490Z",
       "updatedAt": "2026-08-24T06:17:11.070Z",
-      "bundleId": "com.gplexdb.musicplayeriphone"
+      "bundleId": "com.gplexdb.musicplayeriphone",
+      "_rowKey": 483
     },
     {
       "id": "com.inasser.salaty",
@@ -8104,7 +8591,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:52:00.283Z",
       "updatedAt": "2026-08-24T06:15:53.495Z",
-      "bundleId": "com.inasser.salaty"
+      "bundleId": "com.inasser.salaty",
+      "_rowKey": 484
     },
     {
       "id": "com.HSSN.VisAnatomy",
@@ -8120,7 +8608,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:53:03.083Z",
       "updatedAt": "2026-08-24T06:50:59.765Z",
-      "bundleId": "com.HSSN.VisAnatomy"
+      "bundleId": "com.HSSN.VisAnatomy",
+      "_rowKey": 485
     },
     {
       "id": "AB.iOsteology",
@@ -8136,7 +8625,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T10:55:30.474Z",
       "updatedAt": "2026-08-24T13:58:36.518Z",
-      "bundleId": "AB.iOsteology"
+      "bundleId": "AB.iOsteology",
+      "_rowKey": 486
     },
     {
       "id": "org.skydomain.foodcamera",
@@ -8152,7 +8642,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:00:20.889Z",
       "updatedAt": "2026-08-24T06:19:55.820Z",
-      "bundleId": "org.skydomain.foodcamera"
+      "bundleId": "org.skydomain.foodcamera",
+      "_rowKey": 487
     },
     {
       "id": "com.minerva-medical.fullcode",
@@ -8168,7 +8659,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:26:27.516Z",
       "updatedAt": "2026-08-24T06:18:55.556Z",
-      "bundleId": "com.minerva-medical.fullcode"
+      "bundleId": "com.minerva-medical.fullcode",
+      "_rowKey": 488
     },
     {
       "id": "Wallpapers.iPad",
@@ -8184,7 +8676,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:27:58.713Z",
       "updatedAt": "2026-08-24T06:17:00.855Z",
-      "bundleId": "Wallpapers.iPad"
+      "bundleId": "Wallpapers.iPad",
+      "_rowKey": 489
     },
     {
       "id": "Alluhaybi.Hammel",
@@ -8200,7 +8693,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:29:15.472Z",
       "updatedAt": "2026-08-24T06:52:18.911Z",
-      "bundleId": "Alluhaybi.Hammel"
+      "bundleId": "Alluhaybi.Hammel",
+      "_rowKey": 490
     },
     {
       "id": "com.hssn.anatomy3d",
@@ -8216,7 +8710,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:30:13.194Z",
       "updatedAt": "2026-08-24T06:24:19.905Z",
-      "bundleId": "com.hssn.anatomy3d"
+      "bundleId": "com.hssn.anatomy3d",
+      "_rowKey": 491
     },
     {
       "id": "com.protools.Watermark",
@@ -8232,7 +8727,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:31:15.032Z",
       "updatedAt": "2026-08-24T06:18:28.731Z",
-      "bundleId": "com.protools.Watermark"
+      "bundleId": "com.protools.Watermark",
+      "_rowKey": 492
     },
     {
       "id": "com.markodevcic.python-code-pad",
@@ -8248,7 +8744,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:32:26.891Z",
       "updatedAt": "2026-08-24T06:20:02.839Z",
-      "bundleId": "com.markodevcic.python-code-pad"
+      "bundleId": "com.markodevcic.python-code-pad",
+      "_rowKey": 493
     },
     {
       "id": "com.Turbo.vpn",
@@ -8264,7 +8761,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T11:33:19.751Z",
       "updatedAt": "2026-08-24T06:14:19.804Z",
-      "bundleId": "com.Turbo.vpn"
+      "bundleId": "com.Turbo.vpn",
+      "_rowKey": 494
     },
     {
       "id": "com.fau.sshterminal",
@@ -8280,7 +8778,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:00:05.454Z",
       "updatedAt": "2026-08-24T06:16:31.529Z",
-      "bundleId": "com.fau.sshterminal"
+      "bundleId": "com.fau.sshterminal",
+      "_rowKey": 495
     },
     {
       "id": "com.myonlyislam.scanhalalfood",
@@ -8296,7 +8795,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:00:36.782Z",
       "updatedAt": "2026-08-24T06:15:17.823Z",
-      "bundleId": "com.myonlyislam.scanhalalfood"
+      "bundleId": "com.myonlyislam.scanhalalfood",
+      "_rowKey": 496
     },
     {
       "id": "com.gearup.booster",
@@ -8312,7 +8812,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:00:58.146Z",
       "updatedAt": "2026-08-24T06:16:35.395Z",
-      "bundleId": "com.gearup.booster"
+      "bundleId": "com.gearup.booster",
+      "_rowKey": 497
     },
     {
       "id": "com.crystalnix.ServerAuditor",
@@ -8328,7 +8829,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:01:21.472Z",
       "updatedAt": "2026-08-24T06:21:10.097Z",
-      "bundleId": "com.crystalnix.ServerAuditor"
+      "bundleId": "com.crystalnix.ServerAuditor",
+      "_rowKey": 498
     },
     {
       "id": "com.zilliongames.collectionidle",
@@ -8344,7 +8846,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:12:29.827Z",
       "updatedAt": "2026-08-24T06:50:01.688Z",
-      "bundleId": "com.zilliongames.collectionidle"
+      "bundleId": "com.zilliongames.collectionidle",
+      "_rowKey": 499
     },
     {
       "id": "es.socialpoint.MonsterCity",
@@ -8360,7 +8863,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:13:49.502Z",
       "updatedAt": "2026-08-24T06:44:50.941Z",
-      "bundleId": "es.socialpoint.MonsterCity"
+      "bundleId": "es.socialpoint.MonsterCity",
+      "_rowKey": 500
     },
     {
       "id": "com.farlightgames.igame.ios",
@@ -8376,7 +8880,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:14:46.821Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.farlightgames.igame.ios"
+      "bundleId": "com.farlightgames.igame.ios",
+      "_rowKey": 501
     },
     {
       "id": "com.zombie.slasher",
@@ -8392,7 +8897,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:15:08.553Z",
       "updatedAt": "2026-08-24T06:50:19.836Z",
-      "bundleId": "com.zombie.slasher"
+      "bundleId": "com.zombie.slasher",
+      "_rowKey": 502
     },
     {
       "id": "com.football.soccer.league",
@@ -8408,7 +8914,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:16:23.469Z",
       "updatedAt": "2026-08-24T08:30:55.913Z",
-      "bundleId": "com.football.soccer.league"
+      "bundleId": "com.football.soccer.league",
+      "_rowKey": 503
     },
     {
       "id": "com.notdoppler.earntodierogue",
@@ -8424,7 +8931,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:16:58.872Z",
       "updatedAt": "2026-08-24T06:48:17.065Z",
-      "bundleId": "com.notdoppler.earntodierogue"
+      "bundleId": "com.notdoppler.earntodierogue",
+      "_rowKey": 504
     },
     {
       "id": "com.jds.bnr",
@@ -8445,7 +8953,8 @@
       "recommended": false,
       "addedAt": "2026-08-21T15:18:40.896Z",
       "updatedAt": "2026-08-24T06:51:37.812Z",
-      "bundleId": "com.jds.bnr"
+      "bundleId": "com.jds.bnr",
+      "_rowKey": 505
     },
     {
       "id": "com.sozap.badmen",
@@ -8461,7 +8970,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:43:40.671Z",
       "updatedAt": "2026-08-24T09:29:16.139Z",
-      "bundleId": "com.sozap.badmen"
+      "bundleId": "com.sozap.badmen",
+      "_rowKey": 506
     },
     {
       "id": "com.skgames.motor",
@@ -8477,7 +8987,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:44:16.210Z",
       "updatedAt": "2026-08-24T06:46:24.646Z",
-      "bundleId": "com.skgames.motor"
+      "bundleId": "com.skgames.motor",
+      "_rowKey": 507
     },
     {
       "id": "com.trueaxis.skate",
@@ -8493,7 +9004,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:45:06.945Z",
       "updatedAt": "2026-08-24T06:23:20.542Z",
-      "bundleId": "com.trueaxis.skate"
+      "bundleId": "com.trueaxis.skate",
+      "_rowKey": 508
     },
     {
       "id": "com.spaceapegames.carsuperstar",
@@ -8509,7 +9021,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:45:31.455Z",
       "updatedAt": "2026-08-24T06:50:16.063Z",
-      "bundleId": "com.spaceapegames.carsuperstar"
+      "bundleId": "com.spaceapegames.carsuperstar",
+      "_rowKey": 509
     },
     {
       "id": "org.brandonplank.flappybird",
@@ -8525,7 +9038,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:45:54.145Z",
       "updatedAt": "2026-08-24T06:13:47.086Z",
-      "bundleId": "org.brandonplank.flappybird"
+      "bundleId": "org.brandonplank.flappybird",
+      "_rowKey": 510
     },
     {
       "id": "com.wb.Injustice.Brawler2017",
@@ -8541,7 +9055,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:47:30.319Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.wb.Injustice.Brawler2017"
+      "bundleId": "com.wb.Injustice.Brawler2017",
+      "_rowKey": 511
     },
     {
       "id": "leyi.westgamepro",
@@ -8557,7 +9072,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:47:54.979Z",
       "updatedAt": "2026-08-24T10:05:06.135Z",
-      "bundleId": "leyi.westgamepro"
+      "bundleId": "leyi.westgamepro",
+      "_rowKey": 512
     },
     {
       "id": "com.redfalcon.basketballgoat.ios",
@@ -8573,7 +9089,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:48:19.098Z",
       "updatedAt": "2026-08-24T06:45:06.657Z",
-      "bundleId": "com.redfalcon.basketballgoat.ios"
+      "bundleId": "com.redfalcon.basketballgoat.ios",
+      "_rowKey": 513
     },
     {
       "id": "com.linegames.hkfm",
@@ -8589,7 +9106,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:48:40.316Z",
       "updatedAt": "2026-08-24T06:46:54.016Z",
-      "bundleId": "com.linegames.hkfm"
+      "bundleId": "com.linegames.hkfm",
+      "_rowKey": 514
     },
     {
       "id": "jp.co.applibot.HelloKittyMerchMatch",
@@ -8605,7 +9123,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:49:06.578Z",
       "updatedAt": "2026-08-24T09:04:45.633Z",
-      "bundleId": "jp.co.applibot.HelloKittyMerchMatch"
+      "bundleId": "jp.co.applibot.HelloKittyMerchMatch",
+      "_rowKey": 515
     },
     {
       "id": "com.stratospheregames.The.Kingdom.Medieval.Tales.Strategy.Building.Games",
@@ -8621,7 +9140,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:49:31.689Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.stratospheregames.The.Kingdom.Medieval.Tales.Strategy.Building.Games"
+      "bundleId": "com.stratospheregames.The.Kingdom.Medieval.Tales.Strategy.Building.Games",
+      "_rowKey": 516
     },
     {
       "id": "com.spaceshooter.fighterforce",
@@ -8637,7 +9157,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:50:45.331Z",
       "updatedAt": "2026-08-24T06:20:10.887Z",
-      "bundleId": "com.spaceshooter.fighterforce"
+      "bundleId": "com.spaceshooter.fighterforce",
+      "_rowKey": 517
     },
     {
       "id": "com.zymobile.merge.holiday.ios",
@@ -8653,7 +9174,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:51:04.712Z",
       "updatedAt": "2026-08-24T09:27:06.986Z",
-      "bundleId": "com.zymobile.merge.holiday.ios"
+      "bundleId": "com.zymobile.merge.holiday.ios",
+      "_rowKey": 518
     },
     {
       "id": "com.megaloot.survivalist",
@@ -8669,7 +9191,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:53:09.097Z",
       "updatedAt": "2026-08-24T09:04:34.903Z",
-      "bundleId": "com.megaloot.survivalist"
+      "bundleId": "com.megaloot.survivalist",
+      "_rowKey": 519
     },
     {
       "id": "app-1787381674746",
@@ -8684,7 +9207,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:54:34.746Z",
-      "updatedAt": "2026-08-22T06:54:36.193Z"
+      "updatedAt": "2026-08-22T06:54:36.193Z",
+      "_rowKey": 520
     },
     {
       "id": "net.peakgames.toonblast",
@@ -8700,7 +9224,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:55:38.396Z",
       "updatedAt": "2026-08-24T06:47:19.177Z",
-      "bundleId": "net.peakgames.toonblast"
+      "bundleId": "net.peakgames.toonblast",
+      "_rowKey": 521
     },
     {
       "id": "com.vqw.aelh",
@@ -8716,7 +9241,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:56:51.686Z",
       "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.vqw.aelh"
+      "bundleId": "com.vqw.aelh",
+      "_rowKey": 522
     },
     {
       "id": "com.touch2goal.soccer",
@@ -8732,7 +9258,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:57:40.569Z",
       "updatedAt": "2026-08-24T06:22:47.786Z",
-      "bundleId": "com.touch2goal.soccer"
+      "bundleId": "com.touch2goal.soccer",
+      "_rowKey": 523
     },
     {
       "id": "com.midnightgames.mudness2",
@@ -8748,7 +9275,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:58:33.206Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.midnightgames.mudness2"
+      "bundleId": "com.midnightgames.mudness2",
+      "_rowKey": 524
     },
     {
       "id": "com.ohbibi.fps",
@@ -8764,7 +9292,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:59:17.015Z",
       "updatedAt": "2026-08-24T06:49:32.842Z",
-      "bundleId": "com.ohbibi.fps"
+      "bundleId": "com.ohbibi.fps",
+      "_rowKey": 525
     },
     {
       "id": "com.fungames.battleroyale",
@@ -8780,7 +9309,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T06:59:59.019Z",
       "updatedAt": "2026-08-24T06:49:06.061Z",
-      "bundleId": "com.fungames.battleroyale"
+      "bundleId": "com.fungames.battleroyale",
+      "_rowKey": 526
     },
     {
       "id": "com.tapblaze.pizzabusiness",
@@ -8796,7 +9326,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:00:24.740Z",
       "updatedAt": "2026-08-24T06:53:49.222Z",
-      "bundleId": "com.tapblaze.pizzabusiness"
+      "bundleId": "com.tapblaze.pizzabusiness",
+      "_rowKey": 527
     },
     {
       "id": "com.tiltingpoint.sbadventures",
@@ -8812,7 +9343,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:00:58.106Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.tiltingpoint.sbadventures"
+      "bundleId": "com.tiltingpoint.sbadventures",
+      "_rowKey": 528
     },
     {
       "id": "com.RoadburnGames.Gumball",
@@ -8828,7 +9360,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:01:40.782Z",
       "updatedAt": "2026-08-24T10:03:56.304Z",
-      "bundleId": "com.RoadburnGames.Gumball"
+      "bundleId": "com.RoadburnGames.Gumball",
+      "_rowKey": 529
     },
     {
       "id": "com.zhangyue.wc4",
@@ -8844,7 +9377,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:02:01.540Z",
       "updatedAt": "2026-08-24T06:47:11.552Z",
-      "bundleId": "com.zhangyue.wc4"
+      "bundleId": "com.zhangyue.wc4",
+      "_rowKey": 530
     },
     {
       "id": "com.WandaSoftware.TruckersofEurope3",
@@ -8860,7 +9394,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:02:28.845Z",
       "updatedAt": "2026-08-24T10:15:04.768Z",
-      "bundleId": "com.WandaSoftware.TruckersofEurope3"
+      "bundleId": "com.WandaSoftware.TruckersofEurope3",
+      "_rowKey": 531
     },
     {
       "id": "com.3d4medical.EssentialAnatomyiPad",
@@ -8876,7 +9411,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:06:17.591Z",
       "updatedAt": "2026-08-24T09:29:06.803Z",
-      "bundleId": "com.3d4medical.EssentialAnatomyiPad"
+      "bundleId": "com.3d4medical.EssentialAnatomyiPad",
+      "_rowKey": 532
     },
     {
       "id": "com.cardify.tinder",
@@ -8892,7 +9428,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:07:06.191Z",
       "updatedAt": "2026-08-24T06:20:21.909Z",
-      "bundleId": "com.cardify.tinder"
+      "bundleId": "com.cardify.tinder",
+      "_rowKey": 533
     },
     {
       "id": "com.mytonallc.cookingdiary",
@@ -8908,7 +9445,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:12:30.818Z",
       "updatedAt": "2026-08-24T08:30:07.816Z",
-      "bundleId": "com.mytonallc.cookingdiary"
+      "bundleId": "com.mytonallc.cookingdiary",
+      "_rowKey": 534
     },
     {
       "id": "com.playdigious.slimerancher",
@@ -8924,7 +9462,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:12:48.885Z",
       "updatedAt": "2026-08-24T09:04:49.831Z",
-      "bundleId": "com.playdigious.slimerancher"
+      "bundleId": "com.playdigious.slimerancher",
+      "_rowKey": 535
     },
     {
       "id": "com.hhimhira.magicka",
@@ -8940,7 +9479,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:15:12.839Z",
       "updatedAt": "2026-08-24T06:19:11.489Z",
-      "bundleId": "com.hhimhira.magicka"
+      "bundleId": "com.hhimhira.magicka",
+      "_rowKey": 536
     },
     {
       "id": "com.dogbytegames.OtrNext",
@@ -8956,7 +9496,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:16:48.660Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.dogbytegames.OtrNext"
+      "bundleId": "com.dogbytegames.OtrNext",
+      "_rowKey": 537
     },
     {
       "id": "com.frontierdesign.videostar",
@@ -8972,7 +9513,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:17:15.328Z",
       "updatedAt": "2026-08-24T09:27:23.982Z",
-      "bundleId": "com.frontierdesign.videostar"
+      "bundleId": "com.frontierdesign.videostar",
+      "_rowKey": 538
     },
     {
       "id": "com.oxvgames.dicelords",
@@ -8988,7 +9530,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:33:57.034Z",
       "updatedAt": "2026-08-24T06:47:33.722Z",
-      "bundleId": "com.oxvgames.dicelords"
+      "bundleId": "com.oxvgames.dicelords",
+      "_rowKey": 539
     },
     {
       "id": "app-1787384066087",
@@ -9003,7 +9546,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T07:34:26.087Z",
-      "updatedAt": "2026-08-22T07:34:27.047Z"
+      "updatedAt": "2026-08-22T07:34:27.047Z",
+      "_rowKey": 540
     },
     {
       "id": "com.firsttouch.dls7",
@@ -9019,7 +9563,8 @@
       "recommended": false,
       "addedAt": "2026-08-22T07:35:38.503Z",
       "updatedAt": "2026-08-24T06:48:21.266Z",
-      "bundleId": "com.firsttouch.dls7"
+      "bundleId": "com.firsttouch.dls7",
+      "_rowKey": 541
     },
     {
       "id": "com.apple.compilers.llvm.clang.1_0",
@@ -9035,7 +9580,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:44:15.981Z",
       "updatedAt": "2026-08-24T06:14:13.313Z",
-      "bundleId": "com.apple.compilers.llvm.clang.1_0"
+      "bundleId": "com.apple.compilers.llvm.clang.1_0",
+      "_rowKey": 542
     },
     {
       "id": "com.gamezaur.shapecraft",
@@ -9051,7 +9597,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:44:47.784Z",
       "updatedAt": "2026-08-24T06:17:07.898Z",
-      "bundleId": "com.gamezaur.shapecraft"
+      "bundleId": "com.gamezaur.shapecraft",
+      "_rowKey": 543
     },
     {
       "id": "com.campmobile.snow",
@@ -9067,7 +9614,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:45:20.220Z",
       "updatedAt": "2026-08-24T06:44:31.464Z",
-      "bundleId": "com.campmobile.snow"
+      "bundleId": "com.campmobile.snow",
+      "_rowKey": 544
     },
     {
       "id": "com.auxbrain.egginc",
@@ -9083,7 +9631,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T03:45:49.450Z",
       "updatedAt": "2026-08-24T06:17:52.159Z",
-      "bundleId": "com.auxbrain.egginc"
+      "bundleId": "com.auxbrain.egginc",
+      "_rowKey": 545
     },
     {
       "id": "com.tocaboca.tocalifeworld",
@@ -9099,7 +9648,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:16:45.684Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.tocaboca.tocalifeworld"
+      "bundleId": "com.tocaboca.tocalifeworld",
+      "_rowKey": 546
     },
     {
       "id": "com.deviloper.car.empire.idle.tycoon",
@@ -9115,7 +9665,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:18:15.130Z",
       "updatedAt": "2026-08-24T06:49:49.301Z",
-      "bundleId": "com.deviloper.car.empire.idle.tycoon"
+      "bundleId": "com.deviloper.car.empire.idle.tycoon",
+      "_rowKey": 547
     },
     {
       "id": "com.badbeans.legendofmarmot",
@@ -9131,7 +9682,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:20:23.671Z",
       "updatedAt": "2026-08-24T06:47:29.944Z",
-      "bundleId": "com.badbeans.legendofmarmot"
+      "bundleId": "com.badbeans.legendofmarmot",
+      "_rowKey": 548
     },
     {
       "id": "com.cloverdy.cat",
@@ -9147,7 +9699,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:21:30.623Z",
       "updatedAt": "2026-08-24T06:45:32.725Z",
-      "bundleId": "com.cloverdy.cat"
+      "bundleId": "com.cloverdy.cat",
+      "_rowKey": 549
     },
     {
       "id": "com.snapbreak.discounty",
@@ -9163,7 +9716,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:23:14.414Z",
       "updatedAt": "2026-08-24T09:28:06.930Z",
-      "bundleId": "com.snapbreak.discounty"
+      "bundleId": "com.snapbreak.discounty",
+      "_rowKey": 550
     },
     {
       "id": "com.everbytestudio.interactive.story.moonvale",
@@ -9179,7 +9733,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:24:16.831Z",
       "updatedAt": "2026-08-24T06:53:23.668Z",
-      "bundleId": "com.everbytestudio.interactive.story.moonvale"
+      "bundleId": "com.everbytestudio.interactive.story.moonvale",
+      "_rowKey": 551
     },
     {
       "id": "com.google.ios.youtube",
@@ -9195,7 +9750,8 @@
       "recommended": false,
       "addedAt": "2026-08-23T11:26:21.579Z",
       "updatedAt": "2026-08-24T06:23:13.590Z",
-      "bundleId": "com.google.ios.youtube"
+      "bundleId": "com.google.ios.youtube",
+      "_rowKey": 552
     },
     {
       "id": "app-1787549882966",
@@ -9210,7 +9766,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-24T05:38:02.966Z",
-      "updatedAt": "2026-08-24T05:38:04.572Z"
+      "updatedAt": "2026-08-24T05:38:04.572Z",
+      "_rowKey": 553
     },
     {
       "id": "com.ExiliumGames.Anima",
@@ -9226,7 +9783,8 @@
       "recommended": false,
       "addedAt": "2026-08-24T05:38:27.822Z",
       "updatedAt": "2026-08-24T13:58:36.518Z",
-      "bundleId": "com.ExiliumGames.Anima"
+      "bundleId": "com.ExiliumGames.Anima",
+      "_rowKey": 554
     },
     {
       "id": "app-1787643296723",
@@ -9241,7 +9799,8 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-25T07:34:56.723Z",
-      "updatedAt": "2026-08-25T07:34:58.174Z"
+      "updatedAt": "2026-08-25T07:34:58.174Z",
+      "_rowKey": 555
     },
     {
       "id": "app-1787643356839",
@@ -9256,7 +9815,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T07:35:56.839Z",
-      "updatedAt": "2026-08-25T07:35:58.018Z"
+      "updatedAt": "2026-08-25T07:35:58.018Z",
+      "_rowKey": 556
     }
   ]
 }
