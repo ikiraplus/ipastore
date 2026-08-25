@@ -5145,23 +5145,23 @@
     {
       "id": "com.playrix.gardenscapes-sweethome",
       "name": "homescapes",
-      "version": "9.0.602",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.602",
+      "version": "9.1.100",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.1.100",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPiOSxnagOIRgD2KtVOJCpsRYBoJ8NruWADxsqnW9C9Q&s=10",
-      "size": "205.1 MB",
+      "size": "204.1 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-07-09T15:45:08.491Z",
-      "updatedAt": "2026-08-24T06:48:58.850Z",
+      "updatedAt": "2026-08-25T10:51:53.782Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.501",
-          "version": "9.0.501"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.602",
+          "version": "9.0.602"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.103",
-          "version": "9.0.103"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/homescapes-9.0.501",
+          "version": "9.0.501"
         }
       ],
       "recommended": false,
