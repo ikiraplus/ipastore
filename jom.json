@@ -3283,16 +3283,28 @@
     },
     {
       "id": "com.carxtech.sr",
-      "name": "Car X street",
-      "version": "1.16.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-street-1.16.1",
+      "name": "CarX street",
+      "version": "1.21.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-street-1.21.0",
       "icon": "https://img.utdstc.com/icon/bba/977/bba977e0d57fa56795386b9f901bda565b8c73a9ce1ec3ebf86083ccee87d179:600",
-      "size": "1309 MB",
+      "size": "5471.8 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-23T18:23:57.140Z",
-      "updatedAt": "2026-08-24T13:58:36.518Z",
-      "bundleId": "com.carxtech.sr"
+      "updatedAt": "2026-08-25T05:55:01.726Z",
+      "bundleId": "com.carxtech.sr",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx_street-1.20.0",
+          "version": "1.20.0"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-street-1.16.1",
+          "version": "1.16.1"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "app-1779560772086",
