@@ -2944,23 +2944,23 @@
     {
       "id": "com.hassantaleb.mockup",
       "name": "animock 3D mockup",
-      "version": "5.10",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animock_3d_mockup_animator_v5.10_pro_unlocked_patched",
+      "version": "5.11",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animock_3d_mockup_animator_v5.11_pro_unlocked__patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/47/e9/0c47e963-daa1-9424-1511-c2c88acd6ed7/Animock-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.jpg",
       "size": "114.5 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-05-04T18:57:44.165Z",
-      "updatedAt": "2026-08-24T06:22:52.293Z",
+      "updatedAt": "2026-08-25T07:32:28.109Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animock_3d_mockup_animator_v5.9.1_pro_unlocked__patched",
-          "version": "5.9.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animock_3d_mockup_animator_v5.10_pro_unlocked_patched",
+          "version": "5.10"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animock_3d_mockup_animator_v5.9_pro_unlocked__patched",
-          "version": "5.9"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animock_3d_mockup_animator_v5.9.1_pro_unlocked__patched",
+          "version": "5.9.1"
         }
       ],
       "recommended": false,
