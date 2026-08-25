@@ -6588,17 +6588,22 @@
     {
       "id": "com.gdv.subway2055",
       "name": "Metro 2055 Survival Rpg",
-      "version": "0.0.064",
+      "version": "0.0.082",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/metro-2055-survival-rpg-0.0.064",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/metro-2055-survival-rpg-0.0.082",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/6e/bd/426ebd5e-0198-9e4e-a4a5-999ef98ed40d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "1344.2 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/metro-2055-survival-rpg-0.0.064",
+          "version": "0.0.064"
+        }
+      ],
+      "size": "1433.2 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:42:27.985Z",
-      "updatedAt": "2026-08-24T13:58:36.518Z",
+      "updatedAt": "2026-08-25T10:32:32.904Z",
       "bundleId": "com.gdv.subway2055",
       "_rowKey": 368
     },
@@ -9915,7 +9920,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:31:19.530Z",
-      "updatedAt": "2026-08-25T10:31:39.588Z"
+      "updatedAt": "2026-08-25T10:31:39.588Z",
+      "_rowKey": 70
     }
   ]
 }
