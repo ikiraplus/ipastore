@@ -9817,6 +9817,21 @@
       "addedAt": "2026-08-25T07:35:56.839Z",
       "updatedAt": "2026-08-25T07:35:58.018Z",
       "_rowKey": 556
+    },
+    {
+      "id": "app-1787645288743",
+      "name": "Duolingo Language Lessons",
+      "version": "7.137.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duolingo_language_lessons_v7.137.0_duolingo_max_unlocked",
+      "icon": "",
+      "previousVersions": [],
+      "size": "204.3 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-25T08:08:08.743Z",
+      "updatedAt": "2026-08-25T08:08:10.944Z"
     }
   ]
 }
