@@ -5374,22 +5374,26 @@
     {
       "id": "com.zhiliaoapp.musically",
       "name": "InfiniTok",
-      "version": "46.2.0",
+      "version": "46.6.0",
       "toolVersion": "2.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infinitok_46.2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok-46.6.0-infinitok",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/2f/ee/bd2fee5f-b778-03d7-5a98-872587cb0bda/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infinitok_46.2.0",
+          "version": "46.2.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infinitok-v46.1.0",
           "version": "46.1.0"
         }
       ],
-      "size": "427.6 MB",
+      "size": "443.7 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-07-23T13:15:55.374Z",
-      "updatedAt": "2026-08-24T08:30:35.770Z",
+      "updatedAt": "2026-08-25T11:03:32.594Z",
       "hidden": false,
       "bundleId": "com.zhiliaoapp.musically",
       "_rowKey": 305
