@@ -9899,7 +9899,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:30:20.527Z",
-      "updatedAt": "2026-08-25T10:30:41.845Z"
+      "updatedAt": "2026-08-25T10:30:41.845Z",
+      "_rowKey": 69
+    },
+    {
+      "id": "app-1787653879530",
+      "name": "Cookingdom",
+      "version": "1.1.134",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cookingdom-1.1.134",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/46/c3/3e46c3dd-804c-58d9-0e99-26f753a485a4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1467.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-25T10:31:19.530Z",
+      "updatedAt": "2026-08-25T10:31:39.588Z"
     }
   ]
 }
