@@ -9206,6 +9206,21 @@
       "addedAt": "2026-08-24T05:38:27.822Z",
       "updatedAt": "2026-08-24T13:58:36.518Z",
       "bundleId": "com.ExiliumGames.Anima"
+    },
+    {
+      "id": "app-1787643296723",
+      "name": "Simply Guitar Learn Guitar",
+      "version": "10.28",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_guitar_learn_guitar_v10.28_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/d4/58/fad45806-3b4f-96f0-f0a1-03c7391dc84d/AppIconIOS26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "137.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-25T07:34:56.723Z",
+      "updatedAt": "2026-08-25T07:34:58.174Z"
     }
   ]
 }
