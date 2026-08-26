@@ -1596,23 +1596,23 @@
     {
       "id": "com.AppChief.ArabicArt",
       "name": "AndalusiDesign",
-      "version": "10.0.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/andalusi_ai_design_photo_video_v10.0.5_pro_unlocked_patched",
+      "version": "10.0.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/andalusi_ai_design_photo_video_v10.0.7_pro_unlocked__patched",
       "icon": "https://appstore.nabzclan.vip/images/1761380474.png",
-      "size": "68.3 MB",
+      "size": "69.0 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T06:18:32.516Z",
+      "updatedAt": "2026-08-26T07:42:26.804Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/andalusi_ai_design_photo_video_v10.0.3_pro_unlocked_patched",
-          "version": "10.0.3"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/andalusi_ai_design_photo_video_v10.0.5_pro_unlocked_patched",
+          "version": "10.0.5"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/andalusi_ai_design_photo_video_v10_pro_unlocked__patched",
-          "version": "10.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/andalusi_ai_design_photo_video_v10.0.3_pro_unlocked_patched",
+          "version": "10.0.3"
         }
       ],
       "recommended": false,
