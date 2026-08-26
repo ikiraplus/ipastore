@@ -1496,23 +1496,23 @@
     {
       "id": "com.gloop.deltamobile",
       "name": "Roblox - Delta",
-      "version": "2.733.988",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.733.988",
+      "version": "2.735.1135",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.735.1135",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/84/da/9684da49-4027-e780-09e8-25d1dcc3950a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "138.3 MB",
+      "size": "137.7 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T06:44:43.148Z",
+      "updatedAt": "2026-08-26T07:43:35.183Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.729.838",
-          "version": "2.729.838"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.733.988",
+          "version": "2.733.988"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.727.1199",
-          "version": "2.727.1199"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/roblox-2.729.838",
+          "version": "2.729.838"
         }
       ],
       "recommended": false,
