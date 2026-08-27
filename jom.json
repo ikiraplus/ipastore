@@ -10638,7 +10638,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:46:49.219Z",
-      "updatedAt": "2026-08-27T17:47:11.551Z"
+      "updatedAt": "2026-08-27T17:47:11.551Z",
+      "_rowKey": 81
+    },
+    {
+      "id": "app-1787852892340",
+      "name": "ASJ TikTok",
+      "version": "46.5.0",
+      "toolVersion": "1.1.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asj-tik-tok-46.5.0-v1.1.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/95/3c/f4953cfb-b350-6763-a0b4-ceed8cef74ed/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "440.3 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": true,
+      "addedAt": "2026-08-27T17:48:12.340Z",
+      "updatedAt": "2026-08-27T17:48:17.373Z"
     }
   ]
 }
