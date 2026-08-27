@@ -10206,7 +10206,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T16:37:11.055Z",
-      "updatedAt": "2026-08-27T16:37:15.175Z"
+      "updatedAt": "2026-08-27T16:37:15.175Z",
+      "_rowKey": 73
+    },
+    {
+      "id": "app-1787848718262",
+      "name": "MicroMacro: Downtown Detective",
+      "version": "1.2.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/micromacro-1.2.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/c9/a1/f9c9a18b-0d2e-b1a8-a3b0-9eab5064ecee/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "679.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:38:38.262Z",
+      "updatedAt": "2026-08-27T16:38:55.451Z"
     }
   ]
 }
