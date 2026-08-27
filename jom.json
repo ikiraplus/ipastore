@@ -10318,7 +10318,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:22:10.410Z",
-      "updatedAt": "2026-08-27T17:22:28.294Z"
+      "updatedAt": "2026-08-27T17:22:28.294Z",
+      "_rowKey": 1
+    },
+    {
+      "id": "app-1787851418392",
+      "name": "Joe Danger",
+      "version": "1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/joe-danger",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/20/f3/31/20f331e9-5c94-5422-83d8-3978cdc8b8b0/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "96.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:23:38.392Z",
+      "updatedAt": "2026-08-27T17:23:44.291Z"
     }
   ]
 }
