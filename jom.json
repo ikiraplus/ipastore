@@ -10478,7 +10478,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:40:33.870Z",
-      "updatedAt": "2026-08-27T17:40:52.103Z"
+      "updatedAt": "2026-08-27T17:40:52.103Z",
+      "_rowKey": 71
+    },
+    {
+      "id": "app-1787852493852",
+      "name": "Loopables",
+      "version": "2.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loopables",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/bc/22/a1bc222a-dfb4-c64d-b590-8c5c9d2dc757/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "20.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:41:33.852Z",
+      "updatedAt": "2026-08-27T17:41:50.561Z"
     }
   ]
 }
