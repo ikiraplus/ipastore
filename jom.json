@@ -10430,7 +10430,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:34:02.224Z",
-      "updatedAt": "2026-08-27T17:34:06.722Z"
+      "updatedAt": "2026-08-27T17:34:06.722Z",
+      "_rowKey": 68
+    },
+    {
+      "id": "app-1787852313961",
+      "name": "Legend Of The Skyfish 2",
+      "version": "1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/legend-of-the-skyfish-2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/3d/4a/d13d4a24-11f5-17ca-36c1-88ad309e8ae3/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "447.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:38:33.961Z",
+      "updatedAt": "2026-08-27T17:38:57.445Z"
     }
   ]
 }
