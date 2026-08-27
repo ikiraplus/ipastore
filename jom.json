@@ -10382,7 +10382,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:25:45.737Z",
-      "updatedAt": "2026-08-27T17:25:55.410Z"
+      "updatedAt": "2026-08-27T17:25:55.410Z",
+      "_rowKey": 70
+    },
+    {
+      "id": "app-1787851583893",
+      "name": "Lazy Jump 3d",
+      "version": "1.10.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lazy-jump-3d",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/69/68/47696813-cea1-ca5a-41db-9b533d220526/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "273.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:26:23.893Z",
+      "updatedAt": "2026-08-27T17:27:03.093Z"
     }
   ]
 }
