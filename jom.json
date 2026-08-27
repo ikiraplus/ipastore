@@ -10082,7 +10082,23 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-27T16:13:33.867Z",
-      "updatedAt": "2026-08-27T16:13:52.918Z"
+      "updatedAt": "2026-08-27T16:13:52.918Z",
+      "_rowKey": 67
+    },
+    {
+      "id": "app-1787847272896",
+      "name": "Adguard Ad Blocker For Safari",
+      "version": "4.5.22",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adguard_ad_blocker_for_safari_v4.5.22_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/af/b6/15afb62a-877a-03ce-1ebf-2703ecd5ccdc/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "40.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:14:32.896Z",
+      "updatedAt": "2026-08-27T16:14:51.213Z"
     }
   ]
 }
