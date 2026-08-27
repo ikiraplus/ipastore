@@ -10238,7 +10238,23 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-27T16:42:33.766Z",
-      "updatedAt": "2026-08-27T16:42:35.434Z"
+      "updatedAt": "2026-08-27T16:42:35.434Z",
+      "_rowKey": 67
+    },
+    {
+      "id": "app-1787848990892",
+      "name": "Reels Templates Maker Pro",
+      "version": "3.11.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reels-templates-maker-pro-v3.11.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/c0/cc/e7c0cc0c-6453-76e2-200d-079e510d8d72/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "146.8 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:43:10.892Z",
+      "updatedAt": "2026-08-27T16:43:15.183Z"
     }
   ]
 }
