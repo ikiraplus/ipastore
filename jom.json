@@ -10542,7 +10542,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:43:40.635Z",
-      "updatedAt": "2026-08-27T17:43:44.625Z"
+      "updatedAt": "2026-08-27T17:43:44.625Z",
+      "_rowKey": 75
+    },
+    {
+      "id": "app-1787852651038",
+      "name": "Marvel Color Your Own",
+      "version": "1.3.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/marvel-color-your-own",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/99/a7/8f/99a78f34-1899-667f-6712-9cef2b3c57b3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "104.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:44:11.038Z",
+      "updatedAt": "2026-08-27T17:44:18.668Z"
     }
   ]
 }
