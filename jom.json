@@ -10286,7 +10286,23 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-27T16:48:53.521Z",
-      "updatedAt": "2026-08-27T16:48:55.566Z"
+      "updatedAt": "2026-08-27T16:48:55.566Z",
+      "_rowKey": 1
+    },
+    {
+      "id": "app-1787851275903",
+      "name": "Jelly Run 2048 Number Games",
+      "version": "1.59.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jelly-run-2048-number-games",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/ef/ca/c2efcaf1-70c7-24d4-274c-8fe49aea5a5b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "107.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:21:15.903Z",
+      "updatedAt": "2026-08-27T17:21:28.897Z"
     }
   ]
 }
