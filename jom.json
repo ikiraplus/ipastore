@@ -10414,7 +10414,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:33:05.490Z",
-      "updatedAt": "2026-08-27T17:33:13.520Z"
+      "updatedAt": "2026-08-27T17:33:13.520Z",
+      "_rowKey": 67
+    },
+    {
+      "id": "app-1787852042224",
+      "name": "Legends Of Andor",
+      "version": "1.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/legends-of-andor",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/16/76/e7/1676e76d-b375-363a-b1c8-e0e836d8af2c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "144.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:34:02.224Z",
+      "updatedAt": "2026-08-27T17:34:06.722Z"
     }
   ]
 }
