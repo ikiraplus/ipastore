@@ -10098,7 +10098,23 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-27T16:14:32.896Z",
-      "updatedAt": "2026-08-27T16:14:51.213Z"
+      "updatedAt": "2026-08-27T16:14:51.213Z",
+      "_rowKey": 68
+    },
+    {
+      "id": "app-1787847364910",
+      "name": "Duriano: Roguelike RPG",
+      "version": "1.3.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duriano-1.3.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/63/1c/c1631cb7-1fe4-b1dc-9d3e-c3d5de182ef9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "379.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:16:04.910Z",
+      "updatedAt": "2026-08-27T16:16:22.024Z"
     }
   ]
 }
