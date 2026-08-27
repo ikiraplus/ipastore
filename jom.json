@@ -1104,23 +1104,23 @@
     {
       "id": "com.miniclip.8ballpoolmult",
       "name": "8ball-pool hack1",
-      "version": "56.28.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/8ballpool-56.28.0-hack",
+      "version": "56.28.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/8ballpool-56.28.1-hack",
       "icon": "https://appstore.nabzclan.vip/images/icon_69a0574490269.jpg",
       "size": "102.6 MB",
       "note": "لا تستخدم حسابك الأساسي\nاستخدام هذا التطبيق على مسؤوليتك الخاصة، ولا نضمن اللعبة ولا نعرف الجهة المطورة لها",
       "category": "ألعاب",
       "addedAt": "2026-04-05",
-      "updatedAt": "2026-08-25T14:11:05.793Z",
+      "updatedAt": "2026-08-27T18:19:22.403Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/8ballpool-hack-v56.27.0",
-          "version": "56.27.2"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/8ballpool-56.28.0-hack",
+          "version": "56.28.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/8ballpool-lasthacksigned",
-          "version": "56.27.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/8ballpool-hack-v56.27.0",
+          "version": "56.27.2"
         }
       ],
       "recommended": false,
@@ -10670,7 +10670,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T18:06:48.777Z",
-      "updatedAt": "2026-08-27T18:07:15.251Z"
+      "updatedAt": "2026-08-27T18:07:15.251Z",
+      "_rowKey": 1
     }
   ]
 }
