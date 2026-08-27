@@ -10350,7 +10350,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:24:18.757Z",
-      "updatedAt": "2026-08-27T17:24:27.263Z"
+      "updatedAt": "2026-08-27T17:24:27.263Z",
+      "_rowKey": 68
+    },
+    {
+      "id": "app-1787851503580",
+      "name": "Kungfu School",
+      "version": "1.0.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kungfu-school",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/17/96/5017961e-4ca2-d754-6d97-b52ec162e588/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "176.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:25:03.580Z",
+      "updatedAt": "2026-08-27T17:25:12.764Z"
     }
   ]
 }
