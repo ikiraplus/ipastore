@@ -1977,16 +1977,20 @@
     {
       "id": "com.nekki.shadowfight3",
       "name": "Shadow Fight 3",
-      "version": "1.45.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-3.1.45.4",
+      "version": "1.45.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-3.1.45.5",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/8d/4c/6b8d4cb4-8768-01ea-9ac6-a8013b33c197/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "192.5 MB",
+      "size": "202.5 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T08:28:42.766Z",
+      "updatedAt": "2026-08-27T16:35:08.920Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-3.1.45.4",
+          "version": "1.45.4"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight3-1.45.0",
           "version": "1.45.0"
