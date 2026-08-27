@@ -10398,7 +10398,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:26:23.893Z",
-      "updatedAt": "2026-08-27T17:27:03.093Z"
+      "updatedAt": "2026-08-27T17:27:03.093Z",
+      "_rowKey": 1
+    },
+    {
+      "id": "app-1787851985490",
+      "name": "Leap On",
+      "version": "2.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/leap-on",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ad/aa/34/adaa3467-e95a-9c6a-0f29-69597a4d807d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "40.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:33:05.490Z",
+      "updatedAt": "2026-08-27T17:33:13.520Z"
     }
   ]
 }
