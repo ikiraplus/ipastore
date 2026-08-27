@@ -10334,7 +10334,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:23:38.392Z",
-      "updatedAt": "2026-08-27T17:23:44.291Z"
+      "updatedAt": "2026-08-27T17:23:44.291Z",
+      "_rowKey": 67
+    },
+    {
+      "id": "app-1787851458757",
+      "name": "King Of Defense Premium",
+      "version": "1.8.104",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/king-of-defense-premium",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/88/91/318891f6-2daa-8f54-98b3-1d14d82e1416/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "125.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:24:18.757Z",
+      "updatedAt": "2026-08-27T17:24:27.263Z"
     }
   ]
 }
