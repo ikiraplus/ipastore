@@ -10526,7 +10526,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:43:09.079Z",
-      "updatedAt": "2026-08-27T17:43:15.905Z"
+      "updatedAt": "2026-08-27T17:43:15.905Z",
+      "_rowKey": 74
+    },
+    {
+      "id": "app-1787852620635",
+      "name": "Marvel Strike Force Squad Rpg",
+      "version": "10.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/marvel-strike-force-squad-rpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/84/c9/8c84c999-a8d4-7e1d-5567-a8759b9c9de5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "211.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:43:40.635Z",
+      "updatedAt": "2026-08-27T17:43:44.625Z"
     }
   ]
 }
