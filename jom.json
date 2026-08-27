@@ -6503,17 +6503,22 @@
     {
       "id": "com.joytunes.Draw",
       "name": "Simply Draw Learn To Draw",
-      "version": "1.7.3",
+      "version": "1.7.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_draw_learn_to_draw_v1.7.3_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_draw_learn_to_draw_v1.7.4_subscription_unlocked_patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/70/6d/d3706d2a-d5b4-a265-68c9-08c1362fdf79/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "111.2 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_draw_learn_to_draw_v1.7.3_subscription_unlocked",
+          "version": "1.7.3"
+        }
+      ],
+      "size": "117.9 MB",
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-12T03:11:10.926Z",
-      "updatedAt": "2026-08-24T06:22:26.783Z",
+      "updatedAt": "2026-08-27T16:34:42.359Z",
       "bundleId": "com.joytunes.Draw",
       "_rowKey": 361
     },
