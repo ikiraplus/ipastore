@@ -10462,7 +10462,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:39:56.962Z",
-      "updatedAt": "2026-08-27T17:40:02.819Z"
+      "updatedAt": "2026-08-27T17:40:02.819Z",
+      "_rowKey": 70
+    },
+    {
+      "id": "app-1787852433870",
+      "name": "Loco Looper",
+      "version": "1.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loco-looper",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fd/8b/82/fd8b8272-e4f7-b3fa-bfc2-8c3a3bfa68c4/AppIcon-1x_U007emarketing-0-7-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "35.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:40:33.870Z",
+      "updatedAt": "2026-08-27T17:40:52.103Z"
     }
   ]
 }
