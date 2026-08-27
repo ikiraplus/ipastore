@@ -10254,7 +10254,23 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-27T16:43:10.892Z",
-      "updatedAt": "2026-08-27T16:43:15.183Z"
+      "updatedAt": "2026-08-27T16:43:15.183Z",
+      "_rowKey": 68
+    },
+    {
+      "id": "app-1787849028318",
+      "name": "Discord Rain",
+      "version": "334.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord-rain-334.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/54/bf/e954bfcc-dbe3-7531-99d9-1696ab804e46/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "102.5 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:43:48.318Z",
+      "updatedAt": "2026-08-27T16:43:50.727Z"
     }
   ]
 }
