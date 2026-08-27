@@ -10190,7 +10190,23 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-27T16:36:50.276Z",
-      "updatedAt": "2026-08-27T16:36:52.713Z"
+      "updatedAt": "2026-08-27T16:36:52.713Z",
+      "_rowKey": 72
+    },
+    {
+      "id": "app-1787848631055",
+      "name": "Feed The Deep",
+      "version": "1.0.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/feed-the-deep-1.0.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/44/2d/a4442d4a-0b3c-3add-fc20-9b90c7444b68/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "151.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:37:11.055Z",
+      "updatedAt": "2026-08-27T16:37:15.175Z"
     }
   ]
 }
