@@ -10121,6 +10121,21 @@
       "addedAt": "2026-08-27T16:16:04.910Z",
       "updatedAt": "2026-08-27T16:16:22.024Z",
       "_rowKey": 69
+    },
+    {
+      "id": "app-1787847510323",
+      "name": "Soul knight",
+      "version": "8.5.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soulknight-8.5.0-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/52/4f/de524f43-d6c1-7938-1df3-47e366a2acf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "801.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:18:30.323Z",
+      "updatedAt": "2026-08-27T16:18:36.959Z"
     }
   ]
 }
