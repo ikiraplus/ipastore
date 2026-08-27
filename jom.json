@@ -5729,22 +5729,26 @@
     {
       "id": "com.mobile-softing.coinmaster",
       "name": "Coin Master",
-      "version": "3.5.2651",
+      "version": "3.5.2670",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coin-master-3.5.2651",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coin-master-3.5.2670",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/22/5b/3b225b5b-df7e-2f5e-fbc5-1727a1cfa4d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coin-master-3.5.2651",
+          "version": "3.5.2651"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coin-master-3.5.2641",
           "version": "3.5.2641"
         }
       ],
-      "size": "115.1 MB",
+      "size": "116.1 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-30T14:22:08.561Z",
-      "updatedAt": "2026-08-24T06:23:08.764Z",
+      "updatedAt": "2026-08-27T16:34:15.931Z",
       "bundleId": "com.mobile-softing.coinmaster",
       "_rowKey": 321
     },
@@ -10156,7 +10160,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T16:21:27.546Z",
-      "updatedAt": "2026-08-27T16:21:57.351Z"
+      "updatedAt": "2026-08-27T16:21:57.351Z",
+      "_rowKey": 71
     }
   ]
 }
