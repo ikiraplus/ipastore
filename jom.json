@@ -10222,7 +10222,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T16:38:38.262Z",
-      "updatedAt": "2026-08-27T16:38:55.451Z"
+      "updatedAt": "2026-08-27T16:38:55.451Z",
+      "_rowKey": 1
+    },
+    {
+      "id": "app-1787848953766",
+      "name": "Sound Cloud GT",
+      "version": "8.74.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sound-cloud-gt-v8.74.0",
+      "icon": "https://play-lh.googleusercontent.com/rfmCNUApzYntPTdAVmor5vpaOGxIUJWNlpED2pwKcDuCTUaf_2vJlOALNzX1PiejSgZIuAT8k0F5xIBU58JG3g",
+      "previousVersions": [],
+      "size": "109.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:42:33.766Z",
+      "updatedAt": "2026-08-27T16:42:35.434Z"
     }
   ]
 }
