@@ -5875,26 +5875,26 @@
     {
       "id": "com.google.ios.youtubemusic",
       "name": "YouTube Music Multi ultimate",
-      "version": "9.33.3",
+      "version": "9.34.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music_9.33.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music_9.34.4_up",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/33/fc/6b33fc06-e0e8-e5b2-16af-e65bb52658bd/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music-plus_9.32.4",
-          "version": "9.32.4"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music_9.33.3",
+          "version": "9.33.3"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music_9.31.4",
-          "version": "9.31.4"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-music-plus_9.32.4",
+          "version": "9.32.4"
         }
       ],
-      "size": "103.0 MB",
+      "size": "103.2 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-02T15:28:12.577Z",
-      "updatedAt": "2026-08-24T06:21:01.902Z",
+      "updatedAt": "2026-08-27T16:19:18.840Z",
       "bundleId": "com.google.ios.youtubemusic",
       "_rowKey": 329
     },
@@ -10135,7 +10135,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T16:18:30.323Z",
-      "updatedAt": "2026-08-27T16:18:36.959Z"
+      "updatedAt": "2026-08-27T16:18:36.959Z",
+      "_rowKey": 70
     }
   ]
 }
