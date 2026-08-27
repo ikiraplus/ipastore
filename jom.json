@@ -10302,7 +10302,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:21:15.903Z",
-      "updatedAt": "2026-08-27T17:21:28.897Z"
+      "updatedAt": "2026-08-27T17:21:28.897Z",
+      "_rowKey": 67
+    },
+    {
+      "id": "app-1787851330410",
+      "name": "Jigsaw Stories For Kids",
+      "version": "1.31",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jigsaw-stories-for-kids",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/e6/6a/47e66a0a-b79e-db7c-ad0a-fad2785d4399/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "35.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:22:10.410Z",
+      "updatedAt": "2026-08-27T17:22:28.294Z"
     }
   ]
 }
