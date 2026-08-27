@@ -10047,6 +10047,21 @@
       "addedAt": "2026-08-25T11:04:14.190Z",
       "updatedAt": "2026-08-25T11:04:16.008Z",
       "_rowKey": 1
+    },
+    {
+      "id": "app-1787847126225",
+      "name": "Lowriders Comeback Boulevard",
+      "version": "0.2.17",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lowriders-comeback-boulevard-0.2.17",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/a4/d6/d6a4d65c-2fb0-245b-61f2-0a791d6788fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1529.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:12:06.225Z",
+      "updatedAt": "2026-08-27T16:12:20.133Z"
     }
   ]
 }
