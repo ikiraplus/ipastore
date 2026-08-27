@@ -6438,17 +6438,22 @@
     {
       "id": "com.chess.iphone",
       "name": "Chess assistant",
-      "version": "4.10.22",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chessassistant-4.10.22",
+      "version": "4.10.23",
+      "toolVersion": "2.5.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chessassistant_v2.5.2_chess4.10.22",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/cb/38/00cb384e-aa40-0339-8d7d-438760429817/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "220.9 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chessassistant-4.10.22",
+          "version": "4.10.22"
+        }
+      ],
+      "size": "262.0 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-11T20:32:38.178Z",
-      "updatedAt": "2026-08-24T06:49:57.983Z",
+      "updatedAt": "2026-08-27T16:20:36.465Z",
       "bundleId": "com.chess.iphone",
       "_rowKey": 358
     },
