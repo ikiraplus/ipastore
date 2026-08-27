@@ -10176,6 +10176,21 @@
       "addedAt": "2026-08-27T16:21:27.546Z",
       "updatedAt": "2026-08-27T16:21:57.351Z",
       "_rowKey": 71
+    },
+    {
+      "id": "app-1787848610276",
+      "name": "F Class Adventurer: AFK RPG",
+      "version": "2.19.01",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/f-adventurer-2.19.01",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/3c/1c/5d3c1cff-f71f-cdd5-aa44-7d42a3fc29b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "118.2 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:36:50.276Z",
+      "updatedAt": "2026-08-27T16:36:52.713Z"
     }
   ]
 }
