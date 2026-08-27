@@ -10574,7 +10574,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:44:41.269Z",
-      "updatedAt": "2026-08-27T17:44:45.914Z"
+      "updatedAt": "2026-08-27T17:44:45.914Z",
+      "_rowKey": 77
+    },
+    {
+      "id": "app-1787852714357",
+      "name": "Medieval Battle Europe",
+      "version": "3.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/medieval-battle-europe",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/cf/94/dbcf94ac-a775-2aa9-ac83-90c195813bea/AppIconMBEurope-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "544.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:45:14.357Z",
+      "updatedAt": "2026-08-27T17:45:19.055Z"
     }
   ]
 }
