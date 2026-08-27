@@ -10606,7 +10606,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:45:50.476Z",
-      "updatedAt": "2026-08-27T17:45:54.450Z"
+      "updatedAt": "2026-08-27T17:45:54.450Z",
+      "_rowKey": 79
+    },
+    {
+      "id": "app-1787852778034",
+      "name": "Mr Meat 2 Prison Break",
+      "version": "1.1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mr-meat-2-prison-break",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/ff/89/d0ff8930-2a0a-4c79-848b-9508072e6d21/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "196.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:46:18.034Z",
+      "updatedAt": "2026-08-27T17:46:23.560Z"
     }
   ]
 }
