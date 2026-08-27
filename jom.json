@@ -10142,6 +10142,21 @@
       "addedAt": "2026-08-27T16:18:30.323Z",
       "updatedAt": "2026-08-27T16:18:36.959Z",
       "_rowKey": 70
+    },
+    {
+      "id": "app-1787847687546",
+      "name": "Farmville",
+      "version": "2.30.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/farmville-2.30.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/82/e9/b182e946-f7b0-6fc1-6af8-772e8f49c22b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "383.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T16:21:27.546Z",
+      "updatedAt": "2026-08-27T16:21:57.351Z"
     }
   ]
 }
