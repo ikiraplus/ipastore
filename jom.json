@@ -10558,7 +10558,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:44:11.038Z",
-      "updatedAt": "2026-08-27T17:44:18.668Z"
+      "updatedAt": "2026-08-27T17:44:18.668Z",
+      "_rowKey": 76
+    },
+    {
+      "id": "app-1787852681269",
+      "name": "Math Games Pro 16 In 1",
+      "version": "3.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/math-games-pro-16-in-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/b6/18/87b618c5-2811-65ce-6b3f-eeef33894d06/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "14.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:44:41.269Z",
+      "updatedAt": "2026-08-27T17:44:45.914Z"
     }
   ]
 }
