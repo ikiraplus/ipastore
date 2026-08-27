@@ -10622,7 +10622,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:46:18.034Z",
-      "updatedAt": "2026-08-27T17:46:23.560Z"
+      "updatedAt": "2026-08-27T17:46:23.560Z",
+      "_rowKey": 80
+    },
+    {
+      "id": "app-1787852809219",
+      "name": "Mr Meat Horror Escape Room",
+      "version": "2.0.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mr-meat-horror-escape-room",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f0/6c/2f/f06c2faf-2eec-1c4c-09ef-7368b15be869/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "155.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:46:49.219Z",
+      "updatedAt": "2026-08-27T17:47:11.551Z"
     }
   ]
 }
