@@ -10366,7 +10366,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T17:25:03.580Z",
-      "updatedAt": "2026-08-27T17:25:12.764Z"
+      "updatedAt": "2026-08-27T17:25:12.764Z",
+      "_rowKey": 69
+    },
+    {
+      "id": "app-1787851545737",
+      "name": "Layton Curious Village In Hd",
+      "version": "1.0.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/layton-curious-village-in-hd",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/85/e3/62/85e362dc-1b0d-63b6-7e2a-05f702b5273e/AppIcon-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "587.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-27T17:25:45.737Z",
+      "updatedAt": "2026-08-27T17:25:55.410Z"
     }
   ]
 }
