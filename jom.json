@@ -6808,17 +6808,22 @@
     {
       "id": "com.ea.pvzfree.bv",
       "name": "Plants vs. Zombies",
-      "version": "3.17.0",
+      "version": "3.18.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz-3.17.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz-3.18.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/27/69/a627695b-38a2-5862-5201-c3de60135a3c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "127.8 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz-3.17.0",
+          "version": "3.17.0"
+        }
+      ],
+      "size": "127.9 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T08:00:50.859Z",
-      "updatedAt": "2026-08-24T06:24:05.567Z",
+      "updatedAt": "2026-08-27T16:35:36.287Z",
       "bundleId": "com.ea.pvzfree.bv",
       "_rowKey": 377
     },
