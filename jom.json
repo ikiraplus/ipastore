@@ -10718,7 +10718,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T14:38:01.058Z",
-      "updatedAt": "2026-08-28T14:38:03.119Z"
+      "updatedAt": "2026-08-28T14:38:03.119Z",
+      "_rowKey": 68
+    },
+    {
+      "id": "app-1787928008542",
+      "name": "Solitaire Story Avais Manor",
+      "version": "56.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/solitaire_story_avais_manor",
+      "icon": "https://play-lh.googleusercontent.com/iV9lJYgag3APdNsr0OVSu1n3poaue7m-pTq4MLIWXZw3-jj-P98pQeRCW3o60sVX7sFMLSzIdTiwMuudY0rTqYE",
+      "previousVersions": [],
+      "size": "204.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T14:40:08.542Z",
+      "updatedAt": "2026-08-28T14:40:11.933Z"
     }
   ]
 }
