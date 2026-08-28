@@ -11214,7 +11214,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:47:45.743Z",
-      "updatedAt": "2026-08-28T15:47:50.455Z"
+      "updatedAt": "2026-08-28T15:47:50.455Z",
+      "_rowKey": 82
+    },
+    {
+      "id": "app-1787932163699",
+      "name": "Guild of Heroes Legendary War",
+      "version": "1.193.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guild-of-heroes-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/ce/f1/7ecef134-3269-9eaf-11aa-8703f7581ae8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "266.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:49:23.699Z",
+      "updatedAt": "2026-08-28T15:49:25.439Z"
     }
   ]
 }
