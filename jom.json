@@ -11054,7 +11054,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:38:08.145Z",
-      "updatedAt": "2026-08-28T15:38:11.872Z"
+      "updatedAt": "2026-08-28T15:38:11.872Z",
+      "_rowKey": 72
+    },
+    {
+      "id": "app-1787931532293",
+      "name": "Last Legion Tower Defense TD",
+      "version": "1.7.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-legion",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/a6/ef/81a6ef16-2b5a-55fb-6628-7824beff39cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "401.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:38:52.293Z",
+      "updatedAt": "2026-08-28T15:38:53.897Z"
     }
   ]
 }
