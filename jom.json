@@ -11282,6 +11282,21 @@
       "addedAt": "2026-08-28T15:50:44.025Z",
       "updatedAt": "2026-08-28T15:50:48.760Z",
       "_rowKey": 1
+    },
+    {
+      "id": "app-1787936010338",
+      "name": "Very Little Nightmares",
+      "version": "1.3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/very-little-nightmares-v1.3.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/d3/14/27/d31427c5-5fa2-b234-43dc-f47ffc9ada8a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "720.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T16:53:30.338Z",
+      "updatedAt": "2026-08-28T16:53:32.366Z"
     }
   ]
 }
