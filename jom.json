@@ -11166,7 +11166,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:44:22.545Z",
-      "updatedAt": "2026-08-28T15:44:24.619Z"
+      "updatedAt": "2026-08-28T15:44:24.619Z",
+      "_rowKey": 79
+    },
+    {
+      "id": "app-1787931916285",
+      "name": "Botworld Adventure",
+      "version": "1.36.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/botworld-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/3a/be/a83abef8-debc-8c21-c88d-97ec8b95eede/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "373.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:45:16.285Z",
+      "updatedAt": "2026-08-28T15:45:19.648Z"
     }
   ]
 }
