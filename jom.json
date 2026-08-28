@@ -11198,7 +11198,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:46:53.587Z",
-      "updatedAt": "2026-08-28T15:46:59.016Z"
+      "updatedAt": "2026-08-28T15:46:59.016Z",
+      "_rowKey": 81
+    },
+    {
+      "id": "app-1787932065743",
+      "name": "The Idle Forces Army Tycoon",
+      "version": "0.24.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-idle-forces-army-tycoon",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787932065743.png",
+      "previousVersions": [],
+      "size": "185.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:47:45.743Z",
+      "updatedAt": "2026-08-28T15:47:50.455Z"
     }
   ]
 }
