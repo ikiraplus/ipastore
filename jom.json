@@ -6485,11 +6485,15 @@
     {
       "id": "com.firecore.infuse",
       "name": "Infuse Plus",
-      "version": "8.5.2",
+      "version": "8.5.3",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.2-infuse-plus-v2.5-patched",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.3-infuse-plus-v2.5-patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/bb/6c/fabb6cea-c350-8e36-a81f-97ed059f092c/AppIcon-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.2-infuse-plus-v2.5-patched",
+          "version": "8.5.2"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.1-infuse-plus-v2.5",
           "version": "8.5.1"
@@ -6500,7 +6504,7 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-12T03:10:43.149Z",
-      "updatedAt": "2026-08-27T16:12:56.678Z",
+      "updatedAt": "2026-08-28T16:51:27.615Z",
       "bundleId": "com.firecore.infuse",
       "_rowKey": 360
     },
