@@ -10878,7 +10878,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:26:32.894Z",
-      "updatedAt": "2026-08-28T15:26:39.324Z"
+      "updatedAt": "2026-08-28T15:26:39.324Z",
+      "_rowKey": 73
+    },
+    {
+      "id": "app-1787930838815",
+      "name": "Dc Dark Legion",
+      "version": "2.1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dc-dark-legion",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/b3/4f/9db34fea-4af6-1af4-da4f-00f51878a238/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "559.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:27:18.815Z",
+      "updatedAt": "2026-08-28T15:27:20.279Z"
     }
   ]
 }
