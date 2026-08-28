@@ -10830,7 +10830,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:23:44.293Z",
-      "updatedAt": "2026-08-28T15:23:49.982Z"
+      "updatedAt": "2026-08-28T15:23:49.982Z",
+      "_rowKey": 70
+    },
+    {
+      "id": "app-1787930691425",
+      "name": "Deep Rock Galactic Survivor",
+      "version": "1.2.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/deep-rock-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787930691425.png",
+      "previousVersions": [],
+      "size": "469.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:24:51.425Z",
+      "updatedAt": "2026-08-28T15:24:56.733Z"
     }
   ]
 }
