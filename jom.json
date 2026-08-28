@@ -10766,7 +10766,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T14:42:27.810Z",
-      "updatedAt": "2026-08-28T14:42:31.980Z"
+      "updatedAt": "2026-08-28T14:42:31.980Z",
+      "_rowKey": 1
+    },
+    {
+      "id": "app-1787930502746",
+      "name": "Champion Wars",
+      "version": "0.52.69",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/champion-wars-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787930502746.png",
+      "previousVersions": [],
+      "size": "272.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:21:42.746Z",
+      "updatedAt": "2026-08-28T15:21:47.044Z"
     }
   ]
 }
