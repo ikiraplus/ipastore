@@ -10116,18 +10116,23 @@
     },
     {
       "id": "app-1787927819370",
-      "name": "Farming Simulator 18",
-      "version": "1.3.10",
+      "name": "Farming Simulator 26",
+      "version": "1.4.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/farming-simulator-18",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/farming-simulator-26-v1.4.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/37/89/363789dc-2d58-7911-42b4-802e92a2d16a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "186.4 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/farming-simulator-18",
+          "version": "1.3.10"
+        }
+      ],
+      "size": "1876.6 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T14:36:59.370Z",
-      "updatedAt": "2026-08-28T14:37:02.780Z"
+      "updatedAt": "2026-08-28T17:05:19.084Z"
     },
     {
       "id": "app-1787927881058",
