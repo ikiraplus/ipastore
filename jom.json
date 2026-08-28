@@ -10798,7 +10798,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:22:25.404Z",
-      "updatedAt": "2026-08-28T15:22:29.382Z"
+      "updatedAt": "2026-08-28T15:22:29.382Z",
+      "_rowKey": 68
+    },
+    {
+      "id": "app-1787930575058",
+      "name": "Ocean Is Home 2 Island Life",
+      "version": "0.710",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ocean-is-home-2-island-life",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/66/a7/8b66a7d7-df0a-f4ec-d729-09848688bca4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "131.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:22:55.058Z",
+      "updatedAt": "2026-08-28T15:22:56.086Z"
     }
   ]
 }
