@@ -11022,7 +11022,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:36:06.844Z",
-      "updatedAt": "2026-08-28T15:36:08.201Z"
+      "updatedAt": "2026-08-28T15:36:08.201Z",
+      "_rowKey": 70
+    },
+    {
+      "id": "app-1787931426810",
+      "name": "The Seven Deadly Sins",
+      "version": "8.7.12",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/seven-deadly-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/ab/38/c8ab3861-fcd2-d659-3a7e-9634d4debe4f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "152.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:37:06.810Z",
+      "updatedAt": "2026-08-28T15:37:08.312Z"
     }
   ]
 }
