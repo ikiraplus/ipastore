@@ -11086,7 +11086,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:39:57.792Z",
-      "updatedAt": "2026-08-28T15:39:59.925Z"
+      "updatedAt": "2026-08-28T15:39:59.925Z",
+      "_rowKey": 74
+    },
+    {
+      "id": "app-1787931630948",
+      "name": "World Robot Boxing",
+      "version": "13.13.12",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-robot-boxing-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/9a/9c/ce9a9cce-0d10-cd47-561a-679d032b770a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "840.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:40:30.948Z",
+      "updatedAt": "2026-08-28T15:40:32.155Z"
     }
   ]
 }
