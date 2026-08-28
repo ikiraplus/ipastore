@@ -10814,7 +10814,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:22:55.058Z",
-      "updatedAt": "2026-08-28T15:22:56.086Z"
+      "updatedAt": "2026-08-28T15:22:56.086Z",
+      "_rowKey": 69
+    },
+    {
+      "id": "app-1787930624293",
+      "name": "City Island 6 Building Life",
+      "version": "4.3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/city_island_6_building_life",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787930624293.png",
+      "previousVersions": [],
+      "size": "208.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:23:44.293Z",
+      "updatedAt": "2026-08-28T15:23:49.982Z"
     }
   ]
 }
