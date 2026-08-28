@@ -11070,7 +11070,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:38:52.293Z",
-      "updatedAt": "2026-08-28T15:38:53.897Z"
+      "updatedAt": "2026-08-28T15:38:53.897Z",
+      "_rowKey": 73
+    },
+    {
+      "id": "app-1787931597792",
+      "name": "The Lone Necromancer Idle RPG",
+      "version": "1.1.18",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-lone-necromancer",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/ad/92/2cad92ee-d9fb-4627-baed-172b21d3f920/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "199.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:39:57.792Z",
+      "updatedAt": "2026-08-28T15:39:59.925Z"
     }
   ]
 }
