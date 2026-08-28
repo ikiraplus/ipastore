@@ -11118,7 +11118,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:41:28.044Z",
-      "updatedAt": "2026-08-28T15:41:29.590Z"
+      "updatedAt": "2026-08-28T15:41:29.590Z",
+      "_rowKey": 76
+    },
+    {
+      "id": "app-1787931731739",
+      "name": "Match Villains",
+      "version": "1.60.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/match-villains-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/4e/ce/0a4ece66-2076-4fe8-d586-161020683e84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "288.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:42:11.739Z",
+      "updatedAt": "2026-08-28T15:42:13.273Z"
     }
   ]
 }
