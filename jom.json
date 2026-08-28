@@ -10990,7 +10990,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:34:41.204Z",
-      "updatedAt": "2026-08-28T15:34:45.254Z"
+      "updatedAt": "2026-08-28T15:34:45.254Z",
+      "_rowKey": 68
+    },
+    {
+      "id": "app-1787931341642",
+      "name": "Mobile Legends Bang Bang",
+      "version": "2.1.67",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mobile-legends-bang-bang-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/72/30/8d72307c-25c0-6391-ab4f-86ff1a9d3fe6/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "184.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:35:41.642Z",
+      "updatedAt": "2026-08-28T15:35:43.226Z"
     }
   ]
 }
