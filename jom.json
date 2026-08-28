@@ -11182,7 +11182,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:45:16.285Z",
-      "updatedAt": "2026-08-28T15:45:19.648Z"
+      "updatedAt": "2026-08-28T15:45:19.648Z",
+      "_rowKey": 80
+    },
+    {
+      "id": "app-1787932013587",
+      "name": "Gun Force Action Shooting",
+      "version": "2.26",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gun-force-action-shooting-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787932013587.png",
+      "previousVersions": [],
+      "size": "142.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:46:53.587Z",
+      "updatedAt": "2026-08-28T15:46:59.016Z"
     }
   ]
 }
