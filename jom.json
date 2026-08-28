@@ -10926,7 +10926,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:28:32.752Z",
-      "updatedAt": "2026-08-28T15:28:34.389Z"
+      "updatedAt": "2026-08-28T15:28:34.389Z",
+      "_rowKey": 76
+    },
+    {
+      "id": "app-1787930946553",
+      "name": "War Commander Rogue Assault",
+      "version": "11.7.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/war-commander",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/12/df/2b12df02-fc70-c868-5c90-2c184df187be/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "174.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:29:06.553Z",
+      "updatedAt": "2026-08-28T15:29:07.913Z"
     }
   ]
 }
