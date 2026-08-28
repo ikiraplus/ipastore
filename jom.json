@@ -593,22 +593,26 @@
     {
       "id": "app-1773546960824",
       "name": "X - Twitter (NeoFreeBird)",
-      "version": "12.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x_12.9_neofreebird_liquidglass",
+      "version": "12.21",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.21-nfb",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/65/60/f76560b0-13df-84b6-fb7f-9b40319c4018/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "217.8 MB",
+      "size": "237.7 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
       "toolVersion": "",
       "previousVersions": [
         {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x_12.9_neofreebird_liquidglass",
+          "version": "12.9"
+        },
+        {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-twitter-neofreebird_v1165-1",
           "version": "11.65"
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-07-20T14:13:34.667Z",
+      "updatedAt": "2026-08-28T16:54:28.483Z",
       "bundleId": "com.atebits.Tweetie2",
       "_rowKey": 30
     },
@@ -11296,7 +11300,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T16:53:30.338Z",
-      "updatedAt": "2026-08-28T16:53:32.366Z"
+      "updatedAt": "2026-08-28T16:53:32.366Z",
+      "_rowKey": 67
     }
   ]
 }
