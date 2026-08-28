@@ -8092,10 +8092,10 @@
       "previousVersions": [],
       "size": "129.4 MB",
       "note": "",
-      "category": "تواصل",
+      "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T07:59:26.626Z",
-      "updatedAt": "2026-08-24T06:24:10.546Z",
+      "updatedAt": "2026-08-28T15:29:43.950Z",
       "bundleId": "com.ninjakiwi.sasza4",
       "_rowKey": 451
     },
@@ -10942,7 +10942,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:29:06.553Z",
-      "updatedAt": "2026-08-28T15:29:07.913Z"
+      "updatedAt": "2026-08-28T15:29:07.913Z",
+      "_rowKey": 77
     }
   ]
 }
