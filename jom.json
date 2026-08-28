@@ -11150,7 +11150,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:42:54.265Z",
-      "updatedAt": "2026-08-28T15:43:02.105Z"
+      "updatedAt": "2026-08-28T15:43:02.105Z",
+      "_rowKey": 78
+    },
+    {
+      "id": "app-1787931862545",
+      "name": "Tmnt Shredder Revenge Mobile",
+      "version": "1.2.15",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tmnt_shredder-s_revenge_mobile",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/d0/99/acd0990c-3b5e-4fe0-5e8c-e2759223a294/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "581.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:44:22.545Z",
+      "updatedAt": "2026-08-28T15:44:24.619Z"
     }
   ]
 }
