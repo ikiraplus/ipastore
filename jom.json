@@ -6983,17 +6983,22 @@
     {
       "id": "com.youssef.developer.Full-Browser",
       "name": "Tor Browser The Onion Vpn",
-      "version": "12.0",
+      "version": "12.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tor_browser_the_onion_-_vpn_v12.0_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tor_browser_the_onion-vpn_v12.1_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/85/73/988573d2-3554-98a1-37fe-edf10db63997/AppIcon-Old-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "154.4 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tor_browser_the_onion_-_vpn_v12.0_subscription_unlocked",
+          "version": "12.0"
+        }
+      ],
+      "size": "43.0 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-19T13:19:06.102Z",
-      "updatedAt": "2026-08-24T06:46:08.220Z",
+      "updatedAt": "2026-08-28T16:51:04.831Z",
       "bundleId": "com.youssef.developer.Full-Browser",
       "_rowKey": 387
     },
@@ -11262,7 +11267,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:50:44.025Z",
-      "updatedAt": "2026-08-28T15:50:48.760Z"
+      "updatedAt": "2026-08-28T15:50:48.760Z",
+      "_rowKey": 1
     }
   ]
 }
