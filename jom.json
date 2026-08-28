@@ -10910,7 +10910,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:27:51.091Z",
-      "updatedAt": "2026-08-28T15:27:52.476Z"
+      "updatedAt": "2026-08-28T15:27:52.476Z",
+      "_rowKey": 75
+    },
+    {
+      "id": "app-1787930912752",
+      "name": "Dungeon Hunter 5",
+      "version": "54.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dungeon_hunter_5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/4a/2a/194a2aed-f9c9-5a65-6889-171c1bc842cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2279.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:28:32.752Z",
+      "updatedAt": "2026-08-28T15:28:34.389Z"
     }
   ]
 }
