@@ -10974,7 +10974,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:32:47.682Z",
-      "updatedAt": "2026-08-28T15:32:49.252Z"
+      "updatedAt": "2026-08-28T15:32:49.252Z",
+      "_rowKey": 67
+    },
+    {
+      "id": "app-1787931281204",
+      "name": "Junes Journey Hidden Objects",
+      "version": "4.11.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/junes-journey-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787931281204.png",
+      "previousVersions": [],
+      "size": "239.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:34:41.204Z",
+      "updatedAt": "2026-08-28T15:34:45.254Z"
     }
   ]
 }
