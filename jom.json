@@ -11246,7 +11246,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:50:10.006Z",
-      "updatedAt": "2026-08-28T15:50:14.716Z"
+      "updatedAt": "2026-08-28T15:50:14.716Z",
+      "_rowKey": 84
+    },
+    {
+      "id": "app-1787932244025",
+      "name": "Deer Hunter 2018",
+      "version": "5.2.42",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/deer-hunter",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/61/69/e3/6169e3c0-d0b8-e25e-5c88-0b872c8a9243/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "109.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:50:44.025Z",
+      "updatedAt": "2026-08-28T15:50:48.760Z"
     }
   ]
 }
