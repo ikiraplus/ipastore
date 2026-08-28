@@ -10750,7 +10750,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T14:41:11.477Z",
-      "updatedAt": "2026-08-28T14:41:13.163Z"
+      "updatedAt": "2026-08-28T14:41:13.163Z",
+      "_rowKey": 70
+    },
+    {
+      "id": "app-1787928147810",
+      "name": "Metal Slug 3",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/metal-slug3",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787928147810.png",
+      "previousVersions": [],
+      "size": "86.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T14:42:27.810Z",
+      "updatedAt": "2026-08-28T14:42:31.980Z"
     }
   ]
 }
