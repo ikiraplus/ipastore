@@ -11230,7 +11230,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:49:23.699Z",
-      "updatedAt": "2026-08-28T15:49:25.439Z"
+      "updatedAt": "2026-08-28T15:49:25.439Z",
+      "_rowKey": 83
+    },
+    {
+      "id": "app-1787932210006",
+      "name": "Three Kingdoms",
+      "version": "1.64.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/three-kingdoms-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787932210006.png",
+      "previousVersions": [],
+      "size": "250.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:50:10.006Z",
+      "updatedAt": "2026-08-28T15:50:14.716Z"
     }
   ]
 }
