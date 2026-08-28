@@ -832,17 +832,21 @@
     {
       "id": "net.quochuywdm.collanote496",
       "name": "collla note pro",
-      "version": "4.3.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/collanote_notes_-_pdf_markup_v4.3.1_pro_unlocked_patched",
+      "version": "4.3.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/collanote_notes_-_pdf_markup_v4.3.3_pro_unlocked_patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/1c/3e/041c3ed1-af80-5091-445b-354fb7579c50/AppIcon-0-0-1x_U007emarketing-0-11-0-0-GLES2_U002c0-85-220.png/512x512bb.jpg",
-      "size": "122.3 MB",
+      "size": "110.3 MB",
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-14",
       "bundleId": "net.quochuywdm.collanote496",
-      "updatedAt": "2026-08-25T07:35:14.144Z",
+      "updatedAt": "2026-08-28T16:51:57.417Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/collanote_notes_-_pdf_markup_v4.3.1_pro_unlocked_patched",
+          "version": "4.3.1"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/collanote_notes_&_pdf_markup_v4_1_2_pro_unlocked_blatant_patched",
           "version": "4.0.6"
