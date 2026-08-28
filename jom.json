@@ -11102,7 +11102,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:40:30.948Z",
-      "updatedAt": "2026-08-28T15:40:32.155Z"
+      "updatedAt": "2026-08-28T15:40:32.155Z",
+      "_rowKey": 75
+    },
+    {
+      "id": "app-1787931688044",
+      "name": "Royal Journey: Big World",
+      "version": "1.0.091",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/royal-journey-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/ea/34/32ea349e-e371-692b-2977-f3ac1804787b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "564.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:41:28.044Z",
+      "updatedAt": "2026-08-28T15:41:29.590Z"
     }
   ]
 }
