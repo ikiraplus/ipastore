@@ -6638,7 +6638,7 @@
     },
     {
       "id": "ph.telegra.Telegraph",
-      "name": "Whitegram Original",
+      "name": "Whitegram original",
       "version": "12.9.3",
       "toolVersion": "6.0.3",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-12.9.3-tweak-6.0.2",
@@ -6654,7 +6654,7 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-19T13:20:08.515Z",
-      "updatedAt": "2026-08-28T16:58:08.706Z",
+      "updatedAt": "2026-08-28T18:36:21.886Z",
       "bundleId": "ph.telegra.Telegraph"
     },
     {
