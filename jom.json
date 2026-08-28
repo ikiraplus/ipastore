@@ -11006,7 +11006,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:35:41.642Z",
-      "updatedAt": "2026-08-28T15:35:43.226Z"
+      "updatedAt": "2026-08-28T15:35:43.226Z",
+      "_rowKey": 69
+    },
+    {
+      "id": "app-1787931366844",
+      "name": "Stickman Legends Offline Games",
+      "version": "6.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/stickman_legends_offline_games",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/a1/34/0fa134be-72d4-3d19-6cd9-6f4ff2e96f71/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "163.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:36:06.844Z",
+      "updatedAt": "2026-08-28T15:36:08.201Z"
     }
   ]
 }
