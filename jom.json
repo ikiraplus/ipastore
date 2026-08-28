@@ -10944,6 +10944,21 @@
       "addedAt": "2026-08-28T15:29:06.553Z",
       "updatedAt": "2026-08-28T15:29:07.913Z",
       "_rowKey": 77
+    },
+    {
+      "id": "app-1787931115949",
+      "name": "Dawn of Ages: total war battle",
+      "version": "3.3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dawn-of-ages",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/3f/46/0f3f46e0-f160-55a2-953d-7721cd33e15d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1436.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:31:55.949Z",
+      "updatedAt": "2026-08-28T15:31:57.835Z"
     }
   ]
 }
