@@ -10894,7 +10894,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:27:18.815Z",
-      "updatedAt": "2026-08-28T15:27:20.279Z"
+      "updatedAt": "2026-08-28T15:27:20.279Z",
+      "_rowKey": 74
+    },
+    {
+      "id": "app-1787930871091",
+      "name": "Shadowgun Legends",
+      "version": "1.4.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadowgun-legends",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/dd/e9/bddde945-c83e-6e82-abb6-5883fc91d400/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1052.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:27:51.091Z",
+      "updatedAt": "2026-08-28T15:27:52.476Z"
     }
   ]
 }
