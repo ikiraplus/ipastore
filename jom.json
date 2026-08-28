@@ -10734,7 +10734,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T14:40:08.542Z",
-      "updatedAt": "2026-08-28T14:40:11.933Z"
+      "updatedAt": "2026-08-28T14:40:11.933Z",
+      "_rowKey": 69
+    },
+    {
+      "id": "app-1787928071477",
+      "name": "Stealth Master Assassin",
+      "version": "1.12.40",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/stealth-master-assassin",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/53/b4/ce53b479-c283-d82b-3841-e42d8399963e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "189.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T14:41:11.477Z",
+      "updatedAt": "2026-08-28T14:41:13.163Z"
     }
   ]
 }
