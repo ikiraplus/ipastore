@@ -11134,7 +11134,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:42:11.739Z",
-      "updatedAt": "2026-08-28T15:42:13.273Z"
+      "updatedAt": "2026-08-28T15:42:13.273Z",
+      "_rowKey": 77
+    },
+    {
+      "id": "app-1787931774265",
+      "name": "Injustice Gods Among Us",
+      "version": "3.5.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/injustice-gods",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/8f/a9/9b8fa9eb-e315-7096-33f7-b41282e401e1/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1158.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:42:54.265Z",
+      "updatedAt": "2026-08-28T15:43:02.105Z"
     }
   ]
 }
