@@ -10782,7 +10782,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:21:42.746Z",
-      "updatedAt": "2026-08-28T15:21:47.044Z"
+      "updatedAt": "2026-08-28T15:21:47.044Z",
+      "_rowKey": 67
+    },
+    {
+      "id": "app-1787930545404",
+      "name": "Zoo Island",
+      "version": "2.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zoo-island-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787930545404.png",
+      "previousVersions": [],
+      "size": "236.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:22:25.404Z",
+      "updatedAt": "2026-08-28T15:22:29.382Z"
     }
   ]
 }
