@@ -10846,7 +10846,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:24:51.425Z",
-      "updatedAt": "2026-08-28T15:24:56.733Z"
+      "updatedAt": "2026-08-28T15:24:56.733Z",
+      "_rowKey": 71
+    },
+    {
+      "id": "app-1787930716483",
+      "name": "Bounty go",
+      "version": "2.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bountygo",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/40/9b/ef409b67-8023-d4b0-8f6b-dce8a35d0192/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "229.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:25:16.483Z",
+      "updatedAt": "2026-08-28T15:25:19.040Z"
     }
   ]
 }
