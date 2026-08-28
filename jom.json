@@ -10672,6 +10672,21 @@
       "addedAt": "2026-08-27T18:06:48.777Z",
       "updatedAt": "2026-08-27T18:07:15.251Z",
       "_rowKey": 1
+    },
+    {
+      "id": "app-1787927743112",
+      "name": "Nhra Legends Of Drag Racing",
+      "version": "1.11.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nhra-legends-of-drag-racing",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/31/e6/3731e675-b4df-65bc-9fdd-295d9438d3ec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "109.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T14:35:43.112Z",
+      "updatedAt": "2026-08-28T14:35:45.794Z"
     }
   ]
 }
