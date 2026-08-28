@@ -10862,7 +10862,23 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:25:16.483Z",
-      "updatedAt": "2026-08-28T15:25:19.040Z"
+      "updatedAt": "2026-08-28T15:25:19.040Z",
+      "_rowKey": 72
+    },
+    {
+      "id": "app-1787930792894",
+      "name": "One Piece Bounty Rush",
+      "version": "7.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bounty-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787930792894.png",
+      "previousVersions": [],
+      "size": "174.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-28T15:26:32.894Z",
+      "updatedAt": "2026-08-28T15:26:39.324Z"
     }
   ]
 }
