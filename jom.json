@@ -10977,6 +10977,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:11:16.073Z",
       "updatedAt": "2026-08-29T13:11:17.297Z"
+    },
+    {
+      "id": "app-1788009098470",
+      "name": "Minion Rush Running Game",
+      "version": "12.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/minion-rush-running-game-v12.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/0e/51/ff0e519a-2cbe-abf6-9ee6-5d1cc407538f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "102.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:11:38.470Z",
+      "updatedAt": "2026-08-29T13:11:39.593Z"
     }
   ]
 }
