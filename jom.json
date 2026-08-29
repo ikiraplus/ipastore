@@ -10707,6 +10707,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:03:54.639Z",
       "updatedAt": "2026-08-29T13:03:55.457Z"
+    },
+    {
+      "id": "app-1788008652083",
+      "name": "Zombie Roguebie Shooting Game",
+      "version": "1.8.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zombie-roguebie-shooting-game-v1.8.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/26/a3/c726a32f-952a-a894-a70a-829f277fbf32/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "446.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:04:12.083Z",
+      "updatedAt": "2026-08-29T13:04:13.297Z"
     }
   ]
 }
