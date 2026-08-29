@@ -11217,6 +11217,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T14:06:58.129Z",
       "updatedAt": "2026-08-29T14:07:00.324Z"
+    },
+    {
+      "id": "app-1788012476435",
+      "name": "Horizon Chase 2",
+      "version": "1.6.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/horizon-chase-2-v1.6.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/4c/35/974c3560-7798-4e4b-9e7c-69a6981495d6/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1933.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T14:07:56.435Z",
+      "updatedAt": "2026-08-29T14:07:58.586Z"
     }
   ]
 }
