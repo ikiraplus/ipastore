@@ -10872,6 +10872,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:08:01.670Z",
       "updatedAt": "2026-08-29T13:08:06.490Z"
+    },
+    {
+      "id": "app-1788008907158",
+      "name": "Rally Horizon",
+      "version": "2.5.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rally-horizon-v2.5.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/6b/3b/b46b3b1d-68f0-a112-5df1-1c1d39e23056/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "432.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:08:27.158Z",
+      "updatedAt": "2026-08-29T13:08:28.092Z"
     }
   ]
 }
