@@ -10692,6 +10692,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:03:34.175Z",
       "updatedAt": "2026-08-29T13:03:35.566Z"
+    },
+    {
+      "id": "app-1788008634639",
+      "name": "Healville Hospital",
+      "version": "1.6.14",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/healville-hospital-v1.6.14",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/a7/ba/67a7ba40-3c86-67b2-0d6d-41fbb77b0191/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "114.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:03:54.639Z",
+      "updatedAt": "2026-08-29T13:03:55.457Z"
     }
   ]
 }
