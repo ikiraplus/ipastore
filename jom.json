@@ -10722,6 +10722,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:04:12.083Z",
       "updatedAt": "2026-08-29T13:04:13.297Z"
+    },
+    {
+      "id": "app-1788008666638",
+      "name": "Csr Classics",
+      "version": "3.1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/csr-classics-v3.1.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/cf/00/d9cf0043-2d0f-d26c-9204-925fefcfdbd1/ClassicsAppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "763.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:04:26.638Z",
+      "updatedAt": "2026-08-29T13:04:27.445Z"
     }
   ]
 }
