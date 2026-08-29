@@ -11266,6 +11266,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T17:14:37.433Z",
       "updatedAt": "2026-08-29T17:14:39.538Z"
+    },
+    {
+      "id": "app-1788023761465",
+      "name": "Shadow Fight 4 Arena",
+      "version": "1.9.83",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-4-arena-v1.9.83",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788023761465.png",
+      "previousVersions": [],
+      "size": "177.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T17:16:01.465Z",
+      "updatedAt": "2026-08-29T17:16:07.070Z"
     }
   ]
 }
