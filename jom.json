@@ -10677,6 +10677,21 @@
       "recommended": false,
       "addedAt": "2026-08-28T16:53:30.338Z",
       "updatedAt": "2026-08-28T16:53:32.366Z"
+    },
+    {
+      "id": "app-1788008614175",
+      "name": "Void Reaper Idle Rpg",
+      "version": "1.4.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/void-reaper-idle-rpg-v1.4.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/09/9e/69099e3e-756b-58f2-d5f6-c11871f4c80e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "171.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:03:34.175Z",
+      "updatedAt": "2026-08-29T13:03:35.566Z"
     }
   ]
 }
