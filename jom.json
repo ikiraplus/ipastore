@@ -10767,6 +10767,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:05:01.223Z",
       "updatedAt": "2026-08-29T13:05:02.517Z"
+    },
+    {
+      "id": "app-1788008723244",
+      "name": "Real Boxing 2",
+      "version": "1.55.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/real-boxing-2-v1.55.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/13/0e/db130e8b-2104-1c1e-77eb-a1716ea8d6e5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1102.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:05:23.244Z",
+      "updatedAt": "2026-08-29T13:05:24.981Z"
     }
   ]
 }
