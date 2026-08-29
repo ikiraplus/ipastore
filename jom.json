@@ -10752,6 +10752,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:04:46.396Z",
       "updatedAt": "2026-08-29T13:04:47.391Z"
+    },
+    {
+      "id": "app-1788008701223",
+      "name": "Gordian Quest",
+      "version": "1.0.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gordian-quest-v1.0.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/3c/19/6c3c1999-6d1e-aeb0-d57f-6340548b4137/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "895.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:05:01.223Z",
+      "updatedAt": "2026-08-29T13:05:02.517Z"
     }
   ]
 }
