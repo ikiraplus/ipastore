@@ -11202,6 +11202,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T14:05:40.255Z",
       "updatedAt": "2026-08-29T14:05:44.669Z"
+    },
+    {
+      "id": "app-1788012418129",
+      "name": "SciCalc Pro",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scicalcpro-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/e7/bf/5ee7bfff-11b7-304b-717c-2c95476da503/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1.2 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-29T14:06:58.129Z",
+      "updatedAt": "2026-08-29T14:07:00.324Z"
     }
   ]
 }
