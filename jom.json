@@ -10932,6 +10932,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:10:32.158Z",
       "updatedAt": "2026-08-29T13:10:33.175Z"
+    },
+    {
+      "id": "app-1788009044246",
+      "name": "Astra Squad",
+      "version": "1.0.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/astra-squad-v1.0.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/c7/f2/eac7f249-3c02-4ba0-bf7e-9c1125bc8a1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "372.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:10:44.246Z",
+      "updatedAt": "2026-08-29T13:10:45.341Z"
     }
   ]
 }
