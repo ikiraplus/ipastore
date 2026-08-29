@@ -11236,6 +11236,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T14:07:56.435Z",
       "updatedAt": "2026-08-29T14:07:58.586Z"
+    },
+    {
+      "id": "app-1788023640279",
+      "name": "Parking Master Multiplayer 2",
+      "version": "2.9.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/parking-master-multiplayer-2-v2.9.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/d4/25/98d4259f-917d-d988-2bfb-4e9579dcfe73/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1411.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T17:14:00.279Z",
+      "updatedAt": "2026-08-29T17:14:02.611Z"
     }
   ]
 }
