@@ -11037,6 +11037,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:13:32.659Z",
       "updatedAt": "2026-08-29T13:13:33.568Z"
+    },
+    {
+      "id": "app-1788011628973",
+      "name": "TahtaCast",
+      "version": "1.0.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tahtacast_v1.0.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/6e/5f/7f6e5f56-858a-a3de-f91b-9c6411c115f6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "4.5 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:53:48.973Z",
+      "updatedAt": "2026-08-29T13:53:50.869Z"
     }
   ]
 }
