@@ -11097,6 +11097,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:58:09.394Z",
       "updatedAt": "2026-08-29T13:58:11.528Z"
+    },
+    {
+      "id": "app-1788011928172",
+      "name": "GenieCalc",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/geniecalc_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/df/f0/7cdff054-909f-5979-5a1c-8f9dc2ad06d7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3.8 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:58:48.172Z",
+      "updatedAt": "2026-08-29T13:58:49.959Z"
     }
   ]
 }
