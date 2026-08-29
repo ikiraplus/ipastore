@@ -10737,6 +10737,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:04:26.638Z",
       "updatedAt": "2026-08-29T13:04:27.445Z"
+    },
+    {
+      "id": "app-1788008686396",
+      "name": "Urban Heat Fps",
+      "version": "5.90.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/urban-heat-fps-v5.90.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/3d/7b/4e3d7be1-05f2-d830-6e97-795258937135/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "757.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:04:46.396Z",
+      "updatedAt": "2026-08-29T13:04:47.391Z"
     }
   ]
 }
