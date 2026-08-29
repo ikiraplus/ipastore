@@ -10857,6 +10857,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:07:04.493Z",
       "updatedAt": "2026-08-29T13:07:05.517Z"
+    },
+    {
+      "id": "app-1788008881670",
+      "name": "Grand Strike Battle Royale",
+      "version": "0.9.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grand-strike-battle-royale-v0.9.6",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788008881670.png",
+      "previousVersions": [],
+      "size": "371.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:08:01.670Z",
+      "updatedAt": "2026-08-29T13:08:06.490Z"
     }
   ]
 }
