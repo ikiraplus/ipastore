@@ -1101,23 +1101,23 @@
     {
       "id": "com.camerasideas.InstaShot",
       "name": "Inshot",
-      "version": "1.98.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inshot-1.98.2",
+      "version": "1.99.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inshot_video_editor_v1.99.0_premium_unlocked_patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/0e/2e/960e2e57-c750-d516-bfc9-a171c4cc0023/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "143.4 MB",
+      "size": "159.8 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-24T06:45:10.523Z",
+      "updatedAt": "2026-08-29T08:41:57.226Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inshot_video_editor_v1.98.2_premium_unlocked",
-          "version": "1.98.2"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inshot-1.98.2",
+          "version": "1.98.3"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inshot_video_editor_v1.98.1_premium_unlocked_patched",
-          "version": "1.98.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inshot_video_editor_v1.98.2_premium_unlocked",
+          "version": "1.98.2"
         }
       ],
       "recommended": false,
