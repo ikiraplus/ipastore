@@ -10827,6 +10827,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:06:30.232Z",
       "updatedAt": "2026-08-29T13:06:31.194Z"
+    },
+    {
+      "id": "app-1788008806149",
+      "name": "Gt Club",
+      "version": "1.15.20",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gt-club-v1.15.20",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/5c/2c/1b5c2c03-a148-ba2c-9fd8-39bddce250a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "280.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:06:46.149Z",
+      "updatedAt": "2026-08-29T13:06:47.347Z"
     }
   ]
 }
