@@ -11251,6 +11251,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T17:14:00.279Z",
       "updatedAt": "2026-08-29T17:14:02.611Z"
+    },
+    {
+      "id": "app-1788023677433",
+      "name": "Lara Croft Guardian Of Light",
+      "version": "1.2.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lara-croft-guardian-of-light-v1.2.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/c6/d9/38c6d994-1b61-a178-ea4f-5a727a4f07bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3213.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T17:14:37.433Z",
+      "updatedAt": "2026-08-29T17:14:39.538Z"
     }
   ]
 }
