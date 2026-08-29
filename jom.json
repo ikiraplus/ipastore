@@ -11067,6 +11067,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:54:21.617Z",
       "updatedAt": "2026-08-29T13:54:22.521Z"
+    },
+    {
+      "id": "app-1788011696651",
+      "name": "QuietPlayer",
+      "version": "1.0.16",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/quietplayer_v1.0.16",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/1b/97/871b97df-0f3c-9f45-9a13-77f2b4cb9807/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2.9 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:54:56.651Z",
+      "updatedAt": "2026-08-29T13:54:58.409Z"
     }
   ]
 }
