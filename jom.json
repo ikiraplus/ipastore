@@ -11052,6 +11052,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:53:48.973Z",
       "updatedAt": "2026-08-29T13:53:50.869Z"
+    },
+    {
+      "id": "app-1788011661617",
+      "name": "Pasuwado",
+      "version": "1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pasuwado_v1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/0d/a6/140da67c-f3b8-2889-7680-cdde08694059/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3.5 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:54:21.617Z",
+      "updatedAt": "2026-08-29T13:54:22.521Z"
     }
   ]
 }
