@@ -4863,16 +4863,20 @@
     {
       "id": "com.burbn.instagram",
       "name": "instagram sparkle",
-      "version": "441.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sparkle_ig_v441.0.0-v1.2.0",
+      "version": "444.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sparkle-ig-444.0.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "307.2 MB",
+      "size": "298.7 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-07-09T15:18:45.367Z",
-      "updatedAt": "2026-08-24T06:52:46.629Z",
+      "updatedAt": "2026-08-29T14:09:06.399Z",
       "toolVersion": "1.2.0",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sparkle_ig_v441.0.0-v1.2.0",
+          "version": "441.0.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-sparkle-v437.2.0",
           "version": "437.2.0"
