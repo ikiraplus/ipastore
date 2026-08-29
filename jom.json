@@ -10917,6 +10917,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:10:13.791Z",
       "updatedAt": "2026-08-29T13:10:14.833Z"
+    },
+    {
+      "id": "app-1788009032158",
+      "name": "Skullburn",
+      "version": "1.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/skullburn-v1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/d3/c3/7fd3c3e0-6889-f765-9cbd-23748f39fa06/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "390.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:10:32.158Z",
+      "updatedAt": "2026-08-29T13:10:33.175Z"
     }
   ]
 }
