@@ -11157,6 +11157,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T14:01:42.779Z",
       "updatedAt": "2026-08-29T14:01:43.711Z"
+    },
+    {
+      "id": "app-1788012158460",
+      "name": "Countpad",
+      "version": "1.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/countpad_v1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/7c/50/8b7c501a-ec45-bc10-879e-7dd7b00c56ad/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2.4 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-29T14:02:38.460Z",
+      "updatedAt": "2026-08-29T14:02:40.555Z"
     }
   ]
 }
