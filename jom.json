@@ -11022,6 +11022,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:13:16.750Z",
       "updatedAt": "2026-08-29T13:13:18.922Z"
+    },
+    {
+      "id": "app-1788009212659",
+      "name": "Apex Racing",
+      "version": "1.35.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/apex-racing-v1.35.10",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/74/ec/2b74ecb7-8e80-8797-0353-75124c40fd9c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1623.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:13:32.659Z",
+      "updatedAt": "2026-08-29T13:13:33.568Z"
     }
   ]
 }
