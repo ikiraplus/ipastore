@@ -11142,6 +11142,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T14:01:19.729Z",
       "updatedAt": "2026-08-29T14:01:21.929Z"
+    },
+    {
+      "id": "app-1788012102779",
+      "name": "Temp Mail By Useburner Email",
+      "version": "1.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/temp-mail-by-useburner-email-v1.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/86/52/f08652b7-54a0-ef43-f02e-14a09c9c7026/burnermail-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "15.0 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-29T14:01:42.779Z",
+      "updatedAt": "2026-08-29T14:01:43.711Z"
     }
   ]
 }
