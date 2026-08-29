@@ -10947,6 +10947,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:10:44.246Z",
       "updatedAt": "2026-08-29T13:10:45.341Z"
+    },
+    {
+      "id": "app-1788009057884",
+      "name": "Craft Of Survival Gladiators",
+      "version": "5.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/craft-of-survival-gladiators-v5.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/bc/a2/2abca217-183c-1ea3-5294-052637a9b279/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1601.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:10:57.884Z",
+      "updatedAt": "2026-08-29T13:10:58.798Z"
     }
   ]
 }
