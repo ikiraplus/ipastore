@@ -10992,6 +10992,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:11:38.470Z",
       "updatedAt": "2026-08-29T13:11:39.593Z"
+    },
+    {
+      "id": "app-1788009112424",
+      "name": "Street Soccer Ultimate Fight",
+      "version": "0.18.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/street-soccer-ultimate-fight-v0.18.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/27/15/5b2715bd-f940-d50f-7079-250b42b2d624/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "156.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:11:52.424Z",
+      "updatedAt": "2026-08-29T13:11:53.355Z"
     }
   ]
 }
