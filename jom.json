@@ -10842,6 +10842,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:06:46.149Z",
       "updatedAt": "2026-08-29T13:06:47.347Z"
+    },
+    {
+      "id": "app-1788008824493",
+      "name": "Amikin Survival Anime Rpg",
+      "version": "2.4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/amikin-survival-anime-rpg-v2.4.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/45/d7/cf45d7f3-0005-e5da-47b8-8021ae9aa1a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "808.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:07:04.493Z",
+      "updatedAt": "2026-08-29T13:07:05.517Z"
     }
   ]
 }
