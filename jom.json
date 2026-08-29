@@ -10782,6 +10782,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:05:23.244Z",
       "updatedAt": "2026-08-29T13:05:24.981Z"
+    },
+    {
+      "id": "app-1788008750362",
+      "name": "Idle Taxi Tycoon Empire",
+      "version": "1.20.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-taxi-tycoon-empire-v1.20.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/5e/7f/0b5e7fd7-3019-5948-355d-12bf13057199/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "115.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:05:50.362Z",
+      "updatedAt": "2026-08-29T13:05:51.409Z"
     }
   ]
 }
