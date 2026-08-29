@@ -10902,6 +10902,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:09:57.927Z",
       "updatedAt": "2026-08-29T13:10:00.251Z"
+    },
+    {
+      "id": "app-1788009013791",
+      "name": "Left 4 Exfil",
+      "version": "1.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/left-4-exfil-v1.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/58/fd/3a58fd0a-614c-e423-bc90-05f39382cb18/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "224.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:10:13.791Z",
+      "updatedAt": "2026-08-29T13:10:14.833Z"
     }
   ]
 }
