@@ -11296,6 +11296,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T17:16:21.892Z",
       "updatedAt": "2026-08-29T17:16:23.439Z"
+    },
+    {
+      "id": "app-1788023817673",
+      "name": "Chaos Road - 3D Combat Racing",
+      "version": "5.15.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chaos-road-v5.15.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/7b/30/3e7b3047-81f6-eb70-ce6e-67a2bd68400c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "105.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T17:16:57.673Z",
+      "updatedAt": "2026-08-29T17:16:59.761Z"
     }
   ]
 }
