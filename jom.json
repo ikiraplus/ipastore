@@ -11127,6 +11127,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T14:00:10.499Z",
       "updatedAt": "2026-08-29T14:00:29.849Z"
+    },
+    {
+      "id": "app-1788012079729",
+      "name": "Offline AI On Device",
+      "version": "1.1.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-ai-om-device-1.1.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/db/6c/f8db6ce4-9153-e913-2a10-219f46b8da41/icon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "4.3 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-29T14:01:19.729Z",
+      "updatedAt": "2026-08-29T14:01:21.929Z"
     }
   ]
 }
