@@ -11172,6 +11172,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T14:02:38.460Z",
       "updatedAt": "2026-08-29T14:02:40.555Z"
+    },
+    {
+      "id": "app-1788012182549",
+      "name": "Ego Chat",
+      "version": "1.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ego-chat_v1.0.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/9c/03/b69c03e5-c3f4-0c9a-acc9-760e2f16086d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "13.8 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-29T14:03:02.549Z",
+      "updatedAt": "2026-08-29T14:03:03.583Z"
     }
   ]
 }
