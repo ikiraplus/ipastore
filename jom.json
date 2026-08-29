@@ -11281,6 +11281,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T17:16:01.465Z",
       "updatedAt": "2026-08-29T17:16:07.070Z"
+    },
+    {
+      "id": "app-1788023781892",
+      "name": "Gun 2 Shooting Game Fps",
+      "version": "4.3.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gun-2-shooting-game-fps-v4.3.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/49/09/fe/4909fe61-caf4-cc50-f1cf-b39f28801a1d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "161.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T17:16:21.892Z",
+      "updatedAt": "2026-08-29T17:16:23.439Z"
     }
   ]
 }
