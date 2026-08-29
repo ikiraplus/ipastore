@@ -7786,17 +7786,22 @@
     {
       "id": "com.kingsofgames.chessuniverseplus",
       "name": "Chess Universe",
-      "version": "1.21.5",
+      "version": "1.27.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chess_universe-v1.21.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chess-universe-v1.27.4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/5c/84/5b5c84ab-de7c-b904-ebcf-f69001039591/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "109.0 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chess_universe-v1.21.5",
+          "version": "1.21.5"
+        }
+      ],
+      "size": "72.9 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:05:13.018Z",
-      "updatedAt": "2026-08-24T06:21:59.882Z",
+      "updatedAt": "2026-08-29T17:17:19.370Z",
       "bundleId": "com.kingsofgames.chessuniverseplus"
     },
     {
