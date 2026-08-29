@@ -10887,6 +10887,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:08:27.158Z",
       "updatedAt": "2026-08-29T13:08:28.092Z"
+    },
+    {
+      "id": "app-1788008997927",
+      "name": "The Schedule 1 Project",
+      "version": "2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-schedule-1-project-v2.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/26/65/88266540-9b4c-f7b5-1022-ed99d19cc2aa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "60.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:09:57.927Z",
+      "updatedAt": "2026-08-29T13:10:00.251Z"
     }
   ]
 }
