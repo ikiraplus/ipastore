@@ -11007,6 +11007,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T13:11:52.424Z",
       "updatedAt": "2026-08-29T13:11:53.355Z"
+    },
+    {
+      "id": "app-1788009196750",
+      "name": "Age of Magic : Turn Based RPG",
+      "version": "3.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/age-of-magic-v3.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/05/60/d005604c-d318-a8d5-d7a3-672184814d5a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "202.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-29T13:13:16.750Z",
+      "updatedAt": "2026-08-29T13:13:18.922Z"
     }
   ]
 }
