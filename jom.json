@@ -11325,6 +11325,21 @@
       "recommended": false,
       "addedAt": "2026-08-29T17:16:57.673Z",
       "updatedAt": "2026-08-29T17:16:59.761Z"
+    },
+    {
+      "id": "app-1788034975110",
+      "name": "iQFace",
+      "version": "577.0.0",
+      "toolVersion": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqface_577.0.0-v1.0",
+      "icon": "https://store-images.s-microsoft.com/image/apps.30645.9007199266245907.cb06f1f9-9154-408e-b4ef-d19f2325893b.ac3b465e-4384-42a8-9142-901c0405e1bc",
+      "previousVersions": [],
+      "size": "216.8 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "addedAt": "2026-08-29T20:22:55.110Z",
+      "updatedAt": "2026-08-29T20:22:57.142Z"
     }
   ]
 }
