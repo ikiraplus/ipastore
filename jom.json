@@ -2649,23 +2649,23 @@
     {
       "id": "zombie.survival.craft.z",
       "name": "last day on earth survival",
-      "version": "1.51.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.51.1",
+      "version": "1.51.6",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.51.6",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/11/58/8a115867-0c2b-bbcc-324b-547deed2e769/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "1048.5 MB",
+      "size": "1045.5 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:07:24.442Z",
-      "updatedAt": "2026-08-24T10:26:45.224Z",
+      "updatedAt": "2026-08-30T16:40:26.856Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.50.5",
-          "version": "1.50.5"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.51.1",
+          "version": "1.51.1"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.50.0",
-          "version": "1.50.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.50.5",
+          "version": "1.50.5"
         }
       ],
       "recommended": false,
