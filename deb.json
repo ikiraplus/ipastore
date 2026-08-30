@@ -863,6 +863,27 @@
       "updatedAt": "2026-08-02T16:21:23.066Z"
     },
     {
+      "id": "dylib-1786177412753",
+      "name": "iQ Tweak",
+      "version": "1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iQTube-1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iQTube-dylib",
+          "version": "1.0"
+        }
+      ],
+      "size": "15.7 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-08T08:23:32.753Z",
+      "updatedAt": "2026-08-30T07:59:42.917Z"
+    },
+    {
       "id": "dylib-1784549927643",
       "name": "Xlogin Tweak",
       "version": "1.2",
@@ -1111,27 +1132,6 @@
       "recommended": false,
       "addedAt": "2026-08-06T09:49:54.186Z",
       "updatedAt": "2026-08-06T09:49:54.186Z"
-    },
-    {
-      "id": "dylib-1786177412753",
-      "name": "iQ Tweak",
-      "version": "1.1",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iQTube-1.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
-      "fileType": "dylib",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iQTube-dylib",
-          "version": "1.0"
-        }
-      ],
-      "size": "15.7 MB",
-      "note": "",
-      "category": "دايلب",
-      "recommended": false,
-      "addedAt": "2026-08-08T08:23:32.753Z",
-      "updatedAt": "2026-08-30T07:59:42.917Z"
     },
     {
       "id": "dylib-1786292511461",
