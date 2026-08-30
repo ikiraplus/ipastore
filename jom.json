@@ -11713,6 +11713,22 @@
       "bundleId": "com.MinimolGames.CaseSolved",
       "addedAt": "2026-08-30T16:30:29.822Z",
       "updatedAt": "2026-08-30T16:30:32.030Z"
+    },
+    {
+      "id": "com.creativemobile.nno",
+      "name": "Nitro Nation: Drag Racing",
+      "version": "8.7.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nitro-nation-8.7.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/4e/9f/3c4e9fd1-14f4-dfd5-691c-a5d7a96c4503/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "788.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.creativemobile.nno",
+      "addedAt": "2026-08-30T16:45:48.811Z",
+      "updatedAt": "2026-08-30T16:45:55.434Z"
     }
   ]
 }
