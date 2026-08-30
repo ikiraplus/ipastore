@@ -9713,7 +9713,7 @@
       "updatedAt": "2026-08-27T16:38:55.451Z"
     },
     {
-      "id": "app-1787848953766",
+      "id": "com.soundcloud.TouchApp",
       "name": "Sound Cloud GT",
       "version": "8.74.0",
       "toolVersion": "",
@@ -9725,7 +9725,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-27T16:42:33.766Z",
-      "updatedAt": "2026-08-27T16:42:35.434Z"
+      "updatedAt": "2026-08-30T14:25:56.353Z",
+      "bundleId": "com.soundcloud.TouchApp"
     },
     {
       "id": "app-1787848990892",
