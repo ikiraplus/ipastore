@@ -1276,6 +1276,22 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:13:02.285Z",
       "updatedAt": "2026-08-30T08:13:03.775Z"
+    },
+    {
+      "id": "dylib-1788077646553",
+      "name": "Filter Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Filter-v1.0",
+      "icon": "https://play-lh.googleusercontent.com/YlsjgA1pFEUqNaypaxE5ajushTBOt8IxVk_UEqzaXT7_n3JDgFq6KgtuE8tPBpvaCntB",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.1 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:14:06.553Z",
+      "updatedAt": "2026-08-30T08:14:08.306Z"
     }
   ]
 }
