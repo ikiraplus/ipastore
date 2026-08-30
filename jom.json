@@ -11132,7 +11132,7 @@
       "updatedAt": "2026-08-29T13:59:05.698Z"
     },
     {
-      "id": "app-1788011928172",
+      "id": "com.geniecalc.app.en",
       "name": "GenieCalc",
       "version": "1.0",
       "toolVersion": "",
@@ -11144,7 +11144,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-29T13:58:48.172Z",
-      "updatedAt": "2026-08-29T13:58:49.959Z"
+      "updatedAt": "2026-08-30T14:26:55.603Z",
+      "bundleId": "com.geniecalc.app.en"
     },
     {
       "id": "app-1788012010499",
