@@ -958,6 +958,22 @@
       "updatedAt": "2026-08-06T07:07:39.575Z"
     },
     {
+      "id": "dylib-1786292570271",
+      "name": "DL Tweak",
+      "version": "2.16.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dltube",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.8 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-09T16:22:50.271Z",
+      "updatedAt": "2026-08-09T16:22:50.271Z"
+    },
+    {
       "id": "dylib-1784550130418",
       "name": "NeoFreeBird Tweak",
       "version": "2.3",
@@ -1148,22 +1164,6 @@
       "recommended": false,
       "addedAt": "2026-08-09T16:21:51.462Z",
       "updatedAt": "2026-08-09T16:21:51.462Z"
-    },
-    {
-      "id": "dylib-1786292570271",
-      "name": "DL Tweak",
-      "version": "2.16.3",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dltube",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
-      "fileType": "dylib",
-      "previousVersions": [],
-      "size": "0.8 MB",
-      "note": "",
-      "category": "دايلب",
-      "recommended": false,
-      "addedAt": "2026-08-09T16:22:50.271Z",
-      "updatedAt": "2026-08-09T16:22:50.271Z"
     },
     {
       "id": "dylib-1786441706284",
