@@ -11684,6 +11684,22 @@
       "bundleId": "jp.co.bandainamcoent.BNEI0334",
       "addedAt": "2026-08-30T16:11:45.555Z",
       "updatedAt": "2026-08-30T16:11:48.579Z"
+    },
+    {
+      "id": "com.MinimolGames.CaseSolved",
+      "name": "Case Solved: The London Files",
+      "version": "1.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/case-solved-1.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/13/16/ce131607-cab6-b24b-7961-bd88c772b695/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "294.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.MinimolGames.CaseSolved",
+      "addedAt": "2026-08-30T16:30:29.822Z",
+      "updatedAt": "2026-08-30T16:30:32.030Z"
     }
   ]
 }
