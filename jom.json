@@ -11513,6 +11513,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T09:02:06.174Z",
       "updatedAt": "2026-08-30T09:02:08.455Z"
+    },
+    {
+      "id": "app-1788080540558",
+      "name": "Dungeon Survivor",
+      "version": "2.9.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dungeon-survivor-v2.9.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/17/05/0b1705c5-a35a-0498-ca21-45f541e6573d/AppIcon-2-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "38.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-30T09:02:20.558Z",
+      "updatedAt": "2026-08-30T09:02:21.625Z"
     }
   ]
 }
