@@ -838,6 +838,31 @@
       "updatedAt": "2026-07-24T17:40:37.111Z"
     },
     {
+      "id": "dylib-1784821433327",
+      "name": "WolfTube Tweak",
+      "version": "1.20",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/WolfTube-last",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/4f/e2/8a4fe2b3-3b8d-ff90-7a34-fadbf2f39c3d/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Wloftubedylib-1.19.3",
+          "version": "1.19.3"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/WolfTube-b1.0",
+          "version": "1.0"
+        }
+      ],
+      "size": "1.7 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-23T15:43:53.328Z",
+      "updatedAt": "2026-08-02T16:21:23.066Z"
+    },
+    {
       "id": "dylib-1784549927643",
       "name": "Xlogin Tweak",
       "version": "1.2",
@@ -1054,31 +1079,6 @@
       "recommended": false,
       "addedAt": "2026-08-30T07:58:06.628Z",
       "updatedAt": "2026-08-30T07:58:08.194Z"
-    },
-    {
-      "id": "dylib-1784821433327",
-      "name": "WolfTube Tweak",
-      "version": "1.20",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/WolfTube-last",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/4f/e2/8a4fe2b3-3b8d-ff90-7a34-fadbf2f39c3d/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
-      "fileType": "dylib",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Wloftubedylib-1.19.3",
-          "version": "1.19.3"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/WolfTube-b1.0",
-          "version": "1.0"
-        }
-      ],
-      "size": "1.7 MB",
-      "note": "",
-      "category": "دايلب",
-      "recommended": false,
-      "addedAt": "2026-07-23T15:43:53.328Z",
-      "updatedAt": "2026-08-02T16:21:23.066Z"
     },
     {
       "id": "dylib-1785421016701",
