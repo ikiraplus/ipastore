@@ -11408,6 +11408,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:30:21.655Z",
       "updatedAt": "2026-08-30T08:30:25.847Z"
+    },
+    {
+      "id": "app-1788078663548",
+      "name": "HiddenChat",
+      "version": "1.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hiddenchat_v1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/0f/84/1a0f84b2-6117-b63a-2787-d788e2fc79e7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "702.9 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:31:03.548Z",
+      "updatedAt": "2026-08-30T08:31:05.503Z"
     }
   ]
 }
