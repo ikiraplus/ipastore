@@ -381,6 +381,22 @@
       "updatedAt": "2026-08-06T09:49:54.186Z"
     },
     {
+      "id": "dylib-1786292511461",
+      "name": "DL Tweak",
+      "version": "2.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dlinsta",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "1.1 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-09T16:21:51.462Z",
+      "updatedAt": "2026-08-09T16:21:51.462Z"
+    },
+    {
       "id": "dylib-1784547808102",
       "name": "Vibetok Tweak",
       "version": "1.75",
@@ -710,22 +726,6 @@
       "recommended": false,
       "addedAt": "2026-07-30T09:42:23.701Z",
       "updatedAt": "2026-08-11T09:36:59.868Z"
-    },
-    {
-      "id": "dylib-1786292511461",
-      "name": "DL Tweak",
-      "version": "2.5",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dlinsta",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "fileType": "dylib",
-      "previousVersions": [],
-      "size": "1.1 MB",
-      "note": "",
-      "category": "دايلب",
-      "recommended": false,
-      "addedAt": "2026-08-09T16:21:51.462Z",
-      "updatedAt": "2026-08-09T16:21:51.462Z"
     },
     {
       "id": "dylib-1784549355048",
