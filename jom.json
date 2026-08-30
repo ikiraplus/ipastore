@@ -11393,6 +11393,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:29:20.503Z",
       "updatedAt": "2026-08-30T08:29:21.451Z"
+    },
+    {
+      "id": "app-1788078621655",
+      "name": "MiruMado Focus Browse",
+      "version": "1.0.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mirumado-focus-v1.0.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/8b/0b/158b0b07-5807-ee83-c85e-83e104055b0c/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3.0 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:30:21.655Z",
+      "updatedAt": "2026-08-30T08:30:25.847Z"
     }
   ]
 }
