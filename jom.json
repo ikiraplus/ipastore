@@ -6431,22 +6431,26 @@
     {
       "id": "com.joytunes.Sing",
       "name": "Simply Sing My Singing App",
-      "version": "3.0.9",
+      "version": "3.0.10",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_sing_my_singing_app_v3.0.9_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_sing_my_singing_app_v3.0.10_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/77/ec/3477ecc4-9dd4-0446-8395-e7b444e877bb/AppIcon-new-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_sing_my_singing_app_v3.0.9_subscription_unlocked",
+          "version": "3.0.9"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_sing_my_singing_app_v3.0.8_subscription_unlocked",
           "version": "3.0.8"
         }
       ],
-      "size": "111.1 MB",
+      "size": "111.2 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-17T07:52:09.618Z",
-      "updatedAt": "2026-08-25T07:37:02.292Z",
+      "updatedAt": "2026-08-30T16:07:10.832Z",
       "bundleId": "com.joytunes.Sing"
     },
     {
