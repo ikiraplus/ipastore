@@ -10103,7 +10103,7 @@
       "updatedAt": "2026-08-27T17:47:11.551Z"
     },
     {
-      "id": "app-1787852892340",
+      "id": "com.zhiliaoapp.musically",
       "name": "ASJ TikTok",
       "version": "46.5.0",
       "toolVersion": "1.1.9",
@@ -10115,7 +10115,8 @@
       "category": "تواصل",
       "recommended": true,
       "addedAt": "2026-08-27T17:48:12.340Z",
-      "updatedAt": "2026-08-27T17:48:17.373Z"
+      "updatedAt": "2026-08-30T14:24:46.340Z",
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "app-1787854008777",
