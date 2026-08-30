@@ -5930,17 +5930,22 @@
     {
       "id": "com.google.ios.youtube",
       "name": "YouTube IQ",
-      "version": "21.31.3",
-      "toolVersion": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtube_v21.31.3-v1.0",
+      "version": "21.34.3",
+      "toolVersion": "1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtube_21.34.3-v1.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "135.0 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtube_v21.31.3-v1.0",
+          "version": "21.31.3"
+        }
+      ],
+      "size": "136.5 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-08T08:23:10.460Z",
-      "updatedAt": "2026-08-24T06:44:27.900Z",
+      "updatedAt": "2026-08-30T16:07:41.861Z",
       "bundleId": "com.google.ios.youtube"
     },
     {
