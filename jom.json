@@ -9546,7 +9546,7 @@
       "bundleId": "com.hammerandchisel.discord"
     },
     {
-      "id": "app-1787655711998",
+      "id": "app.scenebox.SceneBox",
       "name": "Scenebox",
       "version": "1.0.2",
       "toolVersion": "",
@@ -9558,7 +9558,8 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-25T11:01:51.998Z",
-      "updatedAt": "2026-08-25T11:01:55.527Z"
+      "updatedAt": "2026-08-30T14:25:42.579Z",
+      "bundleId": "app.scenebox.SceneBox"
     },
     {
       "id": "com.zhiliaoapp.musically",
