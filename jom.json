@@ -11588,6 +11588,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T09:03:45.402Z",
       "updatedAt": "2026-08-30T09:03:46.499Z"
+    },
+    {
+      "id": "app-1788080651572",
+      "name": "Prison Empire",
+      "version": "2.800",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/prison-empire-2.800",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/de/00/b2de002b-e23d-375e-e235-ad31f45b9a84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "234.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-30T09:04:11.572Z",
+      "updatedAt": "2026-08-30T09:04:12.588Z"
     }
   ]
 }
