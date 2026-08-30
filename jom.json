@@ -11163,7 +11163,7 @@
       "updatedAt": "2026-08-29T14:00:29.849Z"
     },
     {
-      "id": "app-1788012079729",
+      "id": "com.pisheru.Offline-AI-Pisheru",
       "name": "Offline AI On Device",
       "version": "1.1.6",
       "toolVersion": "",
@@ -11175,7 +11175,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-29T14:01:19.729Z",
-      "updatedAt": "2026-08-29T14:03:14.981Z"
+      "updatedAt": "2026-08-30T14:27:14.663Z",
+      "bundleId": "com.pisheru.Offline-AI-Pisheru"
     },
     {
       "id": "app-1788012102779",
