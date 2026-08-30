@@ -11664,6 +11664,22 @@
       "bundleId": "com.jds.batim",
       "addedAt": "2026-08-30T16:08:52.925Z",
       "updatedAt": "2026-08-30T16:09:57.644Z"
+    },
+    {
+      "id": "jp.co.bandainamcoent.BNEI0334",
+      "name": "Dragon Ball Legends",
+      "version": "6.27.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/db-legends-6.27.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/37/64/e33764fb-d375-1bf6-87b2-a1f46550b3a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "162.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "jp.co.bandainamcoent.BNEI0334",
+      "addedAt": "2026-08-30T16:11:45.555Z",
+      "updatedAt": "2026-08-30T16:11:48.579Z"
     }
   ]
 }
