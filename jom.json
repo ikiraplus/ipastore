@@ -11378,6 +11378,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:28:46.271Z",
       "updatedAt": "2026-08-30T08:28:48.414Z"
+    },
+    {
+      "id": "app-1788078560503",
+      "name": "PersoPhoto",
+      "version": "2.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/persophoto_v2.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/01/d5/cd01d591-2480-c7c3-05d3-e2a6f3fd4b75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "19.4 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:29:20.503Z",
+      "updatedAt": "2026-08-30T08:29:21.451Z"
     }
   ]
 }
