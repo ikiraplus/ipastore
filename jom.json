@@ -9515,7 +9515,7 @@
       "updatedAt": "2026-08-25T10:38:39.954Z"
     },
     {
-      "id": "app-1787654369143",
+      "id": "com.livintis.chatty",
       "name": "AI Chat Chatty AI Chatbot",
       "version": "2.0",
       "toolVersion": "",
@@ -9527,7 +9527,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-25T10:39:29.143Z",
-      "updatedAt": "2026-08-25T10:40:07.889Z"
+      "updatedAt": "2026-08-30T14:26:38.802Z",
+      "bundleId": "com.livintis.chatty"
     },
     {
       "id": "com.hammerandchisel.discord",
