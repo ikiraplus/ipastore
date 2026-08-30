@@ -671,6 +671,31 @@
       "updatedAt": "2026-07-20T12:04:30.320Z"
     },
     {
+      "id": "dylib-1785404543683",
+      "name": "iQ Tweak",
+      "version": "1.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele_1.2_dylib",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784549021202.png",
+      "fileType": "dylib",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele-v1.1",
+          "version": "1.1"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/IqTele-1.0-dylibs",
+          "version": "1.0"
+        }
+      ],
+      "size": "1.8 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-07-30T09:42:23.701Z",
+      "updatedAt": "2026-08-11T09:36:59.868Z"
+    },
+    {
       "id": "dylib-1784549355048",
       "name": "Gold Tweak",
       "version": "2.3",
@@ -901,31 +926,6 @@
       "recommended": false,
       "addedAt": "2026-07-20T12:22:10.420Z",
       "updatedAt": "2026-07-20T12:22:10.420Z"
-    },
-    {
-      "id": "dylib-1785404543683",
-      "name": "iQ Tweak",
-      "version": "1.2",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele_1.2_dylib",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784549021202.png",
-      "fileType": "dylib",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtele-v1.1",
-          "version": "1.1"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/IqTele-1.0-dylibs",
-          "version": "1.0"
-        }
-      ],
-      "size": "1.8 MB",
-      "note": "",
-      "category": "دايلب",
-      "recommended": false,
-      "addedAt": "2026-07-30T09:42:23.701Z",
-      "updatedAt": "2026-08-11T09:36:59.868Z"
     },
     {
       "id": "dylib-1784550313793",
