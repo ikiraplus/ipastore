@@ -2724,15 +2724,23 @@
     {
       "id": "com.naturalmotion.customstreetracer2",
       "name": "csr racing 2",
-      "version": "6.5.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/csr-racing2-6.5.1",
+      "version": "6.7.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/csr-racing-2.6.7.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/71/0f/e4710f14-70b0-c39c-085f-276e81226084/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
-      "size": "1859.4 MB",
+      "size": "1281.4 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:26:07.473Z",
-      "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.naturalmotion.customstreetracer2"
+      "updatedAt": "2026-08-30T16:31:53.584Z",
+      "bundleId": "com.naturalmotion.customstreetracer2",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/csr-racing2-6.5.1",
+          "version": "6.5.1"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "com.topfreegames.bikeracefree",
