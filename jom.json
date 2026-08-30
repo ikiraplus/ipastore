@@ -11528,6 +11528,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T09:02:20.558Z",
       "updatedAt": "2026-08-30T09:02:21.625Z"
+    },
+    {
+      "id": "app-1788080553991",
+      "name": "Dragons Rise Of Berk",
+      "version": "1.106.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dragons-rise-of-berk-v1.106.13",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/d2/c3/40d2c38b-3667-e47f-bf3d-358c3b531c05/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "680.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-30T09:02:33.991Z",
+      "updatedAt": "2026-08-30T09:02:34.863Z"
     }
   ]
 }
