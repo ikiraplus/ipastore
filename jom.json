@@ -11543,6 +11543,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T09:02:33.991Z",
       "updatedAt": "2026-08-30T09:02:34.863Z"
+    },
+    {
+      "id": "app-1788080567524",
+      "name": "Raid Shadow Legends",
+      "version": "10.50.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/raid-shadow-legends-v10.50.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/5b/1a/1b5b1a9b-2a2b-f0a7-2988-1024e8fbc30d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "134.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-30T09:02:47.524Z",
+      "updatedAt": "2026-08-30T09:02:48.727Z"
     }
   ]
 }
