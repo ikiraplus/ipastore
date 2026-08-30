@@ -7038,23 +7038,27 @@
     },
     {
       "id": "com.ares.twd",
-      "name": "The Walking Dead",
-      "version": "1.3.1",
+      "name": "The Walking Dead AfterMath",
+      "version": "1.3.2",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-walking-dead-1.3.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-walking-dead-1.3.2",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwKmldMKimAo-62YgNy63w3Q6_P_wU2JEQ2QUflB8oCoRGRHiWFOfK3UuV&s=10",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-walking-dead-1.3.1",
+          "version": "1.3.1"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-walking-dead-hack",
           "version": "1.3.0"
         }
       ],
-      "size": "598.4 MB",
+      "size": "598.2 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-20T16:25:12.095Z",
-      "updatedAt": "2026-08-24T09:28:35.213Z",
+      "updatedAt": "2026-08-30T16:28:22.033Z",
       "bundleId": "com.ares.twd"
     },
     {
