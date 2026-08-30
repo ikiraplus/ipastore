@@ -9742,7 +9742,7 @@
       "updatedAt": "2026-08-27T16:43:15.183Z"
     },
     {
-      "id": "app-1787849028318",
+      "id": "com.hammerandchisel.discord",
       "name": "Discord Rain",
       "version": "334.0",
       "toolVersion": "",
@@ -9754,7 +9754,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-27T16:43:48.318Z",
-      "updatedAt": "2026-08-27T16:43:50.727Z"
+      "updatedAt": "2026-08-30T14:22:21.325Z",
+      "bundleId": "com.hammerandchisel.discord"
     },
     {
       "id": "app-1787849333521",
