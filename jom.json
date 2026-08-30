@@ -11591,7 +11591,7 @@
       "updatedAt": "2026-08-30T09:03:46.499Z"
     },
     {
-      "id": "app-1788080651572",
+      "id": "com.codigames.idle.prison.empire.manager.tycoon",
       "name": "Prison Empire",
       "version": "2.800",
       "toolVersion": "",
@@ -11603,7 +11603,8 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-30T09:04:11.572Z",
-      "updatedAt": "2026-08-30T09:04:12.588Z"
+      "updatedAt": "2026-08-30T14:14:19.005Z",
+      "bundleId": "com.codigames.idle.prison.empire.manager.tycoon"
     },
     {
       "id": "app-1788080726545",
