@@ -11603,6 +11603,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T09:04:11.572Z",
       "updatedAt": "2026-08-30T09:04:12.588Z"
+    },
+    {
+      "id": "app-1788080726545",
+      "name": "Harry Potter: Hogwarts Mystery",
+      "version": "5.7.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/harry-potter-5.7.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/14/66/d21466b0-738f-a514-c537-c582f6eefdfd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "142.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-30T09:05:26.545Z",
+      "updatedAt": "2026-08-30T09:05:28.809Z"
     }
   ]
 }
