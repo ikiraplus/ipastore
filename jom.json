@@ -11209,7 +11209,7 @@
       "updatedAt": "2026-08-29T14:02:40.555Z"
     },
     {
-      "id": "app-1788012182549",
+      "id": "com.ethan.ego",
       "name": "Ego Chat",
       "version": "1.0.2",
       "toolVersion": "",
@@ -11221,7 +11221,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-29T14:03:02.549Z",
-      "updatedAt": "2026-08-29T14:03:03.583Z"
+      "updatedAt": "2026-08-30T14:27:27.474Z",
+      "bundleId": "com.ethan.ego"
     },
     {
       "id": "app-1788012340255",
