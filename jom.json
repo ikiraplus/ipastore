@@ -11558,6 +11558,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T09:02:47.524Z",
       "updatedAt": "2026-08-30T09:02:48.727Z"
+    },
+    {
+      "id": "app-1788080601495",
+      "name": "Gods Wars I Lost Angela",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gods-wars-i-lost-angela-v2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/12/e4/fb12e420-99ef-4669-13fa-dcda9c30bbd1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "36.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-30T09:03:21.495Z",
+      "updatedAt": "2026-08-30T09:03:23.754Z"
     }
   ]
 }
