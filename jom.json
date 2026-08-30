@@ -11607,7 +11607,7 @@
       "bundleId": "com.codigames.idle.prison.empire.manager.tycoon"
     },
     {
-      "id": "app-1788080726545",
+      "id": "com.tinyco.potter",
       "name": "Harry Potter: Hogwarts Mystery",
       "version": "5.7.0",
       "toolVersion": "",
@@ -11619,7 +11619,7 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-30T09:05:26.545Z",
-      "updatedAt": "2026-08-30T14:10:09.577Z",
+      "updatedAt": "2026-08-30T14:14:42.868Z",
       "bundleId": "com.tinyco.potter"
     }
   ]
