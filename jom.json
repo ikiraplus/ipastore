@@ -11423,6 +11423,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:31:03.548Z",
       "updatedAt": "2026-08-30T08:31:05.503Z"
+    },
+    {
+      "id": "app-1788078722220",
+      "name": "Private Voice Notes",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/private-voice-notes-v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/1b/94/441b9417-163f-98fc-4f06-391acfa1b3d0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1.4 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:32:02.220Z",
+      "updatedAt": "2026-08-30T08:32:04.601Z"
     }
   ]
 }
