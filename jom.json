@@ -9530,7 +9530,7 @@
       "updatedAt": "2026-08-25T10:40:07.889Z"
     },
     {
-      "id": "app-1787655541169",
+      "id": "com.hammerandchisel.discord",
       "name": "Discord unbound",
       "version": "342.0",
       "toolVersion": "2.5.1",
@@ -9542,7 +9542,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-25T10:59:01.169Z",
-      "updatedAt": "2026-08-25T10:59:03.702Z"
+      "updatedAt": "2026-08-30T14:20:39.230Z",
+      "bundleId": "com.hammerandchisel.discord"
     },
     {
       "id": "app-1787655711998",
