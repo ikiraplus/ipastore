@@ -1292,6 +1292,22 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:14:06.553Z",
       "updatedAt": "2026-08-30T08:14:08.306Z"
+    },
+    {
+      "id": "dylib-1788077670768",
+      "name": "YTMusicUltimate Tweak",
+      "version": "2.4.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/YTMusicUltimate-2.4.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/9f/f5/8c9ff57a-8a9f-30ca-3b1a-a53406a1fc2b/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "8.0 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:14:30.768Z",
+      "updatedAt": "2026-08-30T08:14:31.383Z"
     }
   ]
 }
