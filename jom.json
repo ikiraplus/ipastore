@@ -11240,7 +11240,7 @@
       "updatedAt": "2026-08-29T14:07:12.631Z"
     },
     {
-      "id": "app-1788012418129",
+      "id": "NPLLC.SciCalcPro",
       "name": "SciCalc Pro",
       "version": "1.0",
       "toolVersion": "",
@@ -11252,7 +11252,8 @@
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-29T14:06:58.129Z",
-      "updatedAt": "2026-08-29T14:07:00.324Z"
+      "updatedAt": "2026-08-30T14:27:41.917Z",
+      "bundleId": "NPLLC.SciCalcPro"
     },
     {
       "id": "app-1788012476435",
