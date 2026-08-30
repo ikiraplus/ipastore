@@ -11339,7 +11339,7 @@
       "updatedAt": "2026-08-29T17:16:59.761Z"
     },
     {
-      "id": "app-1788034975110",
+      "id": "com.facebook.Facebook",
       "name": "iQFace",
       "version": "577.0.0",
       "toolVersion": "1.0",
@@ -11351,7 +11351,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-29T20:22:55.110Z",
-      "updatedAt": "2026-08-29T20:22:57.142Z"
+      "updatedAt": "2026-08-30T14:25:24.724Z",
+      "bundleId": "com.facebook.Facebook"
     },
     {
       "id": "ryuk2.anoxclan.com",
