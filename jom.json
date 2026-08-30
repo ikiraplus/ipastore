@@ -6469,17 +6469,22 @@
     {
       "id": "com.ea.ios.pvzn3xt",
       "name": "Plants vs. Zombies 3",
-      "version": "30.4.9",
+      "version": "32.0.10",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz3-v30.4.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz-3-v32.0.10",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786953444104.png",
-      "previousVersions": [],
-      "size": "165.6 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz3-v30.4.9",
+          "version": "30.4.9"
+        }
+      ],
+      "size": "160.8 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-17T07:57:27.599Z",
-      "updatedAt": "2026-08-24T06:46:42.100Z",
+      "updatedAt": "2026-08-30T16:44:30.504Z",
       "bundleId": "com.ea.ios.pvzn3xt"
     },
     {
