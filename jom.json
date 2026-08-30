@@ -11573,6 +11573,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T09:03:21.495Z",
       "updatedAt": "2026-08-30T09:03:23.754Z"
+    },
+    {
+      "id": "app-1788080625402",
+      "name": "Shadow Of Death Fighting Game",
+      "version": "100.112.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-of-death-fighting-game-v100.112.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4c/9d/81/4c9d81b0-09de-4317-2404-c2d617a8e19b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "169.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-30T09:03:45.402Z",
+      "updatedAt": "2026-08-30T09:03:46.499Z"
     }
   ]
 }
