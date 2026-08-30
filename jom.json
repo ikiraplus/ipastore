@@ -9561,7 +9561,7 @@
       "updatedAt": "2026-08-25T11:01:55.527Z"
     },
     {
-      "id": "app-1787655854190",
+      "id": "com.zhiliaoapp.musically",
       "name": "SadaTik",
       "version": "46.6.0",
       "toolVersion": "",
@@ -9573,7 +9573,8 @@
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-25T11:04:14.190Z",
-      "updatedAt": "2026-08-25T11:04:16.008Z"
+      "updatedAt": "2026-08-30T14:21:40.163Z",
+      "bundleId": "com.zhiliaoapp.musically"
     },
     {
       "id": "app-1787847126225",
