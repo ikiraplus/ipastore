@@ -11498,6 +11498,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:39:44.136Z",
       "updatedAt": "2026-08-30T08:39:45.077Z"
+    },
+    {
+      "id": "app-1788080526174",
+      "name": "Meridian 157 Chapter 3",
+      "version": "1.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/meridian-157-chapter-3-v1.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/77/6b/d7776bcb-f61d-51a9-9e2f-d99fc9644c0a/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "718.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "addedAt": "2026-08-30T09:02:06.174Z",
+      "updatedAt": "2026-08-30T09:02:08.455Z"
     }
   ]
 }
