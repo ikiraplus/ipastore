@@ -749,23 +749,27 @@
     {
       "id": "dylib-1784549681346",
       "name": "Kace Tweak",
-      "version": "0.8.3",
+      "version": "0.9.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ytkace",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/YTKACE-0.9.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/4f/e2/8a4fe2b3-3b8d-ff90-7a34-fadbf2f39c3d/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ytkace",
+          "version": "0.8.3"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ytkace-ikiraplus",
           "version": "0.6.4"
         }
       ],
-      "size": "2.2 MB",
+      "size": "2.3 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T12:14:41.347Z",
-      "updatedAt": "2026-08-09T16:23:13.365Z"
+      "updatedAt": "2026-08-30T07:56:07.768Z"
     },
     {
       "id": "dylib-1784549742778",
