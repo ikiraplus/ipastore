@@ -11648,6 +11648,22 @@
       "addedAt": "2026-08-30T09:05:26.545Z",
       "updatedAt": "2026-08-30T14:14:42.868Z",
       "bundleId": "com.tinyco.potter"
+    },
+    {
+      "id": "com.jds.batim",
+      "name": "Bendy And The Ink Machine",
+      "version": "1.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bendy-and-the-ink-machine-v1.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/19/97/e31997d2-a073-bbc8-179f-c7ef2019a322/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "471.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.jds.batim",
+      "addedAt": "2026-08-30T16:08:52.925Z",
+      "updatedAt": "2026-08-30T16:09:57.644Z"
     }
   ]
 }
