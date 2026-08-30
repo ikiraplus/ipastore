@@ -11363,6 +11363,21 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:08:58.735Z",
       "updatedAt": "2026-08-30T08:09:03.829Z"
+    },
+    {
+      "id": "app-1788078526271",
+      "name": "Stow Player",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/stow-player_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/0d/3f/e90d3f3d-468b-bde3-6334-d514c56df108/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3.1 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:28:46.271Z",
+      "updatedAt": "2026-08-30T08:28:48.414Z"
     }
   ]
 }
