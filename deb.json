@@ -1228,6 +1228,22 @@
       "recommended": false,
       "addedAt": "2026-08-30T07:58:52.181Z",
       "updatedAt": "2026-08-30T07:58:53.522Z"
+    },
+    {
+      "id": "dylib-1788077460750",
+      "name": "GT Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/GT-Tweak-v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/74/07/42740742-a513-c1f3-ae00-b4b0a7d56ba5/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.4 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:11:00.750Z",
+      "updatedAt": "2026-08-30T08:11:01.344Z"
     }
   ]
 }
