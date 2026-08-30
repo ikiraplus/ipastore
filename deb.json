@@ -1230,6 +1230,22 @@
       "updatedAt": "2026-08-30T07:58:53.522Z"
     },
     {
+      "id": "dylib-1788077646553",
+      "name": "Filter Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Filter-v1.0",
+      "icon": "https://play-lh.googleusercontent.com/YlsjgA1pFEUqNaypaxE5ajushTBOt8IxVk_UEqzaXT7_n3JDgFq6KgtuE8tPBpvaCntB",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.1 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "addedAt": "2026-08-30T08:14:06.553Z",
+      "updatedAt": "2026-08-30T08:14:08.306Z"
+    },
+    {
       "id": "dylib-1788077460750",
       "name": "GT Tweak",
       "version": "1.0",
@@ -1292,22 +1308,6 @@
       "recommended": false,
       "addedAt": "2026-08-30T08:18:22.690Z",
       "updatedAt": "2026-08-30T08:18:23.432Z"
-    },
-    {
-      "id": "dylib-1788077646553",
-      "name": "Filter Tweak",
-      "version": "1.0",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Filter-v1.0",
-      "icon": "https://play-lh.googleusercontent.com/YlsjgA1pFEUqNaypaxE5ajushTBOt8IxVk_UEqzaXT7_n3JDgFq6KgtuE8tPBpvaCntB",
-      "fileType": "dylib",
-      "previousVersions": [],
-      "size": "0.1 MB",
-      "note": "",
-      "category": "دايلب",
-      "recommended": false,
-      "addedAt": "2026-08-30T08:14:06.553Z",
-      "updatedAt": "2026-08-30T08:14:08.306Z"
     },
     {
       "id": "dylib-1788077670768",
