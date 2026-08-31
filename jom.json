@@ -11943,6 +11943,22 @@
       "bundleId": "com.playsportgames.mmm2023",
       "addedAt": "2026-08-31T17:59:44.730Z",
       "updatedAt": "2026-08-31T18:00:14.520Z"
+    },
+    {
+      "id": "com.10tons.UNDEADHORDE2",
+      "name": "Undead Horde 2 Necropolis",
+      "version": "1.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/undead-horde-2-necropolis-v1.0.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/d3/7f/fcd37f4e-6909-f57f-3b7c-e910a011f0e3/AppIcon-0-0-1x_U007emarketing-0-4-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "238.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.10tons.UNDEADHORDE2",
+      "addedAt": "2026-08-31T18:01:03.906Z",
+      "updatedAt": "2026-08-31T18:01:41.486Z"
     }
   ]
 }
