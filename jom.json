@@ -2868,23 +2868,23 @@
     },
     {
       "id": "com.soundcloud.TouchApp",
-      "name": "sound cloud",
-      "version": "8.73.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
+      "name": "Sound Cloud Noads",
+      "version": "8.76.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.76.0-noads",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/94/21/7e94213b-a1d6-a37b-e2e3-fe6ca2fb66d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "size": "116.1 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-04-28T07:14:22.721Z",
-      "updatedAt": "2026-08-24T08:28:27.044Z",
+      "updatedAt": "2026-08-31T17:08:22.815Z",
       "toolVersion": "2.0",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-v8.70.0-b3",
-          "version": "8.70.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
+          "version": "8.73.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud_8.70.0",
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-v8.70.0-b3",
           "version": "8.70.0"
         }
       ],
@@ -11749,6 +11749,22 @@
       "bundleId": "com.verback.YTLite",
       "addedAt": "2026-08-31T17:05:16.705Z",
       "updatedAt": "2026-08-31T17:05:19.461Z"
+    },
+    {
+      "id": "com.zerone.hidesktop",
+      "name": "Iscreen Widgets Wallpaper",
+      "version": "5.0.15",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iscreen_widgets_-_wallpaper_v5.0.15_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/bd/c9/c9bdc94b-ba53-ce54-20b2-8d7035e27ee6/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "428.3 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.zerone.hidesktop",
+      "addedAt": "2026-08-31T17:06:44.622Z",
+      "updatedAt": "2026-08-31T17:06:55.239Z"
     }
   ]
 }
