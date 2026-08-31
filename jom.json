@@ -11927,6 +11927,22 @@
       "bundleId": "com.gameloft.oregontrails",
       "addedAt": "2026-08-31T17:58:49.643Z",
       "updatedAt": "2026-08-31T17:59:07.607Z"
+    },
+    {
+      "id": "com.playsportgames.mmm2023",
+      "name": "Motorsport Manager 4",
+      "version": "2024.1.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/motorsport-manager-4-v2024.1.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/ee/7d/8cee7d73-3ebd-be3f-a015-7252a7a092e5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "200.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playsportgames.mmm2023",
+      "addedAt": "2026-08-31T17:59:44.730Z",
+      "updatedAt": "2026-08-31T18:00:14.520Z"
     }
   ]
 }
