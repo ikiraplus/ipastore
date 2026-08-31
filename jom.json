@@ -11733,6 +11733,22 @@
       "bundleId": "com.creativemobile.nno",
       "addedAt": "2026-08-30T16:45:48.811Z",
       "updatedAt": "2026-08-30T16:45:55.434Z"
+    },
+    {
+      "id": "com.verback.YTLite",
+      "name": "YouTube Opaline",
+      "version": "1.11.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube_opaline_1.11.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/39/b7/8139b7e9-5541-2247-0702-7e929bf229fd/AppIcon.Bolt.TV.Light-0-0-1x_U007epad-0-1-0-P3-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "6.4 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "com.verback.YTLite",
+      "addedAt": "2026-08-31T17:05:16.705Z",
+      "updatedAt": "2026-08-31T17:05:19.461Z"
     }
   ]
 }
