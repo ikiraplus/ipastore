@@ -11822,6 +11822,22 @@
       "bundleId": "com.unicostudio.braintest",
       "addedAt": "2026-08-31T17:14:10.484Z",
       "updatedAt": "2026-08-31T17:14:17.957Z"
+    },
+    {
+      "id": "com.grandgames.carmatch",
+      "name": "Car Match Traffic Puzzle",
+      "version": "0.0.1054",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-match-traffic-puzzle-v0.0.1054",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/e9/e0/0fe9e00c-f354-76e4-8c2c-2adc03ccc3bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "189.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.grandgames.carmatch",
+      "addedAt": "2026-08-31T17:14:48.053Z",
+      "updatedAt": "2026-08-31T17:14:50.319Z"
     }
   ]
 }
