@@ -11769,6 +11769,22 @@
       "bundleId": "com.zerone.hidesktop",
       "addedAt": "2026-08-31T17:06:44.622Z",
       "updatedAt": "2026-08-31T17:06:55.239Z"
+    },
+    {
+      "id": "reels-maker-one",
+      "name": "Reels Maker For Instagram Beat",
+      "version": "1.26.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reels_maker_for_instagram_beat_v1.26.0_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/12/14/521214c3-d782-b1f7-5dd2-0fd7923cba84/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "124.7 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "reels-maker-one",
+      "addedAt": "2026-08-31T17:11:40.620Z",
+      "updatedAt": "2026-08-31T17:11:49.655Z"
     }
   ]
 }
