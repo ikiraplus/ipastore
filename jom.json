@@ -11959,6 +11959,22 @@
       "bundleId": "com.10tons.UNDEADHORDE2",
       "addedAt": "2026-08-31T18:01:03.906Z",
       "updatedAt": "2026-08-31T18:01:41.486Z"
+    },
+    {
+      "id": "com.blackpanther.ninjaarashi2",
+      "name": "Ninja Arashi",
+      "version": "2.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ninja-arashi-2.1.0-hack",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/83/47/25/834725da-354e-b69b-fd6e-e40d26125ccc/AppIcon-1x_U007emarketing-0-9-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "134.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.blackpanther.ninjaarashi2",
+      "addedAt": "2026-08-31T20:20:11.586Z",
+      "updatedAt": "2026-08-31T20:20:16.632Z"
     }
   ]
 }
