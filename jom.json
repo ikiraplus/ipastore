@@ -11911,6 +11911,22 @@
       "bundleId": "com.disney.SwampyGame",
       "addedAt": "2026-08-31T17:57:34.770Z",
       "updatedAt": "2026-08-31T17:57:45.491Z"
+    },
+    {
+      "id": "com.gameloft.oregontrails",
+      "name": "The Oregon Trail",
+      "version": "2.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-oregon-trail-v2.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6c/d8/f4/6cd8f488-f4d8-e425-78bc-392909753b8e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "799.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gameloft.oregontrails",
+      "addedAt": "2026-08-31T17:58:49.643Z",
+      "updatedAt": "2026-08-31T17:59:07.607Z"
     }
   ]
 }
