@@ -5239,26 +5239,26 @@
     {
       "id": "com.blockpuzzle.us.ios",
       "name": "Block Blast",
-      "version": "7.3.6",
+      "version": "7.3.9",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-v7.3.6",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-v7.3.9",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/74/f5/6e74f555-a090-b9f6-71e2-c30907a12793/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-v7.3.5",
-          "version": "7.3.5"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-v7.3.6",
+          "version": "7.3.6"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-7.3.4",
-          "version": "7.3.4"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/block-blast-v7.3.5",
+          "version": "7.3.5"
         }
       ],
-      "size": "77.9 MB",
+      "size": "78.5 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-24T18:59:35.273Z",
-      "updatedAt": "2026-08-24T06:18:59.822Z",
+      "updatedAt": "2026-08-31T17:13:45.516Z",
       "bundleId": "com.blockpuzzle.us.ios"
     },
     {
