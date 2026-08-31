@@ -6126,17 +6126,22 @@
     {
       "id": "com.bbauman.Scripty",
       "name": "Coconote AI Note Taker",
-      "version": "2.48",
+      "version": "2.50",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coconote-ai-note-taker-v2.48-pro-unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coconote-ai-note-taker-v2.50-pro-unlocked-patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/e0/07/72e0078b-a47c-2006-240d-d5325285d557/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "49.7 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coconote-ai-note-taker-v2.48-pro-unlocked",
+          "version": "2.48"
+        }
+      ],
+      "size": "51.4 MB",
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "recommended": false,
       "addedAt": "2026-08-11T09:29:03.471Z",
-      "updatedAt": "2026-08-24T06:17:45.057Z",
+      "updatedAt": "2026-08-31T17:12:23.940Z",
       "bundleId": "com.bbauman.Scripty"
     },
     {
