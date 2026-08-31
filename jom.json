@@ -11838,6 +11838,22 @@
       "bundleId": "com.grandgames.carmatch",
       "addedAt": "2026-08-31T17:14:48.053Z",
       "updatedAt": "2026-08-31T17:14:50.319Z"
+    },
+    {
+      "id": "com.stickpage.stickwar",
+      "name": "Stick War Legacy",
+      "version": "2026.1.932",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/stick-war-legacy-v2026.1.932",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/a8/8a/35a88a6b-eeb1-1df7-5fa5-09fb70f39614/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "113.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.stickpage.stickwar",
+      "addedAt": "2026-08-31T17:16:35.800Z",
+      "updatedAt": "2026-08-31T17:16:37.978Z"
     }
   ]
 }
