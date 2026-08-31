@@ -11895,6 +11895,22 @@
       "bundleId": "com.tiltingpoint.cypher",
       "addedAt": "2026-08-31T17:56:59.222Z",
       "updatedAt": "2026-08-31T17:57:04.568Z"
+    },
+    {
+      "id": "com.disney.SwampyGame",
+      "name": "Wheres My Water",
+      "version": "1.18.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wheres-my-water-v1.18.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3b/61/31/3b61311b-af40-6af9-83c6-c8eb7ca4ad93/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "64.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.disney.SwampyGame",
+      "addedAt": "2026-08-31T17:57:34.770Z",
+      "updatedAt": "2026-08-31T17:57:45.491Z"
     }
   ]
 }
