@@ -11975,6 +11975,22 @@
       "bundleId": "com.blackpanther.ninjaarashi2",
       "addedAt": "2026-08-31T20:20:11.586Z",
       "updatedAt": "2026-08-31T20:20:16.632Z"
+    },
+    {
+      "id": "com.go-tellm.tellm",
+      "name": "Jodel Plus",
+      "version": "7.168",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jodel-plus-7.168-neo",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/ae/57/c6ae5790-94e9-3b13-8167-51546b892e5e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "140.5 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "com.go-tellm.tellm",
+      "addedAt": "2026-08-31T20:34:47.412Z",
+      "updatedAt": "2026-08-31T20:34:49.788Z"
     }
   ]
 }
