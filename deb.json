@@ -730,23 +730,28 @@
     {
       "id": "dylib-1784549355048",
       "name": "Gold Tweak",
-      "version": "2.3",
+      "version": "2.7",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/WhatsAppGold-ikiraplus-v2.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/WGold-2.7",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
       "fileType": "dylib",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/WhatsAppGold-ikiraplus-v2.3",
+          "version": "2.3"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wagold-ikiraplus",
           "version": "2.1"
         }
       ],
-      "size": "0.3 MB",
+      "size": "0.9 MB",
       "note": "",
       "category": "دايلب",
       "recommended": true,
       "addedAt": "2026-07-20T12:09:15.050Z",
-      "updatedAt": "2026-08-02T16:22:46.981Z"
+      "updatedAt": "2026-08-31T17:09:32.033Z",
+      "bundleId": ""
     },
     {
       "id": "dylib-1784549134052",
