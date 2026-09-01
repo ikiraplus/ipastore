@@ -12500,6 +12500,22 @@
       "bundleId": "com.hg.wreckfest.trial",
       "addedAt": "2026-09-01T14:30:16.183Z",
       "updatedAt": "2026-09-01T14:30:29.389Z"
+    },
+    {
+      "id": "com.steelwoolstudios.fnafhw",
+      "name": "Five Nights At Freddys Hw",
+      "version": "1.1.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys-hw-v1.1.3",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/com.steelwoolstudios.fnafhw.png",
+      "previousVersions": [],
+      "size": "564.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.steelwoolstudios.fnafhw",
+      "addedAt": "2026-09-01T14:32:50.316Z",
+      "updatedAt": "2026-09-01T14:33:02.394Z"
     }
   ]
 }
