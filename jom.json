@@ -12404,6 +12404,22 @@
       "bundleId": "com.snkplaymore.samsho2",
       "addedAt": "2026-09-01T14:17:12.260Z",
       "updatedAt": "2026-09-01T14:17:14.828Z"
+    },
+    {
+      "id": "com.ultimatestudio.hotlapleague",
+      "name": "Hot Lap League",
+      "version": "1.11053",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hot-lap-league-v1.00.11053",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/6d/17/93/6d179391-2388-2d4a-bfb8-aacffcd6a74b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "420.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ultimatestudio.hotlapleague",
+      "addedAt": "2026-09-01T14:17:56.874Z",
+      "updatedAt": "2026-09-01T14:18:28.953Z"
     }
   ]
 }
