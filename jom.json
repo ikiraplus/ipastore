@@ -12060,6 +12060,22 @@
       "bundleId": "com.MobEntertainment.PoppyPlaytimeChapter3",
       "addedAt": "2026-09-01T08:57:14.492Z",
       "updatedAt": "2026-09-01T08:57:16.431Z"
+    },
+    {
+      "id": "com.contentarcade.ThumbnailMaker",
+      "name": "Thumbnail Maker For Ytstudio",
+      "version": "15.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/thumbnail-maker-for-ytstudio_15.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/23/8b/59238bd7-30d0-e9a8-da06-72b83dd360bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "512.9 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.contentarcade.ThumbnailMaker",
+      "addedAt": "2026-09-01T08:57:54.445Z",
+      "updatedAt": "2026-09-01T08:57:56.296Z"
     }
   ]
 }
