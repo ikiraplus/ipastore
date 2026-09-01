@@ -12564,6 +12564,22 @@
       "bundleId": "com.bluebraingames.thehouseofdavinci",
       "addedAt": "2026-09-01T14:40:48.821Z",
       "updatedAt": "2026-09-01T14:41:12.583Z"
+    },
+    {
+      "id": "com.almulazimanas.almulazimanas",
+      "name": "الملازم انس",
+      "version": "8.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/almalazm-anas-8.0.ipa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/00/ae/4700aea7-4192-48f4-156d-8cff256a7954/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "880.6 MB",
+      "note": "لعبة مدفوعة في المتجر الرسمي.",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.almulazimanas.almulazimanas",
+      "addedAt": "2026-09-01T14:49:29.941Z",
+      "updatedAt": "2026-09-01T14:49:32.158Z"
     }
   ]
 }
