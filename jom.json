@@ -12196,6 +12196,22 @@
       "bundleId": "com.healthAI.baithek",
       "addedAt": "2026-09-01T13:52:29.693Z",
       "updatedAt": "2026-09-01T13:52:31.837Z"
+    },
+    {
+      "id": "com.asmodee-digital.scytheios",
+      "name": "Scythe Digital Edition",
+      "version": "2.1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scythe-digital-edition-v2.1.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/51/02/565102c9-2504-d8ab-033b-d3cade0068e6/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "228.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.asmodee-digital.scytheios",
+      "addedAt": "2026-09-01T13:53:04.022Z",
+      "updatedAt": "2026-09-01T13:53:04.908Z"
     }
   ]
 }
