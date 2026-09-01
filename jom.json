@@ -12028,6 +12028,22 @@
       "bundleId": "com.MOBGames.PoppyMobileChapterOne",
       "addedAt": "2026-09-01T08:56:02.407Z",
       "updatedAt": "2026-09-01T08:56:19.539Z"
+    },
+    {
+      "id": "com.PoppyMobileChapterTwo.PoppyPlaytimeChapterTwo",
+      "name": "Poppy Play Time Chapter 2",
+      "version": "1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/poppy-play-time-chapter-2-v1.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/14/bf/6a/14bf6a67-f73f-34b3-616f-610808e293c9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1405.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.PoppyMobileChapterTwo.PoppyPlaytimeChapterTwo",
+      "addedAt": "2026-09-01T08:56:51.390Z",
+      "updatedAt": "2026-09-01T08:56:53.829Z"
     }
   ]
 }
