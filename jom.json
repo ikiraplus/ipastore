@@ -12468,6 +12468,22 @@
       "bundleId": "com.10tons.DYSMANTLE",
       "addedAt": "2026-09-01T14:28:08.979Z",
       "updatedAt": "2026-09-01T14:28:15.383Z"
+    },
+    {
+      "id": "com.playdigious.streetsofrage4",
+      "name": "Streets Of Rage 4",
+      "version": "1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streets-of-rage-4-v1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/5c/a9/bf5ca90e-bd64-1888-ed1c-5d0d70230d7a/AppIcons-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1722.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playdigious.streetsofrage4",
+      "addedAt": "2026-09-01T14:29:03.803Z",
+      "updatedAt": "2026-09-01T14:29:20.936Z"
     }
   ]
 }
