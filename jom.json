@@ -12340,6 +12340,22 @@
       "bundleId": "com.2ksports.nba2k23arcade",
       "addedAt": "2026-09-01T14:04:54.193Z",
       "updatedAt": "2026-09-01T14:04:59.920Z"
+    },
+    {
+      "id": "com.agaming.mentalhospitalivhd",
+      "name": "Mental Hospital iv",
+      "version": "1.01",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mental-hospital-v1.01",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/com.agaming.mentalhospitalivhd.png",
+      "previousVersions": [],
+      "size": "329.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.agaming.mentalhospitalivhd",
+      "addedAt": "2026-09-01T14:08:54.813Z",
+      "updatedAt": "2026-09-01T14:09:00.112Z"
     }
   ]
 }
