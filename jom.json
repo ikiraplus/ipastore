@@ -12532,6 +12532,22 @@
       "bundleId": "com.SunblinkEntertainment.HeroesFate",
       "addedAt": "2026-09-01T14:34:09.002Z",
       "updatedAt": "2026-09-01T14:34:14.606Z"
+    },
+    {
+      "id": "com.bluebraingames.thehouseofdavinci3",
+      "name": "The House Of Da Vinci 3",
+      "version": "1.0.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-house-of-da-vinci-3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/77/01/8f/77018f12-ecf1-d33a-e4e1-07805239a5a1/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2655.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.bluebraingames.thehouseofdavinci3",
+      "addedAt": "2026-09-01T14:35:31.231Z",
+      "updatedAt": "2026-09-01T14:35:33.548Z"
     }
   ]
 }
