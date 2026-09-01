@@ -9587,17 +9587,22 @@
     {
       "id": "com.hammerandchisel.discord",
       "name": "Discord unbound",
-      "version": "342.0",
-      "toolVersion": "2.5.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord-342.0-unbound-2.5.1",
+      "version": "343.0.0",
+      "toolVersion": "2.5.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord_v343.0.0_unbound_2.5.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/54/bf/e954bfcc-dbe3-7531-99d9-1696ab804e46/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "109.2 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/discord-342.0-unbound-2.5.1",
+          "version": "342.0"
+        }
+      ],
+      "size": "101.4 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-25T10:59:01.169Z",
-      "updatedAt": "2026-08-30T14:20:39.230Z",
+      "updatedAt": "2026-09-01T08:31:03.655Z",
       "bundleId": "com.hammerandchisel.discord"
     },
     {
