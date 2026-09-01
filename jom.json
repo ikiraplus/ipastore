@@ -12308,6 +12308,22 @@
       "bundleId": "com.blackpants.loveandhate2",
       "addedAt": "2026-09-01T13:59:13.617Z",
       "updatedAt": "2026-09-01T13:59:14.609Z"
+    },
+    {
+      "id": "de.application-systems.lamplightCityiOS",
+      "name": "Lamplight City Mobile",
+      "version": "1.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lamplight-city-mobile-v1.2.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/d0/b0/2ad0b0c0-d2da-2f30-811b-9fc101d35713/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2026.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "de.application-systems.lamplightCityiOS",
+      "addedAt": "2026-09-01T14:01:09.200Z",
+      "updatedAt": "2026-09-01T14:01:33.466Z"
     }
   ]
 }
