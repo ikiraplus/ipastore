@@ -12159,7 +12159,7 @@
     },
     {
       "id": "app.hammel.com",
-      "name": "Hammel",
+      "name": "حمل - Hammel",
       "version": "3.1",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hammel-v3.1",
@@ -12171,7 +12171,7 @@
       "recommended": false,
       "bundleId": "app.hammel.com",
       "addedAt": "2026-09-01T09:05:28.471Z",
-      "updatedAt": "2026-09-01T09:05:32.784Z"
+      "updatedAt": "2026-09-01T13:24:08.104Z"
     }
   ]
 }
