@@ -12452,6 +12452,22 @@
       "bundleId": "com.frozenfrog.DungeonSurvival2",
       "addedAt": "2026-09-01T14:27:17.252Z",
       "updatedAt": "2026-09-01T14:27:19.652Z"
+    },
+    {
+      "id": "com.10tons.DYSMANTLE",
+      "name": "Dysmantle",
+      "version": "1.4.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dysmantle-v1.4.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/20/b6/2120b607-615b-cfe7-753d-5f5acc61e666/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "629.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.10tons.DYSMANTLE",
+      "addedAt": "2026-09-01T14:28:08.979Z",
+      "updatedAt": "2026-09-01T14:28:15.383Z"
     }
   ]
 }
