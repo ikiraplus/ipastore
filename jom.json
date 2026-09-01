@@ -12436,6 +12436,22 @@
       "bundleId": "com.flanne.erabit.20minutes.tilldawn.shooting.roguelike.ios",
       "addedAt": "2026-09-01T14:20:40.302Z",
       "updatedAt": "2026-09-01T14:20:42.331Z"
+    },
+    {
+      "id": "com.frozenfrog.DungeonSurvival2",
+      "name": "Dungeon Survival 2",
+      "version": "1.1.17",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dungeon-survival-2-v1.1.17",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/60/86/e360865a-f146-1dcd-3376-b1cb4584fd03/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "285.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.frozenfrog.DungeonSurvival2",
+      "addedAt": "2026-09-01T14:27:17.252Z",
+      "updatedAt": "2026-09-01T14:27:19.652Z"
     }
   ]
 }
