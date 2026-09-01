@@ -12124,6 +12124,22 @@
       "bundleId": "com.tipsworks.ios.pascalswager",
       "addedAt": "2026-09-01T08:59:15.960Z",
       "updatedAt": "2026-09-01T08:59:17.112Z"
+    },
+    {
+      "id": "com.tinybuildgames.graveyardkeeper",
+      "name": "Graveyard Keeper",
+      "version": "1.129",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/graveyard-keeper_1.129",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/64/ed/ed/64eded36-a5ec-30a8-3225-6da48e642bc0/AppIcon-0-1x_U007emarketing-0-85-220-7.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "622.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.tinybuildgames.graveyardkeeper",
+      "addedAt": "2026-09-01T09:00:01.769Z",
+      "updatedAt": "2026-09-01T09:00:23.967Z"
     }
   ]
 }
