@@ -12388,6 +12388,22 @@
       "bundleId": "com.elladagames.niffelheim",
       "addedAt": "2026-09-01T14:12:42.412Z",
       "updatedAt": "2026-09-01T14:12:44.470Z"
+    },
+    {
+      "id": "com.snkplaymore.samsho2",
+      "name": "Samurai Shodown Ii",
+      "version": "1.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/samurai-shodown-ii-v1.2.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/6c/e1/b0/6ce1b0d4-5656-9ab7-369b-8ea0d8e79728/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "64.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.snkplaymore.samsho2",
+      "addedAt": "2026-09-01T14:17:12.260Z",
+      "updatedAt": "2026-09-01T14:17:14.828Z"
     }
   ]
 }
