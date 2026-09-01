@@ -12228,6 +12228,22 @@
       "bundleId": "Vblank.Retro-City-Rampage-DX-iOS",
       "addedAt": "2026-09-01T13:54:31.506Z",
       "updatedAt": "2026-09-01T13:54:33.664Z"
+    },
+    {
+      "id": "com.marmalade.gol2",
+      "name": "The Game Of Life 2",
+      "version": "1.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-game-of-life-2-v1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/6b/3f/346b3fa2-96e3-4338-f0be-bd70c3c50ffc/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "752.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.marmalade.gol2",
+      "addedAt": "2026-09-01T13:55:30.675Z",
+      "updatedAt": "2026-09-01T13:55:32.542Z"
     }
   ]
 }
