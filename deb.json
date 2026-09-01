@@ -1369,6 +1369,23 @@
       "bundleId": "",
       "addedAt": "2026-09-01T08:35:06.112Z",
       "updatedAt": "2026-09-01T08:35:08.040Z"
+    },
+    {
+      "id": "dylib-1788251761053",
+      "name": "TwControl Tweak",
+      "version": "0.0.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/TwitchControl-0.0.6",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx2nJn4bk6RJcYzjdm9Ai0xwKx1ldsrRvKwQlFnGTbaw&s=10",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.8 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "bundleId": "",
+      "addedAt": "2026-09-01T08:36:01.053Z",
+      "updatedAt": "2026-09-01T08:36:03.694Z"
     }
   ]
 }
