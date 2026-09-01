@@ -12092,6 +12092,22 @@
       "bundleId": "com.thumbnailmaker.bannermaker",
       "addedAt": "2026-09-01T08:58:31.527Z",
       "updatedAt": "2026-09-01T08:58:34.535Z"
+    },
+    {
+      "id": "com.MobEntertainment.PoppyPlaytimeChapter4",
+      "name": "Poppy Play Time Chapter 4",
+      "version": "1.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/poppy-play-time-chapter-4-v1.2",
+      "icon": "",
+      "previousVersions": [],
+      "size": "2192.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.MobEntertainment.PoppyPlaytimeChapter4",
+      "addedAt": "2026-09-01T08:58:51.585Z",
+      "updatedAt": "2026-09-01T08:58:53.025Z"
     }
   ]
 }
