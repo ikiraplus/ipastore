@@ -12099,7 +12099,7 @@
       "version": "1.2",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/poppy-play-time-chapter-4-v1.2",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/96/da/1596da58-cb6b-d99b-cea4-91dceadc79fd/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
       "previousVersions": [],
       "size": "2192.1 MB",
       "note": "",
@@ -12107,7 +12107,7 @@
       "recommended": false,
       "bundleId": "com.MobEntertainment.PoppyPlaytimeChapter4",
       "addedAt": "2026-09-01T08:58:51.585Z",
-      "updatedAt": "2026-09-01T08:58:53.025Z"
+      "updatedAt": "2026-09-01T09:02:53.368Z"
     },
     {
       "id": "com.tipsworks.ios.pascalswager",
