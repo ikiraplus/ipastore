@@ -3881,15 +3881,23 @@
     {
       "id": "com.rovio.dream",
       "name": "angry birds dream",
-      "version": "2.0.2",
+      "version": "2.7.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-dream",
       "icon": "https://play-lh.googleusercontent.com/Poj7eNOavvpolZGv2aaMX7ZyWFAQHeFHf-HQqlSvpXgKT0rgYSz4eVAqZE8DZFT2HJjD37iEUYCqrrqvhSNyNCY",
-      "size": "184.1 MB",
+      "size": "199.3 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:26:07.666Z",
-      "updatedAt": "2026-08-24T06:47:38.227Z",
-      "bundleId": "com.rovio.dream"
+      "updatedAt": "2026-09-01T13:51:09.706Z",
+      "bundleId": "com.rovio.dream",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-dream",
+          "version": "2.0.2"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "com.rovio.angrybirdstransformers",
