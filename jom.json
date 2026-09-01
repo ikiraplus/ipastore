@@ -12276,6 +12276,22 @@
       "bundleId": "com.tresebrothers.games.heroesofsteelelite",
       "addedAt": "2026-09-01T13:58:23.658Z",
       "updatedAt": "2026-09-01T13:58:25.679Z"
+    },
+    {
+      "id": "com.blackpants.LoveAndHateHD",
+      "name": "About Love And Hate",
+      "version": "2.0.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/about-love-and-hate-v2.0.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/7c/e2/f87ce21d-c2e3-201e-65c9-4ee06f06307f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "51.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.blackpants.LoveAndHateHD",
+      "addedAt": "2026-09-01T13:58:42.611Z",
+      "updatedAt": "2026-09-01T13:58:43.727Z"
     }
   ]
 }
