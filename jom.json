@@ -12260,6 +12260,22 @@
       "bundleId": "com.gameloft.baseballrivals",
       "addedAt": "2026-09-01T13:56:08.326Z",
       "updatedAt": "2026-09-01T13:56:18.119Z"
+    },
+    {
+      "id": "com.tresebrothers.games.heroesofsteelelite",
+      "name": "Heroes Of Steel Rpg Elite",
+      "version": "5.1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/heroes_of_steel_rpg_elite_v5.1.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d7/91/54/d7915400-5eab-c690-9230-d632545e5ba4/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "87.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.tresebrothers.games.heroesofsteelelite",
+      "addedAt": "2026-09-01T13:58:23.658Z",
+      "updatedAt": "2026-09-01T13:58:25.679Z"
     }
   ]
 }
