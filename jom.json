@@ -11996,6 +11996,22 @@
       "bundleId": "com.go-tellm.tellm",
       "addedAt": "2026-08-31T20:34:47.412Z",
       "updatedAt": "2026-08-31T20:34:49.788Z"
+    },
+    {
+      "id": "tv.twitch",
+      "name": "Twitch TC+TW",
+      "version": "31.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twitch_31.0_tw-tc",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/98/f7/da98f76a-b494-11ef-df3a-2ee81e8a67e8/TwitchAppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "172.0 MB",
+      "note": "مدمج بأداة TC - TW",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "tv.twitch",
+      "addedAt": "2026-09-01T08:32:20.437Z",
+      "updatedAt": "2026-09-01T08:32:23.450Z"
     }
   ]
 }
