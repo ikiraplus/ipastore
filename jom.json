@@ -12484,6 +12484,22 @@
       "bundleId": "com.playdigious.streetsofrage4",
       "addedAt": "2026-09-01T14:29:03.803Z",
       "updatedAt": "2026-09-01T14:29:20.936Z"
+    },
+    {
+      "id": "com.hg.wreckfest.trial",
+      "name": "Wreckfest",
+      "version": "1.0.88",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wreckfest-v1.0.88",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/e1/47/58e14799-ab44-4024-e7fd-ef22ec22a8d7/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "879.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.hg.wreckfest.trial",
+      "addedAt": "2026-09-01T14:30:16.183Z",
+      "updatedAt": "2026-09-01T14:30:29.389Z"
     }
   ]
 }
