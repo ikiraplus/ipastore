@@ -12180,6 +12180,22 @@
       "bundleId": "app.hammel.com",
       "addedAt": "2026-09-01T09:05:28.471Z",
       "updatedAt": "2026-09-01T13:24:08.104Z"
+    },
+    {
+      "id": "com.healthAI.baithek",
+      "name": "Chatbot AI Healthcare",
+      "version": "3.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chatbot-ai-healthcare",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/ee/8e/1bee8ea7-c9b2-f7fe-a744-b79fc533e9b6/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "22.1 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.healthAI.baithek",
+      "addedAt": "2026-09-01T13:52:29.693Z",
+      "updatedAt": "2026-09-01T13:52:31.837Z"
     }
   ]
 }
