@@ -6890,18 +6890,18 @@
     {
       "id": "com.madfingergames.Samurai2",
       "name": "Samurai 2 Vengeance",
-      "version": "1.5.0",
+      "version": "1.4.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/samurai-2-vengeance",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/samurai-2-vengeance-v1.4.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/74/22/a9/7422a9d8-435a-4876-3fbb-b791e52c9e30/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
       "previousVersions": [],
-      "size": "64.9 MB",
+      "size": "64.4 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
-      "addedAt": "2026-08-20T11:07:53.943Z",
-      "updatedAt": "2026-08-24T06:18:11.065Z",
-      "bundleId": "com.madfingergames.Samurai2"
+      "bundleId": "com.madfingergames.Samurai2",
+      "addedAt": "2026-09-01T14:10:41.937Z",
+      "updatedAt": "2026-09-01T14:10:44.226Z"
     },
     {
       "id": "com.frigate.grannyeyes",
