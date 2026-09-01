@@ -12076,6 +12076,22 @@
       "bundleId": "com.contentarcade.ThumbnailMaker",
       "addedAt": "2026-09-01T08:57:54.445Z",
       "updatedAt": "2026-09-01T08:57:56.296Z"
+    },
+    {
+      "id": "com.thumbnailmaker.bannermaker",
+      "name": "Thumbnail Maker Banner Maker",
+      "version": "1.34",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/thumbnail-maker-banner-maker_1.34",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/0d/f0/be0df065-c694-fbf6-8800-29c3a8633972/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "198.6 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.thumbnailmaker.bannermaker",
+      "addedAt": "2026-09-01T08:58:31.527Z",
+      "updatedAt": "2026-09-01T08:58:34.535Z"
     }
   ]
 }
