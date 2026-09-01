@@ -12420,6 +12420,22 @@
       "bundleId": "com.ultimatestudio.hotlapleague",
       "addedAt": "2026-09-01T14:17:56.874Z",
       "updatedAt": "2026-09-01T14:18:28.953Z"
+    },
+    {
+      "id": "com.flanne.erabit.20minutes.tilldawn.shooting.roguelike.ios",
+      "name": "20 Minutes Till Dawn",
+      "version": "6.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/20-minutes-till-dawn-premium-v6.0b691",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/97/26/b69726d1-d835-2a7d-f7c6-795d2c12807a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "51.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.flanne.erabit.20minutes.tilldawn.shooting.roguelike.ios",
+      "addedAt": "2026-09-01T14:20:40.302Z",
+      "updatedAt": "2026-09-01T14:20:42.331Z"
     }
   ]
 }
