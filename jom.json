@@ -12292,6 +12292,22 @@
       "bundleId": "com.blackpants.LoveAndHateHD",
       "addedAt": "2026-09-01T13:58:42.611Z",
       "updatedAt": "2026-09-01T13:58:43.727Z"
+    },
+    {
+      "id": "com.blackpants.loveandhate2",
+      "name": "About Love And Hate 2",
+      "version": "1.1.12",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/about_love_and_hate_2_v1.1.12",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/bf/0b/46bf0b51-96de-39d9-a8ee-7b4ddb7736c5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "147.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.blackpants.loveandhate2",
+      "addedAt": "2026-09-01T13:59:13.617Z",
+      "updatedAt": "2026-09-01T13:59:14.609Z"
     }
   ]
 }
