@@ -12372,6 +12372,22 @@
       "bundleId": "brownmonster.app.game.RushRallyRemastered",
       "addedAt": "2026-09-01T14:11:00.071Z",
       "updatedAt": "2026-09-01T14:11:00.971Z"
+    },
+    {
+      "id": "com.elladagames.niffelheim",
+      "name": "Niffelheim",
+      "version": "1.6.161",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/niffelheim-v1.6.161",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/53/39/7f53396a-9c04-892a-1c89-d5dcc79b54ca/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "248.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.elladagames.niffelheim",
+      "addedAt": "2026-09-01T14:12:42.412Z",
+      "updatedAt": "2026-09-01T14:12:44.470Z"
     }
   ]
 }
