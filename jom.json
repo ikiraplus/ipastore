@@ -12324,6 +12324,22 @@
       "bundleId": "de.application-systems.lamplightCityiOS",
       "addedAt": "2026-09-01T14:01:09.200Z",
       "updatedAt": "2026-09-01T14:01:33.466Z"
+    },
+    {
+      "id": "com.2ksports.nba2k23arcade",
+      "name": "Nba 2k23 Arcade Edition",
+      "version": "1.40",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nba-2k23-arcade-edition-v1.40",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/com.2ksports.nba2k23arcade.png",
+      "previousVersions": [],
+      "size": "1725.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.2ksports.nba2k23arcade",
+      "addedAt": "2026-09-01T14:04:54.193Z",
+      "updatedAt": "2026-09-01T14:04:59.920Z"
     }
   ]
 }
