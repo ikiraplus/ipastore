@@ -12516,6 +12516,22 @@
       "bundleId": "com.steelwoolstudios.fnafhw",
       "addedAt": "2026-09-01T14:32:50.316Z",
       "updatedAt": "2026-09-01T14:33:02.394Z"
+    },
+    {
+      "id": "com.SunblinkEntertainment.HeroesFate",
+      "name": "Heroish",
+      "version": "1.4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/heroish-v1.4.0",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/com.SunblinkEntertainment.HeroesFate.png",
+      "previousVersions": [],
+      "size": "1193.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.SunblinkEntertainment.HeroesFate",
+      "addedAt": "2026-09-01T14:34:09.002Z",
+      "updatedAt": "2026-09-01T14:34:14.606Z"
     }
   ]
 }
