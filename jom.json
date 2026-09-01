@@ -12580,6 +12580,22 @@
       "bundleId": "com.almulazimanas.almulazimanas",
       "addedAt": "2026-09-01T14:49:29.941Z",
       "updatedAt": "2026-09-01T14:49:32.158Z"
+    },
+    {
+      "id": "us.kr.baseballnine",
+      "name": "Baseball",
+      "version": "9.392",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/baseball-9.392",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/b7/ef/52b7ef1b-b25b-9dd0-87a3-613dbf842783/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "393.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "us.kr.baseballnine",
+      "addedAt": "2026-09-01T17:50:03.943Z",
+      "updatedAt": "2026-09-01T17:50:09.107Z"
     }
   ]
 }
