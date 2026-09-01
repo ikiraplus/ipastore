@@ -12356,6 +12356,22 @@
       "bundleId": "com.agaming.mentalhospitalivhd",
       "addedAt": "2026-09-01T14:08:54.813Z",
       "updatedAt": "2026-09-01T14:09:00.112Z"
+    },
+    {
+      "id": "brownmonster.app.game.RushRallyRemastered",
+      "name": "Rush Rally Origins",
+      "version": "1.67",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rush-rally-origins-v1.67",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/1b/7a/661b7a41-6045-1681-1b33-507be1929e2a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "81.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "brownmonster.app.game.RushRallyRemastered",
+      "addedAt": "2026-09-01T14:11:00.071Z",
+      "updatedAt": "2026-09-01T14:11:00.971Z"
     }
   ]
 }
