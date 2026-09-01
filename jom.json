@@ -12212,6 +12212,22 @@
       "bundleId": "com.asmodee-digital.scytheios",
       "addedAt": "2026-09-01T13:53:04.022Z",
       "updatedAt": "2026-09-01T13:53:04.908Z"
+    },
+    {
+      "id": "Vblank.Retro-City-Rampage-DX-iOS",
+      "name": "Retro City Rampage Dx",
+      "version": "2.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/retro-city-rampage-dx-v2.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/f0/28/d3f028f1-48cd-c876-3356-8179bd4293ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "9.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "Vblank.Retro-City-Rampage-DX-iOS",
+      "addedAt": "2026-09-01T13:54:31.506Z",
+      "updatedAt": "2026-09-01T13:54:33.664Z"
     }
   ]
 }
