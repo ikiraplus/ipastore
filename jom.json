@@ -12548,6 +12548,22 @@
       "bundleId": "com.bluebraingames.thehouseofdavinci3",
       "addedAt": "2026-09-01T14:35:31.231Z",
       "updatedAt": "2026-09-01T14:35:33.548Z"
+    },
+    {
+      "id": "com.bluebraingames.thehouseofdavinci",
+      "name": "The House Of Da Vinci",
+      "version": "1.0.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-house-of-da-vinci-v1.0.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/3d/b6/af/3db6af2a-297c-0d3f-9542-8a408a79b5a2/AppIcon-0-0-1x_U007emarketing-0-0-0-9-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "477.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.bluebraingames.thehouseofdavinci",
+      "addedAt": "2026-09-01T14:40:48.821Z",
+      "updatedAt": "2026-09-01T14:41:12.583Z"
     }
   ]
 }
