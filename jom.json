@@ -12244,6 +12244,22 @@
       "bundleId": "com.marmalade.gol2",
       "addedAt": "2026-09-01T13:55:30.675Z",
       "updatedAt": "2026-09-01T13:55:32.542Z"
+    },
+    {
+      "id": "com.gameloft.baseballrivals",
+      "name": "Ballistic Baseball",
+      "version": "1.12.15",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ballistic_baseball_v1.12.15",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/ff/79/1f/ff791f18-3a52-b0cc-0218-2747fa570523/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "749.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gameloft.baseballrivals",
+      "addedAt": "2026-09-01T13:56:08.326Z",
+      "updatedAt": "2026-09-01T13:56:18.119Z"
     }
   ]
 }
