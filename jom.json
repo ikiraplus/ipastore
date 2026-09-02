@@ -12627,6 +12627,22 @@
       "bundleId": "ca.lbcstudios.hempire",
       "addedAt": "2026-09-02T11:31:36.548Z",
       "updatedAt": "2026-09-02T11:31:38.792Z"
+    },
+    {
+      "id": "com.Frumpydoodle-Games.All-Who-Wander",
+      "name": "All Who Wander",
+      "version": "1.3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/all-who-wander-1.3.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/3d/f5/813df5e1-b115-4953-57d5-9abab4398d08/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "86.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.Frumpydoodle-Games.All-Who-Wander",
+      "addedAt": "2026-09-02T11:33:31.140Z",
+      "updatedAt": "2026-09-02T11:33:32.245Z"
     }
   ]
 }
