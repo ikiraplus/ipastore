@@ -1826,16 +1826,19 @@
     },
     {
       "id": "jp.co.bandainamcogames.BNGI0221",
-      "name": "Dragon Ball Z Dokkan Battle",
-      "version": "5.23.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dragon-ball-pro",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/df/8a/aadf8a17-afdb-c24c-f4a4-0ca72cff797f/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
-      "size": "900 MB",
-      "note": "تطبيق معدل من iosgods",
+      "name": "Dokkan Battle",
+      "version": "6.5.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dokkan-battle-6.5.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/ab/f8/08abf802-51d2-a768-3a82-009f2762e8b1/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1004.8 MB",
+      "note": "",
       "category": "ألعاب",
-      "addedAt": "2026-03-29",
+      "recommended": false,
       "bundleId": "jp.co.bandainamcogames.BNGI0221",
-      "updatedAt": "2026-08-24T13:20:40.310Z"
+      "addedAt": "2026-09-02T11:32:13.514Z",
+      "updatedAt": "2026-09-02T11:32:20.587Z"
     },
     {
       "id": "com.dts.freefiremaxs",
