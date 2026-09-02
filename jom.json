@@ -6724,11 +6724,15 @@
     {
       "id": "com.youssef.developer.Full-Browser",
       "name": "Tor Browser The Onion Vpn",
-      "version": "12.1",
+      "version": "12.2",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tor_browser_the_onion-vpn_v12.1_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tor_browser_the_onion_-_vpn_v12.2_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/85/73/988573d2-3554-98a1-37fe-edf10db63997/AppIcon-Old-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tor_browser_the_onion-vpn_v12.1_subscription_unlocked",
+          "version": "12.1"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tor_browser_the_onion_-_vpn_v12.0_subscription_unlocked",
           "version": "12.0"
@@ -6739,7 +6743,7 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-19T13:19:06.102Z",
-      "updatedAt": "2026-08-28T16:51:04.831Z",
+      "updatedAt": "2026-09-02T11:44:38.412Z",
       "bundleId": "com.youssef.developer.Full-Browser"
     },
     {
