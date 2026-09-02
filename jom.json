@@ -6470,18 +6470,23 @@
     },
     {
       "id": "night.ntv1.iQTv",
-      "name": "iQ Tv",
-      "version": "3.0",
+      "name": "iQTv",
+      "version": "3.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f6/c3/83/f6c38342-856e-cbba-a312-5aeeec0b46aa/AppIcon-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv-3.1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/night.ntv1.iQTv.png",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv",
+          "version": "3.0"
+        }
+      ],
       "size": "20.7 MB",
       "note": "",
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-08-17T07:47:02.039Z",
-      "updatedAt": "2026-08-24T06:15:41.993Z",
+      "updatedAt": "2026-09-02T11:47:54.707Z",
       "bundleId": "night.ntv1.iQTv"
     },
     {
