@@ -2537,6 +2537,19 @@
       "bundleId": "co.albox.cinema"
     },
     {
+      "id": "net.halasat.tv",
+      "name": "شاشتي",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shashety-شاشتي-7.0.21",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e2/dc/7a/e2dc7a81-2596-f132-ba0a-bfd90a3d2831/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "size": "16 MB",
+      "note": "يعمل مع إنترنت Earthlink وشركات تزويده\n(عند تحميل الأفلام لا تظهر الترجمة)",
+      "category": "ترفيه",
+      "addedAt": "2026-03-29",
+      "bundleId": "net.halasat.tv",
+      "updatedAt": "2026-08-24T06:14:56.716Z"
+    },
+    {
       "id": "com.dreamora",
       "name": "Streameast no ads",
       "version": "1.1.1",
@@ -2561,31 +2574,6 @@
       "addedAt": "2026-03-29",
       "bundleId": "com.xd.mbp31",
       "updatedAt": "2026-08-24T06:18:14.884Z"
-    },
-    {
-      "id": "com.spotify.client",
-      "name": "Spotify GS",
-      "version": "9.1.78",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_es",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
-      "size": "128.3 MB",
-      "note": "تفعيل ميزة Premium تلقائيا",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
-          "version": "9.1.76"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
-          "version": "9.1.74"
-        }
-      ],
-      "recommended": false,
-      "updatedAt": "2026-08-25T07:33:56.424Z",
-      "bundleId": "com.spotify.client"
     },
     {
       "id": "com.fiksu",
@@ -2897,17 +2885,29 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "net.halasat.tv",
-      "name": "شاشتي",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shashety-شاشتي-7.0.21",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e2/dc/7a/e2dc7a81-2596-f132-ba0a-bfd90a3d2831/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-      "size": "16 MB",
-      "note": "يعمل مع إنترنت Earthlink وشركات تزويده\n(عند تحميل الأفلام لا تظهر الترجمة)",
+      "id": "com.spotify.client",
+      "name": "Spotify GS",
+      "version": "9.1.78",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_es",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
+      "size": "128.3 MB",
+      "note": "تفعيل ميزة Premium تلقائيا",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "bundleId": "net.halasat.tv",
-      "updatedAt": "2026-08-24T06:14:56.716Z"
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
+          "version": "9.1.76"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
+          "version": "9.1.74"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-08-25T07:33:56.424Z",
+      "bundleId": "com.spotify.client"
     },
     {
       "id": "fun.ask",
