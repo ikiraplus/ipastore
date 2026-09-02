@@ -5933,7 +5933,7 @@
       "name": "PinaTv Pro",
       "version": "2.6",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-pro_2.6",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-pro_2.6-new",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784914075063.png",
       "previousVersions": [
         {
@@ -5946,7 +5946,7 @@
       "category": "ترفيه",
       "recommended": false,
       "addedAt": "2026-07-24T17:28:07.767Z",
-      "updatedAt": "2026-08-24T06:15:49.389Z",
+      "updatedAt": "2026-09-02T16:05:55.450Z",
       "bundleId": "com.kevin.pinatv"
     },
     {
