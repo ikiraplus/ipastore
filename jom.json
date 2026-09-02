@@ -126,13 +126,13 @@
       "id": "com.burbn.instagram",
       "name": "instagram DL",
       "version": "441.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-dl_441.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-dl_441.0.0-new",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/0e/9d/f10e9d3f-f0f1-ed93-5b07-ea71bcfb95a3/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
       "size": "305.1 MB",
       "note": "لتفعيل مميزات التطبيق:\n- اضغط على زر Home ضغطة طويلة",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T05:42:18.546Z",
+      "updatedAt": "2026-09-02T16:05:07.718Z",
       "toolVersion": "2.5",
       "previousVersions": [
         {
