@@ -3142,29 +3142,17 @@
       "bundleId": "com.miHoYo.bh3global"
     },
     {
-      "id": "com.soundcloud.TouchApp",
-      "name": "Sound Cloud Noads",
-      "version": "8.76.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.76.0-noads",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/94/21/7e94213b-a1d6-a37b-e2e3-fe6ca2fb66d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "116.1 MB",
+      "id": "com.lastsoult.aanime",
+      "name": "Anime Slayer",
+      "version": "3.3.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer",
+      "icon": "https://cdn-www.bluestacks.com/bs-images/Icon_com.anslayer.jpg",
+      "size": "17.1 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-04-28T07:14:22.721Z",
-      "updatedAt": "2026-08-31T17:08:22.815Z",
-      "toolVersion": "2.0",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
-          "version": "8.73.0"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-v8.70.0-b3",
-          "version": "8.70.0"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "com.soundcloud.TouchApp"
+      "addedAt": "2026-07-06T16:02:57.053Z",
+      "updatedAt": "2026-08-24T06:15:14.535Z",
+      "bundleId": "com.lastsoult.aanime"
     },
     {
       "id": "com.cornfox.oceanhorn2",
@@ -3265,17 +3253,29 @@
       "bundleId": "com.pubg.krmobile"
     },
     {
-      "id": "com.madplay.ikiraplus",
-      "name": "MadPlay",
-      "version": "1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/madplay-noads",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652894490.png",
-      "size": "6.7 MB",
-      "note": "تطبيق لمشاهدة القنوات الرياضية المشفرة (بين سبورت، الثامنة، شاهد، وغيرها)\nويحتوي على قسم خاص بالأفلام والمسلسلات\nبدون إعلانات",
+      "id": "com.soundcloud.TouchApp",
+      "name": "Sound Cloud Noads",
+      "version": "8.76.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.76.0-noads",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/94/21/7e94213b-a1d6-a37b-e2e3-fe6ca2fb66d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "116.1 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-05-01T16:28:16.260Z",
-      "updatedAt": "2026-08-24T06:42:46.285Z",
-      "bundleId": "com.madplay.ikiraplus"
+      "addedAt": "2026-04-28T07:14:22.721Z",
+      "updatedAt": "2026-08-31T17:08:22.815Z",
+      "toolVersion": "2.0",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
+          "version": "8.73.0"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-v8.70.0-b3",
+          "version": "8.70.0"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "com.soundcloud.TouchApp"
     },
     {
       "id": "com.ares.twd",
@@ -3732,17 +3732,17 @@
       "bundleId": "com.carx-tech.carxdr3"
     },
     {
-      "id": "com.yalla-shoot.Yalla",
-      "name": "يلا شوت",
-      "version": "2.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yalla-shoot-noads",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777653026917.png",
-      "size": "31.4 MB",
-      "note": "",
+      "id": "com.madplay.ikiraplus",
+      "name": "MadPlay",
+      "version": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/madplay-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652894490.png",
+      "size": "6.7 MB",
+      "note": "تطبيق لمشاهدة القنوات الرياضية المشفرة (بين سبورت، الثامنة، شاهد، وغيرها)\nويحتوي على قسم خاص بالأفلام والمسلسلات\nبدون إعلانات",
       "category": "ترفيه",
-      "addedAt": "2026-05-01T16:30:28.921Z",
-      "updatedAt": "2026-08-24T06:16:20.704Z",
-      "bundleId": "com.yalla-shoot.Yalla"
+      "addedAt": "2026-05-01T16:28:16.260Z",
+      "updatedAt": "2026-08-24T06:42:46.285Z",
+      "bundleId": "com.madplay.ikiraplus"
     },
     {
       "id": "com.dreamgames.royalmatch",
@@ -4405,6 +4405,19 @@
       "bundleId": "co.bazaart.app"
     },
     {
+      "id": "com.yalla-shoot.Yalla",
+      "name": "يلا شوت",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yalla-shoot-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777653026917.png",
+      "size": "31.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-01T16:30:28.921Z",
+      "updatedAt": "2026-08-24T06:16:20.704Z",
+      "bundleId": "com.yalla-shoot.Yalla"
+    },
+    {
       "id": "com.ikiraplus.cinemana",
       "name": "سينمانا القديمة",
       "version": "3.4.2",
@@ -4416,19 +4429,6 @@
       "addedAt": "2026-05-08T15:57:11.135Z",
       "updatedAt": "2026-08-24T06:16:50.368Z",
       "bundleId": "com.ikiraplus.cinemana"
-    },
-    {
-      "id": "com.Semicolon.Maraya",
-      "name": "مرايا",
-      "version": "11.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maraya_11.1",
-      "icon": "https://maraya.faulio.com/storage/mediagallery/e8/ff/single_2e4f61a0855196f083956d4f564b44b63803cb04.jpg",
-      "size": "24.8 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-05-08T16:15:04.439Z",
-      "updatedAt": "2026-08-24T06:15:57.546Z",
-      "bundleId": "com.Semicolon.Maraya"
     },
     {
       "id": "com.miniclip.drone1",
@@ -4770,6 +4770,19 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.Semicolon.Maraya",
+      "name": "مرايا",
+      "version": "11.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maraya_11.1",
+      "icon": "https://maraya.faulio.com/storage/mediagallery/e8/ff/single_2e4f61a0855196f083956d4f564b44b63803cb04.jpg",
+      "size": "24.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-08T16:15:04.439Z",
+      "updatedAt": "2026-08-24T06:15:57.546Z",
+      "bundleId": "com.Semicolon.Maraya"
+    },
+    {
       "id": "com.aloula",
       "name": "الاولى",
       "version": "2.1.2",
@@ -4807,19 +4820,6 @@
       "addedAt": "2026-06-19T14:45:04.206Z",
       "updatedAt": "2026-08-24T06:15:45.809Z",
       "bundleId": "com.vacotv.app"
-    },
-    {
-      "id": "com.poopapps.animex",
-      "name": "anime x",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animex",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/ae/69/1aae69d0-78fc-c1d2-bde6-9705811235e2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/460x0w.png",
-      "size": "26.8 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-06-19T14:46:28.156Z",
-      "updatedAt": "2026-08-24T06:16:04.072Z",
-      "bundleId": "com.poopapps.animex"
     },
     {
       "id": "net.peakgames.kammelna",
@@ -4868,6 +4868,19 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.poopapps.animex",
+      "name": "anime x",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animex",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/ae/69/1aae69d0-78fc-c1d2-bde6-9705811235e2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/460x0w.png",
+      "size": "26.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-06-19T14:46:28.156Z",
+      "updatedAt": "2026-08-24T06:16:04.072Z",
+      "bundleId": "com.poopapps.animex"
+    },
+    {
       "id": "com.kira.cinemanaa.x",
       "name": "سينمانا X لكل الشبكات",
       "version": "4.1.0",
@@ -4892,19 +4905,6 @@
       "addedAt": "2026-07-05T14:17:32.170Z",
       "updatedAt": "2026-08-24T06:13:56.525Z",
       "bundleId": "com.flow.tube"
-    },
-    {
-      "id": "com.lastsoult.aanime",
-      "name": "Anime Slayer",
-      "version": "3.3.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer",
-      "icon": "https://cdn-www.bluestacks.com/bs-images/Icon_com.anslayer.jpg",
-      "size": "17.1 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-06T16:02:57.053Z",
-      "updatedAt": "2026-08-24T06:15:14.535Z",
-      "bundleId": "com.lastsoult.aanime"
     },
     {
       "id": "com.zhiliaoapp.musically",
