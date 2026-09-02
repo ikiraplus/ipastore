@@ -2949,6 +2949,19 @@
       "updatedAt": "2026-08-24T06:18:14.884Z"
     },
     {
+      "id": "com.kira.cinemanaa.x",
+      "name": "سينمانا X لكل الشبكات",
+      "version": "4.1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-x",
+      "icon": "https://play-lh.googleusercontent.com/gADral9GuTv1-ue5EQbifq2mX0vkBamrT83iaL88PfAP_IuWAXWt-fumX4iJ5QQdL7atuXTewdpyb0vDBxg6cA",
+      "size": "44.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-05T14:15:43.368Z",
+      "updatedAt": "2026-08-24T06:17:18.593Z",
+      "bundleId": "com.kira.cinemanaa.x"
+    },
+    {
       "id": "com.spotify.client",
       "name": "Spotify GS",
       "version": "9.1.78",
@@ -2972,27 +2985,6 @@
       "recommended": false,
       "updatedAt": "2026-08-25T07:33:56.424Z",
       "bundleId": "com.spotify.client"
-    },
-    {
-      "id": "ali.Bawa",
-      "name": "bawa",
-      "version": "1.4.6",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bawa_1.4.6",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779049196.png",
-      "size": "5.2 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T06:13:59.066Z",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bawa_1.2-1",
-          "version": "1.2"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "ali.Bawa"
     },
     {
       "id": "com.frontrow.vlog",
@@ -3045,17 +3037,25 @@
       "bundleId": "com.hassantaleb.mockup"
     },
     {
-      "id": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
-      "name": "Rodjo",
-      "version": "2.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rodjo-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/76/1f/9d761f97-0595-d5ea-6e2e-688ea8dd3bf0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "13.9 MB",
-      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5129",
+      "id": "ali.Bawa",
+      "name": "bawa",
+      "version": "1.4.6",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bawa_1.4.6",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779049196.png",
+      "size": "5.2 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
-      "updatedAt": "2026-08-24T06:14:48.773Z"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-08-24T06:13:59.066Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bawa_1.2-1",
+          "version": "1.2"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "ali.Bawa"
     },
     {
       "id": "com.nekki.shadowfightarena",
@@ -3139,17 +3139,17 @@
       "bundleId": "com.miHoYo.bh3global"
     },
     {
-      "id": "com.forfun.MovieBox-TV",
-      "name": "موفي بوكس",
-      "version": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moviebox.tv_1.0_1774777428-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779141279.png",
-      "size": "4.1 MB",
-      "note": "",
+      "id": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
+      "name": "Rodjo",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rodjo-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/76/1f/9d761f97-0595-d5ea-6e2e-688ea8dd3bf0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "size": "13.9 MB",
+      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5129",
       "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "bundleId": "com.forfun.MovieBox-TV",
-      "updatedAt": "2026-08-24T06:13:51.816Z"
+      "addedAt": "2026-03-15",
+      "bundleId": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
+      "updatedAt": "2026-08-24T06:14:48.773Z"
     },
     {
       "id": "com.cornfox.oceanhorn2",
@@ -3250,20 +3250,17 @@
       "bundleId": "com.pubg.krmobile"
     },
     {
-      "id": "joker.app",
-      "name": "الجوكر سبورت",
-      "version": "1.0.40",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/joker-sport-mod2",
-      "icon": "https://ipaomtk.com/wp-content/uploads/2025/02/%D8%A7%D9%84%D8%AC%D9%88%D9%83%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-300x300.webp",
-      "size": "96.9 MB",
+      "id": "com.forfun.MovieBox-TV",
+      "name": "موفي بوكس",
+      "version": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moviebox.tv_1.0_1774777428-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779141279.png",
+      "size": "4.1 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T06:20:14.282Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false,
-      "bundleId": "joker.app"
+      "bundleId": "com.forfun.MovieBox-TV",
+      "updatedAt": "2026-08-24T06:13:51.816Z"
     },
     {
       "id": "com.ares.twd",
@@ -3720,29 +3717,20 @@
       "bundleId": "com.carx-tech.carxdr3"
     },
     {
-      "id": "com.soundcloud.TouchApp",
-      "name": "Sound Cloud Noads",
-      "version": "8.76.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.76.0-noads",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/94/21/7e94213b-a1d6-a37b-e2e3-fe6ca2fb66d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "116.1 MB",
+      "id": "joker.app",
+      "name": "الجوكر سبورت",
+      "version": "1.0.40",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/joker-sport-mod2",
+      "icon": "https://ipaomtk.com/wp-content/uploads/2025/02/%D8%A7%D9%84%D8%AC%D9%88%D9%83%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-300x300.webp",
+      "size": "96.9 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-04-28T07:14:22.721Z",
-      "updatedAt": "2026-08-31T17:08:22.815Z",
-      "toolVersion": "2.0",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
-          "version": "8.73.0"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-v8.70.0-b3",
-          "version": "8.70.0"
-        }
-      ],
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-08-24T06:20:14.282Z",
+      "toolVersion": "",
+      "previousVersions": [],
       "recommended": false,
-      "bundleId": "com.soundcloud.TouchApp"
+      "bundleId": "joker.app"
     },
     {
       "id": "com.dreamgames.royalmatch",
@@ -4405,6 +4393,31 @@
       "bundleId": "co.bazaart.app"
     },
     {
+      "id": "com.soundcloud.TouchApp",
+      "name": "Sound Cloud Noads",
+      "version": "8.76.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.76.0-noads",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/94/21/7e94213b-a1d6-a37b-e2e3-fe6ca2fb66d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "116.1 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-04-28T07:14:22.721Z",
+      "updatedAt": "2026-08-31T17:08:22.815Z",
+      "toolVersion": "2.0",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
+          "version": "8.73.0"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-v8.70.0-b3",
+          "version": "8.70.0"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "com.soundcloud.TouchApp"
+    },
+    {
       "id": "com.madplay.ikiraplus",
       "name": "MadPlay",
       "version": "1.1",
@@ -4416,19 +4429,6 @@
       "addedAt": "2026-05-01T16:28:16.260Z",
       "updatedAt": "2026-08-24T06:42:46.285Z",
       "bundleId": "com.madplay.ikiraplus"
-    },
-    {
-      "id": "com.yalla-shoot.Yalla",
-      "name": "يلا شوت",
-      "version": "2.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yalla-shoot-noads",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777653026917.png",
-      "size": "31.4 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-05-01T16:30:28.921Z",
-      "updatedAt": "2026-08-24T06:16:20.704Z",
-      "bundleId": "com.yalla-shoot.Yalla"
     },
     {
       "id": "com.miniclip.drone1",
@@ -4770,6 +4770,19 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.yalla-shoot.Yalla",
+      "name": "يلا شوت",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yalla-shoot-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777653026917.png",
+      "size": "31.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-01T16:30:28.921Z",
+      "updatedAt": "2026-08-24T06:16:20.704Z",
+      "bundleId": "com.yalla-shoot.Yalla"
+    },
+    {
       "id": "com.Semicolon.Maraya",
       "name": "مرايا",
       "version": "11.1",
@@ -4807,19 +4820,6 @@
       "addedAt": "2026-06-10T17:40:30.162Z",
       "updatedAt": "2026-08-24T06:42:51.128Z",
       "bundleId": "com.example.sevenscore"
-    },
-    {
-      "id": "com.vacotv.app",
-      "name": "vaco tv",
-      "version": "2.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vaco-tv-videos",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJEOMRbQ5W2r9wKnVYd_pDATtUcv_dKNbaxX1ibMde-0IuUzEhtaqWkw&s=10",
-      "size": "20.8 MB",
-      "note": "تطبيق لمشاهدة القنوات الرياضية\nكود التفعيل: 22455",
-      "category": "ترفيه",
-      "addedAt": "2026-06-19T14:45:04.206Z",
-      "updatedAt": "2026-08-24T06:15:45.809Z",
-      "bundleId": "com.vacotv.app"
     },
     {
       "id": "net.peakgames.kammelna",
@@ -4868,6 +4868,19 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.vacotv.app",
+      "name": "vaco tv",
+      "version": "2.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vaco-tv-videos",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJEOMRbQ5W2r9wKnVYd_pDATtUcv_dKNbaxX1ibMde-0IuUzEhtaqWkw&s=10",
+      "size": "20.8 MB",
+      "note": "تطبيق لمشاهدة القنوات الرياضية\nكود التفعيل: 22455",
+      "category": "ترفيه",
+      "addedAt": "2026-06-19T14:45:04.206Z",
+      "updatedAt": "2026-08-24T06:15:45.809Z",
+      "bundleId": "com.vacotv.app"
+    },
+    {
       "id": "com.poopapps.animex",
       "name": "anime x",
       "version": "last version",
@@ -4879,19 +4892,6 @@
       "addedAt": "2026-06-19T14:46:28.156Z",
       "updatedAt": "2026-08-24T06:16:04.072Z",
       "bundleId": "com.poopapps.animex"
-    },
-    {
-      "id": "com.kira.cinemanaa.x",
-      "name": "سينمانا X لكل الشبكات",
-      "version": "4.1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-x",
-      "icon": "https://play-lh.googleusercontent.com/gADral9GuTv1-ue5EQbifq2mX0vkBamrT83iaL88PfAP_IuWAXWt-fumX4iJ5QQdL7atuXTewdpyb0vDBxg6cA",
-      "size": "44.7 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-05T14:15:43.368Z",
-      "updatedAt": "2026-08-24T06:17:18.593Z",
-      "bundleId": "com.kira.cinemanaa.x"
     },
     {
       "id": "com.flow.tube",
