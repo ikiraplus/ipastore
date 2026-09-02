@@ -2243,17 +2243,25 @@
       "bundleId": "com.supercell.brawlstars"
     },
     {
-      "id": "co.albox.cinema",
-      "name": "Cinema box - سينما بوكس",
-      "version": "4.6.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
-      "size": "27.3 MB",
-      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
+      "id": "com.anime.animeRiftApp",
+      "name": "Anime Land noads",
+      "version": "3.13.17",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.13.17",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652764722.png",
+      "size": "69.2 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-16T09:14:24.714Z",
-      "updatedAt": "2026-08-24T06:16:07.067Z",
-      "bundleId": "co.albox.cinema"
+      "addedAt": "2026-05-01T16:26:07.251Z",
+      "updatedAt": "2026-08-24T06:18:36.372Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.11.5_noads",
+          "version": "3.11.5"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "com.anime.animeRiftApp"
     },
     {
       "id": "com.fungames.sniper3d",
@@ -2487,17 +2495,17 @@
       "bundleId": "com.playspare.store"
     },
     {
-      "id": "com.dreamora",
-      "name": "Streameast no ads",
-      "version": "1.1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
-      "size": "37.8 MB",
-      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
+      "id": "co.albox.cinema",
+      "name": "Cinema box - سينما بوكس",
+      "version": "4.6.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
+      "size": "27.3 MB",
+      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "com.dreamora",
-      "updatedAt": "2026-08-24T06:16:53.887Z"
+      "addedAt": "2026-07-16T09:14:24.714Z",
+      "updatedAt": "2026-08-24T06:16:07.067Z",
+      "bundleId": "co.albox.cinema"
     },
     {
       "id": "app-iosgods-modern-strike-online-4592",
@@ -2511,6 +2519,19 @@
       "addedAt": "2026-03-29",
       "bundleId": "com.gamedevltd.modernstrikeonline",
       "updatedAt": "2026-08-24T10:06:55.430Z"
+    },
+    {
+      "id": "com.dreamora",
+      "name": "Streameast no ads",
+      "version": "1.1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
+      "size": "37.8 MB",
+      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15",
+      "bundleId": "com.dreamora",
+      "updatedAt": "2026-08-24T06:16:53.887Z"
     },
     {
       "id": "com.xd.mbp31",
@@ -2562,19 +2583,6 @@
       "addedAt": "2026-03-29",
       "bundleId": "net.halasat.tv",
       "updatedAt": "2026-08-24T06:14:56.716Z"
-    },
-    {
-      "id": "dev-movlix.player",
-      "name": "Movilx",
-      "version": "1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movlix_1.1_1774767312-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/60/92/4060921f-a7ee-5c5c-3c30-6318e1d3f801/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "4.1 MB",
-      "note": "تطبيق مشابه لنتفليكس، بدون إعلانات ويدعم الترجمة",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "bundleId": "dev-movlix.player",
-      "updatedAt": "2026-08-24T06:13:54.051Z"
     },
     {
       "id": "com.fiksu",
@@ -2886,25 +2894,17 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "ali.Bawa",
-      "name": "bawa",
-      "version": "1.4.6",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bawa_1.4.6",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779049196.png",
-      "size": "5.2 MB",
-      "note": "",
+      "id": "dev-movlix.player",
+      "name": "Movilx",
+      "version": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movlix_1.1_1774767312-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/60/92/4060921f-a7ee-5c5c-3c30-6318e1d3f801/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "4.1 MB",
+      "note": "تطبيق مشابه لنتفليكس، بدون إعلانات ويدعم الترجمة",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T06:13:59.066Z",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bawa_1.2-1",
-          "version": "1.2"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "ali.Bawa"
+      "bundleId": "dev-movlix.player",
+      "updatedAt": "2026-08-24T06:13:54.051Z"
     },
     {
       "id": "fun.ask",
@@ -2945,6 +2945,27 @@
       "bundleId": "com.rekoo.pubgm"
     },
     {
+      "id": "ali.Bawa",
+      "name": "bawa",
+      "version": "1.4.6",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bawa_1.4.6",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779049196.png",
+      "size": "5.2 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-08-24T06:13:59.066Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bawa_1.2-1",
+          "version": "1.2"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "ali.Bawa"
+    },
+    {
       "id": "com.forfun.MovieBox-TV",
       "name": "موفي بوكس",
       "version": "1.0",
@@ -2972,31 +2993,6 @@
       "previousVersions": [],
       "recommended": false,
       "bundleId": "joker.app"
-    },
-    {
-      "id": "com.soundcloud.TouchApp",
-      "name": "Sound Cloud Noads",
-      "version": "8.76.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.76.0-noads",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/94/21/7e94213b-a1d6-a37b-e2e3-fe6ca2fb66d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "116.1 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-04-28T07:14:22.721Z",
-      "updatedAt": "2026-08-31T17:08:22.815Z",
-      "toolVersion": "2.0",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
-          "version": "8.73.0"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-v8.70.0-b3",
-          "version": "8.70.0"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "com.soundcloud.TouchApp"
     },
     {
       "id": "com.frontrow.vlog",
@@ -3049,25 +3045,29 @@
       "bundleId": "com.hassantaleb.mockup"
     },
     {
-      "id": "com.anime.animeRiftApp",
-      "name": "Anime Land noads",
-      "version": "3.13.17",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.13.17",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652764722.png",
-      "size": "69.2 MB",
+      "id": "com.soundcloud.TouchApp",
+      "name": "Sound Cloud Noads",
+      "version": "8.76.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.76.0-noads",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/94/21/7e94213b-a1d6-a37b-e2e3-fe6ca2fb66d9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "116.1 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-05-01T16:26:07.251Z",
-      "updatedAt": "2026-08-24T06:18:36.372Z",
-      "toolVersion": "",
+      "addedAt": "2026-04-28T07:14:22.721Z",
+      "updatedAt": "2026-08-31T17:08:22.815Z",
+      "toolVersion": "2.0",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.11.5_noads",
-          "version": "3.11.5"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-8.73.0-noads",
+          "version": "8.73.0"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundcloud-v8.70.0-b3",
+          "version": "8.70.0"
         }
       ],
       "recommended": false,
-      "bundleId": "com.anime.animeRiftApp"
+      "bundleId": "com.soundcloud.TouchApp"
     },
     {
       "id": "com.nekki.shadowfightarena",
