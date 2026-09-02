@@ -230,16 +230,20 @@
     {
       "id": "app.swiftgram.ios",
       "name": "Swiftgram",
-      "version": "12.9.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram_12.9.2_lead_1.4.4",
+      "version": "12.9.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram-12.9.2-mxgram",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/d5/fa/c1d5faba-f9f3-2b37-959b-4e69452bb301/Swiftgram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "78.5 MB",
+      "size": "87.4 MB",
       "note": "لتفعيل مميزات التطبيق اتبع الخطوات التالية:\n- الإعدادات، انزل إلى الأسفل، ثم اضغط ضغطة طويلة على أيقونة (اسأل سؤالا)\nوبذلك يتم فتح المميزات",
       "category": "تواصل",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T05:42:23.269Z",
+      "updatedAt": "2026-09-02T16:00:32.424Z",
       "toolVersion": "1.4.4",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram_12.9.2_lead_1.4.4",
+          "version": "12.9.2"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram_12.8_lead_1.4.3",
           "version": "12.8"
