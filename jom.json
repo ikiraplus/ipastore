@@ -12733,6 +12733,22 @@
       "bundleId": "com.book.summaries.reading",
       "addedAt": "2026-09-02T11:42:55.347Z",
       "updatedAt": "2026-09-02T11:43:03.092Z"
+    },
+    {
+      "id": "com.typhon6.halo.bridge4",
+      "name": "Lortv Pro",
+      "version": "1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lortv-pro_1.5-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/com.typhon6.halo.bridge4.png",
+      "previousVersions": [],
+      "size": "33.2 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.typhon6.halo.bridge4",
+      "addedAt": "2026-09-02T16:03:52.559Z",
+      "updatedAt": "2026-09-02T16:03:58.291Z"
     }
   ]
 }
