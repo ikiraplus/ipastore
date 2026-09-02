@@ -100,13 +100,13 @@
       "id": "app.teledark",
       "name": "Telegram Dark",
       "version": "12.9.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teledark_12.9.2-1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teledark_12.9.2-fix",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773512283014.png",
       "size": "76.1 MB",
-      "note": "هذا التطبيق يدعم الإشعارات، ثبته مباشرة ولا تكرر تثبيته ولا تغير معرف الباندل الخاص به\nيتضمن مميزات إضافة Tgextra",
+      "note": "هذا التطبيق يدعم الإشعارات، ثبته مباشرة ولا تكرر تثبيته ولا تغير معرف الباندل الخاص به",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T05:42:13.749Z",
+      "updatedAt": "2026-09-02T15:59:22.902Z",
       "toolVersion": "",
       "previousVersions": [
         {
