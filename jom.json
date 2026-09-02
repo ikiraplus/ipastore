@@ -943,17 +943,20 @@
       "bundleId": "night.ntv1.iQTv"
     },
     {
-      "id": "com.genral.ikiraplus",
-      "name": "Genral Pro",
-      "version": "1.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/genral-pro-v1.4",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437364033.png",
-      "size": "9.6 MB",
-      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5050",
+      "id": "com.hitvneo.ikiraplus",
+      "name": "Hitv Kira",
+      "version": "2.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitv-kira_2.4",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786039385843.png",
+      "previousVersions": [],
+      "size": "31.3 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-13",
-      "bundleId": "com.genral.ikiraplus",
-      "updatedAt": "2026-08-24T06:14:25.984Z"
+      "recommended": true,
+      "addedAt": "2026-08-06T18:03:09.086Z",
+      "updatedAt": "2026-08-24T06:16:17.042Z",
+      "bundleId": "com.hitvneo.ikiraplus"
     },
     {
       "id": "com.ideploy-storage.25a6a8",
@@ -1667,17 +1670,17 @@
       "bundleId": "com.scottgames.fnaf4"
     },
     {
-      "id": "com.buztv.player",
-      "name": "buz tv pro",
-      "version": "1.2.11",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "16.4 MB",
-      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
+      "id": "com.genral.ikiraplus",
+      "name": "Genral Pro",
+      "version": "1.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/genral-pro-v1.4",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437364033.png",
+      "size": "9.6 MB",
+      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5050",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "com.buztv.player",
-      "updatedAt": "2026-08-24T06:15:00.294Z"
+      "addedAt": "2026-03-13",
+      "bundleId": "com.genral.ikiraplus",
+      "updatedAt": "2026-08-24T06:14:25.984Z"
     },
     {
       "id": "com.sfun.snapedit",
@@ -1705,17 +1708,17 @@
       "bundleId": "com.sfun.snapedit"
     },
     {
-      "id": "com.animecloud.rm",
-      "name": "Anime Cloud",
-      "version": "6.5.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "6.4 MB",
-      "note": "",
+      "id": "com.buztv.player",
+      "name": "buz tv pro",
+      "version": "1.2.11",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "16.4 MB",
+      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
       "category": "ترفيه",
-      "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-24T06:14:01.767Z",
-      "bundleId": "com.animecloud.rm"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.buztv.player",
+      "updatedAt": "2026-08-24T06:15:00.294Z"
     },
     {
       "id": "com.squareenix.tombraider1classic",
@@ -2159,25 +2162,17 @@
       "bundleId": "com.intsig.CamScannerLite"
     },
     {
-      "id": "com.anime.animeRiftApp",
-      "name": "Anime Land noads",
-      "version": "3.13.17",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.13.17",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652764722.png",
-      "size": "69.2 MB",
+      "id": "com.animecloud.rm",
+      "name": "Anime Cloud",
+      "version": "6.5.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "6.4 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-05-01T16:26:07.251Z",
-      "updatedAt": "2026-08-24T06:18:36.372Z",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.11.5_noads",
-          "version": "3.11.5"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "com.anime.animeRiftApp"
+      "addedAt": "2026-03-14",
+      "updatedAt": "2026-08-24T06:14:01.767Z",
+      "bundleId": "com.animecloud.rm"
     },
     {
       "id": "com.kooapps.pianotiles2arcade",
@@ -2251,17 +2246,25 @@
       "bundleId": "com.supercell.brawlstars"
     },
     {
-      "id": "co.albox.cinema",
-      "name": "Cinema box - سينما بوكس",
-      "version": "4.6.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
-      "size": "27.3 MB",
-      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
+      "id": "com.anime.animeRiftApp",
+      "name": "Anime Land noads",
+      "version": "3.13.17",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.13.17",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652764722.png",
+      "size": "69.2 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-16T09:14:24.714Z",
-      "updatedAt": "2026-08-24T06:16:07.067Z",
-      "bundleId": "co.albox.cinema"
+      "addedAt": "2026-05-01T16:26:07.251Z",
+      "updatedAt": "2026-08-24T06:18:36.372Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.11.5_noads",
+          "version": "3.11.5"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "com.anime.animeRiftApp"
     },
     {
       "id": "com.fungames.sniper3d",
@@ -2495,17 +2498,17 @@
       "bundleId": "com.playspare.store"
     },
     {
-      "id": "com.dreamora",
-      "name": "Streameast no ads",
-      "version": "1.1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
-      "size": "37.8 MB",
-      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
+      "id": "co.albox.cinema",
+      "name": "Cinema box - سينما بوكس",
+      "version": "4.6.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
+      "size": "27.3 MB",
+      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "com.dreamora",
-      "updatedAt": "2026-08-24T06:16:53.887Z"
+      "addedAt": "2026-07-16T09:14:24.714Z",
+      "updatedAt": "2026-08-24T06:16:07.067Z",
+      "bundleId": "co.albox.cinema"
     },
     {
       "id": "app-iosgods-modern-strike-online-4592",
@@ -2519,6 +2522,19 @@
       "addedAt": "2026-03-29",
       "bundleId": "com.gamedevltd.modernstrikeonline",
       "updatedAt": "2026-08-24T10:06:55.430Z"
+    },
+    {
+      "id": "com.dreamora",
+      "name": "Streameast no ads",
+      "version": "1.1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
+      "size": "37.8 MB",
+      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15",
+      "bundleId": "com.dreamora",
+      "updatedAt": "2026-08-24T06:16:53.887Z"
     },
     {
       "id": "com.xd.mbp31",
@@ -2570,19 +2586,6 @@
       "addedAt": "2026-03-29",
       "bundleId": "net.halasat.tv",
       "updatedAt": "2026-08-24T06:14:56.716Z"
-    },
-    {
-      "id": "dev-movlix.player",
-      "name": "Movilx",
-      "version": "1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movlix_1.1_1774767312-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/60/92/4060921f-a7ee-5c5c-3c30-6318e1d3f801/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "4.1 MB",
-      "note": "تطبيق مشابه لنتفليكس، بدون إعلانات ويدعم الترجمة",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "bundleId": "dev-movlix.player",
-      "updatedAt": "2026-08-24T06:13:54.051Z"
     },
     {
       "id": "com.fiksu",
@@ -2894,20 +2897,17 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "com.hitvneo.ikiraplus",
-      "name": "Hitv Kira",
-      "version": "2.4",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitv-kira_2.4",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786039385843.png",
-      "previousVersions": [],
-      "size": "31.3 MB",
-      "note": "",
+      "id": "dev-movlix.player",
+      "name": "Movilx",
+      "version": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movlix_1.1_1774767312-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/60/92/4060921f-a7ee-5c5c-3c30-6318e1d3f801/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "4.1 MB",
+      "note": "تطبيق مشابه لنتفليكس، بدون إعلانات ويدعم الترجمة",
       "category": "ترفيه",
-      "recommended": true,
-      "addedAt": "2026-08-06T18:03:09.086Z",
-      "updatedAt": "2026-08-24T06:16:17.042Z",
-      "bundleId": "com.hitvneo.ikiraplus"
+      "addedAt": "2026-03-29",
+      "bundleId": "dev-movlix.player",
+      "updatedAt": "2026-08-24T06:13:54.051Z"
     },
     {
       "id": "fun.ask",
