@@ -698,14 +698,17 @@
       "id": "com.kira.cinemanaa.fixed",
       "name": "سينمانا",
       "version": "4.1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-kira",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-v2.4.1.0-new",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773226791309.png",
-      "size": "44.6 MB",
+      "size": "44.1 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T06:17:15.008Z",
-      "bundleId": "com.kira.cinemanaa.fixed"
+      "updatedAt": "2026-09-02T16:09:29.448Z",
+      "bundleId": "com.kira.cinemanaa.fixed",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "com.vodu.ikiraplus",
