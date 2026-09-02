@@ -12608,6 +12608,22 @@
       "bundleId": "us.kr.baseballnine",
       "addedAt": "2026-09-01T17:50:03.943Z",
       "updatedAt": "2026-09-01T17:50:09.107Z"
+    },
+    {
+      "id": "ca.lbcstudios.hempire",
+      "name": "Hempire",
+      "version": "2.47.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hempire-2.47.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/34/bf/5934bf93-9e06-d168-81f6-66367efcd781/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "103.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "ca.lbcstudios.hempire",
+      "addedAt": "2026-09-02T11:31:36.548Z",
+      "updatedAt": "2026-09-02T11:31:38.792Z"
     }
   ]
 }
