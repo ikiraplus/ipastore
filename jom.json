@@ -281,15 +281,23 @@
     {
       "id": "app.nicegram",
       "name": "Nicegram",
-      "version": "12.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nicegram-2.5.3",
+      "version": "2.6.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nicegram-2.6.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/36/b8/6f36b88a-aab5-ea1d-6ba7-bed9a20e2b9f/AppIconLLC-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "125.9 MB",
+      "size": "120.8 MB",
       "note": "لتفعيل مميزات التطبيق:\nالإعدادات، انزل إلى الأسفل، ثم اضغط ضغطة طويلة على خانة (اسأل سؤالا)",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-24T05:42:39.992Z",
-      "bundleId": "app.nicegram"
+      "updatedAt": "2026-09-02T11:37:35.514Z",
+      "bundleId": "app.nicegram",
+      "toolVersion": "1.4.4",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nicegram-2.5.3",
+          "version": "2.4.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "com.seastar.turrit",
