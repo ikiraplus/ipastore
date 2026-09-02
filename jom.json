@@ -1670,17 +1670,17 @@
       "bundleId": "com.scottgames.fnaf4"
     },
     {
-      "id": "com.genral.ikiraplus",
-      "name": "Genral Pro",
-      "version": "1.5",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/genral-pro-v1.4",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437364033.png",
-      "size": "9.6 MB",
-      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5050",
+      "id": "com.lastsoult.aanime",
+      "name": "Anime Slayer",
+      "version": "3.3.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer",
+      "icon": "https://cdn-www.bluestacks.com/bs-images/Icon_com.anslayer.jpg",
+      "size": "17.1 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-13",
-      "bundleId": "com.genral.ikiraplus",
-      "updatedAt": "2026-08-24T06:14:25.984Z"
+      "addedAt": "2026-07-06T16:02:57.053Z",
+      "updatedAt": "2026-08-24T06:15:14.535Z",
+      "bundleId": "com.lastsoult.aanime"
     },
     {
       "id": "com.sfun.snapedit",
@@ -1708,17 +1708,17 @@
       "bundleId": "com.sfun.snapedit"
     },
     {
-      "id": "com.buztv.player",
-      "name": "buz tv pro",
-      "version": "1.2.11",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "16.4 MB",
-      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
+      "id": "com.genral.ikiraplus",
+      "name": "Genral Pro",
+      "version": "1.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/genral-pro-v1.4",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437364033.png",
+      "size": "9.6 MB",
+      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5050",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "com.buztv.player",
-      "updatedAt": "2026-08-24T06:15:00.294Z"
+      "addedAt": "2026-03-13",
+      "bundleId": "com.genral.ikiraplus",
+      "updatedAt": "2026-08-24T06:14:25.984Z"
     },
     {
       "id": "com.squareenix.tombraider1classic",
@@ -2162,17 +2162,17 @@
       "bundleId": "com.intsig.CamScannerLite"
     },
     {
-      "id": "com.animecloud.rm",
-      "name": "Anime Cloud",
-      "version": "6.5.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "6.4 MB",
-      "note": "",
+      "id": "com.buztv.player",
+      "name": "buz tv pro",
+      "version": "1.2.11",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "16.4 MB",
+      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
       "category": "ترفيه",
-      "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-24T06:14:01.767Z",
-      "bundleId": "com.animecloud.rm"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.buztv.player",
+      "updatedAt": "2026-08-24T06:15:00.294Z"
     },
     {
       "id": "com.kooapps.pianotiles2arcade",
@@ -2246,25 +2246,17 @@
       "bundleId": "com.supercell.brawlstars"
     },
     {
-      "id": "com.anime.animeRiftApp",
-      "name": "Anime Land noads",
-      "version": "3.13.17",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.13.17",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652764722.png",
-      "size": "69.2 MB",
+      "id": "com.animecloud.rm",
+      "name": "Anime Cloud",
+      "version": "6.5.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "6.4 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-05-01T16:26:07.251Z",
-      "updatedAt": "2026-08-24T06:18:36.372Z",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.11.5_noads",
-          "version": "3.11.5"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "com.anime.animeRiftApp"
+      "addedAt": "2026-03-14",
+      "updatedAt": "2026-08-24T06:14:01.767Z",
+      "bundleId": "com.animecloud.rm"
     },
     {
       "id": "com.fungames.sniper3d",
@@ -2498,17 +2490,25 @@
       "bundleId": "com.playspare.store"
     },
     {
-      "id": "co.albox.cinema",
-      "name": "Cinema box - سينما بوكس",
-      "version": "4.6.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
-      "size": "27.3 MB",
-      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
+      "id": "com.anime.animeRiftApp",
+      "name": "Anime Land noads",
+      "version": "3.13.17",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.13.17",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652764722.png",
+      "size": "69.2 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-16T09:14:24.714Z",
-      "updatedAt": "2026-08-24T06:16:07.067Z",
-      "bundleId": "co.albox.cinema"
+      "addedAt": "2026-05-01T16:26:07.251Z",
+      "updatedAt": "2026-08-24T06:18:36.372Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-land_3.11.5_noads",
+          "version": "3.11.5"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "com.anime.animeRiftApp"
     },
     {
       "id": "app-iosgods-modern-strike-online-4592",
@@ -2522,6 +2522,19 @@
       "addedAt": "2026-03-29",
       "bundleId": "com.gamedevltd.modernstrikeonline",
       "updatedAt": "2026-08-24T10:06:55.430Z"
+    },
+    {
+      "id": "co.albox.cinema",
+      "name": "Cinema box - سينما بوكس",
+      "version": "4.6.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
+      "size": "27.3 MB",
+      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
+      "category": "ترفيه",
+      "addedAt": "2026-07-16T09:14:24.714Z",
+      "updatedAt": "2026-08-24T06:16:07.067Z",
+      "bundleId": "co.albox.cinema"
     },
     {
       "id": "com.dreamora",
@@ -2573,19 +2586,6 @@
       "recommended": false,
       "updatedAt": "2026-08-25T07:33:56.424Z",
       "bundleId": "com.spotify.client"
-    },
-    {
-      "id": "net.halasat.tv",
-      "name": "شاشتي",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shashety-شاشتي-7.0.21",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e2/dc/7a/e2dc7a81-2596-f132-ba0a-bfd90a3d2831/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-      "size": "16 MB",
-      "note": "يعمل مع إنترنت Earthlink وشركات تزويده\n(عند تحميل الأفلام لا تظهر الترجمة)",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "bundleId": "net.halasat.tv",
-      "updatedAt": "2026-08-24T06:14:56.716Z"
     },
     {
       "id": "com.fiksu",
@@ -2897,17 +2897,17 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "dev-movlix.player",
-      "name": "Movilx",
-      "version": "1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movlix_1.1_1774767312-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/60/92/4060921f-a7ee-5c5c-3c30-6318e1d3f801/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "4.1 MB",
-      "note": "تطبيق مشابه لنتفليكس، بدون إعلانات ويدعم الترجمة",
+      "id": "net.halasat.tv",
+      "name": "شاشتي",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shashety-شاشتي-7.0.21",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e2/dc/7a/e2dc7a81-2596-f132-ba0a-bfd90a3d2831/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "size": "16 MB",
+      "note": "يعمل مع إنترنت Earthlink وشركات تزويده\n(عند تحميل الأفلام لا تظهر الترجمة)",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "bundleId": "dev-movlix.player",
-      "updatedAt": "2026-08-24T06:13:54.051Z"
+      "bundleId": "net.halasat.tv",
+      "updatedAt": "2026-08-24T06:14:56.716Z"
     },
     {
       "id": "fun.ask",
@@ -2948,6 +2948,19 @@
       "bundleId": "com.rekoo.pubgm"
     },
     {
+      "id": "dev-movlix.player",
+      "name": "Movilx",
+      "version": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movlix_1.1_1774767312-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/60/92/4060921f-a7ee-5c5c-3c30-6318e1d3f801/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "4.1 MB",
+      "note": "تطبيق مشابه لنتفليكس، بدون إعلانات ويدعم الترجمة",
+      "category": "ترفيه",
+      "addedAt": "2026-03-29",
+      "bundleId": "dev-movlix.player",
+      "updatedAt": "2026-08-24T06:13:54.051Z"
+    },
+    {
       "id": "ali.Bawa",
       "name": "bawa",
       "version": "1.4.6",
@@ -2980,19 +2993,6 @@
       "addedAt": "2026-03-15",
       "bundleId": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
       "updatedAt": "2026-08-24T06:14:48.773Z"
-    },
-    {
-      "id": "com.forfun.MovieBox-TV",
-      "name": "موفي بوكس",
-      "version": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moviebox.tv_1.0_1774777428-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779141279.png",
-      "size": "4.1 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "bundleId": "com.forfun.MovieBox-TV",
-      "updatedAt": "2026-08-24T06:13:51.816Z"
     },
     {
       "id": "com.frontrow.vlog",
@@ -3045,20 +3045,17 @@
       "bundleId": "com.hassantaleb.mockup"
     },
     {
-      "id": "joker.app",
-      "name": "الجوكر سبورت",
-      "version": "1.0.40",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/joker-sport-mod2",
-      "icon": "https://ipaomtk.com/wp-content/uploads/2025/02/%D8%A7%D9%84%D8%AC%D9%88%D9%83%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-300x300.webp",
-      "size": "96.9 MB",
+      "id": "com.forfun.MovieBox-TV",
+      "name": "موفي بوكس",
+      "version": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moviebox.tv_1.0_1774777428-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779141279.png",
+      "size": "4.1 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T06:20:14.282Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false,
-      "bundleId": "joker.app"
+      "bundleId": "com.forfun.MovieBox-TV",
+      "updatedAt": "2026-08-24T06:13:51.816Z"
     },
     {
       "id": "com.nekki.shadowfightarena",
@@ -3142,17 +3139,20 @@
       "bundleId": "com.miHoYo.bh3global"
     },
     {
-      "id": "com.lastsoult.aanime",
-      "name": "Anime Slayer",
-      "version": "3.3.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer",
-      "icon": "https://cdn-www.bluestacks.com/bs-images/Icon_com.anslayer.jpg",
-      "size": "17.1 MB",
+      "id": "joker.app",
+      "name": "الجوكر سبورت",
+      "version": "1.0.40",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/joker-sport-mod2",
+      "icon": "https://ipaomtk.com/wp-content/uploads/2025/02/%D8%A7%D9%84%D8%AC%D9%88%D9%83%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-300x300.webp",
+      "size": "96.9 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-06T16:02:57.053Z",
-      "updatedAt": "2026-08-24T06:15:14.535Z",
-      "bundleId": "com.lastsoult.aanime"
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-08-24T06:20:14.282Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "bundleId": "joker.app"
     },
     {
       "id": "com.cornfox.oceanhorn2",
