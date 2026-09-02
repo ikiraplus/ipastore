@@ -11847,18 +11847,23 @@
     {
       "id": "com.unicostudio.braintest",
       "name": "Brain Test Tricky Puzzles",
-      "version": "2.772.0",
+      "version": "2.775.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/brain-test-tricky-puzzles-v2.772.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/brain-test-tricky-puzzles-v2.775.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/10/cf/9c10cfe8-fe64-7536-e233-0ecc15c2a76a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "145.3 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/brain-test-tricky-puzzles-v2.772.0",
+          "version": "2.772.0"
+        }
+      ],
+      "size": "145.1 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.unicostudio.braintest",
       "addedAt": "2026-08-31T17:14:10.484Z",
-      "updatedAt": "2026-08-31T17:14:17.957Z"
+      "updatedAt": "2026-09-02T11:34:45.512Z"
     },
     {
       "id": "com.grandgames.carmatch",
