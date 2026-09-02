@@ -922,6 +922,27 @@
       "bundleId": "com.chengzu.book"
     },
     {
+      "id": "night.ntv1.iQTv",
+      "name": "iQTv",
+      "version": "3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv-3.1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/night.ntv1.iQTv.png",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv",
+          "version": "3.0"
+        }
+      ],
+      "size": "20.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-17T07:47:02.039Z",
+      "updatedAt": "2026-09-02T11:47:54.707Z",
+      "bundleId": "night.ntv1.iQTv"
+    },
+    {
       "id": "com.genral.ikiraplus",
       "name": "Genral Pro",
       "version": "1.5",
@@ -933,19 +954,6 @@
       "addedAt": "2026-03-13",
       "bundleId": "com.genral.ikiraplus",
       "updatedAt": "2026-08-24T06:14:25.984Z"
-    },
-    {
-      "id": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
-      "name": "Rodjo",
-      "version": "2.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rodjo-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/76/1f/9d761f97-0595-d5ea-6e2e-688ea8dd3bf0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "13.9 MB",
-      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5129",
-      "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
-      "updatedAt": "2026-08-24T06:14:48.773Z"
     },
     {
       "id": "com.ideploy-storage.25a6a8",
@@ -1659,17 +1667,17 @@
       "bundleId": "com.scottgames.fnaf4"
     },
     {
-      "id": "com.buztv.player",
-      "name": "buz tv pro",
-      "version": "1.2.11",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "16.4 MB",
-      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
+      "id": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
+      "name": "Rodjo",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rodjo-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/76/1f/9d761f97-0595-d5ea-6e2e-688ea8dd3bf0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "size": "13.9 MB",
+      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 5129",
       "category": "ترفيه",
       "addedAt": "2026-03-15",
-      "bundleId": "com.buztv.player",
-      "updatedAt": "2026-08-24T06:15:00.294Z"
+      "bundleId": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
+      "updatedAt": "2026-08-24T06:14:48.773Z"
     },
     {
       "id": "com.sfun.snapedit",
@@ -1697,17 +1705,17 @@
       "bundleId": "com.sfun.snapedit"
     },
     {
-      "id": "com.animecloud.rm",
-      "name": "Anime Cloud",
-      "version": "6.5.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "6.4 MB",
-      "note": "",
+      "id": "com.buztv.player",
+      "name": "buz tv pro",
+      "version": "1.2.11",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "16.4 MB",
+      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
       "category": "ترفيه",
-      "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-24T06:14:01.767Z",
-      "bundleId": "com.animecloud.rm"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.buztv.player",
+      "updatedAt": "2026-08-24T06:15:00.294Z"
     },
     {
       "id": "com.squareenix.tombraider1classic",
@@ -2151,17 +2159,17 @@
       "bundleId": "com.intsig.CamScannerLite"
     },
     {
-      "id": "com.dreamora",
-      "name": "Streameast no ads",
-      "version": "1.1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
-      "size": "37.8 MB",
-      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
+      "id": "com.animecloud.rm",
+      "name": "Anime Cloud",
+      "version": "6.5.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "6.4 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "com.dreamora",
-      "updatedAt": "2026-08-24T06:16:53.887Z"
+      "addedAt": "2026-03-14",
+      "updatedAt": "2026-08-24T06:14:01.767Z",
+      "bundleId": "com.animecloud.rm"
     },
     {
       "id": "com.kooapps.pianotiles2arcade",
@@ -2235,17 +2243,17 @@
       "bundleId": "com.supercell.brawlstars"
     },
     {
-      "id": "com.xd.mbp31",
-      "name": "MovieBox Pro",
-      "version": "3.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movieboxpro_15.5-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/f6/62/b4f66278-fe44-b3e2-2e57-ab149aad793d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "65 MB",
-      "note": "",
+      "id": "com.dreamora",
+      "name": "Streameast no ads",
+      "version": "1.1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
+      "size": "37.8 MB",
+      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
       "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "bundleId": "com.xd.mbp31",
-      "updatedAt": "2026-08-24T06:18:14.884Z"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.dreamora",
+      "updatedAt": "2026-08-24T06:16:53.887Z"
     },
     {
       "id": "com.fungames.sniper3d",
@@ -2479,6 +2487,32 @@
       "bundleId": "com.playspare.store"
     },
     {
+      "id": "com.xd.mbp31",
+      "name": "MovieBox Pro",
+      "version": "3.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movieboxpro_15.5-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/f6/62/b4f66278-fe44-b3e2-2e57-ab149aad793d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "65 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-03-29",
+      "bundleId": "com.xd.mbp31",
+      "updatedAt": "2026-08-24T06:18:14.884Z"
+    },
+    {
+      "id": "app-iosgods-modern-strike-online-4592",
+      "name": "Modern Strike Online: FPS",
+      "version": "1.65.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tactical-ops",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/33/8d/4e338d45-4b3f-4996-2788-09e8351d45ad/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "size": "710 MB",
+      "note": "تطبيق معدل من iosgods",
+      "category": "ألعاب",
+      "addedAt": "2026-03-29",
+      "bundleId": "com.gamedevltd.modernstrikeonline",
+      "updatedAt": "2026-08-24T10:06:55.430Z"
+    },
+    {
       "id": "com.spotify.client",
       "name": "Spotify GS",
       "version": "9.1.78",
@@ -2502,19 +2536,6 @@
       "recommended": false,
       "updatedAt": "2026-08-25T07:33:56.424Z",
       "bundleId": "com.spotify.client"
-    },
-    {
-      "id": "app-iosgods-modern-strike-online-4592",
-      "name": "Modern Strike Online: FPS",
-      "version": "1.65.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tactical-ops",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/33/8d/4e338d45-4b3f-4996-2788-09e8351d45ad/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "size": "710 MB",
-      "note": "تطبيق معدل من iosgods",
-      "category": "ألعاب",
-      "addedAt": "2026-03-29",
-      "bundleId": "com.gamedevltd.modernstrikeonline",
-      "updatedAt": "2026-08-24T10:06:55.430Z"
     },
     {
       "id": "net.halasat.tv",
@@ -2562,19 +2583,6 @@
       ],
       "recommended": false,
       "bundleId": "ali.Bawa"
-    },
-    {
-      "id": "com.forfun.MovieBox-TV",
-      "name": "موفي بوكس",
-      "version": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moviebox.tv_1.0_1774777428-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779141279.png",
-      "size": "4.1 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "bundleId": "com.forfun.MovieBox-TV",
-      "updatedAt": "2026-08-24T06:13:51.816Z"
     },
     {
       "id": "com.fiksu",
@@ -2886,20 +2894,17 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "joker.app",
-      "name": "الجوكر سبورت",
-      "version": "1.0.40",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/joker-sport-mod2",
-      "icon": "https://ipaomtk.com/wp-content/uploads/2025/02/%D8%A7%D9%84%D8%AC%D9%88%D9%83%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-300x300.webp",
-      "size": "96.9 MB",
+      "id": "com.forfun.MovieBox-TV",
+      "name": "موفي بوكس",
+      "version": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moviebox.tv_1.0_1774777428-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1774779141279.png",
+      "size": "4.1 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T06:20:14.282Z",
-      "toolVersion": "",
-      "previousVersions": [],
-      "recommended": false,
-      "bundleId": "joker.app"
+      "bundleId": "com.forfun.MovieBox-TV",
+      "updatedAt": "2026-08-24T06:13:51.816Z"
     },
     {
       "id": "fun.ask",
@@ -2938,6 +2943,22 @@
       ],
       "recommended": false,
       "bundleId": "com.rekoo.pubgm"
+    },
+    {
+      "id": "joker.app",
+      "name": "الجوكر سبورت",
+      "version": "1.0.40",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/joker-sport-mod2",
+      "icon": "https://ipaomtk.com/wp-content/uploads/2025/02/%D8%A7%D9%84%D8%AC%D9%88%D9%83%D8%B1-%D8%B3%D8%A8%D9%88%D8%B1%D8%AA-300x300.webp",
+      "size": "96.9 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-03-29",
+      "updatedAt": "2026-08-24T06:20:14.282Z",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "bundleId": "joker.app"
     },
     {
       "id": "com.soundcloud.TouchApp",
@@ -2984,19 +3005,6 @@
       ],
       "recommended": false,
       "bundleId": "com.anime.animeRiftApp"
-    },
-    {
-      "id": "com.madplay.ikiraplus",
-      "name": "MadPlay",
-      "version": "1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/madplay-noads",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652894490.png",
-      "size": "6.7 MB",
-      "note": "تطبيق لمشاهدة القنوات الرياضية المشفرة (بين سبورت، الثامنة، شاهد، وغيرها)\nويحتوي على قسم خاص بالأفلام والمسلسلات\nبدون إعلانات",
-      "category": "ترفيه",
-      "addedAt": "2026-05-01T16:28:16.260Z",
-      "updatedAt": "2026-08-24T06:42:46.285Z",
-      "bundleId": "com.madplay.ikiraplus"
     },
     {
       "id": "com.frontrow.vlog",
@@ -3049,17 +3057,17 @@
       "bundleId": "com.hassantaleb.mockup"
     },
     {
-      "id": "com.yalla-shoot.Yalla",
-      "name": "يلا شوت",
-      "version": "2.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yalla-shoot-noads",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777653026917.png",
-      "size": "31.4 MB",
-      "note": "",
+      "id": "com.madplay.ikiraplus",
+      "name": "MadPlay",
+      "version": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/madplay-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777652894490.png",
+      "size": "6.7 MB",
+      "note": "تطبيق لمشاهدة القنوات الرياضية المشفرة (بين سبورت، الثامنة، شاهد، وغيرها)\nويحتوي على قسم خاص بالأفلام والمسلسلات\nبدون إعلانات",
       "category": "ترفيه",
-      "addedAt": "2026-05-01T16:30:28.921Z",
-      "updatedAt": "2026-08-24T06:16:20.704Z",
-      "bundleId": "com.yalla-shoot.Yalla"
+      "addedAt": "2026-05-01T16:28:16.260Z",
+      "updatedAt": "2026-08-24T06:42:46.285Z",
+      "bundleId": "com.madplay.ikiraplus"
     },
     {
       "id": "com.nekki.shadowfightarena",
@@ -3143,17 +3151,17 @@
       "bundleId": "com.miHoYo.bh3global"
     },
     {
-      "id": "com.ikiraplus.cinemana",
-      "name": "سينمانا القديمة",
-      "version": "3.4.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-old3.4.2",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1778255829394.png",
-      "size": "36.7 MB",
-      "note": "يدعم التحميل ويدعم تسجيل الدخول",
+      "id": "com.yalla-shoot.Yalla",
+      "name": "يلا شوت",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yalla-shoot-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777653026917.png",
+      "size": "31.4 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-05-08T15:57:11.135Z",
-      "updatedAt": "2026-08-24T06:16:50.368Z",
-      "bundleId": "com.ikiraplus.cinemana"
+      "addedAt": "2026-05-01T16:30:28.921Z",
+      "updatedAt": "2026-08-24T06:16:20.704Z",
+      "bundleId": "com.yalla-shoot.Yalla"
     },
     {
       "id": "com.cornfox.oceanhorn2",
@@ -3254,17 +3262,17 @@
       "bundleId": "com.pubg.krmobile"
     },
     {
-      "id": "com.Semicolon.Maraya",
-      "name": "مرايا",
-      "version": "11.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maraya_11.1",
-      "icon": "https://maraya.faulio.com/storage/mediagallery/e8/ff/single_2e4f61a0855196f083956d4f564b44b63803cb04.jpg",
-      "size": "24.8 MB",
-      "note": "",
+      "id": "com.ikiraplus.cinemana",
+      "name": "سينمانا القديمة",
+      "version": "3.4.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-old3.4.2",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1778255829394.png",
+      "size": "36.7 MB",
+      "note": "يدعم التحميل ويدعم تسجيل الدخول",
       "category": "ترفيه",
-      "addedAt": "2026-05-08T16:15:04.439Z",
-      "updatedAt": "2026-08-24T06:15:57.546Z",
-      "bundleId": "com.Semicolon.Maraya"
+      "addedAt": "2026-05-08T15:57:11.135Z",
+      "updatedAt": "2026-08-24T06:16:50.368Z",
+      "bundleId": "com.ikiraplus.cinemana"
     },
     {
       "id": "com.ares.twd",
@@ -3721,17 +3729,17 @@
       "bundleId": "com.carx-tech.carxdr3"
     },
     {
-      "id": "com.aloula",
-      "name": "الاولى",
-      "version": "2.1.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aloula_2.1.2",
-      "icon": "https://play-lh.googleusercontent.com/tnWlRmDATHTYGCnwN1cFt-t1hWz9iB5FrTeKrT5O6insZchBqMGNAkpnihC_biweh9MvW61fePyma8SEywEZaw",
-      "size": "22.4 MB",
+      "id": "com.Semicolon.Maraya",
+      "name": "مرايا",
+      "version": "11.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maraya_11.1",
+      "icon": "https://maraya.faulio.com/storage/mediagallery/e8/ff/single_2e4f61a0855196f083956d4f564b44b63803cb04.jpg",
+      "size": "24.8 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-05-08T16:28:19.527Z",
-      "updatedAt": "2026-08-24T06:42:59.462Z",
-      "bundleId": "com.aloula"
+      "addedAt": "2026-05-08T16:15:04.439Z",
+      "updatedAt": "2026-08-24T06:15:57.546Z",
+      "bundleId": "com.Semicolon.Maraya"
     },
     {
       "id": "com.dreamgames.royalmatch",
@@ -4394,6 +4402,19 @@
       "bundleId": "co.bazaart.app"
     },
     {
+      "id": "com.aloula",
+      "name": "الاولى",
+      "version": "2.1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aloula_2.1.2",
+      "icon": "https://play-lh.googleusercontent.com/tnWlRmDATHTYGCnwN1cFt-t1hWz9iB5FrTeKrT5O6insZchBqMGNAkpnihC_biweh9MvW61fePyma8SEywEZaw",
+      "size": "22.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-08T16:28:19.527Z",
+      "updatedAt": "2026-08-24T06:42:59.462Z",
+      "bundleId": "com.aloula"
+    },
+    {
       "id": "com.example.sevenscore",
       "name": "SevenScore",
       "version": "1.2",
@@ -4405,19 +4426,6 @@
       "addedAt": "2026-06-10T17:40:30.162Z",
       "updatedAt": "2026-08-24T06:42:51.128Z",
       "bundleId": "com.example.sevenscore"
-    },
-    {
-      "id": "com.vacotv.app",
-      "name": "vaco tv",
-      "version": "2.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vaco-tv-videos",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJEOMRbQ5W2r9wKnVYd_pDATtUcv_dKNbaxX1ibMde-0IuUzEhtaqWkw&s=10",
-      "size": "20.8 MB",
-      "note": "تطبيق لمشاهدة القنوات الرياضية\nكود التفعيل: 22455",
-      "category": "ترفيه",
-      "addedAt": "2026-06-19T14:45:04.206Z",
-      "updatedAt": "2026-08-24T06:15:45.809Z",
-      "bundleId": "com.vacotv.app"
     },
     {
       "id": "com.miniclip.drone1",
@@ -4759,6 +4767,19 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.vacotv.app",
+      "name": "vaco tv",
+      "version": "2.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vaco-tv-videos",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJEOMRbQ5W2r9wKnVYd_pDATtUcv_dKNbaxX1ibMde-0IuUzEhtaqWkw&s=10",
+      "size": "20.8 MB",
+      "note": "تطبيق لمشاهدة القنوات الرياضية\nكود التفعيل: 22455",
+      "category": "ترفيه",
+      "addedAt": "2026-06-19T14:45:04.206Z",
+      "updatedAt": "2026-08-24T06:15:45.809Z",
+      "bundleId": "com.vacotv.app"
+    },
+    {
       "id": "com.poopapps.animex",
       "name": "anime x",
       "version": "last version",
@@ -4796,19 +4817,6 @@
       "addedAt": "2026-07-05T14:17:32.170Z",
       "updatedAt": "2026-08-24T06:13:56.525Z",
       "bundleId": "com.flow.tube"
-    },
-    {
-      "id": "com.lastsoult.aanime",
-      "name": "Anime Slayer",
-      "version": "3.3.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer",
-      "icon": "https://cdn-www.bluestacks.com/bs-images/Icon_com.anslayer.jpg",
-      "size": "17.1 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-06T16:02:57.053Z",
-      "updatedAt": "2026-08-24T06:15:14.535Z",
-      "bundleId": "com.lastsoult.aanime"
     },
     {
       "id": "net.peakgames.kammelna",
@@ -4857,25 +4865,17 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
-      "id": "night.ntv1.iQTv",
-      "name": "iQTv",
-      "version": "3.1",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv-3.1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/night.ntv1.iQTv.png",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv",
-          "version": "3.0"
-        }
-      ],
-      "size": "20.7 MB",
+      "id": "com.lastsoult.aanime",
+      "name": "Anime Slayer",
+      "version": "3.3.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer",
+      "icon": "https://cdn-www.bluestacks.com/bs-images/Icon_com.anslayer.jpg",
+      "size": "17.1 MB",
       "note": "",
       "category": "ترفيه",
-      "recommended": false,
-      "addedAt": "2026-08-17T07:47:02.039Z",
-      "updatedAt": "2026-09-02T11:47:54.707Z",
-      "bundleId": "night.ntv1.iQTv"
+      "addedAt": "2026-07-06T16:02:57.053Z",
+      "updatedAt": "2026-08-24T06:15:14.535Z",
+      "bundleId": "com.lastsoult.aanime"
     },
     {
       "id": "com.hitv.ikiraplus",
