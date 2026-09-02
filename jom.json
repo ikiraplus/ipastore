@@ -2885,17 +2885,17 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "com.dreamora",
-      "name": "Streameast no ads",
-      "version": "1.1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
-      "size": "37.8 MB",
-      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
+      "id": "com.kira.cinemanaa.x",
+      "name": "سينمانا X لكل الشبكات",
+      "version": "4.1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-x",
+      "icon": "https://play-lh.googleusercontent.com/gADral9GuTv1-ue5EQbifq2mX0vkBamrT83iaL88PfAP_IuWAXWt-fumX4iJ5QQdL7atuXTewdpyb0vDBxg6cA",
+      "size": "44.7 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "com.dreamora",
-      "updatedAt": "2026-08-24T06:16:53.887Z"
+      "addedAt": "2026-07-05T14:15:43.368Z",
+      "updatedAt": "2026-08-24T06:17:18.593Z",
+      "bundleId": "com.kira.cinemanaa.x"
     },
     {
       "id": "fun.ask",
@@ -2936,6 +2936,19 @@
       "bundleId": "com.rekoo.pubgm"
     },
     {
+      "id": "com.dreamora",
+      "name": "Streameast no ads",
+      "version": "1.1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
+      "size": "37.8 MB",
+      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15",
+      "bundleId": "com.dreamora",
+      "updatedAt": "2026-08-24T06:16:53.887Z"
+    },
+    {
       "id": "com.xd.mbp31",
       "name": "MovieBox Pro",
       "version": "3.9",
@@ -2947,19 +2960,6 @@
       "addedAt": "2026-03-29",
       "bundleId": "com.xd.mbp31",
       "updatedAt": "2026-08-24T06:18:14.884Z"
-    },
-    {
-      "id": "com.kira.cinemanaa.x",
-      "name": "سينمانا X لكل الشبكات",
-      "version": "4.1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinemana-x",
-      "icon": "https://play-lh.googleusercontent.com/gADral9GuTv1-ue5EQbifq2mX0vkBamrT83iaL88PfAP_IuWAXWt-fumX4iJ5QQdL7atuXTewdpyb0vDBxg6cA",
-      "size": "44.7 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-05T14:15:43.368Z",
-      "updatedAt": "2026-08-24T06:17:18.593Z",
-      "bundleId": "com.kira.cinemanaa.x"
     },
     {
       "id": "com.spotify.client",
