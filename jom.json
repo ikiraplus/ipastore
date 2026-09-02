@@ -5342,13 +5342,13 @@
       "id": "com.pinebox.app",
       "name": "PineBox Premium",
       "version": "2.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-premium_1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-premium_1.2-new",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023216713.png",
       "size": "23.6 MB",
       "note": "",
       "category": "ترفيه",
       "addedAt": "2026-07-14T10:00:19.136Z",
-      "updatedAt": "2026-08-24T06:42:55.850Z",
+      "updatedAt": "2026-09-02T16:05:37.552Z",
       "toolVersion": "",
       "previousVersions": [
         {
