@@ -4857,6 +4857,27 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "night.ntv1.iQTv",
+      "name": "iQTv",
+      "version": "3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv-3.1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/night.ntv1.iQTv.png",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv",
+          "version": "3.0"
+        }
+      ],
+      "size": "20.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-17T07:47:02.039Z",
+      "updatedAt": "2026-09-02T11:47:54.707Z",
+      "bundleId": "night.ntv1.iQTv"
+    },
+    {
       "id": "com.hitv.ikiraplus",
       "name": "Hitv pro",
       "version": "1.1",
@@ -4882,20 +4903,6 @@
       "updatedAt": "2026-08-24T06:14:10.445Z",
       "hidden": false,
       "bundleId": "com.fasilplus.ikiraplus"
-    },
-    {
-      "id": "com.qissateshqplus.ikiraplus",
-      "name": "قصة عشق - قرمزي",
-      "version": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/qsa-ashq",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783541492552.png",
-      "size": "1.3 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-08T20:11:34.552Z",
-      "updatedAt": "2026-08-24T06:13:42.106Z",
-      "hidden": false,
-      "bundleId": "com.qissateshqplus.ikiraplus"
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -4998,17 +5005,18 @@
       "bundleId": "com.ss.iphone.ugc.Ame"
     },
     {
-      "id": "com.cinee.trend",
-      "name": "MoviaQuill",
-      "version": "1.1.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moviaquill-noads",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1783945603082.png",
-      "size": "25.9 MB",
+      "id": "com.qissateshqplus.ikiraplus",
+      "name": "قصة عشق - قرمزي",
+      "version": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/qsa-ashq",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783541492552.png",
+      "size": "1.3 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-13T12:26:48.196Z",
-      "updatedAt": "2026-08-24T06:16:01.077Z",
-      "bundleId": "com.cinee.trend"
+      "addedAt": "2026-07-08T20:11:34.552Z",
+      "updatedAt": "2026-08-24T06:13:42.106Z",
+      "hidden": false,
+      "bundleId": "com.qissateshqplus.ikiraplus"
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -5027,6 +5035,19 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.cinee.trend",
+      "name": "MoviaQuill",
+      "version": "1.1.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moviaquill-noads",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1783945603082.png",
+      "size": "25.9 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-13T12:26:48.196Z",
+      "updatedAt": "2026-08-24T06:16:01.077Z",
+      "bundleId": "com.cinee.trend"
+    },
+    {
       "id": "com.rumaisahassan.CineMap",
       "name": "Aflame Tv",
       "version": "1.3",
@@ -5038,27 +5059,6 @@
       "addedAt": "2026-07-14T09:57:52.806Z",
       "updatedAt": "2026-08-24T06:43:02.630Z",
       "bundleId": "com.rumaisahassan.CineMap"
-    },
-    {
-      "id": "com.pinebox.app",
-      "name": "PineBox Premium",
-      "version": "2.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-premium_1.2",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023216713.png",
-      "size": "23.6 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-14T10:00:19.136Z",
-      "updatedAt": "2026-08-24T06:42:55.850Z",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-noads",
-          "version": "2.2"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "com.pinebox.app"
     },
     {
       "id": "ph.telegra.Telegraph2",
@@ -5086,17 +5086,25 @@
       "bundleId": "ph.telegra.Telegraph2"
     },
     {
-      "id": "co.albox.cinema",
-      "name": "Cinema box - سينما بوكس",
-      "version": "4.6.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
-      "size": "27.3 MB",
-      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
+      "id": "com.pinebox.app",
+      "name": "PineBox Premium",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-premium_1.2",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023216713.png",
+      "size": "23.6 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-16T09:14:24.714Z",
-      "updatedAt": "2026-08-24T06:16:07.067Z",
-      "bundleId": "co.albox.cinema"
+      "addedAt": "2026-07-14T10:00:19.136Z",
+      "updatedAt": "2026-08-24T06:42:55.850Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-noads",
+          "version": "2.2"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "com.pinebox.app"
     },
     {
       "id": "com.burbn.instagram",
@@ -5221,25 +5229,17 @@
       "bundleId": "com.google.ios.youtubeee"
     },
     {
-      "id": "com.kevin.pinatv",
-      "name": "PinaTv Pro",
-      "version": "2.6",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-pro_2.6",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784914075063.png",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-noads-2.0.2",
-          "version": "2.0.2"
-        }
-      ],
-      "size": "21.3 MB",
-      "note": "تطبيق PinaTv Pro، الإصدار المحدث مع أبرز الإضافات والتعديلات:\n\n- فتح جميع مميزات VIP\n- منع جميع الإعلانات والتوقفات\n- إضافة زر PIP (يمكنك الخروج من التطبيق أثناء المشاهدة فيتفعل وضع PIP، أو يمكنك الضغط على زر Feedback لتفعيل وضع PIP)\n- إضافة زر لحفظ غلاف الفيلم\n- تحميل ومشاهدة بدقة 1080",
+      "id": "co.albox.cinema",
+      "name": "Cinema box - سينما بوكس",
+      "version": "4.6.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
+      "size": "27.3 MB",
+      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
       "category": "ترفيه",
-      "recommended": false,
-      "addedAt": "2026-07-24T17:28:07.767Z",
-      "updatedAt": "2026-08-24T06:15:49.389Z",
-      "bundleId": "com.kevin.pinatv"
+      "addedAt": "2026-07-16T09:14:24.714Z",
+      "updatedAt": "2026-08-24T06:16:07.067Z",
+      "bundleId": "co.albox.cinema"
     },
     {
       "id": "com.google.ios.youtube",
@@ -5336,20 +5336,25 @@
       "bundleId": "com.freenotes.freenotes"
     },
     {
-      "id": "com.rahiazathar.animequest",
-      "name": "Anime Slayer Neo",
-      "version": "4.2",
+      "id": "com.kevin.pinatv",
+      "name": "PinaTv Pro",
+      "version": "2.6",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer-neo_4.2",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1785076089849.png",
-      "previousVersions": [],
-      "size": "24.9 MB",
-      "note": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-pro_2.6",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784914075063.png",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinatv-noads-2.0.2",
+          "version": "2.0.2"
+        }
+      ],
+      "size": "21.3 MB",
+      "note": "تطبيق PinaTv Pro، الإصدار المحدث مع أبرز الإضافات والتعديلات:\n\n- فتح جميع مميزات VIP\n- منع جميع الإعلانات والتوقفات\n- إضافة زر PIP (يمكنك الخروج من التطبيق أثناء المشاهدة فيتفعل وضع PIP، أو يمكنك الضغط على زر Feedback لتفعيل وضع PIP)\n- إضافة زر لحفظ غلاف الفيلم\n- تحميل ومشاهدة بدقة 1080",
       "category": "ترفيه",
       "recommended": false,
-      "addedAt": "2026-07-26T14:28:16.356Z",
-      "updatedAt": "2026-08-24T06:43:06.045Z",
-      "bundleId": "com.rahiazathar.animequest"
+      "addedAt": "2026-07-24T17:28:07.767Z",
+      "updatedAt": "2026-08-24T06:15:49.389Z",
+      "bundleId": "com.kevin.pinatv"
     },
     {
       "id": "com.meitu.wink",
@@ -5921,20 +5926,20 @@
       "bundleId": "com.burbn.instagram"
     },
     {
-      "id": "com.hitvneo.ikiraplus",
-      "name": "Hitv Kira",
-      "version": "2.4",
+      "id": "com.rahiazathar.animequest",
+      "name": "Anime Slayer Neo",
+      "version": "4.2",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitv-kira_2.4",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786039385843.png",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-slayer-neo_4.2",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1785076089849.png",
       "previousVersions": [],
-      "size": "31.3 MB",
+      "size": "24.9 MB",
       "note": "",
       "category": "ترفيه",
-      "recommended": true,
-      "addedAt": "2026-08-06T18:03:09.086Z",
-      "updatedAt": "2026-08-24T06:16:17.042Z",
-      "bundleId": "com.hitvneo.ikiraplus"
+      "recommended": false,
+      "addedAt": "2026-07-26T14:28:16.356Z",
+      "updatedAt": "2026-08-24T06:43:06.045Z",
+      "bundleId": "com.rahiazathar.animequest"
     },
     {
       "id": "com.pikpok.hrc.iosstore",
@@ -5999,20 +6004,20 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "com.moox.app",
-      "name": "Moox TV Premium",
-      "version": "1.9.5",
+      "id": "com.hitvneo.ikiraplus",
+      "name": "Hitv Kira",
+      "version": "2.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moox-tv-premium_1.9.5",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786196047646.png",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitv-kira_2.4",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786039385843.png",
       "previousVersions": [],
-      "size": "46.7 MB",
+      "size": "31.3 MB",
       "note": "",
       "category": "ترفيه",
-      "recommended": false,
-      "addedAt": "2026-08-08T13:34:15.019Z",
-      "updatedAt": "2026-08-24T06:17:26.144Z",
-      "bundleId": "com.moox.app"
+      "recommended": true,
+      "addedAt": "2026-08-06T18:03:09.086Z",
+      "updatedAt": "2026-08-24T06:16:17.042Z",
+      "bundleId": "com.hitvneo.ikiraplus"
     },
     {
       "id": "com.photo.beautytuneapp",
@@ -6029,6 +6034,22 @@
       "addedAt": "2026-08-09T15:46:38.906Z",
       "updatedAt": "2026-08-24T06:53:56.308Z",
       "bundleId": "com.photo.beautytuneapp"
+    },
+    {
+      "id": "com.moox.app",
+      "name": "Moox TV Premium",
+      "version": "1.9.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moox-tv-premium_1.9.5",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786196047646.png",
+      "previousVersions": [],
+      "size": "46.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "addedAt": "2026-08-08T13:34:15.019Z",
+      "updatedAt": "2026-08-24T06:17:26.144Z",
+      "bundleId": "com.moox.app"
     },
     {
       "id": "com.soundcloud.TouchApp",
@@ -6054,31 +6075,6 @@
       ],
       "recommended": false,
       "bundleId": "com.soundcloud.TouchApp"
-    },
-    {
-      "id": "com.spotify.client",
-      "name": "Spotify GS",
-      "version": "9.1.78",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_es",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
-      "size": "128.3 MB",
-      "note": "تفعيل ميزة Premium تلقائيا",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
-          "version": "9.1.76"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
-          "version": "9.1.74"
-        }
-      ],
-      "recommended": false,
-      "updatedAt": "2026-08-25T07:33:56.424Z",
-      "bundleId": "com.spotify.client"
     },
     {
       "id": "com.madfingergames.deadtrigger2",
@@ -6228,29 +6224,29 @@
       "bundleId": "com.offlinemusic"
     },
     {
-      "id": "com.firecore.infuse",
-      "name": "Infuse Plus",
-      "version": "8.5.3",
+      "id": "com.spotify.client",
+      "name": "Spotify GS",
+      "version": "9.1.78",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_es",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
+      "size": "128.3 MB",
+      "note": "تفعيل ميزة Premium تلقائيا",
+      "category": "ترفيه",
+      "addedAt": "2026-03-29",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.3-infuse-plus-v2.5-patched",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/bb/6c/fabb6cea-c350-8e36-a81f-97ed059f092c/AppIcon-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.2-infuse-plus-v2.5-patched",
-          "version": "8.5.2"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
+          "version": "9.1.76"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.1-infuse-plus-v2.5",
-          "version": "8.5.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
+          "version": "9.1.74"
         }
       ],
-      "size": "97.7 MB",
-      "note": "",
-      "category": "ترفيه",
       "recommended": false,
-      "addedAt": "2026-08-12T03:10:43.149Z",
-      "updatedAt": "2026-08-28T16:51:27.615Z",
-      "bundleId": "com.firecore.infuse"
+      "updatedAt": "2026-08-25T07:33:56.424Z",
+      "bundleId": "com.spotify.client"
     },
     {
       "id": "com.joytunes.Draw",
@@ -6473,25 +6469,29 @@
       "bundleId": "com.recordtoolvideo.camera"
     },
     {
-      "id": "night.ntv1.iQTv",
-      "name": "iQTv",
-      "version": "3.1",
+      "id": "com.firecore.infuse",
+      "name": "Infuse Plus",
+      "version": "8.5.3",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv-3.1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/night.ntv1.iQTv.png",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.3-infuse-plus-v2.5-patched",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/bb/6c/fabb6cea-c350-8e36-a81f-97ed059f092c/AppIcon-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iqtv",
-          "version": "3.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.2-infuse-plus-v2.5-patched",
+          "version": "8.5.2"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/infuse-v8.5.1-infuse-plus-v2.5",
+          "version": "8.5.1"
         }
       ],
-      "size": "20.7 MB",
+      "size": "97.7 MB",
       "note": "",
       "category": "ترفيه",
       "recommended": false,
-      "addedAt": "2026-08-17T07:47:02.039Z",
-      "updatedAt": "2026-09-02T11:47:54.707Z",
-      "bundleId": "night.ntv1.iQTv"
+      "addedAt": "2026-08-12T03:10:43.149Z",
+      "updatedAt": "2026-08-28T16:51:27.615Z",
+      "bundleId": "com.firecore.infuse"
     },
     {
       "id": "com.financeillustrated.TradingGame",
