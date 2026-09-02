@@ -6787,26 +6787,26 @@
     {
       "id": "com.joytunes.asla",
       "name": "Simply Piano Learn Piano Fast",
-      "version": "9.10.89",
+      "version": "9.10.90",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_piano_learn_piano_fast_v9.10.89_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_piano_learn_piano_fast_v9.10.90_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/35/f3/bd35f379-b87d-e94e-9e45-f3cdc3a13a2f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_piano_learn_piano_fast_v9.10.88_subscription_unlocked",
-          "version": "9.10.88"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_piano_learn_piano_fast_v9.10.89_subscription_unlocked",
+          "version": "9.10.89"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_piano_learn_piano_fast_v9.10.87_subscription_unlocked",
-          "version": "9.10.87"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_piano_learn_piano_fast_v9.10.88_subscription_unlocked",
+          "version": "9.10.88"
         }
       ],
-      "size": "151.1 MB",
+      "size": "125.6 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-19T13:26:27.631Z",
-      "updatedAt": "2026-08-30T16:06:40.994Z",
+      "updatedAt": "2026-09-02T11:44:08.930Z",
       "bundleId": "com.joytunes.asla"
     },
     {
