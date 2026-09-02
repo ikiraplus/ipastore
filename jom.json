@@ -3717,16 +3717,24 @@
     },
     {
       "id": "com.dreamgames.royalmatch",
-      "name": "royal match",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/royal-match-37281",
+      "name": "Royal Match",
+      "version": "38174",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/royal-match-38174",
       "icon": "https://cdn.prod.website-files.com/66ba0cbc63210953b4fc73a8/66ba4dab628d3ffb9065bc2a_royal_match_page_king_robert%206.webp",
-      "size": "210.1 MB",
+      "size": "211.9 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:33:30.871Z",
-      "updatedAt": "2026-08-24T06:49:24.474Z",
-      "bundleId": "com.dreamgames.royalmatch"
+      "updatedAt": "2026-09-02T11:30:54.667Z",
+      "bundleId": "com.dreamgames.royalmatch",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/royal-match-37281",
+          "version": "last version"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "com.soccer.football.score.ios",
