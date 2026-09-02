@@ -12651,6 +12651,22 @@
       "bundleId": "com.Frumpydoodle-Games.All-Who-Wander",
       "addedAt": "2026-09-02T11:33:31.140Z",
       "updatedAt": "2026-09-02T11:33:32.245Z"
+    },
+    {
+      "id": "com.adobe.fresco.ios",
+      "name": "Adobe Fresco Draw Paint App",
+      "version": "7.7.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe_fresco_draw_-_paint_app_v7.7.0_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/f3/e5/04f3e503-2cb0-e472-140c-bdf05d84dfc7/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "774.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.adobe.fresco.ios",
+      "addedAt": "2026-09-02T11:38:54.234Z",
+      "updatedAt": "2026-09-02T11:40:02.310Z"
     }
   ]
 }
