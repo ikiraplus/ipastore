@@ -742,25 +742,17 @@
       "updatedAt": "2026-08-24T06:17:04.400Z"
     },
     {
-      "id": "com.loktv.ikiraplus",
-      "name": "lok tv premium",
+      "id": "com.cer.buzz",
+      "name": "CEE",
       "version": "2.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loktv_new_2.1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437480214.png",
-      "size": "16.4 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cee_1.0",
+      "icon": "https://play-lh.googleusercontent.com/mUR43rIFTAdV0MEuNxegiGbRE7ebZs_74_hJeFypIyAbLSuwrs88-XkyUEHn8S-NU4M3UJhm2lP4AXhXsjmzpg",
+      "size": "2.4 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-24T06:15:03.570Z",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loktv-premium",
-          "version": "2.0"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "com.loktv.ikiraplus"
+      "addedAt": "2026-07-05T14:16:42.791Z",
+      "updatedAt": "2026-08-24T06:13:49.577Z",
+      "bundleId": "com.cer.buzz"
     },
     {
       "id": "com.microblink.PhotoMath",
@@ -800,17 +792,25 @@
       "bundleId": "com.rockstargames.rdr"
     },
     {
-      "id": "com.chengzu.book",
-      "name": "Netflix - مقلد",
-      "version": "2.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/netflix-kira",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510045224.png",
-      "size": "31.4 MB",
+      "id": "com.loktv.ikiraplus",
+      "name": "lok tv premium",
+      "version": "2.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loktv_new_2.1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773437480214.png",
+      "size": "16.4 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T06:16:24.258Z",
-      "bundleId": "com.chengzu.book"
+      "addedAt": "2026-03-14",
+      "updatedAt": "2026-08-24T06:15:03.570Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/loktv-premium",
+          "version": "2.0"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "com.loktv.ikiraplus"
     },
     {
       "id": "net.quochuywdm.collanote496",
@@ -909,6 +909,19 @@
       "bundleId": "com.pinterest.background.experiments-refresh"
     },
     {
+      "id": "com.chengzu.book",
+      "name": "Netflix - مقلد",
+      "version": "2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/netflix-kira",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773510045224.png",
+      "size": "31.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-03-15",
+      "updatedAt": "2026-08-24T06:16:24.258Z",
+      "bundleId": "com.chengzu.book"
+    },
+    {
       "id": "com.genral.ikiraplus",
       "name": "Genral Pro",
       "version": "1.5",
@@ -933,19 +946,6 @@
       "addedAt": "2026-03-15",
       "bundleId": "Rodjo-BlackRodjo-BlackRodjo-Black.Rodjo-Black",
       "updatedAt": "2026-08-24T06:14:48.773Z"
-    },
-    {
-      "id": "com.buztv.player",
-      "name": "buz tv pro",
-      "version": "1.2.11",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "16.4 MB",
-      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
-      "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "com.buztv.player",
-      "updatedAt": "2026-08-24T06:15:00.294Z"
     },
     {
       "id": "com.ideploy-storage.25a6a8",
@@ -1659,17 +1659,17 @@
       "bundleId": "com.scottgames.fnaf4"
     },
     {
-      "id": "com.animecloud.rm",
-      "name": "Anime Cloud",
-      "version": "6.5.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "6.4 MB",
-      "note": "",
+      "id": "com.buztv.player",
+      "name": "buz tv pro",
+      "version": "1.2.11",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/buz.tv_1.2.11-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/52/92/ca529249-60e0-b24e-717a-e962da3c35c5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "16.4 MB",
+      "note": "تطبيق لمشاهدة القنوات المشفرة\nويحتوي على قسم خاص بالأفلام\nكود التفعيل: 22455",
       "category": "ترفيه",
-      "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-24T06:14:01.767Z",
-      "bundleId": "com.animecloud.rm"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.buztv.player",
+      "updatedAt": "2026-08-24T06:15:00.294Z"
     },
     {
       "id": "com.sfun.snapedit",
@@ -1697,17 +1697,17 @@
       "bundleId": "com.sfun.snapedit"
     },
     {
-      "id": "com.dreamora",
-      "name": "Streameast no ads",
-      "version": "1.1.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
-      "size": "37.8 MB",
-      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
+      "id": "com.animecloud.rm",
+      "name": "Anime Cloud",
+      "version": "6.5.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/anime-cloud_6.5.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/05/f4/7305f486-ed8d-52b5-65f8-8be8ada650d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "6.4 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-03-15",
-      "bundleId": "com.dreamora",
-      "updatedAt": "2026-08-24T06:16:53.887Z"
+      "addedAt": "2026-03-14",
+      "updatedAt": "2026-08-24T06:14:01.767Z",
+      "bundleId": "com.animecloud.rm"
     },
     {
       "id": "com.squareenix.tombraider1classic",
@@ -2151,17 +2151,17 @@
       "bundleId": "com.intsig.CamScannerLite"
     },
     {
-      "id": "com.xd.mbp31",
-      "name": "MovieBox Pro",
-      "version": "3.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movieboxpro_15.5-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/f6/62/b4f66278-fe44-b3e2-2e57-ab149aad793d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "65 MB",
-      "note": "",
+      "id": "com.dreamora",
+      "name": "Streameast no ads",
+      "version": "1.1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/streameast.1.1.1-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773597157329.png",
+      "size": "37.8 MB",
+      "note": "تطبيق يحتوي على جميع القنوات المشفرة مجانا (بين سبورت، الثامنة، الكأس، MBC، شاهد)",
       "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "bundleId": "com.xd.mbp31",
-      "updatedAt": "2026-08-24T06:18:14.884Z"
+      "addedAt": "2026-03-15",
+      "bundleId": "com.dreamora",
+      "updatedAt": "2026-08-24T06:16:53.887Z"
     },
     {
       "id": "com.kooapps.pianotiles2arcade",
@@ -2235,29 +2235,17 @@
       "bundleId": "com.supercell.brawlstars"
     },
     {
-      "id": "com.spotify.client",
-      "name": "Spotify GS",
-      "version": "9.1.78",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_es",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
-      "size": "128.3 MB",
-      "note": "تفعيل ميزة Premium تلقائيا",
+      "id": "com.xd.mbp31",
+      "name": "MovieBox Pro",
+      "version": "3.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/movieboxpro_15.5-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/f6/62/b4f66278-fe44-b3e2-2e57-ab149aad793d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "65 MB",
+      "note": "",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
-          "version": "9.1.76"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
-          "version": "9.1.74"
-        }
-      ],
-      "recommended": false,
-      "updatedAt": "2026-08-25T07:33:56.424Z",
-      "bundleId": "com.spotify.client"
+      "bundleId": "com.xd.mbp31",
+      "updatedAt": "2026-08-24T06:18:14.884Z"
     },
     {
       "id": "com.fungames.sniper3d",
@@ -2491,17 +2479,29 @@
       "bundleId": "com.playspare.store"
     },
     {
-      "id": "net.halasat.tv",
-      "name": "شاشتي",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shashety-شاشتي-7.0.21",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e2/dc/7a/e2dc7a81-2596-f132-ba0a-bfd90a3d2831/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
-      "size": "16 MB",
-      "note": "يعمل مع إنترنت Earthlink وشركات تزويده\n(عند تحميل الأفلام لا تظهر الترجمة)",
+      "id": "com.spotify.client",
+      "name": "Spotify GS",
+      "version": "9.1.78",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_es",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
+      "size": "128.3 MB",
+      "note": "تفعيل ميزة Premium تلقائيا",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
-      "bundleId": "net.halasat.tv",
-      "updatedAt": "2026-08-24T06:14:56.716Z"
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
+          "version": "9.1.76"
+        },
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
+          "version": "9.1.74"
+        }
+      ],
+      "recommended": false,
+      "updatedAt": "2026-08-25T07:33:56.424Z",
+      "bundleId": "com.spotify.client"
     },
     {
       "id": "app-iosgods-modern-strike-online-4592",
@@ -2515,6 +2515,19 @@
       "addedAt": "2026-03-29",
       "bundleId": "com.gamedevltd.modernstrikeonline",
       "updatedAt": "2026-08-24T10:06:55.430Z"
+    },
+    {
+      "id": "net.halasat.tv",
+      "name": "شاشتي",
+      "version": "last version",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shashety-شاشتي-7.0.21",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e2/dc/7a/e2dc7a81-2596-f132-ba0a-bfd90a3d2831/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "size": "16 MB",
+      "note": "يعمل مع إنترنت Earthlink وشركات تزويده\n(عند تحميل الأفلام لا تظهر الترجمة)",
+      "category": "ترفيه",
+      "addedAt": "2026-03-29",
+      "bundleId": "net.halasat.tv",
+      "updatedAt": "2026-08-24T06:14:56.716Z"
     },
     {
       "id": "dev-movlix.player",
@@ -2549,19 +2562,6 @@
       ],
       "recommended": false,
       "bundleId": "ali.Bawa"
-    },
-    {
-      "id": "com.cer.buzz",
-      "name": "CEE",
-      "version": "2.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cee_1.0",
-      "icon": "https://play-lh.googleusercontent.com/mUR43rIFTAdV0MEuNxegiGbRE7ebZs_74_hJeFypIyAbLSuwrs88-XkyUEHn8S-NU4M3UJhm2lP4AXhXsjmzpg",
-      "size": "2.4 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-05T14:16:42.791Z",
-      "updatedAt": "2026-08-24T06:13:49.577Z",
-      "bundleId": "com.cer.buzz"
     },
     {
       "id": "com.forfun.MovieBox-TV",
