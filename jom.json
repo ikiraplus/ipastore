@@ -3729,17 +3729,17 @@
       "bundleId": "com.carx-tech.carxdr3"
     },
     {
-      "id": "com.Semicolon.Maraya",
-      "name": "مرايا",
-      "version": "11.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maraya_11.1",
-      "icon": "https://maraya.faulio.com/storage/mediagallery/e8/ff/single_2e4f61a0855196f083956d4f564b44b63803cb04.jpg",
-      "size": "24.8 MB",
-      "note": "",
+      "id": "co.albox.cinema",
+      "name": "Cinema box - سينما بوكس",
+      "version": "4.6.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
+      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
+      "size": "27.3 MB",
+      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
       "category": "ترفيه",
-      "addedAt": "2026-05-08T16:15:04.439Z",
-      "updatedAt": "2026-08-24T06:15:57.546Z",
-      "bundleId": "com.Semicolon.Maraya"
+      "addedAt": "2026-07-16T09:14:24.714Z",
+      "updatedAt": "2026-08-24T06:16:07.067Z",
+      "bundleId": "co.albox.cinema"
     },
     {
       "id": "com.dreamgames.royalmatch",
@@ -4402,6 +4402,19 @@
       "bundleId": "co.bazaart.app"
     },
     {
+      "id": "com.Semicolon.Maraya",
+      "name": "مرايا",
+      "version": "11.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maraya_11.1",
+      "icon": "https://maraya.faulio.com/storage/mediagallery/e8/ff/single_2e4f61a0855196f083956d4f564b44b63803cb04.jpg",
+      "size": "24.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-05-08T16:15:04.439Z",
+      "updatedAt": "2026-08-24T06:15:57.546Z",
+      "bundleId": "com.Semicolon.Maraya"
+    },
+    {
       "id": "com.aloula",
       "name": "الاولى",
       "version": "2.1.2",
@@ -4413,19 +4426,6 @@
       "addedAt": "2026-05-08T16:28:19.527Z",
       "updatedAt": "2026-08-24T06:42:59.462Z",
       "bundleId": "com.aloula"
-    },
-    {
-      "id": "com.example.sevenscore",
-      "name": "SevenScore",
-      "version": "1.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sevenscore",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvF0yj_Y_-WcvEZW0frHik-U2KnfqVG7vtCJkvWep0jg&s=10",
-      "size": "15.5 MB",
-      "note": "كود التفعيل: 22466",
-      "category": "ترفيه",
-      "addedAt": "2026-06-10T17:40:30.162Z",
-      "updatedAt": "2026-08-24T06:42:51.128Z",
-      "bundleId": "com.example.sevenscore"
     },
     {
       "id": "com.miniclip.drone1",
@@ -4767,6 +4767,19 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.example.sevenscore",
+      "name": "SevenScore",
+      "version": "1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sevenscore",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvF0yj_Y_-WcvEZW0frHik-U2KnfqVG7vtCJkvWep0jg&s=10",
+      "size": "15.5 MB",
+      "note": "كود التفعيل: 22466",
+      "category": "ترفيه",
+      "addedAt": "2026-06-10T17:40:30.162Z",
+      "updatedAt": "2026-08-24T06:42:51.128Z",
+      "bundleId": "com.example.sevenscore"
+    },
+    {
       "id": "com.vacotv.app",
       "name": "vaco tv",
       "version": "2.1",
@@ -4804,19 +4817,6 @@
       "addedAt": "2026-07-05T14:15:43.368Z",
       "updatedAt": "2026-08-24T06:17:18.593Z",
       "bundleId": "com.kira.cinemanaa.x"
-    },
-    {
-      "id": "com.flow.tube",
-      "name": "YouTube vanced",
-      "version": "1.0.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vanced-tube_1.0.2",
-      "icon": "https://downloadr2.apkmirror.com/wp-content/uploads/2019/02/youtube-vanced.jpg",
-      "size": "5.6 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-05T14:17:32.170Z",
-      "updatedAt": "2026-08-24T06:13:56.525Z",
-      "bundleId": "com.flow.tube"
     },
     {
       "id": "net.peakgames.kammelna",
@@ -4865,6 +4865,19 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.flow.tube",
+      "name": "YouTube vanced",
+      "version": "1.0.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vanced-tube_1.0.2",
+      "icon": "https://downloadr2.apkmirror.com/wp-content/uploads/2019/02/youtube-vanced.jpg",
+      "size": "5.6 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-05T14:17:32.170Z",
+      "updatedAt": "2026-08-24T06:13:56.525Z",
+      "bundleId": "com.flow.tube"
+    },
+    {
       "id": "com.lastsoult.aanime",
       "name": "Anime Slayer",
       "version": "3.3.1",
@@ -4889,20 +4902,6 @@
       "addedAt": "2026-07-08T20:09:45.614Z",
       "updatedAt": "2026-08-24T06:14:38.459Z",
       "bundleId": "com.hitv.ikiraplus"
-    },
-    {
-      "id": "com.fasilplus.ikiraplus",
-      "name": "فاصل بلس",
-      "version": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fasil-plus",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783541434135.png",
-      "size": "6.8 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-08T20:10:36.129Z",
-      "updatedAt": "2026-08-24T06:14:10.445Z",
-      "hidden": false,
-      "bundleId": "com.fasilplus.ikiraplus"
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -5005,18 +5004,18 @@
       "bundleId": "com.ss.iphone.ugc.Ame"
     },
     {
-      "id": "com.qissateshqplus.ikiraplus",
-      "name": "قصة عشق - قرمزي",
+      "id": "com.fasilplus.ikiraplus",
+      "name": "فاصل بلس",
       "version": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/qsa-ashq",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783541492552.png",
-      "size": "1.3 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fasil-plus",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783541434135.png",
+      "size": "6.8 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-08T20:11:34.552Z",
-      "updatedAt": "2026-08-24T06:13:42.106Z",
+      "addedAt": "2026-07-08T20:10:36.129Z",
+      "updatedAt": "2026-08-24T06:14:10.445Z",
       "hidden": false,
-      "bundleId": "com.qissateshqplus.ikiraplus"
+      "bundleId": "com.fasilplus.ikiraplus"
     },
     {
       "id": "com.zhiliaoapp.musically",
@@ -5035,6 +5034,20 @@
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
+      "id": "com.qissateshqplus.ikiraplus",
+      "name": "قصة عشق - قرمزي",
+      "version": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/qsa-ashq",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1783541492552.png",
+      "size": "1.3 MB",
+      "note": "",
+      "category": "ترفيه",
+      "addedAt": "2026-07-08T20:11:34.552Z",
+      "updatedAt": "2026-08-24T06:13:42.106Z",
+      "hidden": false,
+      "bundleId": "com.qissateshqplus.ikiraplus"
+    },
+    {
       "id": "com.cinee.trend",
       "name": "MoviaQuill",
       "version": "1.1.3",
@@ -5046,19 +5059,6 @@
       "addedAt": "2026-07-13T12:26:48.196Z",
       "updatedAt": "2026-08-24T06:16:01.077Z",
       "bundleId": "com.cinee.trend"
-    },
-    {
-      "id": "com.rumaisahassan.CineMap",
-      "name": "Aflame Tv",
-      "version": "1.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aflame-tv-noads",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023070606.png",
-      "size": "24.7 MB",
-      "note": "",
-      "category": "ترفيه",
-      "addedAt": "2026-07-14T09:57:52.806Z",
-      "updatedAt": "2026-08-24T06:43:02.630Z",
-      "bundleId": "com.rumaisahassan.CineMap"
     },
     {
       "id": "ph.telegra.Telegraph2",
@@ -5086,25 +5086,17 @@
       "bundleId": "ph.telegra.Telegraph2"
     },
     {
-      "id": "com.pinebox.app",
-      "name": "PineBox Premium",
-      "version": "2.4",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-premium_1.2",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023216713.png",
-      "size": "23.6 MB",
+      "id": "com.rumaisahassan.CineMap",
+      "name": "Aflame Tv",
+      "version": "1.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aflame-tv-noads",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023070606.png",
+      "size": "24.7 MB",
       "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-14T10:00:19.136Z",
-      "updatedAt": "2026-08-24T06:42:55.850Z",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-noads",
-          "version": "2.2"
-        }
-      ],
-      "recommended": false,
-      "bundleId": "com.pinebox.app"
+      "addedAt": "2026-07-14T09:57:52.806Z",
+      "updatedAt": "2026-08-24T06:43:02.630Z",
+      "bundleId": "com.rumaisahassan.CineMap"
     },
     {
       "id": "com.burbn.instagram",
@@ -5229,17 +5221,25 @@
       "bundleId": "com.google.ios.youtubeee"
     },
     {
-      "id": "co.albox.cinema",
-      "name": "Cinema box - سينما بوكس",
-      "version": "4.6.8",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cinema-box_4.6.8",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784193262599.png",
-      "size": "27.3 MB",
-      "note": "تطبيق محذوف من App Store\n- تمت إزالة جميع الإعلانات منه",
+      "id": "com.pinebox.app",
+      "name": "PineBox Premium",
+      "version": "2.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-premium_1.2",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1784023216713.png",
+      "size": "23.6 MB",
+      "note": "",
       "category": "ترفيه",
-      "addedAt": "2026-07-16T09:14:24.714Z",
-      "updatedAt": "2026-08-24T06:16:07.067Z",
-      "bundleId": "co.albox.cinema"
+      "addedAt": "2026-07-14T10:00:19.136Z",
+      "updatedAt": "2026-08-24T06:42:55.850Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinebox-noads",
+          "version": "2.2"
+        }
+      ],
+      "recommended": false,
+      "bundleId": "com.pinebox.app"
     },
     {
       "id": "com.google.ios.youtube",
