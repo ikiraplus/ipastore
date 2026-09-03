@@ -13202,6 +13202,22 @@
       "bundleId": "com.esign.neo",
       "addedAt": "2026-09-03T18:59:58.494Z",
       "updatedAt": "2026-09-03T19:00:04.138Z"
+    },
+    {
+      "id": "app-1788462381512",
+      "name": "Sound Cloud GT",
+      "version": "8.76.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sound-cloud-gt_8.76.0_gs",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788462381512.png",
+      "previousVersions": [],
+      "size": "112.9 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.soundcloud.TouchApp",
+      "addedAt": "2026-09-03T19:06:21.512Z",
+      "updatedAt": "2026-09-03T19:06:25.711Z"
     }
   ]
 }
