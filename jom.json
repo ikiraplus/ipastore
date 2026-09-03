@@ -12944,6 +12944,22 @@
       "bundleId": "com.karim.ShotMark",
       "addedAt": "2026-09-03T18:31:02.776Z",
       "updatedAt": "2026-09-03T18:31:04.174Z"
+    },
+    {
+      "id": "app-1788460374860",
+      "name": "Text Formatter",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/text-formatter_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/1a/40/a71a4047-9185-1d0f-6570-1c9169b960d6/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "0.2 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.jarapps.FormatTheText",
+      "addedAt": "2026-09-03T18:32:54.860Z",
+      "updatedAt": "2026-09-03T18:32:57.793Z"
     }
   ]
 }
