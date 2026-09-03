@@ -13236,6 +13236,22 @@
       "bundleId": "com.farkhanda.reelmedio",
       "addedAt": "2026-09-03T18:59:16.911Z",
       "updatedAt": "2026-09-03T18:59:19.058Z"
+    },
+    {
+      "id": "app-1788461998494",
+      "name": "Esign Neo",
+      "version": "5.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/esign-neo_5.2.0",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788461998494.png",
+      "previousVersions": [],
+      "size": "23.9 MB",
+      "note": "",
+      "category": "أخرى",
+      "recommended": true,
+      "bundleId": "com.esign.neo",
+      "addedAt": "2026-09-03T18:59:58.494Z",
+      "updatedAt": "2026-09-03T19:00:04.138Z"
     }
   ]
 }
