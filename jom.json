@@ -12848,6 +12848,22 @@
       "bundleId": "com.vtoku.cam",
       "addedAt": "2026-09-03T18:14:41.533Z",
       "updatedAt": "2026-09-03T18:14:43.157Z"
+    },
+    {
+      "id": "app-1788459334633",
+      "name": "Hands Free Lingo",
+      "version": "1.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hands_free-lingo-1.0.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/84/5c/2b845ca7-3617-7ec3-7039-f22fc5d40d6d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2.0 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.Alex.VocalLingo",
+      "addedAt": "2026-09-03T18:15:34.633Z",
+      "updatedAt": "2026-09-03T18:15:39.862Z"
     }
   ]
 }
