@@ -6323,18 +6323,23 @@
     },
     {
       "id": "APP-7814465431",
-      "name": "Elementra The Boy S Adventur",
-      "version": "65.0",
+      "name": "Elementra The Boys Adventure",
+      "version": "90",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boy-s-adventure-65",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boys-adventure-90",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/4f/26/f94f2600-37ae-3e11-8048-a5f8cb526210/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "279.3 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boy-s-adventure-65",
+          "version": "65.0"
+        }
+      ],
+      "size": "350.0 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:38:53.769Z",
-      "updatedAt": "2026-08-24T06:52:04.091Z",
+      "updatedAt": "2026-09-03T18:52:46.927Z",
       "bundleId": "com.longgammagames.elementra.journy"
     },
     {
