@@ -13040,6 +13040,22 @@
       "bundleId": "com.realbobcorbin.Clipquota",
       "addedAt": "2026-09-03T18:37:34.925Z",
       "updatedAt": "2026-09-03T18:37:37.886Z"
+    },
+    {
+      "id": "app-1788460733176",
+      "name": "AeroFlap Split Flap Clock Ai",
+      "version": "1.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aeroflap-split_flap-clock-ai-1.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/ce/52/d7ce525a-a44b-14ca-2c26-d8c826d4e862/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "0.5 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.ap.AeroFlap",
+      "addedAt": "2026-09-03T18:38:53.176Z",
+      "updatedAt": "2026-09-03T18:38:56.050Z"
     }
   ]
 }
