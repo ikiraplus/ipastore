@@ -13104,6 +13104,22 @@
       "bundleId": "ReadyRaccoonSoftware.Flashcards",
       "addedAt": "2026-09-03T18:43:34.169Z",
       "updatedAt": "2026-09-03T18:43:42.047Z"
+    },
+    {
+      "id": "app-1788461057586",
+      "name": "Geometry Calculator",
+      "version": "1.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/geometry-calculator-v1.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/cf/56/88cf564e-7946-cfe0-5569-f05dd3a8f9e8/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "0.6 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.Russkin.Geometry",
+      "addedAt": "2026-09-03T18:44:17.586Z",
+      "updatedAt": "2026-09-03T18:44:20.989Z"
     }
   ]
 }
