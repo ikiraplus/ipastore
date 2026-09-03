@@ -12832,6 +12832,22 @@
       "bundleId": "enginsama.Bad-Camera",
       "addedAt": "2026-09-03T18:14:07.435Z",
       "updatedAt": "2026-09-03T18:14:10.057Z"
+    },
+    {
+      "id": "app-1788459281533",
+      "name": "Vrl Cam",
+      "version": "1.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vrl-cam_v1.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/08/14/ce081404-19d9-cfd3-9e4d-1253ed66b5ae/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "89.4 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.vtoku.cam",
+      "addedAt": "2026-09-03T18:14:41.533Z",
+      "updatedAt": "2026-09-03T18:14:43.157Z"
     }
   ]
 }
