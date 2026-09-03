@@ -12800,6 +12800,22 @@
       "bundleId": "com.pixelxracer.pixelracer",
       "addedAt": "2026-09-03T18:10:03.875Z",
       "updatedAt": "2026-09-03T18:10:09.646Z"
+    },
+    {
+      "id": "app-1788459125915",
+      "name": "KungFuBack",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kungfuback-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/9e/92/679e9229-8ecf-042e-37a5-c7678e9b914a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "9.4 MB",
+      "note": "لعبة مدفوعة في المتجر الرسمي.",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ivancerra.KungFuBack",
+      "addedAt": "2026-09-03T18:12:05.915Z",
+      "updatedAt": "2026-09-03T18:12:08.884Z"
     }
   ]
 }
