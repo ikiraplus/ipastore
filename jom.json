@@ -9485,22 +9485,26 @@
     {
       "id": "APP-1430192239",
       "name": "Simply Guitar Learn Guitar",
-      "version": "10.29",
+      "version": "10.29.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_guitar_learn_guitar_v10.29_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_guitar_learn_guitar_v10.29.1_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/d4/58/fad45806-3b4f-96f0-f0a1-03c7391dc84d/AppIconIOS26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_guitar_learn_guitar_v10.29_subscription_unlocked",
+          "version": "10.29"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/simply_guitar_learn_guitar_v10.28_subscription_unlocked",
           "version": "10.28"
         }
       ],
-      "size": "165.5 MB",
+      "size": "137.7 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-25T07:34:56.723Z",
-      "updatedAt": "2026-08-30T16:06:08.301Z",
+      "updatedAt": "2026-09-03T18:45:59.606Z",
       "bundleId": "com.joytunes.SimplyGuitar"
     },
     {
