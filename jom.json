@@ -13056,6 +13056,22 @@
       "bundleId": "com.ap.AeroFlap",
       "addedAt": "2026-09-03T18:38:53.176Z",
       "updatedAt": "2026-09-03T18:38:56.050Z"
+    },
+    {
+      "id": "app-1788460773280",
+      "name": "ShadowClip",
+      "version": "1.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadowclip_v1.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/b8/fa/e7b8fa57-2579-9103-a453-bdd2fd27f29a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "0.9 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.quietsignalslab.shadowclip",
+      "addedAt": "2026-09-03T18:39:33.280Z",
+      "updatedAt": "2026-09-03T18:39:35.576Z"
     }
   ]
 }
