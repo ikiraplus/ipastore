@@ -12912,6 +12912,22 @@
       "bundleId": "com.realbobcorbin.Phototriage",
       "addedAt": "2026-09-03T18:19:49.528Z",
       "updatedAt": "2026-09-03T18:19:53.357Z"
+    },
+    {
+      "id": "app-1788459675808",
+      "name": "MyReceipts",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/myreceipts-2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/d9/c6/c5d9c65a-3898-ae3b-e029-8698320289a4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2.7 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.josephward.MyReceipts",
+      "addedAt": "2026-09-03T18:21:15.808Z",
+      "updatedAt": "2026-09-03T18:21:18.804Z"
     }
   ]
 }
