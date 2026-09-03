@@ -13182,6 +13182,22 @@
       "bundleId": "com.monkeyibrowstudios.worldsoccerchamps",
       "addedAt": "2026-09-03T18:53:35.937Z",
       "updatedAt": "2026-09-03T18:53:41.491Z"
+    },
+    {
+      "id": "app-1788461660739",
+      "name": "Awaken Astral Blade",
+      "version": "1.01",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/awaken-astral-blade-1.01",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/40/fa/e940fa86-88b2-004f-9fa7-a6fe3e91714d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1285.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.darkpigeon.awaken",
+      "addedAt": "2026-09-03T18:54:20.739Z",
+      "updatedAt": "2026-09-03T18:54:23.869Z"
     }
   ]
 }
