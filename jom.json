@@ -13008,6 +13008,22 @@
       "bundleId": "com.infc.calcnote",
       "addedAt": "2026-09-03T18:36:24.878Z",
       "updatedAt": "2026-09-03T18:36:28.869Z"
+    },
+    {
+      "id": "app-1788460619599",
+      "name": "Dual Camera Lifestyle",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dual-camera-lifestyle-v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/0b/f2/250bf2da-8515-5f30-1bbb-4995e03f9b53/AppIcon-1x_U007epad-0-1-85-220-0.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "0.7 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.vloger",
+      "addedAt": "2026-09-03T18:36:59.599Z",
+      "updatedAt": "2026-09-03T18:37:00.606Z"
     }
   ]
 }
