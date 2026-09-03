@@ -12816,6 +12816,22 @@
       "bundleId": "com.ivancerra.KungFuBack",
       "addedAt": "2026-09-03T18:12:05.915Z",
       "updatedAt": "2026-09-03T18:12:08.884Z"
+    },
+    {
+      "id": "app-1788459247435",
+      "name": "Bad Camera",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bad-camera_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/1a/09/141a093d-f740-b56a-d46e-e4de74377b2f/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "0.2 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "enginsama.Bad-Camera",
+      "addedAt": "2026-09-03T18:14:07.435Z",
+      "updatedAt": "2026-09-03T18:14:10.057Z"
     }
   ]
 }
