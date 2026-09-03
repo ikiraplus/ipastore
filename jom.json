@@ -12960,6 +12960,22 @@
       "bundleId": "com.jarapps.FormatTheText",
       "addedAt": "2026-09-03T18:32:54.860Z",
       "updatedAt": "2026-09-03T18:32:57.793Z"
+    },
+    {
+      "id": "app-1788460419998",
+      "name": "isystem",
+      "version": "1.19.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/isystem_v1.19.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/09/a6/eb09a62b-511d-b4dd-90ae-d3be425bbf7b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1.0 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "tk.zacksmith.iTop",
+      "addedAt": "2026-09-03T18:33:39.998Z",
+      "updatedAt": "2026-09-03T18:33:41.881Z"
     }
   ]
 }
