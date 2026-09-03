@@ -13166,6 +13166,22 @@
       "bundleId": "com.xiaomo.lootz",
       "addedAt": "2026-09-03T18:51:41.757Z",
       "updatedAt": "2026-09-03T18:51:44.007Z"
+    },
+    {
+      "id": "app-1788461615937",
+      "name": "Soccer Champs",
+      "version": "11.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soccer-champs-11.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/87/90/96879003-e332-758a-2055-dcba5a7fab2f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "193.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.monkeyibrowstudios.worldsoccerchamps",
+      "addedAt": "2026-09-03T18:53:35.937Z",
+      "updatedAt": "2026-09-03T18:53:41.491Z"
     }
   ]
 }
