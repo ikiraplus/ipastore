@@ -13198,6 +13198,22 @@
       "bundleId": "com.darkpigeon.awaken",
       "addedAt": "2026-09-03T18:54:20.739Z",
       "updatedAt": "2026-09-03T18:54:23.869Z"
+    },
+    {
+      "id": "app-1788461755387",
+      "name": "Dead By Extraction",
+      "version": "1.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dead-by-extraction-1.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/cc/fd/fbccfda0-38b6-e134-a617-67a4ed9d2d4d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "247.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "net.pixelrabbit.jh",
+      "addedAt": "2026-09-03T18:55:55.387Z",
+      "updatedAt": "2026-09-03T18:55:57.624Z"
     }
   ]
 }
