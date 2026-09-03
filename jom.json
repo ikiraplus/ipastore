@@ -13024,6 +13024,22 @@
       "bundleId": "com.vloger",
       "addedAt": "2026-09-03T18:36:59.599Z",
       "updatedAt": "2026-09-03T18:37:00.606Z"
+    },
+    {
+      "id": "app-1788460654925",
+      "name": "Clipquota",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clipquota-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/7f/db/0e7fdbfe-d1cd-a4ce-d681-77d92b51fd50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "12.6 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.realbobcorbin.Clipquota",
+      "addedAt": "2026-09-03T18:37:34.925Z",
+      "updatedAt": "2026-09-03T18:37:37.886Z"
     }
   ]
 }
