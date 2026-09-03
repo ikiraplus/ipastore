@@ -13120,6 +13120,22 @@
       "bundleId": "com.Russkin.Geometry",
       "addedAt": "2026-09-03T18:44:17.586Z",
       "updatedAt": "2026-09-03T18:44:20.989Z"
+    },
+    {
+      "id": "app-1788461109771",
+      "name": "Webview Inspector",
+      "version": "1.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/webview-inspector-v1.2.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/5d/5a/675d5a0f-20ef-12c1-729f-48238638a484/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1.2 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "dev.cihat.WebViewInspector",
+      "addedAt": "2026-09-03T18:45:09.771Z",
+      "updatedAt": "2026-09-03T18:45:12.549Z"
     }
   ]
 }
