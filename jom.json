@@ -12976,6 +12976,22 @@
       "bundleId": "tk.zacksmith.iTop",
       "addedAt": "2026-09-03T18:33:39.998Z",
       "updatedAt": "2026-09-03T18:33:41.881Z"
+    },
+    {
+      "id": "app-1788460536024",
+      "name": "Translator AI - الترجمة الذكية",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/translator-ai-v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/39/b3/6739b3bb-14a5-725c-c8d6-5cbb04a27718/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3.4 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.aitranslate.translator",
+      "addedAt": "2026-09-03T18:35:36.024Z",
+      "updatedAt": "2026-09-03T18:35:38.452Z"
     }
   ]
 }
