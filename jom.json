@@ -13145,6 +13145,22 @@
       "bundleId": "dev.cihat.WebViewInspector",
       "addedAt": "2026-09-03T18:45:09.771Z",
       "updatedAt": "2026-09-03T18:45:12.549Z"
+    },
+    {
+      "id": "app-1788461501757",
+      "name": "Last Extract",
+      "version": "0.0.29",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-extract-0.0.29",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/1e/d0/cd1ed0c7-af9a-57af-e313-cffdf83fc9e8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "304.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.xiaomo.lootz",
+      "addedAt": "2026-09-03T18:51:41.757Z",
+      "updatedAt": "2026-09-03T18:51:44.007Z"
     }
   ]
 }
