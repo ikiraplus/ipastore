@@ -13218,6 +13218,22 @@
       "bundleId": "com.soundcloud.TouchApp",
       "addedAt": "2026-09-03T19:06:21.512Z",
       "updatedAt": "2026-09-03T19:06:25.711Z"
+    },
+    {
+      "id": "app-1788462975239",
+      "name": "Sound Cloud Nexa",
+      "version": "8.76.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sound-cloud_8.76.0_nexa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/9c/af/ae9caf85-e9c5-8162-1b40-5c6b5d4ada96/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "113.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.soundcloud.TouchApp",
+      "addedAt": "2026-09-03T19:16:15.239Z",
+      "updatedAt": "2026-09-03T19:16:17.412Z"
     }
   ]
 }
