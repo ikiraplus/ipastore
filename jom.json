@@ -12784,6 +12784,22 @@
       "bundleId": "com.bethsoft.falloutshelter",
       "addedAt": "2026-09-03T18:07:46.556Z",
       "updatedAt": "2026-09-03T18:07:55.205Z"
+    },
+    {
+      "id": "app-1788459003875",
+      "name": "PixelXRacer",
+      "version": "3.5.24",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pixelxracer-3.5.24",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/1c/40/9b/1c409b75-9903-8569-adce-5753a778ec3a/AppIcon-0-1x_U007emarketing-0-85-220-7.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "181.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pixelxracer.pixelracer",
+      "addedAt": "2026-09-03T18:10:03.875Z",
+      "updatedAt": "2026-09-03T18:10:09.646Z"
     }
   ]
 }
