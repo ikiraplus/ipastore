@@ -12992,6 +12992,22 @@
       "bundleId": "com.aitranslate.translator",
       "addedAt": "2026-09-03T18:35:36.024Z",
       "updatedAt": "2026-09-03T18:35:38.452Z"
+    },
+    {
+      "id": "app-1788460584878",
+      "name": "Notepad Calculator",
+      "version": "1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/notepad-calculator-v1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/be/e1/ebbee143-8d6d-c587-4e29-4be570f78e0b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2.1 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.infc.calcnote",
+      "addedAt": "2026-09-03T18:36:24.878Z",
+      "updatedAt": "2026-09-03T18:36:28.869Z"
     }
   ]
 }
