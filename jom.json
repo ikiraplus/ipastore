@@ -12864,6 +12864,22 @@
       "bundleId": "com.Alex.VocalLingo",
       "addedAt": "2026-09-03T18:15:34.633Z",
       "updatedAt": "2026-09-03T18:15:39.862Z"
+    },
+    {
+      "id": "app-1788459372518",
+      "name": "Linkrinse",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/linkrinse_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/74/d4/1674d455-97f8-feba-3a48-08ac86ef257f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "10.1 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.realbobcorbin.Linkrinse",
+      "addedAt": "2026-09-03T18:16:12.518Z",
+      "updatedAt": "2026-09-03T18:16:13.895Z"
     }
   ]
 }
