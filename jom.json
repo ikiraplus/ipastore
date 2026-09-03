@@ -12928,6 +12928,22 @@
       "bundleId": "com.josephward.MyReceipts",
       "addedAt": "2026-09-03T18:21:15.808Z",
       "updatedAt": "2026-09-03T18:21:18.804Z"
+    },
+    {
+      "id": "app-1788460262776",
+      "name": "AperTrace",
+      "version": "1.2.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/apertrace_v1.2.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/05/74/960574b5-eec8-c7ca-bc14-37151a6df8a0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1.1 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.karim.ShotMark",
+      "addedAt": "2026-09-03T18:31:02.776Z",
+      "updatedAt": "2026-09-03T18:31:04.174Z"
     }
   ]
 }
