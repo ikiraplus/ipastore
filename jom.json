@@ -12896,6 +12896,22 @@
       "bundleId": "com.dh.pixelcoloring",
       "addedAt": "2026-09-03T18:18:23.625Z",
       "updatedAt": "2026-09-03T18:18:30.184Z"
+    },
+    {
+      "id": "app-1788459589528",
+      "name": "Phototriage",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/phototriage_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/d6/47/57d647de-4740-bfc2-159e-0a9013235c1b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "10.5 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.realbobcorbin.Phototriage",
+      "addedAt": "2026-09-03T18:19:49.528Z",
+      "updatedAt": "2026-09-03T18:19:53.357Z"
     }
   ]
 }
