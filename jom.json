@@ -12768,6 +12768,22 @@
       "bundleId": "com.zhiliaoapp.musically",
       "addedAt": "2026-09-02T16:25:22.542Z",
       "updatedAt": "2026-09-02T16:25:35.495Z"
+    },
+    {
+      "id": "app-1788458866556",
+      "name": "Fallout Shelter",
+      "version": "2.5.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fallout-shelter-2.5.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/f6/64/32f664aa-b73a-a6f9-1a66-917ba29527c4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "517.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.bethsoft.falloutshelter",
+      "addedAt": "2026-09-03T18:07:46.556Z",
+      "updatedAt": "2026-09-03T18:07:55.205Z"
     }
   ]
 }
