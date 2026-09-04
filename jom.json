@@ -6215,31 +6215,6 @@
       "bundleId": "com.offlinemusic"
     },
     {
-      "id": "APP-1690858955",
-      "name": "Spotify GS",
-      "version": "9.1.78",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_es",
-      "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
-      "size": "128.3 MB",
-      "note": "تفعيل ميزة Premium تلقائيا",
-      "category": "ترفيه",
-      "addedAt": "2026-03-29",
-      "toolVersion": "",
-      "previousVersions": [
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.76_gs",
-          "version": "9.1.76"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-gt_9.1.74",
-          "version": "9.1.74"
-        }
-      ],
-      "recommended": false,
-      "updatedAt": "2026-08-25T07:33:56.424Z",
-      "bundleId": "com.spotify.client"
-    },
-    {
       "id": "APP-4465988556",
       "name": "Simply Draw Learn To Draw",
       "version": "1.7.5",
