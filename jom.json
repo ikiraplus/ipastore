@@ -13209,6 +13209,22 @@
       "bundleId": "com.soundcloud.TouchApp",
       "addedAt": "2026-09-03T19:16:15.239Z",
       "updatedAt": "2026-09-03T19:16:17.412Z"
+    },
+    {
+      "id": "app-1788519035815",
+      "name": "Spotify GT",
+      "version": "9.1.78",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_gt",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/e1/e7/74e1e75a-49d0-ff5c-6ec2-64a2540ac7c7/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "125.7 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.spotify.client",
+      "addedAt": "2026-09-04T10:50:35.815Z",
+      "updatedAt": "2026-09-04T10:50:37.941Z"
     }
   ]
 }
