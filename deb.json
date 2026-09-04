@@ -567,27 +567,28 @@
     {
       "id": "dylib-1784548288746",
       "name": "Gtok Tweak",
-      "version": "1.7",
+      "version": "1.8.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Gtok-dyilb-v1.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/GTok-1.8.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok-v1.6",
-          "version": "1.6"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Gtok-dyilb-v1.7",
+          "version": "1.7"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok",
-          "version": "1.4"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gtok-v1.6",
+          "version": "1.6"
         }
       ],
-      "size": "",
+      "size": "2.9 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T11:51:28.747Z",
-      "updatedAt": "2026-08-06T07:21:30.066Z"
+      "updatedAt": "2026-09-04T11:47:23.665Z",
+      "bundleId": ""
     },
     {
       "id": "dylib-1784548435618",
