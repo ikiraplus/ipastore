@@ -78,23 +78,23 @@
     {
       "id": "APP-2409608850",
       "name": "WhatsApp Gold",
-      "version": "26.34.72",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.34.72_wgoldplus",
+      "version": "26.34.74",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.34.74_wgoldplus",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
-      "size": "149.8 MB",
+      "size": "142.5 MB",
       "note": "سجل الدخول في التطبيق كجهاز مرتبط فقط\nيتضمن التطبيق عدة إضافات مثل تغيير الموقع الجغرافي وتغيير الخط",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-08-31T17:18:12.966Z",
-      "toolVersion": "2.7",
+      "updatedAt": "2026-09-04T11:43:36.042Z",
+      "toolVersion": "2.9",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.34.72_wgoldplus",
+          "version": "26.34.72"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.32.75_wgoldplus",
           "version": "26.32.75"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsappgold_26.31.74",
-          "version": "26.31.74"
         }
       ],
       "recommended": false,
