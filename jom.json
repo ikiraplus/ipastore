@@ -205,23 +205,23 @@
     {
       "id": "APP-2606013128",
       "name": "WhatsApp Business - Gold",
-      "version": "26.34.72",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wa-business_26.34.72_wgoldplus",
+      "version": "26.34.74",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wa-business_26.34.74_wagoldplus",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
-      "size": "156.8 MB",
+      "size": "149.3 MB",
       "note": "سجل الدخول في التطبيق كجهاز مرتبط فقط",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-31T17:17:48.487Z",
-      "toolVersion": "2.7",
+      "updatedAt": "2026-09-04T11:43:11.262Z",
+      "toolVersion": "2.9",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wa-business_26.34.72_wgoldplus",
+          "version": "26.34.72"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wa-business_26.32.75_wgoldplus",
           "version": "26.32.75"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/watusi-bussnis_26.25.10_wc",
-          "version": "26.25.10"
         }
       ],
       "recommended": false,
