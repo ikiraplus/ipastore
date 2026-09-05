@@ -482,23 +482,23 @@
     {
       "id": "APP-7753989446",
       "name": "Locket Gold",
-      "version": "2.62.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/locket-widget-v2.62.0-locket-gold-patched",
+      "version": "2.63.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/locket-widget-v2.63.0-locket-gold-patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/6f/78/8c6f7815-bbfe-2f1c-371f-cfcb20017bad/app_icon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
-      "size": "146.4 MB",
+      "size": "71.0 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-08-29T08:41:28.550Z",
+      "updatedAt": "2026-09-05T19:57:03.211Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/locket-widget-v2.61.1-locket-gold-patched",
-          "version": "2.61.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/locket-widget-v2.62.0-locket-gold-patched",
+          "version": "2.62.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/locket-widget-v2.61.0-locket-gold-patched",
-          "version": "2.61.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/locket-widget-v2.61.1-locket-gold-patched",
+          "version": "2.61.1"
         }
       ],
       "recommended": false,
