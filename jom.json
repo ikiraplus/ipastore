@@ -13538,6 +13538,22 @@
       "bundleId": "com.abdulrazaq.nextpro",
       "addedAt": "2026-09-05T20:03:03.915Z",
       "updatedAt": "2026-09-05T20:03:06.024Z"
+    },
+    {
+      "id": "app-1788638917632",
+      "name": "Numy Notepad Calculator",
+      "version": "1.4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/numy_notepad_calculator-1.4.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/84/f9/c284f9c6-7214-1e12-eeba-cedbd26eb451/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "19.2 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "ai.moruk.numy",
+      "addedAt": "2026-09-05T20:08:37.632Z",
+      "updatedAt": "2026-09-05T20:08:39.941Z"
     }
   ]
 }
