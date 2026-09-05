@@ -4201,15 +4201,23 @@
     {
       "id": "APP-3826227351",
       "name": "head basketball",
-      "version": "4.5.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/head-basketball",
+      "version": "4.6.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/head-basketball-4.6.4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/aa/2e/6baa2ed8-2fe6-342b-0716-9fabcff9afd9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "size": "422.1 MB",
+      "size": "450.5 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:29:56.247Z",
-      "updatedAt": "2026-08-24T08:30:22.005Z",
-      "bundleId": "com.dnddream.headbasketball"
+      "updatedAt": "2026-09-05T19:46:42.520Z",
+      "bundleId": "com.dnddream.headbasketball",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/head-basketball",
+          "version": "4.5.3"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-4442550428",
