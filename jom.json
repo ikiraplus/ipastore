@@ -13225,6 +13225,22 @@
       "bundleId": "com.spotify.client",
       "addedAt": "2026-09-04T10:50:35.815Z",
       "updatedAt": "2026-09-04T10:50:37.941Z"
+    },
+    {
+      "id": "app-1788636418136",
+      "name": "Swiftgram Multi",
+      "version": "12.9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/swiftgram-multi_12.9.2-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/67/08/d76708c7-3cd9-614f-d414-d8526854a0d9/Swiftgram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "90.0 MB",
+      "note": "تطبيق سويفتكرام مع اداة Multi \nطريقة تفعيل الاداة : اضغط ب 3 اصابع على الشاشه وفعل الادوات التي تريدها.",
+      "category": "تواصل",
+      "recommended": true,
+      "bundleId": "app.swiftgram.ios",
+      "addedAt": "2026-09-05T19:26:58.136Z",
+      "updatedAt": "2026-09-05T19:27:00.758Z"
     }
   ]
 }
