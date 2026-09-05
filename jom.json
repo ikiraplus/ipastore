@@ -13426,6 +13426,22 @@
       "bundleId": "com.acdmgame.academdreams",
       "addedAt": "2026-09-05T19:47:45.082Z",
       "updatedAt": "2026-09-05T19:47:51.683Z"
+    },
+    {
+      "id": "app-1788638295419",
+      "name": "SlideTutor",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/slidetutor_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/49/c8/d349c82c-a081-6ae9-9abc-3af62f159d9c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "27.5 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.slidetutor.app",
+      "addedAt": "2026-09-05T19:58:15.419Z",
+      "updatedAt": "2026-09-05T19:58:17.658Z"
     }
   ]
 }
