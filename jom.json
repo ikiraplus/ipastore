@@ -13380,6 +13380,22 @@
       "bundleId": "com.videoToFrame.dh",
       "addedAt": "2026-09-05T19:44:02.059Z",
       "updatedAt": "2026-09-05T19:44:13.177Z"
+    },
+    {
+      "id": "app-1788637541971",
+      "name": "Dredge",
+      "version": "1.5.18",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dredge-1.5.18",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/dc/2b/38dc2b49-6428-44d9-f4cc-4058743cb585/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "631.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.blacksaltgames.dredge",
+      "addedAt": "2026-09-05T19:45:41.971Z",
+      "updatedAt": "2026-09-05T19:46:00.122Z"
     }
   ]
 }
