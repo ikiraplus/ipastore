@@ -13522,6 +13522,22 @@
       "bundleId": "com.geezapps.qrBacodeScan",
       "addedAt": "2026-09-05T20:02:09.429Z",
       "updatedAt": "2026-09-05T20:02:12.222Z"
+    },
+    {
+      "id": "app-1788638583915",
+      "name": "Dreamura Sleep Aid",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dreamura_sleep_aid-v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/b5/f3/e1b5f347-822a-a3e1-dcb3-defc8895e485/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "307.5 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.abdulrazaq.nextpro",
+      "addedAt": "2026-09-05T20:03:03.915Z",
+      "updatedAt": "2026-09-05T20:03:06.024Z"
     }
   ]
 }
