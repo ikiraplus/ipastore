@@ -5156,18 +5156,18 @@
     {
       "id": "APP-2571901363",
       "name": "Adobe Premiere AI Video Editor",
-      "version": "26.19.0",
+      "version": "26.19.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe_premiere_ai_video_editor_v26.19.0_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe_premiere_ai_video_editor_v26.19.1_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/91/10/d49110b5-9361-3de9-782f-8c5271e6d126/AppIcon_Premiere-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe_premiere_ai_video_editor_v26.18.1_subscription_unlocked",
-          "version": "26.18.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe_premiere_ai_video_editor_v26.19.0_subscription_unlocked",
+          "version": "26.19.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe_premiere_ai_video_editor_v26.18.0_subscription_unlocked",
-          "version": "26.18.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adobe_premiere_ai_video_editor_v26.18.1_subscription_unlocked",
+          "version": "26.18.1"
         }
       ],
       "size": "89.0 MB",
@@ -5175,7 +5175,7 @@
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-07-21T15:27:28.966Z",
-      "updatedAt": "2026-09-03T18:56:31.483Z",
+      "updatedAt": "2026-09-05T20:01:18.636Z",
       "bundleId": "com.adobe.premiere.ios"
     },
     {
