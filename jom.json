@@ -13570,6 +13570,22 @@
       "bundleId": "com.ethan.QuickImage",
       "addedAt": "2026-09-05T20:11:25.046Z",
       "updatedAt": "2026-09-05T20:11:29.171Z"
+    },
+    {
+      "id": "app-1788639130079",
+      "name": "Smart Highlighter AI Reader",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/smart_highlighter_ai_reader-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/9b/3a/1c9b3af0-2b2c-f3bc-bc80-fefe1ced6b7b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "23.1 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.innovationgeneration.smartHighlighter",
+      "addedAt": "2026-09-05T20:12:10.079Z",
+      "updatedAt": "2026-09-05T20:12:13.631Z"
     }
   ]
 }
