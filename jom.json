@@ -13410,6 +13410,22 @@
       "bundleId": "com.blacksaltgames.dredge",
       "addedAt": "2026-09-05T19:45:41.971Z",
       "updatedAt": "2026-09-05T19:46:00.122Z"
+    },
+    {
+      "id": "app-1788637665082",
+      "name": "ACADEM DREAMS: Adventure Saga",
+      "version": "1.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/academdreams-1.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/78/30/b87830f7-b7c1-25b1-f2e9-d0a060782a2a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1637.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.acdmgame.academdreams",
+      "addedAt": "2026-09-05T19:47:45.082Z",
+      "updatedAt": "2026-09-05T19:47:51.683Z"
     }
   ]
 }
