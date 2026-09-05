@@ -13312,6 +13312,22 @@
       "bundleId": "com.rubygames.assassin",
       "addedAt": "2026-09-05T19:33:15.276Z",
       "updatedAt": "2026-09-05T19:33:17.871Z"
+    },
+    {
+      "id": "app-1788637061013",
+      "name": "Idle Dino Zoo",
+      "version": "1.0.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-dino-zoo-1.0.13",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/d4/10/fed410fc-2428-7465-3037-72ab1d71ccea/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "66.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.TechTreeGames.IdleDinoZoo",
+      "addedAt": "2026-09-05T19:37:41.013Z",
+      "updatedAt": "2026-09-05T19:37:45.806Z"
     }
   ]
 }
