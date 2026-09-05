@@ -9757,17 +9757,23 @@
     {
       "id": "APP-1680900961",
       "name": "Soul knight",
-      "version": "8.5.0",
+      "version": "8.5.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soulknight-8.5.0-1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soulknight-8.5.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/52/4f/de524f43-d6c1-7938-1df3-47e366a2acf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "801.7 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soulknight-8.5.0-1",
+          "version": "8.5.0"
+        }
+      ],
+      "size": "775.9 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-27T16:18:30.323Z",
-      "updatedAt": "2026-08-27T16:18:36.959Z"
+      "updatedAt": "2026-09-05T19:46:19.441Z",
+      "bundleId": ""
     },
     {
       "id": "APP-7719449285",
