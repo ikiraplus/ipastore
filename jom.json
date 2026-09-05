@@ -32,23 +32,23 @@
     {
       "id": "APP-9268555834",
       "name": "ريكرام",
-      "version": "445.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagramregram_v445.0.0",
+      "version": "443.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/regram-443.0.0-crack-6.0.1",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773401165477.png",
-      "size": "305.2 MB",
+      "size": "613.6 MB",
       "note": "لتفعيل مميزات التطبيق:\n- قم بتغيير لغة التطبيق من الإنكليزية إلى العربية أو العكس",
       "category": "تواصل",
       "addedAt": "2026-04-05",
-      "updatedAt": "2026-09-02T16:00:10.030Z",
-      "toolVersion": "5.1",
+      "updatedAt": "2026-09-05T20:04:03.880Z",
+      "toolVersion": "6.0.1",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagramregram_v445.0.0",
+          "version": "442.0.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-435-regram5.1_patch",
           "version": "436.0.0"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram_435_regram_5.1_instaoled",
-          "version": "435.0.0"
         }
       ],
       "recommended": true,
