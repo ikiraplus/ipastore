@@ -13490,6 +13490,22 @@
       "bundleId": "com.dowble.patterns",
       "addedAt": "2026-09-05T20:00:12.228Z",
       "updatedAt": "2026-09-05T20:00:12.987Z"
+    },
+    {
+      "id": "app-1788638451879",
+      "name": "File Converter Max",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/file-converter-max-v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/dd/f8/5cddf8e5-7330-9306-5c61-ac802ae83326/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "9.9 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.innovatorsgeneration.fileconverter",
+      "addedAt": "2026-09-05T20:00:51.879Z",
+      "updatedAt": "2026-09-05T20:00:56.968Z"
     }
   ]
 }
