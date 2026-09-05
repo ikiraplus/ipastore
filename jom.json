@@ -13360,6 +13360,22 @@
       "bundleId": "com.tolba.sportiva",
       "addedAt": "2026-09-05T19:40:45.244Z",
       "updatedAt": "2026-09-05T19:40:56.117Z"
+    },
+    {
+      "id": "app-1788637442059",
+      "name": "Video To Frames",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/video-to-frames-v1.0",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788637442059.png",
+      "previousVersions": [],
+      "size": "4.8 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.videoToFrame.dh",
+      "addedAt": "2026-09-05T19:44:02.059Z",
+      "updatedAt": "2026-09-05T19:44:13.177Z"
     }
   ]
 }
