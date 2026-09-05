@@ -13506,6 +13506,22 @@
       "bundleId": "com.innovatorsgeneration.fileconverter",
       "addedAt": "2026-09-05T20:00:51.879Z",
       "updatedAt": "2026-09-05T20:00:56.968Z"
+    },
+    {
+      "id": "app-1788638529429",
+      "name": "Scan pro Qr Barcode Scanner",
+      "version": "2.3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scanpro_qr_barcode_scanner-2.3.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/b7/a4/b7b7a487-3a60-e6cd-ce41-97911b6a8177/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "56.3 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.geezapps.qrBacodeScan",
+      "addedAt": "2026-09-05T20:02:09.429Z",
+      "updatedAt": "2026-09-05T20:02:12.222Z"
     }
   ]
 }
