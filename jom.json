@@ -13442,6 +13442,22 @@
       "bundleId": "com.slidetutor.app",
       "addedAt": "2026-09-05T19:58:15.419Z",
       "updatedAt": "2026-09-05T19:58:17.658Z"
+    },
+    {
+      "id": "app-1788638319599",
+      "name": "Drygo",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/drygo_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/87/df/8f87dfc4-bb60-4d4e-50ea-429f8ddcc7be/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3.8 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "ru.izyapp.WayWeather",
+      "addedAt": "2026-09-05T19:58:39.599Z",
+      "updatedAt": "2026-09-05T19:58:47.473Z"
     }
   ]
 }
