@@ -13586,6 +13586,22 @@
       "bundleId": "com.innovationgeneration.smartHighlighter",
       "addedAt": "2026-09-05T20:12:10.079Z",
       "updatedAt": "2026-09-05T20:12:13.631Z"
+    },
+    {
+      "id": "app-1788639161888",
+      "name": "Membership Navi",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/membership_navi_1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/d0/f1/28d0f1b9-97a9-1d17-c00f-64553878955f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1.2 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "org.kyzn.Membership-Navi",
+      "addedAt": "2026-09-05T20:12:41.888Z",
+      "updatedAt": "2026-09-05T20:12:47.285Z"
     }
   ]
 }
