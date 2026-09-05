@@ -13241,6 +13241,22 @@
       "bundleId": "app.swiftgram.ios",
       "addedAt": "2026-09-05T19:26:58.136Z",
       "updatedAt": "2026-09-05T19:27:00.758Z"
+    },
+    {
+      "id": "app-1788636495918",
+      "name": "Whitegram Multi",
+      "version": "12.9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-multi_12.9.2-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788636495918.png",
+      "previousVersions": [],
+      "size": "184.7 MB",
+      "note": "تطبيق وايتكرام مع اداة Multi \nطريقة تفعيل الاداة : اضغط ب 3 اصابع على الشاشه وفعل الادوات التي تريدها.",
+      "category": "تواصل",
+      "recommended": true,
+      "bundleId": "ph.telegra.Telegraph",
+      "addedAt": "2026-09-05T19:28:15.918Z",
+      "updatedAt": "2026-09-05T19:28:29.124Z"
     }
   ]
 }
