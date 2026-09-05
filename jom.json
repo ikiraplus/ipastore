@@ -13618,6 +13618,22 @@
       "bundleId": "com.sleepfighters.app",
       "addedAt": "2026-09-05T20:13:13.578Z",
       "updatedAt": "2026-09-05T20:13:14.769Z"
+    },
+    {
+      "id": "app-1788639223035",
+      "name": "1 Contact Pro Clean Backup",
+      "version": "2.2.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/1-contact_pro_clean_backup-2.2.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/8f/7c/3f8f7cb3-8c8e-2b83-80b5-ee2691fc5039/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "20.4 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.roxwin.1contact.pro",
+      "addedAt": "2026-09-05T20:13:43.035Z",
+      "updatedAt": "2026-09-05T20:13:44.276Z"
     }
   ]
 }
