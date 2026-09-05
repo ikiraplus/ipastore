@@ -13602,6 +13602,22 @@
       "bundleId": "org.kyzn.Membership-Navi",
       "addedAt": "2026-09-05T20:12:41.888Z",
       "updatedAt": "2026-09-05T20:12:47.285Z"
+    },
+    {
+      "id": "app-1788639193578",
+      "name": "Sleep Fighters Alarm Clock",
+      "version": "1.0.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sleep_fighters_alarm_clock-1.0.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/3f/18/5f3f18de-d9c9-246d-2a5b-0499f2164ea7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "23.6 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.sleepfighters.app",
+      "addedAt": "2026-09-05T20:13:13.578Z",
+      "updatedAt": "2026-09-05T20:13:14.769Z"
     }
   ]
 }
