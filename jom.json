@@ -13344,6 +13344,22 @@
       "bundleId": "org.smartselwady.wegooal",
       "addedAt": "2026-09-05T19:38:37.935Z",
       "updatedAt": "2026-09-05T19:38:40.203Z"
+    },
+    {
+      "id": "app-1788637245244",
+      "name": "سبورتيفا",
+      "version": "1.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sportina_v1.0.1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788637245244.png",
+      "previousVersions": [],
+      "size": "21.1 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.tolba.sportiva",
+      "addedAt": "2026-09-05T19:40:45.244Z",
+      "updatedAt": "2026-09-05T19:40:56.117Z"
     }
   ]
 }
