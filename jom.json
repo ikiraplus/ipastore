@@ -8562,17 +8562,22 @@
     {
       "id": "APP-5674410804",
       "name": "Monsters",
-      "version": "20.2",
+      "version": "20.2.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monsters-20.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monsters-20.2.4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/8b/37/a08b377b-551d-fc89-e171-89b72a7151fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "139.4 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monsters-20.2",
+          "version": "20.2"
+        }
+      ],
+      "size": "139.9 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:13:49.502Z",
-      "updatedAt": "2026-08-24T06:44:50.941Z",
+      "updatedAt": "2026-09-05T19:31:24.862Z",
       "bundleId": "es.socialpoint.MonsterCity"
     },
     {
