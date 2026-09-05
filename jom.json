@@ -13474,6 +13474,22 @@
       "bundleId": "com.mol.MolPlayer",
       "addedAt": "2026-09-05T19:59:45.633Z",
       "updatedAt": "2026-09-05T19:59:48.130Z"
+    },
+    {
+      "id": "app-1788638412228",
+      "name": "Patterns Create Wallpapers",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/patterns_create_wallpapers-v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/ce/e3/20cee30e-4a2d-06ef-c6c6-d1f9d3a9515f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "8.0 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.dowble.patterns",
+      "addedAt": "2026-09-05T20:00:12.228Z",
+      "updatedAt": "2026-09-05T20:00:12.987Z"
     }
   ]
 }
