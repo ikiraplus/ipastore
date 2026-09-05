@@ -13328,6 +13328,22 @@
       "bundleId": "com.TechTreeGames.IdleDinoZoo",
       "addedAt": "2026-09-05T19:37:41.013Z",
       "updatedAt": "2026-09-05T19:37:45.806Z"
+    },
+    {
+      "id": "app-1788637117935",
+      "name": "وي جول",
+      "version": "2.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/we-goal-v2.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/14/16/8914163b-a1d2-fd31-4712-f03b6ff24e27/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "9.3 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "org.smartselwady.wegooal",
+      "addedAt": "2026-09-05T19:38:37.935Z",
+      "updatedAt": "2026-09-05T19:38:40.203Z"
     }
   ]
 }
