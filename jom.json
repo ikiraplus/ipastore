@@ -13458,6 +13458,22 @@
       "bundleId": "ru.izyapp.WayWeather",
       "addedAt": "2026-09-05T19:58:39.599Z",
       "updatedAt": "2026-09-05T19:58:47.473Z"
+    },
+    {
+      "id": "app-1788638385633",
+      "name": "ReelPort: Video Player",
+      "version": "1.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reelport_v1.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/24/8d/3a248dff-7086-928e-a86c-864b204f326d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "17.8 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.mol.MolPlayer",
+      "addedAt": "2026-09-05T19:59:45.633Z",
+      "updatedAt": "2026-09-05T19:59:48.130Z"
     }
   ]
 }
