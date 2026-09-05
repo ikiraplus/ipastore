@@ -173,18 +173,24 @@
     {
       "id": "dylib-1784535962494",
       "name": "Regram Tweak",
-      "version": "5.1",
+      "version": "6.0.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/regram-ikiraplus",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/regramcrack6.0.1-ikiraplus",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773401165477.png",
       "fileType": "dylib",
-      "previousVersions": [],
-      "size": "4.0 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/regram-ikiraplus",
+          "version": "5.1"
+        }
+      ],
+      "size": "9.0 MB",
       "note": "",
       "category": "دايلب",
       "recommended": true,
       "addedAt": "2026-07-20T08:26:02.495Z",
-      "updatedAt": "2026-07-20T08:26:02.495Z"
+      "updatedAt": "2026-09-05T20:33:42.112Z",
+      "bundleId": ""
     },
     {
       "id": "dylib-1784536015470",
