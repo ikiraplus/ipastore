@@ -13554,6 +13554,22 @@
       "bundleId": "ai.moruk.numy",
       "addedAt": "2026-09-05T20:08:37.632Z",
       "updatedAt": "2026-09-05T20:08:39.941Z"
+    },
+    {
+      "id": "app-1788639085046",
+      "name": "Photo Compressor : Sharink Size",
+      "version": "1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photo-compressor-v1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/72/24/d7722438-fabd-00c1-3f53-90ce605bbafb/Placeholder.mill/400x400bb-75.webp",
+      "previousVersions": [],
+      "size": "0.1 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.ethan.QuickImage",
+      "addedAt": "2026-09-05T20:11:25.046Z",
+      "updatedAt": "2026-09-05T20:11:29.171Z"
     }
   ]
 }
