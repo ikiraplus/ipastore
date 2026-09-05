@@ -13292,6 +13292,22 @@
       "bundleId": "app.teledark",
       "addedAt": "2026-09-05T19:29:29.560Z",
       "updatedAt": "2026-09-05T19:29:33.676Z"
+    },
+    {
+      "id": "app-1788636795276",
+      "name": "Hunter Assassin",
+      "version": "2.044",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hunter-assassin-v2.044",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/ab/15/57ab15a3-a4d0-1aa4-39f6-9ba77c62172f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "120.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rubygames.assassin",
+      "addedAt": "2026-09-05T19:33:15.276Z",
+      "updatedAt": "2026-09-05T19:33:17.871Z"
     }
   ]
 }
