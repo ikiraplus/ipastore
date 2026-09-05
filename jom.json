@@ -13257,6 +13257,22 @@
       "bundleId": "ph.telegra.Telegraph",
       "addedAt": "2026-09-05T19:28:15.918Z",
       "updatedAt": "2026-09-05T19:28:29.124Z"
+    },
+    {
+      "id": "app-1788636569560",
+      "name": "Teledark Multi",
+      "version": "12.9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teledark-multi_12.9.2-1",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773512283014.png",
+      "previousVersions": [],
+      "size": "90.1 MB",
+      "note": "تطبيق تليدارك مع اداة Multi \nطريقة تفعيل الاداة : اضغط ب 3 اصابع على الشاشه وفعل الادوات التي تريدها.",
+      "category": "تواصل",
+      "recommended": true,
+      "bundleId": "app.teledark",
+      "addedAt": "2026-09-05T19:29:29.560Z",
+      "updatedAt": "2026-09-05T19:29:33.676Z"
     }
   ]
 }
