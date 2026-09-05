@@ -1977,22 +1977,26 @@
     {
       "id": "APP-3622839292",
       "name": "Hill Climb Racing 2",
-      "version": "1.73.6",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-2.1.73.6",
+      "version": "1.74.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-2.1.74.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/63/91/8b6391dd-b31a-070e-e1b5-6e025e32c695/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "size": "212.1 MB",
+      "size": "213.0 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "toolVersion": "",
       "previousVersions": [
         {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-2.1.73.6",
+          "version": "1.73.6"
+        },
+        {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hill-climb-2",
           "version": "1.62.1"
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-24T06:49:41.035Z",
+      "updatedAt": "2026-09-05T19:36:29.515Z",
       "bundleId": "com.fingersoft.hillclimbracing2"
     },
     {
