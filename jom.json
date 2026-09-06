@@ -10222,17 +10222,22 @@
     {
       "id": "APP-1900451218",
       "name": "ASJ TikTok",
-      "version": "46.5.0",
-      "toolVersion": "1.1.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asj-tik-tok-46.5.0-v1.1.9",
+      "version": "46.7.0",
+      "toolVersion": "1.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asjtiktok-46.7.0-dylib1.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/95/3c/f4953cfb-b350-6763-a0b4-ceed8cef74ed/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "440.3 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asj-tik-tok-46.5.0-v1.1.9",
+          "version": "46.5.0"
+        }
+      ],
+      "size": "451.9 MB",
       "note": "",
       "category": "تواصل",
       "recommended": true,
       "addedAt": "2026-08-27T17:48:12.340Z",
-      "updatedAt": "2026-08-30T14:24:46.340Z",
+      "updatedAt": "2026-09-06T10:51:08.087Z",
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
