@@ -13763,6 +13763,22 @@
       "bundleId": "com.bilibilihk.jujutsuphanparaios",
       "addedAt": "2026-09-06T15:16:15.177Z",
       "updatedAt": "2026-09-06T15:16:26.433Z"
+    },
+    {
+      "id": "app-1788710261173",
+      "name": "Galactic Outlaw Tower Defense",
+      "version": "1.0.06",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/galactic-outlaw-tower-defense_1.0.06",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/11/80/f91180ee-0d20-5628-1f95-9d9959e6eed2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "487.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.cookapps.towerroguedefense",
+      "addedAt": "2026-09-06T15:57:41.173Z",
+      "updatedAt": "2026-09-06T15:57:49.116Z"
     }
   ]
 }
