@@ -1464,6 +1464,23 @@
       "bundleId": "",
       "addedAt": "2026-09-06T17:42:45.135Z",
       "updatedAt": "2026-09-06T17:42:47.067Z"
+    },
+    {
+      "id": "dylib-1788716814412",
+      "name": "MX Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/MX-1.0",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1784549021202.png",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "38.3 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "bundleId": "",
+      "addedAt": "2026-09-06T17:46:54.412Z",
+      "updatedAt": "2026-09-06T17:46:55.773Z"
     }
   ]
 }
