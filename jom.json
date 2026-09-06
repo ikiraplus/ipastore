@@ -13634,6 +13634,22 @@
       "bundleId": "com.roxwin.1contact.pro",
       "addedAt": "2026-09-05T20:13:43.035Z",
       "updatedAt": "2026-09-05T20:13:44.276Z"
+    },
+    {
+      "id": "app-1788691379709",
+      "name": "لوكات",
+      "version": "1.0.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lokat_1.0.9",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788691379709.png",
+      "previousVersions": [],
+      "size": "70.8 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.raeed.lokat",
+      "addedAt": "2026-09-06T10:42:59.709Z",
+      "updatedAt": "2026-09-06T10:43:03.432Z"
     }
   ]
 }
