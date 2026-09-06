@@ -13827,6 +13827,22 @@
       "bundleId": "com.raventurn.realcoaster",
       "addedAt": "2026-09-06T16:01:54.707Z",
       "updatedAt": "2026-09-06T16:02:00.115Z"
+    },
+    {
+      "id": "app-1788710571794",
+      "name": "Klondike Adventures: Farm Game",
+      "version": "2.151.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/klondike-adventures-farm-game_2.151.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/0f/3c/3f0f3c3a-8cfd-ec39-ee81-4e476ee7c0ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "278.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.vizor-apps.Klondike",
+      "addedAt": "2026-09-06T16:02:51.794Z",
+      "updatedAt": "2026-09-06T16:02:55.451Z"
     }
   ]
 }
