@@ -13671,6 +13671,22 @@
       "bundleId": "com.linegames.pak",
       "addedAt": "2026-09-06T15:10:35.039Z",
       "updatedAt": "2026-09-06T15:10:44.658Z"
+    },
+    {
+      "id": "app-1788707492592",
+      "name": "Arcemu Watch Emulator",
+      "version": "1.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/arcemu-watch-emulator_1.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/2c/7e/cb2c7e3b-63d5-a585-b69b-01e228f3a2ed/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "40.5 MB",
+      "note": "محاكي مدفوع في المتجر الرسمي.",
+      "category": "أخرى",
+      "recommended": false,
+      "bundleId": "com.rdamato.arcadiaemu",
+      "addedAt": "2026-09-06T15:11:32.592Z",
+      "updatedAt": "2026-09-06T15:11:34.428Z"
     }
   ]
 }
