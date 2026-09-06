@@ -13719,6 +13719,22 @@
       "bundleId": "com.somniumfabri.nuclearday",
       "addedAt": "2026-09-06T15:13:55.388Z",
       "updatedAt": "2026-09-06T15:14:03.460Z"
+    },
+    {
+      "id": "app-1788707714204",
+      "name": "Real War Survival Game",
+      "version": "1.4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/real-war-survival-game_1.4.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/a0/91/f0a09134-2b58-4dd8-b5ef-8a017a510306/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "353.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.sku.action.war.survival.games",
+      "addedAt": "2026-09-06T15:15:14.204Z",
+      "updatedAt": "2026-09-06T15:15:17.843Z"
     }
   ]
 }
