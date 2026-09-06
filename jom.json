@@ -13908,7 +13908,7 @@
       "version": "21.32.4",
       "toolVersion": "1.0",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asjtube-21.32.4",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
       "previousVersions": [],
       "size": "128.9 MB",
       "note": "",
@@ -13916,7 +13916,7 @@
       "recommended": false,
       "bundleId": "com.google.ios.youtube",
       "addedAt": "2026-09-06T16:55:01.243Z",
-      "updatedAt": "2026-09-06T16:55:04.855Z"
+      "updatedAt": "2026-09-06T16:55:46.657Z"
     }
   ]
 }
