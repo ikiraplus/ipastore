@@ -13901,6 +13901,22 @@
       "bundleId": "com.clickteam.ultimatecustomnight",
       "addedAt": "2026-09-06T16:45:16.293Z",
       "updatedAt": "2026-09-06T16:45:20.154Z"
+    },
+    {
+      "id": "app-1788713701243",
+      "name": "ASJ YouTube",
+      "version": "21.32.4",
+      "toolVersion": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asjtube-21.32.4",
+      "icon": "",
+      "previousVersions": [],
+      "size": "128.9 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "com.google.ios.youtube",
+      "addedAt": "2026-09-06T16:55:01.243Z",
+      "updatedAt": "2026-09-06T16:55:04.855Z"
     }
   ]
 }
