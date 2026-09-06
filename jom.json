@@ -9554,18 +9554,24 @@
     },
     {
       "id": "APP-5436136510",
-      "name": "House Flipper",
-      "version": "1.682",
+      "name": "House Flipper Home Design",
+      "version": "1.691",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/house-flipper-1.682",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/house-flipper-home-design_1.691",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/bf/a5/68bfa5ee-01d3-ff0d-dbe2-6a1536284789/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "487.5 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/house-flipper-1.682",
+          "version": "1.682"
+        }
+      ],
+      "size": "644.2 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:28:56.635Z",
-      "updatedAt": "2026-08-25T10:29:31.169Z"
+      "updatedAt": "2026-09-06T15:56:07.489Z",
+      "bundleId": "com.imaginalis.HouseFlipperMobile"
     },
     {
       "id": "APP-2179948357",
