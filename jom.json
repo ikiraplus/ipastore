@@ -13239,18 +13239,23 @@
     {
       "id": "app-1788462381512",
       "name": "Sound Cloud GT",
-      "version": "8.76.0",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sound-cloud-gt_8.76.0_gs",
+      "version": "8.77.0",
+      "toolVersion": "1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gsc-8.74.0",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1788462381512.png",
-      "previousVersions": [],
-      "size": "112.9 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sound-cloud-gt_8.76.0_gs",
+          "version": "8.76.0"
+        }
+      ],
+      "size": "109.8 MB",
       "note": "",
       "category": "ترفيه",
       "recommended": false,
       "bundleId": "com.soundcloud.TouchApp",
       "addedAt": "2026-09-03T19:06:21.512Z",
-      "updatedAt": "2026-09-03T19:06:25.711Z"
+      "updatedAt": "2026-09-06T16:47:27.619Z"
     },
     {
       "id": "app-1788462975239",
