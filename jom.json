@@ -13687,6 +13687,22 @@
       "bundleId": "com.rdamato.arcadiaemu",
       "addedAt": "2026-09-06T15:11:32.592Z",
       "updatedAt": "2026-09-06T15:11:34.428Z"
+    },
+    {
+      "id": "app-1788707536604",
+      "name": "Ash N Veil Fast Idle Action",
+      "version": "1.1.48",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ash-n-veil-fast-idle-action_1.1.48",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/d9/d1/9dd9d1f1-232c-d63e-68c5-da16579955ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1530.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "studio.gameberry.anv",
+      "addedAt": "2026-09-06T15:12:16.604Z",
+      "updatedAt": "2026-09-06T15:12:26.412Z"
     }
   ]
 }
