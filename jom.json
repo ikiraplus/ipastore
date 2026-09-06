@@ -9689,17 +9689,22 @@
     {
       "id": "APP-3944899455",
       "name": "SadaTik",
-      "version": "46.6.0",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_v46.6.0-sadatik",
+      "version": "46.7.0",
+      "toolVersion": "2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sada-tiktok_v46.7.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/f6/9e/b4f69e23-a20c-784c-7f41-400fd8ab3d1c/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "427.5 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_v46.6.0-sadatik",
+          "version": "46.6.0"
+        }
+      ],
+      "size": "430.3 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-25T11:04:14.190Z",
-      "updatedAt": "2026-08-30T14:21:40.163Z",
+      "updatedAt": "2026-09-06T16:51:20.075Z",
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
