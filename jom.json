@@ -3835,16 +3835,21 @@
     {
       "id": "APP-8014466771",
       "name": "leo's fortune",
-      "version": "1.0.6",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/leo-s-fortune-last",
+      "version": "1.0.15",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/leo-s-fortune_1.0.15",
       "icon": "https://play-lh.googleusercontent.com/g0n7ApdTLweC9eFh81zn2KeM3JiBrWzSJwx_QrBYNb_xROphOdd0mtGpsp_rXba_88pSJIxeJREEHD0nNI7Rmg",
-      "size": "593.0 MB",
+      "size": "574.0 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T08:04:40.156Z",
-      "updatedAt": "2026-08-24T09:28:28.990Z",
+      "updatedAt": "2026-09-06T17:53:00.004Z",
       "toolVersion": "",
-      "previousVersions": [],
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/leo-s-fortune-last",
+          "version": "1.0.6"
+        }
+      ],
       "recommended": false,
       "bundleId": "com.leosfortune.arcade"
     },
