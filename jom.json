@@ -13735,6 +13735,22 @@
       "bundleId": "com.sku.action.war.survival.games",
       "addedAt": "2026-09-06T15:15:14.204Z",
       "updatedAt": "2026-09-06T15:15:17.843Z"
+    },
+    {
+      "id": "app-1788707775177",
+      "name": "Jujutsu Kaisen Phantom Parade",
+      "version": "3.8.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/jujutsu-kaisen-phantom-parade_3.8.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/ce/71/39ce7188-402e-d9ce-622a-9b0e306efd44/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "556.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.bilibilihk.jujutsuphanparaios",
+      "addedAt": "2026-09-06T15:16:15.177Z",
+      "updatedAt": "2026-09-06T15:16:26.433Z"
     }
   ]
 }
