@@ -13875,6 +13875,22 @@
       "bundleId": "com.germangalaxy.ios",
       "addedAt": "2026-09-06T16:44:28.762Z",
       "updatedAt": "2026-09-06T16:44:36.381Z"
+    },
+    {
+      "id": "app-1788713116293",
+      "name": "Ultimate Custom Night",
+      "version": "1.0.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ultimate-custom-night-1.0.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/38/10/f63810f5-343a-8da2-3e16-fafaab7a071a/AppIcon-1x_U007epad-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "198.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.clickteam.ultimatecustomnight",
+      "addedAt": "2026-09-06T16:45:16.293Z",
+      "updatedAt": "2026-09-06T16:45:20.154Z"
     }
   ]
 }
