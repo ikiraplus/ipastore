@@ -4735,23 +4735,23 @@
     {
       "id": "APP-2205490757",
       "name": "videoleap",
-      "version": "2.86",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap_ai_video_editor_v2.86_subscription_unlocked_patched",
+      "version": "2.87",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap_ai_video_editor_v2.87_subscription_unlocked_patched",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXCyrI_MlmNKNnVVIe4XkXlHmLZsuhoudGDYarw-X-Q&s=10",
-      "size": "383.7 MB",
+      "size": "380.4 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-07-01T18:25:24.004Z",
-      "updatedAt": "2026-08-30T08:26:34.343Z",
+      "updatedAt": "2026-09-06T16:45:44.872Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap_ai_video_editor_v2.85_subscription_unlocked__patched",
-          "version": "2.85"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap_ai_video_editor_v2.86_subscription_unlocked_patched",
+          "version": "2.86"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap",
-          "version": "last version"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/videoleap_ai_video_editor_v2.85_subscription_unlocked__patched",
+          "version": "2.85"
         }
       ],
       "recommended": false,
