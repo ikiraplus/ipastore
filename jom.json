@@ -13655,6 +13655,22 @@
       "bundleId": "com.raeed.lokat",
       "addedAt": "2026-09-06T10:42:59.709Z",
       "updatedAt": "2026-09-06T10:43:03.432Z"
+    },
+    {
+      "id": "app-1788707435039",
+      "name": "Animal busters idle rpg",
+      "version": "1.2.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/animalbustersidlerpg_128",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/df/23/5cdf2308-cd2a-0842-65ca-3982717458a6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "505.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.linegames.pak",
+      "addedAt": "2026-09-06T15:10:35.039Z",
+      "updatedAt": "2026-09-06T15:10:44.658Z"
     }
   ]
 }
