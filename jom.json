@@ -13811,6 +13811,22 @@
       "bundleId": "com.finito.medicine",
       "addedAt": "2026-09-06T16:01:16.250Z",
       "updatedAt": "2026-09-06T16:01:22.461Z"
+    },
+    {
+      "id": "app-1788710514707",
+      "name": "Real Coaster Idle Tycoon Game",
+      "version": "2.0.23",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/real-coaster-idle-tycoon-game_2.0.23",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/f8/be/f2f8bea4-457d-f544-fe17-beaca46b8756/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "376.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.raventurn.realcoaster",
+      "addedAt": "2026-09-06T16:01:54.707Z",
+      "updatedAt": "2026-09-06T16:02:00.115Z"
     }
   ]
 }
