@@ -13779,6 +13779,22 @@
       "bundleId": "com.cookapps.towerroguedefense",
       "addedAt": "2026-09-06T15:57:41.173Z",
       "updatedAt": "2026-09-06T15:57:49.116Z"
+    },
+    {
+      "id": "app-1788710342366",
+      "name": "Love & Pies - Merge Mystery",
+      "version": "0.83.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/love-pies-merge-mystery_0.83.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/47/22/a74722b8-16bc-2790-956f-e98c01e1dfb5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "444.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.Trailmix.LoveAndPiesMerge",
+      "addedAt": "2026-09-06T15:59:02.366Z",
+      "updatedAt": "2026-09-06T15:59:09.936Z"
     }
   ]
 }
