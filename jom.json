@@ -13795,6 +13795,22 @@
       "bundleId": "com.Trailmix.LoveAndPiesMerge",
       "addedAt": "2026-09-06T15:59:02.366Z",
       "updatedAt": "2026-09-06T15:59:09.936Z"
+    },
+    {
+      "id": "app-1788710476250",
+      "name": "Finito Anatomy Atlas MedAi",
+      "version": "1.4.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/finito-anatomy-atlas-medai_1.4.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/9d/25/4a9d2519-ea99-c3db-ef26-90243267a56f/Placeholder.mill/400x400bb-75.webp",
+      "previousVersions": [],
+      "size": "252.5 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.finito.medicine",
+      "addedAt": "2026-09-06T16:01:16.250Z",
+      "updatedAt": "2026-09-06T16:01:22.461Z"
     }
   ]
 }
