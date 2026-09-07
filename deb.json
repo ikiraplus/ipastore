@@ -752,18 +752,19 @@
     {
       "id": "dylib-1784549134052",
       "name": "Watusi Tweak",
-      "version": "",
+      "version": "3.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/watusi-ikiraplus",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Watusi-v3.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/b2/8a/e3b28a99-2fc5-641f-7b35-0a8094337b1a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
       "previousVersions": [],
-      "size": "0.0 MB",
+      "size": "2.7 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T12:05:34.053Z",
-      "updatedAt": "2026-07-20T12:05:52.412Z"
+      "updatedAt": "2026-09-07T18:13:33.440Z",
+      "bundleId": ""
     },
     {
       "id": "dylib-1784549200982",
