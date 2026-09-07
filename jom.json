@@ -14002,6 +14002,22 @@
       "bundleId": "io.innovateapps.pmsim",
       "addedAt": "2026-09-07T17:43:16.220Z",
       "updatedAt": "2026-09-07T17:43:18.541Z"
+    },
+    {
+      "id": "app-1788803113611",
+      "name": "Need for Speed No Limits Game",
+      "version": "9.5.41",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/no-limits-9.5.41",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/81/65/d1816526-2485-cc9d-84e3-f40a4ed5df41/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3038.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ea.nfs2014.bv",
+      "addedAt": "2026-09-07T17:45:13.611Z",
+      "updatedAt": "2026-09-07T17:45:23.146Z"
     }
   ]
 }
