@@ -14180,6 +14180,22 @@
       "bundleId": "com.FireproofStudios.TheRoom4",
       "addedAt": "2026-09-07T18:41:41.610Z",
       "updatedAt": "2026-09-07T18:41:48.737Z"
+    },
+    {
+      "id": "app-1788806713975",
+      "name": "The Room",
+      "version": "1.05",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-room_1.05",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/f8/1e/66f81e23-69a9-57d8-aafa-5ebeb622700b/AppIcon-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "245.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.FireproofStudios.TheRoom",
+      "addedAt": "2026-09-07T18:45:13.975Z",
+      "updatedAt": "2026-09-07T18:45:16.761Z"
     }
   ]
 }
