@@ -14132,6 +14132,22 @@
       "bundleId": "net.whatsapp.WhatsAppSMB",
       "addedAt": "2026-09-07T18:11:37.931Z",
       "updatedAt": "2026-09-07T18:11:40.728Z"
+    },
+    {
+      "id": "app-1788806403895",
+      "name": "Monument Valley Plus",
+      "version": "3.5.196",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monument-valley-plus-v3.5.196",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/e1/cd/ba/e1cdbaca-8518-8d4a-e635-d59c515522c1/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "236.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ustwo.mvarcade",
+      "addedAt": "2026-09-07T18:40:03.895Z",
+      "updatedAt": "2026-09-07T18:40:06.103Z"
     }
   ]
 }
