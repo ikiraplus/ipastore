@@ -13986,6 +13986,22 @@
       "bundleId": "com.vk.vkvideo.prod",
       "addedAt": "2026-09-07T17:41:30.790Z",
       "updatedAt": "2026-09-07T17:41:31.759Z"
+    },
+    {
+      "id": "app-1788802996220",
+      "name": "Prime Minister UK Politics Sim",
+      "version": "2.4.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pm-simulator-2.4.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/e1/c3/dde1c37d-d68e-f171-0c97-4dacf30f14e0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "60.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "io.innovateapps.pmsim",
+      "addedAt": "2026-09-07T17:43:16.220Z",
+      "updatedAt": "2026-09-07T17:43:18.541Z"
     }
   ]
 }
