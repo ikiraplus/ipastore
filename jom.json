@@ -14092,6 +14092,22 @@
       "bundleId": "ph.telegra.Telegraph",
       "addedAt": "2026-09-07T18:04:32.888Z",
       "updatedAt": "2026-09-07T18:04:35.771Z"
+    },
+    {
+      "id": "app-1788804474633",
+      "name": "Nagram",
+      "version": "12.9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nagram_v12.9.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/93/ed/b193ed97-6b1b-d6d5-ca0a-b42e52adfffc/NagramBuild-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "70.4 MB",
+      "note": "نسخة تيليقرام مدفوعه في المتجر الرسمي.",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "xyz.nextalone.nagram",
+      "addedAt": "2026-09-07T18:07:54.633Z",
+      "updatedAt": "2026-09-07T18:07:57.266Z"
     }
   ]
 }
