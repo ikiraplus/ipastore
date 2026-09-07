@@ -4239,16 +4239,19 @@
     },
     {
       "id": "APP-4827681193",
-      "name": "nba 2k 20",
-      "version": "1.99.10",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nba-2k20-.com_1.99840.106159_",
-      "icon": "https://cdn.prgloo.com/media/3e2f18c4425e4c2bb80f45eebcb71cb1.jpg?width=442&height=663",
-      "size": "2939.0 MB",
+      "name": "nba 2k 25",
+      "version": "1.20",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nba-2k25-arcade-edition-v1.20",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/APP-4827681193.png",
+      "size": "1557.0 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:34:06.339Z",
-      "updatedAt": "2026-06-14T09:34:06.339Z",
-      "bundleId": "com.2ksports.nba2k20"
+      "updatedAt": "2026-09-07T10:22:54.328Z",
+      "bundleId": "com.2ksports.nba2k25arcade",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "APP-7688937525",
