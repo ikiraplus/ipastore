@@ -13970,6 +13970,22 @@
       "bundleId": "com.impalastudios.pianofree",
       "addedAt": "2026-09-07T17:33:07.761Z",
       "updatedAt": "2026-09-07T17:33:18.178Z"
+    },
+    {
+      "id": "app-1788802890790",
+      "name": "Vk Video",
+      "version": "8.183",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vk-video-v8.183",
+      "icon": "https://play-lh.googleusercontent.com/anTn7Xu1mAnUyEfE582QykZ7iX4Od6UKFw0mSQBt8EUyo5wjOq_rDwSpxUkVVNW995_gVD50FrQWugG355ly2Q",
+      "previousVersions": [],
+      "size": "126.7 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.vk.vkvideo.prod",
+      "addedAt": "2026-09-07T17:41:30.790Z",
+      "updatedAt": "2026-09-07T17:41:31.759Z"
     }
   ]
 }
