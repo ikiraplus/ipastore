@@ -6781,23 +6781,27 @@
     },
     {
       "id": "APP-4528114310",
-      "name": "Whitegram original",
-      "version": "12.9.3",
-      "toolVersion": "6.0.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-12.9.3-tweak-6.0.2",
+      "name": "Whitegram Original",
+      "version": "12.9.2",
+      "toolVersion": "7.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-12.9.2-tweak-7.0",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784188165660.png",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-12.9.3-tweak-6.0.2",
+          "version": "12.9.3"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-6.0.2-sideload",
           "version": "6.0.2"
         }
       ],
-      "size": "168.2 MB",
+      "size": "133.5 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-19T13:20:08.515Z",
-      "updatedAt": "2026-08-28T18:36:21.886Z",
+      "updatedAt": "2026-09-07T18:48:09.633Z",
       "bundleId": "ph.telegra.Telegraph"
     },
     {
