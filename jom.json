@@ -14148,6 +14148,22 @@
       "bundleId": "com.ustwo.mvarcade",
       "addedAt": "2026-09-07T18:40:03.895Z",
       "updatedAt": "2026-09-07T18:40:06.103Z"
+    },
+    {
+      "id": "app-1788806447387",
+      "name": "Monument Valley 2 Plus",
+      "version": "3.5.92",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monument-valley-2-plus-v3.5.92",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/f3/a1/69f3a1c0-e6db-f290-3371-44efd12076c0/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "266.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ustwo.mv2arcade",
+      "addedAt": "2026-09-07T18:40:47.387Z",
+      "updatedAt": "2026-09-07T18:40:50.397Z"
     }
   ]
 }
