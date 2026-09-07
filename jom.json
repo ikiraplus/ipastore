@@ -14164,6 +14164,22 @@
       "bundleId": "com.ustwo.mv2arcade",
       "addedAt": "2026-09-07T18:40:47.387Z",
       "updatedAt": "2026-09-07T18:40:50.397Z"
+    },
+    {
+      "id": "app-1788806501610",
+      "name": "The Room Old Sins",
+      "version": "1.0.41",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-room-old-sins-v1.0.41",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/79/e5/77/79e5775a-8baa-543b-d2d6-9aeea7a223e5/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "599.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.FireproofStudios.TheRoom4",
+      "addedAt": "2026-09-07T18:41:41.610Z",
+      "updatedAt": "2026-09-07T18:41:48.737Z"
     }
   ]
 }
