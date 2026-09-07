@@ -14055,6 +14055,22 @@
       "bundleId": "com.epicoro.castleclashers",
       "addedAt": "2026-09-07T17:57:49.020Z",
       "updatedAt": "2026-09-07T17:57:51.622Z"
+    },
+    {
+      "id": "app-1788803938843",
+      "name": "Idle Food Bar: Olivia & Oliver",
+      "version": "1.29.23",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-food-bar-1.29.23",
+      "icon": "",
+      "previousVersions": [],
+      "size": "316.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.idle.food.bar.tycoon",
+      "addedAt": "2026-09-07T17:58:58.843Z",
+      "updatedAt": "2026-09-07T17:59:01.927Z"
     }
   ]
 }
