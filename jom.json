@@ -5774,17 +5774,22 @@
     {
       "id": "APP-4636517124",
       "name": "Undying Hero",
-      "version": "1.0.20",
+      "version": "1.1.2",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/undying-hero-1.0.20",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/undying-hero-1.1.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/3d/46/3e3d468b-d51d-fb2a-6afb-b7350f248f8e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "418.0 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/undying-hero-1.0.20",
+          "version": "1.0.20"
+        }
+      ],
+      "size": "431.5 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-02T15:33:33.203Z",
-      "updatedAt": "2026-08-24T08:30:26.392Z",
+      "updatedAt": "2026-09-07T17:59:39.096Z",
       "bundleId": "com.superpixel.undyinghero"
     },
     {
