@@ -2309,14 +2309,18 @@
     {
       "id": "APP-2904920455",
       "name": "GTA: Vice City - Hack",
-      "version": "1.12",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grand-theft-auto-vice-city-hack-aggyp077xq-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/f9/85/a2f98568-b585-479e-fcc7-db9c6291fd64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "1700 MB",
+      "version": "1.84",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gta-vice-city-definitive-v1.84",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKTWpmzyw9kWudMVAl251X7bjqi7f4QbiNKW_AVoluvUJsY65jsT2GQ-DN&s=10",
+      "size": "2338.5 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "bundleId": "com.rockstargames.gtavc"
+      "bundleId": "com.rockstargames.gtavc.de",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false,
+      "updatedAt": "2026-09-07T10:30:30.872Z"
     },
     {
       "id": "APP-8917373880",
