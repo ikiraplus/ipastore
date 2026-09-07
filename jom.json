@@ -14116,6 +14116,22 @@
       "bundleId": "xyz.nextalone.nagram",
       "addedAt": "2026-09-07T18:07:54.633Z",
       "updatedAt": "2026-09-07T18:07:57.266Z"
+    },
+    {
+      "id": "app-1788804697931",
+      "name": "Watusi Business",
+      "version": "26.35.10",
+      "toolVersion": "3.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/watusi-busnis-26.35.10",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/8e/7d/398e7d24-6f39-7bf0-c592-044c11cfac52/AppIconSMB-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "154.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "net.whatsapp.WhatsAppSMB",
+      "addedAt": "2026-09-07T18:11:37.931Z",
+      "updatedAt": "2026-09-07T18:11:40.728Z"
     }
   ]
 }
