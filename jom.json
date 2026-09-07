@@ -12145,18 +12145,18 @@
     {
       "id": "APP-4913918651",
       "name": "Poppy Play Time Chapter 3",
-      "version": "1.1",
+      "version": "1.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/poppy-play-time-chapter-3-v1.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/poppy-playtime-chapter-3-v1.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/36/d6/2536d64d-a4e1-ffdc-5dc7-258b1fbfff84/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
       "previousVersions": [],
-      "size": "2742.1 MB",
+      "size": "2444.4 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.MobEntertainment.PoppyPlaytimeChapter3",
       "addedAt": "2026-09-01T08:57:14.492Z",
-      "updatedAt": "2026-09-01T08:57:16.431Z"
+      "updatedAt": "2026-09-07T09:08:32.849Z"
     },
     {
       "id": "APP-4108123146",
