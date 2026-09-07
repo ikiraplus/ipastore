@@ -14079,7 +14079,7 @@
       "version": "1.29.23",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-food-bar-1.29.23",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/23/a5/6b23a5cc-c34c-52ca-e153-a6536ce66c7b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [],
       "size": "316.2 MB",
       "note": "",
@@ -14087,7 +14087,7 @@
       "recommended": false,
       "bundleId": "com.idle.food.bar.tycoon",
       "addedAt": "2026-09-07T17:58:58.843Z",
-      "updatedAt": "2026-09-07T17:59:01.927Z"
+      "updatedAt": "2026-09-07T18:50:39.886Z"
     },
     {
       "id": "app-1788804272888",
