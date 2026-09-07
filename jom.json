@@ -13922,6 +13922,22 @@
       "bundleId": "com.google.ios.youtube",
       "addedAt": "2026-09-06T16:55:01.243Z",
       "updatedAt": "2026-09-06T16:55:46.657Z"
+    },
+    {
+      "id": "app-1788772346807",
+      "name": "Oceanhorn",
+      "version": "3.01",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/oceanhorn-v3.01",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c4/62/87/c462872e-68b5-8b99-c9da-acc085395035/AppIconIOS-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "259.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.FDGEntertainment.Oceanhorn",
+      "addedAt": "2026-09-07T09:12:26.807Z",
+      "updatedAt": "2026-09-07T09:12:28.779Z"
     }
   ]
 }
