@@ -11982,7 +11982,7 @@
       "name": "Cypher 207",
       "version": "1.3.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cypher-207-v1.3.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cypher-007-v1.3.1-1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/0c/58/e60c58ce-8ec7-b8f5-7e58-e4a8efdd4463/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
       "previousVersions": [],
       "size": "1129.6 MB",
@@ -11991,7 +11991,7 @@
       "recommended": false,
       "bundleId": "com.tiltingpoint.cypher",
       "addedAt": "2026-08-31T17:56:59.222Z",
-      "updatedAt": "2026-08-31T17:57:04.568Z"
+      "updatedAt": "2026-09-07T09:04:36.175Z"
     },
     {
       "id": "APP-3398200598",
