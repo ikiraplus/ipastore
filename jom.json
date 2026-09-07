@@ -12209,18 +12209,18 @@
     {
       "id": "APP-2888621465",
       "name": "Pascals Wager",
-      "version": "1.11.7",
+      "version": "1.11.6",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pascals-wager_1.11.7",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pascals-wager-v1.11.6",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/5f/95/4d5f9550-dcee-1191-97b3-0a1ce028ad03/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
       "previousVersions": [],
-      "size": "2879.9 MB",
+      "size": "2521.2 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.tipsworks.ios.pascalswager",
       "addedAt": "2026-09-01T08:59:15.960Z",
-      "updatedAt": "2026-09-01T08:59:17.112Z"
+      "updatedAt": "2026-09-07T09:06:37.248Z"
     },
     {
       "id": "APP-3436080082",
