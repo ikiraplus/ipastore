@@ -5117,27 +5117,27 @@
     {
       "id": "APP-7640009600",
       "name": "WhiteGram Arabic",
-      "version": "12.9.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.9.3",
+      "version": "12.9.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.9.2-tweak-7.0",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1784188165660.png",
-      "size": "180.2 MB",
-      "note": "تطبيق \"وايت كرام\" أحد أفضل تطبيقات تيليجرام المعدلة\n\nيمكنك تفعيل مميزات التطبيق من خلال:\nالإعدادات > WhiteGram\n\nهناك مميزات إضافية تتفعل من:\nالإعدادات > اضغط ضغطة طويلة على أيقونة (اسأل سؤالا)",
+      "size": "139.1 MB",
+      "note": "تطبيق \"وايت كرام\" أحد أفضل تطبيقات تيليجرام المعدلة\nهذه النسخة تحتوي عدة لغات وتعريب كامل\nطريقة تغيير لغة المميزات كالتالي\nالإعدادات = WhiteGram= اضغط على الشاشة بأصبعين",
       "category": "تواصل",
       "addedAt": "2026-07-16T07:49:28.675Z",
-      "updatedAt": "2026-08-28T16:57:34.427Z",
-      "toolVersion": "6.0.3",
+      "updatedAt": "2026-09-09T18:11:39.592Z",
+      "toolVersion": "7.0",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.9.3",
+          "version": "12.9.3"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.9.2",
           "version": "12.9.2"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whitegram-arabic_12.8",
-          "version": "12.8"
         }
       ],
       "recommended": true,
-      "bundleId": "ph.telegra.Telegraph2"
+      "bundleId": "ph.telegra.Telegraph"
     },
     {
       "id": "APP-6822904152",
