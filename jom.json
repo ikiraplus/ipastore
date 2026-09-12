@@ -5051,15 +5051,15 @@
     {
       "id": "APP-2111400068",
       "name": "TikTok Rust",
-      "version": "46.4.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rusttiktok_46.4.0",
+      "version": "46.7.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_rust-carck-46.7.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "422.2 MB",
-      "note": "",
+      "size": "1475.2 MB",
+      "note": "نسخة RUST مكركة",
       "category": "تواصل",
       "addedAt": "2026-07-11T07:46:29.007Z",
-      "updatedAt": "2026-08-24T08:30:29.044Z",
-      "toolVersion": "5.0",
+      "updatedAt": "2026-09-12T18:20:18.909Z",
+      "toolVersion": "6.0",
       "previousVersions": [
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rusttiktok_v46.3.0-dyilb4.0",
