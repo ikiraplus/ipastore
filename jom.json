@@ -1048,23 +1048,23 @@
     {
       "id": "APP-9725247421",
       "name": "Notability Plus",
-      "version": "16.11",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/notability_ai_notes_-_planner_v16.11_pro_unlocked_patched",
+      "version": "16.12",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/notability_ai_notes_planner_v16.12_pro_unlocked_patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/07/23/fd072319-e32b-19f8-4d40-1861857527f0/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "247.6 MB",
+      "size": "249.5 MB",
       "note": "",
       "category": "دراسة وذكاء اصطناعي",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-09-02T11:43:22.620Z",
+      "updatedAt": "2026-09-12T17:58:37.243Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/notability_ai_notes_-_planner_v16.10_pro_unlocked_patched",
-          "version": "16.10"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/notability_ai_notes_-_planner_v16.11_pro_unlocked_patched",
+          "version": "16.11"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/notability_ai_notes_-_planner_v16.9_pro_unlocked_patched",
-          "version": "16.9"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/notability_ai_notes_-_planner_v16.10_pro_unlocked_patched",
+          "version": "16.10"
         }
       ],
       "recommended": false,
