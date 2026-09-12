@@ -14610,6 +14610,22 @@
       "bundleId": "com.TornadoBear.WayOfKings",
       "addedAt": "2026-09-12T20:55:41.040Z",
       "updatedAt": "2026-09-12T20:55:43.194Z"
+    },
+    {
+      "id": "app-1789246657349",
+      "name": "Implosion - Never Lose Hope",
+      "version": "1.5.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/implosion-1.5.13-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/6f/d2/666fd206-18fd-3b20-4621-357e6417691f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2035.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rayark.implosion",
+      "addedAt": "2026-09-12T20:57:37.349Z",
+      "updatedAt": "2026-09-12T20:57:39.863Z"
     }
   ]
 }
