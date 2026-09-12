@@ -14436,6 +14436,22 @@
       "bundleId": "com.inspiredsquare.sand.blast",
       "addedAt": "2026-09-12T18:24:59.169Z",
       "updatedAt": "2026-09-12T18:25:03.491Z"
+    },
+    {
+      "id": "app-1789237770259",
+      "name": "Remove Objects AI Retouch",
+      "version": "1.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/remove_objects_ai_retouch_v1.2.1_subscription_unlocked_patched",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/45/59/2c4559fe-7f40-4f0b-18d7-a63572b5715c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "40.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.picretouch.photoeditor",
+      "addedAt": "2026-09-12T18:29:30.259Z",
+      "updatedAt": "2026-09-12T18:29:32.589Z"
     }
   ]
 }
