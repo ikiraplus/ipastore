@@ -595,26 +595,26 @@
     {
       "id": "APP-4614449641",
       "name": "X - Twitter (NeoFreeBird)",
-      "version": "12.21",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.21-nfb-6.6.0",
+      "version": "12.25",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.25-nfb-6.6.1-1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/65/60/f76560b0-13df-84b6-fb7f-9b40319c4018/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "237.7 MB",
+      "size": "238.2 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "toolVersion": "6.6.0",
+      "toolVersion": "6.6.1",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.21-nfb-6.6.0",
+          "version": "12.21"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.21-nfb",
           "version": "12.20"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x_12.9_neofreebird_liquidglass",
-          "version": "12.9"
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-09-03T18:03:07.376Z",
+      "updatedAt": "2026-09-12T21:04:51.091Z",
       "bundleId": "com.atebits.Tweetie2"
     },
     {
