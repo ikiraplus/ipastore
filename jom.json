@@ -5319,17 +5319,22 @@
     {
       "id": "APP-1180254406",
       "name": "Armada",
-      "version": "3.9.0",
+      "version": "4.0.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/armada-3.9.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/armada-4.0.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/01/4b/c2014b8c-9d29-9fa2-15ff-dfffc128d859/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "470.8 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/armada-3.9.0",
+          "version": "3.9.0"
+        }
+      ],
+      "size": "459.6 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-24T18:55:00.449Z",
-      "updatedAt": "2026-08-24T09:04:27.275Z",
+      "updatedAt": "2026-09-12T18:07:54.198Z",
       "bundleId": "com.pandagaming.armada"
     },
     {
