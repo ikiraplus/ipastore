@@ -14358,6 +14358,22 @@
       "bundleId": "com.outerminds.tubular",
       "addedAt": "2026-09-12T18:07:08.508Z",
       "updatedAt": "2026-09-12T18:07:11.127Z"
+    },
+    {
+      "id": "app-1789236524212",
+      "name": "Tap Titans",
+      "version": "2.8.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tap-titans-2.8.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/a6/28/be/a628bea7-6ba7-cd26-18ee-ba3c0090bddb/AppIcon-1x_U007emarketing-85-220-4.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "213.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gamehivecorp.taptitans2",
+      "addedAt": "2026-09-12T18:08:44.212Z",
+      "updatedAt": "2026-09-12T18:08:50.210Z"
     }
   ]
 }
