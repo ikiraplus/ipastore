@@ -14200,6 +14200,22 @@
       "bundleId": "com.FireproofStudios.TheRoom",
       "addedAt": "2026-09-07T18:45:13.975Z",
       "updatedAt": "2026-09-07T18:45:16.761Z"
+    },
+    {
+      "id": "app-1789234762194",
+      "name": "Coding For Kids Learn Play",
+      "version": "82.6.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coding-for-kids-learn-play_82.6.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/86/bc/7b86bcd0-e5f3-699d-6501-e12e64cbd2aa/Placeholder.mill/400x400bb-75.webp",
+      "previousVersions": [],
+      "size": "60.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.coddykit.kids",
+      "addedAt": "2026-09-12T17:39:22.194Z",
+      "updatedAt": "2026-09-12T17:39:26.278Z"
     }
   ]
 }
