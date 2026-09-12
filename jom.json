@@ -6766,22 +6766,26 @@
     {
       "id": "APP-3884647538",
       "name": "Forza Football Live Scores",
-      "version": "7.0.12",
+      "version": "7.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/forza-football-live-scores-v7.0.12",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/forza-football-live-scores-v7.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/c5/7b/0ac57b95-188b-0d35-dc56-024a547d68f5/icon_default-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/forza-football-live-scores-v7.0.12",
+          "version": "7.0.12"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/forza-football-live-scores-v7.0.11",
           "version": "7.0.11"
         }
       ],
-      "size": "124.7 MB",
+      "size": "155.5 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-19T13:12:45.795Z",
-      "updatedAt": "2026-08-31T17:17:15.883Z",
+      "updatedAt": "2026-09-12T18:33:09.810Z",
       "bundleId": "com.footballaddicts.livescoreaddicts"
     },
     {
