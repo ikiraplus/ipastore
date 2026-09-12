@@ -14594,6 +14594,22 @@
       "bundleId": "com.mattel.amethyst",
       "addedAt": "2026-09-12T20:54:53.395Z",
       "updatedAt": "2026-09-12T20:54:55.546Z"
+    },
+    {
+      "id": "app-1789246541040",
+      "name": "Path Of Kings",
+      "version": "1.4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/path-of-kings-1.4.0-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/0a/b6/c50ab62b-5463-36be-8990-d1d5f7a075db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "139.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.TornadoBear.WayOfKings",
+      "addedAt": "2026-09-12T20:55:41.040Z",
+      "updatedAt": "2026-09-12T20:55:43.194Z"
     }
   ]
 }
