@@ -14485,6 +14485,22 @@
       "bundleId": "com.nicolaigd.retrohighway",
       "addedAt": "2026-09-12T18:35:25.131Z",
       "updatedAt": "2026-09-12T18:35:26.909Z"
+    },
+    {
+      "id": "app-1789238170565",
+      "name": "Crunchyroll Baki Hanma",
+      "version": "1.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crunchyroll-baki-hanma-1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/17/96/291796dd-2e12-7e27-3a65-4ba302353ad5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "632.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.crunchyroll.gv.bakihanmabloodarena",
+      "addedAt": "2026-09-12T18:36:10.565Z",
+      "updatedAt": "2026-09-12T18:36:12.844Z"
     }
   ]
 }
