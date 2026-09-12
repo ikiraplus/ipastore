@@ -14578,6 +14578,22 @@
       "bundleId": "",
       "addedAt": "2026-09-12T18:48:59.749Z",
       "updatedAt": "2026-09-12T18:49:02.454Z"
+    },
+    {
+      "id": "app-1789246493395",
+      "name": "Skeletor",
+      "version": "1.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/skeletor-1.0.1-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/33/ab/8733ab42-65d9-aa84-7f4b-b3c4e37b5efe/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "246.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mattel.amethyst",
+      "addedAt": "2026-09-12T20:54:53.395Z",
+      "updatedAt": "2026-09-12T20:54:55.546Z"
     }
   ]
 }
