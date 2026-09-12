@@ -14272,6 +14272,22 @@
       "bundleId": "com.matchington.mansion",
       "addedAt": "2026-09-12T17:43:33.252Z",
       "updatedAt": "2026-09-12T17:43:45.234Z"
+    },
+    {
+      "id": "app-1789235186747",
+      "name": "Spoofer Pro",
+      "version": "0.427.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spooferpro_042700719",
+      "icon": "https://spooferpro.com/android-chrome-512x512.png",
+      "previousVersions": [],
+      "size": "451.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.nianticlabs.pokemongo",
+      "addedAt": "2026-09-12T17:46:26.747Z",
+      "updatedAt": "2026-09-12T17:49:11.316Z"
     }
   ]
 }
