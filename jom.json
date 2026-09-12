@@ -10480,17 +10480,23 @@
     {
       "id": "APP-2275123352",
       "name": "Bounty go",
-      "version": "2.5",
+      "version": "1.0.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bountygo",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bounty-go-1.0.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/40/9b/ef409b67-8023-d4b0-8f6b-dce8a35d0192/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "229.1 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bountygo",
+          "version": "2.5"
+        }
+      ],
+      "size": "260.6 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:25:16.483Z",
-      "updatedAt": "2026-08-28T15:25:19.040Z"
+      "updatedAt": "2026-09-12T18:02:24.819Z",
+      "bundleId": "onetap.game.monopoly"
     },
     {
       "id": "APP-5797397908",
