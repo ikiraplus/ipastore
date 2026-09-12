@@ -1177,12 +1177,16 @@
     {
       "id": "dylib-1784550567071",
       "name": "Rain Tweak",
-      "version": "0.9.5",
+      "version": "0.9.6",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Rain-Tweak-0.9.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Rain-0.9.6",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/bd/8e/b5bd8ea9-2301-b2d5-956a-f28b6b87ed94/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Rain-Tweak-0.9.5",
+          "version": "0.9.5"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/raintweak",
           "version": "0.9.1"
@@ -1193,7 +1197,8 @@
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T12:29:27.072Z",
-      "updatedAt": "2026-08-30T08:27:01.462Z"
+      "updatedAt": "2026-09-12T21:05:27.392Z",
+      "bundleId": ""
     },
     {
       "id": "dylib-1784550532923",
