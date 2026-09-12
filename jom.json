@@ -3508,16 +3508,24 @@
     },
     {
       "id": "APP-8799197801",
-      "name": "world war 2 legion",
-      "version": "0.3.31",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-war-legion-0.3.31",
+      "name": "World War 2 legion",
+      "version": "0.4.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-war-legion-0.4.2",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvy4_cmUuQfOZkgIX5xlbzHKYfpBmPVNIjdA&s",
-      "size": "1104.3 MB",
+      "size": "1276.3 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:06:21.599Z",
-      "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "com.AlfaBravo.WorldWarLegion"
+      "updatedAt": "2026-09-12T18:09:18.330Z",
+      "bundleId": "com.AlfaBravo.WorldWarLegion",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-war-legion-0.3.31",
+          "version": "0.3.31"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-1861059445",
