@@ -6389,17 +6389,22 @@
     {
       "id": "APP-6250762961",
       "name": "Dragoncity",
-      "version": "26.10.4",
+      "version": "26.12.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dragoncity-26.10.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dragoncity-26.12.0-1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/b0/dd/09b0ddd9-0911-0301-719d-7fdf2043a862/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "186.8 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dragoncity-26.10.4",
+          "version": "26.10.4"
+        }
+      ],
+      "size": "187.6 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:40:33.294Z",
-      "updatedAt": "2026-08-24T06:48:04.406Z",
+      "updatedAt": "2026-09-12T20:53:13.140Z",
       "bundleId": "es.socialpoint.dragoncity"
     },
     {
