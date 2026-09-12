@@ -14256,6 +14256,22 @@
       "bundleId": "caller.id.view",
       "addedAt": "2026-09-12T17:40:54.586Z",
       "updatedAt": "2026-09-12T17:41:08.924Z"
+    },
+    {
+      "id": "app-1789235013252",
+      "name": "Matching Ton Mansion",
+      "version": "1.210.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/matchingtonmansion_12100",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/ec/d3/99ecd31c-69b1-a6d6-d618-2dbf02f02c99/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "635.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.matchington.mansion",
+      "addedAt": "2026-09-12T17:43:33.252Z",
+      "updatedAt": "2026-09-12T17:43:45.234Z"
     }
   ]
 }
