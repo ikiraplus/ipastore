@@ -14420,6 +14420,22 @@
       "bundleId": "com.crunchyroll.gv.karatesurvivor",
       "addedAt": "2026-09-12T18:24:17.525Z",
       "updatedAt": "2026-09-12T18:24:19.845Z"
+    },
+    {
+      "id": "app-1789237499169",
+      "name": "Sand Blast",
+      "version": "1.93",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sand-blast-193",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/86/c5/dd86c5ae-d558-b681-4244-052d1a21f088/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "114.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.inspiredsquare.sand.blast",
+      "addedAt": "2026-09-12T18:24:59.169Z",
+      "updatedAt": "2026-09-12T18:25:03.491Z"
     }
   ]
 }
