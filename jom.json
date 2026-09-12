@@ -5848,26 +5848,26 @@
     {
       "id": "APP-7765940369",
       "name": "365scores Live Scores News",
-      "version": "6.6.4",
+      "version": "6.6.6",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scores-live-scores-news-v6.6.6",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/7b/23/517b2300-c347-8a58-611a-973d08a5b2cb/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.3",
-          "version": "6.6.3"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.4",
+          "version": "6.6.4"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.2",
-          "version": "6.6.2"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.3",
+          "version": "6.6.3"
         }
       ],
-      "size": "84.4 MB",
+      "size": "85.4 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-02T15:39:36.173Z",
-      "updatedAt": "2026-08-24T06:19:40.478Z",
+      "updatedAt": "2026-09-12T18:34:32.117Z",
       "bundleId": "com.365scores.365scroesapp"
     },
     {
