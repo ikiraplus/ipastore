@@ -14469,6 +14469,22 @@
       "bundleId": "com.picretouch.photoeditor",
       "addedAt": "2026-09-12T18:29:30.259Z",
       "updatedAt": "2026-09-12T18:29:32.589Z"
+    },
+    {
+      "id": "app-1789238125131",
+      "name": "Retro Highway",
+      "version": "1.3.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/retro-highway-1.3.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/3e/dc/453edc4b-cf7b-c98a-3779-6d5e81ef599d/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "39.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.nicolaigd.retrohighway",
+      "addedAt": "2026-09-12T18:35:25.131Z",
+      "updatedAt": "2026-09-12T18:35:26.909Z"
     }
   ]
 }
