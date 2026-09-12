@@ -2935,15 +2935,23 @@
     {
       "id": "APP-9267393175",
       "name": "NGL",
-      "version": "6.4.108",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ngl-ask-me-anything-2",
+      "version": "6.4.114",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ngl-ask-me-anything_6.2.114",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/16/b6/d316b64b-1f71-5c77-bf32-58ef1574cd29/AppIcon-0-0-1x_U007emarketing-0-3-0-85-220.jpeg/512x512bb.jpg",
-      "size": "110.7 MB",
+      "size": "176.9 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-28T07:16:28.133Z",
-      "updatedAt": "2026-08-24T06:22:18.203Z",
-      "bundleId": "fun.ask"
+      "updatedAt": "2026-09-12T17:40:22.803Z",
+      "bundleId": "fun.ask",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ngl-ask-me-anything-2",
+          "version": "6.4.108"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-4433660118",
