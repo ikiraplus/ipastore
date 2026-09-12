@@ -14388,6 +14388,22 @@
       "bundleId": "com.gamehivecorp.taptitans2",
       "addedAt": "2026-09-12T18:08:44.212Z",
       "updatedAt": "2026-09-12T18:08:50.210Z"
+    },
+    {
+      "id": "app-1789237409776",
+      "name": "Little Big Snake",
+      "version": "2.7.24",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/littlebigsnake-2.7.24",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/60/70/eb6070b2-c1bb-434f-a08b-46dea474f19c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "179.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.littlebigsnake.live",
+      "addedAt": "2026-09-12T18:23:29.777Z",
+      "updatedAt": "2026-09-12T18:23:33.492Z"
     }
   ]
 }
