@@ -14216,6 +14216,22 @@
       "bundleId": "com.coddykit.kids",
       "addedAt": "2026-09-12T17:39:22.194Z",
       "updatedAt": "2026-09-12T17:39:26.278Z"
+    },
+    {
+      "id": "app-1789234790656",
+      "name": "Quick Captions Auto Subtitles",
+      "version": "1.9.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/quick-captions-auto-subtitles_1.9.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/e6/9b/89e69b53-88d2-d509-1bbb-e092900a9cfe/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "47.9 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.videosubtitle.ai.CaptionsAI",
+      "addedAt": "2026-09-12T17:39:50.656Z",
+      "updatedAt": "2026-09-12T17:39:52.849Z"
     }
   ]
 }
