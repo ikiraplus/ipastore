@@ -14532,6 +14532,22 @@
       "bundleId": "com.google.ios.youtubemusic",
       "addedAt": "2026-09-12T18:41:43.720Z",
       "updatedAt": "2026-09-12T18:41:48.821Z"
+    },
+    {
+      "id": "app-1789238785929",
+      "name": "Qwen Ai Studio",
+      "version": "2.10.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/qwen-studio_v2.10.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/05/5f/f6055f1d-2544-74ff-cb6c-966eb1ef3ffa/AppIcon-0-1x_U007epad-0-1-0-sRGB-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "55.5 MB",
+      "note": "تطبيق ذكاء اصطناعي محذوف من المتجر الرسمي.",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "ai.qwenlm.chat.ios",
+      "addedAt": "2026-09-12T18:46:25.929Z",
+      "updatedAt": "2026-09-12T18:46:31.415Z"
     }
   ]
 }
