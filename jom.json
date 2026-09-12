@@ -6489,26 +6489,26 @@
     {
       "id": "APP-9444409958",
       "name": "Reddit Filter",
-      "version": "2026.34.0",
+      "version": "2026.36.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reddit-fluter_2026.34.0_fl",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reddit-2026.36.0-redditfilter-1",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-1786608841597.png",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reddit_2026.33.0",
-          "version": "2026.33.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reddit-fluter_2026.34.0_fl",
+          "version": "2026.34.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reddit-filter_2026.32.0_fl",
-          "version": "2026.32.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reddit_2026.33.0",
+          "version": "2026.33.0"
         }
       ],
-      "size": "130.1 MB",
+      "size": "142.1 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-13T08:14:06.412Z",
-      "updatedAt": "2026-08-25T07:32:51.537Z",
+      "updatedAt": "2026-09-12T21:01:48.725Z",
       "bundleId": "com.reddit.Reddit"
     },
     {
