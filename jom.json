@@ -14337,6 +14337,22 @@
       "bundleId": "com.survival.dawn",
       "addedAt": "2026-09-12T18:05:22.868Z",
       "updatedAt": "2026-09-12T18:05:32.031Z"
+    },
+    {
+      "id": "app-1789236428508",
+      "name": "Pewdiepie Tuber Simulator",
+      "version": "2.86.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pewdiepie-tuber-simulator-2.86.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/3e/79/103e795a-1258-a213-2f60-f7984fd001fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "233.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.outerminds.tubular",
+      "addedAt": "2026-09-12T18:07:08.508Z",
+      "updatedAt": "2026-09-12T18:07:11.127Z"
     }
   ]
 }
