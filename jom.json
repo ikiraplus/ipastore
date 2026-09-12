@@ -14506,6 +14506,22 @@
       "bundleId": "com.crunchyroll.gv.bakihanmabloodarena",
       "addedAt": "2026-09-12T18:36:10.565Z",
       "updatedAt": "2026-09-12T18:36:12.844Z"
+    },
+    {
+      "id": "app-1789238503720",
+      "name": "Max Music",
+      "version": "9.36.1",
+      "toolVersion": "2.4.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/maxmusic_2.4.1.9.36.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/a1/77/aca1773e-850b-5810-6e19-1e914225032f/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "101.5 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "com.google.ios.youtubemusic",
+      "addedAt": "2026-09-12T18:41:43.720Z",
+      "updatedAt": "2026-09-12T18:41:48.821Z"
     }
   ]
 }
