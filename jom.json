@@ -14299,6 +14299,22 @@
       "bundleId": "com.nianticlabs.pokemongo",
       "addedAt": "2026-09-12T17:46:26.747Z",
       "updatedAt": "2026-09-12T17:49:11.316Z"
+    },
+    {
+      "id": "app-1789236079905",
+      "name": "Hold The Tile",
+      "version": "1.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hold-the-tile-1.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/23/da/c523da01-a1f6-1999-6844-08851754fa96/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "148.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.KamenInteractive.HoldtheTile",
+      "addedAt": "2026-09-12T18:01:19.905Z",
+      "updatedAt": "2026-09-12T18:01:25.739Z"
     }
   ]
 }
