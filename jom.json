@@ -11947,18 +11947,23 @@
     {
       "id": "APP-3033370970",
       "name": "Iscreen Widgets Wallpaper",
-      "version": "5.0.15",
+      "version": "5.1.05",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iscreen_widgets_-_wallpaper_v5.0.15_subscription_unlocked",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iscreen_widgets_wallpaper_v5.1.05_subscription_unlocked",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/bd/c9/c9bdc94b-ba53-ce54-20b2-8d7035e27ee6/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.jpeg/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "428.3 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iscreen_widgets_-_wallpaper_v5.0.15_subscription_unlocked",
+          "version": "5.0.15"
+        }
+      ],
+      "size": "314.8 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "bundleId": "com.zerone.hidesktop",
       "addedAt": "2026-08-31T17:06:44.622Z",
-      "updatedAt": "2026-08-31T17:06:55.239Z"
+      "updatedAt": "2026-09-12T18:43:37.631Z"
     },
     {
       "id": "APP-2794569055",
