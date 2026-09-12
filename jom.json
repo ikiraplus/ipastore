@@ -14404,6 +14404,22 @@
       "bundleId": "com.littlebigsnake.live",
       "addedAt": "2026-09-12T18:23:29.777Z",
       "updatedAt": "2026-09-12T18:23:33.492Z"
+    },
+    {
+      "id": "app-1789237457525",
+      "name": "Karate Survivor",
+      "version": "1.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/karatesurvivor-1.0.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/31/53/123153d5-6a50-b5d0-3158-4f19f0038113/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "147.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.crunchyroll.gv.karatesurvivor",
+      "addedAt": "2026-09-12T18:24:17.525Z",
+      "updatedAt": "2026-09-12T18:24:19.845Z"
     }
   ]
 }
