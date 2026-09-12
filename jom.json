@@ -3383,24 +3383,24 @@
     },
     {
       "id": "APP-6966621544",
-      "name": "WPS office ai",
-      "version": "26.8.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wps_office_ai_doc-_pdf-_sheet_v26.8.1_pro-ai_unlocked_patched",
+      "name": "WPS office Ai",
+      "version": "26.9.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wps_office_ai_doc_pdf_sheet_v26.9.0_pro-ai_unlocked_patched",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPKPnu4fS_BTqFkAXavsm8Vsru_YGXIW9YkA&s",
-      "size": "309.8 MB",
+      "size": "310.1 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-05-23T18:22:51.806Z",
-      "updatedAt": "2026-08-27T16:11:36.865Z",
+      "updatedAt": "2026-09-12T17:59:22.296Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wps_office_ai_doc-_pdf-_sheet_v26.7.1_pro-ai_unlocked_patched",
-          "version": "26.7.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wps_office_ai_doc-_pdf-_sheet_v26.8.1_pro-ai_unlocked_patched",
+          "version": "26.8.1"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wps_office_ai_doc,_pdf,_sheet_v26_4_2_pro+ai_unlocked",
-          "version": "26.4.2"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wps_office_ai_doc-_pdf-_sheet_v26.7.1_pro-ai_unlocked_patched",
+          "version": "26.7.1"
         }
       ],
       "recommended": false,
