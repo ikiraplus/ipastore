@@ -11637,17 +11637,23 @@
     {
       "id": "APP-6656386577",
       "name": "Combat Master Mobile",
-      "version": "0.29.2",
+      "version": "0.30.2",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/combat-master-mobile-v0.29.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/combat-master-0.30.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/45/40/3b45408f-5640-7da5-caf7-c67f4ba43938/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "1800.4 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/combat-master-mobile-v0.29.2",
+          "version": "0.29.2"
+        }
+      ],
+      "size": "1827.3 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-30T08:38:46.313Z",
-      "updatedAt": "2026-08-30T08:38:48.420Z"
+      "updatedAt": "2026-09-12T18:00:46.929Z",
+      "bundleId": "com.AlfaBravo.CombatMaster"
     },
     {
       "id": "APP-1379212196",
