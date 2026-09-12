@@ -14321,6 +14321,22 @@
       "bundleId": "com.KamenInteractive.HoldtheTile",
       "addedAt": "2026-09-12T18:01:19.905Z",
       "updatedAt": "2026-09-12T18:01:25.739Z"
+    },
+    {
+      "id": "app-1789236322868",
+      "name": "Dawn of Zombies: Survival Day",
+      "version": "2.277",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/doz-2.277",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/d6/e6/c9d6e6a5-31ce-8882-3dd7-9611f9a9c7fc/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1115.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.survival.dawn",
+      "addedAt": "2026-09-12T18:05:22.868Z",
+      "updatedAt": "2026-09-12T18:05:32.031Z"
     }
   ]
 }
