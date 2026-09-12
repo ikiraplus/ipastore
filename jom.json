@@ -1708,23 +1708,23 @@
     {
       "id": "APP-7685284174",
       "name": "SnapEdit Premium",
-      "version": "6.27",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapedit-photo-editor-ai-v6.27-pro-unlocked-patched",
+      "version": "6.27.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapedit_photo_editor_ai_v6.27.1_pro_unlocked_patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/55/08/41550802-7821-b250-bc97-e25cf3b8a4e6/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.jpeg/512x512bb.jpg",
-      "size": "119.1 MB",
+      "size": "127.1 MB",
       "note": "",
       "category": "أدوات",
       "addedAt": "2026-03-16",
-      "updatedAt": "2026-09-07T17:34:37.448Z",
+      "updatedAt": "2026-09-12T18:43:58.576Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapedit_photo_editor_ai_v6.26.1_pro_unlocked_patched",
-          "version": "6.26.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapedit-photo-editor-ai-v6.27-pro-unlocked-patched",
+          "version": "6.27"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapedit-photo-editor-ai-v6.26-pro-unlocked-patched",
-          "version": "6.26"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/snapedit_photo_editor_ai_v6.26.1_pro_unlocked_patched",
+          "version": "6.26.1"
         }
       ],
       "recommended": false,
