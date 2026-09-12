@@ -8233,17 +8233,22 @@
     {
       "id": "APP-3139394559",
       "name": "Idle Miner Tycoon",
-      "version": "5.61.1",
+      "version": "5.63.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-miner-tycoon-v5.61.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-miner-tycoon-v5.63.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/a5/42/a9a542fe-ead3-36e9-0331-48c17af92afd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "135.0 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-miner-tycoon-v5.61.1",
+          "version": "5.61.1"
+        }
+      ],
+      "size": "139.6 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:26:33.051Z",
-      "updatedAt": "2026-08-24T06:44:10.947Z",
+      "updatedAt": "2026-09-12T18:39:28.945Z",
       "bundleId": "com.fluffyfairygames.idleminertycoon"
     },
     {
