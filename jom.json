@@ -14673,6 +14673,22 @@
       "bundleId": "com.stanga.projectKu",
       "addedAt": "2026-09-13T18:48:06.056Z",
       "updatedAt": "2026-09-13T18:48:23.340Z"
+    },
+    {
+      "id": "app-1789325365901",
+      "name": "ShadowBorn",
+      "version": "1.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-born_1.0.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/94/72/769472c7-bc33-818f-90d0-ff4d7a0d6150/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1805.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.onemb.shadowborn",
+      "addedAt": "2026-09-13T18:49:25.901Z",
+      "updatedAt": "2026-09-13T18:49:47.712Z"
     }
   ]
 }
