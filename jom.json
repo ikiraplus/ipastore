@@ -14689,6 +14689,22 @@
       "bundleId": "com.onemb.shadowborn",
       "addedAt": "2026-09-13T18:49:25.901Z",
       "updatedAt": "2026-09-13T18:49:47.712Z"
+    },
+    {
+      "id": "app-1789325595542",
+      "name": "Guns Arena Pvp Shooting Games",
+      "version": "1.35.07",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guns-arena-pvp-shooting-games_1.35.07",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/22/83/6c2283c9-d08b-3721-8ce2-e2e0be0b6e80/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "739.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.vivastudios.gunsatdawn.shooter",
+      "addedAt": "2026-09-13T18:53:15.542Z",
+      "updatedAt": "2026-09-13T18:53:54.578Z"
     }
   ]
 }
