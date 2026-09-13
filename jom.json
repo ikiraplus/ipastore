@@ -14721,6 +14721,22 @@
       "bundleId": "com.breboucas.inglesparaviajar",
       "addedAt": "2026-09-13T18:54:40.146Z",
       "updatedAt": "2026-09-13T18:55:00.070Z"
+    },
+    {
+      "id": "app-1789325756480",
+      "name": "Osm And Maps Travel Navigate",
+      "version": "5.4.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/osm-and-maps-travel-navigate_5.4.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/33/c1/3933c138-8cd3-c30b-9efc-a88f979f2aed/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "251.6 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "net.osmand.maps",
+      "addedAt": "2026-09-13T18:55:56.480Z",
+      "updatedAt": "2026-09-13T18:56:03.893Z"
     }
   ]
 }
