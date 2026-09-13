@@ -14657,6 +14657,22 @@
       "bundleId": "com.MattSutton.BookPal",
       "addedAt": "2026-09-13T18:46:57.984Z",
       "updatedAt": "2026-09-13T18:47:16.889Z"
+    },
+    {
+      "id": "app-1789325286055",
+      "name": "Walli Cool Wallpapers Hd 4k",
+      "version": "2.0.18",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/walli-cool-wallpapers-hd-4k_2.0.18",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/5a/83/345a83be-d557-b74d-ff11-17536c03caf8/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "168.8 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.stanga.projectKu",
+      "addedAt": "2026-09-13T18:48:06.056Z",
+      "updatedAt": "2026-09-13T18:48:23.340Z"
     }
   ]
 }
