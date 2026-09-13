@@ -14705,6 +14705,22 @@
       "bundleId": "com.vivastudios.gunsatdawn.shooter",
       "addedAt": "2026-09-13T18:53:15.542Z",
       "updatedAt": "2026-09-13T18:53:54.578Z"
+    },
+    {
+      "id": "app-1789325680146",
+      "name": "Learn English Beginners",
+      "version": "6.0.19",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/learn-english-beginners_6.0.19",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/ce/ce/eacece2b-5e62-3153-86f0-7e0735bbf487/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "156.8 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.breboucas.inglesparaviajar",
+      "addedAt": "2026-09-13T18:54:40.146Z",
+      "updatedAt": "2026-09-13T18:55:00.070Z"
     }
   ]
 }
