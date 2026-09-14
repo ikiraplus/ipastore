@@ -14981,6 +14981,22 @@
       "bundleId": "com.hyperbeard.pondpals",
       "addedAt": "2026-09-14T16:16:23.098Z",
       "updatedAt": "2026-09-14T16:16:24.067Z"
+    },
+    {
+      "id": "app-1789402706534",
+      "name": "The Virus Zombie Hunter",
+      "version": "0.3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-virus-zombie-hunter-0.3.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/ff/76/e6ff765b-4171-c23a-8acf-30c867c26ac5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "358.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "cz.marekpenicka.viruszombiehunter",
+      "addedAt": "2026-09-14T16:18:26.534Z",
+      "updatedAt": "2026-09-14T16:18:28.805Z"
     }
   ]
 }
