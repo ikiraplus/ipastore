@@ -15320,6 +15320,22 @@
       "bundleId": "com.skycode.SkyCode-Translate-En-Fr",
       "addedAt": "2026-09-14T17:18:16.652Z",
       "updatedAt": "2026-09-14T17:18:24.746Z"
+    },
+    {
+      "id": "app-1789406331604",
+      "name": "The Machines",
+      "version": "1.6.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-machines",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/42/45/eb/4245eb7f-5b56-dde3-86b0-6195248c54c7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "472.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.Directive.TheMachines",
+      "addedAt": "2026-09-14T17:18:51.604Z",
+      "updatedAt": "2026-09-14T17:18:57.534Z"
     }
   ]
 }
