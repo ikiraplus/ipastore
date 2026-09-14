@@ -15432,6 +15432,22 @@
       "bundleId": "LonelyTroops.EmpireoftheGods",
       "addedAt": "2026-09-14T17:23:35.619Z",
       "updatedAt": "2026-09-14T17:23:41.372Z"
+    },
+    {
+      "id": "app-1789406728010",
+      "name": "Endless Fables 4",
+      "version": "2.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/endless-fables-4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/38/d6/05/38d60577-23a8-148f-669b-b8ac1df3c6f2/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "848.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.artifexmundi.endlessfables4.aplunified.free",
+      "addedAt": "2026-09-14T17:25:28.010Z",
+      "updatedAt": "2026-09-14T17:25:33.426Z"
     }
   ]
 }
