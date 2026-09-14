@@ -15208,6 +15208,22 @@
       "bundleId": "com.twopeoplesoftware.Artpaper-iOS",
       "addedAt": "2026-09-14T16:53:12.199Z",
       "updatedAt": "2026-09-14T16:53:13.091Z"
+    },
+    {
+      "id": "app-1789404819227",
+      "name": "Poplet Share",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/poplet-share-2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/90/10/35901029-2457-5409-0a3b-53f728ba405d/PopShare-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "24.2 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.richardjorne.swiftui.app.PopShare",
+      "addedAt": "2026-09-14T16:53:39.227Z",
+      "updatedAt": "2026-09-14T16:53:40.650Z"
     }
   ]
 }
