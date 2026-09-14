@@ -15128,6 +15128,22 @@
       "bundleId": "com.apple.mobile.MobileHouseArrest",
       "addedAt": "2026-09-14T16:47:04.552Z",
       "updatedAt": "2026-09-14T16:47:07.228Z"
+    },
+    {
+      "id": "app-1789404462527",
+      "name": "Moza Mosaic Blur",
+      "version": "1.7.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/moza-mosaic-blur-1.7.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/c6/cb/d5c6cbbb-8485-0900-50b1-dcfd18266fd7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "43.2 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "page.jeho.moza",
+      "addedAt": "2026-09-14T16:47:42.527Z",
+      "updatedAt": "2026-09-14T16:47:44.726Z"
     }
   ]
 }
