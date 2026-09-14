@@ -11236,17 +11236,23 @@
     {
       "id": "APP-1244025320",
       "name": "Vampires Fall 2",
-      "version": "1.1.108",
+      "version": "1.4.128",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vampires-fall-2-v1.1.108",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vampires-fall-2.1.4.128",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/a4/37/f7a43773-a6e9-eb34-35cd-c480d0acdd64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "203.5 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vampires-fall-2-v1.1.108",
+          "version": "1.1.108"
+        }
+      ],
+      "size": "375.0 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-29T13:11:16.073Z",
-      "updatedAt": "2026-08-29T13:11:17.297Z"
+      "updatedAt": "2026-09-14T16:21:03.833Z",
+      "bundleId": "com.earlymorningstudio.trident"
     },
     {
       "id": "APP-1073812706",
