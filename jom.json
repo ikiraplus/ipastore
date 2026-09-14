@@ -15384,6 +15384,22 @@
       "bundleId": "com.hg.ttdotm",
       "addedAt": "2026-09-14T17:20:40.901Z",
       "updatedAt": "2026-09-14T17:20:47.332Z"
+    },
+    {
+      "id": "app-1789406514595",
+      "name": "The Secret Order 7",
+      "version": "2.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-secret-order-7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/84/08/f9/8408f991-0a3b-0db3-7b7b-06bd889fa318/AppIcon-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1583.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.artifexmundi.thesecretorder7.aplunified.free",
+      "addedAt": "2026-09-14T17:21:54.595Z",
+      "updatedAt": "2026-09-14T17:21:59.990Z"
     }
   ]
 }
