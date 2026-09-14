@@ -15160,6 +15160,22 @@
       "bundleId": "com.intfre.RushCountdown",
       "addedAt": "2026-09-14T16:48:09.653Z",
       "updatedAt": "2026-09-14T16:48:11.217Z"
+    },
+    {
+      "id": "app-1789404674296",
+      "name": "PrimeCV - Preimum Cv Maker",
+      "version": "1.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/stubborn-alarm-1.0.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/46/14/b1461457-6224-f116-b88b-eb856dae4615/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "4.6 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.abdulrazaq.stubbornAlarm",
+      "addedAt": "2026-09-14T16:51:14.296Z",
+      "updatedAt": "2026-09-14T16:51:17.011Z"
     }
   ]
 }
