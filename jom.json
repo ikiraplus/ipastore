@@ -14949,6 +14949,22 @@
       "bundleId": "com.breboucas.alemaoparaviajar",
       "addedAt": "2026-09-14T07:54:05.466Z",
       "updatedAt": "2026-09-14T07:54:07.802Z"
+    },
+    {
+      "id": "app-1789402559172",
+      "name": "Facebook Plus",
+      "version": "578.1.0",
+      "toolVersion": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fb_v578.1.0_facebook-plus_v1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/1d/be/5e1dbe24-886f-0e03-0874-2b7c2fdfd594/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "203.0 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "com.facebook.Facebook",
+      "addedAt": "2026-09-14T16:15:59.172Z",
+      "updatedAt": "2026-09-14T16:16:01.622Z"
     }
   ]
 }
