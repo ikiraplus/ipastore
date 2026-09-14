@@ -15400,6 +15400,22 @@
       "bundleId": "com.artifexmundi.thesecretorder7.aplunified.free",
       "addedAt": "2026-09-14T17:21:54.595Z",
       "updatedAt": "2026-09-14T17:21:59.990Z"
+    },
+    {
+      "id": "app-1789406550584",
+      "name": "The Lost Ship",
+      "version": "3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-lost-ship",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/81/3a/53/813a538b-65e7-9aa8-52fe-2601d46e8627/AppIcon-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "193.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "net.lonewolfgames.thelostship",
+      "addedAt": "2026-09-14T17:22:30.584Z",
+      "updatedAt": "2026-09-14T17:22:37.877Z"
     }
   ]
 }
