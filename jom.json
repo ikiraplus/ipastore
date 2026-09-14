@@ -14933,6 +14933,22 @@
       "bundleId": "com.breboucas.francesparaviajar",
       "addedAt": "2026-09-14T07:48:36.767Z",
       "updatedAt": "2026-09-14T07:48:38.527Z"
+    },
+    {
+      "id": "app-1789372445466",
+      "name": "Learn German Beginners",
+      "version": "6.0.19",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/learn-german-beginners_6.0.19",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/0b/f7/c40bf7a1-5d5c-0861-9f90-19ac1f51015e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "157.6 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.breboucas.alemaoparaviajar",
+      "addedAt": "2026-09-14T07:54:05.466Z",
+      "updatedAt": "2026-09-14T07:54:07.802Z"
     }
   ]
 }
