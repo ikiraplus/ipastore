@@ -14897,6 +14897,22 @@
       "bundleId": "com.YSK.LVUP",
       "addedAt": "2026-09-14T07:45:06.111Z",
       "updatedAt": "2026-09-14T07:45:10.453Z"
+    },
+    {
+      "id": "app-1789372096403",
+      "name": "عشق VIP",
+      "version": "1.4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ashq-vip_1.4.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/05/95/0f0595ca-6111-7e9d-c0b3-7a9e6739fe66/Placeholder.mill/400x400bb-75.webp",
+      "previousVersions": [],
+      "size": "36.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.iliasslamine.matrixofmeanings",
+      "addedAt": "2026-09-14T07:48:16.403Z",
+      "updatedAt": "2026-09-14T07:48:18.246Z"
     }
   ]
 }
