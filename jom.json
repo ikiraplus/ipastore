@@ -14737,6 +14737,22 @@
       "bundleId": "net.osmand.maps",
       "addedAt": "2026-09-13T18:55:56.480Z",
       "updatedAt": "2026-09-13T18:56:03.893Z"
+    },
+    {
+      "id": "app-1789371560283",
+      "name": "Temply AI Video Reels Maker",
+      "version": "8.3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/temply-ai-video-reels-maker_8.3.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/4c/01/fc4c0198-ce34-df2c-78c9-86029a9b089a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "129.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.templyvideo.Temply",
+      "addedAt": "2026-09-14T07:39:20.284Z",
+      "updatedAt": "2026-09-14T07:39:24.230Z"
     }
   ]
 }
