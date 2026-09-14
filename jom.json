@@ -14769,6 +14769,22 @@
       "bundleId": "com.eyesthegame.lite",
       "addedAt": "2026-09-14T07:40:10.187Z",
       "updatedAt": "2026-09-14T07:40:14.436Z"
+    },
+    {
+      "id": "app-1789371671440",
+      "name": "Tile Home Triple Match",
+      "version": "2.4.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tile-home-triple-match_2.4.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/da/65/1eda6543-185d-ea1e-de28-f62eaa75dbbf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "551.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.tile.travel.triple.match",
+      "addedAt": "2026-09-14T07:41:11.440Z",
+      "updatedAt": "2026-09-14T07:41:13.508Z"
     }
   ]
 }
