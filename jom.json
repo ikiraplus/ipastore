@@ -5550,22 +5550,26 @@
     {
       "id": "APP-2361131435",
       "name": "Detail AI Video Editor",
-      "version": "5.7.1",
+      "version": "6.0.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/detail_ai_video_editor_v5.7.1_subscription_unlocked_patched",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/detail-ai-video-editor_6.0.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/c3/fd/c0c3fd05-4c82-1bc5-8eac-0331415f0a13/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/detail_ai_video_editor_v5.7.1_subscription_unlocked_patched",
+          "version": "5.7.1"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/detail_ai_video_editor_v5.7_subscription_unlocked_patched",
           "version": "5.7"
         }
       ],
-      "size": "230.9 MB",
+      "size": "377.9 MB",
       "note": "",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-07-30T14:16:25.773Z",
-      "updatedAt": "2026-08-24T06:50:32.829Z",
+      "updatedAt": "2026-09-14T07:53:40.481Z",
       "bundleId": "co.detail.duo"
     },
     {
