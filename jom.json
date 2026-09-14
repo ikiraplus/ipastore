@@ -15112,6 +15112,22 @@
       "bundleId": "org.ghostgram.app",
       "addedAt": "2026-09-14T16:46:06.680Z",
       "updatedAt": "2026-09-14T16:46:12.332Z"
+    },
+    {
+      "id": "app-1789404424552",
+      "name": "Filza iOS",
+      "version": "26.1.27.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/filza-ios-26.1.27.0-beta-4",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwYNE-U9zCLm08uS1iHR2iheF5BfaDnWcRYtZrAmgv0Q&s=10",
+      "previousVersions": [],
+      "size": "4.4 MB",
+      "note": "",
+      "category": "أخرى",
+      "recommended": false,
+      "bundleId": "com.apple.mobile.MobileHouseArrest",
+      "addedAt": "2026-09-14T16:47:04.552Z",
+      "updatedAt": "2026-09-14T16:47:07.228Z"
     }
   ]
 }
