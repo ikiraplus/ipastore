@@ -14817,6 +14817,22 @@
       "bundleId": "com.breboucas.portuguesparaviajar",
       "addedAt": "2026-09-14T07:42:22.150Z",
       "updatedAt": "2026-09-14T07:42:23.757Z"
+    },
+    {
+      "id": "app-1789371768727",
+      "name": "Learn Italian Beginners",
+      "version": "6.0.19",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/learn-italian-beginners_6.0.19",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/37/10/bc37107a-bff7-c437-0f36-2e65e25e7b33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "157.3 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.breboucas.italianoparaviajar",
+      "addedAt": "2026-09-14T07:42:48.727Z",
+      "updatedAt": "2026-09-14T07:42:50.921Z"
     }
   ]
 }
