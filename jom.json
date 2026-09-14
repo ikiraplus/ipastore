@@ -14785,6 +14785,22 @@
       "bundleId": "com.tile.travel.triple.match",
       "addedAt": "2026-09-14T07:41:11.440Z",
       "updatedAt": "2026-09-14T07:41:13.508Z"
+    },
+    {
+      "id": "app-1789371721347",
+      "name": "Learn Korean Beginners",
+      "version": "6.0.19",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/learn-korean-beginners_6.0.19",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/27/ef/4e27efad-8abe-14ea-c72a-73f7d385563b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "157.0 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.breboucas.coreanoparaviajar",
+      "addedAt": "2026-09-14T07:42:01.347Z",
+      "updatedAt": "2026-09-14T07:42:03.071Z"
     }
   ]
 }
