@@ -15272,6 +15272,22 @@
       "bundleId": "com.crunchyroll.gv.hoa",
       "addedAt": "2026-09-14T17:16:09.110Z",
       "updatedAt": "2026-09-14T17:16:15.542Z"
+    },
+    {
+      "id": "app-1789406205199",
+      "name": "Translate Offline Italian Pro",
+      "version": "3.001",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/translate-offline-italian-pro",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/2e/f3/d72ef34a-0bca-e5f2-297f-d49de320a411/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "43.2 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.skycode.SkyCode-Translate-En-It",
+      "addedAt": "2026-09-14T17:16:45.199Z",
+      "updatedAt": "2026-09-14T17:16:50.630Z"
     }
   ]
 }
