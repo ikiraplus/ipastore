@@ -14865,6 +14865,22 @@
       "bundleId": "com.breboucas.espanholparaviajar",
       "addedAt": "2026-09-14T07:43:32.905Z",
       "updatedAt": "2026-09-14T07:43:35.545Z"
+    },
+    {
+      "id": "app-1789371863694",
+      "name": "Mutiny Pirate Survival Rpg",
+      "version": "0.71.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mutiny-pirate-survival-rpg_0.71.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/7b/16/027b1607-c3f7-facf-4c31-e3a67aef8cd7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "860.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.heliogames.pirates",
+      "addedAt": "2026-09-14T07:44:23.694Z",
+      "updatedAt": "2026-09-14T07:44:28.743Z"
     }
   ]
 }
