@@ -1526,6 +1526,23 @@
       "bundleId": "",
       "addedAt": "2026-09-06T17:46:54.412Z",
       "updatedAt": "2026-09-06T17:46:55.773Z"
+    },
+    {
+      "id": "dylib-1789407153138",
+      "name": "FBPLUS Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/FBPLUS-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/1d/be/5e1dbe24-886f-0e03-0874-2b7c2fdfd594/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "0.3 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "bundleId": "",
+      "addedAt": "2026-09-14T17:32:33.138Z",
+      "updatedAt": "2026-09-14T17:32:33.859Z"
     }
   ]
 }
