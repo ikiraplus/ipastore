@@ -15144,6 +15144,22 @@
       "bundleId": "page.jeho.moza",
       "addedAt": "2026-09-14T16:47:42.527Z",
       "updatedAt": "2026-09-14T16:47:44.726Z"
+    },
+    {
+      "id": "app-1789404489653",
+      "name": "Rush Count Down",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rush-count-down_v1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/24/a2/e524a268-e8c0-ee57-62b4-d4f4009143c9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1.1 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.intfre.RushCountdown",
+      "addedAt": "2026-09-14T16:48:09.653Z",
+      "updatedAt": "2026-09-14T16:48:11.217Z"
     }
   ]
 }
