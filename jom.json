@@ -15288,6 +15288,22 @@
       "bundleId": "com.skycode.SkyCode-Translate-En-It",
       "addedAt": "2026-09-14T17:16:45.199Z",
       "updatedAt": "2026-09-14T17:16:50.630Z"
+    },
+    {
+      "id": "app-1789406263909",
+      "name": "Translate Offline German Pro",
+      "version": "3.001",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/translate-offline-german-pro",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/11/31/ad1131e6-3838-0970-88f2-73f424db2886/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "41.8 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.skycode.SkyCode-Translate-En-De",
+      "addedAt": "2026-09-14T17:17:43.909Z",
+      "updatedAt": "2026-09-14T17:17:50.693Z"
     }
   ]
 }
