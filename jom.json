@@ -14997,6 +14997,22 @@
       "bundleId": "cz.marekpenicka.viruszombiehunter",
       "addedAt": "2026-09-14T16:18:26.534Z",
       "updatedAt": "2026-09-14T16:18:28.805Z"
+    },
+    {
+      "id": "app-1789402766883",
+      "name": "Fortress Stickman Trenches",
+      "version": "5.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fortress-stickman-trenches-5.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/5c/a5/805ca570-a0a5-df5d-53ea-e23a248b2c09/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "67.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.g1.growfortmarines",
+      "addedAt": "2026-09-14T16:19:26.883Z",
+      "updatedAt": "2026-09-14T16:19:29.347Z"
     }
   ]
 }
