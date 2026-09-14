@@ -14753,6 +14753,22 @@
       "bundleId": "com.templyvideo.Temply",
       "addedAt": "2026-09-14T07:39:20.284Z",
       "updatedAt": "2026-09-14T07:39:24.230Z"
+    },
+    {
+      "id": "app-1789371610187",
+      "name": "Eyes Horror Coop Multi Player",
+      "version": "8.0.114",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/eyes-horror-coop-multi-player_8.0.114",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/6e/cc/536ecc69-0b5f-562f-a722-ee17d65a6029/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "196.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.eyesthegame.lite",
+      "addedAt": "2026-09-14T07:40:10.187Z",
+      "updatedAt": "2026-09-14T07:40:14.436Z"
     }
   ]
 }
