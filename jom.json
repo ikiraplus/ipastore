@@ -14833,6 +14833,22 @@
       "bundleId": "com.breboucas.italianoparaviajar",
       "addedAt": "2026-09-14T07:42:48.727Z",
       "updatedAt": "2026-09-14T07:42:50.921Z"
+    },
+    {
+      "id": "app-1789371785034",
+      "name": "Learn Russian Beginners",
+      "version": "6.0.19",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/learn-russian-beginners_6.0.19",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/86/9c/d0869c14-c5cb-70c3-a822-ef603eac478d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "157.7 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.breboucas.russoparaviajar",
+      "addedAt": "2026-09-14T07:43:05.034Z",
+      "updatedAt": "2026-09-14T07:43:14.240Z"
     }
   ]
 }
