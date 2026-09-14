@@ -15256,6 +15256,22 @@
       "bundleId": "org.retropixel.ouijaboard",
       "addedAt": "2026-09-14T17:15:34.766Z",
       "updatedAt": "2026-09-14T17:15:40.670Z"
+    },
+    {
+      "id": "app-1789406169110",
+      "name": "Crunchyroll Hoa",
+      "version": "1.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crunchyroll-hoa",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/18/80/791880cb-340a-d238-f99e-19559392d073/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1778.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.crunchyroll.gv.hoa",
+      "addedAt": "2026-09-14T17:16:09.110Z",
+      "updatedAt": "2026-09-14T17:16:15.542Z"
     }
   ]
 }
