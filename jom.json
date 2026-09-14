@@ -14881,6 +14881,22 @@
       "bundleId": "com.heliogames.pirates",
       "addedAt": "2026-09-14T07:44:23.694Z",
       "updatedAt": "2026-09-14T07:44:28.743Z"
+    },
+    {
+      "id": "app-1789371906111",
+      "name": "Levelup Rpg",
+      "version": "4.3.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/levelup-rpg_4.3.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/92/10/319210ad-3ecb-6091-27ee-a63e79bddf1d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "590.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.YSK.LVUP",
+      "addedAt": "2026-09-14T07:45:06.111Z",
+      "updatedAt": "2026-09-14T07:45:10.453Z"
     }
   ]
 }
