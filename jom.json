@@ -11191,17 +11191,23 @@
     {
       "id": "APP-4026720744",
       "name": "Skullburn",
-      "version": "1.0.0",
+      "version": "1.0.5",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/skullburn-v1.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/skullburn-1.0.5",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/d3/c3/7fd3c3e0-6889-f765-9cbd-23748f39fa06/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "390.0 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/skullburn-v1.0.0",
+          "version": "1.0.0"
+        }
+      ],
+      "size": "317.9 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-29T13:10:32.158Z",
-      "updatedAt": "2026-08-29T13:10:33.175Z"
+      "updatedAt": "2026-09-14T16:21:51.897Z",
+      "bundleId": "com.skull.burn"
     },
     {
       "id": "APP-4761130496",
