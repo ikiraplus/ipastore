@@ -15071,6 +15071,22 @@
       "bundleId": "com.FarazKhan.EmpireBattle",
       "addedAt": "2026-09-14T16:27:10.233Z",
       "updatedAt": "2026-09-14T16:27:13.048Z"
+    },
+    {
+      "id": "app-1789403660111",
+      "name": "Google Photos Ghost",
+      "version": "7.92.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/google-photos_v7.92.0_gunshot_0.2.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/14/38/51143806-7e44-3988-777b-1b795ce39ba5/Photos-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "199.2 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": true,
+      "bundleId": "com.google.photos",
+      "addedAt": "2026-09-14T16:34:20.111Z",
+      "updatedAt": "2026-09-14T16:34:23.623Z"
     }
   ]
 }
