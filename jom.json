@@ -15240,6 +15240,22 @@
       "bundleId": "com.wangrui.panostorypro",
       "addedAt": "2026-09-14T16:54:38.275Z",
       "updatedAt": "2026-09-14T16:54:49.093Z"
+    },
+    {
+      "id": "app-1789406134766",
+      "name": "Spirit Board",
+      "version": "2.0.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spirit_board",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/16/ae/7416ae3e-ccc5-59ef-a2bf-17c61af12e4f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "47.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "org.retropixel.ouijaboard",
+      "addedAt": "2026-09-14T17:15:34.766Z",
+      "updatedAt": "2026-09-14T17:15:40.670Z"
     }
   ]
 }
