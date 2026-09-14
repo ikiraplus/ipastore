@@ -15224,6 +15224,22 @@
       "bundleId": "com.richardjorne.swiftui.app.PopShare",
       "addedAt": "2026-09-14T16:53:39.227Z",
       "updatedAt": "2026-09-14T16:53:40.650Z"
+    },
+    {
+      "id": "app-1789404878275",
+      "name": "Panostory Pro",
+      "version": "4.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/panostory-pro_v4.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/ac/1c/bbac1cf6-f888-2a60-a29a-8597e2865a71/AppIcon-1x_U007epad-0-1-85-220-0.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "222.9 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.wangrui.panostorypro",
+      "addedAt": "2026-09-14T16:54:38.275Z",
+      "updatedAt": "2026-09-14T16:54:49.093Z"
     }
   ]
 }
