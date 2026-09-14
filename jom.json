@@ -15096,6 +15096,22 @@
       "bundleId": "com.google.photos",
       "addedAt": "2026-09-14T16:34:20.111Z",
       "updatedAt": "2026-09-14T16:34:23.623Z"
+    },
+    {
+      "id": "app-1789404366680",
+      "name": "Ghostgram",
+      "version": "12.9.2",
+      "toolVersion": "1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ghostgram-v12.9.2",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1789404366680.png",
+      "previousVersions": [],
+      "size": "90.7 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "org.ghostgram.app",
+      "addedAt": "2026-09-14T16:46:06.680Z",
+      "updatedAt": "2026-09-14T16:46:12.332Z"
     }
   ]
 }
