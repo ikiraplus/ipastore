@@ -15352,6 +15352,22 @@
       "bundleId": "com.playdigious.teslagrad",
       "addedAt": "2026-09-14T17:19:26.806Z",
       "updatedAt": "2026-09-14T17:19:32.473Z"
+    },
+    {
+      "id": "app-1789406401421",
+      "name": "To The Moon",
+      "version": "3.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/to-the-moon",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/b4/70/9a/b4709aac-55d1-21e8-89d4-ccdeccf04a1f/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "322.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.xd.tothemoon",
+      "addedAt": "2026-09-14T17:20:01.421Z",
+      "updatedAt": "2026-09-14T17:20:06.458Z"
     }
   ]
 }
