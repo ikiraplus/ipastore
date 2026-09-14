@@ -15336,6 +15336,22 @@
       "bundleId": "com.Directive.TheMachines",
       "addedAt": "2026-09-14T17:18:51.604Z",
       "updatedAt": "2026-09-14T17:18:57.534Z"
+    },
+    {
+      "id": "app-1789406366806",
+      "name": "Teslagrad",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teslagrad",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/ca/fa/75/cafa7512-91e5-2478-ec3c-ba525fa7bd13/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "342.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playdigious.teslagrad",
+      "addedAt": "2026-09-14T17:19:26.806Z",
+      "updatedAt": "2026-09-14T17:19:32.473Z"
     }
   ]
 }
