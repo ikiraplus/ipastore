@@ -14849,6 +14849,22 @@
       "bundleId": "com.breboucas.russoparaviajar",
       "addedAt": "2026-09-14T07:43:05.034Z",
       "updatedAt": "2026-09-14T07:43:14.240Z"
+    },
+    {
+      "id": "app-1789371812905",
+      "name": "Learn Spanish Beginners",
+      "version": "6.0.19",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/learn-spanish-beginners_6.0.19",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/df/86/97df86c2-2793-5d61-ca8a-8d10aa277e6e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "157.1 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.breboucas.espanholparaviajar",
+      "addedAt": "2026-09-14T07:43:32.905Z",
+      "updatedAt": "2026-09-14T07:43:35.545Z"
     }
   ]
 }
