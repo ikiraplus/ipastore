@@ -14913,6 +14913,22 @@
       "bundleId": "com.iliasslamine.matrixofmeanings",
       "addedAt": "2026-09-14T07:48:16.403Z",
       "updatedAt": "2026-09-14T07:48:18.246Z"
+    },
+    {
+      "id": "app-1789372116767",
+      "name": "Learn French Beginners",
+      "version": "6.0.19",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/learn-french-beginners_6.0.19",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/be/14/93be1461-5f9a-e869-a037-c97cea0b41ca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "155.6 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.breboucas.francesparaviajar",
+      "addedAt": "2026-09-14T07:48:36.767Z",
+      "updatedAt": "2026-09-14T07:48:38.527Z"
     }
   ]
 }
