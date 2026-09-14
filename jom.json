@@ -15304,6 +15304,22 @@
       "bundleId": "com.skycode.SkyCode-Translate-En-De",
       "addedAt": "2026-09-14T17:17:43.909Z",
       "updatedAt": "2026-09-14T17:17:50.693Z"
+    },
+    {
+      "id": "app-1789406296652",
+      "name": "Translate Offline French Pro",
+      "version": "3.001",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/translate-offline-french-pro",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/58/05/ed5805af-6a37-a361-617f-7d4b1dfdfc87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "44.8 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.skycode.SkyCode-Translate-En-Fr",
+      "addedAt": "2026-09-14T17:18:16.652Z",
+      "updatedAt": "2026-09-14T17:18:24.746Z"
     }
   ]
 }
