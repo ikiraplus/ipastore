@@ -15432,6 +15432,22 @@
       "bundleId": "com.artifexmundi.endlessfables4.aplunified.free",
       "addedAt": "2026-09-14T17:25:28.010Z",
       "updatedAt": "2026-09-14T17:25:33.426Z"
+    },
+    {
+      "id": "app-1789407530294",
+      "name": "واعي - للتعافي من الادمان",
+      "version": "4.8.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/waee-litaafi-min-aliedman-4.8.10",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1789407530294.png",
+      "previousVersions": [],
+      "size": "51.7 MB",
+      "note": "تطبيق مدفوع في المتجر الرسمي.",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.mo.helala.wa3y",
+      "addedAt": "2026-09-14T17:38:50.294Z",
+      "updatedAt": "2026-09-14T17:38:55.965Z"
     }
   ]
 }
