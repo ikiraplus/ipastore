@@ -15592,6 +15592,22 @@
       "bundleId": "com.psychozinteractive.forgottenmemories",
       "addedAt": "2026-09-15T15:54:58.674Z",
       "updatedAt": "2026-09-15T15:55:02.590Z"
+    },
+    {
+      "id": "app-1789487787541",
+      "name": "Motorsport Manager Mobile 4",
+      "version": "2023.3.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/motorsport-manager-mobile-4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/ee/7d/8cee7d73-3ebd-be3f-a015-7252a7a092e5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "212.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playsportgames.mmm2023",
+      "addedAt": "2026-09-15T15:56:27.541Z",
+      "updatedAt": "2026-09-15T15:56:30.568Z"
     }
   ]
 }
