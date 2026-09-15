@@ -15528,6 +15528,22 @@
       "bundleId": "com.square-enix.dq3",
       "addedAt": "2026-09-15T15:51:21.485Z",
       "updatedAt": "2026-09-15T15:51:24.011Z"
+    },
+    {
+      "id": "app-1789487566290",
+      "name": "FGB Operators",
+      "version": "1.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fgb_operators",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b9/5f/06/b95f06d1-68f9-6f22-d226-f6a2c7c3740c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "802.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.moab.fgb-operators",
+      "addedAt": "2026-09-15T15:52:46.290Z",
+      "updatedAt": "2026-09-15T15:52:48.593Z"
     }
   ]
 }
