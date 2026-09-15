@@ -477,23 +477,23 @@
     {
       "id": "APP-8130956853",
       "name": "Messenger Flow",
-      "version": "574.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/messenger-flow_574.0.0",
+      "version": "579.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/messenger-579.0.0-flow",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/e8/4c/bde84c1b-5280-dc66-07d5-f02eb7c8d2ab/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "106.5 MB",
+      "size": "107.3 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-13",
-      "updatedAt": "2026-08-24T06:43:25.541Z",
+      "updatedAt": "2026-09-15T19:44:54.199Z",
       "toolVersion": "1.0",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fbms_v572.0.0_flow_v1.0",
-          "version": "572.0.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/messenger-flow_574.0.0",
+          "version": "574.0.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fbms_v571.0.0_flow_v1.0",
-          "version": "571.0.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fbms_v572.0.0_flow_v1.0",
+          "version": "572.0.0"
         }
       ],
       "recommended": false,
