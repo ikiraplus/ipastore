@@ -15910,6 +15910,22 @@
       "bundleId": "com.livedebrid.livepass",
       "addedAt": "2026-09-15T19:03:43.515Z",
       "updatedAt": "2026-09-15T19:03:45.785Z"
+    },
+    {
+      "id": "app-1789499176955",
+      "name": "Magilotl Idle Wizard Tycoon",
+      "version": "1.2.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/magilotl-idle-wizard-tycoon_1.2.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/a3/4f/4ba34fa0-2295-b980-0544-987750269e3d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "422.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.unimob.idle.axolotl",
+      "addedAt": "2026-09-15T19:06:16.955Z",
+      "updatedAt": "2026-09-15T19:06:19.649Z"
     }
   ]
 }
