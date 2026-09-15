@@ -8706,17 +8706,22 @@
     {
       "id": "APP-2965198718",
       "name": "Afk Journey",
-      "version": "1.7.31",
+      "version": "1.7.41",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/afk-journey-1.7.31",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/afk-journey-1.7.41",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/b2/7c/3ab27c63-8246-fdab-a19f-150a5021a085/AppIcon-Global-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "880.4 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/afk-journey-1.7.31",
+          "version": "1.7.31"
+        }
+      ],
+      "size": "889.1 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:14:46.821Z",
-      "updatedAt": "2026-08-24T13:20:40.310Z",
+      "updatedAt": "2026-09-15T19:59:39.351Z",
       "bundleId": "com.farlightgames.igame.ios"
     },
     {
