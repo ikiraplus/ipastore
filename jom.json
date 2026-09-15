@@ -15448,6 +15448,22 @@
       "bundleId": "com.mo.helala.wa3y",
       "addedAt": "2026-09-14T17:38:50.294Z",
       "updatedAt": "2026-09-14T17:38:55.965Z"
+    },
+    {
+      "id": "app-1789487323853",
+      "name": "Secret Of Mana",
+      "version": "3.3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/secret-of-mana",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/30/11/b3/3011b39d-24aa-6f95-dc73-a3828e18c104/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "69.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.square-enix.sk2",
+      "addedAt": "2026-09-15T15:48:43.853Z",
+      "updatedAt": "2026-09-15T15:48:46.250Z"
     }
   ]
 }
