@@ -15864,6 +15864,22 @@
       "bundleId": "com.humblebundle.unpackingplus",
       "addedAt": "2026-09-15T18:59:46.661Z",
       "updatedAt": "2026-09-15T18:59:48.171Z"
+    },
+    {
+      "id": "app-1789498833523",
+      "name": "Suika Game +",
+      "version": "1.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/suika-game_1.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/c5/1f/49c51fef-2a2c-8711-dafb-046ce48cf22d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "412.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.suikagame.arcade",
+      "addedAt": "2026-09-15T19:00:33.523Z",
+      "updatedAt": "2026-09-15T19:00:36.289Z"
     }
   ]
 }
