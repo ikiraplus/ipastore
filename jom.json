@@ -16200,6 +16200,22 @@
       "bundleId": "jp.co.ponos.battlecatsen",
       "addedAt": "2026-09-15T19:57:10.722Z",
       "updatedAt": "2026-09-15T19:57:13.131Z"
+    },
+    {
+      "id": "app-1789502638452",
+      "name": "Football Ultimate Manager",
+      "version": "1.18",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/football-ultimate-manager-1.18-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/59/88/bb5988ce-5804-790d-2285-389968abdb6c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "77.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "PMG.Football-Ultimate-Manager",
+      "addedAt": "2026-09-15T20:03:58.452Z",
+      "updatedAt": "2026-09-15T20:04:03.699Z"
     }
   ]
 }
