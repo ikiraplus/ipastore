@@ -16032,6 +16032,22 @@
       "bundleId": "jp.goodsmile.grandsummonersglobal",
       "addedAt": "2026-09-15T19:12:38.347Z",
       "updatedAt": "2026-09-15T19:12:39.700Z"
+    },
+    {
+      "id": "app-1789499874667",
+      "name": "Dungeon Miner Idle Rpg",
+      "version": "1.0.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dungeon-miner-idle-rpg_1.0.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/41/10/f24110c2-3597-d145-0bac-b24b713d5ea2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "574.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.PoahGames.DungeonMinerIOS",
+      "addedAt": "2026-09-15T19:17:54.667Z",
+      "updatedAt": "2026-09-15T19:18:31.147Z"
     }
   ]
 }
