@@ -15464,6 +15464,22 @@
       "bundleId": "com.square-enix.sk2",
       "addedAt": "2026-09-15T15:48:43.853Z",
       "updatedAt": "2026-09-15T15:48:46.250Z"
+    },
+    {
+      "id": "app-1789487347709",
+      "name": "Mist Offline Zombie Survival",
+      "version": "1.8.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mist-offline-zombie-survival",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/be/87/44be8736-5f65-27e6-2367-c54ebde083b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "267.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.eg.mist.horror.idle.rpg",
+      "addedAt": "2026-09-15T15:49:07.709Z",
+      "updatedAt": "2026-09-15T15:49:09.023Z"
     }
   ]
 }
