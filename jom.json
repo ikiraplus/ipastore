@@ -16102,6 +16102,22 @@
       "bundleId": "com.Upperpik.HairChallenge",
       "addedAt": "2026-09-15T19:22:24.840Z",
       "updatedAt": "2026-09-15T19:22:32.996Z"
+    },
+    {
+      "id": "app-1789500367955",
+      "name": "Dream Raiders 2 Wilds",
+      "version": "1.000.096",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dream-raiders-2-wilds_1.000.096",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/c2/bc/23c2bc03-d558-0339-9c20-928eb702629d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1520.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mechanist.dream2.ios",
+      "addedAt": "2026-09-15T19:26:07.955Z",
+      "updatedAt": "2026-09-15T19:26:09.929Z"
     }
   ]
 }
