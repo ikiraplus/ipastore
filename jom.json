@@ -15832,6 +15832,22 @@
       "bundleId": "se.filimundus.littlepolice",
       "addedAt": "2026-09-15T16:08:59.956Z",
       "updatedAt": "2026-09-15T16:09:00.960Z"
+    },
+    {
+      "id": "app-1789498757221",
+      "name": "Cult Of The Lamb",
+      "version": "1.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cult-of-the-lamb_1.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/79/0f/2f790f11-77b0-c688-3b90-482e5bae2d69/Cotl-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1244.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.devolverdigital.cultofthelamb",
+      "addedAt": "2026-09-15T18:59:17.221Z",
+      "updatedAt": "2026-09-15T18:59:18.716Z"
     }
   ]
 }
