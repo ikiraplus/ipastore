@@ -15544,6 +15544,22 @@
       "bundleId": "com.moab.fgb-operators",
       "addedAt": "2026-09-15T15:52:46.290Z",
       "updatedAt": "2026-09-15T15:52:48.593Z"
+    },
+    {
+      "id": "app-1789487621535",
+      "name": "Peace Death",
+      "version": "1.6.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/peace-death",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/48/83/b0/4883b09e-1e34-96a0-2ec8-b0a56d9b2136/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "80.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "cc.peacedeath.peacedeathapp",
+      "addedAt": "2026-09-15T15:53:41.535Z",
+      "updatedAt": "2026-09-15T15:53:45.419Z"
     }
   ]
 }
