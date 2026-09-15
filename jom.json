@@ -15656,6 +15656,22 @@
       "bundleId": "com.pwrd.unrulyheroesmobile",
       "addedAt": "2026-09-15T16:00:05.513Z",
       "updatedAt": "2026-09-15T16:00:07.042Z"
+    },
+    {
+      "id": "app-1789488057150",
+      "name": "El Hijo",
+      "version": "1.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/el-hijo",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/e2/d8/2e/e2d82e85-7574-1e08-8263-828dd6e3bd69/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1130.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.hg.elhijo",
+      "addedAt": "2026-09-15T16:00:57.150Z",
+      "updatedAt": "2026-09-15T16:01:05.927Z"
     }
   ]
 }
