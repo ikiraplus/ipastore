@@ -15995,6 +15995,22 @@
       "bundleId": "markergame.coffeestack",
       "addedAt": "2026-09-15T19:10:12.091Z",
       "updatedAt": "2026-09-15T19:10:14.648Z"
+    },
+    {
+      "id": "app-1789499474164",
+      "name": "Grand War Rome Strategy Games",
+      "version": "1200",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grand-war-rome-strategy-games_1200",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/c0/e8/50c0e8c7-87bc-425e-7a5c-811662813b79/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1526.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rome.caesar.war.strategy.conqueror.games.2021",
+      "addedAt": "2026-09-15T19:11:14.164Z",
+      "updatedAt": "2026-09-15T19:11:25.762Z"
     }
   ]
 }
