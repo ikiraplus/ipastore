@@ -15640,6 +15640,22 @@
       "bundleId": "com.hg.locksquest",
       "addedAt": "2026-09-15T15:59:26.780Z",
       "updatedAt": "2026-09-15T15:59:33.244Z"
+    },
+    {
+      "id": "app-1789488005513",
+      "name": "Unruly Heroes",
+      "version": "1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/unruly-heroes",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/e6/24/75/e6247561-0734-ec11-bd55-9316807893a7/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "878.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pwrd.unrulyheroesmobile",
+      "addedAt": "2026-09-15T16:00:05.513Z",
+      "updatedAt": "2026-09-15T16:00:07.042Z"
     }
   ]
 }
