@@ -15720,6 +15720,22 @@
       "bundleId": "com.coffeestainstudios.goatz",
       "addedAt": "2026-09-15T16:03:40.441Z",
       "updatedAt": "2026-09-15T16:03:51.609Z"
+    },
+    {
+      "id": "app-1789488302617",
+      "name": "Hardboiled",
+      "version": "1.07",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hardboiled",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/42/10/ff4210c3-06b0-18c3-86ea-c799edd4e7af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "76.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "ru.gamedevteam.hardboiled",
+      "addedAt": "2026-09-15T16:05:02.617Z",
+      "updatedAt": "2026-09-15T16:05:05.604Z"
     }
   ]
 }
