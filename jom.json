@@ -15512,6 +15512,22 @@
       "bundleId": "com.ilmfinity.evocreo2",
       "addedAt": "2026-09-15T15:50:05.344Z",
       "updatedAt": "2026-09-15T15:50:06.547Z"
+    },
+    {
+      "id": "app-1789487481485",
+      "name": "DRAGON QUEST 3",
+      "version": "1.0.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dq3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/e2/f6/b1e2f6a7-92e1-5f61-fc82-824a72ffd846/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "65.7 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "com.square-enix.dq3",
+      "addedAt": "2026-09-15T15:51:21.485Z",
+      "updatedAt": "2026-09-15T15:51:24.011Z"
     }
   ]
 }
