@@ -16163,6 +16163,22 @@
       "bundleId": "com.StevenNicola.SoccerTycoon",
       "addedAt": "2026-09-15T19:45:59.831Z",
       "updatedAt": "2026-09-15T19:46:02.177Z"
+    },
+    {
+      "id": "app-1789501966090",
+      "name": "Soccer Boss: Football Game",
+      "version": "1.2.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soccer-boss-1.2.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/d0/04/a4d0046a-9b8c-0857-849e-a7233f9acf91/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "133.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.StevenNicola.SoccerBoss",
+      "addedAt": "2026-09-15T19:52:46.090Z",
+      "updatedAt": "2026-09-15T19:52:48.443Z"
     }
   ]
 }
