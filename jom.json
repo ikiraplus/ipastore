@@ -15963,6 +15963,22 @@
       "bundleId": "com.soccer.football.kick.crazy",
       "addedAt": "2026-09-15T19:08:19.791Z",
       "updatedAt": "2026-09-15T19:08:21.951Z"
+    },
+    {
+      "id": "app-1789499339736",
+      "name": "Marble Run Ultimate Race Asmr",
+      "version": "67.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/marble-run-ultimate-race-asmr_67.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/15/b0/6b15b086-c9b1-a2ee-ae23-5fa1e0478d52/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "381.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.tummygames.marblerun",
+      "addedAt": "2026-09-15T19:08:59.736Z",
+      "updatedAt": "2026-09-15T19:09:02.017Z"
     }
   ]
 }
