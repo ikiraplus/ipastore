@@ -16016,6 +16016,22 @@
       "bundleId": "com.rome.caesar.war.strategy.conqueror.games.2021",
       "addedAt": "2026-09-15T19:11:14.164Z",
       "updatedAt": "2026-09-15T19:11:25.762Z"
+    },
+    {
+      "id": "app-1789499558347",
+      "name": "Grand Summoners Anime Rpg",
+      "version": "4.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grand-summoners-anime-rpg_4.0.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/71/7b/72717bb1-fc42-c2c7-5918-8d0976c748f9/AppIcon_EN-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "113.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "jp.goodsmile.grandsummonersglobal",
+      "addedAt": "2026-09-15T19:12:38.347Z",
+      "updatedAt": "2026-09-15T19:12:39.700Z"
     }
   ]
 }
