@@ -15784,6 +15784,22 @@
       "bundleId": "com.mobileventures.LittleBuilders",
       "addedAt": "2026-09-15T16:06:56.701Z",
       "updatedAt": "2026-09-15T16:06:59.340Z"
+    },
+    {
+      "id": "app-1789488455353",
+      "name": "Little Fox Animal Doctor",
+      "version": "2021.02",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/little-fox-animal-doctor",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/bf/42/f1bf428b-c060-f61e-9c41-7c75b59e0f1d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "126.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mobileventures.AnimalDoctor",
+      "addedAt": "2026-09-15T16:07:35.353Z",
+      "updatedAt": "2026-09-15T16:07:37.989Z"
     }
   ]
 }
