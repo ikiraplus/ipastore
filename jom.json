@@ -16179,6 +16179,22 @@
       "bundleId": "com.StevenNicola.SoccerBoss",
       "addedAt": "2026-09-15T19:52:46.090Z",
       "updatedAt": "2026-09-15T19:52:48.443Z"
+    },
+    {
+      "id": "app-1789502230722",
+      "name": "The Battle Cats",
+      "version": "15.6.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-battle-cats-15.6.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/e1/28/8de12870-ddb3-0bc3-6be7-71694f9025bd/AppIcon-en-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "167.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "jp.co.ponos.battlecatsen",
+      "addedAt": "2026-09-15T19:57:10.722Z",
+      "updatedAt": "2026-09-15T19:57:13.131Z"
     }
   ]
 }
