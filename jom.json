@@ -15624,6 +15624,22 @@
       "bundleId": "com.aquiris.hc2",
       "addedAt": "2026-09-15T15:57:21.599Z",
       "updatedAt": "2026-09-15T15:57:23.906Z"
+    },
+    {
+      "id": "app-1789487966780",
+      "name": "Locks Quest",
+      "version": "1.0.484",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/locks-quest",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1789487966780.png",
+      "previousVersions": [],
+      "size": "421.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.hg.locksquest",
+      "addedAt": "2026-09-15T15:59:26.780Z",
+      "updatedAt": "2026-09-15T15:59:33.244Z"
     }
   ]
 }
