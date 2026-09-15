@@ -8879,17 +8879,22 @@
     {
       "id": "APP-2641491407",
       "name": "West Game Ii",
-      "version": "1.5.3",
+      "version": "1.8.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/west_game_ii",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/west-game-ii_1.8.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/d8/dd/14d8dd5c-9592-2ab2-23b0-a83f7edce1b7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "671.8 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/west_game_ii",
+          "version": "1.5.3"
+        }
+      ],
+      "size": "947.4 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-22T06:47:54.979Z",
-      "updatedAt": "2026-08-24T10:05:06.135Z",
+      "updatedAt": "2026-09-15T19:26:42.161Z",
       "bundleId": "leyi.westgamepro"
     },
     {
