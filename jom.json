@@ -1780,23 +1780,23 @@
     {
       "id": "APP-2376670786",
       "name": "Subway Surfers Mod",
-      "version": "3.68.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.68.2",
+      "version": "3.69.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.69.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/ac/4e/98ac4ed7-7da4-c5ae-8bea-c2adc70b7960/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "238.2 MB",
+      "size": "250.6 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-09-02T11:33:00.772Z",
+      "updatedAt": "2026-09-15T19:48:23.037Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.68.0",
-          "version": "3.68.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.68.2",
+          "version": "3.68.2"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.67.3",
-          "version": "3.67.3"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.68.0",
+          "version": "3.68.0"
         }
       ],
       "recommended": false,
