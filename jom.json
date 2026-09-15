@@ -16064,6 +16064,22 @@
       "bundleId": "com.brantley.Storybook",
       "addedAt": "2026-09-15T19:19:45.541Z",
       "updatedAt": "2026-09-15T19:19:47.869Z"
+    },
+    {
+      "id": "app-1789500043792",
+      "name": "Happy Screw Trip 3d",
+      "version": "1.0.70",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/happy-screw-trip-3d_1.0.70",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/92/7d/9d927d93-e2c8-ca86-9f4d-a74cb24223ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1494.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gamebp.screw3d",
+      "addedAt": "2026-09-15T19:20:43.792Z",
+      "updatedAt": "2026-09-15T19:20:46.191Z"
     }
   ]
 }
