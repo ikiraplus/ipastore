@@ -7954,17 +7954,22 @@
     {
       "id": "APP-9921069887",
       "name": "Invincible",
-      "version": "3.5.9",
+      "version": "3.6.13",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/invincible",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/invincibleguardingtheglobe_3.6.13",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/37/70/e9377051-b94b-4f79-3b87-830e94087e2f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "136.4 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/invincible",
+          "version": "3.5.9"
+        }
+      ],
+      "size": "268.7 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:03:22.671Z",
-      "updatedAt": "2026-08-24T06:44:24.236Z",
+      "updatedAt": "2026-09-15T19:12:04.319Z",
       "bundleId": "com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk"
     },
     {
