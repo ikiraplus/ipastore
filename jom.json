@@ -15888,6 +15888,22 @@
       "bundleId": "com.suikagame.arcade",
       "addedAt": "2026-09-15T19:00:33.523Z",
       "updatedAt": "2026-09-15T19:00:36.289Z"
+    },
+    {
+      "id": "app-1789499023515",
+      "name": "Live Pass",
+      "version": "1.12.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/live-pass_1.12.0",
+      "icon": "https://livepass.cc/assets/images/livepass-mark.png",
+      "previousVersions": [],
+      "size": "239.4 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.livedebrid.livepass",
+      "addedAt": "2026-09-15T19:03:43.515Z",
+      "updatedAt": "2026-09-15T19:03:45.785Z"
     }
   ]
 }
