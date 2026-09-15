@@ -15848,6 +15848,22 @@
       "bundleId": "com.devolverdigital.cultofthelamb",
       "addedAt": "2026-09-15T18:59:17.221Z",
       "updatedAt": "2026-09-15T18:59:18.716Z"
+    },
+    {
+      "id": "app-1789498786661",
+      "name": "Unpacking +",
+      "version": "1.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/unpacking_1.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/e7/60/09e760d6-057c-a27d-badf-1c833c67e6f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "568.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.humblebundle.unpackingplus",
+      "addedAt": "2026-09-15T18:59:46.661Z",
+      "updatedAt": "2026-09-15T18:59:48.171Z"
     }
   ]
 }
