@@ -1804,16 +1804,24 @@
     },
     {
       "id": "APP-3892438048",
-      "name": "Agar.io",
-      "version": "2.24.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/agario-shark",
+      "name": "Agar.io Shark Mod",
+      "version": "1.8.8",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/agar.io_sharkmod_1.8.8",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/25/cb/1125cbf9-3803-3d83-8517-f5787ba41c23/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "100 MB",
-      "note": "تطبيق معدل من iosgods",
+      "size": "135.7 MB",
+      "note": "",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.miniclip.agar.io.shark",
-      "updatedAt": "2026-08-24T06:20:31.097Z"
+      "updatedAt": "2026-09-15T19:48:04.790Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/agario-shark",
+          "version": "2.24.1"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-4624948966",
