@@ -409,16 +409,24 @@
     },
     {
       "id": "APP-1034280895",
-      "name": "+TikTok - tiktokBH",
-      "version": "45.6.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_45.6.0_bhtt+_1.2.1",
+      "name": "Tiktok BH",
+      "version": "46.2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bhtiktok_46.2.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/95/3c/f4953cfb-b350-6763-a0b4-ceed8cef74ed/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "391.5 MB",
+      "size": "891.6 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T08:29:33.647Z",
-      "bundleId": "com.zhiliaoapp.musically"
+      "updatedAt": "2026-09-15T19:02:04.494Z",
+      "bundleId": "com.zhiliaoapp.musically",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok_45.6.0_bhtt+_1.2.1",
+          "version": "45.6.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-2208775452",
