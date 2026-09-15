@@ -15979,6 +15979,22 @@
       "bundleId": "com.tummygames.marblerun",
       "addedAt": "2026-09-15T19:08:59.736Z",
       "updatedAt": "2026-09-15T19:09:02.017Z"
+    },
+    {
+      "id": "app-1789499412091",
+      "name": "Coffee Stack",
+      "version": "48.3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coffee-stack_48.3.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/2d/74/962d740b-11f4-d7ca-5e69-84ca965fd1d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "564.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "markergame.coffeestack",
+      "addedAt": "2026-09-15T19:10:12.091Z",
+      "updatedAt": "2026-09-15T19:10:14.648Z"
     }
   ]
 }
