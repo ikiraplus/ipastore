@@ -16080,6 +16080,22 @@
       "bundleId": "com.gamebp.screw3d",
       "addedAt": "2026-09-15T19:20:43.792Z",
       "updatedAt": "2026-09-15T19:20:46.191Z"
+    },
+    {
+      "id": "app-1789500144840",
+      "name": "Hair Challenge",
+      "version": "43.7.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hair-challenge_43.7.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/ae/e5/93aee5ab-9bfb-b725-cb5b-17c613f212e6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "384.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.Upperpik.HairChallenge",
+      "addedAt": "2026-09-15T19:22:24.840Z",
+      "updatedAt": "2026-09-15T19:22:32.996Z"
     }
   ]
 }
