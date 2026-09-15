@@ -15576,6 +15576,22 @@
       "bundleId": "com.azamatika.peacedeathtwo",
       "addedAt": "2026-09-15T15:54:15.353Z",
       "updatedAt": "2026-09-15T15:54:20.025Z"
+    },
+    {
+      "id": "app-1789487698674",
+      "name": "Forgotten Memories",
+      "version": "1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/forgotten-memories",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/51/2d/a6/512da63f-7d64-0d30-b626-6745556bcf3e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "985.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.psychozinteractive.forgottenmemories",
+      "addedAt": "2026-09-15T15:54:58.674Z",
+      "updatedAt": "2026-09-15T15:55:02.590Z"
     }
   ]
 }
