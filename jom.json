@@ -16048,6 +16048,22 @@
       "bundleId": "com.PoahGames.DungeonMinerIOS",
       "addedAt": "2026-09-15T19:17:54.667Z",
       "updatedAt": "2026-09-15T19:18:31.147Z"
+    },
+    {
+      "id": "app-1789499985541",
+      "name": "Author AI Novel Writing",
+      "version": "3.9.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/author-ai-novel-writing_3.9.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/64/f4/1264f481-5b93-15ce-f7ec-158367e937c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "183.0 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.brantley.Storybook",
+      "addedAt": "2026-09-15T19:19:45.541Z",
+      "updatedAt": "2026-09-15T19:19:47.869Z"
     }
   ]
 }
