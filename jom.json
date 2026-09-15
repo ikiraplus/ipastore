@@ -15560,6 +15560,22 @@
       "bundleId": "cc.peacedeath.peacedeathapp",
       "addedAt": "2026-09-15T15:53:41.535Z",
       "updatedAt": "2026-09-15T15:53:45.419Z"
+    },
+    {
+      "id": "app-1789487655353",
+      "name": "Peace Death 2",
+      "version": "1.0.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/peace-death-2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e2/40/1c/e2401c16-9330-0c00-b930-6427254f3050/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "33.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.azamatika.peacedeathtwo",
+      "addedAt": "2026-09-15T15:54:15.353Z",
+      "updatedAt": "2026-09-15T15:54:20.025Z"
     }
   ]
 }
