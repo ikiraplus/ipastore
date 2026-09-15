@@ -15768,6 +15768,22 @@
       "bundleId": "com.TomorrowCorporation.LittleInferno",
       "addedAt": "2026-09-15T16:05:56.035Z",
       "updatedAt": "2026-09-15T16:05:58.085Z"
+    },
+    {
+      "id": "app-1789488416701",
+      "name": "Little Builders For Kids",
+      "version": "2021.06",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/little-builders-for-kids",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/42/df/5242dfe5-b14b-42be-3c59-12e83a18a32d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "96.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mobileventures.LittleBuilders",
+      "addedAt": "2026-09-15T16:06:56.701Z",
+      "updatedAt": "2026-09-15T16:06:59.340Z"
     }
   ]
 }
