@@ -11950,18 +11950,23 @@
     {
       "id": "APP-2730296157",
       "name": "Case Solved: The London Files",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/case-solved-1.1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/case-solved-the-london-files_1.1.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/13/16/ce131607-cab6-b24b-7961-bd88c772b695/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "294.2 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/case-solved-1.1.0",
+          "version": "1.1.0"
+        }
+      ],
+      "size": "502.5 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.MinimolGames.CaseSolved",
       "addedAt": "2026-08-30T16:30:29.822Z",
-      "updatedAt": "2026-08-30T16:30:32.030Z"
+      "updatedAt": "2026-09-15T19:06:44.065Z"
     },
     {
       "id": "APP-2076487540",
