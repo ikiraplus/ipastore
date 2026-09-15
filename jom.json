@@ -15672,6 +15672,22 @@
       "bundleId": "com.hg.elhijo",
       "addedAt": "2026-09-15T16:00:57.150Z",
       "updatedAt": "2026-09-15T16:01:05.927Z"
+    },
+    {
+      "id": "app-1789488116275",
+      "name": "Goat Simulator Waste Of Space",
+      "version": "2.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/goat-simulator-waste-of-space",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/ab/3e/7aab3e33-e026-32dd-fd49-587a3ee9d06a/AppIcon-0-0-1x_U007emarketing-0-7-0-P3-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "751.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.coffeestainstudios.wasteofspace",
+      "addedAt": "2026-09-15T16:01:56.275Z",
+      "updatedAt": "2026-09-15T16:02:11.250Z"
     }
   ]
 }
