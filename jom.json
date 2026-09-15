@@ -15752,6 +15752,22 @@
       "bundleId": "com.ultimatestudio.hotlapleague",
       "addedAt": "2026-09-15T16:05:31.938Z",
       "updatedAt": "2026-09-15T16:05:33.400Z"
+    },
+    {
+      "id": "app-1789488356034",
+      "name": "Little Inferno Hd",
+      "version": "2.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/little-inferno-hd",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/0e/7d/bf/0e7dbf53-f8e8-9bfe-f374-47bf6b826a72/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "262.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.TomorrowCorporation.LittleInferno",
+      "addedAt": "2026-09-15T16:05:56.035Z",
+      "updatedAt": "2026-09-15T16:05:58.085Z"
     }
   ]
 }
