@@ -15496,6 +15496,22 @@
       "bundleId": "com.yumyumyukyuk.clayjamclassic",
       "addedAt": "2026-09-15T15:49:31.144Z",
       "updatedAt": "2026-09-15T15:49:32.706Z"
+    },
+    {
+      "id": "app-1789487405344",
+      "name": "Evocreo 2 Monster Trainer Rpg",
+      "version": "1.5.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/evocreo-2-monster-trainer-rpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/fe/a9/cafea983-6458-0981-ad4c-795b5e7e7fab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "179.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ilmfinity.evocreo2",
+      "addedAt": "2026-09-15T15:50:05.344Z",
+      "updatedAt": "2026-09-15T15:50:06.547Z"
     }
   ]
 }
