@@ -15816,6 +15816,22 @@
       "bundleId": "com.shapeminds.FoxMusicBox",
       "addedAt": "2026-09-15T16:08:25.012Z",
       "updatedAt": "2026-09-15T16:08:32.818Z"
+    },
+    {
+      "id": "app-1789488539956",
+      "name": "Little Police",
+      "version": "1.1.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/little-police",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/8b/cb/428bcbd2-b6a9-0dec-1b30-2649d97c57fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "107.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "se.filimundus.littlepolice",
+      "addedAt": "2026-09-15T16:08:59.956Z",
+      "updatedAt": "2026-09-15T16:09:00.960Z"
     }
   ]
 }
