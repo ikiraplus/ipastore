@@ -15947,6 +15947,22 @@
       "bundleId": "com.rapidfiregames.backpackbrawl",
       "addedAt": "2026-09-15T19:07:35.944Z",
       "updatedAt": "2026-09-15T19:07:38.435Z"
+    },
+    {
+      "id": "app-1789499299791",
+      "name": "Super Goal Fun Soccer Game",
+      "version": "0.2.51",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/super-goal-fun-soccer-game_0.2.51",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/76/69/307669b4-9e09-8431-4eb5-fd6135a7ca34/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "310.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.soccer.football.kick.crazy",
+      "addedAt": "2026-09-15T19:08:19.791Z",
+      "updatedAt": "2026-09-15T19:08:21.951Z"
     }
   ]
 }
