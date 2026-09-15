@@ -15704,6 +15704,22 @@
       "bundleId": "com.coffeestainstudios.payday",
       "addedAt": "2026-09-15T16:02:57.640Z",
       "updatedAt": "2026-09-15T16:03:02.982Z"
+    },
+    {
+      "id": "app-1789488220441",
+      "name": "Goat Simulator Goatz",
+      "version": "2.0.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/goat-simulator-goatz",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/79/49/ed794949-bfdd-748d-272a-49b021ce447f/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "608.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.coffeestainstudios.goatz",
+      "addedAt": "2026-09-15T16:03:40.441Z",
+      "updatedAt": "2026-09-15T16:03:51.609Z"
     }
   ]
 }
