@@ -15931,6 +15931,22 @@
       "bundleId": "com.unimob.idle.axolotl",
       "addedAt": "2026-09-15T19:06:16.955Z",
       "updatedAt": "2026-09-15T19:06:19.649Z"
+    },
+    {
+      "id": "app-1789499255944",
+      "name": "Backpack Brawl Hero Battles",
+      "version": "6.2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/backpack-brawl-hero-battles_6.2.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/1e/f5/911ef5d4-b4e0-76b6-1b58-713705c02c24/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "509.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rapidfiregames.backpackbrawl",
+      "addedAt": "2026-09-15T19:07:35.944Z",
+      "updatedAt": "2026-09-15T19:07:38.435Z"
     }
   ]
 }
