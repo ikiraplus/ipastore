@@ -1,0 +1,57 @@
+name: One-time update notes for 36 games
+
+on:
+  push:
+    paths:
+      - '.github/workflows/one-time-note-36-games-2026-09-16.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update note for exactly 36 games updated today
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+
+          path = Path('jom.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          target_note = 'لعبة مدفوعة في المتجر الرسمي.'
+
+          matched = []
+          for app in data.get('apps', []):
+              updated = str(app.get('updatedAt', ''))
+              if app.get('category') == 'ألعاب' and updated.startswith('2026-09-16'):
+                  matched.append(app.get('name'))
+
+          if len(matched) != 36:
+              raise SystemExit(f'Expected exactly 36 games with updatedAt on 2026-09-16, found {len(matched)}: {matched}')
+
+          changed = 0
+          for app in data.get('apps', []):
+              updated = str(app.get('updatedAt', ''))
+              if app.get('category') == 'ألعاب' and updated.startswith('2026-09-16'):
+                  if app.get('note') != target_note:
+                      app['note'] = target_note
+                      changed += 1
+
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(f'Matched exactly {len(matched)} games; changed note on {changed}.')
+          print('\n'.join(matched))
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jom.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Set paid-store note for 36 games updated on 2026-09-16"
+          git push
