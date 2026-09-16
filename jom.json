@@ -16704,6 +16704,22 @@
       "bundleId": "com.frogmindgames.badland2",
       "addedAt": "2026-09-16T11:45:28.823Z",
       "updatedAt": "2026-09-16T11:45:29.831Z"
+    },
+    {
+      "id": "app-1789559146977",
+      "name": "Badland",
+      "version": "3.4.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/badland_3.4.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/35/d2/0b/35d20b3f-8ac5-f88f-3809-54b7998d6736/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "218.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.frogmindgames.dodge",
+      "addedAt": "2026-09-16T11:45:46.977Z",
+      "updatedAt": "2026-09-16T11:45:48.061Z"
     }
   ]
 }
