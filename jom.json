@@ -16504,6 +16504,22 @@
       "bundleId": "com.wahlerdigital.sinkr3",
       "addedAt": "2026-09-16T11:21:46.310Z",
       "updatedAt": "2026-09-16T11:21:48.260Z"
+    },
+    {
+      "id": "app-1789557734550",
+      "name": "Sally's Law",
+      "version": "1.1.32",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sallys-law_1.1.32",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/40/65/704065d4-f468-6a11-3156-3d34b72ac7b9/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "390.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.Nanali.SallysLaw-global",
+      "addedAt": "2026-09-16T11:22:14.550Z",
+      "updatedAt": "2026-09-16T11:22:25.949Z"
     }
   ]
 }
