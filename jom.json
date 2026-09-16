@@ -16264,6 +16264,22 @@
       "bundleId": "com.sofarsogood.incredibox",
       "addedAt": "2026-09-16T11:04:53.760Z",
       "updatedAt": "2026-09-16T11:04:54.780Z"
+    },
+    {
+      "id": "app-1789556723140",
+      "name": "World Of Dinosaurs",
+      "version": "11.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/world-of-dinosaurs_11.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/81/eb/7881eb28-8572-1340-ae5c-4c204edbc9e9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "392.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.appersian.wod",
+      "addedAt": "2026-09-16T11:05:23.140Z",
+      "updatedAt": "2026-09-16T11:05:24.112Z"
     }
   ]
 }
