@@ -2705,15 +2705,23 @@
     {
       "id": "APP-2380050576",
       "name": "hitman sniper hack",
-      "version": "last",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitman-sniper",
+      "version": "1.21.10",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitman-sniper_1.21.10",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/9c/b6/4c9cb644-223d-9662-5e45-da46c86cdc62/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "620.7 MB",
+      "size": "1042.6 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:04:16.596Z",
-      "updatedAt": "2026-08-24T09:28:54.581Z",
-      "bundleId": "com.squareenixmontreal.hitmansniper"
+      "updatedAt": "2026-09-16T11:25:49.555Z",
+      "bundleId": "com.squareenixmontreal.hitmansniper",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hitman-sniper",
+          "version": "last"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-2017150968",
