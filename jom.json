@@ -16456,6 +16456,22 @@
       "bundleId": "com.blabberf.gunrounds",
       "addedAt": "2026-09-16T11:13:42.299Z",
       "updatedAt": "2026-09-16T11:14:04.723Z"
+    },
+    {
+      "id": "app-1789557643794",
+      "name": "Enigmo",
+      "version": "6.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/enigmo_6.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/73/7c/41/737c41e4-6881-9d79-a878-f7aed6b4cda0/AppIcon-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "23.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pangea.Enigmo",
+      "addedAt": "2026-09-16T11:20:43.794Z",
+      "updatedAt": "2026-09-16T11:20:51.371Z"
     }
   ]
 }
