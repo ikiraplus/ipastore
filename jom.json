@@ -16656,6 +16656,22 @@
       "bundleId": "com.yourcompany.DoodleJump",
       "addedAt": "2026-09-16T11:28:24.009Z",
       "updatedAt": "2026-09-16T11:28:26.892Z"
+    },
+    {
+      "id": "app-1789558130804",
+      "name": "Clay Jam Classic",
+      "version": "1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clay-jam-classic_1.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/bf/6d/bebf6db0-06f1-6a41-d8fb-4200a26513e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "179.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.yumyumyukyuk.clayjamclassic",
+      "addedAt": "2026-09-16T11:28:50.804Z",
+      "updatedAt": "2026-09-16T11:28:52.724Z"
     }
   ]
 }
