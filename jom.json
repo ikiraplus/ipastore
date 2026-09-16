@@ -16328,6 +16328,22 @@
       "bundleId": "it.rortos.rcs",
       "addedAt": "2026-09-16T11:08:04.603Z",
       "updatedAt": "2026-09-16T11:08:24.326Z"
+    },
+    {
+      "id": "app-1789556941074",
+      "name": "Lanota Music Game With Story",
+      "version": "3.0.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lanota-music-game-with-story_3.0.10",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/49/76/0a4976e3-00f1-14f4-b9f0-dee68a001fbd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "665.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.Noxygames.Lanota",
+      "addedAt": "2026-09-16T11:09:01.074Z",
+      "updatedAt": "2026-09-16T11:09:29.472Z"
     }
   ]
 }
