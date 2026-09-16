@@ -16552,6 +16552,22 @@
       "bundleId": "com.stripey.Train",
       "addedAt": "2026-09-16T11:23:06.388Z",
       "updatedAt": "2026-09-16T11:23:08.747Z"
+    },
+    {
+      "id": "app-1789557814032",
+      "name": "Air Navy Fighters",
+      "version": "3.0.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/air-navy-fighters_3.0.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/72/79/ac/7279ac01-7aae-7745-1283-c06b2e94bb1a/AppIcon-1x_U007emarketing-0-85-220-0-8.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "148.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "it.rortos.airnavyfighters",
+      "addedAt": "2026-09-16T11:23:34.032Z",
+      "updatedAt": "2026-09-16T11:23:36.011Z"
     }
   ]
 }
