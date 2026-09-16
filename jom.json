@@ -16640,6 +16640,22 @@
       "bundleId": "it.rortos.realflightsimulator",
       "addedAt": "2026-09-16T11:27:38.919Z",
       "updatedAt": "2026-09-16T11:27:54.931Z"
+    },
+    {
+      "id": "app-1789558104008",
+      "name": "Doodle Jump",
+      "version": "3.20.23",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/doodle-jump_3.20.23",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/29/cb/5529cbdf-8f99-7e30-11fe-0f6cdb8e77e8/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "68.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.yourcompany.DoodleJump",
+      "addedAt": "2026-09-16T11:28:24.009Z",
+      "updatedAt": "2026-09-16T11:28:26.892Z"
     }
   ]
 }
