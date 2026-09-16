@@ -16296,6 +16296,22 @@
       "bundleId": "net.machinarium.Machinarium",
       "addedAt": "2026-09-16T11:06:06.814Z",
       "updatedAt": "2026-09-16T11:06:19.209Z"
+    },
+    {
+      "id": "app-1789556820330",
+      "name": "Ticket To Ride",
+      "version": "1.9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ticket-to-ride_1.9.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/5a/03/a45a0308-7f43-d075-db50-f2fe4c3660d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "801.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.marmalade.tickettoride",
+      "addedAt": "2026-09-16T11:07:00.330Z",
+      "updatedAt": "2026-09-16T11:07:20.256Z"
     }
   ]
 }
