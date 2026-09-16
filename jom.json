@@ -16376,6 +16376,22 @@
       "bundleId": "com.frju.thelastgame",
       "addedAt": "2026-09-16T11:11:05.767Z",
       "updatedAt": "2026-09-16T11:11:10.386Z"
+    },
+    {
+      "id": "app-1789557086412",
+      "name": "Hocus",
+      "version": "13.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hocus_13.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/a1/1e/c4a11e4d-3510-bbab-88c9-362a003db4fb/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-8.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "18.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gamebrain.hocus",
+      "addedAt": "2026-09-16T11:11:26.412Z",
+      "updatedAt": "2026-09-16T11:11:27.762Z"
     }
   ]
 }
