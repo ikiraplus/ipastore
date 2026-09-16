@@ -16472,6 +16472,22 @@
       "bundleId": "com.pangea.Enigmo",
       "addedAt": "2026-09-16T11:20:43.794Z",
       "updatedAt": "2026-09-16T11:20:51.371Z"
+    },
+    {
+      "id": "app-1789557670507",
+      "name": "Octagon 1 Maximal Challenge",
+      "version": "3.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/octagon-1-maximal-challenge_3.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/1f/1f/f21f1f5f-58c4-2f92-3583-40cbfe107eb3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "25.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "octagon.lukaskorba.com",
+      "addedAt": "2026-09-16T11:21:10.507Z",
+      "updatedAt": "2026-09-16T11:21:17.812Z"
     }
   ]
 }
