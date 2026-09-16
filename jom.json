@@ -16216,6 +16216,22 @@
       "bundleId": "PMG.Football-Ultimate-Manager",
       "addedAt": "2026-09-15T20:03:58.452Z",
       "updatedAt": "2026-09-15T20:04:03.699Z"
+    },
+    {
+      "id": "app-1789556638418",
+      "name": "Backyard Baseball 97",
+      "version": "1.1.27",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/backyard-baseball-97.1.1.27",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/f9/3a/49f93ad6-1035-fa36-c0ba-14151962f4f8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "313.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.megacatstudios.backyardbaseball",
+      "addedAt": "2026-09-16T11:03:58.418Z",
+      "updatedAt": "2026-09-16T11:04:01.889Z"
     }
   ]
 }
