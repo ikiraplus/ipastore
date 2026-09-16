@@ -16392,6 +16392,22 @@
       "bundleId": "com.gamebrain.hocus",
       "addedAt": "2026-09-16T11:11:26.412Z",
       "updatedAt": "2026-09-16T11:11:27.762Z"
+    },
+    {
+      "id": "app-1789557121530",
+      "name": "Blazing Star",
+      "version": "1.3.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/blazing-star_1.3.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/ab/05/ab/ab05abd2-1fe1-d71b-a6b9-0ac525435a4b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "90.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.snkplaymore.BZS",
+      "addedAt": "2026-09-16T11:12:01.530Z",
+      "updatedAt": "2026-09-16T11:12:09.359Z"
     }
   ]
 }
