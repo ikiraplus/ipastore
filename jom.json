@@ -4540,16 +4540,24 @@
     },
     {
       "id": "APP-8097182077",
-      "name": "goat simulator 3 - multiverse",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/goat-simulator-3-multiverse",
+      "name": "Goat Simulator 3 - Multiverse",
+      "version": "1.16.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/goat-simulator-3-multiverse-v1.16.3",
       "icon": "https://bleedingcool.com/wp-content/uploads/2024/06/Goat-Simulator-3-Multiverse-Of-Nonsense-DLC-900x900.jpg",
       "size": "1680.1 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-19T14:54:41.313Z",
-      "updatedAt": "2026-08-24T10:38:09.243Z",
-      "bundleId": "com.coffeestain.goatsimulator3.multiverse"
+      "updatedAt": "2026-09-16T11:57:59.239Z",
+      "bundleId": "com.coffeestain.goatsimulator3.multiverse",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/goat-simulator-3-multiverse",
+          "version": "last version"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-6869004282",
