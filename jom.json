@@ -16608,6 +16608,22 @@
       "bundleId": "com.puzak.lopte2",
       "addedAt": "2026-09-16T11:25:20.831Z",
       "updatedAt": "2026-09-16T11:25:25.961Z"
+    },
+    {
+      "id": "app-1789557998195",
+      "name": "Cytus 1",
+      "version": "10.1.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cytus-1_v10.1.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/41/2d/20412d6e-cccc-58dd-0885-741006817c7b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1333.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rayark.Cytus.full",
+      "addedAt": "2026-09-16T11:26:38.195Z",
+      "updatedAt": "2026-09-16T11:26:52.063Z"
     }
   ]
 }
