@@ -16688,6 +16688,22 @@
       "bundleId": "com.ironhidegames.frontiers",
       "addedAt": "2026-09-16T11:45:01.592Z",
       "updatedAt": "2026-09-16T11:45:04.158Z"
+    },
+    {
+      "id": "app-1789559128823",
+      "name": "Badland 2",
+      "version": "1.4.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/badland2.1.4.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/31/6c/20/316c2095-e9c9-47dd-c464-52f492268552/AppIcon-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "122.2 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "com.frogmindgames.badland2",
+      "addedAt": "2026-09-16T11:45:28.823Z",
+      "updatedAt": "2026-09-16T11:45:29.831Z"
     }
   ]
 }
