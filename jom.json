@@ -16568,6 +16568,22 @@
       "bundleId": "it.rortos.airnavyfighters",
       "addedAt": "2026-09-16T11:23:34.032Z",
       "updatedAt": "2026-09-16T11:23:36.011Z"
+    },
+    {
+      "id": "app-1789557865474",
+      "name": "Don't Starve Pocket Edition",
+      "version": "1.47",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dont-starve-pocket-edition_1.47",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/03/29/5e/03295e4c-5637-9419-83e5-e9939e90370c/Normal_Icon-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "959.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.kleientertainment.dontstarvepocket",
+      "addedAt": "2026-09-16T11:24:25.474Z",
+      "updatedAt": "2026-09-16T11:24:43.554Z"
     }
   ]
 }
