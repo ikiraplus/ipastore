@@ -16360,6 +16360,22 @@
       "bundleId": "com.fayju.amazingfrog",
       "addedAt": "2026-09-16T11:10:10.672Z",
       "updatedAt": "2026-09-16T11:10:35.038Z"
+    },
+    {
+      "id": "app-1789557065767",
+      "name": "The Last Game",
+      "version": "1.6.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-last-game_1.6.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/f9/87/aaf98722-5cc0-63e4-b443-7de9bbe50b97/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "80.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.frju.thelastgame",
+      "addedAt": "2026-09-16T11:11:05.767Z",
+      "updatedAt": "2026-09-16T11:11:10.386Z"
     }
   ]
 }
