@@ -16312,6 +16312,22 @@
       "bundleId": "com.marmalade.tickettoride",
       "addedAt": "2026-09-16T11:07:00.330Z",
       "updatedAt": "2026-09-16T11:07:20.256Z"
+    },
+    {
+      "id": "app-1789556884603",
+      "name": "Rcs - Real Combat Simulator",
+      "version": "1.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rcs-real-combat-simulator_1.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/26/58/cb265828-64db-e077-3817-6bfa02dc5a64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "585.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "it.rortos.rcs",
+      "addedAt": "2026-09-16T11:08:04.603Z",
+      "updatedAt": "2026-09-16T11:08:24.326Z"
     }
   ]
 }
