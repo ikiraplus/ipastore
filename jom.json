@@ -16584,6 +16584,22 @@
       "bundleId": "com.kleientertainment.dontstarvepocket",
       "addedAt": "2026-09-16T11:24:25.474Z",
       "updatedAt": "2026-09-16T11:24:43.554Z"
+    },
+    {
+      "id": "app-1789557920831",
+      "name": "Planets 7",
+      "version": "5.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/planets-7_v5.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/c6/e3/e8c6e330-d31f-822a-3b1c-8b4325e2fec4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "90.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.puzak.lopte2",
+      "addedAt": "2026-09-16T11:25:20.831Z",
+      "updatedAt": "2026-09-16T11:25:25.961Z"
     }
   ]
 }
