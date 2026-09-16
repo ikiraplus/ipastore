@@ -16624,6 +16624,22 @@
       "bundleId": "com.rayark.Cytus.full",
       "addedAt": "2026-09-16T11:26:38.195Z",
       "updatedAt": "2026-09-16T11:26:52.063Z"
+    },
+    {
+      "id": "app-1789558058919",
+      "name": "RFS - Real Flight Simulator",
+      "version": "3.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rfs-real-flight-simulator_3.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/04/b2/1704b247-63f5-6e90-5435-3136239a83b1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "590.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "it.rortos.realflightsimulator",
+      "addedAt": "2026-09-16T11:27:38.919Z",
+      "updatedAt": "2026-09-16T11:27:54.931Z"
     }
   ]
 }
