@@ -16760,6 +16760,22 @@
       "bundleId": "com.coffeestain.goatsimulator3",
       "addedAt": "2026-09-16T11:50:09.557Z",
       "updatedAt": "2026-09-16T11:50:13.555Z"
+    },
+    {
+      "id": "app-1789560037577",
+      "name": "Cytus 2",
+      "version": "5.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cytus-2-v5.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/f5/09/67f509ad-1b2b-5897-29ba-a68593ca4e41/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "2701.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rayark.cytus2",
+      "addedAt": "2026-09-16T12:00:37.577Z",
+      "updatedAt": "2026-09-16T12:00:39.849Z"
     }
   ]
 }
