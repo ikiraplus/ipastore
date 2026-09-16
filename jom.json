@@ -16720,6 +16720,22 @@
       "bundleId": "com.frogmindgames.dodge",
       "addedAt": "2026-09-16T11:45:46.977Z",
       "updatedAt": "2026-09-16T11:45:48.061Z"
+    },
+    {
+      "id": "app-1789559203954",
+      "name": "Goat Simulator MMO",
+      "version": "2.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/goat-simulator-mmo_2.0.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/6e/e0/0c6ee082-4e46-daa0-5460-e6d3268f1817/AppIcon-0-0-1x_U007emarketing-0-7-0-P3-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "868.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.coffeestainstudios.goatmmo",
+      "addedAt": "2026-09-16T11:46:43.954Z",
+      "updatedAt": "2026-09-16T11:47:18.360Z"
     }
   ]
 }
