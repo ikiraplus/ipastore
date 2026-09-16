@@ -16520,6 +16520,22 @@
       "bundleId": "com.Nanali.SallysLaw-global",
       "addedAt": "2026-09-16T11:22:14.550Z",
       "updatedAt": "2026-09-16T11:22:25.949Z"
+    },
+    {
+      "id": "app-1789557765164",
+      "name": "Vectronom",
+      "version": "1.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/vectronom_1.1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/d5/39/ad/d539adb0-03a3-c012-97b5-e447bb8a8638/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "187.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ArteExperience.Vectronom",
+      "addedAt": "2026-09-16T11:22:45.164Z",
+      "updatedAt": "2026-09-16T11:22:46.955Z"
     }
   ]
 }
