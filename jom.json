@@ -16672,6 +16672,22 @@
       "bundleId": "com.yumyumyukyuk.clayjamclassic",
       "addedAt": "2026-09-16T11:28:50.804Z",
       "updatedAt": "2026-09-16T11:28:52.724Z"
+    },
+    {
+      "id": "app-1789559101592",
+      "name": "Kingdom Rush Frontiers Td",
+      "version": "6.4.22",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kingdom-rush-frontiers-td_6.4.22",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/38/e8/9138e824-612f-bc7f-0ab7-08721351c929/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "173.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ironhidegames.frontiers",
+      "addedAt": "2026-09-16T11:45:01.592Z",
+      "updatedAt": "2026-09-16T11:45:04.158Z"
     }
   ]
 }
