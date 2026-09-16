@@ -16248,6 +16248,22 @@
       "bundleId": "com.funforgedigital.tokaido",
       "addedAt": "2026-09-16T11:04:26.301Z",
       "updatedAt": "2026-09-16T11:04:27.218Z"
+    },
+    {
+      "id": "app-1789556693760",
+      "name": "Incredibox",
+      "version": "2.2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/incredibox_2.2.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/2b/6c/d02b6c61-94fe-4863-56ae-a2a522061147/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "142.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.sofarsogood.incredibox",
+      "addedAt": "2026-09-16T11:04:53.760Z",
+      "updatedAt": "2026-09-16T11:04:54.780Z"
     }
   ]
 }
