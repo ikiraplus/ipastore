@@ -16440,6 +16440,22 @@
       "bundleId": "com.rdamato.watchgames",
       "addedAt": "2026-09-16T11:13:14.826Z",
       "updatedAt": "2026-09-16T11:13:15.751Z"
+    },
+    {
+      "id": "app-1789557222299",
+      "name": "Gun Rounds",
+      "version": "1.0.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gun-rounds_1.0.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/be/04/e2/be04e2ea-8554-8ea2-e087-926f09b8aab5/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "20.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.blabberf.gunrounds",
+      "addedAt": "2026-09-16T11:13:42.299Z",
+      "updatedAt": "2026-09-16T11:14:04.723Z"
     }
   ]
 }
