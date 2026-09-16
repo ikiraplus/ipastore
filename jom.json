@@ -16408,6 +16408,22 @@
       "bundleId": "com.snkplaymore.BZS",
       "addedAt": "2026-09-16T11:12:01.530Z",
       "updatedAt": "2026-09-16T11:12:09.359Z"
+    },
+    {
+      "id": "app-1789557170453",
+      "name": "Old Monterrey Pixel Adventure",
+      "version": "3.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/old-monterrey-pixel-adventure_3.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/6d/6a/be6d6a4c-7405-ca92-3fab-8130ecc07152/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "58.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.amadodev.oldmonterrey",
+      "addedAt": "2026-09-16T11:12:50.453Z",
+      "updatedAt": "2026-09-16T11:12:58.845Z"
     }
   ]
 }
