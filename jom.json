@@ -16488,6 +16488,22 @@
       "bundleId": "octagon.lukaskorba.com",
       "addedAt": "2026-09-16T11:21:10.507Z",
       "updatedAt": "2026-09-16T11:21:17.812Z"
+    },
+    {
+      "id": "app-1789557706309",
+      "name": "Sinkr 3",
+      "version": "1.1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sinkr-3-v1.1.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/c1/79/2f/c1792fa6-bb99-d8f6-e723-3f8e17e6a8a8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "133.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.wahlerdigital.sinkr3",
+      "addedAt": "2026-09-16T11:21:46.310Z",
+      "updatedAt": "2026-09-16T11:21:48.260Z"
     }
   ]
 }
