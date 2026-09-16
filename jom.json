@@ -16424,6 +16424,22 @@
       "bundleId": "com.amadodev.oldmonterrey",
       "addedAt": "2026-09-16T11:12:50.453Z",
       "updatedAt": "2026-09-16T11:12:58.845Z"
+    },
+    {
+      "id": "app-1789557194826",
+      "name": "Arcadia Watch Games",
+      "version": "1.20.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/arcadia-watch-games_1.20.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/f8/26/a4f82672-34c8-880e-b53e-64bd2b736810/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "31.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rdamato.watchgames",
+      "addedAt": "2026-09-16T11:13:14.826Z",
+      "updatedAt": "2026-09-16T11:13:15.751Z"
     }
   ]
 }
