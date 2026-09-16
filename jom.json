@@ -16280,6 +16280,22 @@
       "bundleId": "com.appersian.wod",
       "addedAt": "2026-09-16T11:05:23.140Z",
       "updatedAt": "2026-09-16T11:05:24.112Z"
+    },
+    {
+      "id": "app-1789556766814",
+      "name": "Machinarium",
+      "version": "3.0.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/machinarium_3.0.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/36/24/08/3624088e-d974-7fa9-4c12-a1da2cb6ab21/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "302.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "net.machinarium.Machinarium",
+      "addedAt": "2026-09-16T11:06:06.814Z",
+      "updatedAt": "2026-09-16T11:06:19.209Z"
     }
   ]
 }
