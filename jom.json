@@ -16792,6 +16792,22 @@
       "bundleId": "de.mixtvision.farlonesails2020",
       "addedAt": "2026-09-17T06:39:17.983Z",
       "updatedAt": "2026-09-17T06:39:24.693Z"
+    },
+    {
+      "id": "app-1789627205535",
+      "name": "Hyper Light Drifter",
+      "version": "1.1.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hyper-light-drifter_1.1.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c3/37/e1/c337e14f-ffda-948e-cd37-c97548f34a23/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "800.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.abylight.hyperlightdrifter",
+      "addedAt": "2026-09-17T06:40:05.535Z",
+      "updatedAt": "2026-09-17T06:40:07.556Z"
     }
   ]
 }
