@@ -16879,6 +16879,22 @@
       "bundleId": "com.blitwise.ptdeluxehd",
       "addedAt": "2026-09-17T07:00:08.407Z",
       "updatedAt": "2026-09-17T07:00:11.478Z"
+    },
+    {
+      "id": "app-1789628651604",
+      "name": "IQ - Test Whats My IQ",
+      "version": "7.5.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/iq-test-whats-my-iq_7.5.10",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/49/b5/7e/49b57e79-644a-ca8b-a2b7-c7777e336e90/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "223.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.diensa.iqtestcom",
+      "addedAt": "2026-09-17T07:04:11.604Z",
+      "updatedAt": "2026-09-17T07:04:13.688Z"
     }
   ]
 }
