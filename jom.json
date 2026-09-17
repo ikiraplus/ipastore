@@ -15600,22 +15600,6 @@
       "updatedAt": "2026-09-15T15:56:30.568Z"
     },
     {
-      "id": "app-1789487841599",
-      "name": "Horizon Chase 2",
-      "version": "1.5.4",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/horizon-chase-2",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/4c/35/974c3560-7798-4e4b-9e7c-69a6981495d6/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "1951.8 MB",
-      "note": "لعبة مدفوعة في المتجر الرسمي.",
-      "category": "ألعاب",
-      "recommended": false,
-      "bundleId": "com.aquiris.hc2",
-      "addedAt": "2026-09-15T15:57:21.599Z",
-      "updatedAt": "2026-09-15T15:57:23.906Z"
-    },
-    {
       "id": "app-1789487966780",
       "name": "Locks Quest",
       "version": "1.0.484",
