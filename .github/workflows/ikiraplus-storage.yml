@@ -12,9 +12,10 @@ permissions:
 jobs:
   mirror-to-release:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120
 
     # ماكو global concurrency: ملفات متعددة تشتغل بالتوازي حسب حدود GitHub.
+    # مرحلة الرفع نفسها بيها jitter + timeout + retry حتى ما تبقى معلقة بلا نهاية.
     env:
       PROXY_URL: ${{ github.event.client_payload.sourceUrl }}
       ORIGINAL_URL: ${{ github.event.client_payload.originalUrl || github.event.client_payload.sourceUrl }}
@@ -23,13 +24,14 @@ jobs:
       CALLBACK_URL: ${{ github.event.client_payload.callbackUrl }}
       CALLBACK_START_URL: ${{ github.event.client_payload.callbackStartUrl }}
       CALLBACK_FAIL_URL: ${{ github.event.client_payload.callbackFailUrl }}
-      CALLBACK_TOKEN: ${{ github.event.client_payload.callbackToken }}
 
     steps:
       - name: Report started to Worker
         shell: bash
         run: |
           set +e
+          CALLBACK_TOKEN="$(jq -r '.client_payload.callbackToken // empty' "$GITHUB_EVENT_PATH")"
+          if [ -z "$CALLBACK_TOKEN" ]; then exit 0; fi
           RUN_URL="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           payload="$(jq -n \
             --arg id "$SHORT_ID" \
@@ -45,6 +47,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          CALLBACK_TOKEN="$(jq -r '.client_payload.callbackToken // empty' "$GITHUB_EVENT_PATH")"
           test -n "$PROXY_URL"
           test -n "$ORIGINAL_URL"
           test -n "$ASSET_NAME"
@@ -360,9 +363,24 @@ jobs:
         run: |
           set -euo pipefail
           FILE="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
-          index=1
+          LOCAL_SIZE="$(stat -c%s "$FILE")"
 
-          while true; do
+          # لا نخلي كل jobs تبدي الرفع بنفس الثانية.
+          JITTER=$(( GITHUB_RUN_ID % 30 ))
+          if [ "$JITTER" -gt 0 ]; then
+            echo "Upload jitter: ${JITTER}s"
+            sleep "$JITTER"
+          fi
+
+          asset_info() {
+            local release_id="$1"
+            { gh api --paginate "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" \
+                | jq -r --arg n "$ASSET_NAME" '.[] | select(.name == $n) | "\(.id) \(.size) \(.state)"'; } \
+              | tail -n 1 || true
+          }
+
+          index=1
+          while [ "$index" -le 50 ]; do
             if [ "$index" -eq 1 ]; then tag="storage"; else tag="storage-$index"; fi
 
             if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
@@ -371,31 +389,71 @@ jobs:
             fi
 
             if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-              index=$((index + 1)); continue
+              index=$((index + 1))
+              continue
             fi
 
             release_id="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$tag" --jq '.id')"
-            existing="$({ gh api --paginate "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" | jq -r --arg n "$ASSET_NAME" '.[] | select(.name == $n) | .id'; } | head -n 1 || true)"
+            info="$(asset_info "$release_id")"
 
-            if [ -n "$existing" ]; then
-              if gh release upload "$tag" "$FILE" --repo "$GITHUB_REPOSITORY" --clobber; then
-                echo "tag=$tag" >> "$GITHUB_OUTPUT"; break
+            if [ -n "$info" ]; then
+              read -r existing_id existing_size existing_state <<< "$info"
+              if [ "$existing_state" = "uploaded" ] && [ "$existing_size" = "$LOCAL_SIZE" ]; then
+                echo "Matching asset already exists in $tag; reusing it safely."
+                echo "tag=$tag" >> "$GITHUB_OUTPUT"
+                exit 0
               fi
-              index=$((index + 1)); continue
+
+              echo "Removing only incomplete/mismatched asset id=$existing_id from $tag"
+              gh api --method DELETE "repos/$GITHUB_REPOSITORY/releases/assets/$existing_id" >/dev/null 2>&1 || true
             fi
 
             count="$({ gh api --paginate "repos/$GITHUB_REPOSITORY/releases/$release_id/assets?per_page=100" --jq '.[].id'; } | wc -l | tr -d ' ')"
             echo "$tag contains $count assets"
-            if [ "$count" -ge 1000 ]; then index=$((index + 1)); continue; fi
-
-            # إذا job آخر أخذ آخر slot بنفس اللحظة، نجرب Release التالي بدل الفشل.
-            if gh release upload "$tag" "$FILE" --repo "$GITHUB_REPOSITORY"; then
-              echo "tag=$tag" >> "$GITHUB_OUTPUT"; break
+            if [ "$count" -ge 1000 ]; then
+              index=$((index + 1))
+              continue
             fi
 
-            echo "Upload to $tag failed; trying next release."
+            uploaded=0
+            attempt=1
+            while [ "$attempt" -le 2 ]; do
+              echo "Upload attempt $attempt/2 to $tag"
+              set +e
+              timeout --foreground 1800s gh release upload "$tag" "$FILE" --repo "$GITHUB_REPOSITORY"
+              rc=$?
+              set -e
+
+              # حتى إذا انقطع gh أو انتهى timeout، افحص GitHub قبل اعتبار المحاولة فاشلة.
+              info="$(asset_info "$release_id")"
+              if [ -n "$info" ]; then
+                read -r existing_id existing_size existing_state <<< "$info"
+                if [ "$existing_state" = "uploaded" ] && [ "$existing_size" = "$LOCAL_SIZE" ]; then
+                  echo "Upload verified in $tag ($LOCAL_SIZE bytes)."
+                  uploaded=1
+                  break
+                fi
+
+                echo "Cleaning incomplete/mismatched retry asset id=$existing_id"
+                gh api --method DELETE "repos/$GITHUB_REPOSITORY/releases/assets/$existing_id" >/dev/null 2>&1 || true
+              fi
+
+              echo "Upload attempt returned code $rc; retrying safely."
+              sleep $(( attempt * 15 ))
+              attempt=$((attempt + 1))
+            done
+
+            if [ "$uploaded" -eq 1 ]; then
+              echo "tag=$tag" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            echo "Upload to $tag did not verify after retries; trying next release."
             index=$((index + 1))
           done
+
+          echo "No storage release accepted the upload after bounded retries."
+          exit 1
 
       - name: Verify uploaded asset size
         env:
@@ -419,6 +477,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          CALLBACK_TOKEN="$(jq -r '.client_payload.callbackToken // empty' "$GITHUB_EVENT_PATH")"
+          test -n "$CALLBACK_TOKEN"
           RUN_URL="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           payload="$(jq -n \
             --arg id "$SHORT_ID" \
@@ -436,7 +496,8 @@ jobs:
         shell: bash
         run: |
           set +e
-          if [ -z "${CALLBACK_FAIL_URL:-}" ] || [ -z "${CALLBACK_TOKEN:-}" ] || [ -z "${SHORT_ID:-}" ]; then exit 0; fi
+          CALLBACK_TOKEN="$(jq -r '.client_payload.callbackToken // empty' "$GITHUB_EVENT_PATH")"
+          if [ -z "${CALLBACK_FAIL_URL:-}" ] || [ -z "$CALLBACK_TOKEN" ] || [ -z "${SHORT_ID:-}" ]; then exit 0; fi
           RUN_URL="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           payload="$(jq -n \
             --arg id "$SHORT_ID" \
