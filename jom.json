@@ -16936,6 +16936,22 @@
       "bundleId": "com.tinybop.Machines",
       "addedAt": "2026-09-17T06:47:49.411Z",
       "updatedAt": "2026-09-17T06:47:51.601Z"
+    },
+    {
+      "id": "app-1789627762739",
+      "name": "Give It Up Jump To The Beat",
+      "version": "1.9.18",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/give-it-up-jump-to-the-beat_1.9.18",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/18/2e/3d/182e3dad-b22d-9385-83a1-1727e8c53a95/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "171.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.invictus.impossiball",
+      "addedAt": "2026-09-17T06:49:22.739Z",
+      "updatedAt": "2026-09-17T06:49:24.746Z"
     }
   ]
 }
