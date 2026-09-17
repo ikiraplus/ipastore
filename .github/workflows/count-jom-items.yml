@@ -1,0 +1,29 @@
+name: Count jom items
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/count-jom-items.yml'
+
+jobs:
+  count:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Count items
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+          with open('jom.json', encoding='utf-8') as f:
+              data = json.load(f)
+          apps = data.get('apps', [])
+          games = [x for x in apps if str(x.get('category','')).strip() == 'ألعاب']
+          nongames = [x for x in apps if str(x.get('category','')).strip() != 'ألعاب']
+          print(f'TOTAL={len(apps)}')
+          print(f'GAMES={len(games)}')
+          print(f'NON_GAMES={len(nongames)}')
+          print('CATEGORIES=' + repr(dict(Counter(str(x.get('category','')).strip() for x in apps))))
+          PY
