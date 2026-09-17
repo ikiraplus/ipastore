@@ -16943,6 +16943,22 @@
       "bundleId": "com.ultimatestudio.hotlapleague",
       "addedAt": "2026-09-17T07:25:44.376Z",
       "updatedAt": "2026-09-17T07:25:47.108Z"
+    },
+    {
+      "id": "app-1789629972179",
+      "name": "Temple Run 2 Endless Escape",
+      "version": "1.133.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/temple-run-2-endless-escape_1.133.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/f2/6c/fdf26c54-d4cc-4433-3df9-b97eca6ee27f/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "277.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.imangi.templerun2",
+      "addedAt": "2026-09-17T07:26:12.179Z",
+      "updatedAt": "2026-09-17T07:26:14.522Z"
     }
   ]
 }
