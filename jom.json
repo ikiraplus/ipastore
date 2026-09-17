@@ -16776,6 +16776,22 @@
       "bundleId": "com.rayark.cytus2",
       "addedAt": "2026-09-16T12:00:37.577Z",
       "updatedAt": "2026-09-16T12:00:39.849Z"
+    },
+    {
+      "id": "app-1789627157983",
+      "name": "FAR: Lone Sails",
+      "version": "1.32.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/far-lone-sails_1.32.1",
+      "icon": "",
+      "previousVersions": [],
+      "size": "565.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "de.mixtvision.farlonesails2020",
+      "addedAt": "2026-09-17T06:39:17.983Z",
+      "updatedAt": "2026-09-17T06:39:24.693Z"
     }
   ]
 }
