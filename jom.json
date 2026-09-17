@@ -16904,6 +16904,22 @@
       "bundleId": "com.inthekillhouse.actionsquad",
       "addedAt": "2026-09-17T06:46:05.861Z",
       "updatedAt": "2026-09-17T06:46:11.014Z"
+    },
+    {
+      "id": "app-1789627620330",
+      "name": "Pet World Premium",
+      "version": "5.6.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pet-world-premium_5.6.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/97/6f/a0976fee-d408-b62a-9c52-039e7189f9cf/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "254.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.tivola.petworld.rescue",
+      "addedAt": "2026-09-17T06:47:00.330Z",
+      "updatedAt": "2026-09-17T06:47:02.564Z"
     }
   ]
 }
