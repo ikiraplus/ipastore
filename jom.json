@@ -16840,6 +16840,22 @@
       "bundleId": "com.MathewPurchase.Interloper",
       "addedAt": "2026-09-17T06:41:54.288Z",
       "updatedAt": "2026-09-17T06:41:56.260Z"
+    },
+    {
+      "id": "app-1789627355466",
+      "name": "Shadow Hunter Special Edition",
+      "version": "12.72.12",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-hunter-special-edition_12.72.12",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/60/a9/8160a9d1-5169-7635-fc20-f1b9ab676e8d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "931.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.enigma.shadowhunter.arcade",
+      "addedAt": "2026-09-17T06:42:35.466Z",
+      "updatedAt": "2026-09-17T06:42:38.483Z"
     }
   ]
 }
