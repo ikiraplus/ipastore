@@ -16678,7 +16678,7 @@
       "version": "1.32.1",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/far-lone-sails_1.32.1",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e2/fd/3b/e2fd3bac-fefd-b45e-27a2-b3f7b79bf230/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
       "previousVersions": [],
       "size": "565.8 MB",
       "note": "",
@@ -16686,7 +16686,7 @@
       "recommended": false,
       "bundleId": "de.mixtvision.farlonesails2020",
       "addedAt": "2026-09-17T06:39:17.983Z",
-      "updatedAt": "2026-09-17T06:39:24.693Z"
+      "updatedAt": "2026-09-17T07:14:07.082Z"
     },
     {
       "id": "app-1789627205535",
