@@ -16888,6 +16888,22 @@
       "bundleId": "com.gameloft.sonicrunner",
       "addedAt": "2026-09-17T06:44:58.655Z",
       "updatedAt": "2026-09-17T06:45:08.498Z"
+    },
+    {
+      "id": "app-1789627565861",
+      "name": "Door Kickers Action Squad",
+      "version": "1.2.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/door-kickers-action-squad_1.2.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/88/5a/70/885a7017-57d6-88e8-5cb7-231764fc734b/AppIcon-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "108.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.inthekillhouse.actionsquad",
+      "addedAt": "2026-09-17T06:46:05.861Z",
+      "updatedAt": "2026-09-17T06:46:11.014Z"
     }
   ]
 }
