@@ -15546,22 +15546,6 @@
       "updatedAt": "2026-09-15T15:49:09.023Z"
     },
     {
-      "id": "app-1789487371144",
-      "name": "Clay Jam Classic",
-      "version": "1.5",
-      "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/clay-jam-classic",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/bf/6d/bebf6db0-06f1-6a41-d8fb-4200a26513e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "74.7 MB",
-      "note": "لعبة مدفوعة في المتجر الرسمي.",
-      "category": "ألعاب",
-      "recommended": false,
-      "bundleId": "com.yumyumyukyuk.clayjamclassic",
-      "addedAt": "2026-09-15T15:49:31.144Z",
-      "updatedAt": "2026-09-15T15:49:32.706Z"
-    },
-    {
       "id": "app-1789487405344",
       "name": "Evocreo 2 Monster Trainer Rpg",
       "version": "1.5.9",
