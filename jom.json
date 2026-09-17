@@ -16872,6 +16872,22 @@
       "bundleId": "com.humblebundle.slaythespire",
       "addedAt": "2026-09-17T06:44:16.904Z",
       "updatedAt": "2026-09-17T06:44:26.079Z"
+    },
+    {
+      "id": "app-1789627498655",
+      "name": "Sonic Runners Adventure",
+      "version": "1.0.14",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sonic-runners-adventure_1.0.14",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/cc/aa/08ccaab4-40ca-7c03-61f8-58b42c1c00ac/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "36.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gameloft.sonicrunner",
+      "addedAt": "2026-09-17T06:44:58.655Z",
+      "updatedAt": "2026-09-17T06:45:08.498Z"
     }
   ]
 }
