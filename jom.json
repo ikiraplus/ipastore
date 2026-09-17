@@ -16863,6 +16863,22 @@
       "bundleId": "com.oddrobo.KingOfMathFullGame",
       "addedAt": "2026-09-17T06:58:54.660Z",
       "updatedAt": "2026-09-17T06:59:01.713Z"
+    },
+    {
+      "id": "app-1789628408407",
+      "name": "Pocket Tanks Deluxe",
+      "version": "3.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pocket-tanks-deluxe_3.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/39/d1/ae39d14c-2f7a-8282-7b12-163ba95ca9de/AppIcon-Deluxe-1x_U007emarketing-0-10-0-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "89.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.blitwise.ptdeluxehd",
+      "addedAt": "2026-09-17T07:00:08.407Z",
+      "updatedAt": "2026-09-17T07:00:11.478Z"
     }
   ]
 }
