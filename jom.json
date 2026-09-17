@@ -16911,6 +16911,22 @@
       "bundleId": "com.mastersoftmobilesolutions.chessproipad",
       "addedAt": "2026-09-17T07:17:44.922Z",
       "updatedAt": "2026-09-17T07:17:46.991Z"
+    },
+    {
+      "id": "app-1789629503430",
+      "name": "Bridge Constructor",
+      "version": "13.2.690",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bridge-constructor_13.2.690",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/86/49/018649bf-62ad-4138-8711-1c32f384efbe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "221.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.headupgames.bridgeconstructor",
+      "addedAt": "2026-09-17T07:18:23.431Z",
+      "updatedAt": "2026-09-17T07:18:25.506Z"
     }
   ]
 }
