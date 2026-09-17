@@ -16895,6 +16895,22 @@
       "bundleId": "com.diensa.iqtestcom",
       "addedAt": "2026-09-17T07:04:11.604Z",
       "updatedAt": "2026-09-17T07:04:13.688Z"
+    },
+    {
+      "id": "app-1789629464922",
+      "name": "Chess Pro",
+      "version": "52.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chess-pro_52.10",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/54/ab/dc54ab5d-6463-f1a8-5baa-15e486956170/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "115.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mastersoftmobilesolutions.chessproipad",
+      "addedAt": "2026-09-17T07:17:44.922Z",
+      "updatedAt": "2026-09-17T07:17:46.991Z"
     }
   ]
 }
