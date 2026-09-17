@@ -16847,6 +16847,22 @@
       "bundleId": "com.invictus.impossiball",
       "addedAt": "2026-09-17T06:49:22.739Z",
       "updatedAt": "2026-09-17T06:49:24.746Z"
+    },
+    {
+      "id": "app-1789628334660",
+      "name": "King Of Math",
+      "version": "1.4.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/king-of-math-full-game_1.4.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/6d/36/6d6d3656-cc1d-37c7-abcf-6e0579c9d287/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "59.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.oddrobo.KingOfMathFullGame",
+      "addedAt": "2026-09-17T06:58:54.660Z",
+      "updatedAt": "2026-09-17T06:59:01.713Z"
     }
   ]
 }
