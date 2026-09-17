@@ -1,0 +1,97 @@
+name: Recover Cancelled iKiraPlus Storage
+
+on:
+  push:
+    paths:
+      - ".github/workflows/recover-cancelled-storage.yml"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  recover:
+    if: github.event.head_commit.message == 'Recover cancelled storage uploads'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Re-dispatch cancelled storage uploads
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OLD_SHA: 6362773eb242cabb71911a4ba5d8cef2593c1746
+          STORAGE_WORKFLOW_ID: "337494956"
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Finding cancelled storage runs from the affected batch..."
+          runs_json="$(gh api --paginate "repos/$GITHUB_REPOSITORY/actions/runs?event=repository_dispatch&status=cancelled&head_sha=$OLD_SHA&per_page=100")"
+          mapfile -t run_ids < <(printf '%s' "$runs_json" | jq -r --argjson wid "$STORAGE_WORKFLOW_ID" '.workflow_runs[] | select(.workflow_id == $wid and .conclusion == "cancelled") | .id' | sort -n)
+
+          echo "Found ${#run_ids[@]} cancelled runs."
+          if [ "${#run_ids[@]}" -eq 0 ]; then
+            exit 0
+          fi
+
+          # Snapshot current runs once so rerunning this recovery job cannot create duplicate retries.
+          current_json="$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/$STORAGE_WORKFLOW_ID/runs?event=repository_dispatch&per_page=100")"
+
+          extract_env() {
+            local logs="$1"
+            local key="$2"
+            printf '%s\n' "$logs" | sed -n "s/.*  ${key}: //p" | head -n 1 | tr -d '\r'
+          }
+
+          recovered=0
+          skipped=0
+          failed=0
+
+          for run_id in "${run_ids[@]}"; do
+            echo "Reading cancelled run $run_id..."
+            logs="$(gh run view "$run_id" --repo "$GITHUB_REPOSITORY" --log 2>/dev/null || true)"
+
+            source_url="$(extract_env "$logs" PROXY_URL)"
+            original_url="$(extract_env "$logs" ORIGINAL_URL)"
+            asset_name="$(extract_env "$logs" ASSET_NAME)"
+            short_id="$(extract_env "$logs" SHORT_ID)"
+            callback_url="$(extract_env "$logs" CALLBACK_URL)"
+            callback_start_url="$(extract_env "$logs" CALLBACK_START_URL)"
+            callback_fail_url="$(extract_env "$logs" CALLBACK_FAIL_URL)"
+            callback_token="$(extract_env "$logs" CALLBACK_TOKEN)"
+
+            if [ -z "$source_url" ] || [ -z "$original_url" ] || [ -z "$asset_name" ] || [ -z "$short_id" ] || [ -z "$callback_url" ] || [ -z "$callback_start_url" ] || [ -z "$callback_fail_url" ] || [ -z "$callback_token" ]; then
+              echo "Could not recover all fields for run $run_id; skipping safely."
+              failed=$((failed + 1))
+              continue
+            fi
+
+            title="iKiraPlus storage • $short_id"
+            already="$(printf '%s' "$current_json" | jq -r --arg t "$title" --arg old "$OLD_SHA" '[.workflow_runs[] | select(.display_title == $t and .head_sha != $old and (.status == "queued" or .status == "in_progress" or .conclusion == "success"))] | length')"
+            if [ "$already" -gt 0 ]; then
+              echo "$short_id already has a newer active/successful run; skipping duplicate."
+              skipped=$((skipped + 1))
+              continue
+            fi
+
+            payload="$(jq -n \
+              --arg sourceUrl "$source_url" \
+              --arg originalUrl "$original_url" \
+              --arg assetName "$asset_name" \
+              --arg shortId "$short_id" \
+              --arg callbackUrl "$callback_url" \
+              --arg callbackStartUrl "$callback_start_url" \
+              --arg callbackFailUrl "$callback_fail_url" \
+              --arg callbackToken "$callback_token" \
+              '{event_type:"ikiraplus_storage",client_payload:{sourceUrl:$sourceUrl,originalUrl:$originalUrl,assetName:$assetName,shortId:$shortId,callbackUrl:$callbackUrl,callbackStartUrl:$callbackStartUrl,callbackFailUrl:$callbackFailUrl,callbackToken:$callbackToken}}')"
+
+            if printf '%s' "$payload" | gh api --method POST "repos/$GITHUB_REPOSITORY/dispatches" --input - >/dev/null; then
+              echo "Re-dispatched: $short_id"
+              recovered=$((recovered + 1))
+            else
+              echo "Dispatch failed for: $short_id"
+              failed=$((failed + 1))
+            fi
+          done
+
+          echo "Recovery summary: re-dispatched=$recovered skipped=$skipped failed=$failed"
+          test "$failed" -eq 0
