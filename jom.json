@@ -16824,6 +16824,22 @@
       "bundleId": "com.thevoxelagents.thegardensbetween",
       "addedAt": "2026-09-17T06:41:00.976Z",
       "updatedAt": "2026-09-17T06:41:03.391Z"
+    },
+    {
+      "id": "app-1789627314288",
+      "name": "InterLoper",
+      "version": "1.701",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inter-loper_1.701",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ba/b5/af/bab5afaa-88b4-4a3a-142d-4740fecb7d4c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "198.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.MathewPurchase.Interloper",
+      "addedAt": "2026-09-17T06:41:54.288Z",
+      "updatedAt": "2026-09-17T06:41:56.260Z"
     }
   ]
 }
