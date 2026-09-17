@@ -16856,6 +16856,22 @@
       "bundleId": "com.enigma.shadowhunter.arcade",
       "addedAt": "2026-09-17T06:42:35.466Z",
       "updatedAt": "2026-09-17T06:42:38.483Z"
+    },
+    {
+      "id": "app-1789627456904",
+      "name": "Slay The Spire",
+      "version": "2.6.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/slay-the-spire_2.6.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0c/92/910c920a-0ab6-1939-e297-083995b640c7/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "873.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.humblebundle.slaythespire",
+      "addedAt": "2026-09-17T06:44:16.904Z",
+      "updatedAt": "2026-09-17T06:44:26.079Z"
     }
   ]
 }
