@@ -16927,6 +16927,22 @@
       "bundleId": "com.headupgames.bridgeconstructor",
       "addedAt": "2026-09-17T07:18:23.431Z",
       "updatedAt": "2026-09-17T07:18:25.506Z"
+    },
+    {
+      "id": "app-1789629944376",
+      "name": "Hot Lap League",
+      "version": "1.02.118",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hot-lap-league_1.02.118",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/6d/17/93/6d179391-2388-2d4a-bfb8-aacffcd6a74b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "595.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ultimatestudio.hotlapleague",
+      "addedAt": "2026-09-17T07:25:44.376Z",
+      "updatedAt": "2026-09-17T07:25:47.108Z"
     }
   ]
 }
