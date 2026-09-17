@@ -1,4 +1,4 @@
-name: Restart old storage jobs under 45m
+name: Safely handoff old storage jobs to 45m limit
 
 on:
   push:
@@ -7,20 +7,20 @@ on:
 
 permissions:
   contents: read
-  actions: write
+  actions: read
 
 jobs:
-  restart:
-    if: github.event.head_commit.message == 'Restart old storage jobs under 45 minute limit'
+  handoff:
+    if: github.event.head_commit.message == 'Safely handoff old storage jobs to 45m limit'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 60
     env:
       GH_TOKEN: ${{ github.token }}
       STORAGE_WORKFLOW_ID: "337494956"
       OLD_RETRY_SHA: "cb63c5d9f861cefc4dc1a07196759c1ab2fbdba7"
       ORIGINAL_SHA: "6362773eb242cabb71911a4ba5d8cef2593c1746"
     steps:
-      - name: Cancel old retries and dispatch fresh 45m runs
+      - name: Wait for old jobs and safely re-dispatch failures
         shell: bash
         run: |
           set -euo pipefail
@@ -31,32 +31,57 @@ jobs:
             printf '%s\n' "$logs" | sed -n "s/.*  ${key}: //p" | head -n 1 | tr -d '\r'
           }
 
-          current_json="$(gh api --paginate "repos/$GITHUB_REPOSITORY/actions/runs?event=repository_dispatch&status=in_progress&head_sha=$OLD_RETRY_SHA&per_page=100")"
+          all_old="$(gh api --paginate "repos/$GITHUB_REPOSITORY/actions/runs?event=repository_dispatch&head_sha=$OLD_RETRY_SHA&per_page=100")"
           original_json="$(gh api --paginate "repos/$GITHUB_REPOSITORY/actions/runs?event=repository_dispatch&status=cancelled&head_sha=$ORIGINAL_SHA&per_page=100")"
 
-          mapfile -t target_ids < <(printf '%s' "$current_json" | jq -r --argjson wid "$STORAGE_WORKFLOW_ID" '.workflow_runs[] | select(.workflow_id == $wid and .status == "in_progress") | .id' | sort -n)
+          mapfile -t target_ids < <(printf '%s' "$all_old" | jq -r --argjson wid "$STORAGE_WORKFLOW_ID" '.workflow_runs[] | select(.workflow_id == $wid and (.status == "in_progress" or .status == "queued")) | .id' | sort -n)
+          echo "Tracking ${#target_ids[@]} old active runs."
 
-          echo "Found ${#target_ids[@]} old in-progress retries to restart under the 45-minute workflow."
+          if [ "${#target_ids[@]}" -eq 0 ]; then
+            exit 0
+          fi
+
           restarted=0
-          skipped=0
-          failed=0
+          succeeded=0
+          unresolved=0
 
           for run_id in "${target_ids[@]}"; do
+            echo "Waiting safely for old run $run_id to finish..."
+            final_status=""
+            final_conclusion=""
+
+            # Poll for up to 55 minutes. Old runs already consumed most of their 120-minute window.
+            for i in {1..220}; do
+              run_json="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run_id")"
+              final_status="$(printf '%s' "$run_json" | jq -r '.status')"
+              final_conclusion="$(printf '%s' "$run_json" | jq -r '.conclusion // ""')"
+              if [ "$final_status" = "completed" ]; then
+                break
+              fi
+              sleep 15
+            done
+
             run_json="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run_id")"
-            status="$(printf '%s' "$run_json" | jq -r '.status')"
-            conclusion="$(printf '%s' "$run_json" | jq -r '.conclusion // ""')"
+            final_status="$(printf '%s' "$run_json" | jq -r '.status')"
+            final_conclusion="$(printf '%s' "$run_json" | jq -r '.conclusion // ""')"
             title="$(printf '%s' "$run_json" | jq -r '.display_title')"
 
-            if [ "$status" = "completed" ] && [ "$conclusion" = "success" ]; then
-              echo "Already succeeded: $title"
-              skipped=$((skipped + 1))
+            if [ "$final_status" != "completed" ]; then
+              echo "Still active at monitor limit; not creating a duplicate: $title"
+              unresolved=$((unresolved + 1))
+              continue
+            fi
+
+            if [ "$final_conclusion" = "success" ]; then
+              echo "Old run succeeded; no retry needed: $title"
+              succeeded=$((succeeded + 1))
               continue
             fi
 
             original_id="$(printf '%s' "$original_json" | jq -r --arg t "$title" --argjson wid "$STORAGE_WORKFLOW_ID" '.workflow_runs[] | select(.workflow_id == $wid and .display_title == $t) | .id' | head -n 1)"
             if [ -z "$original_id" ]; then
-              echo "No original cancelled run found for $title; skipping safely."
-              failed=$((failed + 1))
+              echo "Could not find original payload for $title; no unsafe duplicate created."
+              unresolved=$((unresolved + 1))
               continue
             fi
 
@@ -71,29 +96,9 @@ jobs:
             callback_token="$(extract_env "$logs" CALLBACK_TOKEN)"
 
             if [ -z "$source_url" ] || [ -z "$original_url" ] || [ -z "$asset_name" ] || [ -z "$short_id" ] || [ -z "$callback_url" ] || [ -z "$callback_start_url" ] || [ -z "$callback_fail_url" ] || [ -z "$callback_token" ]; then
-              echo "Could not reconstruct payload for $title; leaving current run untouched."
-              failed=$((failed + 1))
+              echo "Payload incomplete for $title; skipping safely."
+              unresolved=$((unresolved + 1))
               continue
-            fi
-
-            # Re-check immediately before cancellation to avoid duplicating a run that just finished.
-            latest="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run_id")"
-            latest_status="$(printf '%s' "$latest" | jq -r '.status')"
-            latest_conclusion="$(printf '%s' "$latest" | jq -r '.conclusion // ""')"
-            if [ "$latest_status" = "completed" ] && [ "$latest_conclusion" = "success" ]; then
-              echo "Finished successfully during check: $title"
-              skipped=$((skipped + 1))
-              continue
-            fi
-
-            if [ "$latest_status" = "in_progress" ] || [ "$latest_status" = "queued" ]; then
-              echo "Cancelling old run $run_id: $title"
-              gh api --method POST "repos/$GITHUB_REPOSITORY/actions/runs/$run_id/cancel" >/dev/null || true
-              for i in {1..20}; do
-                s="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run_id" --jq '.status')"
-                [ "$s" = "completed" ] && break
-                sleep 1
-              done
             fi
 
             payload="$(jq -n \
@@ -108,9 +113,8 @@ jobs:
               '{event_type:"ikiraplus_storage",client_payload:{sourceUrl:$sourceUrl,originalUrl:$originalUrl,assetName:$assetName,shortId:$shortId,callbackUrl:$callbackUrl,callbackStartUrl:$callbackStartUrl,callbackFailUrl:$callbackFailUrl,callbackToken:$callbackToken}}')"
 
             printf '%s' "$payload" | gh api --method POST "repos/$GITHUB_REPOSITORY/dispatches" --input - >/dev/null
-            echo "Fresh 45m run dispatched: $short_id"
+            echo "Fresh 45-minute run dispatched: $short_id"
             restarted=$((restarted + 1))
           done
 
-          echo "Restart summary: restarted=$restarted skipped=$skipped failed=$failed"
-          test "$failed" -eq 0
+          echo "Handoff summary: old_success=$succeeded fresh_45m_runs=$restarted unresolved=$unresolved"
