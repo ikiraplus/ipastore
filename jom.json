@@ -16991,6 +16991,22 @@
       "bundleId": "com.crunchyroll.eminenceinshadowrpg",
       "addedAt": "2026-09-18T06:52:27.627Z",
       "updatedAt": "2026-09-18T06:52:30.611Z"
+    },
+    {
+      "id": "app-1789714433741",
+      "name": "Top Force Commander",
+      "version": "3.4.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/top-force-commander_3.4.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/e9/08/28e90860-dff3-5de8-af23-09626e39cfb8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "942.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.project.idle.cd",
+      "addedAt": "2026-09-18T06:53:53.741Z",
+      "updatedAt": "2026-09-18T06:53:55.946Z"
     }
   ]
 }
