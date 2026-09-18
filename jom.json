@@ -3138,17 +3138,21 @@
     },
     {
       "id": "APP-6077950595",
-      "name": "shadow fight 4",
-      "version": "4.1.9.83",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-4.1.9.83-1",
+      "name": "Shadow Fight 4",
+      "version": "1.9.85",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-4.1.9.85",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/99/7a/de997a0f-7a99-bee7-8f44-f8bc7931bc58/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "184.7 MB",
+      "size": "185.1 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-05-08T16:05:05.075Z",
-      "updatedAt": "2026-08-24T06:47:41.957Z",
+      "updatedAt": "2026-09-18T07:11:59.094Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-4.1.9.83-1",
+          "version": "1.9.83"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-fight-4.1.9.80",
           "version": "1.9.80"
