@@ -4133,17 +4133,21 @@
     },
     {
       "id": "APP-5926837492",
-      "name": "magic tiles 3",
-      "version": "13.13.10",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/magic_tiles_3_piano_game",
+      "name": "Magic Tiles 3 Piano",
+      "version": "13.095.005",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/magic-tiles-3-piano-game_13.095.005",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/2b/7b/d62b7bfd-6b30-e8c2-a906-910b5011005e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "258.8 MB",
+      "size": "692.1 MB",
       "note": "",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:04:30.993Z",
-      "updatedAt": "2026-08-24T06:51:45.883Z",
+      "updatedAt": "2026-09-18T20:00:17.169Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/magic_tiles_3_piano_game",
+          "version": "13.13.10"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/magic-tiles-3",
           "version": "7.54"
