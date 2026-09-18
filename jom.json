@@ -17515,6 +17515,22 @@
       "bundleId": "com.booblyc.ZombTubeGame",
       "addedAt": "2026-09-18T19:55:21.366Z",
       "updatedAt": "2026-09-18T19:55:32.193Z"
+    },
+    {
+      "id": "app-1789761374341",
+      "name": "Blue Lock Pwc",
+      "version": "5.8.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/blue-lock-pwc_5.8.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/cb/d1/73cbd14d-4516-5f45-e5ff-4745b9c08889/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "324.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "jp.pjfbgl",
+      "addedAt": "2026-09-18T19:56:14.341Z",
+      "updatedAt": "2026-09-18T19:56:21.761Z"
     }
   ]
 }
