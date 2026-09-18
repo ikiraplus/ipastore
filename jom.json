@@ -15050,18 +15050,23 @@
     {
       "id": "app-1789402559172",
       "name": "Facebook Plus",
-      "version": "578.1.0",
-      "toolVersion": "1.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fb_v578.1.0_facebook-plus_v1.0.0",
+      "version": "579.0.0",
+      "toolVersion": "1.0.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/facebook-plus-579.0.0-v1.0.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/1d/be/5e1dbe24-886f-0e03-0874-2b7c2fdfd594/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "203.0 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fb_v578.1.0_facebook-plus_v1.0.0",
+          "version": "578.1.0"
+        }
+      ],
+      "size": "0.0 MB",
       "note": "",
       "category": "تواصل",
       "recommended": false,
       "bundleId": "com.facebook.Facebook",
       "addedAt": "2026-09-14T16:15:59.172Z",
-      "updatedAt": "2026-09-14T16:16:01.622Z"
+      "updatedAt": "2026-09-18T08:33:47.574Z"
     },
     {
       "id": "app-1789402583098",
