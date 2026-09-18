@@ -17353,6 +17353,22 @@
       "bundleId": "io.randomco.travel",
       "addedAt": "2026-09-18T08:20:49.788Z",
       "updatedAt": "2026-09-18T08:20:54.014Z"
+    },
+    {
+      "id": "app-1789719758848",
+      "name": "Flick Shot Rogues",
+      "version": "1.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/flick-shot-rogues-1.13",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/70/6f/4f706f9a-852e-1224-e4f7-652b698a2f0d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "408.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.noodlecake.flickshotrogues",
+      "addedAt": "2026-09-18T08:22:38.848Z",
+      "updatedAt": "2026-09-18T08:22:46.133Z"
     }
   ]
 }
