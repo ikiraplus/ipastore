@@ -17599,6 +17599,22 @@
       "bundleId": "com.daerigame.rellion",
       "addedAt": "2026-09-18T20:01:43.095Z",
       "updatedAt": "2026-09-18T20:01:49.295Z"
+    },
+    {
+      "id": "app-1789761777438",
+      "name": "Epic Plane Evolution",
+      "version": "1.14.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/epic-plane-evolution_1.14.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/b3/39/dfb339f3-7a6d-c138-975c-fa52ee077c03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "366.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "io.heseri.plane",
+      "addedAt": "2026-09-18T20:02:57.438Z",
+      "updatedAt": "2026-09-18T20:03:02.974Z"
     }
   ]
 }
