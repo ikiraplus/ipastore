@@ -17435,6 +17435,22 @@
       "bundleId": "",
       "addedAt": "2026-09-18T08:37:12.849Z",
       "updatedAt": "2026-09-18T08:37:16.629Z"
+    },
+    {
+      "id": "app-1789761044661",
+      "name": "Story Reel Exclusive Drama",
+      "version": "2.29.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/story-reel-exclusive-drama_2.29.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/d8/be/fad8be6f-eead-eccd-1c4d-016a9283545e/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "184.0 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.storyreel.tv.ios",
+      "addedAt": "2026-09-18T19:50:44.661Z",
+      "updatedAt": "2026-09-18T19:50:46.173Z"
     }
   ]
 }
