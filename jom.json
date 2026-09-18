@@ -17328,6 +17328,22 @@
       "bundleId": "jp.co.drecom.wizardry.daphne",
       "addedAt": "2026-09-18T08:17:23.551Z",
       "updatedAt": "2026-09-18T08:17:29.146Z"
+    },
+    {
+      "id": "app-1789719649788",
+      "name": "Travel Town - Merge Adventure",
+      "version": "2.12.1741",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/travel-town-2.12.1741",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/52/e9/9352e906-9cb9-dc5c-c909-cc403fe88f31/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "147.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "io.randomco.travel",
+      "addedAt": "2026-09-18T08:20:49.788Z",
+      "updatedAt": "2026-09-18T08:20:54.014Z"
     }
   ]
 }
