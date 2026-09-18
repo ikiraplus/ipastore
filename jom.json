@@ -17227,6 +17227,22 @@
       "bundleId": "com.proofofplay.shibastorygo",
       "addedAt": "2026-09-18T07:11:05.654Z",
       "updatedAt": "2026-09-18T07:11:09.999Z"
+    },
+    {
+      "id": "app-1789715572158",
+      "name": "Pastry In Paris: Cooking Games",
+      "version": "1.4.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pastry-in-paris-1.4.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/99/c5/bf99c5a9-2c87-706f-21ac-5ae050268512/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "219.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pastry.paradise.cooking.restaurant",
+      "addedAt": "2026-09-18T07:12:52.158Z",
+      "updatedAt": "2026-09-18T07:12:53.998Z"
     }
   ]
 }
