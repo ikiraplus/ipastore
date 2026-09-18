@@ -17499,6 +17499,22 @@
       "bundleId": "com.northstargames.naturegame",
       "addedAt": "2026-09-18T19:53:12.395Z",
       "updatedAt": "2026-09-18T19:53:17.860Z"
+    },
+    {
+      "id": "app-1789761321366",
+      "name": "ZombTube",
+      "version": "0.1.374",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zomb-tube_0.1.374",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/f8/01/d1f801b7-9454-bcce-38fd-d135eb1c4f55/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "542.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.booblyc.ZombTubeGame",
+      "addedAt": "2026-09-18T19:55:21.366Z",
+      "updatedAt": "2026-09-18T19:55:32.193Z"
     }
   ]
 }
