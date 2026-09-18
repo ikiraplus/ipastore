@@ -17135,6 +17135,22 @@
       "bundleId": "dk.tactile.lilysgarden",
       "addedAt": "2026-09-18T07:07:50.237Z",
       "updatedAt": "2026-09-18T07:07:52.721Z"
+    },
+    {
+      "id": "app-1789715301896",
+      "name": "Racing In Car Simulator Pov",
+      "version": "1.13",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/racing-in-car-simulator-pov_1.13",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/39/d3/0639d316-cf6b-b41e-5906-7fd28a86bbda/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "293.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.racing.car.driving.simulator.traffic.POV",
+      "addedAt": "2026-09-18T07:08:21.896Z",
+      "updatedAt": "2026-09-18T07:08:26.061Z"
     }
   ]
 }
