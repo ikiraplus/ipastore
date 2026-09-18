@@ -17093,6 +17093,22 @@
       "bundleId": "com.funplus.ts",
       "addedAt": "2026-09-18T07:05:15.592Z",
       "updatedAt": "2026-09-18T07:05:17.762Z"
+    },
+    {
+      "id": "app-1789715162815",
+      "name": "Hunter Raid Idle Rpg Games",
+      "version": "2.8.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hunter-raid-idle-rpg-games_2.8.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/b9/9e/f6b99e23-a8de-1daf-5d15-dbfd55dfcdd9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "776.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "studio.gameberry.idlehunter",
+      "addedAt": "2026-09-18T07:06:02.815Z",
+      "updatedAt": "2026-09-18T07:06:04.754Z"
     }
   ]
 }
