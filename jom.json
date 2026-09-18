@@ -17183,6 +17183,22 @@
       "bundleId": "com.springgames.archercastle",
       "addedAt": "2026-09-18T07:09:27.246Z",
       "updatedAt": "2026-09-18T07:09:29.871Z"
+    },
+    {
+      "id": "app-1789715407342",
+      "name": "Bowmasters Multiplayer Games",
+      "version": "11.6.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bowmasters-multiplayer-games_11.6.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/63/bb/1563bb42-93f3-4f8a-b7f8-2c8ce9ccd9b1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "596.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playgendary.bowmasters",
+      "addedAt": "2026-09-18T07:10:07.342Z",
+      "updatedAt": "2026-09-18T07:10:09.320Z"
     }
   ]
 }
