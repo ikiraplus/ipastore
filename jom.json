@@ -17483,6 +17483,22 @@
       "bundleId": "com.abi.legendofsurvivors",
       "addedAt": "2026-09-18T19:52:39.345Z",
       "updatedAt": "2026-09-18T19:52:45.168Z"
+    },
+    {
+      "id": "app-1789761192395",
+      "name": "Nature Board Game",
+      "version": "1.0.62",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/nature-board-game_1.0.62",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/2f/3d/b72f3d2b-16c0-687e-5920-d31ac0095e4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "742.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.northstargames.naturegame",
+      "addedAt": "2026-09-18T19:53:12.395Z",
+      "updatedAt": "2026-09-18T19:53:17.860Z"
     }
   ]
 }
