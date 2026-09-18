@@ -1290,19 +1290,19 @@
     {
       "id": "dylib-1788076732181",
       "name": "MoesReddit Tweak",
-      "version": "3.9",
+      "version": "4.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/MoesReddit-3.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/MoesReddit-4.0",
       "icon": "https://play-lh.googleusercontent.com/YlsjgA1pFEUqNaypaxE5ajushTBOt8IxVk_UEqzaXT7_n3JDgFq6KgtuE8tPBpvaCntB",
       "fileType": "dylib",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/MoesReddit-tweak3.3",
-          "version": "3.3"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/MoesReddit-3.9",
+          "version": "3.9"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/MoesReddit-v2.0",
-          "version": "2.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/MoesReddit-tweak3.3",
+          "version": "3.3"
         }
       ],
       "size": "0.7 MB",
@@ -1310,7 +1310,7 @@
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-08-30T07:58:52.181Z",
-      "updatedAt": "2026-09-14T16:29:42.052Z",
+      "updatedAt": "2026-09-18T08:37:44.986Z",
       "bundleId": ""
     },
     {
