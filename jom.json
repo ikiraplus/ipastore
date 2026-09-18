@@ -17631,6 +17631,22 @@
       "bundleId": "com.pixelfederation.ts3.train.station.evolution.building.manager.tycoon.simulator",
       "addedAt": "2026-09-18T20:03:28.660Z",
       "updatedAt": "2026-09-18T20:03:33.547Z"
+    },
+    {
+      "id": "app-1789761837892",
+      "name": "Dribble Hoops",
+      "version": "4.20.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dribble-hoops_4.20.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/18/cb/c418cb0d-aa4f-6871-c601-f29fa71ea975/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "286.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.wildbeep.dribblehoops",
+      "addedAt": "2026-09-18T20:03:57.892Z",
+      "updatedAt": "2026-09-18T20:04:03.580Z"
     }
   ]
 }
