@@ -6211,26 +6211,26 @@
     {
       "id": "APP-6084515389",
       "name": "Last Asylum",
-      "version": "1.0.63",
+      "version": "1.0.64",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-asylum-1.0.63",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-asylum-plague_1.0.64",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/cf/17/eccf17a3-6380-6aef-10c3-b6707f5ba18e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-asylum-1.0.60",
-          "version": "1.0.60"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-asylum-1.0.63",
+          "version": "1.0.63"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-asylum-1.0.59",
-          "version": "1.0.59"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-asylum-1.0.60",
+          "version": "1.0.60"
         }
       ],
-      "size": "489.3 MB",
+      "size": "636.1 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-09T16:00:12.587Z",
-      "updatedAt": "2026-09-12T18:21:11.588Z",
+      "updatedAt": "2026-09-18T19:53:49.159Z",
       "bundleId": "com.phs.global.ios"
     },
     {
