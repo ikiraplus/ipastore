@@ -17296,6 +17296,22 @@
       "bundleId": "com.samclothier.DEADfense",
       "addedAt": "2026-09-18T07:15:55.600Z",
       "updatedAt": "2026-09-18T07:16:25.409Z"
+    },
+    {
+      "id": "app-1789719413130",
+      "name": "Shadow Knight Ninja Games Rpg",
+      "version": "3.25.16",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-knight-ninja-games-rpg_3.25.16-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/fa/46/eefa4602-e662-6f57-33bd-d9388a8a31b5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "879.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.fansipan.stickman.fight.shadow.knight",
+      "addedAt": "2026-09-18T08:16:53.130Z",
+      "updatedAt": "2026-09-18T08:16:55.271Z"
     }
   ]
 }
