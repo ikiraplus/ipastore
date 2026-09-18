@@ -17055,6 +17055,22 @@
       "bundleId": "com.storm8.hdpropertybrothers",
       "addedAt": "2026-09-18T06:55:37.990Z",
       "updatedAt": "2026-09-18T06:55:40.449Z"
+    },
+    {
+      "id": "app-1789715023800",
+      "name": "Idle Pet Shelter",
+      "version": "1.41.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-pet-shelter_1.41.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/3c/57/a23c576f-9292-cf84-751c-218779dd2f83/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "570.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.outloud.petshelter",
+      "addedAt": "2026-09-18T07:03:43.800Z",
+      "updatedAt": "2026-09-18T07:03:46.743Z"
     }
   ]
 }
