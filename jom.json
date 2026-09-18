@@ -17567,6 +17567,22 @@
       "bundleId": "org.reactjs.native.example.FluentAI",
       "addedAt": "2026-09-18T19:59:17.797Z",
       "updatedAt": "2026-09-18T19:59:19.905Z"
+    },
+    {
+      "id": "app-1789761644401",
+      "name": "Chapters Interactive Stories",
+      "version": "12.53",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chapters-interactive-stories_12.53",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2a/e1/5a2ae1fa-2b14-b1e0-5935-88ad5a93a683/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "265.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mars.avgchapters",
+      "addedAt": "2026-09-18T20:00:44.401Z",
+      "updatedAt": "2026-09-18T20:00:45.409Z"
     }
   ]
 }
