@@ -1535,19 +1535,24 @@
     {
       "id": "dylib-1789407153138",
       "name": "FBPLUS Tweak",
-      "version": "1.0",
+      "version": "1.0.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/FBPLUS-1.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/FacebookPlus-1.0.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/1d/be/5e1dbe24-886f-0e03-0874-2b7c2fdfd594/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
-      "previousVersions": [],
-      "size": "0.3 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/FBPLUS-1.0",
+          "version": "1.0"
+        }
+      ],
+      "size": "0.4 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "bundleId": "",
       "addedAt": "2026-09-14T17:32:33.138Z",
-      "updatedAt": "2026-09-14T17:32:33.859Z"
+      "updatedAt": "2026-09-18T08:38:10.093Z"
     }
   ]
 }
