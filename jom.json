@@ -17419,6 +17419,22 @@
       "bundleId": "com.liwei.m3m1us",
       "addedAt": "2026-09-18T08:34:52.175Z",
       "updatedAt": "2026-09-18T08:34:56.886Z"
+    },
+    {
+      "id": "app-1789720632849",
+      "name": "Teeny Titans 2",
+      "version": "1.1.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/teeny-titans-2-v1.1.8",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-rV1JgoIiO4-ZPH-fKn33Fne7A3ygss0xx5ywVBlAlg&s",
+      "previousVersions": [],
+      "size": "511.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "",
+      "addedAt": "2026-09-18T08:37:12.849Z",
+      "updatedAt": "2026-09-18T08:37:16.629Z"
     }
   ]
 }
