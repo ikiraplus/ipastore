@@ -17583,6 +17583,22 @@
       "bundleId": "com.mars.avgchapters",
       "addedAt": "2026-09-18T20:00:44.401Z",
       "updatedAt": "2026-09-18T20:00:45.409Z"
+    },
+    {
+      "id": "app-1789761703095",
+      "name": "Rellionnpc Survival",
+      "version": "1.48.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rellionnpc-survival_1.48.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/02/30/f6023079-4a3c-cea0-f746-591d9e12f5f0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1285.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.daerigame.rellion",
+      "addedAt": "2026-09-18T20:01:43.095Z",
+      "updatedAt": "2026-09-18T20:01:49.295Z"
     }
   ]
 }
