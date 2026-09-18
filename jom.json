@@ -17531,6 +17531,22 @@
       "bundleId": "jp.pjfbgl",
       "addedAt": "2026-09-18T19:56:14.341Z",
       "updatedAt": "2026-09-18T19:56:21.761Z"
+    },
+    {
+      "id": "app-1789761439540",
+      "name": "Twisted Tangle",
+      "version": "2.14.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/twisted-tangle_2.14.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/88/ac/c788aca9-34b4-c141-1ee4-517bfa908ff7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "406.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.crescivegames.twistedtangle",
+      "addedAt": "2026-09-18T19:57:19.540Z",
+      "updatedAt": "2026-09-18T19:57:21.650Z"
     }
   ]
 }
