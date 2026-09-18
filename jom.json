@@ -17467,6 +17467,22 @@
       "bundleId": "com.charadesapp.geeksjo",
       "addedAt": "2026-09-18T19:51:55.963Z",
       "updatedAt": "2026-09-18T19:51:58.215Z"
+    },
+    {
+      "id": "app-1789761159345",
+      "name": "Legendof Survivors",
+      "version": "2.0.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/legendof-survivors_2.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/a5/af/7fa5af2b-2460-edb4-82fc-25788acd06a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "721.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.abi.legendofsurvivors",
+      "addedAt": "2026-09-18T19:52:39.345Z",
+      "updatedAt": "2026-09-18T19:52:45.168Z"
     }
   ]
 }
