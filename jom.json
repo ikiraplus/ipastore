@@ -2030,15 +2030,23 @@
     {
       "id": "APP-1153374992",
       "name": "Candy Crush Saga",
-      "version": "1.324.3",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/candy-crush-saga-1",
+      "version": "4.16.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/candy-crush-jelly-saga_4.16.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/8c/80/3d8c80f1-43b4-b7d7-c365-c60742adbedf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "114.7 MB",
+      "size": "346.3 MB",
       "note": "تطبيق معدل من iosgods",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-08-24T06:23:01.586Z",
-      "bundleId": "com.midasplayer.apps.candycrushsaga"
+      "updatedAt": "2026-09-18T07:00:53.334Z",
+      "bundleId": "com.midasplayer.apps.candycrushsaga",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/candy-crush-saga-1",
+          "version": "1.324.3"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-6512129245",
