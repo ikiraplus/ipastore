@@ -17207,6 +17207,22 @@
       "bundleId": "com.playgendary.bowmasters",
       "addedAt": "2026-09-18T07:10:07.342Z",
       "updatedAt": "2026-09-18T07:10:09.320Z"
+    },
+    {
+      "id": "app-1789715465654",
+      "name": "Shiba Story Go! RPG Idle Game",
+      "version": "1.41.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shiba-story-go-1.41.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/23/27/622327fc-266a-c175-3655-0937d885e8ca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "799.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.proofofplay.shibastorygo",
+      "addedAt": "2026-09-18T07:11:05.654Z",
+      "updatedAt": "2026-09-18T07:11:09.999Z"
     }
   ]
 }
