@@ -17007,6 +17007,22 @@
       "bundleId": "com.project.idle.cd",
       "addedAt": "2026-09-18T06:53:53.741Z",
       "updatedAt": "2026-09-18T06:53:55.946Z"
+    },
+    {
+      "id": "app-1789714483609",
+      "name": "Grand Mountain Adventure 2",
+      "version": "1.080",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/grand-mountain-adventure-2-v1.080",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/5f/c6/0f5fc636-2eb4-bf2f-7c05-11ef08bf9da7/AppIcon1-0-0-1x_U007epad-0-1-GLES2_U002c0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "332.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.toppluva.grandmountain2",
+      "addedAt": "2026-09-18T06:54:43.609Z",
+      "updatedAt": "2026-09-18T06:54:50.843Z"
     }
   ]
 }
