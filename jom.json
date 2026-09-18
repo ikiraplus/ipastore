@@ -17023,6 +17023,22 @@
       "bundleId": "com.toppluva.grandmountain2",
       "addedAt": "2026-09-18T06:54:43.609Z",
       "updatedAt": "2026-09-18T06:54:50.843Z"
+    },
+    {
+      "id": "app-1789714537990",
+      "name": "Property Brothers Home Design",
+      "version": "3.9.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/property-brothers-home-design_3.9.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/03/09/b7030939-788d-c6d4-92a4-4d9ed884b8e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "393.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.storm8.hdpropertybrothers",
+      "addedAt": "2026-09-18T06:55:37.990Z",
+      "updatedAt": "2026-09-18T06:55:40.449Z"
     }
   ]
 }
