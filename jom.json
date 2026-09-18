@@ -146,23 +146,23 @@
     {
       "id": "APP-4229526127",
       "name": "بيكرام",
-      "version": "444.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/beegram_444.0.0-v3.1",
+      "version": "447.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/beegram_447.0.0",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773402346513.png",
-      "size": "274.1 MB",
+      "size": "289.1 MB",
       "note": "",
       "category": "تواصل",
       "addedAt": "2026-04-08",
-      "updatedAt": "2026-08-29T20:18:17.815Z",
-      "toolVersion": "3.1",
+      "updatedAt": "2026-09-18T08:26:48.052Z",
+      "toolVersion": "3.2",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/beegram_444.0.0-v3.1",
+          "version": "444.0.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/beegram_2.8",
           "version": "438.0.0"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/beegram_437.1.0",
-          "version": "437.1.0"
         }
       ],
       "recommended": false,
