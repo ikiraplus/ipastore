@@ -17647,6 +17647,22 @@
       "bundleId": "com.wildbeep.dribblehoops",
       "addedAt": "2026-09-18T20:03:57.892Z",
       "updatedAt": "2026-09-18T20:04:03.580Z"
+    },
+    {
+      "id": "app-1789761872252",
+      "name": "Pizza Ready",
+      "version": "59.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pizza-ready_59.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/84/c0/7484c067-1acd-7712-4865-82b24d9a36a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "364.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "io.supercent.pizzaidle",
+      "addedAt": "2026-09-18T20:04:32.252Z",
+      "updatedAt": "2026-09-18T20:04:33.875Z"
     }
   ]
 }
