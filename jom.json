@@ -17547,6 +17547,22 @@
       "bundleId": "com.crescivegames.twistedtangle",
       "addedAt": "2026-09-18T19:57:19.540Z",
       "updatedAt": "2026-09-18T19:57:21.650Z"
+    },
+    {
+      "id": "app-1789761557797",
+      "name": "Fluent Pal Get fluent faster",
+      "version": "3.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fluent-pal-getfluentfaster_3.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/9b/75/e19b7517-0a01-a6ad-dd88-1cc9087689b6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "132.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "org.reactjs.native.example.FluentAI",
+      "addedAt": "2026-09-18T19:59:17.797Z",
+      "updatedAt": "2026-09-18T19:59:19.905Z"
     }
   ]
 }
