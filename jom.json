@@ -17243,6 +17243,22 @@
       "bundleId": "com.pastry.paradise.cooking.restaurant",
       "addedAt": "2026-09-18T07:12:52.158Z",
       "updatedAt": "2026-09-18T07:12:53.998Z"
+    },
+    {
+      "id": "app-1789715666642",
+      "name": "Elite Auto Brasil : Moto Grau",
+      "version": "0.99",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elite-auto-brasil-0.99",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/73/44/d4734486-fe19-fc9d-b453-2220342fa031/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "408.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.SoltyGames.EliteAutoBrasil",
+      "addedAt": "2026-09-18T07:14:26.643Z",
+      "updatedAt": "2026-09-18T07:14:28.726Z"
     }
   ]
 }
