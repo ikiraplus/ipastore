@@ -8122,17 +8122,22 @@
     {
       "id": "APP-1465370321",
       "name": "Crossy Road",
-      "version": "7.13",
+      "version": "7.13.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crossy-road",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/41/82/54418242-1b2a-46ff-cb3b-db0588da2015/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "136.3 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crossy-road_7.13.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/f6/1c/14f61c0e-903e-976d-fc73-72fa6d99d4c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crossy-road",
+          "version": "7.13"
+        }
+      ],
+      "size": "275.9 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:10:46.803Z",
-      "updatedAt": "2026-08-24T06:44:20.887Z",
+      "updatedAt": "2026-09-18T07:07:25.186Z",
       "bundleId": "com.hipsterwhale.crossy"
     },
     {
