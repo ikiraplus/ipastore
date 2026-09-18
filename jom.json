@@ -17382,6 +17382,22 @@
       "bundleId": "com.noodlecake.flickshotrogues",
       "addedAt": "2026-09-18T08:22:38.848Z",
       "updatedAt": "2026-09-18T08:22:46.133Z"
+    },
+    {
+      "id": "app-1789719956006",
+      "name": "Wrestling Manager: Dynasty",
+      "version": "1.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wrestling-manager-tycoon-1.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/40/b8/a540b849-252c-a207-0547-108a632949b3/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "238.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.n2pge.wm",
+      "addedAt": "2026-09-18T08:25:56.006Z",
+      "updatedAt": "2026-09-18T08:25:59.131Z"
     }
   ]
 }
