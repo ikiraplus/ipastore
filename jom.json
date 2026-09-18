@@ -17259,6 +17259,22 @@
       "bundleId": "com.SoltyGames.EliteAutoBrasil",
       "addedAt": "2026-09-18T07:14:26.643Z",
       "updatedAt": "2026-09-18T07:14:28.726Z"
+    },
+    {
+      "id": "app-1789715711722",
+      "name": "Dungeon Slasher: Action RPG",
+      "version": "0.774.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dungeonslasher-0.774.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/30/08/f43008a6-0179-2f14-13a9-510a833287c5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "510.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.nspgames.dungeonslasher",
+      "addedAt": "2026-09-18T07:15:11.722Z",
+      "updatedAt": "2026-09-18T07:15:19.471Z"
     }
   ]
 }
