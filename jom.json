@@ -17167,6 +17167,22 @@
       "bundleId": "com.maglickcoretech.screwsort3dnutsbolts",
       "addedAt": "2026-09-18T07:08:59.120Z",
       "updatedAt": "2026-09-18T07:09:01.745Z"
+    },
+    {
+      "id": "app-1789715367246",
+      "name": "Archer Castle Afk Idle Rpg",
+      "version": "1.13.54",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archer-castle-afk-idle-rpg_1.13.54",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/44/ed/db44ed48-0a7d-a9ce-b556-e52e21c0f951/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "620.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.springgames.archercastle",
+      "addedAt": "2026-09-18T07:09:27.246Z",
+      "updatedAt": "2026-09-18T07:09:29.871Z"
     }
   ]
 }
