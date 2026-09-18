@@ -8655,17 +8655,22 @@
     {
       "id": "APP-2331888918",
       "name": "Switching Heroes",
-      "version": "5.20",
+      "version": "5.40",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/switching-heroes-5.20",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/f1/3e/28f13e5a-59bf-22b2-a085-b67e32dd3fbb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "220.1 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/switching-heroes_5.40",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/fa/70/36fa705c-5da1-bebe-a82a-aa991500323f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/switching-heroes-5.20",
+          "version": "5.20"
+        }
+      ],
+      "size": "453.6 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:12:29.827Z",
-      "updatedAt": "2026-08-24T06:50:01.688Z",
+      "updatedAt": "2026-09-18T07:06:54.982Z",
       "bundleId": "com.zilliongames.collectionidle"
     },
     {
