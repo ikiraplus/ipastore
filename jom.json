@@ -17312,6 +17312,22 @@
       "bundleId": "com.fansipan.stickman.fight.shadow.knight",
       "addedAt": "2026-09-18T08:16:53.130Z",
       "updatedAt": "2026-09-18T08:16:55.271Z"
+    },
+    {
+      "id": "app-1789719443551",
+      "name": "Wizardry Variants Daphne",
+      "version": "1.37.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wizardry-variants-daphne_1.37.0-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/d2/a4/9dd2a449-1aa0-ea2d-55d5-36f2d378a52c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1827.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "jp.co.drecom.wizardry.daphne",
+      "addedAt": "2026-09-18T08:17:23.551Z",
+      "updatedAt": "2026-09-18T08:17:29.146Z"
     }
   ]
 }
