@@ -9719,17 +9719,22 @@
     {
       "id": "APP-2179948357",
       "name": "Tetris Block Party",
-      "version": "1.9.1",
+      "version": "1.10.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tetris-block-party-1.9.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tetris-block-party-1.10.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/06/d2/b306d2af-af1a-1314-8970-72ba4c086f93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "189.9 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tetris-block-party-1.9.1",
+          "version": "1.9.1"
+        }
+      ],
+      "size": "182.3 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:30:20.527Z",
-      "updatedAt": "2026-09-12T18:21:58.323Z",
+      "updatedAt": "2026-09-18T08:23:13.271Z",
       "bundleId": "com.playstudios.tetrisblockparty"
     },
     {
