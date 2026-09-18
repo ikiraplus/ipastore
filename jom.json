@@ -17119,6 +17119,22 @@
       "bundleId": "studio.gameberry.idlehunter",
       "addedAt": "2026-09-18T07:06:02.815Z",
       "updatedAt": "2026-09-18T07:06:04.754Z"
+    },
+    {
+      "id": "app-1789715270237",
+      "name": "Lilys Garden Match Design",
+      "version": "3.83.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lilys-garden-match-design_3.83.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/a4/c2/00a4c261-0da1-82aa-0b18-f9f5502ac34b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "437.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "dk.tactile.lilysgarden",
+      "addedAt": "2026-09-18T07:07:50.237Z",
+      "updatedAt": "2026-09-18T07:07:52.721Z"
     }
   ]
 }
