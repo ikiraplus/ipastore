@@ -3047,7 +3047,7 @@
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify_9.1.78_es",
       "icon": "https://raw.githubusercontent.com/iKiraPlus/ipastore/main/images/app-iosgods-eevee-spotify-4732.png",
       "size": "128.3 MB",
-      "note": "تفعيل ميزة Premium تلقائيا",
+      "note": "نسخة معدلة من Spotify تضيف العديد من مميزات Premium والخصائص الإضافية:\n- تفعيل تجربة الاستماع بمميزات Premium.\n- تحسين حظر الإعلانات.\n- دعم كلمات الأغاني المخصصة من عدة مصادر.\n- إضافة True Shuffle لتحسين التشغيل العشوائي.\n- إمكانية تغيير أيقونة التطبيق.\n- دعم SponsorBlock.\n- إظهار الأغاني والمسارات المعجب بها في صفحات الفنانين بطريقة مشابهة لـ Premium.\n- دعم CarPlay عند توفر الصلاحيات المطلوبة في الشهادة.",
       "category": "ترفيه",
       "addedAt": "2026-03-29",
       "toolVersion": "",
@@ -10044,7 +10044,7 @@
         }
       ],
       "size": "111.1 MB",
-      "note": "",
+      "note": "نسخة معدلة من Discord تضيف العديد من المميزات وخيارات التخصيص:\n- دعم الإضافات Plugins والتحكم بها.\n- دعم الثيمات وتخصيص مظهر Discord.\n- إضافة Fake Nitro وبعض خصائص Nitro المعدلة.\n- خيارات إضافية لتخصيص واجهة التطبيق.\n- حظر تحليلات Discord وتقارير الأعطال افتراضياً.\n- إعدادات وخيارات إضافية مدمجة داخل Discord.",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-27T16:43:48.318Z",
