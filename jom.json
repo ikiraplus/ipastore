@@ -345,19 +345,6 @@
       "bundleId": "com.seastar.turrit"
     },
     {
-      "id": "APP-6790022255",
-      "name": "Tiktok LRD",
-      "version": "43.4.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/tiktok.lrd-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/ab/60/54ab609e-017b-5ad4-2d0b-3f866fcca926/AppIcon_TikTok-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "344.8 MB",
-      "note": "اضغط على أيقونة Home ضغطة طويلة لفتح المميزات",
-      "category": "تواصل",
-      "addedAt": "2026-03-14",
-      "bundleId": "com.tiktoklrd.ikiraplus",
-      "updatedAt": "2026-08-23T19:29:55.663Z"
-    },
-    {
       "id": "APP-2917056510",
       "name": "TikTok ASD-RUST",
       "version": "46.7.0",
@@ -2943,19 +2930,6 @@
       "bundleId": "com.google.ios.youtube"
     },
     {
-      "id": "APP-6939424164",
-      "name": "Youtube LRD",
-      "version": "20.50.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-lrd-20.50.9-",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777315219858.png",
-      "size": "124.1 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-04-27T18:40:21.634Z",
-      "updatedAt": "2026-08-24T06:23:46.085Z",
-      "bundleId": "com.google.ios.youtube"
-    },
-    {
       "id": "APP-9671115866",
       "name": "سينمانا X لكل الشبكات",
       "version": "4.1.0",
@@ -3172,19 +3146,6 @@
       "category": "تواصل",
       "addedAt": "2026-05-08T16:07:33.061Z",
       "updatedAt": "2026-08-24T08:29:44.279Z",
-      "bundleId": "com.zhiliaoapp.musically"
-    },
-    {
-      "id": "APP-3158520556",
-      "name": "TikTok RX",
-      "version": "43.9.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rxtiktok-43.9.0",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/4f/22/e24f22d8-3570-89bd-8acb-4ff7be733411/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "344.7 MB",
-      "note": "",
-      "category": "تواصل",
-      "addedAt": "2026-05-08T16:09:27.723Z",
-      "updatedAt": "2026-08-24T06:53:27.329Z",
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
