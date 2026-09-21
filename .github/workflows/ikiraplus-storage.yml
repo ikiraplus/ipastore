@@ -132,18 +132,29 @@ jobs:
               # يظهر Content-Length لكن يبقى 0 بايت ثم curl (92) INTERNAL_ERROR.
               # نجبر HTTP/1.1 ونفشل بسرعة إذا لم يبدأ النقل بدل انتظار قرابة دقيقة لكل retry.
               h = host_of(url)
-              if h == "streamvaultpro.cc" or h.endswith(".streamvaultpro.cc"):
+              original_h = host_of(original_url)
+              is_streamvault_source = (
+                  original_h == "streamvaultpro.cc" or
+                  original_h.endswith(".streamvaultpro.cc")
+              )
+              is_streamvault_request = (
+                  h == "streamvaultpro.cc" or
+                  h.endswith(".streamvaultpro.cc") or
+                  (is_streamvault_source and url == proxy_url)
+              )
+
+              if is_streamvault_request:
                   cmd += [
                       "--http1.1",
                       "--connect-timeout", "8",
                       "--max-time", "180",
-                      "--speed-limit", "65536",
-                      "--speed-time", "8",
+                      "--speed-limit", "32768",
+                      "--speed-time", "12",
                       "--retry", "1",
                       "--retry-delay", "0",
-                      "--retry-max-time", "30",
+                      "--retry-max-time", "45",
                   ]
-                  print("StreamVault fast path: HTTP/1.1 + fast-stall fallback")
+                  print("StreamVault guarded path: HTTP/1.1 + anti-stall timeout")
 
               cmd.append(url)
               print("Downloading from:", host_of(url) or url)
