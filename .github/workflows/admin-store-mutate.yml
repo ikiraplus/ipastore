@@ -39,20 +39,21 @@ jobs:
           if not request_id:
               raise SystemExit("requestId is required")
 
-          results = root / "admin-results"
-          results.mkdir(exist_ok=True)
-          result_path = results / f"{request_id}.json"
+          results_path = root / "admin-results.json"
+          try:
+              results_doc = json.loads(results_path.read_text(encoding="utf-8")) if results_path.exists() else {"results": []}
+          except Exception:
+              results_doc = {"results": []}
+          if not isinstance(results_doc, dict):
+              results_doc = {"results": []}
+          result_rows = results_doc.get("results")
+          if not isinstance(result_rows, list):
+              result_rows = []
 
-          if result_path.exists():
-              try:
-                  prior = json.loads(result_path.read_text(encoding="utf-8"))
-                  if prior.get("status") == "ok":
-                      print("Request already applied:", request_id)
-                      raise SystemExit(0)
-              except SystemExit:
-                  raise
-              except Exception:
-                  pass
+          prior = next((row for row in result_rows if row.get("requestId") == request_id), None)
+          if prior and prior.get("status") == "ok":
+              print("Request already applied:", request_id)
+              raise SystemExit(0)
 
           def clean(item):
               value = dict(item or {})
@@ -245,20 +246,20 @@ jobs:
                   "finishedAt": dt.datetime.now(dt.timezone.utc).isoformat()
               }
 
-          result_path.write_text(
-              json.dumps(result, ensure_ascii=False, separators=(",", ":")),
+          # ملف واحد فقط لنتائج آخر 25 عملية.
+          result_rows = [row for row in result_rows if row.get("requestId") != request_id]
+          result_rows.append(result)
+          result_rows = result_rows[-25:]
+          results_path.write_text(
+              json.dumps({"results": result_rows}, ensure_ascii=False, separators=(",", ":")) + "\n",
               encoding="utf-8"
           )
-
-          old_results = sorted(results.glob("*.json"), key=lambda p: p.name)
-          for old in old_results[:-50]:
-              old.unlink(missing_ok=True)
 
       - name: Commit mutation and result
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jom.json deb.json chunks admin-results 2>/dev/null || true
+          git add jom.json deb.json chunks admin-results.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
             exit 0
