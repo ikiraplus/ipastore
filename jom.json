@@ -30,29 +30,29 @@
       "hidden": true
     },
     {
-      "id": "APP-9268555834",
-      "name": "ريكرام",
-      "version": "445.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/regram-445.0.0-cracked",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773401165477.png",
-      "size": "333.3 MB",
-      "note": "لتفعيل مميزات التطبيق:\n- قم بتغيير لغة التطبيق من الإنكليزية إلى العربية أو العكس\n\nمميزات التطبيق:\n- وضع الشبح للرسائل والقصص والملاحظات.\n- الاحتفاظ بالرسائل المحذوفة.\n- تنزيل المحتوى مباشرة من Instagram.\n- رفع المقاطع الصوتية من الملفات أو مقاطع الفيديو.\n- نسخ اسم المستخدم والتعليق والنبذة والاسم.\n- تنزيل الوسائط المعروضة لمرة واحدة.\n- تنزيل الرسائل الصوتية.\n- إظهار الإشارات المخفية.\n- عرض الوسائط المعروضة لمرة واحدة من دون قيود.\n- إزالة إعلانات Instagram.\n- دعم التعليق من خلال روابط GIF.",
-      "category": "تواصل",
       "addedAt": "2026-04-05",
-      "updatedAt": "2026-09-06T09:37:42.778Z",
-      "toolVersion": "6.0.1",
+      "bundleId": "com.burbn.instagram",
+      "category": "تواصل",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773401165477.png",
+      "id": "APP-9268555834",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/regramcracked-447.0.0-v6.1",
+      "name": "ريكرام",
+      "note": "لتفعيل مميزات التطبيق:\n- قم بتغيير لغة التطبيق من الإنكليزية إلى العربية أو العكس\n\nمميزات التطبيق:\n- وضع الشبح للرسائل والقصص والملاحظات.\n- الاحتفاظ بالرسائل المحذوفة.\n- تنزيل المحتوى مباشرة من Instagram.\n- رفع المقاطع الصوتية من الملفات أو مقاطع الفيديو.\n- نسخ اسم المستخدم والتعليق والنبذة والاسم.\n- تنزيل الوسائط المعروضة لمرة واحدة.\n- تنزيل الرسائل الصوتية.\n- إظهار الإشارات المخفية.\n- عرض الوسائط المعروضة لمرة واحدة من دون قيود.\n- إزالة إعلانات Instagram.\n- دعم التعليق من خلال روابط GIF.",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/regram-445.0.0-cracked",
+          "version": "445.0.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagramregram_v445.0.0",
           "version": "442.0.0"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instagram-435-regram5.1_patch",
-          "version": "436.0.0"
         }
       ],
       "recommended": true,
-      "bundleId": "com.burbn.instagram"
+      "size": "",
+      "toolVersion": "6.1.0",
+      "updatedAt": "2026-09-21T17:06:51.474Z",
+      "version": "447.0.0"
     },
     {
       "id": "APP-5004072877",
