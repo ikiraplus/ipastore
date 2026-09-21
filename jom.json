@@ -17675,6 +17675,22 @@
       "toolVersion": "",
       "updatedAt": "2026-09-21T16:38:02.586Z",
       "version": "3.0.1"
+    },
+    {
+      "addedAt": "2026-09-21T16:38:59.836Z",
+      "bundleId": "com.modern.battlefield.worldwar.rules.fps.shooting",
+      "category": "ألعاب",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/46/b7/b346b7eb-1b9c-e801-ea19-4635bf69fe04/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "id": "app-1790008739836",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rules-of-battlefield-3d-fps_2.0",
+      "name": "Rules Of Battlefield 3d Fps",
+      "note": "",
+      "previousVersions": [],
+      "recommended": false,
+      "size": "804.0 MB",
+      "toolVersion": "",
+      "updatedAt": "2026-09-21T16:38:59.846Z",
+      "version": "2.0"
     }
   ]
 }
