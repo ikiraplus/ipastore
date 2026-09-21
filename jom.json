@@ -2820,16 +2820,24 @@
     },
     {
       "id": "APP-4434364724",
-      "name": "airport city",
-      "version": "8.47.03",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/airport-city-[8.47.03]",
+      "name": "Airport City",
+      "version": "8.51.00",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/airport-city-8.51.00",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/fa/46/8ffa4674-ce86-4f34-6467-b76ba8c5dafc/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-      "size": "252.8 MB",
+      "size": "225.3 MB",
       "note": "مميزات اللعبة:\n- عملات غير محدودة عند الكسب أو الإنفاق.\n- إمكانية استخدام Sky Coins للحصول على النقود.",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:28:44.610Z",
-      "updatedAt": "2026-08-24T08:28:59.976Z",
-      "bundleId": "com.gameinsight.airportcity"
+      "updatedAt": "2026-09-21T20:31:33.506Z",
+      "bundleId": "com.gameinsight.airportcity",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/airport-city-[8.47.03]",
+          "version": "8.47.03"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-1850094110",
