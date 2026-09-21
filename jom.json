@@ -17643,6 +17643,22 @@
       "toolVersion": "",
       "updatedAt": "2026-09-21T16:37:06.412Z",
       "version": "4.6.0"
+    },
+    {
+      "addedAt": "2026-09-21T16:37:28.271Z",
+      "bundleId": "com.horusent.airplane.manager.tycoon",
+      "category": "ألعاب",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/9a/3e/e89a3eec-8252-a04e-f0f1-f360f8e89830/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "id": "app-1790008648271",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/airplane-manager-tycoon-empire_0.1.6",
+      "name": "Airplane Manager Tycoon Empire",
+      "note": "",
+      "previousVersions": [],
+      "recommended": false,
+      "size": "354.6 MB",
+      "toolVersion": "",
+      "updatedAt": "2026-09-21T16:37:28.279Z",
+      "version": "0.1.6"
     }
   ]
 }
