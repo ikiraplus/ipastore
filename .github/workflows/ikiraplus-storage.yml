@@ -144,17 +144,33 @@ jobs:
               )
 
               if is_streamvault_request:
-                  cmd += [
-                      "--http1.1",
-                      "--connect-timeout", "8",
-                      "--max-time", "180",
-                      "--speed-limit", "32768",
-                      "--speed-time", "12",
-                      "--retry", "1",
-                      "--retry-delay", "0",
-                      "--retry-max-time", "45",
-                  ]
-                  print("StreamVault guarded path: HTTP/1.1 + anti-stall timeout")
+                  is_dylib = asset_name.lower().endswith(".dylib")
+                  if is_dylib:
+                      # ملفات dylib صغيرة عادةً؛ لا نسمح لاتصال 2-3 MB أن يظل معلقاً لدقائق.
+                      cmd += [
+                          "--http1.1",
+                          "--no-keepalive",
+                          "--connect-timeout", "6",
+                          "--max-time", "60",
+                          "--speed-limit", "8192",
+                          "--speed-time", "8",
+                          "--retry", "1",
+                          "--retry-delay", "0",
+                          "--retry-max-time", "20",
+                      ]
+                      print("StreamVault dylib guarded path: fast HTTP/1.1 anti-stall")
+                  else:
+                      cmd += [
+                          "--http1.1",
+                          "--connect-timeout", "8",
+                          "--max-time", "180",
+                          "--speed-limit", "32768",
+                          "--speed-time", "12",
+                          "--retry", "1",
+                          "--retry-delay", "0",
+                          "--retry-max-time", "45",
+                      ]
+                      print("StreamVault guarded path: HTTP/1.1 + anti-stall timeout")
 
               cmd.append(url)
               print("Downloading from:", host_of(url) or url)
@@ -361,14 +377,26 @@ jobs:
               print("IPAOMTK anti-hotlink strategy")
               ok = download_ipaomtk(original_url)
           elif host_of(original_url) == "streamvaultpro.cc" or host_of(original_url).endswith(".streamvaultpro.cc"):
-              # GitHub-hosted runners يحصل عندها stall متكرر مع StreamVault حتى للملفات الصغيرة.
-              # نخلي Cloudflare Worker هو المسار الأول لأنه يثبت الاتصال مع المصدر،
-              # والمصدر المباشر يبقى fallback فقط.
-              print("StreamVault proxy-first strategy")
-              ok = try_download(proxy_url)
-              if not ok:
-                  print("iKiraPlus proxy failed; trying StreamVault directly as fallback.")
-                  ok = try_download(original_url)
+              if asset_name.lower().endswith(".dylib"):
+                  # StreamVault أحياناً يعلق عند تنزيل dylib كامل رغم صغر حجمه.
+                  # Range: bytes=0- يجبر مسار byte-range، والـWorker يمرر Range للمصدر.
+                  print("StreamVault dylib range-first strategy")
+                  range_headers = ["Range: bytes=0-", "Connection: close"]
+                  ok = try_download(proxy_url, extra_headers=range_headers)
+                  if not ok:
+                      print("Worker range path failed; trying direct StreamVault range.")
+                      ok = try_download(original_url, extra_headers=range_headers)
+                  if not ok:
+                      print("Range paths failed; trying normal Worker download once.")
+                      ok = try_download(proxy_url)
+              else:
+                  # GitHub-hosted runners يحصل عندها stall متكرر مع StreamVault.
+                  # نخلي Cloudflare Worker هو المسار الأول، والمصدر المباشر fallback.
+                  print("StreamVault proxy-first strategy")
+                  ok = try_download(proxy_url)
+                  if not ok:
+                      print("iKiraPlus proxy failed; trying StreamVault directly as fallback.")
+                      ok = try_download(original_url)
           else:
               # أسرع مسار: GitHub يحمل المصدر مباشرة بدون hop إضافي عبر Worker.
               print("Direct-first strategy")
