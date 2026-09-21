@@ -1460,7 +1460,7 @@
       "name": "ASJ Tweak",
       "version": "1.2.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ASJTikTok-1.2.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ASJTikTok_1.2.1",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/d1/ea/d0d1eae0-540c-2a47-7977-6edd9f1898e3/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "fileType": "dylib",
       "previousVersions": [
@@ -1479,7 +1479,7 @@
       "recommended": true,
       "bundleId": "",
       "addedAt": "2026-09-06T10:57:49.638Z",
-      "updatedAt": "2026-09-21T20:42:00.730Z"
+      "updatedAt": "2026-09-21T22:06:25.303Z"
     },
     {
       "id": "dylib-1788716499972",
