@@ -1,9 +1,12 @@
 name: Admin Store Mutator
-run-name: "Admin store • ${{ github.event.client_payload.requestId }}"
+run-name: "Admin queue • ${{ github.event.head_commit.message || 'manual run' }}"
 
 on:
-  repository_dispatch:
-    types: [admin_store_mutate]
+  push:
+    branches: [main]
+    paths:
+      - 'admin-commands/*.json'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,22 +25,23 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Apply requested store change
+      - name: Apply all queued admin commands
         shell: python
         run: |
           import datetime as dt
+          import glob
           import hashlib
           import json
-          import os
           import pathlib
           import shutil
 
           root = pathlib.Path(".")
-          event = json.loads(pathlib.Path(os.environ["GITHUB_EVENT_PATH"]).read_text(encoding="utf-8"))
-          cmd = (event.get("client_payload") or {}).get("command") or {}
-          request_id = str(cmd.get("requestId") or "").strip()
-          if not request_id:
-              raise SystemExit("requestId is required")
+          command_paths = [pathlib.Path(p) for p in sorted(glob.glob("admin-commands/*.json"))]
+
+          if not command_paths:
+              print("No queued admin commands.")
+              pathlib.Path(".admin-commit-message").write_text("Admin queue: no changes [skip ci]", encoding="utf-8")
+              raise SystemExit(0)
 
           results_path = root / "admin-results.json"
           try:
@@ -50,11 +54,6 @@ jobs:
           if not isinstance(result_rows, list):
               result_rows = []
 
-          prior = next((row for row in result_rows if row.get("requestId") == request_id), None)
-          if prior and prior.get("status") == "ok":
-              print("Request already applied:", request_id)
-              raise SystemExit(0)
-
           def clean(item):
               value = dict(item or {})
               value.pop("_storage", None)
@@ -64,24 +63,31 @@ jobs:
           def canon(item):
               return json.dumps(clean(item), ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
+          stores = {}
+
           def load_store(storage):
+              storage = "deb" if storage == "deb" else "jom"
+              if storage in stores:
+                  return stores[storage]
+
               path = root / ("deb.json" if storage == "deb" else "jom.json")
               data = json.loads(path.read_text(encoding="utf-8"))
               if isinstance(data, list):
-                  return path, data, None, data
-              if isinstance(data, dict) and isinstance(data.get("apps"), list):
-                  return path, data, "apps", data["apps"]
-              if isinstance(data, dict) and isinstance(data.get("dylibs"), list):
-                  return path, data, "dylibs", data["dylibs"]
-              raise RuntimeError(f"{path.name}: apps/dylibs array not found")
-
-          def save_store(path, root_obj, key, items):
-              cleaned = [clean(x) for x in items]
-              if key is None:
-                  payload = cleaned
+                  entry = [path, data, None, data]
+              elif isinstance(data, dict) and isinstance(data.get("apps"), list):
+                  entry = [path, data, "apps", data["apps"]]
+              elif isinstance(data, dict) and isinstance(data.get("dylibs"), list):
+                  entry = [path, data, "dylibs", data["dylibs"]]
               else:
-                  payload = dict(root_obj)
-                  payload[key] = cleaned
+                  raise RuntimeError(f"{path.name}: apps/dylibs array not found")
+
+              stores[storage] = entry
+              return entry
+
+          def save_store(storage):
+              path, root_obj, key, items = stores[storage]
+              cleaned = [clean(x) for x in items]
+              payload = cleaned if key is None else {**root_obj, key: cleaned}
               path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
           def find_index(items, match):
@@ -117,153 +123,252 @@ jobs:
                       return False
               return True
 
-          op = str(cmd.get("op") or "").strip()
-          storage = "deb" if cmd.get("storage") == "deb" else "jom"
-          app_name = str(cmd.get("appName") or "")
-          changed = False
-          message = ""
-
-          try:
-              path, store_root, key, items = load_store(storage)
-
+          def op_label(cmd):
+              op = str(cmd.get("op") or "")
               if op == "add":
-                  item = clean(cmd.get("item"))
-                  if not item:
-                      raise RuntimeError("missing item")
-                  item_id = str(item.get("id") or "")
-                  same = [i for i, x in enumerate(items) if item_id and str(x.get("id") or "") == item_id]
-                  if len(same) == 1:
-                      items[same[0]] = item
-                  elif len(same) > 1:
-                      exact = [i for i in same if canon(items[i]) == canon(item)]
-                      if len(exact) != 1:
-                          raise RuntimeError("duplicate ID is ambiguous")
-                  else:
-                      items.append(item)
-                  changed = True
-                  message = f"Added {app_name or item.get('name') or item_id}"
+                  return "Add"
+              if op == "update":
+                  return "Update"
+              if op == "delete":
+                  return "Delete"
+              if op == "setHidden":
+                  return "Hide" if cmd.get("hidden") else "Show"
+              if op == "reorderCategory":
+                  return "Reorder"
+              return op or "Change"
 
-              elif op == "update":
-                  idx = find_index(items, cmd.get("match"))
-                  current = clean(items[idx])
-                  replacement = clean(cmd.get("item"))
-                  if current.get("addedAt"):
-                      replacement["addedAt"] = current["addedAt"]
-                  items[idx] = replacement
-                  changed = True
-                  message = f"Updated {app_name or replacement.get('name') or replacement.get('id')}"
+          changed_storages = set()
+          processed = []
+          command_summaries = []
 
-              elif op == "delete":
-                  idx = find_index(items, cmd.get("match"))
-                  removed = items.pop(idx)
-                  changed = True
-                  message = f"Deleted {app_name or removed.get('name') or removed.get('id')}"
+          for command_path in command_paths:
+              try:
+                  cmd = json.loads(command_path.read_text(encoding="utf-8"))
+              except Exception as exc:
+                  print(f"Invalid command file {command_path}: {exc}")
+                  command_path.unlink(missing_ok=True)
+                  continue
 
-              elif op == "setHidden":
-                  idx = find_index(items, cmd.get("match"))
-                  items[idx]["hidden"] = bool(cmd.get("hidden"))
-                  changed = True
-                  message = ("Hidden " if cmd.get("hidden") else "Shown ") + str(
-                      app_name or items[idx].get("name") or items[idx].get("id")
-                  )
+              request_id = str(cmd.get("requestId") or "").strip()
+              op = str(cmd.get("op") or "").strip()
+              storage = "deb" if cmd.get("storage") == "deb" else "jom"
+              app_name = str(cmd.get("appName") or "").strip() or str(cmd.get("category") or "").strip() or "Unknown"
+              label = op_label(cmd)
 
-              elif op == "reorderCategory":
-                  category = str(cmd.get("category") or "")
-                  order = cmd.get("order")
-                  if not category or not isinstance(order, list):
-                      raise RuntimeError("invalid reorder command")
-                  slots = [i for i, x in enumerate(items) if str(x.get("category") or "أخرى") == category]
-                  members = [items[i] for i in slots]
-                  used = set()
-                  ordered = []
-                  for ident in order:
-                      matches = [n for n, x in enumerate(members) if n not in used and identity_matches(x, ident)]
-                      if len(matches) != 1:
-                          raise RuntimeError("reorder target could not be identified uniquely")
-                      used.add(matches[0])
-                      ordered.append(members[matches[0]])
-                  ordered.extend(x for n, x in enumerate(members) if n not in used)
-                  for slot, item in zip(slots, ordered):
-                      items[slot] = item
-                  changed = True
-                  message = f"Reordered {category}"
-
-              else:
-                  raise RuntimeError(f"unsupported operation: {op}")
-
-              if changed:
-                  save_store(path, store_root, key, items)
-
-              if changed and storage == "jom":
-                  source = root / "jom.json"
-                  data = json.loads(source.read_text(encoding="utf-8"))
-                  apps = data.get("apps", []) if isinstance(data, dict) else data
-                  out = root / "chunks"
-                  if out.exists():
-                      shutil.rmtree(out)
-                  out.mkdir(parents=True, exist_ok=True)
-                  chunk_size = 100
-                  chunk_rows = []
-                  for index, start in enumerate(range(0, len(apps), chunk_size), 1):
-                      part = apps[start:start + chunk_size]
-                      filename = f"apps-{index:03d}.json"
-                      (out / filename).write_text(
-                          json.dumps({"apps": part}, ensure_ascii=False, separators=(",", ":")),
-                          encoding="utf-8"
-                      )
-                      chunk_rows.append({"file": filename, "start": start, "count": len(part)})
-                  manifest = {
-                      "version": 1,
-                      "source": "jom.json",
-                      "sourceHash": hashlib.sha256(source.read_bytes()).hexdigest()[:20],
-                      "chunkSize": chunk_size,
-                      "total": len(apps),
-                      "chunks": chunk_rows
+              if not request_id:
+                  result = {
+                      "requestId": command_path.stem,
+                      "status": "error",
+                      "operation": op,
+                      "storage": storage,
+                      "appName": app_name,
+                      "message": "requestId is required",
+                      "finishedAt": dt.datetime.now(dt.timezone.utc).isoformat()
                   }
-                  (out / "manifest.json").write_text(
-                      json.dumps(manifest, ensure_ascii=False, separators=(",", ":")),
+                  result_rows.append(result)
+                  command_summaries.append(f"{label} {app_name} (error)")
+                  command_path.unlink(missing_ok=True)
+                  continue
+
+              prior = next((row for row in result_rows if row.get("requestId") == request_id and row.get("status") == "ok"), None)
+              if prior:
+                  print("Already applied:", request_id, app_name)
+                  command_summaries.append(f"{label} {app_name}")
+                  command_path.unlink(missing_ok=True)
+                  continue
+
+              changed = False
+              message = ""
+
+              try:
+                  path, store_root, key, items = load_store(storage)
+
+                  if op == "add":
+                      item = clean(cmd.get("item"))
+                      if not item:
+                          raise RuntimeError("missing item")
+                      item_id = str(item.get("id") or "")
+                      same = [i for i, x in enumerate(items) if item_id and str(x.get("id") or "") == item_id]
+                      if len(same) == 1:
+                          # Idempotent retry: same generated ID updates the same row instead of duplicating it.
+                          items[same[0]] = item
+                      elif len(same) > 1:
+                          exact = [i for i in same if canon(items[i]) == canon(item)]
+                          if len(exact) != 1:
+                              raise RuntimeError("duplicate ID is ambiguous")
+                      else:
+                          items.append(item)
+                      changed = True
+                      message = f"Added {app_name or item.get('name') or item_id}"
+
+                  elif op == "update":
+                      idx = find_index(items, cmd.get("match"))
+                      current = clean(items[idx])
+                      replacement = clean(cmd.get("item"))
+                      if not replacement:
+                          raise RuntimeError("missing replacement item")
+                      if current.get("addedAt"):
+                          replacement["addedAt"] = current["addedAt"]
+                      items[idx] = replacement
+                      changed = True
+                      message = f"Updated {app_name or replacement.get('name') or replacement.get('id')}"
+
+                  elif op == "delete":
+                      idx = find_index(items, cmd.get("match"))
+                      removed = items.pop(idx)
+                      changed = True
+                      message = f"Deleted {app_name or removed.get('name') or removed.get('id')}"
+
+                  elif op == "setHidden":
+                      idx = find_index(items, cmd.get("match"))
+                      items[idx]["hidden"] = bool(cmd.get("hidden"))
+                      changed = True
+                      message = ("Hidden " if cmd.get("hidden") else "Shown ") + str(
+                          app_name or items[idx].get("name") or items[idx].get("id")
+                      )
+
+                  elif op == "reorderCategory":
+                      category = str(cmd.get("category") or "")
+                      order = cmd.get("order")
+                      if not category or not isinstance(order, list):
+                          raise RuntimeError("invalid reorder command")
+
+                      slots = [i for i, x in enumerate(items) if str(x.get("category") or "أخرى") == category]
+                      members = [items[i] for i in slots]
+                      used = set()
+                      ordered = []
+
+                      for ident in order:
+                          matches = [n for n, x in enumerate(members) if n not in used and identity_matches(x, ident)]
+                          if len(matches) != 1:
+                              raise RuntimeError("reorder target could not be identified uniquely")
+                          used.add(matches[0])
+                          ordered.append(members[matches[0]])
+
+                      ordered.extend(x for n, x in enumerate(members) if n not in used)
+                      for slot, item in zip(slots, ordered):
+                          items[slot] = item
+
+                      changed = True
+                      message = f"Reordered {category}"
+
+                  else:
+                      raise RuntimeError(f"unsupported operation: {op}")
+
+                  if changed:
+                      changed_storages.add(storage)
+
+                  result = {
+                      "requestId": request_id,
+                      "status": "ok",
+                      "operation": op,
+                      "storage": storage,
+                      "appName": app_name,
+                      "message": message,
+                      "finishedAt": dt.datetime.now(dt.timezone.utc).isoformat()
+                  }
+
+              except Exception as exc:
+                  result = {
+                      "requestId": request_id,
+                      "status": "error",
+                      "operation": op,
+                      "storage": storage,
+                      "appName": app_name,
+                      "message": str(exc),
+                      "finishedAt": dt.datetime.now(dt.timezone.utc).isoformat()
+                  }
+
+              result_rows = [row for row in result_rows if row.get("requestId") != request_id]
+              result_rows.append(result)
+              command_summaries.append(f"{label} {app_name}" + ("" if result["status"] == "ok" else " (error)"))
+              processed.append((command_path, result))
+
+          for storage in sorted(changed_storages):
+              save_store(storage)
+
+          # Rebuild 100-app chunks once after all queued jom mutations.
+          if "jom" in changed_storages:
+              source = root / "jom.json"
+              data = json.loads(source.read_text(encoding="utf-8"))
+              apps = data.get("apps", []) if isinstance(data, dict) else data
+
+              if not isinstance(apps, list):
+                  raise RuntimeError("jom.json does not contain an apps array")
+
+              out = root / "chunks"
+              if out.exists():
+                  shutil.rmtree(out)
+              out.mkdir(parents=True, exist_ok=True)
+
+              chunk_size = 100
+              chunk_rows = []
+              for index, start in enumerate(range(0, len(apps), chunk_size), 1):
+                  part = apps[start:start + chunk_size]
+                  filename = f"apps-{index:03d}.json"
+                  (out / filename).write_text(
+                      json.dumps({"apps": part}, ensure_ascii=False, separators=(",", ":")),
                       encoding="utf-8"
                   )
+                  chunk_rows.append({"file": filename, "start": start, "count": len(part)})
 
-              result = {
-                  "requestId": request_id,
-                  "status": "ok",
-                  "operation": op,
-                  "storage": storage,
-                  "appName": app_name,
-                  "message": message,
-                  "finishedAt": dt.datetime.now(dt.timezone.utc).isoformat()
+              manifest = {
+                  "version": 1,
+                  "source": "jom.json",
+                  "sourceHash": hashlib.sha256(source.read_bytes()).hexdigest()[:20],
+                  "chunkSize": chunk_size,
+                  "total": len(apps),
+                  "chunks": chunk_rows
               }
+              (out / "manifest.json").write_text(
+                  json.dumps(manifest, ensure_ascii=False, separators=(",", ":")),
+                  encoding="utf-8"
+              )
 
-          except Exception as exc:
-              result = {
-                  "requestId": request_id,
-                  "status": "error",
-                  "operation": op,
-                  "storage": storage,
-                  "appName": app_name,
-                  "message": str(exc),
-                  "finishedAt": dt.datetime.now(dt.timezone.utc).isoformat()
-              }
-
-          # ملف واحد فقط لنتائج آخر 25 عملية.
-          result_rows = [row for row in result_rows if row.get("requestId") != request_id]
-          result_rows.append(result)
+          # One compact receipt file; keep only the latest 25 results.
           result_rows = result_rows[-25:]
           results_path.write_text(
               json.dumps({"results": result_rows}, ensure_ascii=False, separators=(",", ":")) + "\n",
               encoding="utf-8"
           )
 
-      - name: Commit mutation and result
+          # Successfully read commands are single-use. Delete them only after the result is recorded.
+          for command_path, _ in processed:
+              command_path.unlink(missing_ok=True)
+
+          # Build a human-readable commit message showing operation type + app/game name.
+          if command_summaries:
+              shown = command_summaries[:4]
+              summary = " | ".join(shown)
+              if len(command_summaries) > 4:
+                  summary += f" | +{len(command_summaries) - 4} more"
+              message = f"Admin: {summary} [skip ci]"
+          else:
+              message = "Admin queue cleanup [skip ci]"
+
+          pathlib.Path(".admin-commit-message").write_text(message[:220], encoding="utf-8")
+
+      - name: Commit mutations, receipts and queue cleanup
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jom.json deb.json chunks admin-results.json 2>/dev/null || true
+
+          COMMIT_MESSAGE="$(cat .admin-commit-message 2>/dev/null || echo 'Admin queue update [skip ci]')"
+          rm -f .admin-commit-message
+
+          git add -A jom.json deb.json chunks admin-results.json admin-commands 2>/dev/null || true
+
           if git diff --cached --quiet; then
             echo "Nothing to commit."
             exit 0
           fi
-          git commit -m "Apply admin mutation [skip ci]"
+
+          git commit -m "$COMMIT_MESSAGE"
+
+          # A new command may have arrived while this run was working.
+          # Rebase onto latest main; any newer command files remain queued for the next run.
           git pull --rebase origin main
           git push origin main
