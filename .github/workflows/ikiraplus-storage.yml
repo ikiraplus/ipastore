@@ -12,7 +12,7 @@ permissions:
 jobs:
   mirror-to-release:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 360
 
     # ماكو global concurrency: ملفات متعددة تشتغل بالتوازي حسب حدود GitHub.
     # مرحلة الرفع نفسها بيها jitter + timeout + retry حتى ما تبقى معلقة بلا نهاية.
@@ -102,7 +102,22 @@ jobs:
               return (urllib.parse.urlparse(url).hostname or "").lower()
 
           def run_curl(url, output, referer=None, cookies_enabled=False, extra_headers=None):
-              if output.exists():
+              h = host_of(url)
+              original_h = host_of(original_url)
+              is_streamvault_source = (
+                  original_h == "streamvaultpro.cc" or
+                  original_h.endswith(".streamvaultpro.cc")
+              )
+              is_streamvault_request = (
+                  h == "streamvaultpro.cc" or
+                  h.endswith(".streamvaultpro.cc") or
+                  (is_streamvault_source and url == proxy_url)
+              )
+              is_dylib = asset_name.lower().endswith(".dylib")
+              resumable_streamvault = is_streamvault_request and not is_dylib
+
+              # للملفات الكبيرة من StreamVault نحتفظ بالجزء الذي نزل حتى نكمل منه.
+              if output.exists() and not resumable_streamvault:
                   output.unlink()
 
               cmd = [
@@ -130,25 +145,10 @@ jobs:
               for header in (extra_headers or []):
                   cmd += ["--header", header]
 
-              # StreamVault يتعطل أحياناً مع GitHub-hosted runners عبر HTTP/2:
-              # يظهر Content-Length لكن يبقى 0 بايت ثم curl (92) INTERNAL_ERROR.
-              # نجبر HTTP/1.1 ونفشل بسرعة إذا لم يبدأ النقل بدل انتظار قرابة دقيقة لكل retry.
-              h = host_of(url)
-              original_h = host_of(original_url)
-              is_streamvault_source = (
-                  original_h == "streamvaultpro.cc" or
-                  original_h.endswith(".streamvaultpro.cc")
-              )
-              is_streamvault_request = (
-                  h == "streamvaultpro.cc" or
-                  h.endswith(".streamvaultpro.cc") or
-                  (is_streamvault_source and url == proxy_url)
-              )
-
+              # StreamVault: HTTP/1.1 + استكمال التنزيل للملفات الكبيرة.
+              # لا نعتبر الاتصال عالقاً إلا إذا بقي أقل من 1 KiB/s لمدة دقيقتين.
               if is_streamvault_request:
-                  is_dylib = asset_name.lower().endswith(".dylib")
                   if is_dylib:
-                      # ملفات dylib صغيرة عادةً؛ لا نسمح لاتصال 2-3 MB أن يظل معلقاً لدقائق.
                       cmd += [
                           "--http1.1",
                           "--no-keepalive",
@@ -164,16 +164,24 @@ jobs:
                   else:
                       cmd += [
                           "--http1.1",
-                          "--connect-timeout", "8",
-                          "--max-time", "180",
-                          "--speed-limit", "32768",
-                          "--speed-time", "12",
-                          "--retry", "1",
-                          "--retry-delay", "0",
-                          "--retry-max-time", "45",
+                          "--no-keepalive",
+                          "--connect-timeout", "20",
+                          "--max-time", "18000",
+                          "--speed-limit", "1024",
+                          "--speed-time", "120",
+                          "--retry", "3",
+                          "--retry-delay", "3",
+                          "--retry-all-errors",
+                          "--retry-max-time", "3600",
                       ]
-                      print("StreamVault guarded path: HTTP/1.1 + anti-stall timeout")
-
+                      if output.exists() and output.stat().st_size > 0:
+                          cmd += ["--continue-at", "-"]
+                          print(
+                              f"StreamVault large-file resume: continuing from "
+                              f"{output.stat().st_size} bytes"
+                          )
+                      else:
+                          print("StreamVault large-file path: HTTP/1.1 + resumable download")
               cmd.append(url)
               print("Downloading from:", host_of(url) or url)
               subprocess.run(cmd, check=True)
@@ -602,7 +610,7 @@ jobs:
             while [ "$attempt" -le 2 ]; do
               echo "Upload attempt $attempt/2 to $tag"
               set +e
-              timeout --foreground 1800s gh release upload "$tag" "$FILE" --repo "$GITHUB_REPOSITORY"
+              timeout --foreground 7200s gh release upload "$tag" "$FILE" --repo "$GITHUB_REPOSITORY"
               rc=$?
               set -e
 
