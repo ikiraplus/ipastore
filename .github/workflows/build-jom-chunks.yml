@@ -24,7 +24,7 @@ jobs:
       - name: Split jom.json into 100-app chunks
         shell: python
         run: |
-          import json, pathlib, shutil
+          import json, pathlib, shutil, hashlib
 
           source = pathlib.Path("jom.json")
           out = pathlib.Path("chunks")
@@ -57,6 +57,7 @@ jobs:
           manifest = {
               "version": 1,
               "source": "jom.json",
+              "sourceHash": hashlib.sha256(source.read_bytes()).hexdigest()[:20],
               "chunkSize": chunk_size,
               "total": len(apps),
               "chunks": chunks
