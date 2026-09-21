@@ -17659,6 +17659,22 @@
       "toolVersion": "",
       "updatedAt": "2026-09-21T16:37:28.279Z",
       "version": "0.1.6"
+    },
+    {
+      "addedAt": "2026-09-21T16:38:02.578Z",
+      "bundleId": "com.udogames.dunkmasters",
+      "category": "ألعاب",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/14/de/d414def4-2387-2b9e-dd79-912bc6fd78c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "id": "app-1790008682578",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/basketball-master-slam-hero_3.0.1",
+      "name": "Basketball Master Slam Hero",
+      "note": "",
+      "previousVersions": [],
+      "recommended": false,
+      "size": "495.5 MB",
+      "toolVersion": "",
+      "updatedAt": "2026-09-21T16:38:02.586Z",
+      "version": "3.0.1"
     }
   ]
 }
