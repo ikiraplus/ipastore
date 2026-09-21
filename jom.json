@@ -17691,6 +17691,22 @@
       "toolVersion": "",
       "updatedAt": "2026-09-21T16:38:59.846Z",
       "version": "2.0"
+    },
+    {
+      "addedAt": "2026-09-21T16:40:58.394Z",
+      "bundleId": "com.iflow.lastbeacon.ios",
+      "category": "ألعاب",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/00/4b/ea004b70-f249-76f2-df36-eb72a2595a1c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "id": "app-1790008858394",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-beacon-survival_2.5.4",
+      "name": "Last Beacon Survival",
+      "note": "",
+      "previousVersions": [],
+      "recommended": false,
+      "size": "558.8 MB",
+      "toolVersion": "",
+      "updatedAt": "2026-09-21T16:40:58.403Z",
+      "version": "2.5.4"
     }
   ]
 }
