@@ -12,7 +12,7 @@ permissions:
 jobs:
   mirror-to-release:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 45
 
     # ماكو global concurrency: ملفات متعددة تشتغل بالتوازي حسب حدود GitHub.
     # مرحلة الرفع نفسها بيها jitter + timeout + retry حتى ما تبقى معلقة بلا نهاية.
