@@ -135,13 +135,13 @@ jobs:
               if h == "streamvaultpro.cc" or h.endswith(".streamvaultpro.cc"):
                   cmd += [
                       "--http1.1",
-                      "--connect-timeout", "10",
-                      "--max-time", "600",
-                      "--speed-limit", "1024",
-                      "--speed-time", "12",
-                      "--retry", "2",
+                      "--connect-timeout", "8",
+                      "--max-time", "180",
+                      "--speed-limit", "65536",
+                      "--speed-time", "8",
+                      "--retry", "1",
                       "--retry-delay", "0",
-                      "--retry-max-time", "90",
+                      "--retry-max-time", "30",
                   ]
                   print("StreamVault fast path: HTTP/1.1 + fast-stall fallback")
 
@@ -172,7 +172,8 @@ jobs:
                   return True, f"valid {ext[1:].upper()} ({size} bytes)"
 
               if ext == ".dylib":
-                  magic = path.read_bytes()[:4]
+                  with path.open("rb") as fh:
+                      magic = fh.read(4)
                   mach_o = {
                       bytes.fromhex("feedface"), bytes.fromhex("cefaedfe"),
                       bytes.fromhex("feedfacf"), bytes.fromhex("cffaedfe"),
@@ -349,11 +350,14 @@ jobs:
               print("IPAOMTK anti-hotlink strategy")
               ok = download_ipaomtk(original_url)
           elif host_of(original_url) == "streamvaultpro.cc" or host_of(original_url).endswith(".streamvaultpro.cc"):
-              print("StreamVault optimized strategy")
-              ok = try_download(original_url)
+              # GitHub-hosted runners يحصل عندها stall متكرر مع StreamVault حتى للملفات الصغيرة.
+              # نخلي Cloudflare Worker هو المسار الأول لأنه يثبت الاتصال مع المصدر،
+              # والمصدر المباشر يبقى fallback فقط.
+              print("StreamVault proxy-first strategy")
+              ok = try_download(proxy_url)
               if not ok:
-                  print("StreamVault direct path stalled; using iKiraPlus proxy immediately.")
-                  ok = try_download(proxy_url)
+                  print("iKiraPlus proxy failed; trying StreamVault directly as fallback.")
+                  ok = try_download(original_url)
           else:
               # أسرع مسار: GitHub يحمل المصدر مباشرة بدون hop إضافي عبر Worker.
               print("Direct-first strategy")
