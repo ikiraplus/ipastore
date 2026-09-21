@@ -17812,6 +17812,22 @@
       "bundleId": "com.aceviral.motox3mfree",
       "addedAt": "2026-09-21T20:20:38.226Z",
       "updatedAt": "2026-09-21T20:20:38.236Z"
+    },
+    {
+      "id": "app-1790022090029",
+      "name": "Rodeo Stampede: Sky Zoo Safari",
+      "version": "4.25.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/stampede-4.25.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/fd/25/d4fd251d-3fea-9daa-3f6c-f41cf9f7c9ab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "382.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "",
+      "addedAt": "2026-09-21T20:21:30.029Z",
+      "updatedAt": "2026-09-21T20:21:30.038Z"
     }
   ]
 }
