@@ -1,0 +1,268 @@
+name: Admin Store Mutator
+run-name: "Admin store • ${{ github.event.client_payload.requestId }}"
+
+on:
+  repository_dispatch:
+    types: [admin_store_mutate]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: admin-store-mutator-main
+  cancel-in-progress: false
+
+jobs:
+  mutate:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Apply requested store change
+        shell: python
+        run: |
+          import datetime as dt
+          import hashlib
+          import json
+          import os
+          import pathlib
+          import shutil
+
+          root = pathlib.Path(".")
+          event = json.loads(pathlib.Path(os.environ["GITHUB_EVENT_PATH"]).read_text(encoding="utf-8"))
+          cmd = (event.get("client_payload") or {}).get("command") or {}
+          request_id = str(cmd.get("requestId") or "").strip()
+          if not request_id:
+              raise SystemExit("requestId is required")
+
+          results = root / "admin-results"
+          results.mkdir(exist_ok=True)
+          result_path = results / f"{request_id}.json"
+
+          if result_path.exists():
+              try:
+                  prior = json.loads(result_path.read_text(encoding="utf-8"))
+                  if prior.get("status") == "ok":
+                      print("Request already applied:", request_id)
+                      raise SystemExit(0)
+              except SystemExit:
+                  raise
+              except Exception:
+                  pass
+
+          def clean(item):
+              value = dict(item or {})
+              value.pop("_storage", None)
+              value.pop("_rowKey", None)
+              return value
+
+          def canon(item):
+              return json.dumps(clean(item), ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+
+          def load_store(storage):
+              path = root / ("deb.json" if storage == "deb" else "jom.json")
+              data = json.loads(path.read_text(encoding="utf-8"))
+              if isinstance(data, list):
+                  return path, data, None, data
+              if isinstance(data, dict) and isinstance(data.get("apps"), list):
+                  return path, data, "apps", data["apps"]
+              if isinstance(data, dict) and isinstance(data.get("dylibs"), list):
+                  return path, data, "dylibs", data["dylibs"]
+              raise RuntimeError(f"{path.name}: apps/dylibs array not found")
+
+          def save_store(path, root_obj, key, items):
+              cleaned = [clean(x) for x in items]
+              if key is None:
+                  payload = cleaned
+              else:
+                  payload = dict(root_obj)
+                  payload[key] = cleaned
+              path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          def find_index(items, match):
+              m = clean(match)
+              exact = [i for i, x in enumerate(items) if canon(x) == canon(m)]
+              if len(exact) == 1:
+                  return exact[0]
+
+              mid = str(m.get("id") or "")
+              candidates = [i for i, x in enumerate(items) if mid and str(x.get("id") or "") == mid]
+              if len(candidates) == 1:
+                  return candidates[0]
+
+              for field in ("ipaUrl", "name", "bundleId", "version"):
+                  value = str(m.get(field) or "")
+                  if value and candidates:
+                      narrowed = [i for i in candidates if str(items[i].get(field) or "") == value]
+                      if narrowed:
+                          candidates = narrowed
+                      if len(candidates) == 1:
+                          return candidates[0]
+
+              raise RuntimeError("target app could not be identified uniquely")
+
+          def identity_matches(item, ident):
+              ident = ident or {}
+              iid = str(ident.get("id") or "")
+              if iid and str(item.get("id") or "") != iid:
+                  return False
+              for field in ("name", "ipaUrl", "bundleId", "version"):
+                  value = str(ident.get(field) or "")
+                  if value and str(item.get(field) or "") != value:
+                      return False
+              return True
+
+          op = str(cmd.get("op") or "").strip()
+          storage = "deb" if cmd.get("storage") == "deb" else "jom"
+          app_name = str(cmd.get("appName") or "")
+          changed = False
+          message = ""
+
+          try:
+              path, store_root, key, items = load_store(storage)
+
+              if op == "add":
+                  item = clean(cmd.get("item"))
+                  if not item:
+                      raise RuntimeError("missing item")
+                  item_id = str(item.get("id") or "")
+                  same = [i for i, x in enumerate(items) if item_id and str(x.get("id") or "") == item_id]
+                  if len(same) == 1:
+                      items[same[0]] = item
+                  elif len(same) > 1:
+                      exact = [i for i in same if canon(items[i]) == canon(item)]
+                      if len(exact) != 1:
+                          raise RuntimeError("duplicate ID is ambiguous")
+                  else:
+                      items.append(item)
+                  changed = True
+                  message = f"Added {app_name or item.get('name') or item_id}"
+
+              elif op == "update":
+                  idx = find_index(items, cmd.get("match"))
+                  current = clean(items[idx])
+                  replacement = clean(cmd.get("item"))
+                  if current.get("addedAt"):
+                      replacement["addedAt"] = current["addedAt"]
+                  items[idx] = replacement
+                  changed = True
+                  message = f"Updated {app_name or replacement.get('name') or replacement.get('id')}"
+
+              elif op == "delete":
+                  idx = find_index(items, cmd.get("match"))
+                  removed = items.pop(idx)
+                  changed = True
+                  message = f"Deleted {app_name or removed.get('name') or removed.get('id')}"
+
+              elif op == "setHidden":
+                  idx = find_index(items, cmd.get("match"))
+                  items[idx]["hidden"] = bool(cmd.get("hidden"))
+                  changed = True
+                  message = ("Hidden " if cmd.get("hidden") else "Shown ") + str(
+                      app_name or items[idx].get("name") or items[idx].get("id")
+                  )
+
+              elif op == "reorderCategory":
+                  category = str(cmd.get("category") or "")
+                  order = cmd.get("order")
+                  if not category or not isinstance(order, list):
+                      raise RuntimeError("invalid reorder command")
+                  slots = [i for i, x in enumerate(items) if str(x.get("category") or "أخرى") == category]
+                  members = [items[i] for i in slots]
+                  used = set()
+                  ordered = []
+                  for ident in order:
+                      matches = [n for n, x in enumerate(members) if n not in used and identity_matches(x, ident)]
+                      if len(matches) != 1:
+                          raise RuntimeError("reorder target could not be identified uniquely")
+                      used.add(matches[0])
+                      ordered.append(members[matches[0]])
+                  ordered.extend(x for n, x in enumerate(members) if n not in used)
+                  for slot, item in zip(slots, ordered):
+                      items[slot] = item
+                  changed = True
+                  message = f"Reordered {category}"
+
+              else:
+                  raise RuntimeError(f"unsupported operation: {op}")
+
+              if changed:
+                  save_store(path, store_root, key, items)
+
+              if changed and storage == "jom":
+                  source = root / "jom.json"
+                  data = json.loads(source.read_text(encoding="utf-8"))
+                  apps = data.get("apps", []) if isinstance(data, dict) else data
+                  out = root / "chunks"
+                  if out.exists():
+                      shutil.rmtree(out)
+                  out.mkdir(parents=True, exist_ok=True)
+                  chunk_size = 100
+                  chunk_rows = []
+                  for index, start in enumerate(range(0, len(apps), chunk_size), 1):
+                      part = apps[start:start + chunk_size]
+                      filename = f"apps-{index:03d}.json"
+                      (out / filename).write_text(
+                          json.dumps({"apps": part}, ensure_ascii=False, separators=(",", ":")),
+                          encoding="utf-8"
+                      )
+                      chunk_rows.append({"file": filename, "start": start, "count": len(part)})
+                  manifest = {
+                      "version": 1,
+                      "source": "jom.json",
+                      "sourceHash": hashlib.sha256(source.read_bytes()).hexdigest()[:20],
+                      "chunkSize": chunk_size,
+                      "total": len(apps),
+                      "chunks": chunk_rows
+                  }
+                  (out / "manifest.json").write_text(
+                      json.dumps(manifest, ensure_ascii=False, separators=(",", ":")),
+                      encoding="utf-8"
+                  )
+
+              result = {
+                  "requestId": request_id,
+                  "status": "ok",
+                  "operation": op,
+                  "storage": storage,
+                  "appName": app_name,
+                  "message": message,
+                  "finishedAt": dt.datetime.now(dt.timezone.utc).isoformat()
+              }
+
+          except Exception as exc:
+              result = {
+                  "requestId": request_id,
+                  "status": "error",
+                  "operation": op,
+                  "storage": storage,
+                  "appName": app_name,
+                  "message": str(exc),
+                  "finishedAt": dt.datetime.now(dt.timezone.utc).isoformat()
+              }
+
+          result_path.write_text(
+              json.dumps(result, ensure_ascii=False, separators=(",", ":")),
+              encoding="utf-8"
+          )
+
+          old_results = sorted(results.glob("*.json"), key=lambda p: p.name)
+          for old in old_results[:-50]:
+              old.unlink(missing_ok=True)
+
+      - name: Commit mutation and result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jom.json deb.json chunks admin-results 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "Apply admin mutation [skip ci]"
+          git pull --rebase origin main
+          git push origin main
