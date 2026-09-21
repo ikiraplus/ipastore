@@ -17872,6 +17872,22 @@
       "bundleId": "com.ToweringTower.ChariotRivals",
       "addedAt": "2026-09-21T20:32:56.044Z",
       "updatedAt": "2026-09-21T20:32:56.053Z"
+    },
+    {
+      "id": "app-1790022883037",
+      "name": "Dave The Diver",
+      "version": "1.0.37",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dave-the-diver-1.0.37-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/a1/d3/2ea1d3fc-579b-8780-f931-a15718ad4e5d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "3083.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mintrocket.drmobile",
+      "addedAt": "2026-09-21T20:34:43.037Z",
+      "updatedAt": "2026-09-21T20:34:43.047Z"
     }
   ]
 }
