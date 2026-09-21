@@ -17707,6 +17707,22 @@
       "toolVersion": "",
       "updatedAt": "2026-09-21T16:40:58.403Z",
       "version": "2.5.4"
+    },
+    {
+      "addedAt": "2026-09-21T16:42:53.990Z",
+      "bundleId": "com.lamha.game",
+      "category": "ألعاب",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b6/5f/c0/b65fc07a-99a2-ada1-dc1a-a78c1eb9c1f9/AppIcon-1x_U007emarketing-0-7-P3-85-220.png/512x512bb.jpg",
+      "id": "app-1790008973990",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lamha-1.1.3",
+      "name": "لمحة",
+      "note": "",
+      "previousVersions": [],
+      "recommended": false,
+      "size": "68.0 MB",
+      "toolVersion": "",
+      "updatedAt": "2026-09-21T16:42:54.000Z",
+      "version": "1.1.3"
     }
   ]
 }
