@@ -415,7 +415,10 @@ jobs:
           if ! [[ "$index" =~ ^[0-9]+$ ]] || [ "$index" -lt 1 ]; then index=1; fi
           echo "Starting storage scan at index: $index"
 
-          while [ "$index" -le 50 ]; do
+          # افحص من أحدث storage release ولمدة 50 رقماً بعده، مهما كان رقم الـtag الحالي.
+          # مهم: الأرقام عندنا تجاوزت storage-1000، لذلك حد 50 الثابت كان يمنع الرفع بالكامل.
+          max_index=$((index + 50))
+          while [ "$index" -le "$max_index" ]; do
             if [ "$index" -eq 1 ]; then tag="storage"; else tag="storage-$index"; fi
 
             if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
