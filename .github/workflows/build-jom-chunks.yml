@@ -1,0 +1,79 @@
+name: Build jom chunks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'jom.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-jom-chunks
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Split jom.json into 100-app chunks
+        shell: python
+        run: |
+          import json, pathlib, shutil
+
+          source = pathlib.Path("jom.json")
+          out = pathlib.Path("chunks")
+          chunk_size = 100
+
+          data = json.loads(source.read_text(encoding="utf-8"))
+          apps = data.get("apps", [])
+          if not isinstance(apps, list):
+              raise SystemExit("jom.json does not contain an apps array")
+
+          if out.exists():
+              shutil.rmtree(out)
+          out.mkdir(parents=True, exist_ok=True)
+
+          chunks = []
+          for index, start in enumerate(range(0, len(apps), chunk_size), 1):
+              part = apps[start:start + chunk_size]
+              filename = f"apps-{index:03d}.json"
+              payload = {"apps": part}
+              (out / filename).write_text(
+                  json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
+                  encoding="utf-8"
+              )
+              chunks.append({
+                  "file": filename,
+                  "start": start,
+                  "count": len(part)
+              })
+
+          manifest = {
+              "version": 1,
+              "source": "jom.json",
+              "chunkSize": chunk_size,
+              "total": len(apps),
+              "chunks": chunks
+          }
+          (out / "manifest.json").write_text(
+              json.dumps(manifest, ensure_ascii=False, separators=(",", ":")),
+              encoding="utf-8"
+          )
+
+      - name: Commit generated chunks
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chunks
+          if git diff --cached --quiet; then
+            echo "Chunks are already up to date."
+            exit 0
+          fi
+          git commit -m "Build jom chunks [skip ci]"
+          git push
