@@ -128,6 +128,23 @@ jobs:
               for header in (extra_headers or []):
                   cmd += ["--header", header]
 
+              # StreamVault يتعطل أحياناً مع GitHub-hosted runners عبر HTTP/2:
+              # يظهر Content-Length لكن يبقى 0 بايت ثم curl (92) INTERNAL_ERROR.
+              # نجبر HTTP/1.1 ونفشل بسرعة إذا لم يبدأ النقل بدل انتظار قرابة دقيقة لكل retry.
+              h = host_of(url)
+              if h == "streamvaultpro.cc" or h.endswith(".streamvaultpro.cc"):
+                  cmd += [
+                      "--http1.1",
+                      "--connect-timeout", "10",
+                      "--max-time", "600",
+                      "--speed-limit", "1024",
+                      "--speed-time", "12",
+                      "--retry", "2",
+                      "--retry-delay", "0",
+                      "--retry-max-time", "90",
+                  ]
+                  print("StreamVault fast path: HTTP/1.1 + fast-stall fallback")
+
               cmd.append(url)
               print("Downloading from:", host_of(url) or url)
               subprocess.run(cmd, check=True)
@@ -331,6 +348,12 @@ jobs:
           elif is_ipaomtk(original_url):
               print("IPAOMTK anti-hotlink strategy")
               ok = download_ipaomtk(original_url)
+          elif host_of(original_url) == "streamvaultpro.cc" or host_of(original_url).endswith(".streamvaultpro.cc"):
+              print("StreamVault optimized strategy")
+              ok = try_download(original_url)
+              if not ok:
+                  print("StreamVault direct path stalled; using iKiraPlus proxy immediately.")
+                  ok = try_download(proxy_url)
           else:
               # أسرع مسار: GitHub يحمل المصدر مباشرة بدون hop إضافي عبر Worker.
               print("Direct-first strategy")
@@ -365,8 +388,8 @@ jobs:
           FILE="$RUNNER_TEMP/ikiraplus-storage/$ASSET_NAME"
           LOCAL_SIZE="$(stat -c%s "$FILE")"
 
-          # لا نخلي كل jobs تبدي الرفع بنفس الثانية.
-          JITTER=$(( GITHUB_RUN_ID % 30 ))
+          # فقط 0-2 ثانية لتخفيف تصادم عشرات الـjobs بدون تأخير مصطنع يصل 29 ثانية.
+          JITTER=$(( GITHUB_RUN_ID % 3 ))
           if [ "$JITTER" -gt 0 ]; then
             echo "Upload jitter: ${JITTER}s"
             sleep "$JITTER"
@@ -379,7 +402,19 @@ jobs:
               | tail -n 1 || true
           }
 
-          index=1
+          # ابدأ من أحدث storage release بدل فحص storage وstorage-2... من البداية لكل ملف.
+          # هذا يقلل عدة GitHub API calls ثابتة قبل كل رفع، خصوصاً للملفات الصغيرة.
+          latest_storage_index="$(
+            gh api "repos/$GITHUB_REPOSITORY/releases?per_page=100" --jq '.[].tag_name' 2>/dev/null \
+              | awk -F- 'BEGIN{max=1}
+                  $1=="storage" && NF==1 { if (max < 1) max=1 }
+                  $1=="storage" && NF==2 && $2 ~ /^[0-9]+$/ { n=$2+0; if (n>max) max=n }
+                  END{print max}'
+          )"
+          index="${latest_storage_index:-1}"
+          if ! [[ "$index" =~ ^[0-9]+$ ]] || [ "$index" -lt 1 ]; then index=1; fi
+          echo "Starting storage scan at index: $index"
+
           while [ "$index" -le 50 ]; do
             if [ "$index" -eq 1 ]; then tag="storage"; else tag="storage-$index"; fi
 
