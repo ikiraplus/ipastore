@@ -17627,6 +17627,22 @@
       "toolVersion": "",
       "updatedAt": "2026-09-21T16:23:07.935Z",
       "version": "2.0.2"
+    },
+    {
+      "addedAt": "2026-09-21T16:37:06.400Z",
+      "bundleId": "com.feelcrafters.buspuzzle",
+      "category": "ألعاب",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/e5/47/cbe54752-c37b-d37f-cb5a-89124a4c2a79/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "id": "app-1790008626400",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crowd-express-boarding-puzzle_4.6.0",
+      "name": "Crowd Express Boarding Puzzle",
+      "note": "",
+      "previousVersions": [],
+      "recommended": false,
+      "size": "602.4 MB",
+      "toolVersion": "",
+      "updatedAt": "2026-09-21T16:37:06.412Z",
+      "version": "4.6.0"
     }
   ]
 }
