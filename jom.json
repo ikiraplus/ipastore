@@ -17832,6 +17832,22 @@
       "bundleId": "",
       "addedAt": "2026-09-21T20:21:30.029Z",
       "updatedAt": "2026-09-21T20:21:30.038Z"
+    },
+    {
+      "id": "app-1790022439407",
+      "name": "Isekai Reset Idle Rpg",
+      "version": "1.0.45",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/isekai-reset-idle-rpg-1.0.45",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/e2/10/3fe210b9-7970-bf46-bc20-e912c553e5c1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "489.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.supercandy.resetworld",
+      "addedAt": "2026-09-21T20:27:19.407Z",
+      "updatedAt": "2026-09-21T20:27:19.416Z"
     }
   ]
 }
