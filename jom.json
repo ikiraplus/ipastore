@@ -3560,23 +3560,23 @@
     {
       "id": "APP-4595908327",
       "name": "township",
-      "version": "39.0.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township_39.0.0",
+      "version": "39.0.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-39.0.2",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNbmzTIJu_ov2S5_TembSSsM6NVBmuVq1Sw&s",
-      "size": "333.2 MB",
+      "size": "208.3 MB",
       "note": "مميزات اللعبة:\n- تجميد العملات وعدم نقصانها.",
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:17:02.824Z",
-      "updatedAt": "2026-09-18T06:55:57.422Z",
+      "updatedAt": "2026-09-21T20:42:25.949Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-38.1.1",
-          "version": "38.1.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township_39.0.0",
+          "version": "39.0.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-38.1.0",
-          "version": "38.1.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/township-38.1.1",
+          "version": "38.1.1"
         }
       ],
       "recommended": false,
