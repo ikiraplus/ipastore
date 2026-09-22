@@ -1,0 +1,156 @@
+name: Apply video game feature notes
+
+on:
+  push:
+    paths:
+      - '.github/workflows/video-game-notes-20260922.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fill blank game notes from video
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, re, unicodedata
+          from pathlib import Path
+
+          def norm(s):
+              s = unicodedata.normalize('NFKD', str(s or '')).casefold()
+              return ''.join(ch for ch in s if ch.isalnum())
+
+          entries = [
+              (["DAVE THE DIVER", "Dave the Diver"], [
+                  "عدم تلقي الضرر أثناء الغوص",
+                  "مضاعف ضرر صيد الأسماك",
+                  "مضاعف سرعة السباحة",
+                  "ذهب غير محدود",
+                  "فتح اللعبة كاملة",
+                  "فتح جميع إضافات DLC",
+              ]),
+              (["TrashGoblin", "Trash Goblin"], ["فتح جميع مميزات Premium"]),
+              (["Auto Battle Got Me Killed"], ["مضاعف الضرر", "مضاعف الدفاع"]),
+              (["Ages of Conflict", "Ages of Conflict World War Sim"], ["فتح جميع المميزات المدفوعة"]),
+              (["Arrows – Puzzle Escape", "Arrows - Puzzle Escape", "Arrows Puzzle Escape"], ["أرواح غير محدودة"]),
+              (["Soul Knight"], [
+                  "جواهر غير محدودة",
+                  "عدم تلقي الضرر",
+                  "قتل بضربة واحدة",
+                  "طاقة غير محدودة",
+                  "بدون تبريد للمهارات",
+                  "زيادة سرعة الرصاص",
+              ]),
+              (["Last Asylum: Plague", "Last Asylum Plague", "Last Asylum"], [
+                  "زيادة سرعة المشي",
+                  "علاج Chi سريع",
+                  "زيادة جمع العملات والعلاج",
+                  "قتل الفئران فوراً",
+              ]),
+              (["Basketball Master: Dunk Hero", "Basketball Master Dunk Hero", "Basketball Master: Slam Hero", "Basketball Master Slam Hero"], [
+                  "إزالة الإعلانات",
+                  "نقود غير محدودة",
+                  "ذهب غير محدود",
+                  "طاقة غير محدودة",
+              ]),
+              (["Sakamoto Days Mission: Rogue", "Sakamoto Days Mission Rogue"], ["مضاعف الضرر", "مضاعف الدفاع", "مضاعف الخبرة"]),
+              (["Life Is Strange", "Life is Strange"], ["فتح اللعبة كاملة"]),
+              (["Isekai Reset! - Idle RPG", "Isekai Reset Idle RPG"], ["مضاعف الضرر", "عدم الموت", "إزالة الإعلانات"]),
+              (["Airplane Manager Tycoon Empire", "Airplane Manager Tycoon"], ["إزالة الإعلانات الإجبارية", "جواهر كثيرة للترقيات"]),
+              (["Block Blast!", "Block Blast"], ["إحياء غير محدود", "مضاعف النقاط", "فوز تلقائي", "فتح Premium"]),
+              (["Township"], ["تجميد العملات"]),
+              (["Hempire - Weed Growing", "Hempire Weed Growing", "Hempire"], [
+                  "تفعيل VIP",
+                  "نقود غير محدودة",
+                  "ألماس غير محدود",
+                  "موارد غير محدودة",
+                  "إكمال المهام تلقائياً",
+                  "تجاوز متطلبات العناصر",
+                  "تحسين التهجين",
+                  "إتمام الصفقات فوراً",
+                  "تحصيل الإيجار فوراً",
+                  "جمع مكافآت الإعلانات تلقائياً",
+                  "شراء العقارات بأي مستوى",
+                  "الترقية بدون متطلبات المستوى",
+                  "تخزين غير محدود",
+                  "إضافة صافي الثروة من زر Privacy",
+                  "إضافة ألماس من زر Terms",
+                  "فتح جميع السلالات من زر Legal",
+                  "فتح جميع سلالات Hempire Cup من زر Restore",
+              ]),
+              (["Hold the Tile!", "Hold the Tile"], ["مضاعف الضرر", "مضاعف الدفاع", "عدم تلقي الضرر", "عملات غير محدودة", "مضاعف الخبرة"]),
+              (["Airport City"], ["متجر مجاني"]),
+              (["Heavenfall Arena"], ["عملات غير محدودة"]),
+              (["RFH - Detective Murder Mystery", "RFH - REDFIR HILLS", "RFH REDFIR HILLS", "RFH Detective Murder Mystery"], ["عملات غير محدودة", "فتح جميع مميزات Premium"]),
+              (["Homescapes"], ["حركات غير محدودة", "معززات غير محدودة", "أرواح غير محدودة", "فتح Season Pass"]),
+              (["BLUE LOCK PWC", "Blue Lock PWC"], ["مضاعف إحصائيات اللاعب", "تقليل إحصائيات الخصم"]),
+              (["Dice Dreams"], ["عملات غير محدودة", "رميات غير محدودة"]),
+              (["Monster Legends: Breeding RPG", "Monster Legends Breeding RPG", "Monster Legends"], [
+                  "قتل بضربة واحدة",
+                  "تخطي دور الخصم",
+                  "3 نجوم دائماً",
+                  "بدون تكلفة للمهارات",
+                  "مضاعف الهجوم",
+                  "مضاعف الدفاع",
+              ]),
+              (["Minecraft"], ["النسخة المدفوعة من App Store", "دعم تسجيل الدخول عند التثبيت عبر TrollStore"]),
+              (["Moto X3M"], ["مشتريات داخل التطبيق مجانية"]),
+          ]
+
+          mapping = {}
+          for aliases, features in entries:
+              for a in aliases:
+                  mapping[norm(a)] = features
+
+          path = Path('jom.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          apps = data.get('apps', [])
+          updated = []
+          skipped_nonblank = []
+          matched = set()
+
+          for app in apps:
+              if str(app.get('category') or '') != 'ألعاب':
+                  continue
+              key = norm(app.get('name'))
+              if key not in mapping:
+                  continue
+              matched.add(key)
+              note = app.get('note')
+              if note is not None and str(note).strip():
+                  skipped_nonblank.append(app.get('name'))
+                  continue
+              app['note'] = '\n'.join(f'- {x}' for x in mapping[key])
+              updated.append(app.get('name'))
+
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          json.loads(path.read_text(encoding='utf-8'))
+
+          blank_games = [a.get('name') for a in apps if str(a.get('category') or '') == 'ألعاب' and not str(a.get('note') or '').strip()]
+          print('UPDATED_COUNT=', len(updated))
+          for n in updated: print('UPDATED:', n)
+          print('SKIPPED_NONBLANK_COUNT=', len(skipped_nonblank))
+          for n in skipped_nonblank: print('SKIPPED_NONBLANK:', n)
+          print('REMAINING_BLANK_COUNT=', len(blank_games))
+          for n in blank_games: print('REMAINING_BLANK:', n)
+          PY
+
+      - name: Commit jom.json
+        shell: bash
+        run: |
+          if git diff --quiet -- jom.json; then
+            echo 'No jom.json changes needed'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add jom.json
+          git commit -m 'Add game features from KamoHacks video'
+          git push
