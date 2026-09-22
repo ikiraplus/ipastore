@@ -9,70 +9,26 @@ permissions:
   contents: write
 
 jobs:
-  update-notes:
-    if: ${{ github.event.head_commit.message == 'Add temporary game note updater' }}
+  diagnose:
+    if: ${{ github.event.head_commit.message == 'Diagnose game names' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Update only the selected game notes
+      - uses: actions/checkout@v4
+      - name: Diagnose target names
         shell: bash
         run: |
           python3 - <<'PY'
-          import json
-          import re
-          from pathlib import Path
-
-          path = Path('jom.json')
-          raw = path.read_text(encoding='utf-8')
-          data = json.loads(raw)
-
-          specs = [
-              ('Airplane Manager Tycoon', '- إزالة الإعلانات الإجبارية\n- جواهر كثيرة للترقيات'),
-              ('FIST OF THE NORTH STAR', '- مضاعف الضرر\n- مضاعف الدفاع\n- فوز فوري'),
-              ('Crowd Express: Boarding Puzzle', '- إزالة الإعلانات الإجبارية\n- عملات غير محدودة\n- تجميد الأرواح\n- معززات بأقصى مستوى'),
-              ('Splat! 2', '- إزالة الإعلانات (مكافآت مجانية)\n- جواهر غير محدودة\n- عملات غير محدودة\n- طاقة غير محدودة\n- كرات غير محدودة\n- طلبات مواهب غير محدودة\n- طلبات أبطال غير محدودة'),
-              ('Basketball Master: Slam Hero', '- إزالة الإعلانات\n- نقود غير محدودة\n- ذهب غير محدود\n- طاقة غير محدودة'),
-              ('Rules of Battlefield: 3D FPS', '- الشراء الوهمي\n- نقود غير محدودة\n- ذهب غير محدود\n- فتح جميع الأسلحة\n- إزالة الإعلانات\n- تسريع اللعبة'),
-              ('Viking Island: Merge Adventure', '- جواهر غير محدودة (عند الشراء)\n- عملات غير محدودة (عند بيع العناصر)\n- طاقة غير محدودة (عند الاستخدام)'),
-              ('Infinite Master: Idle RPG', '- مضاعف الضرر\n- مضاعف الدفاع\n- مضاعف العملة\n- مضاعف سرعة الهجوم\n- مضاعف سرعة الحركة\n- إزالة الإعلانات'),
-              ('لعبة لمحة', '- فتح جميع التصنيفات'),
-              ('Last Beacon: Survival', '- عدم الموت\n- مضاعف الضرر\n- بدون تبريد للمهارات'),
-          ]
-
-          apps = data.get('apps', [])
-          resolved = []
-          for target, note in specs:
-              matches = [a.get('name', '') for a in apps if target.casefold() in a.get('name', '').casefold()]
-              if len(matches) != 1:
-                  raise SystemExit(f'Expected exactly one match for {target!r}, found {matches!r}')
-              resolved.append((matches[0], note))
-
-          for actual_name, note in resolved:
-              name_literal = json.dumps(actual_name, ensure_ascii=False)
-              note_literal = json.dumps(note, ensure_ascii=False)
-              pattern = re.compile(
-                  r'("name"\s*:\s*' + re.escape(name_literal) + r'(?:(?!"name"\s*:)[\s\S])*?"note"\s*:\s*)"(?:\\.|[^"\\])*"'
-              )
-              raw, count = pattern.subn(lambda m: m.group(1) + note_literal, raw, count=1)
-              if count != 1:
-                  raise SystemExit(f'Could not update note for {actual_name!r}')
-              print(f'Updated: {actual_name}')
-
-          json.loads(raw)
-          path.write_text(raw, encoding='utf-8')
+          import json, difflib, re
+          data=json.load(open('jom.json',encoding='utf-8'))
+          names=[a.get('name','') for a in data.get('apps',[]) if a.get('category')=='ألعاب']
+          targets=['Airplane Manager Tycoon','FIST OF THE NORTH STAR','Crowd Express: Boarding Puzzle','Splat! 2','Basketball Master: Slam Hero','Rules of Battlefield: 3D FPS','Viking Island: Merge Adventure','Infinite Master: Idle RPG','لعبة لمحة','Last Beacon: Survival']
+          for t in targets:
+              exact=[n for n in names if t.casefold() in n.casefold() or n.casefold() in t.casefold()]
+              close=difflib.get_close_matches(t,names,n=5,cutoff=0.35)
+              toks=[x for x in re.findall(r'[A-Za-z0-9]+',t.casefold()) if len(x)>=4]
+              tokenhits=[n for n in names if any(x in n.casefold() for x in toks)][:10]
+              print('\nTARGET:',t)
+              print('EXACT:',exact)
+              print('CLOSE:',close)
+              print('TOKENS:',tokenhits)
           PY
-
-      - name: Commit changes
-        shell: bash
-        run: |
-          if git diff --quiet -- jom.json; then
-            echo "No changes detected"
-            exit 1
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jom.json
-          git commit -m "Update selected game feature descriptions"
-          git push
