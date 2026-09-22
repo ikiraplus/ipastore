@@ -1,0 +1,114 @@
+name: Update jom feature notes
+
+on:
+  push:
+    paths:
+      - '.github/workflows/update-jom-three-apps.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update Spotify PW, MaxTube and Cinemana Hub notes
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('jom.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+
+          notes = {
+              'Spotify PW': '\n'.join([
+                  '• تفعيل مميزات Premium محلياً داخل التطبيق',
+                  '• إعادة تصميم الواجهة بأسلوب Liquid Glass',
+                  '• حظر Telemetry وتعزيز الخصوصية داخل التطبيق',
+                  '• دعم كلمات الأغاني المتزامنة وغير المتزامنة من عدة مصادر',
+                  '• عرض كلمات الأغاني بأسلوب Apple Music مع دعم الترجمة والنطق',
+                  '• عرض كلمات الأغاني على شاشة القفل',
+                  '• دعم Live Activities وDynamic Island مع معلومات الأغنية والتحكم بالتشغيل',
+                  '• عرض قائمة الأغاني القادمة والتحكم بها من Live Activity',
+                  '• إمكانية حظر الفنانين وتخطي أغانيهم تلقائياً',
+                  '• إضافة إيماءات قابلة للتخصيص داخل مشغل الموسيقى',
+                  '• التحكم بسرعة تشغيل الأغاني ودرجة الصوت Pitch',
+                  '• إضافة مؤثرات صوتية متقدمة عبر JamesDSP',
+                  '• دعم Music Haptics واهتزازات مخصصة لأزرار ومشغل الموسيقى',
+                  '• تخصيص الواجهة مع AMOLED والألوان وشريط التنقل وإخفاء العناصر غير المرغوبة',
+                  '• تحسين إدارة القوائم والفرز والمزج مع عرض حالة تقدم التحميل',
+              ]),
+              'MaxTube': '\n'.join([
+                  '• تنزيل الفيديوهات والصوتيات مع إمكانية اختيار المسار الصوتي',
+                  '• تنزيل الصور المصغرة والمنشورات وصور الحسابات',
+                  '• نسخ معلومات الفيديوهات والتعليقات والمنشورات',
+                  '• إزالة الإعلانات وتخصيص وإخفاء عناصر واجهة YouTube',
+                  '• تشغيل الفيديوهات في وضع Picture in Picture',
+                  '• فتح دقات 2K و4K',
+                  '• دعم SponsorBlock لتخطي المقاطع الدعائية والرعايات',
+                  '• إظهار عدد Dislikes للفيديوهات من جديد',
+                  '• اختيار جودة الفيديو الافتراضية وتحديد الجودة تلقائياً',
+                  '• إضافة سرعات تشغيل مخصصة والتحكم بها مباشرة من المشغل',
+                  '• التحكم بمستوى الصوت بشكل مستقل عن صوت الجهاز باستخدام الإيماءات',
+                  '• عرض ونسخ نص الترجمة Caption مباشرة من مشغل الفيديو',
+                  '• حظر فيديوهات وقنوات وكلمات محددة من الظهور',
+                  '• إضافة أزرار لتكرار الفيديو وكتم الصوت ومشاركة الفيديو بشكل أسرع',
+                  '• إصلاح مشاكل تشغيل الفيديو مع خيارات متقدمة لحل أخطاء المشغل',
+              ]),
+              'Cinemana Hub': '\n'.join([
+                  '• تصميم جديد ومحسن مع دعم iOS 17.4 فما فوق',
+                  '• دعم تسجيل الدخول لمشتركي Earthlink وتحسين إنشاء وتسجيل الحسابات',
+                  '• دعم 4G وبعض شبكات العراق مع إمكانية التصفح بدون حساب',
+                  '• دعم التحميل داخل وخارج التطبيق مع إصلاح مشاكل التنزيل',
+                  '• تحميل موسم كامل بضغطة واحدة',
+                  '• إشعارات للتحميلات مع عرض حجم الملفات',
+                  '• مشاركة الملفات والمحتوى الذي تم تحميله',
+                  '• تشغيل المحتوى في الخلفية ودعم Picture in Picture',
+                  '• عرض الترجمة داخل PiP ودعم الترجمة المزدوجة (عربي + إنكليزي)',
+                  '• تخصيص الترجمة واختيار خطوط مخصصة للتطبيق والترجمة',
+                  '• تحسين المشغل وإصلاح مشاكل التشغيل',
+                  '• دعم AirPlay وCast ومشاركة الشاشة',
+                  '• إصلاح البحث وعدم ظهور بعض الأفلام والمسلسلات',
+                  '• قفل التطبيق برمز أو Face ID مع تصفية محتوى الأطفال',
+                  '• دعم Widgets لمتابعة المشاهدة واختصارات Siri مع تحسينات بصرية وتقليل حجم التطبيق',
+              ]),
+          }
+
+          apps = data.get('apps') if isinstance(data, dict) else data
+          if not isinstance(apps, list):
+              raise SystemExit('Could not locate apps list in jom.json')
+
+          found = set()
+          for app in apps:
+              name = app.get('name') if isinstance(app, dict) else None
+              if name in notes:
+                  app['note'] = notes[name]
+                  found.add(name)
+
+          missing = set(notes) - found
+          if missing:
+              raise SystemExit('Missing app entries: ' + ', '.join(sorted(missing)))
+
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          json.loads(path.read_text(encoding='utf-8'))
+          print('Updated:', ', '.join(sorted(found)))
+          PY
+
+      - name: Commit jom.json
+        shell: bash
+        run: |
+          if git diff --quiet -- jom.json; then
+            echo 'No jom.json changes needed'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add jom.json
+          git commit -m 'Update Spotify PW, MaxTube and Cinemana Hub features'
+          git push
