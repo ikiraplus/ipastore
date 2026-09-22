@@ -14458,18 +14458,23 @@
     {
       "id": "app-1789236079905",
       "name": "Hold The Tile",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hold-the-tile-1.0.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hold-the-tile-1.0.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/23/da/c523da01-a1f6-1999-6844-08851754fa96/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "148.8 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hold-the-tile-1.0.1",
+          "version": "1.0.1"
+        }
+      ],
+      "size": "148.4 MB",
       "note": "مميزات اللعبة:\n- مضاعفة الضرر والدفاع.\n- وضع عدم الموت.\n- عملات غير محدودة.\n- مضاعفة نقاط الخبرة.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.KamenInteractive.HoldtheTile",
       "addedAt": "2026-09-12T18:01:19.905Z",
-      "updatedAt": "2026-09-12T18:01:25.739Z"
+      "updatedAt": "2026-09-22T08:54:32.596Z"
     },
     {
       "id": "app-1789236322868",
@@ -17936,6 +17941,22 @@
       "bundleId": "com.chillyroom.soulknightprequel.gl",
       "addedAt": "2026-09-22T08:32:51.540Z",
       "updatedAt": "2026-09-22T08:32:51.552Z"
+    },
+    {
+      "id": "app-1790067247121",
+      "name": "RFH - Detective Murder Mystery",
+      "version": "11.0.19",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rfh-redfir-hills-11.0.19",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/bb/52/f3bb52df-f3f7-3567-5fdf-de0ff8419971/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "101.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "app.extraordinerdy.redfirhills",
+      "addedAt": "2026-09-22T08:54:07.121Z",
+      "updatedAt": "2026-09-22T08:54:07.132Z"
     }
   ]
 }
