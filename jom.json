@@ -18127,6 +18127,22 @@
       "bundleId": "com.chillfleet.buddy",
       "addedAt": "2026-09-22T18:35:29.066Z",
       "updatedAt": "2026-09-22T18:35:29.078Z"
+    },
+    {
+      "id": "app-1790102156929",
+      "name": "Age Of Spirits",
+      "version": "1.0.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/age-of-spirits_1.0.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/bf/d6/38bfd667-87f2-c09f-0c75-be304673e166/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "866.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "leyi.ageofspirits",
+      "addedAt": "2026-09-22T18:35:56.929Z",
+      "updatedAt": "2026-09-22T18:35:56.940Z"
     }
   ]
 }
