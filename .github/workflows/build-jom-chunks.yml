@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'jom.json'
+      - '.github/workflows/build-jom-chunks.yml'
   workflow_dispatch:
 
 permissions:
@@ -44,18 +45,17 @@ jobs:
               part = apps[start:start + chunk_size]
               filename = f"apps-{index:03d}.json"
               payload = {"apps": part}
-              (out / filename).write_text(
-                  json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
-                  encoding="utf-8"
-              )
+              raw = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+              (out / filename).write_bytes(raw)
               chunks.append({
                   "file": filename,
                   "start": start,
-                  "count": len(part)
+                  "count": len(part),
+                  "hash": hashlib.sha256(raw).hexdigest()[:16]
               })
 
           manifest = {
-              "version": 1,
+              "version": 2,
               "source": "jom.json",
               "sourceHash": hashlib.sha256(source.read_bytes()).hexdigest()[:20],
               "chunkSize": chunk_size,
