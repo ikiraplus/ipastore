@@ -1,0 +1,55 @@
+name: Fill Soul Knight Prequel note
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fill-soul-knight-prequel-note.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set Soul Knight Prequel features
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('jom.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          target = None
+          for app in data.get('apps', []):
+              if app.get('category') == 'ألعاب' and app.get('name') == 'Soul Knight Prequel':
+                  target = app
+                  break
+
+          if target is None:
+              raise SystemExit('Soul Knight Prequel not found')
+
+          target['note'] = '\n'.join([
+              '- جواهر غير محدودة',
+              '- عدم تلقي الضرر',
+              '- قتل بضربة واحدة',
+              '- طاقة غير محدودة',
+              '- بدون تبريد للمهارات',
+              '- زيادة سرعة الرصاص',
+          ])
+
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          json.loads(p.read_text(encoding='utf-8'))
+          print('UPDATED: Soul Knight Prequel')
+          PY
+      - name: Commit jom.json
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add jom.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Add Soul Knight Prequel feature description'
+          git push
