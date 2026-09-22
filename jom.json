@@ -18073,6 +18073,38 @@
       "bundleId": "com.playstrom.dop4",
       "addedAt": "2026-09-22T18:32:20.460Z",
       "updatedAt": "2026-09-22T18:32:20.466Z"
+    },
+    {
+      "id": "app-1790102030035",
+      "name": "Match Factory",
+      "version": "1.77.119",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/match-factory_1.77.119",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/72/3f/34723fd4-2279-0768-4a07-78ad8c604272/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "443.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "net.peakgames.match",
+      "addedAt": "2026-09-22T18:33:50.035Z",
+      "updatedAt": "2026-09-22T18:33:50.045Z"
+    },
+    {
+      "id": "app-1790102067934",
+      "name": "Ghost Sniper War Fps Shooter",
+      "version": "1.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ghost-sniper-war-fps-shooter_1.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/bb/95/ffbb9563-75e6-eda8-ebb3-e678cc881946/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "357.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "sniper.war.target.soldier.shooter.aldagames.com",
+      "addedAt": "2026-09-22T18:34:27.934Z",
+      "updatedAt": "2026-09-22T18:34:27.943Z"
     }
   ]
 }
