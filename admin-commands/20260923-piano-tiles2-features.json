@@ -1,0 +1,23 @@
+{
+  "requestId": "20260923-piano-tiles2-features",
+  "op": "update",
+  "storage": "jom",
+  "appName": "Piano Tiles 2",
+  "match": {"id": "APP-2808097554"},
+  "item": {
+    "id": "APP-2808097554",
+    "name": "Piano Tiles 2",
+    "version": "4.3.8",
+    "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/piano-tiles-2-1",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/5b/d6/865bd6ea-fbe0-70ee-a3ce-4609f56ba649/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "size": "63.8 MB",
+    "note": "مميزات اللعبة:\n- عملات غير محدودة.\n- أرواح غير محدودة.\n- إزالة الإعلانات.\n- فتح جميع الأغاني.\n- تفعيل المزايا المميزة.",
+    "category": "ألعاب",
+    "addedAt": "2026-03-29",
+    "toolVersion": "",
+    "previousVersions": [],
+    "recommended": false,
+    "updatedAt": "2026-08-24T06:17:59.980Z",
+    "bundleId": "com.kooapps.pianotiles2arcade"
+  }
+}
