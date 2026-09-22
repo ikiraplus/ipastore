@@ -1,0 +1,20 @@
+{
+  "requestId": "20260923-fnaf-paid",
+  "op": "update",
+  "storage": "jom",
+  "appName": "Five Nights at Freddy's - Hack",
+  "match": {"id": "APP-5632502867"},
+  "item": {
+    "id": "APP-5632502867",
+    "name": "Five Nights at Freddy's - Hack",
+    "version": "2.0.5",
+    "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/five-nights-at-freddys-wre7pm0ach-1",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/ae/4c/b5ae4c56-804f-1953-6fd5-eeabec3f759c/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+    "size": "104 MB",
+    "note": "لعبة مدفوعة في المتجر الرسمي AppStore.",
+    "category": "ألعاب",
+    "addedAt": "2026-03-29",
+    "bundleId": "com.scottgames.fivenights",
+    "updatedAt": "2026-08-24T06:21:19.998Z"
+  }
+}
