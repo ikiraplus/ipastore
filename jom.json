@@ -2343,15 +2343,23 @@
     {
       "id": "APP-8917373880",
       "name": "Mob Control",
-      "version": "3.6.2",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mob-control-hack",
+      "version": "3.22.6",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mob-control_3.22.6",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/50/f0/de50f033-80f4-6c62-98bb-bc84cb134c37/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "200 MB",
+      "size": "434.1 MB",
       "note": "مميزات اللعبة:\n- عملات غير محدودة.\n- Skip’Its غير محدودة.\n- نجوم غير محدودة.\n- Bricks غير محدودة.\n- Earned Bricks غير محدودة.\n- Cards غير محدودة وتزداد بدلاً من أن تنقص.\n- إزالة متطلبات البطاقات.",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.vincentb.MobControl",
-      "updatedAt": "2026-08-24T06:48:38.369Z"
+      "updatedAt": "2026-09-22T18:42:51.445Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mob-control-hack",
+          "version": "3.6.2"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-1742931505",
@@ -18207,6 +18215,22 @@
       "bundleId": "com.happyelements.sakius",
       "addedAt": "2026-09-22T18:38:19.409Z",
       "updatedAt": "2026-09-22T18:38:19.418Z"
+    },
+    {
+      "id": "app-1790102594195",
+      "name": "Idle Golf Club Manager Tycoon",
+      "version": "6.18.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-golf-club-manager-tycoon_6.18.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/e9/72/12e97260-8d04-0b87-44d8-19fe81334b87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "979.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.neonplay.casualgolfclubtycoon",
+      "addedAt": "2026-09-22T18:43:14.195Z",
+      "updatedAt": "2026-09-22T18:43:14.207Z"
     }
   ]
 }
