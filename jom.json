@@ -10357,7 +10357,7 @@
       "name": "ASJ TikTok",
       "version": "46.9.0",
       "toolVersion": "1.2.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asjtiktok-46.9.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/asjtiktok-v46.9.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/95/3c/f4953cfb-b350-6763-a0b4-ceed8cef74ed/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
@@ -10374,7 +10374,7 @@
       "category": "تواصل",
       "recommended": true,
       "addedAt": "2026-08-27T17:48:12.340Z",
-      "updatedAt": "2026-09-21T20:22:06.249Z",
+      "updatedAt": "2026-09-22T08:17:46.781Z",
       "bundleId": "com.zhiliaoapp.musically"
     },
     {
@@ -17782,7 +17782,7 @@
       "name": "Sakamoto Days Mission Rogue",
       "version": "1.0.5",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sakamoto-days-mission-rogue-1.0.5",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sakamoto-days-mission-rogue_1.0.5",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeBOTErGHF8wJ6X3pKakKG_ZJtcanpcFxXNw-uvO6NPQ&s",
       "previousVersions": [],
       "size": "149.5 MB",
@@ -17791,7 +17791,7 @@
       "recommended": false,
       "bundleId": "com.pockethaven.roguelegend",
       "addedAt": "2026-09-21T19:58:34.323Z",
-      "updatedAt": "2026-09-21T19:58:34.331Z"
+      "updatedAt": "2026-09-22T08:18:20.718Z"
     },
     {
       "id": "app-1790020750366",
