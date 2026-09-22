@@ -17961,6 +17961,38 @@
       "bundleId": "app.extraordinerdy.redfirhills",
       "addedAt": "2026-09-22T08:54:07.121Z",
       "updatedAt": "2026-09-22T08:54:07.132Z"
+    },
+    {
+      "id": "app-1790067935315",
+      "name": "Ages of Conflict World War Sim",
+      "version": "4.5.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ages-of-conflict-4.5.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/af/8e/4baf8e98-2991-3b60-cf76-da427ab6ac20/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "112.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.JoySparkGames.AgesOfConflict",
+      "addedAt": "2026-09-22T09:05:35.315Z",
+      "updatedAt": "2026-09-22T09:05:35.325Z"
+    },
+    {
+      "id": "app-1790067976252",
+      "name": "Arrows Puzzle Escape",
+      "version": "0.22.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/arrows-puzzle-escape-0.22.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/99/34/6e993467-4458-456e-4d93-0b7cb9e3fb8e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "100.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ecffri.arrows",
+      "addedAt": "2026-09-22T09:06:16.252Z",
+      "updatedAt": "2026-09-22T09:06:16.263Z"
     }
   ]
 }
