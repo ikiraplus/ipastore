@@ -17920,6 +17920,22 @@
       "bundleId": "com.google.ios.youtube",
       "addedAt": "2026-09-22T08:29:49.580Z",
       "updatedAt": "2026-09-22T08:29:49.591Z"
+    },
+    {
+      "id": "app-1790065971540",
+      "name": "Soul Knight Prequel",
+      "version": "1.13.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soul-knight-prequel-1.13.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/36/95/f7369503-acc5-6be5-6b0b-79b4fe66566c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "495.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.chillyroom.soulknightprequel.gl",
+      "addedAt": "2026-09-22T08:32:51.540Z",
+      "updatedAt": "2026-09-22T08:32:51.552Z"
     }
   ]
 }
