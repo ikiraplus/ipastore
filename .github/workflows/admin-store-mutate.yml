@@ -236,7 +236,6 @@ jobs:
                       item_id = str(item.get("id") or "")
                       same = [i for i, x in enumerate(items) if item_id and str(x.get("id") or "") == item_id]
                       if len(same) == 1:
-                          # Idempotent retry: same generated ID updates the same row instead of duplicating it.
                           items[same[0]] = item
                       elif len(same) > 1:
                           exact = [i for i in same if canon(items[i]) == canon(item)]
@@ -269,9 +268,7 @@ jobs:
                       idx = find_index(items, cmd.get("match"))
                       items[idx]["hidden"] = bool(cmd.get("hidden"))
                       changed = True
-                      message = ("Hidden " if cmd.get("hidden") else "Shown ") + str(
-                          app_name or items[idx].get("name") or items[idx].get("id")
-                      )
+                      message = ("Hidden " if cmd.get("hidden") else "Shown ") + str(app_name or items[idx].get("name") or items[idx].get("id"))
 
                   elif op == "reorderCategory":
                       category = str(cmd.get("category") or "")
@@ -333,7 +330,6 @@ jobs:
           for storage in sorted(changed_storages):
               save_store(storage)
 
-          # Rebuild 100-app chunks once after all queued jom mutations.
           if "jom" in changed_storages:
               source = root / "jom.json"
               data = json.loads(source.read_text(encoding="utf-8"))
@@ -352,10 +348,7 @@ jobs:
               for index, start in enumerate(range(0, len(apps), chunk_size), 1):
                   part = apps[start:start + chunk_size]
                   filename = f"apps-{index:03d}.json"
-                  (out / filename).write_text(
-                      json.dumps({"apps": part}, ensure_ascii=False, separators=(",", ":")),
-                      encoding="utf-8"
-                  )
+                  (out / filename).write_text(json.dumps({"apps": part}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
                   chunk_rows.append({"file": filename, "start": start, "count": len(part)})
 
               manifest = {
@@ -366,23 +359,14 @@ jobs:
                   "total": len(apps),
                   "chunks": chunk_rows
               }
-              (out / "manifest.json").write_text(
-                  json.dumps(manifest, ensure_ascii=False, separators=(",", ":")),
-                  encoding="utf-8"
-              )
+              (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
-          # One compact receipt file; keep only the latest 25 results.
           result_rows = result_rows[-25:]
-          results_path.write_text(
-              json.dumps({"results": result_rows}, ensure_ascii=False, separators=(",", ":")) + "\n",
-              encoding="utf-8"
-          )
+          results_path.write_text(json.dumps({"results": result_rows}, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
-          # Successfully read commands are single-use. Delete them only after the result is recorded.
           for command_path, _ in processed:
               command_path.unlink(missing_ok=True)
 
-          # Build a human-readable commit message showing operation type + app/game name.
           if command_summaries:
               shown = command_summaries[:4]
               summary = " | ".join(shown)
@@ -414,7 +398,23 @@ jobs:
 
           git commit -m "$COMMIT_MESSAGE"
 
-          # A new command may have arrived while this run was working.
-          # Rebase onto latest main; any newer command files remain queued for the next run.
-          git pull --rebase origin main
-          git push origin main
+          attempt=1
+          max_attempts=8
+          while [ "$attempt" -le "$max_attempts" ]; do
+            echo "Push attempt $attempt/$max_attempts"
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin HEAD:main; then
+              echo "Admin mutations pushed successfully."
+              exit 0
+            fi
+
+            if [ "$attempt" -eq "$max_attempts" ]; then
+              echo "Push still failed after $max_attempts attempts."
+              exit 1
+            fi
+
+            sleep $(( attempt * 2 ))
+            attempt=$((attempt + 1))
+          done
