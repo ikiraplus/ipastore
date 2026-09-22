@@ -1,0 +1,10 @@
+{
+  "requestId": "sync-jom-chunks-20260922-0937",
+  "op": "setHidden",
+  "storage": "jom",
+  "appName": "شهادة مجانية",
+  "match": {
+    "id": "APP-4872100068"
+  },
+  "hidden": true
+}
