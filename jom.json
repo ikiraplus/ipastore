@@ -18143,6 +18143,38 @@
       "bundleId": "leyi.ageofspirits",
       "addedAt": "2026-09-22T18:35:56.929Z",
       "updatedAt": "2026-09-22T18:35:56.940Z"
+    },
+    {
+      "id": "app-1790102182710",
+      "name": "Fishdom",
+      "version": "10.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fishdom_10.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/70/24/8e702439-70f3-8600-fe1e-6c29aaa9581a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "341.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playrix.fishdom-freeplay",
+      "addedAt": "2026-09-22T18:36:22.710Z",
+      "updatedAt": "2026-09-22T18:36:22.718Z"
+    },
+    {
+      "id": "app-1790102202009",
+      "name": "Cat Pack Heroes",
+      "version": "1.0.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cat-pack-heroes_1.0.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/ef/6d/89ef6de5-8bab-03a9-e2a6-2d8152dc0449/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "327.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.banpofri.catpackheroes",
+      "addedAt": "2026-09-22T18:36:42.009Z",
+      "updatedAt": "2026-09-22T18:36:42.021Z"
     }
   ]
 }
