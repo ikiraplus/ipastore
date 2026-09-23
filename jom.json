@@ -590,26 +590,26 @@
     {
       "id": "APP-4614449641",
       "name": "X - Twitter (NeoFreeBird)",
-      "version": "12.25",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.25-nfb-6.6.1-1",
+      "version": "12.28.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.28.1-nfb-6.7.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/65/60/f76560b0-13df-84b6-fb7f-9b40319c4018/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "238.2 MB",
+      "size": "248.0 MB",
       "note": "مميزات التطبيق:\n- إزالة جميع الإعلانات واقتراحات المتابعة واللافتات المزعجة من الخط الزمني.\n- تنزيل الفيديوهات والصور المتحركة مباشرة مع إمكانية الحفظ في تطبيق الصور، ورفع وعرض الوسائط بأعلى جودة متاحة.\n- إتاحة ميزات إضافية من Twitter Blue مثل التراجع عن التغريدة وتخصيص المظهر وأيقونة التطبيق.\n- استعادة هوية ومصطلحات Twitter القديمة بدلاً من X مع خيارات للشكل الكلاسيكي وشريط التنقل.\n- قفل التطبيق باستخدام Face ID أو رمز المرور.\n- طلب تأكيد قبل الإعجاب أو النشر أو متابعة الحسابات.\n- تجاوز تحذيرات المحتوى الحساس والتحقق من العمر.\n- تخصيص الواجهة بإخفاء Grok والترندات وأعداد المشاهدات وعلامات Blue وبعض التبويبات، مع دعم الخطوط المخصصة.\n- حفظ التغريدة كصورة ونسخ معلومات الملف الشخصي وإظهار مصدر نشر التغريدة.\n- فتح الروابط في المتصفح الخارجي وتعطيل حفظ سجل البحث.",
       "category": "تواصل",
       "addedAt": "2026-03-29",
-      "toolVersion": "6.6.1",
+      "toolVersion": "6.7.0",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.25-nfb-6.6.1-1",
+          "version": "12.25"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.21-nfb-6.6.0",
           "version": "12.21"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/x-12.21-nfb",
-          "version": "12.20"
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-09-12T21:04:51.091Z",
+      "updatedAt": "2026-09-23T19:38:35.684Z",
       "bundleId": "com.atebits.Tweetie2"
     },
     {
