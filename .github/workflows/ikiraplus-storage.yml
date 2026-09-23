@@ -60,6 +60,19 @@ jobs:
             */*|*\\*) echo "Invalid asset name"; exit 1 ;;
           esac
 
+      - name: Prepare IPAOMTK browser fallback
+        if: contains(env.ORIGINAL_URL, 'ipaomtk.com')
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m pip install --disable-pip-version-check --quiet selenium
+          python3 - <<'PY'
+          import selenium
+          print("Selenium ready:", selenium.__version__)
+          PY
+          command -v google-chrome || command -v google-chrome-stable || command -v chromium || command -v chromium-browser
+          command -v chromedriver || true
+
       - name: Download and validate real file
         shell: bash
         run: |
@@ -452,19 +465,9 @@ jobs:
               download_dir.mkdir(parents=True, exist_ok=True)
 
               try:
-                  try:
-                      from selenium import webdriver
-                      from selenium.common.exceptions import WebDriverException
-                  except Exception:
-                      print("Installing Selenium for IPAOMTK browser fallback...")
-                      subprocess.run(
-                          [sys.executable, "-m", "pip", "install",
-                           "--disable-pip-version-check", "--quiet", "selenium"],
-                          check=True,
-                          timeout=180,
-                      )
-                      from selenium import webdriver
-                      from selenium.common.exceptions import WebDriverException
+                  from selenium import webdriver
+                  from selenium.common.exceptions import WebDriverException
+                  from selenium.webdriver.chrome.service import Service
 
                   options = webdriver.ChromeOptions()
                   options.binary_location = chrome
@@ -486,7 +489,16 @@ jobs:
                       },
                   )
 
-                  driver = webdriver.Chrome(options=options)
+                  chromedriver = shutil.which("chromedriver")
+                  if chromedriver:
+                      print("Using preinstalled ChromeDriver:", chromedriver)
+                      driver = webdriver.Chrome(
+                          service=Service(executable_path=chromedriver),
+                          options=options,
+                      )
+                  else:
+                      print("Preinstalled ChromeDriver not found; using Selenium Manager.")
+                      driver = webdriver.Chrome(options=options)
                   try:
                       driver.set_page_load_timeout(90)
                       try:
