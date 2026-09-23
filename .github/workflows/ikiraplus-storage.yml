@@ -547,10 +547,17 @@ jobs:
                       except Exception as exc:
                           print("Chrome file navigation warning:", str(exc)[:240])
 
-                      # ننتظر التنزيل. حد 25 دقيقة حتى يبقى وقت ضمن timeout الكلي 45 دقيقة للرفع.
-                      deadline = time.time() + 1500
+                      # لا ننتظر 25 دقيقة إذا IPAOMTK رجّع صفحة منع بدل download.
+                      # لازم يظهر نشاط تنزيل خلال 25 ثانية، وبعد بدء التنزيل نراقب النمو.
+                      started_at = time.time()
+                      overall_deadline = started_at + 600
+                      no_start_deadline = started_at + 25
                       last_report = 0
-                      while time.time() < deadline:
+                      last_growth_at = started_at
+                      last_total_bytes = -1
+                      download_started = False
+
+                      while time.time() < overall_deadline:
                           partials = list(download_dir.glob("*.crdownload"))
                           files = [
                               p for p in download_dir.iterdir()
@@ -570,24 +577,64 @@ jobs:
                                   print("IPAOMTK Chrome download validated:", reason)
                                   return True
 
+                          total_bytes = 0
+                          for p in partials + files:
+                              try:
+                                  total_bytes += p.stat().st_size
+                              except OSError:
+                                  pass
+
                           now = time.time()
-                          if now - last_report >= 30:
-                              partial_size = 0
-                              for p in partials:
-                                  try:
-                                      partial_size += p.stat().st_size
-                                  except OSError:
-                                      pass
+
+                          if partials or total_bytes > 0:
+                              download_started = True
+
+                          if total_bytes > last_total_bytes:
+                              last_total_bytes = total_bytes
+                              last_growth_at = now
+
+                          if not download_started and now >= no_start_deadline:
+                              try:
+                                  page_text = (driver.page_source or "")[:5000].lower()
+                                  page_title = (driver.title or "").strip()
+                                  current_url = (driver.current_url or "").strip()
+                                  print(
+                                      "IPAOMTK Chrome no download started:",
+                                      "title=", page_title[:160],
+                                      "url=", current_url[:260],
+                                  )
+                                  if any(x in page_text for x in (
+                                      "403", "forbidden", "access denied",
+                                      "attention required", "just a moment",
+                                      "cloudflare", "captcha"
+                                  )):
+                                      print("IPAOMTK Chrome detected blocked/challenge page instead of file.")
+                              except Exception:
+                                  pass
+                              print("IPAOMTK Chrome gave no download activity within 25 seconds.")
+                              return False
+
+                          # إذا بدأ الملف ثم توقف حجمه 60 ثانية، لا نبقى ننتظر.
+                          if download_started and now - last_growth_at >= 60:
+                              print(
+                                  "IPAOMTK Chrome download stalled for 60 seconds at",
+                                  total_bytes,
+                                  "bytes.",
+                              )
+                              return False
+
+                          if now - last_report >= 10:
                               print(
                                   "IPAOMTK Chrome waiting:",
+                                  "started=", download_started,
                                   "partials=", len(partials),
-                                  "downloaded_bytes=", partial_size,
+                                  "downloaded_bytes=", total_bytes,
                               )
                               last_report = now
 
                           time.sleep(2)
 
-                      print("IPAOMTK Chrome fallback timed out before a valid IPA completed.")
+                      print("IPAOMTK Chrome fallback timed out after 10 minutes.")
                       return False
                   finally:
                       try:
