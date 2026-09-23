@@ -1583,6 +1583,23 @@
       "bundleId": "",
       "addedAt": "2026-09-22T20:37:16.487Z",
       "updatedAt": "2026-09-22T20:37:16.496Z"
+    },
+    {
+      "id": "dylib-1790193291301",
+      "name": "GunShot Tweak",
+      "version": "0.2.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/GunShot-0.2.5",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShLCSbO_Sxc-wif6ioeFKMah5pY6l6YDGfezfFtLQbw&s",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "9.1 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "bundleId": "",
+      "addedAt": "2026-09-23T19:54:51.301Z",
+      "updatedAt": "2026-09-23T19:54:51.311Z"
     }
   ]
 }
