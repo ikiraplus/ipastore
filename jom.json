@@ -18393,6 +18393,22 @@
       "bundleId": "net.gameduo.hb",
       "addedAt": "2026-09-23T08:06:49.486Z",
       "updatedAt": "2026-09-23T08:06:49.495Z"
+    },
+    {
+      "id": "app-1790150841326",
+      "name": "7Billion Zombies: Final Stand",
+      "version": "1.5.64",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/billion-zombies-final-stand_1.5.64",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/28/ea/6228ea47-28eb-df18-7c85-38c5baa46d23/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "522.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.candysoft.SBZombiesRe5",
+      "addedAt": "2026-09-23T08:07:21.326Z",
+      "updatedAt": "2026-09-23T08:07:21.335Z"
     }
   ]
 }
