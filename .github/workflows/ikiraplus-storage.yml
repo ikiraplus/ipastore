@@ -431,6 +431,163 @@ jobs:
                   pass
               return False
 
+          def download_ipaomtk_with_chrome(url):
+              """
+              Fallback حقيقي بمتصفح Chrome عندما يمنع IPAOMTK curl/Cloudflare Worker بـ403.
+              يفتح صفحة التطبيق أولاً ثم يحمل الملف بنفس browser session.
+              """
+              chrome = (
+                  shutil.which("google-chrome") or
+                  shutil.which("google-chrome-stable") or
+                  shutil.which("chromium") or
+                  shutil.which("chromium-browser")
+              )
+              if not chrome:
+                  print("IPAOMTK Chrome fallback unavailable: Chrome/Chromium not found.")
+                  return False
+
+              download_dir = work / "ipaomtk-chrome-download"
+              if download_dir.exists():
+                  shutil.rmtree(download_dir, ignore_errors=True)
+              download_dir.mkdir(parents=True, exist_ok=True)
+
+              try:
+                  try:
+                      from selenium import webdriver
+                      from selenium.common.exceptions import WebDriverException
+                  except Exception:
+                      print("Installing Selenium for IPAOMTK browser fallback...")
+                      subprocess.run(
+                          [sys.executable, "-m", "pip", "install",
+                           "--disable-pip-version-check", "--quiet", "selenium"],
+                          check=True,
+                          timeout=180,
+                      )
+                      from selenium import webdriver
+                      from selenium.common.exceptions import WebDriverException
+
+                  options = webdriver.ChromeOptions()
+                  options.binary_location = chrome
+                  options.add_argument("--headless=new")
+                  options.add_argument("--no-sandbox")
+                  options.add_argument("--disable-dev-shm-usage")
+                  options.add_argument("--disable-gpu")
+                  options.add_argument("--window-size=1365,900")
+                  options.add_argument("--lang=en-US")
+                  options.add_argument(f"--user-agent={UA}")
+                  options.add_experimental_option(
+                      "prefs",
+                      {
+                          "download.default_directory": str(download_dir),
+                          "download.prompt_for_download": False,
+                          "download.directory_upgrade": True,
+                          "safebrowsing.enabled": True,
+                          "profile.default_content_setting_values.automatic_downloads": 1,
+                      },
+                  )
+
+                  driver = webdriver.Chrome(options=options)
+                  try:
+                      driver.set_page_load_timeout(90)
+                      try:
+                          driver.execute_cdp_cmd(
+                              "Page.setDownloadBehavior",
+                              {
+                                  "behavior": "allow",
+                                  "downloadPath": str(download_dir),
+                              },
+                          )
+                      except Exception as exc:
+                          print("Chrome download behavior setup warning:", exc)
+
+                      page_url = ipaomtk_page_candidates(url)[0]
+                      print("IPAOMTK Chrome preload:", page_url)
+
+                      try:
+                          driver.get(page_url)
+                      except Exception as exc:
+                          print("Chrome page navigation warning:", exc)
+
+                      # امنح أي JS/managed challenge وقتاً قصيراً حتى يكتمل.
+                      deadline = time.time() + 25
+                      while time.time() < deadline:
+                          title = (driver.title or "").strip()
+                          current = (driver.current_url or "").strip()
+                          low = title.lower()
+                          if "just a moment" not in low and "attention required" not in low:
+                              break
+                          time.sleep(2)
+
+                      print(
+                          "IPAOMTK Chrome page:",
+                          (driver.title or "")[:120],
+                          (driver.current_url or "")[:220],
+                      )
+
+                      direct = ipaomtk_network_url(url)
+                      print("IPAOMTK Chrome file navigation:", direct)
+
+                      try:
+                          driver.get(direct)
+                      except WebDriverException as exc:
+                          # Chrome يرفع ERR_ABORTED عند بدء download طبيعي؛ مو فشل.
+                          print("Chrome file navigation result:", str(exc)[:240])
+                      except Exception as exc:
+                          print("Chrome file navigation warning:", str(exc)[:240])
+
+                      # ننتظر التنزيل. حد 25 دقيقة حتى يبقى وقت ضمن timeout الكلي 45 دقيقة للرفع.
+                      deadline = time.time() + 1500
+                      last_report = 0
+                      while time.time() < deadline:
+                          partials = list(download_dir.glob("*.crdownload"))
+                          files = [
+                              p for p in download_dir.iterdir()
+                              if p.is_file() and not p.name.endswith(".crdownload")
+                          ]
+
+                          # Chrome قد يعطي الاسم الأصلي، لذلك نتحقق من المحتوى لا من الاسم.
+                          for p in sorted(files, key=lambda x: x.stat().st_mtime, reverse=True):
+                              try:
+                                  ok, reason = validate(p, asset_name)
+                              except Exception as exc:
+                                  ok, reason = False, str(exc)
+                              if ok:
+                                  if final_file.exists():
+                                      final_file.unlink()
+                                  p.replace(final_file)
+                                  print("IPAOMTK Chrome download validated:", reason)
+                                  return True
+
+                          now = time.time()
+                          if now - last_report >= 30:
+                              partial_size = 0
+                              for p in partials:
+                                  try:
+                                      partial_size += p.stat().st_size
+                                  except OSError:
+                                      pass
+                              print(
+                                  "IPAOMTK Chrome waiting:",
+                                  "partials=", len(partials),
+                                  "downloaded_bytes=", partial_size,
+                              )
+                              last_report = now
+
+                          time.sleep(2)
+
+                      print("IPAOMTK Chrome fallback timed out before a valid IPA completed.")
+                      return False
+                  finally:
+                      try:
+                          driver.quit()
+                      except Exception:
+                          pass
+
+              except Exception as exc:
+                  print("IPAOMTK Chrome fallback failed:", repr(exc))
+                  return False
+
+
           def download_ipaomtk(url):
               original_direct = ipaomtk_network_url(url)
               page_urls = ipaomtk_page_candidates(url)
@@ -468,9 +625,14 @@ jobs:
                       if try_ipaomtk_file(direct_url, page_url):
                           return True
 
-              # fallback أخير إلى رابط DL. إذا الـWorker نفسه يقدر يفتح المصدر، نستخدمه.
-              print("IPAOMTK direct/browser path failed; trying Worker DL fallback.")
-              return try_download(proxy_url)
+              # جرّب رابط DL أولاً؛ قد ينجح إذا Cloudflare Worker عنده مسار صالح.
+              print("IPAOMTK direct/curl path failed; trying Worker DL fallback.")
+              if try_download(proxy_url):
+                  return True
+
+              # إذا الموقع يمنع curl/Worker ببصمة anti-bot، استخدم Chrome حقيقي.
+              print("IPAOMTK Worker fallback also failed; starting real Chrome fallback.")
+              return download_ipaomtk_with_chrome(url)
 
           def download_streamvault_dylib_chunked(url):
               """
