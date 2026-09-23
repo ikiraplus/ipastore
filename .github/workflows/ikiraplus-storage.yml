@@ -602,11 +602,21 @@ jobs:
 
           def download_ipaomtk(url):
               original_direct = ipaomtk_network_url(url)
+              direct_file_host = host_of(original_direct) == "file.ipaomtk.com"
+
+              # روابط file.ipaomtk.com معروفة بأنها ترجع 403 إلى curl/Worker.
+              # لذلك نذهب مباشرة إلى Chrome لتوفير الوقت بدل تكرار محاولات معروفة بالفشل.
+              if direct_file_host:
+                  print("IPAOMTK direct file URL: Chrome-first strategy")
+                  if download_ipaomtk_with_chrome(url):
+                      return True
+                  print("IPAOMTK Chrome-first failed; trying legacy fallbacks.")
+
               page_urls = ipaomtk_page_candidates(url)
               direct_candidates = []
               successful_pages = []
 
-              # الصفحة لازم تُطلب كصفحة متصفح، مو كـ application/octet-stream.
+              # fallback فقط: محاولة جلسة curl إذا فشل Chrome أو إذا الرابط ليس file.ipaomtk.com مباشرة.
               for page_url in page_urls:
                   try:
                       raw = preload_ipaomtk_page(page_url)
@@ -614,13 +624,12 @@ jobs:
                       direct = extract_ipaomtk_direct(raw)
                       if direct:
                           direct_candidates.append(direct)
-                      # أول صفحة تطبيق ناجحة كافية غالباً للحصول على cookies.
                       if urllib.parse.urlparse(page_url).path not in ("", "/"):
                           break
                   except Exception as exc:
                       print("IPAOMTK page preload failed:", page_url, exc)
 
-              if host_of(original_direct) == "file.ipaomtk.com":
+              if direct_file_host:
                   direct_candidates.append(original_direct)
 
               seen = set()
@@ -637,14 +646,16 @@ jobs:
                       if try_ipaomtk_file(direct_url, page_url):
                           return True
 
-              # جرّب رابط DL أولاً؛ قد ينجح إذا Cloudflare Worker عنده مسار صالح.
-              print("IPAOMTK direct/curl path failed; trying Worker DL fallback.")
+              print("IPAOMTK curl path failed; trying Worker DL fallback.")
               if try_download(proxy_url):
                   return True
 
-              # إذا الموقع يمنع curl/Worker ببصمة anti-bot، استخدم Chrome حقيقي.
-              print("IPAOMTK Worker fallback also failed; starting real Chrome fallback.")
-              return download_ipaomtk_with_chrome(url)
+              # لروابط صفحات IPAOMTK غير المباشرة، Chrome يبقى آخر fallback.
+              if not direct_file_host:
+                  print("IPAOMTK Worker fallback also failed; starting real Chrome fallback.")
+                  return download_ipaomtk_with_chrome(url)
+
+              return False
 
           def download_streamvault_dylib_chunked(url):
               """
