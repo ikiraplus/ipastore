@@ -1,0 +1,25 @@
+{
+  "requestId": "20260924-0205-polywar-note",
+  "op": "update",
+  "storage": "jom",
+  "appName": "Polywar 3d Fps Online Shooter",
+  "match": {
+    "id": "app-1790191433911"
+  },
+  "item": {
+    "id": "app-1790191433911",
+    "name": "Polywar 3d Fps Online Shooter",
+    "version": "2.6.0",
+    "toolVersion": "",
+    "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/polywar-3d-fps-online-shooter_2.6.0",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/ed/61/94ed61b9-88c7-2f58-2467-6d5e42e90c35/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "previousVersions": [],
+    "size": "693.9 MB",
+    "note": "مميزات اللعبة:\n- رؤية الأعداء عبر الجدران.\n- تثبيت السلاح.\n- إزالة الارتداد.\n- إزالة تشتت الطلقات.",
+    "category": "ألعاب",
+    "recommended": false,
+    "bundleId": "com.nobodyshot.POLYWAR",
+    "addedAt": "2026-09-23T19:23:53.911Z",
+    "updatedAt": "2026-09-23T19:23:53.925Z"
+  }
+}
