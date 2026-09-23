@@ -18634,6 +18634,22 @@
       "bundleId": "com.nobodyshot.POLYWAR",
       "addedAt": "2026-09-23T19:23:53.911Z",
       "updatedAt": "2026-09-23T19:23:53.925Z"
+    },
+    {
+      "id": "app-1790191570787",
+      "name": "Code of War Military Gun Game",
+      "version": "3.19.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/codeof-war-military-gun-game_3.19.7",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyj-OVvEI-0V0t-f82VtuvmIL_jHPz1KVOGGGefG0eiw&s=10",
+      "previousVersions": [],
+      "size": "1149.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gree.shadow",
+      "addedAt": "2026-09-23T19:26:10.787Z",
+      "updatedAt": "2026-09-23T19:26:10.798Z"
     }
   ]
 }
