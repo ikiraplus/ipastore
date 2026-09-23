@@ -305,20 +305,35 @@ jobs:
               host = host_of(url)
               return host in ("ipaomtk.com", "www.ipaomtk.com", "file.ipaomtk.com") or host.endswith(".ipaomtk.com")
 
-          def ipaomtk_page_for(url):
-              parsed = urllib.parse.urlparse(url)
+          def ipaomtk_network_url(url):
+              # #fragment لا يُرسل إلى الخادم؛ نستخدمه فقط عند تسمية الملف/الإصدار.
+              return urllib.parse.urldefrag(url)[0]
+
+          def ipaomtk_page_candidates(url):
+              parsed = urllib.parse.urlparse(ipaomtk_network_url(url))
               host = (parsed.hostname or "").lower()
               parts = [urllib.parse.unquote(x) for x in parsed.path.split("/") if x]
-              if host == "file.ipaomtk.com" and parts:
-                  return "https://ipaomtk.com/" + urllib.parse.quote(parts[0]) + "/"
-              if host in ("ipaomtk.com", "www.ipaomtk.com"):
-                  return url
-              return "https://ipaomtk.com/"
+              slug = parts[0] if parts else ""
+              pages = []
+              if slug:
+                  quoted = urllib.parse.quote(slug)
+                  pages += [
+                      f"https://ipaomtk.com/{quoted}/",
+                      f"https://www.ipaomtk.com/{quoted}/",
+                  ]
+              pages += ["https://ipaomtk.com/", "https://www.ipaomtk.com/"]
+              out = []
+              seen = set()
+              for p in pages:
+                  if p not in seen:
+                      seen.add(p)
+                      out.append(p)
+              return out
 
           def extract_ipaomtk_direct(raw):
               raw = html.unescape(raw).replace("\\/", "/")
               patterns = [
-                  r'''https://file\.ipaomtk\.com/[^"'<>\s\\]+?\.ipa(?:\?[^"'<>\s\\]*)?''',
+                  r'''https://file\.ipaomtk\.com/[^"'<>s\\]+?\.ipa(?:\?[^"'<>s\\]*)?''',
                   r'''href=["']([^"']+\.ipa(?:\?[^"']*)?)["']''',
               ]
               for pattern in patterns:
@@ -328,55 +343,133 @@ jobs:
                   value = m.group(1) if m.lastindex else m.group(0)
                   value = urllib.parse.urljoin("https://ipaomtk.com/", value)
                   if value.startswith("https://"):
-                      return value
+                      return ipaomtk_network_url(value)
               return None
 
-          def download_ipaomtk(url):
-              page_url = ipaomtk_page_for(url)
-              direct = None
+          def preload_ipaomtk_page(page_url):
+              if page_file.exists():
+                  page_file.unlink()
+              cmd = [
+                  "curl",
+                  "--fail-with-body",
+                  "--location",
+                  "--http1.1",
+                  "--connect-timeout", "15",
+                  "--max-time", "60",
+                  "--retry", "1",
+                  "--retry-delay", "1",
+                  "--user-agent", UA,
+                  "--header", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                  "--header", "Accept-Language: en-US,en;q=0.9",
+                  "--header", "Accept-Encoding: identity",
+                  "--header", "Cache-Control: no-cache",
+                  "--header", "Pragma: no-cache",
+                  "--header", "Upgrade-Insecure-Requests: 1",
+                  "--header", "Sec-Fetch-Site: none",
+                  "--header", "Sec-Fetch-Mode: navigate",
+                  "--header", "Sec-Fetch-Dest: document",
+                  "--header", "Sec-Fetch-User: ?1",
+                  "--cookie-jar", str(cookies),
+                  "--cookie", str(cookies),
+                  "--output", str(page_file),
+                  page_url,
+              ]
+              print("IPAOMTK browser page preload:", page_url)
+              subprocess.run(cmd, check=True)
+              return page_file.read_text("utf-8", errors="ignore")
 
-              # زيارة صفحة التطبيق أولاً للحصول على cookies والرابط المباشر الحالي.
+          def try_ipaomtk_file(file_url, page_url):
+              file_url = ipaomtk_network_url(file_url)
+              if candidate.exists():
+                  candidate.unlink()
+
+              cmd = [
+                  "curl",
+                  "--fail-with-body",
+                  "--location",
+                  "--http1.1",
+                  "--connect-timeout", "20",
+                  "--max-time", "2400",
+                  "--retry", "2",
+                  "--retry-delay", "2",
+                  "--user-agent", UA,
+                  "--header", "Accept: application/octet-stream,application/zip,*/*;q=0.8",
+                  "--header", "Accept-Language: en-US,en;q=0.9",
+                  "--header", "Accept-Encoding: identity",
+                  "--header", "Cache-Control: no-cache",
+                  "--header", "Pragma: no-cache",
+                  "--header", "Sec-Fetch-Site: same-site",
+                  "--header", "Sec-Fetch-Mode: navigate",
+                  "--header", "Sec-Fetch-Dest: document",
+                  "--header", "Sec-Fetch-User: ?1",
+                  "--referer", page_url,
+                  "--cookie-jar", str(cookies),
+                  "--cookie", str(cookies),
+                  "--output", str(candidate),
+                  file_url,
+              ]
+
+              print("IPAOMTK file download:", host_of(file_url), "referer:", page_url)
               try:
-                  run_curl(
-                      page_url,
-                      page_file,
-                      referer="https://ipaomtk.com/",
-                      cookies_enabled=True,
-                      extra_headers=[
-                          "Sec-Fetch-Site: same-origin",
-                          "Sec-Fetch-Mode: navigate",
-                          "Sec-Fetch-Dest: document",
-                      ],
-                  )
-                  direct = extract_ipaomtk_direct(page_file.read_text("utf-8", errors="ignore"))
-              except Exception as exc:
-                  print("IPAOMTK page preload failed:", exc)
+                  subprocess.run(cmd, check=True)
+              except subprocess.CalledProcessError as exc:
+                  print("IPAOMTK file request failed:", exc)
+                  return False
 
-              candidates = []
-              if direct:
-                  candidates.append(direct)
-              if host_of(url) == "file.ipaomtk.com":
-                  candidates.append(url)
+              ok, reason = validate(candidate, asset_name)
+              if ok:
+                  candidate.replace(final_file)
+                  print("IPAOMTK file validated:", reason)
+                  return True
+
+              size = candidate.stat().st_size if candidate.exists() else 0
+              head = candidate.read_bytes()[:64] if candidate.exists() else b""
+              print("IPAOMTK response invalid:", reason, "Size:", size, "First bytes:", repr(head))
+              try:
+                  candidate.unlink()
+              except FileNotFoundError:
+                  pass
+              return False
+
+          def download_ipaomtk(url):
+              original_direct = ipaomtk_network_url(url)
+              page_urls = ipaomtk_page_candidates(url)
+              direct_candidates = []
+              successful_pages = []
+
+              # الصفحة لازم تُطلب كصفحة متصفح، مو كـ application/octet-stream.
+              for page_url in page_urls:
+                  try:
+                      raw = preload_ipaomtk_page(page_url)
+                      successful_pages.append(page_url)
+                      direct = extract_ipaomtk_direct(raw)
+                      if direct:
+                          direct_candidates.append(direct)
+                      # أول صفحة تطبيق ناجحة كافية غالباً للحصول على cookies.
+                      if urllib.parse.urlparse(page_url).path not in ("", "/"):
+                          break
+                  except Exception as exc:
+                      print("IPAOMTK page preload failed:", page_url, exc)
+
+              if host_of(original_direct) == "file.ipaomtk.com":
+                  direct_candidates.append(original_direct)
 
               seen = set()
-              for direct_url in candidates:
-                  if not direct_url or direct_url in seen:
-                      continue
-                  seen.add(direct_url)
-                  if try_download(
-                      direct_url,
-                      referer=page_url,
-                      cookies_enabled=True,
-                      extra_headers=[
-                          "Sec-Fetch-Site: same-site",
-                          "Sec-Fetch-Mode: navigate",
-                          "Sec-Fetch-Dest: document",
-                          "Sec-Fetch-User: ?1",
-                      ],
-                  ):
-                      return True
+              ordered_direct = []
+              for item in direct_candidates:
+                  item = ipaomtk_network_url(item)
+                  if item and item not in seen:
+                      seen.add(item)
+                      ordered_direct.append(item)
 
-              # fallback: رابط DL الذي يعمل عندك بالمتصفح.
+              referers = successful_pages or page_urls
+              for direct_url in ordered_direct:
+                  for page_url in referers:
+                      if try_ipaomtk_file(direct_url, page_url):
+                          return True
+
+              # fallback أخير إلى رابط DL. إذا الـWorker نفسه يقدر يفتح المصدر، نستخدمه.
+              print("IPAOMTK direct/browser path failed; trying Worker DL fallback.")
               return try_download(proxy_url)
 
           def download_streamvault_dylib_chunked(url):
