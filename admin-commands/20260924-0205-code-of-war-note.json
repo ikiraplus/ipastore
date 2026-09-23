@@ -1,0 +1,25 @@
+{
+  "requestId": "20260924-0205-code-of-war-note",
+  "op": "update",
+  "storage": "jom",
+  "appName": "Code of War Military Gun Game",
+  "match": {
+    "id": "app-1790191570787"
+  },
+  "item": {
+    "id": "app-1790191570787",
+    "name": "Code of War Military Gun Game",
+    "version": "3.19.7",
+    "toolVersion": "",
+    "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/codeof-war-military-gun-game_3.19.7",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyj-OVvEI-0V0t-f82VtuvmIL_jHPz1KVOGGGefG0eiw&s=10",
+    "previousVersions": [],
+    "size": "1149.2 MB",
+    "note": "مميزات اللعبة:\n- بدون ارتداد.\n- ذخيرة غير محدودة.\n- وضع عدم الموت.\n- رادار.",
+    "category": "ألعاب",
+    "recommended": false,
+    "bundleId": "com.gree.shadow",
+    "addedAt": "2026-09-23T19:26:10.787Z",
+    "updatedAt": "2026-09-23T19:26:10.798Z"
+  }
+}
