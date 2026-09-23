@@ -5870,26 +5870,26 @@
     {
       "id": "APP-7765940369",
       "name": "365scores Live Scores News",
-      "version": "6.6.6",
+      "version": "6.6.7",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scores-live-scores-news-v6.6.6",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scores-live-scores-news-v6.6.7",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/7b/23/517b2300-c347-8a58-611a-973d08a5b2cb/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.4",
-          "version": "6.6.4"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/scores-live-scores-news-v6.6.6",
+          "version": "6.6.6"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.3",
-          "version": "6.6.3"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/365scores-live-scores-news-v6.6.4",
+          "version": "6.6.4"
         }
       ],
-      "size": "85.4 MB",
+      "size": "85.0 MB",
       "note": "تم فتح جميع المميزات وعضوية الـVip.\n- تم حل مشكلة الإشعارات.\n- اضغط شراء ثم الغاء او قم بالتسجيل عبر حساب كوكل.",
       "category": "أدوات",
       "recommended": false,
       "addedAt": "2026-08-02T15:39:36.173Z",
-      "updatedAt": "2026-09-12T18:34:32.117Z",
+      "updatedAt": "2026-09-23T08:25:35.138Z",
       "bundleId": "com.365scores.365scroesapp"
     },
     {
@@ -18490,6 +18490,22 @@
       "bundleId": "games.urmobi.found.it",
       "addedAt": "2026-09-23T08:21:39.101Z",
       "updatedAt": "2026-09-23T08:21:39.108Z"
+    },
+    {
+      "id": "app-1790151907157",
+      "name": "Apex Racers",
+      "version": "0.9.70",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/apex-racers-v0.9.70",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/68/0b/03680bc4-ddad-9ccb-5db7-b07cb1ced349/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "178.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pixeldev.APEXRacers",
+      "addedAt": "2026-09-23T08:25:07.157Z",
+      "updatedAt": "2026-09-23T08:25:07.166Z"
     }
   ]
 }
