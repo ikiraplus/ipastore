@@ -18538,6 +18538,22 @@
       "bundleId": "com.solid.dig",
       "addedAt": "2026-09-23T08:35:50.590Z",
       "updatedAt": "2026-09-23T08:35:50.599Z"
+    },
+    {
+      "id": "app-1790152596911",
+      "name": "Machine Gun Rush",
+      "version": "1.22",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/machine_gun_rush-v1.22",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/e4/56/49e456fd-ed26-fb76-8c9e-9a1e4d0d5810/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "95.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.taninty.machinegunrush",
+      "addedAt": "2026-09-23T08:36:36.911Z",
+      "updatedAt": "2026-09-23T08:36:36.921Z"
     }
   ]
 }
