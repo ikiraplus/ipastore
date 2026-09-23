@@ -333,7 +333,7 @@ jobs:
           def extract_ipaomtk_direct(raw):
               raw = html.unescape(raw).replace("\\/", "/")
               patterns = [
-                  r'''https://file\.ipaomtk\.com/[^"'<>s\\]+?\.ipa(?:\?[^"'<>s\\]*)?''',
+                  r'''https://file\.ipaomtk\.com/[^"'<>\\s\\]+?\.ipa(?:\?[^"'<>\\s\\]*)?''',
                   r'''href=["']([^"']+\.ipa(?:\?[^"']*)?)["']''',
               ]
               for pattern in patterns:
