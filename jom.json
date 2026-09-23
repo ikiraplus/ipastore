@@ -18746,6 +18746,22 @@
       "bundleId": "com.wondergames.warpath.ios",
       "addedAt": "2026-09-23T19:29:35.602Z",
       "updatedAt": "2026-09-23T19:29:35.616Z"
+    },
+    {
+      "id": "app-1790191817195",
+      "name": "War Dragons",
+      "version": "9.7.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/war-dragons_9.7.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/54/eb/2b54eb57-80bd-2685-c510-89f51bf4261d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "206.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pocketgems.dragon",
+      "addedAt": "2026-09-23T19:30:17.195Z",
+      "updatedAt": "2026-09-23T19:30:17.203Z"
     }
   ]
 }
