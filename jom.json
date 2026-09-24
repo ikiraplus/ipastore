@@ -18799,6 +18799,22 @@
       "bundleId": "com.swiftgames.roguelikesurvival",
       "addedAt": "2026-09-24T12:28:28.910Z",
       "updatedAt": "2026-09-24T12:28:28.925Z"
+    },
+    {
+      "id": "app-1790252934553",
+      "name": "Family Island Farminggame",
+      "version": "2026320.0.93860",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/family-island-farminggame_2026320.0.93860",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/57/30/675730f0-7cdc-cfa7-9246-ab104a1d1ebf/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "390.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.MelsoftGames.FamilyIsland",
+      "addedAt": "2026-09-24T12:28:54.553Z",
+      "updatedAt": "2026-09-24T12:28:54.563Z"
     }
   ]
 }
