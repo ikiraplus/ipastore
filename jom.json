@@ -18909,6 +18909,22 @@
       "bundleId": "puzzle.yarn.fever.unravel.puzzle",
       "addedAt": "2026-09-24T12:36:47.783Z",
       "updatedAt": "2026-09-24T12:36:47.790Z"
+    },
+    {
+      "id": "app-1790253496109",
+      "name": "Cat Crunch Match 3 Games",
+      "version": "2.9.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cat-crunch-match-3-games_2.9.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/68/f6/7768f6f1-2afb-cf8f-e889-c742984bb2b7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1039.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.yfactorysoft.CatCrunch",
+      "addedAt": "2026-09-24T12:38:16.109Z",
+      "updatedAt": "2026-09-24T12:38:16.120Z"
     }
   ]
 }
