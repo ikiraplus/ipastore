@@ -1,0 +1,30 @@
+{
+  "requestId": "20260924-1612-sniper-3d-note",
+  "op": "update",
+  "storage": "jom",
+  "appName": "Sniper 3D",
+  "match": {
+    "id": "APP-9089839388"
+  },
+  "item": {
+    "id": "APP-9089839388",
+    "name": "Sniper 3D",
+    "version": "7.8.0",
+    "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sniper-3d-gun-shootingg-ames_7.8.0",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/91/f2/3791f28d-c252-3236-9553-f7d7484c78c5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "size": "449.0 MB",
+    "note": "مميزات اللعبة:\n- عملات لا نهائية، تُستخدم في ترقية السلاح وتسريع التسليم.\n- طاقة لا نهائية.\n- إزالة تشتت الرصاص.\n- القضاء على الأعداء بضربة واحدة.\n- تم تمكين محرك الغش iGameGod.",
+    "category": "ألعاب",
+    "addedAt": "2026-03-29",
+    "bundleId": "com.fungames.sniper3d",
+    "updatedAt": "2026-09-24T12:38:44.818Z",
+    "toolVersion": "",
+    "previousVersions": [
+      {
+        "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sniper-3d-gun-shooting-games-hack",
+        "version": "4.45.0"
+      }
+    ],
+    "recommended": false
+  }
+}
