@@ -1,0 +1,25 @@
+{
+  "requestId": "20260924-1608-amikin-village-note",
+  "op": "update",
+  "storage": "jom",
+  "appName": "Amikin Village Magic Sim Rpg",
+  "match": {
+    "id": "app-1790253284663"
+  },
+  "item": {
+    "id": "app-1790253284663",
+    "name": "Amikin Village Magic Sim Rpg",
+    "version": "2.6.0",
+    "toolVersion": "",
+    "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/amikin-village-magic-sim-rpg_260",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/af/6a/e3af6a9e-ee89-faea-a718-81adac551813/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "previousVersions": [],
+    "size": "1015.6 MB",
+    "note": "مميزات اللعبة:\n- مضاعفة الضرر.\n- وضع عدم الموت.\n- مضاعفة السرعة.\n- متانة السلاح غير محدودة.\n- اختراق مقسم.\n- الوصول إلى أقصى مستوى بعد كسب بعض نقاط الخبرة.",
+    "category": "ألعاب",
+    "recommended": false,
+    "bundleId": "com.heliogames.amikin.survival",
+    "addedAt": "2026-09-24T12:34:44.663Z",
+    "updatedAt": "2026-09-24T12:34:44.684Z"
+  }
+}
