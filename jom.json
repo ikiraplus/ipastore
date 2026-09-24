@@ -4197,17 +4197,21 @@
     },
     {
       "id": "APP-6200235601",
-      "name": "into the dead 2",
-      "version": "1.86.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/into-the-dead2.1.86.1",
-      "icon": "https://play-lh.googleusercontent.com/KJzppbod8tdh0r8Jbh2BheG7zsYzByjlzfjbcvHz4_R-fhDQzBTcJnKgqdlKWDogEQ",
-      "size": "1750.4 MB",
+      "name": "Into The Dead 2",
+      "version": "1.87.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/into-the-dead-2-v1.87.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/c7/da/5cc7daa6-d553-2147-a224-efa3c3c4cb18/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "1997.8 MB",
       "note": "مميزات اللعبة:\n- فضة غير محدودة.\n- ذهب غير محدود.\n- ذخيرة غير محدودة.\n- قنابل يدوية غير محدودة.\n- قنبلة يدوية فورية.\n- بدون إعادة تعبئة.\n- طاقة غير محدودة.\n- عضوية VIP.",
       "category": "ألعاب",
       "addedAt": "2026-06-13T19:10:14.426Z",
-      "updatedAt": "2026-08-24T13:56:43.704Z",
+      "updatedAt": "2026-09-24T13:03:15.461Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/into-the-dead2.1.86.1",
+          "version": "1.86.1"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/into-the-dead-2",
           "version": "1.85"
