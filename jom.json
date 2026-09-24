@@ -19005,6 +19005,22 @@
       "bundleId": "com.aliha100.climbingsanddune3d",
       "addedAt": "2026-09-24T13:05:07.282Z",
       "updatedAt": "2026-09-24T13:05:07.292Z"
+    },
+    {
+      "id": "app-1790257804607",
+      "name": "Knife Hit",
+      "version": "1.9.26",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/knife-hit-v1.9.26",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/1f/0f/421f0f08-0a08-09cf-0f95-69f2dc750188/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "75.3 MB",
+      "note": "مميزات اللعبة :\n- بدون إعلانات.\n- تم فتح المتجر ( إضغط شراء ثم إلغاء ).",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ketchapp.knifehit",
+      "addedAt": "2026-09-24T13:50:04.608Z",
+      "updatedAt": "2026-09-24T13:50:04.666Z"
     }
   ]
 }
