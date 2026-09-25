@@ -16065,18 +16065,23 @@
     {
       "id": "app-1789499412091",
       "name": "Coffee Stack",
-      "version": "48.3.1",
+      "version": "48.3.2",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coffee-stack_48.3.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/2d/74/962d740b-11f4-d7ca-5e69-84ca965fd1d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "564.6 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coffee-stack_48.3.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/fc/86/2afc8635-4330-cfa0-cce4-3b9c31707de4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/coffee-stack_48.3.1",
+          "version": "48.3.1"
+        }
+      ],
+      "size": "564.8 MB",
       "note": "مميزات اللعبة:\n- أموال غير محدودة.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "markergame.coffeestack",
       "addedAt": "2026-09-15T19:10:12.091Z",
-      "updatedAt": "2026-09-15T19:10:14.648Z"
+      "updatedAt": "2026-09-25T08:21:00.710Z"
     },
     {
       "id": "app-1789499474164",
