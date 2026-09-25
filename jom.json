@@ -20281,6 +20281,22 @@
       "bundleId": "com.sega.sonic2017ios",
       "addedAt": "2026-09-25T20:57:57.853Z",
       "updatedAt": "2026-09-25T20:57:57.860Z"
+    },
+    {
+      "id": "app-1790370120188",
+      "name": "Batman: The Enemy Within",
+      "version": "1.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/batman-tew-v1.8",
+      "icon": "https://play-lh.googleusercontent.com/lzTIAIdnKPwbGY5PrhoAGnx8T8wjBRkx_WFoIMXdTaTmUWdauNrn2_oeUBP0XzStwO6urjuFSZSA2oKfNEMfLMw",
+      "previousVersions": [],
+      "size": "1707.7 MB",
+      "note": "لعبة محذوفة من المتجر الرسمي Appstore.",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.telltalegames.BAT200",
+      "addedAt": "2026-09-25T21:02:00.188Z",
+      "updatedAt": "2026-09-25T21:02:00.197Z"
     }
   ]
 }
