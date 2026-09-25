@@ -20345,6 +20345,22 @@
       "bundleId": "com.rovio.AngryBirdsSpace",
       "addedAt": "2026-09-25T21:04:21.223Z",
       "updatedAt": "2026-09-25T21:04:23.156Z"
+    },
+    {
+      "id": "app-1790370502931",
+      "name": "Angry Birds Epic",
+      "version": "1.1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-epic-v1.1.0",
+      "icon": "https://static.wikia.nocookie.net/angrybirds/images/c/c8/ABEpic_Icon_1.png/revision/latest?cb=20211124000442",
+      "previousVersions": [],
+      "size": "71.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rovio.gold",
+      "addedAt": "2026-09-25T21:08:22.931Z",
+      "updatedAt": "2026-09-25T21:08:22.938Z"
     }
   ]
 }
