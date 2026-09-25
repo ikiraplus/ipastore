@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   mutate:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Wait for older admin runs
@@ -42,7 +42,7 @@ jobs:
           }
 
           deadline = time.time() + 600
-          stale_after = 180
+          stale_after = 30
 
           def run_age_seconds(run):
               stamp = run.get("run_started_at") or run.get("created_at")
