@@ -19597,6 +19597,22 @@
       "bundleId": "com.sbs.diet",
       "addedAt": "2026-09-25T14:39:27.094Z",
       "updatedAt": "2026-09-25T14:39:27.121Z"
+    },
+    {
+      "id": "app-1790347223977",
+      "name": "Prayer Times Athan Pro Muslim",
+      "version": "4.8.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/prayer-times-athan-pro-muslim_4.8.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/a8/6e/95a86e19-5e2f-629f-a442-fc1a8532d7b1/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "289.4 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.avirise.prayer.times",
+      "addedAt": "2026-09-25T14:40:23.977Z",
+      "updatedAt": "2026-09-25T14:40:24.012Z"
     }
   ]
 }
