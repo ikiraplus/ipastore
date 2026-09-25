@@ -19437,6 +19437,38 @@
       "bundleId": "com.naddic.iamdead",
       "addedAt": "2026-09-25T14:16:49.137Z",
       "updatedAt": "2026-09-25T14:16:49.158Z"
+    },
+    {
+      "id": "app-1790345826192",
+      "name": "Crunchyroll Gato Roboto",
+      "version": "1.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crunchyroll-gato-roboto_1.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/44/72/924472e7-e5e6-1f57-5a20-685f0af711f1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "567.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.crunchyroll.gv.gatoroboto",
+      "addedAt": "2026-09-25T14:17:06.192Z",
+      "updatedAt": "2026-09-25T14:17:06.210Z"
+    },
+    {
+      "id": "app-1790345842672",
+      "name": "Z Survivor Backpack Shooter",
+      "version": "1.34",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/z-survivor-backpack-shooter_1.34",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/6c/d0/be6cd0f1-dbd9-7e1a-1d28-babc79a3fea0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "486.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.tapped.zsurvivor",
+      "addedAt": "2026-09-25T14:17:22.672Z",
+      "updatedAt": "2026-09-25T14:17:22.684Z"
     }
   ]
 }
