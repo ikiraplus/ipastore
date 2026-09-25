@@ -19117,6 +19117,22 @@
       "bundleId": "com.TandemApps.KingOfTheStreet",
       "addedAt": "2026-09-25T08:19:28.959Z",
       "updatedAt": "2026-09-25T08:19:28.978Z"
+    },
+    {
+      "id": "app-1790324389371",
+      "name": "Deepstash Smarter Every Day",
+      "version": "32.7.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/deepstash-smarter-every-day_32.7.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/cf/36/e8cf368e-a7eb-c2d0-b1ab-b23b4a8ade07/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "199.4 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.deepstash.application",
+      "addedAt": "2026-09-25T08:19:49.371Z",
+      "updatedAt": "2026-09-25T08:19:49.380Z"
     }
   ]
 }
