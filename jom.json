@@ -19389,6 +19389,22 @@
       "bundleId": "com.jsl.entco.fox",
       "addedAt": "2026-09-25T14:15:34.116Z",
       "updatedAt": "2026-09-25T14:15:34.132Z"
+    },
+    {
+      "id": "app-1790345763390",
+      "name": "War Survival Last Shooter",
+      "version": "0.1.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/war-survival-last-shooter_0.1.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/b4/00/a4b400f7-ca75-e436-55df-d79e8fb4b14f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "303.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.horusent.war.survival.last.shooter",
+      "addedAt": "2026-09-25T14:16:03.390Z",
+      "updatedAt": "2026-09-25T14:16:03.417Z"
     }
   ]
 }
