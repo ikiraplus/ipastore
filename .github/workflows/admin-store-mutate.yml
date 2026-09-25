@@ -42,7 +42,7 @@ jobs:
           }
 
           deadline = time.time() + 600
-          stale_after = 30
+          stale_after = 15
 
           def run_age_seconds(run):
               stamp = run.get("run_started_at") or run.get("created_at")
@@ -56,7 +56,7 @@ jobs:
 
           def cancel_run(run):
               run_id = run.get("id")
-              cancel_url = f"https://api.github.com/repos/{repo}/actions/runs/{run_id}/cancel"
+              cancel_url = f"https://api.github.com/repos/{repo}/actions/runs/{run_id}/force-cancel"
               cancel_req = urllib.request.Request(
                   cancel_url,
                   data=b"",
