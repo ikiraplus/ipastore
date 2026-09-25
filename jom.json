@@ -19469,6 +19469,22 @@
       "bundleId": "com.tapped.zsurvivor",
       "addedAt": "2026-09-25T14:17:22.672Z",
       "updatedAt": "2026-09-25T14:17:22.684Z"
+    },
+    {
+      "id": "app-1790345864409",
+      "name": "Earnto Die Rogue",
+      "version": "1.29.260",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/earnto-die-rogue_1.29.260",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/9b/fb/bd9bfb8e-de4b-3a28-848d-c5af801f2cf0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "445.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.notdoppler.earntodierogue",
+      "addedAt": "2026-09-25T14:17:44.409Z",
+      "updatedAt": "2026-09-25T14:17:44.438Z"
     }
   ]
 }
