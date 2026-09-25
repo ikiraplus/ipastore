@@ -20297,6 +20297,22 @@
       "bundleId": "com.telltalegames.BAT200",
       "addedAt": "2026-09-25T21:02:00.188Z",
       "updatedAt": "2026-09-25T21:02:00.197Z"
+    },
+    {
+      "id": "app-1790370145559",
+      "name": "Gangfort - Online 2D Platformer Shooter",
+      "version": "1.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gangfort-v1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple18/v4/55/95/18/559518c0-02f4-aa9b-e6bd-a25bc5382e49/mzl.mdhoards.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "23.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gangfort.game.ios",
+      "addedAt": "2026-09-25T21:02:25.559Z",
+      "updatedAt": "2026-09-25T21:02:25.566Z"
     }
   ]
 }
