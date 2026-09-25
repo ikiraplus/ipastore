@@ -10,20 +10,23 @@ on:
 
 permissions:
   contents: write
-  actions: read
+  actions: write
 
 jobs:
   mutate:
     runs-on: ubuntu-slim
+    timeout-minutes: 10
     steps:
       - name: Wait for older admin runs
         shell: python
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          import datetime as dt
           import json
           import os
           import time
+          import urllib.error
           import urllib.request
 
           repo = os.environ["GITHUB_REPOSITORY"]
@@ -38,7 +41,37 @@ jobs:
               "User-Agent": "ikiraplus-admin-queue"
           }
 
-          deadline = time.time() + 3600
+          deadline = time.time() + 600
+          stale_after = 180
+
+          def run_age_seconds(run):
+              stamp = run.get("run_started_at") or run.get("created_at")
+              if not stamp:
+                  return 0
+              try:
+                  started = dt.datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+                  return max(0, time.time() - started.timestamp())
+              except Exception:
+                  return 0
+
+          def cancel_run(run):
+              run_id = run.get("id")
+              cancel_url = f"https://api.github.com/repos/{repo}/actions/runs/{run_id}/cancel"
+              cancel_req = urllib.request.Request(
+                  cancel_url,
+                  data=b"",
+                  headers=headers,
+                  method="POST"
+              )
+              try:
+                  with urllib.request.urlopen(cancel_req, timeout=30) as response:
+                      print(f"Cancelled stale admin run #{run.get('run_number')} (HTTP {response.status}).")
+              except urllib.error.HTTPError as exc:
+                  if exc.code in (409, 422):
+                      print(f"Run #{run.get('run_number')} already finishing; refreshing status.")
+                  else:
+                      raise
+
           while True:
               req = urllib.request.Request(url, headers=headers)
               with urllib.request.urlopen(req, timeout=30) as response:
@@ -55,21 +88,32 @@ jobs:
                   break
 
               oldest = min(older_active, key=lambda run: int(run.get("run_number", 0)))
+              age = run_age_seconds(oldest)
+
+              if age >= stale_after:
+                  print(
+                      f"Older run #{oldest.get('run_number')} has been active for "
+                      f"{int(age)}s; cancelling it so the admin queue can continue."
+                  )
+                  cancel_run(oldest)
+                  time.sleep(2)
+                  continue
+
               print(
                   f"Waiting for older run #{oldest.get('run_number')} "
-                  f"({oldest.get('status')}) to finish..."
+                  f"({oldest.get('status')}, {int(age)}s old) to finish..."
               )
 
               if time.time() >= deadline:
                   raise RuntimeError("Timed out waiting for older Admin Store Mutator runs")
 
-              time.sleep(5)
+              time.sleep(3)
 
       - name: Checkout latest main
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Apply all queued admin commands
         shell: python
