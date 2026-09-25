@@ -19501,6 +19501,22 @@
       "bundleId": "com.deutschfordoctors",
       "addedAt": "2026-09-25T14:33:00.566Z",
       "updatedAt": "2026-09-25T14:33:00.605Z"
+    },
+    {
+      "id": "app-1790346823410",
+      "name": "Osmosis Nursing Videos Notes",
+      "version": "6.0.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/osmosis-nursing-videos-notes_6.0.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/2b/8e/d72b8efb-52d0-69f9-1dbd-bedb91272dd0/NursingAppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "61.8 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.osmose-it.nursing.1",
+      "addedAt": "2026-09-25T14:33:43.410Z",
+      "updatedAt": "2026-09-25T14:33:43.435Z"
     }
   ]
 }
