@@ -20061,6 +20061,38 @@
       "bundleId": "com.netmarble.stonkey",
       "addedAt": "2026-09-25T19:03:34.705Z",
       "updatedAt": "2026-09-25T19:03:34.728Z"
+    },
+    {
+      "id": "app-1790363035883",
+      "name": "Fortune Hunters Lost Relics",
+      "version": "1.05",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fortune-hunters-lost-relics_1.05",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/8c/12/428c12a0-cc2e-38c4-622f-f08a4c894167/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "373.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.gamepublic.fortunehunters",
+      "addedAt": "2026-09-25T19:03:55.883Z",
+      "updatedAt": "2026-09-25T19:03:55.908Z"
+    },
+    {
+      "id": "app-1790363067646",
+      "name": "Bulletstorm: Zombie FPS TD",
+      "version": "1.4.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bulletstorm-zombie-fpstd_1.4.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/ae/6f/53ae6f3f-43b1-5ac8-973e-139bb5a7ae80/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "401.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ryki.fps.zombie",
+      "addedAt": "2026-09-25T19:04:27.646Z",
+      "updatedAt": "2026-09-25T19:04:27.661Z"
     }
   ]
 }
