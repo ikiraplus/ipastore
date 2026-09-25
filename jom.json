@@ -19709,6 +19709,38 @@
       "bundleId": "com.bladecoder.bonasera3",
       "addedAt": "2026-09-25T14:53:32.053Z",
       "updatedAt": "2026-09-25T14:53:32.071Z"
+    },
+    {
+      "id": "app-1790348080782",
+      "name": "Neon Chrome",
+      "version": "1.1.12",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/neon-chrome_1.1.12",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f4/62/fe/f462fe7c-c3a6-32c0-5049-d640cfccea7a/AppIcon-1x_U007emarketing-0-4-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "217.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.10tons.neonchrome",
+      "addedAt": "2026-09-25T14:54:40.782Z",
+      "updatedAt": "2026-09-25T14:54:40.805Z"
+    },
+    {
+      "id": "app-1790348095200",
+      "name": "Delivery Fromthe Pain No Ads",
+      "version": "1.3.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/delivery-fromthe-pain-no-ads_1.3.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/c7/e3/b0/c7e3b0fa-8781-5338-12ea-b22331b0ec97/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "452.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.huayigame.deliveryfromthepain.zs",
+      "addedAt": "2026-09-25T14:54:55.200Z",
+      "updatedAt": "2026-09-25T14:54:55.218Z"
     }
   ]
 }
