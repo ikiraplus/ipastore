@@ -20141,6 +20141,22 @@
       "bundleId": "com.hypermonkgames.HighwayOvertake",
       "addedAt": "2026-09-25T19:05:36.723Z",
       "updatedAt": "2026-09-25T19:05:36.751Z"
+    },
+    {
+      "id": "app-1790363165359",
+      "name": "RIVAL GUNS",
+      "version": "0.6.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rivalguns_0.6.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/06/97/110697df-8df3-3e09-a45e-2cbfd8ef3c90/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "693.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ohbibi.shooterlab",
+      "addedAt": "2026-09-25T19:06:05.359Z",
+      "updatedAt": "2026-09-25T19:06:05.376Z"
     }
   ]
 }
