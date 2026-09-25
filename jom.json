@@ -904,23 +904,23 @@
     {
       "id": "APP-5983140067",
       "name": "Pinterest Pro",
-      "version": "14.35",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.35",
+      "version": "14.37",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.37-2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/a5/d6/43a5d6ef-f21d-50df-519f-2dc707acadf1/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
-      "size": "170.2 MB",
-      "note": "تم فتح جميع المميزات وعضوية الـVip.\n- اضغط شراء ثم الغاء او قم بالتسجيل عبر حساب كوكل.",
+      "size": "172.4 MB",
+      "note": "تم فتح جميع المميزات وعضوية الـVip.\n- اضغط شراء ثم الغاء او قم بالتسجيل عبر حساب كوكل.\n- يدعم تحميل الفيدوهات.",
       "category": "أدوات",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-09-12T18:32:37.598Z",
+      "updatedAt": "2026-09-25T20:41:13.661Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.34",
-          "version": "14.34"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.35",
+          "version": "14.35"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.33",
-          "version": "14.33"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pinterest-v14.34",
+          "version": "14.34"
         }
       ],
       "recommended": false,
