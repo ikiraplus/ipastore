@@ -19085,6 +19085,22 @@
       "bundleId": "com.easybrain.crossword.puzzles",
       "addedAt": "2026-09-25T08:18:30.353Z",
       "updatedAt": "2026-09-25T08:18:30.363Z"
+    },
+    {
+      "id": "app-1790324339118",
+      "name": "Royal Sort",
+      "version": "1.9.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/royal-sort_1.9.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/98/30/b7983008-5cde-e83f-23a9-ca42469cbb99/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "376.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "onetap.game.royal.sort",
+      "addedAt": "2026-09-25T08:18:59.118Z",
+      "updatedAt": "2026-09-25T08:18:59.128Z"
     }
   ]
 }
