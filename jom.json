@@ -19629,6 +19629,22 @@
       "bundleId": "com.enseeyab.HijriCalendar",
       "addedAt": "2026-09-25T14:40:43.849Z",
       "updatedAt": "2026-09-25T14:40:43.884Z"
+    },
+    {
+      "id": "app-1790347285620",
+      "name": "Inspirationsfor Muslims Quotes Sayings Duas",
+      "version": "1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inspirationsfor-muslims-quotes-sayings-duas_1.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/46/43/9b/46439bd9-19ee-3a6e-4579-315252cf9c17/mzl.egyknpkk.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "16.3 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "org.islamicfinder.inspirations",
+      "addedAt": "2026-09-25T14:41:25.620Z",
+      "updatedAt": "2026-09-25T14:41:25.652Z"
     }
   ]
 }
