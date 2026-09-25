@@ -19037,6 +19037,22 @@
       "bundleId": "com.ClipGlider.premium",
       "addedAt": "2026-09-24T13:51:17.974Z",
       "updatedAt": "2026-09-24T13:51:17.992Z"
+    },
+    {
+      "id": "app-1790324245899",
+      "name": "Eternal Hero Action Rpg",
+      "version": "4.1.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/eternal-hero-action-rpg_4.1.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/68/52/1868520a-a09e-0686-6316-dd29b7f20705/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "758.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "games.rivvy.eternalherorpg",
+      "addedAt": "2026-09-25T08:17:25.899Z",
+      "updatedAt": "2026-09-25T08:17:25.913Z"
     }
   ]
 }
