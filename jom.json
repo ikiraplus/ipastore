@@ -20157,6 +20157,22 @@
       "bundleId": "com.ohbibi.shooterlab",
       "addedAt": "2026-09-25T19:06:05.359Z",
       "updatedAt": "2026-09-25T19:06:05.376Z"
+    },
+    {
+      "id": "app-1790363185662",
+      "name": "Idle Game The Silent Archivist",
+      "version": "7.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-game-the-silent-archivist_7.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/6f/65/ae6f6592-600e-0504-113c-3a54e4434ff4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "479.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.TownSoft.soulsofadventure",
+      "addedAt": "2026-09-25T19:06:25.662Z",
+      "updatedAt": "2026-09-25T19:06:25.695Z"
     }
   ]
 }
