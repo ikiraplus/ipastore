@@ -2433,16 +2433,24 @@
     },
     {
       "id": "APP-1820268369",
-      "name": "Sonic Dash",
-      "version": "8.5.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sonic-dash-hack",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/7f/e4/b27fe453-8646-687e-ad05-8b07e5265ee2/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "size": "337 MB",
+      "name": "Sonic Dash Run",
+      "version": "10.4.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sonic-dash-fun-endless-runner_10.4.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/97/6d/17976d1b-7b16-b5eb-a1df-8d93e4263638/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "385.0 MB",
       "note": "مميزات اللعبة:\n- تعزيز الطاقة بشكل غير محدود.\n- عملات غير محدودة.\n- الوصول إلى أعلى مستوى.\n- فتح الشخصيات.",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "bundleId": "com.sega.sonicdash",
-      "updatedAt": "2026-08-24T06:53:16.087Z"
+      "updatedAt": "2026-09-25T08:22:48.669Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sonic-dash-hack",
+          "version": "8.5.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-3982815634",
