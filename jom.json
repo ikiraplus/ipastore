@@ -19613,6 +19613,22 @@
       "bundleId": "com.avirise.prayer.times",
       "addedAt": "2026-09-25T14:40:23.977Z",
       "updatedAt": "2026-09-25T14:40:24.012Z"
+    },
+    {
+      "id": "app-1790347243849",
+      "name": "Hilal Calendar",
+      "version": "9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hilal-calendar_9.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/97/88/0597880f-ebb3-66a4-3306-bac43764f092/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "87.1 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.enseeyab.HijriCalendar",
+      "addedAt": "2026-09-25T14:40:43.849Z",
+      "updatedAt": "2026-09-25T14:40:43.884Z"
     }
   ]
 }
