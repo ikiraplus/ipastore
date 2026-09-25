@@ -19565,6 +19565,22 @@
       "bundleId": "com.pregnancywheelob.app",
       "addedAt": "2026-09-25T14:37:40.261Z",
       "updatedAt": "2026-09-25T14:37:40.309Z"
+    },
+    {
+      "id": "app-1790347133279",
+      "name": "Period Tracker Period Calendar",
+      "version": "3.9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/period-tracker-period-calendar_3.9.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/ac/54/f9ac543f-e8bf-9267-82af-787661290c18/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "266.3 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.abishkking.periodcalendar",
+      "addedAt": "2026-09-25T14:38:53.279Z",
+      "updatedAt": "2026-09-25T14:38:53.304Z"
     }
   ]
 }
