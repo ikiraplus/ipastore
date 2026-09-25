@@ -19305,6 +19305,22 @@
       "bundleId": "com.blingblinggames.craftingidleclicker",
       "addedAt": "2026-09-25T14:02:46.434Z",
       "updatedAt": "2026-09-25T14:02:46.455Z"
+    },
+    {
+      "id": "app-1790345572532",
+      "name": "Volley Craft",
+      "version": "1.7.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/volley-craft_1.7.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/00/4e/c7004e76-ba51-fd3e-ccee-28cde7e93b34/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "500.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ArcaneBlast.VolleyCraft",
+      "addedAt": "2026-09-25T14:12:52.532Z",
+      "updatedAt": "2026-09-25T14:12:52.558Z"
     }
   ]
 }
