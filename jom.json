@@ -19853,6 +19853,22 @@
       "bundleId": "net.mbc.shahid-iphone",
       "addedAt": "2026-09-25T14:59:27.022Z",
       "updatedAt": "2026-09-25T14:59:27.031Z"
+    },
+    {
+      "id": "app-1790348395423",
+      "name": "Meme Maker Pro Make Memes",
+      "version": "16.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/meme-maker-pro-make-memes_16.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/5f/c1/e95fc175-6a3c-e337-7e3c-61de9e241008/AppIcon_Gradient-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "249.2 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.digitalpalette.mememachine",
+      "addedAt": "2026-09-25T14:59:55.423Z",
+      "updatedAt": "2026-09-25T14:59:55.443Z"
     }
   ]
 }
