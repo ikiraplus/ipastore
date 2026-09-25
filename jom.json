@@ -19805,6 +19805,38 @@
       "bundleId": "com.vistechprojects.PupillaryDistanceMeasureX",
       "addedAt": "2026-09-25T14:58:06.938Z",
       "updatedAt": "2026-09-25T14:58:06.958Z"
+    },
+    {
+      "id": "app-1790348304290",
+      "name": "Juicy Realm",
+      "version": "3.1.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/juicy-realm_3.1.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0c/23/e7/0c23e71d-9853-40d0-4273-f6c08cb1369b/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "322.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.spacecangames.juicyrealm",
+      "addedAt": "2026-09-25T14:58:24.290Z",
+      "updatedAt": "2026-09-25T14:58:24.305Z"
+    },
+    {
+      "id": "app-1790348326437",
+      "name": "Drama Wave Dramas Reels",
+      "version": "2.0.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/drama-wave-dramas-reels_2.0.10",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/6c/39/406c3982-19f7-7736-2d7c-97a117c809c2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "194.9 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.dramabuzz.app",
+      "addedAt": "2026-09-25T14:58:46.437Z",
+      "updatedAt": "2026-09-25T14:58:46.451Z"
     }
   ]
 }
