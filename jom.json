@@ -19236,6 +19236,22 @@
       "bundleId": "com.alexanderwinn.TerraGenesis",
       "addedAt": "2026-09-25T08:34:15.112Z",
       "updatedAt": "2026-09-25T08:34:15.120Z"
+    },
+    {
+      "id": "app-1790325276758",
+      "name": "Arrow Pro 3d",
+      "version": "1.17.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/arrow-pro-3d_1.17.0-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/2d/c2/a52dc22a-4c36-4f81-84a8-261b696bd84d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "350.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "ios.arrow.cube.3d",
+      "addedAt": "2026-09-25T08:34:36.758Z",
+      "updatedAt": "2026-09-25T08:34:36.768Z"
     }
   ]
 }
