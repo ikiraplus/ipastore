@@ -20249,6 +20249,22 @@
       "bundleId": "com.easygames.race",
       "addedAt": "2026-09-25T20:42:24.021Z",
       "updatedAt": "2026-09-25T20:42:24.028Z"
+    },
+    {
+      "id": "app-1790369027874",
+      "name": "Power Rangers: Legacy Wars",
+      "version": "3.8.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/power-rangers-3.8.9-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/c1/b5/e1c1b527-721a-c199-2a96-b4e20705d53b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "159.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.nway.powerrangerslegacywars",
+      "addedAt": "2026-09-25T20:43:47.874Z",
+      "updatedAt": "2026-09-25T20:43:47.879Z"
     }
   ]
 }
