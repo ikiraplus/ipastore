@@ -1191,16 +1191,24 @@
     },
     {
       "id": "APP-8010604125",
-      "name": "Call of duty hack",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/call-of-duty-hack_1.0.54_1774227663",
+      "name": "Call of Duty Hack",
+      "version": "1.0.57",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cod-mobile-hack-1.0.57",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/f6/aa/73f6aa64-d3a4-4448-d36d-25b41582ec06/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
-      "size": "2760 MB",
-      "note": "استخدام هذا التطبيق على مسؤوليتك الخاصة، ولا نضمن الحساب ولا نعرف الجهة المطورة له، قم بفك ضغط الملف وتثبيت ملف الـ ipa\n\nمميزات الهاك:\n- مدى رمي سريع\n- رصاصة سحرية\n- ثبات التصويب\n- رؤية عبر الجدران\n- انعدام التشتت",
+      "size": "2616.7 MB",
+      "note": "استخدام هذا الهاك على مسؤوليتك الخاصة، ولا نضمن الحساب ولا نعرف الجهة المطورة له, يعمل على الايفون فقط ولا يعمل على الايباد.\n\nمميزات الهاك:\n- مدى رمي سريع\n- رصاصة سحرية\n- ثبات التصويب\n- رؤية عبر الجدران\n- انعدام التشتت",
       "category": "ألعاب",
       "addedAt": "2026-04-05",
       "bundleId": "com.activision.callofduty.shooter",
-      "updatedAt": "2026-08-24T13:56:43.705Z"
+      "updatedAt": "2026-09-25T21:20:13.284Z",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/call-of-duty-hack_1.0.54_1774227663",
+          "version": "last version"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-7438565650",
@@ -20377,6 +20385,22 @@
       "bundleId": "com.madfingergames.deadzone",
       "addedAt": "2026-09-25T21:09:31.527Z",
       "updatedAt": "2026-09-25T21:09:31.534Z"
+    },
+    {
+      "id": "app-1790370718635",
+      "name": "Reckless Getaway 2: Car Chase",
+      "version": "1.5.097",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/getaway-2-v1.5.097-2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/c1/a7/55c1a770-5410-6419-6c7d-dc8ac428c142/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "155.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pixelbite.getaway2",
+      "addedAt": "2026-09-25T21:11:58.635Z",
+      "updatedAt": "2026-09-25T21:11:58.642Z"
     }
   ]
 }
