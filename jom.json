@@ -5501,18 +5501,18 @@
     {
       "id": "APP-6052752183",
       "name": "Offline Games No Wifi Games",
-      "version": "3.15.1",
+      "version": "3.15.3",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-games-no-wifi-games-v3.15.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/2b/9a/b32b9a2d-7cb0-720d-5b40-cc30b038931b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-games-no-wifi-games-v3.15.3-2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/44/b0/5644b07d-d3f7-f6b4-8f05-7a85f644b5cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-games-no-wifi-games-v3.15.1",
+          "version": "3.15.1"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-games-no-wifi-games-v3.14.1",
           "version": "3.14.1"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/offline-games-no-wifi-games-v3.13.2",
-          "version": "3.13.2"
         }
       ],
       "size": "107.7 MB",
@@ -5520,7 +5520,7 @@
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-07-27T09:10:12.701Z",
-      "updatedAt": "2026-09-12T18:31:43.889Z",
+      "updatedAt": "2026-09-25T20:41:38.433Z",
       "bundleId": "com.JindoBlu.OfflineGamesIOS"
     },
     {
