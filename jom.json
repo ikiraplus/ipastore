@@ -19321,6 +19321,22 @@
       "bundleId": "com.ArcaneBlast.VolleyCraft",
       "addedAt": "2026-09-25T14:12:52.532Z",
       "updatedAt": "2026-09-25T14:12:52.558Z"
+    },
+    {
+      "id": "app-1790345604622",
+      "name": "Transport Tycoon Empire City",
+      "version": "2.26.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/transport-tycoon-empire-city_2.26.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/b3/98/76b398c4-436a-3688-0ed8-eae1408b1fb8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "266.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "tycoon.building.simulator.games.aldagames.com",
+      "addedAt": "2026-09-25T14:13:24.622Z",
+      "updatedAt": "2026-09-25T14:13:24.642Z"
     }
   ]
 }
