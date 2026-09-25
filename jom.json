@@ -19901,6 +19901,22 @@
       "bundleId": "com.jarustudios.PhotoIDMaker",
       "addedAt": "2026-09-25T15:01:15.932Z",
       "updatedAt": "2026-09-25T15:01:15.941Z"
+    },
+    {
+      "id": "app-1790362673885",
+      "name": "Chef Friends Cooking Game",
+      "version": "1.48.11",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/chef-friends-cooking-game_1.48.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/a8/64/c6a864ad-7a03-ef14-9503-1d3df2833ec9/AppIcon-1x_U007epad-0-11-0-P3-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "827.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mytona.cheftales",
+      "addedAt": "2026-09-25T18:57:53.885Z",
+      "updatedAt": "2026-09-25T18:57:53.917Z"
     }
   ]
 }
