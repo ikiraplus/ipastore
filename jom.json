@@ -19069,6 +19069,22 @@
       "bundleId": "com.gibygames.rapidreload",
       "addedAt": "2026-09-25T08:18:01.745Z",
       "updatedAt": "2026-09-25T08:18:01.757Z"
+    },
+    {
+      "id": "app-1790324310353",
+      "name": "Crossword Master Word Puzzle",
+      "version": "2.3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/crossword-master-word-puzzle_2.3.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/1a/11/911a11d2-4844-4995-63a3-7f3edb93b4c8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "259.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.easybrain.crossword.puzzles",
+      "addedAt": "2026-09-25T08:18:30.353Z",
+      "updatedAt": "2026-09-25T08:18:30.363Z"
     }
   ]
 }
