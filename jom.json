@@ -19981,6 +19981,22 @@
       "bundleId": "com.SputnikLabs.E240",
       "addedAt": "2026-09-25T18:59:56.093Z",
       "updatedAt": "2026-09-25T18:59:56.121Z"
+    },
+    {
+      "id": "app-1790362818678",
+      "name": "Hidden Stuff",
+      "version": "1.20.22",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hidden-stuff_1.20.22",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/4a/7a/e84a7aa1-0874-47c7-c5fe-571d66059dce/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "276.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.my.little.things",
+      "addedAt": "2026-09-25T19:00:18.678Z",
+      "updatedAt": "2026-09-25T19:00:18.700Z"
     }
   ]
 }
