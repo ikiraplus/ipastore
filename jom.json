@@ -19869,6 +19869,38 @@
       "bundleId": "com.digitalpalette.mememachine",
       "addedAt": "2026-09-25T14:59:55.423Z",
       "updatedAt": "2026-09-25T14:59:55.443Z"
+    },
+    {
+      "id": "app-1790348451597",
+      "name": "Video Captions Text on Video",
+      "version": "1.0.268",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/video-captions-textonvideo_1.0.268",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/19/77/fd197727-228c-48fd-9997-cc86f5d64a8e/AppIcon-0-0-1x_U007emarketing-0-8-0-P3-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "15.4 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.jarustudios.VideoCaptions",
+      "addedAt": "2026-09-25T15:00:51.597Z",
+      "updatedAt": "2026-09-25T15:00:51.616Z"
+    },
+    {
+      "id": "app-1790348475932",
+      "name": "ID Photo Makerdocumentphotos",
+      "version": "1.0.226",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/id-photo-makerdocumentphotos_1.0.226",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/8a/d2/6f8ad27e-2c6a-1e27-d417-97b0853bd36c/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "13.2 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.jarustudios.PhotoIDMaker",
+      "addedAt": "2026-09-25T15:01:15.932Z",
+      "updatedAt": "2026-09-25T15:01:15.941Z"
     }
   ]
 }
