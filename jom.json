@@ -19373,6 +19373,22 @@
       "bundleId": "com.battlecreek.offroadoutlaws",
       "addedAt": "2026-09-25T14:15:19.340Z",
       "updatedAt": "2026-09-25T14:15:19.356Z"
+    },
+    {
+      "id": "app-1790345734116",
+      "name": "Fox Shot Number Run",
+      "version": "1.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fox-shot-number-run_1.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/c8/7f/e2c87fc2-f1cc-428e-413a-b354e11b3e17/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "473.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.jsl.entco.fox",
+      "addedAt": "2026-09-25T14:15:34.116Z",
+      "updatedAt": "2026-09-25T14:15:34.132Z"
     }
   ]
 }
