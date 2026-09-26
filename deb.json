@@ -225,27 +225,27 @@
     {
       "id": "dylib-1784536072141",
       "name": "Beegram Tweak",
-      "version": "3.2",
+      "version": "3.4",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Beegram-3.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Beegram-3.4",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773402346513.png",
       "fileType": "dylib",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Beegram-v2.3",
-          "version": "3.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Beegram-3.2",
+          "version": "3.2"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/beegram",
-          "version": "2.2"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Beegram-v2.3",
+          "version": "3.1"
         }
       ],
-      "size": "2.1 MB",
+      "size": "2.2 MB",
       "note": "",
       "category": "دايلب",
       "recommended": false,
       "addedAt": "2026-07-20T08:27:52.142Z",
-      "updatedAt": "2026-09-18T08:27:22.315Z",
+      "updatedAt": "2026-09-26T12:36:10.673Z",
       "bundleId": ""
     },
     {
