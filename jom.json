@@ -20401,6 +20401,22 @@
       "bundleId": "com.pixelbite.getaway2",
       "addedAt": "2026-09-25T21:11:58.635Z",
       "updatedAt": "2026-09-25T21:11:58.642Z"
+    },
+    {
+      "id": "app-1790420254677",
+      "name": "Haak",
+      "version": "1.4.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/haak_1.4.2-appstore",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/48/52/3f4852f8-49de-a482-1917-91c79a876881/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "509.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.blingame.doomsday",
+      "addedAt": "2026-09-26T10:57:34.677Z",
+      "updatedAt": "2026-09-26T10:57:34.688Z"
     }
   ]
 }
