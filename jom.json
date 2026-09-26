@@ -20465,6 +20465,22 @@
       "bundleId": "com.venomizedart.Slaughter",
       "addedAt": "2026-09-26T11:29:43.022Z",
       "updatedAt": "2026-09-26T11:29:43.031Z"
+    },
+    {
+      "id": "app-1790422239920",
+      "name": "Slaughter 3 The Rebels",
+      "version": "1.47",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/slaughter-3-the-rebels-v1.47",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/48/29/3f/48293f43-ce6a-ef2d-10f3-612f2c31d6f9/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "580.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.venomizedArt.SlaughterRebels",
+      "addedAt": "2026-09-26T11:30:39.920Z",
+      "updatedAt": "2026-09-26T11:30:39.930Z"
     }
   ]
 }
