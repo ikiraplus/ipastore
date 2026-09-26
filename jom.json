@@ -9620,22 +9620,26 @@
     {
       "id": "APP-6888532782",
       "name": "Youmod",
-      "version": "21.34.3",
+      "version": "21.38.3",
       "toolVersion": "2.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youmod_21.34.3_v2.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youmod_21.38.3_v2.0.0",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youmod_21.34.3_v2.0",
+          "version": "21.34.3"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youmod_21.33.6_v2.0.0",
           "version": "21.33.6"
         }
       ],
-      "size": "122.6 MB",
+      "size": "124.7 MB",
       "note": "مميزات التطبيق:\n- تنزيل الفيديوهات والصوتيات والترجمات والصور المصغرة ومعلومات الفيديو، مع دعم جودة تصل إلى 1080p60.\n- تشغيل الفيديو والصوت في الخلفية مع مجموعة كبيرة من تحسينات المشغل.\n- OLED Theme مع دعم OLED Keyboard.\n- إخفاء وتخصيص عناصر وأزرار شريط التنقل.\n- تخصيص عناصر وأزرار المشغل وإضافة Custom Actions.\n- تخصيص واجهة Shorts وإخفاء عناصرها وإضافة إجراءات مخصصة.\n- إعادة ترتيب تبويبات YouTube وإخفاء العناصر غير المرغوبة من Tab Bar.\n- SponsorBlock مدمج لتخطي المقاطع الدعائية والرعايات تلقائياً.\n- دمج العديد من تحسينات جودة الاستخدام المستوحاة من YTLite وتعديلات YouTube الأخرى.\n- دعم إصدارات YouTube الحديثة مع خيارات تخصيص واسعة للواجهة والتشغيل.",
       "category": "تواصل",
       "recommended": false,
       "addedAt": "2026-08-23T11:26:21.579Z",
-      "updatedAt": "2026-08-25T10:59:44.134Z",
+      "updatedAt": "2026-09-26T12:34:37.789Z",
       "bundleId": "com.google.ios.youtube"
     },
     {
