@@ -20943,6 +20943,22 @@
       "bundleId": "com.asobimo.seisainometria",
       "addedAt": "2026-09-28T14:09:08.529Z",
       "updatedAt": "2026-09-28T14:09:08.542Z"
+    },
+    {
+      "id": "app-1790604570281",
+      "name": "EverLife 2 Life Simulator",
+      "version": "1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ever-life-2-life-simulator-1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/50/29/0c5029ef-aa26-d98c-9103-104d97efa79d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "348.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playeverlife.generations",
+      "addedAt": "2026-09-28T14:09:30.281Z",
+      "updatedAt": "2026-09-28T14:09:30.291Z"
     }
   ]
 }
