@@ -20985,6 +20985,22 @@
       "bundleId": "com.oakever.arrows",
       "addedAt": "2026-09-28T14:13:02.803Z",
       "updatedAt": "2026-09-28T14:13:02.811Z"
+    },
+    {
+      "id": "app-1790604800200",
+      "name": "Dead Ahead Enforcers",
+      "version": "0.20.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dead-ahead-enforcers_0.20.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/92/45/979245c9-6b22-17a4-a4e3-ec5af1d63c3f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1273.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mobirate.dacom",
+      "addedAt": "2026-09-28T14:13:20.200Z",
+      "updatedAt": "2026-09-28T14:13:20.209Z"
     }
   ]
 }
