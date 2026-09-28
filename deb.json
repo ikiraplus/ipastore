@@ -1621,6 +1621,23 @@
       "bundleId": "",
       "addedAt": "2026-09-23T19:54:51.301Z",
       "updatedAt": "2026-09-23T19:54:51.311Z"
+    },
+    {
+      "id": "dylib-1790608848286",
+      "name": "Eos Tweak",
+      "version": "2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/Eos-2.0",
+      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/dylib-1790608848286.png",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "5.6 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "bundleId": "",
+      "addedAt": "2026-09-28T15:20:48.286Z",
+      "updatedAt": "2026-09-28T15:20:52.397Z"
     }
   ]
 }
