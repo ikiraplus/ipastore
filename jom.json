@@ -21191,6 +21191,22 @@
       "bundleId": "com.superbox.ios.cubybusters",
       "addedAt": "2026-09-28T14:23:15.241Z",
       "updatedAt": "2026-09-28T14:23:15.249Z"
+    },
+    {
+      "id": "app-1790606794116",
+      "name": "Dungeon Hunter 6",
+      "version": "1.5.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dungeon-hunter-6-v1.5.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/2d/44/d62d44d2-cad7-3a69-eda7-03cab80b6ca3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "1763.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.goatgames.dhs.gb.ios",
+      "addedAt": "2026-09-28T14:46:34.116Z",
+      "updatedAt": "2026-09-28T14:46:34.135Z"
     }
   ]
 }
