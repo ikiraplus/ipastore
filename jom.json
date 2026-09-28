@@ -20636,6 +20636,22 @@
       "bundleId": "hedonic.games.arrowrush.td",
       "addedAt": "2026-09-28T13:50:41.856Z",
       "updatedAt": "2026-09-28T13:50:41.868Z"
+    },
+    {
+      "id": "app-1790603459735",
+      "name": "Epic Stickman Rpg Idle War",
+      "version": "1.0.87",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/epic-stickman-rpg-idle-war_1.0.87",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/71/8a/af718a24-5900-61b9-7413-baf9cff5aca3/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "419.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.fansipan.epic.stickman.survival.rpg.idle.game",
+      "addedAt": "2026-09-28T13:50:59.735Z",
+      "updatedAt": "2026-09-28T13:50:59.743Z"
     }
   ]
 }
