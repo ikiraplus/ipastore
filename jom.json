@@ -20969,6 +20969,22 @@
       "bundleId": "com.playeverlife.generations",
       "addedAt": "2026-09-28T14:09:30.281Z",
       "updatedAt": "2026-09-28T14:09:30.291Z"
+    },
+    {
+      "id": "app-1790604782803",
+      "name": "Amaze Go",
+      "version": "1.32.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/amaze-go_1.32.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/53/a9/1453a9f5-30ca-a2be-5e88-26a1e35dbb5f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "453.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.oakever.arrows",
+      "addedAt": "2026-09-28T14:13:02.803Z",
+      "updatedAt": "2026-09-28T14:13:02.811Z"
     }
   ]
 }
