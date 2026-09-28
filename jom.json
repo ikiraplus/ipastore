@@ -20700,6 +20700,22 @@
       "bundleId": "com.zynga.FarmVilleTropicEscape",
       "addedAt": "2026-09-28T13:52:43.502Z",
       "updatedAt": "2026-09-28T13:52:43.511Z"
+    },
+    {
+      "id": "app-1790603582540",
+      "name": "Slot Brave Roguelike Rpg",
+      "version": "1.1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/slot-brave-roguelike-rpg_1.1.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/75/b9/fa75b945-358a-322e-8b64-022ed9c8b6d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "387.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.TrickStArStudio.SlotAndBrave",
+      "addedAt": "2026-09-28T13:53:02.540Z",
+      "updatedAt": "2026-09-28T13:53:02.550Z"
     }
   ]
 }
