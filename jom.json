@@ -21102,6 +21102,22 @@
       "bundleId": "com.zuuks.truck.simulator.ultimate",
       "addedAt": "2026-09-28T14:19:42.456Z",
       "updatedAt": "2026-09-28T14:19:42.464Z"
+    },
+    {
+      "id": "app-1790605201726",
+      "name": "Transcender Idle Rpg",
+      "version": "2.45.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/transcender-idle-rpg_2.45.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/76/4d/76764d7f-573a-c3aa-88cb-f5afeb435932/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "668.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playgames.transcender",
+      "addedAt": "2026-09-28T14:20:01.726Z",
+      "updatedAt": "2026-09-28T14:20:01.735Z"
     }
   ]
 }
