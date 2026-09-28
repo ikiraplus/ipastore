@@ -4391,16 +4391,19 @@
     },
     {
       "id": "APP-7688937525",
-      "name": "the sims free play",
-      "version": "last version",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sims-freeplay",
-      "icon": "https://m.media-amazon.com/images/I/81lzuVd8ksL.png",
+      "name": "The Sims Free Play",
+      "version": "113.0.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-sims-free-play-113.0.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/7e/ad/327ead41-cc90-fe61-e57f-9a3cd38da563/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "size": "1478.3 MB",
       "note": "مميزات اللعبة:\n- عملات غير محدودة.\n- الوصول إلى أعلى مستوى VIP.",
       "category": "ألعاب",
       "addedAt": "2026-06-14T09:35:55.940Z",
-      "updatedAt": "2026-08-24T13:56:43.704Z",
-      "bundleId": "com.ea.sims3deluxe.ipad.inc"
+      "updatedAt": "2026-09-28T17:05:53.019Z",
+      "bundleId": "com.ea.sims3deluxe.ipad.inc",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "APP-8589277559",
