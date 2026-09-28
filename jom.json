@@ -1832,8 +1832,8 @@
       "id": "APP-4624948966",
       "name": "CarX Drift Racing 2",
       "version": "1.42.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-drift-racing-2-v1.42.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/9e/18/f79e181e-5321-711d-4fc9-9e08b9e19dcf/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/carx-drift-racing-2-v1.42.1-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/46/22/71462277-414d-aa26-cb55-f4444e3fc648/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
       "size": "1200 MB",
       "note": "مميزات اللعبة:\n- متجر مجاني.\n- شراء وتطوير السيارات بدون الحاجة إلى رصيد كافٍ.",
       "category": "ألعاب",
@@ -1841,7 +1841,7 @@
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
-      "updatedAt": "2026-08-24T13:58:36.518Z",
+      "updatedAt": "2026-09-28T16:40:43.728Z",
       "bundleId": "com.carx-tech.carxdr2"
     },
     {
