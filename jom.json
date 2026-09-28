@@ -21006,6 +21006,22 @@
       "bundleId": "com.mobirate.dacom",
       "addedAt": "2026-09-28T14:13:20.200Z",
       "updatedAt": "2026-09-28T14:13:20.209Z"
+    },
+    {
+      "id": "app-1790604881714",
+      "name": "MMALife - MMA Life Simulator",
+      "version": "1.0.8",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mma-life-mma-life-simulator_1.0.8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/f7/a2/a9f7a2f1-ed22-6b42-2352-104353289c83/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "114.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.lokoworks.MMALife",
+      "addedAt": "2026-09-28T14:14:41.714Z",
+      "updatedAt": "2026-09-28T14:14:41.723Z"
     }
   ]
 }
