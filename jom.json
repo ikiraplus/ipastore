@@ -4105,16 +4105,19 @@
     },
     {
       "id": "APP-6980086657",
-      "name": "angry birds 2",
-      "version": "10.0.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/f9/d6/09f9d6ee-0e93-e114-067f-ecd49a840019/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "size": "643.5 MB",
+      "name": "Angry Birds 2",
+      "version": "26.6.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-2-v26.6.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/04/ca/7804ca49-20cd-e1f6-77e0-2b24b0dadcb8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "948.3 MB",
       "note": "مميزات اللعبة:\n- عملات غير محدودة؛ عند إنفاق العملات تحصل على المزيد منها.",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:29:15.052Z",
-      "updatedAt": "2026-08-24T09:29:29.919Z",
-      "bundleId": "com.rovio.baba"
+      "updatedAt": "2026-09-28T16:48:23.178Z",
+      "bundleId": "com.rovio.baba",
+      "toolVersion": "",
+      "previousVersions": [],
+      "recommended": false
     },
     {
       "id": "APP-6350852241",
