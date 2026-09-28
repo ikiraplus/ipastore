@@ -20817,19 +20817,19 @@
     },
     {
       "id": "app-1790603954940",
-      "name": "Goblin Miner: Tycoon Game",
+      "name": "Goblins Wood: lumber tycoon",
       "version": "2.69.1",
       "toolVersion": "",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/goblins-wood-gold-miner-game_2.69.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/04/a1/2804a14c-5a56-5340-28aa-7572b03eca70/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/01/7f/0a017f80-a90b-e06c-865d-cf1ef94e2524/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [],
       "size": "355.9 MB",
       "note": "",
       "category": "ألعاب",
       "recommended": false,
-      "bundleId": "com.adengames.goldrush",
+      "bundleId": "idle.goblins.wood.tycoon",
       "addedAt": "2026-09-28T13:59:14.940Z",
-      "updatedAt": "2026-09-28T13:59:14.947Z"
+      "updatedAt": "2026-09-28T14:18:01.366Z"
     },
     {
       "id": "app-1790604289884",
