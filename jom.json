@@ -21175,6 +21175,22 @@
       "bundleId": "com.rawhand.darktower",
       "addedAt": "2026-09-28T14:23:00.993Z",
       "updatedAt": "2026-09-28T14:23:01.002Z"
+    },
+    {
+      "id": "app-1790605395241",
+      "name": "Cuby Busters",
+      "version": "0.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cuby-busters_0.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/ea/f0/2beaf0ae-c430-4634-e402-533c7139ef74/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "260.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.superbox.ios.cubybusters",
+      "addedAt": "2026-09-28T14:23:15.241Z",
+      "updatedAt": "2026-09-28T14:23:15.249Z"
     }
   ]
 }
