@@ -20843,6 +20843,22 @@
       "bundleId": "com.peoplefun.wordsearch",
       "addedAt": "2026-09-28T14:05:06.093Z",
       "updatedAt": "2026-09-28T14:05:06.103Z"
+    },
+    {
+      "id": "app-1790604328871",
+      "name": "Pawn to Don Mafia Crime Story",
+      "version": "2.8.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pawnto-don-mafia-crime-story_2.8.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/c0/1d/dac01d61-4676-7b44-a870-d4a4c6a58a37/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "417.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.funcell.pawndon",
+      "addedAt": "2026-09-28T14:05:28.871Z",
+      "updatedAt": "2026-09-28T14:05:28.886Z"
     }
   ]
 }
