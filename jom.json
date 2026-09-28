@@ -21070,6 +21070,22 @@
       "bundleId": "com.snowball.td.mushroom",
       "addedAt": "2026-09-28T14:18:36.858Z",
       "updatedAt": "2026-09-28T14:18:36.865Z"
+    },
+    {
+      "id": "app-1790605146295",
+      "name": "Adventure of White Chord",
+      "version": "1.6.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/adventureof-white-chord_1.6.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/68/bb/9b68bb57-289a-0cff-0d46-f074af842b5a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "793.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.yulong.sgame.ios",
+      "addedAt": "2026-09-28T14:19:06.295Z",
+      "updatedAt": "2026-09-28T14:19:06.303Z"
     }
   ]
 }
