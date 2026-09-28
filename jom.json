@@ -20769,6 +20769,22 @@
       "bundleId": "com.superbox.ios.catkitchen",
       "addedAt": "2026-09-28T13:58:18.710Z",
       "updatedAt": "2026-09-28T13:58:18.719Z"
+    },
+    {
+      "id": "app-1790603916989",
+      "name": "Bunker Defense 100m Survival",
+      "version": "3.1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bunker-defense-100m-survival_3.1.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/c6/2f/95c62f4e-0922-857c-8879-08e531b143b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "787.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.TeamSparta.BunkerDefense",
+      "addedAt": "2026-09-28T13:58:36.989Z",
+      "updatedAt": "2026-09-28T13:58:36.997Z"
     }
   ]
 }
