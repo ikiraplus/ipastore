@@ -20911,6 +20911,22 @@
       "bundleId": "com.ondi.fortias.defense",
       "addedAt": "2026-09-28T14:06:55.297Z",
       "updatedAt": "2026-09-28T14:06:55.304Z"
+    },
+    {
+      "id": "app-1790604533428",
+      "name": "MA2 President Simulator 97",
+      "version": "97",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ma2-president-simulator_97",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/26/b7/5626b7ec-cefa-352b-49e8-43a8ae21eb6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "659.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.oxiwyle.modernage2",
+      "addedAt": "2026-09-28T14:08:53.428Z",
+      "updatedAt": "2026-09-28T14:08:53.440Z"
     }
   ]
 }
