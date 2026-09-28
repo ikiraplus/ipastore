@@ -20716,6 +20716,22 @@
       "bundleId": "com.TrickStArStudio.SlotAndBrave",
       "addedAt": "2026-09-28T13:53:02.540Z",
       "updatedAt": "2026-09-28T13:53:02.550Z"
+    },
+    {
+      "id": "app-1790603597382",
+      "name": "Portal Survivor",
+      "version": "3.9.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/portal-survivor_3.9.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/35/41/d9354138-bab3-88f0-0fcc-35dcacf1a968/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "407.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.escape.portalsurvivor",
+      "addedAt": "2026-09-28T13:53:17.382Z",
+      "updatedAt": "2026-09-28T13:53:17.399Z"
     }
   ]
 }
