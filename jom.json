@@ -21138,6 +21138,22 @@
       "bundleId": "com.grandgames.magicsort",
       "addedAt": "2026-09-28T14:20:47.272Z",
       "updatedAt": "2026-09-28T14:20:47.280Z"
+    },
+    {
+      "id": "app-1790605294142",
+      "name": "فرجة",
+      "version": "1.38",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/forja_1.38",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/fa/5b/6ffa5b57-0a11-2a84-2d81-e3a7d2bcbb17/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "63.9 MB",
+      "note": "تم ازالة جميع الاعلانات المزعجة.",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "ma.snrt.forja.ios.app",
+      "addedAt": "2026-09-28T14:21:34.142Z",
+      "updatedAt": "2026-09-28T14:21:34.153Z"
     }
   ]
 }
