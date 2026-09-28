@@ -19141,18 +19141,23 @@
     {
       "id": "app-1790324281745",
       "name": "Rapid Reload",
-      "version": "5.8.2",
+      "version": "5.9.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rapid-reload_5.8.2",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/7e/b6/ae7eb6ed-df30-33dc-b8e1-d04c59790791/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "397.7 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rapid-reload_5.9.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/73/59/ed7359b2-dc65-aff0-bf66-84d3d955ff6f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rapid-reload_5.8.2",
+          "version": "5.8.2"
+        }
+      ],
+      "size": "397.8 MB",
       "note": "- قائمة تصحيح مدمجة.\n- إضافة نقود.\n- إضافة ماس.\n- إضافة طاقة.\n- انتقال فوري.\n- تخطي المستويات.\n- إعدادات الكاميرا.\n- تفعيل المهارات.\n- تفعيل التعديلات.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.gibygames.rapidreload",
       "addedAt": "2026-09-25T08:18:01.745Z",
-      "updatedAt": "2026-09-25T08:18:01.757Z"
+      "updatedAt": "2026-09-28T14:00:10.571Z"
     },
     {
       "id": "app-1790324310353",
