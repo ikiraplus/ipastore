@@ -20875,6 +20875,22 @@
       "bundleId": "com.FreeDust.UnderDark",
       "addedAt": "2026-09-28T14:05:50.790Z",
       "updatedAt": "2026-09-28T14:05:50.797Z"
+    },
+    {
+      "id": "app-1790604401087",
+      "name": "Cookie Clickers",
+      "version": "1.72.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cookie-clickers_1.72.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/a9/12/50a9120d-c2d4-346e-cf35-9e70aef379be/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "193.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "it.junglestudios.cookieclicker",
+      "addedAt": "2026-09-28T14:06:41.087Z",
+      "updatedAt": "2026-09-28T14:06:41.096Z"
     }
   ]
 }
