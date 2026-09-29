@@ -804,7 +804,7 @@
     },
     {
       "id": "APP-6102935193",
-      "name": "Red Dead Redemption (free paid)",
+      "name": "Red Dead Redemption",
       "version": "1.50.6",
       "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rdr-[v1.50.6029]",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/8a/32/6f8a3229-8cba-326d-624a-55e900774f64/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -812,7 +812,7 @@
       "note": "لعبة مدفوعة في المتجر الرسمي AppStore.",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T13:56:43.705Z",
+      "updatedAt": "2026-09-29T08:23:04.439Z",
       "toolVersion": "",
       "previousVersions": [],
       "recommended": false,
