@@ -21971,6 +21971,22 @@
       "bundleId": "com.snowprintstudios.tacticus",
       "addedAt": "2026-09-30T22:17:56.452Z",
       "updatedAt": "2026-09-30T22:17:56.478Z"
+    },
+    {
+      "id": "app-1790806804029",
+      "name": "Idle Weapon Shop",
+      "version": "2.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-weapon-shop_2.1.1-1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/cc/be/cfccbeca-c377-2a25-3c66-d091d76bcb33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "589.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.hg.idleweaponshoptycoon",
+      "addedAt": "2026-09-30T22:20:04.029Z",
+      "updatedAt": "2026-09-30T22:20:04.043Z"
     }
   ]
 }
