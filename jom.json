@@ -2882,16 +2882,24 @@
     },
     {
       "id": "APP-9834711314",
-      "name": "bike race",
-      "version": "8.15.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bike-race-[8.15.0]",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/f0/a0/54f0a0e3-9c1a-abf5-3eda-bb918d60698f/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "114.8 MB",
+      "name": "Bike Race: Racing Game",
+      "version": "8.24.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bike-race-free-style-games_8.24.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/63/9c/55639cc0-427c-21b4-f12c-e15eddd2377e/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
+      "size": "222.1 MB",
       "note": "مميزات اللعبة:\n- فتح جميع الدراجات العادية.\n- فتح جميع دراجات جولة العالم.\n- فتح جميع دراجات البطولات.\n- فتح البطولات.\n- فتح المبارزات.\n- فتح وضع اللعب الجماعي.",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:26:56.175Z",
-      "updatedAt": "2026-08-24T06:23:05.333Z",
-      "bundleId": "com.topfreegames.bikeracefree"
+      "updatedAt": "2026-09-30T18:38:14.503Z",
+      "bundleId": "com.topfreegames.bikeracefree",
+      "toolVersion": "",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bike-race-[8.15.0]",
+          "version": "8.15.0"
+        }
+      ],
+      "recommended": false
     },
     {
       "id": "APP-4434364724",
