@@ -3910,17 +3910,21 @@
     },
     {
       "id": "APP-2432775126",
-      "name": "archery clash",
-      "version": "0.53.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archery_clash",
-      "icon": "https://play-lh.googleusercontent.com/t8j6OrA-4tGQRl3W8zu-Dd555dxfRcC_-h4nfek7XojXVYRyIAlxDqcobZB_1IsflomYVfMDxO-zGUwoPfDheA=w240-h480-rw",
-      "size": "300.9 MB",
+      "name": "Archery Clash",
+      "version": "0.58.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archery-clash_0.58.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/92/79/cc927903-ba56-f201-d965-c7d494505278/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "527.1 MB",
       "note": "مميزات اللعبة:\n- قائمة Debug Menu للتحكم بتقدم اللعبة.\n- فتح مميزات Premium.\n\nطريقة الوصول:\n- من Settings انتقل إلى Previous Language ثم Float Icon.\n- لتقدم اللعبة اختر Game Progress.\n- للمميزات المدفوعة اختر In-App Purchase.",
       "category": "ألعاب",
       "addedAt": "2026-06-13T07:37:22.166Z",
-      "updatedAt": "2026-08-24T06:52:26.058Z",
+      "updatedAt": "2026-09-30T18:36:30.023Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archery_clash",
+          "version": "0.53.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archery-clash_0.46.0",
           "version": "0.46.0"
