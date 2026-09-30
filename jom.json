@@ -21498,6 +21498,22 @@
       "bundleId": "monster.country.idle",
       "addedAt": "2026-09-30T18:40:38.452Z",
       "updatedAt": "2026-09-30T18:40:38.461Z"
+    },
+    {
+      "id": "app-1790793736153",
+      "name": "Zedge Ringtones Wallpapers",
+      "version": "5.45.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zedge-ringtones-wallpapers_5.45.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/8d/a2/5c8da2b6-09ae-3607-a7fd-51672b2f5c8e/AppIcon-IOS27-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "166.8 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "net.zedge.wallpapers",
+      "addedAt": "2026-09-30T18:42:16.153Z",
+      "updatedAt": "2026-09-30T18:42:16.161Z"
     }
   ]
 }
