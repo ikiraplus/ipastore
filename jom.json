@@ -21530,6 +21530,22 @@
       "bundleId": "game.qualiarts.hololive.dreams.com",
       "addedAt": "2026-09-30T18:42:30.888Z",
       "updatedAt": "2026-09-30T18:42:30.895Z"
+    },
+    {
+      "id": "app-1790793771646",
+      "name": "Rising Super Chef 2 Cooking",
+      "version": "10.9.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rising-super-chef-2-cooking_10.9.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/1f/1d/6e1f1dc4-eb23-381f-cc2e-0ff1428c792b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.jpeg/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "224.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ministone.game.risingsuperchef2",
+      "addedAt": "2026-09-30T18:42:51.646Z",
+      "updatedAt": "2026-09-30T18:42:51.657Z"
     }
   ]
 }
