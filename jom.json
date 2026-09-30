@@ -22051,6 +22051,22 @@
       "bundleId": "com.sparklingsociety.cityisland6",
       "addedAt": "2026-09-30T22:27:38.439Z",
       "updatedAt": "2026-09-30T22:27:38.450Z"
+    },
+    {
+      "id": "app-1790807328004",
+      "name": "Paper Delivery Boy",
+      "version": "1.46.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/paper-delivery-boy_1.46.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/fa/84/f3fa8488-c463-2a3f-9470-37c24c850482/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "345.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.hg.paperdeliveryboy",
+      "addedAt": "2026-09-30T22:28:48.004Z",
+      "updatedAt": "2026-09-30T22:28:48.013Z"
     }
   ]
 }
