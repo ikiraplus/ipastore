@@ -22035,6 +22035,22 @@
       "bundleId": "com.raptisoft.solomonsboneyard",
       "addedAt": "2026-09-30T22:26:18.108Z",
       "updatedAt": "2026-09-30T22:26:18.128Z"
+    },
+    {
+      "id": "app-1790807258439",
+      "name": "City Island 6 Building Town",
+      "version": "6.10.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/city-island6-building-town_6100",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/d4/a7/d4d4a7de-1921-0ea1-9ac9-eb2b97b94fb6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "464.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.sparklingsociety.cityisland6",
+      "addedAt": "2026-09-30T22:27:38.439Z",
+      "updatedAt": "2026-09-30T22:27:38.450Z"
     }
   ]
 }
