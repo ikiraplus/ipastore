@@ -21887,6 +21887,22 @@
       "bundleId": "com.wb.Injustice.Brawler2013",
       "addedAt": "2026-09-30T19:22:10.514Z",
       "updatedAt": "2026-09-30T19:22:10.525Z"
+    },
+    {
+      "id": "app-1790796164235",
+      "name": "Bleach: Brave Souls Anime Game",
+      "version": "18.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bleach-18.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/79/ed/6079ed18-9363-abbf-aecf-b59e0fa5e015/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "144.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.klab.bleach",
+      "addedAt": "2026-09-30T19:22:44.235Z",
+      "updatedAt": "2026-09-30T19:22:44.245Z"
     }
   ]
 }
