@@ -21871,6 +21871,22 @@
       "bundleId": "com.wwv.global",
       "addedAt": "2026-09-30T19:17:35.310Z",
       "updatedAt": "2026-09-30T19:17:35.319Z"
+    },
+    {
+      "id": "app-1790796130514",
+      "name": "DCKO: Super Hero Fighting",
+      "version": "0.2.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dcko-0.2.0",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMitg8CB3ZleLvh8derWo3Lpja-X_R0yGb68FQZEY-Kw&s",
+      "previousVersions": [],
+      "size": "182.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.wb.Injustice.Brawler2013",
+      "addedAt": "2026-09-30T19:22:10.514Z",
+      "updatedAt": "2026-09-30T19:22:10.525Z"
     }
   ]
 }
