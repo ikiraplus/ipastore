@@ -21594,6 +21594,38 @@
       "bundleId": "com.stickyhands.mergesurvival",
       "addedAt": "2026-09-30T18:44:09.402Z",
       "updatedAt": "2026-09-30T18:44:09.410Z"
+    },
+    {
+      "id": "app-1790793977341",
+      "name": "Mystery Match",
+      "version": "2.71.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mystery-match_2.71.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/7c/15/347c15a7-6c18-eed5-1599-79ec3d6fdfe2/AppIcon-1x_U007emarketing-0-9-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "206.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.outplayentertainment.mysterymatch",
+      "addedAt": "2026-09-30T18:46:17.341Z",
+      "updatedAt": "2026-09-30T18:46:17.349Z"
+    },
+    {
+      "id": "app-1790794042653",
+      "name": "Medieval Merge Dragon Games",
+      "version": "1.120.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/medieval-merge-dragon-games_1.120.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/b6/64/38b664a1-eba9-a146-a108-726af69724db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "547.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pixodust.games.free.rpg.medieval.merge.puzzle.empire",
+      "addedAt": "2026-09-30T18:47:22.653Z",
+      "updatedAt": "2026-09-30T18:47:22.663Z"
     }
   ]
 }
