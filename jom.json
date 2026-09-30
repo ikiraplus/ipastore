@@ -22115,6 +22115,22 @@
       "bundleId": "com.hero.may.cry.adventure.game",
       "addedAt": "2026-09-30T22:34:00.558Z",
       "updatedAt": "2026-09-30T22:34:00.574Z"
+    },
+    {
+      "id": "app-1790807698455",
+      "name": "Reactor 2 Nuclear Tycoon",
+      "version": "1.1.04",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/reactor-2-nuclear-tycoon_1.1.04",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/d3/4e/6ed34e52-e558-a37e-6630-f31a2eb56750/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "273.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.rsgapps.reactor.two",
+      "addedAt": "2026-09-30T22:34:58.455Z",
+      "updatedAt": "2026-09-30T22:34:58.464Z"
     }
   ]
 }
