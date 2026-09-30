@@ -21797,6 +21797,22 @@
       "bundleId": "com.hidea.cat.magicrecipe",
       "addedAt": "2026-09-30T19:04:11.867Z",
       "updatedAt": "2026-09-30T19:04:11.875Z"
+    },
+    {
+      "id": "app-1790795071979",
+      "name": "Shadow Survival Vampire Game",
+      "version": "1.9.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shadow-survival-vampiregame_1.9.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/a9/0e/efa90e10-a8b2-36bb-5279-3858805f8183/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "302.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.LiberalDust.DarkSurvival2",
+      "addedAt": "2026-09-30T19:04:31.979Z",
+      "updatedAt": "2026-09-30T19:04:31.987Z"
     }
   ]
 }
