@@ -1785,23 +1785,23 @@
     {
       "id": "APP-2376670786",
       "name": "Subway Surfers Mod",
-      "version": "3.69.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.69.0",
+      "version": "3.69.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surfers_3.69.2",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/ac/4e/98ac4ed7-7da4-c5ae-8bea-c2adc70b7960/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "250.6 MB",
+      "size": "427.9 MB",
       "note": "مميزات اللعبة:\n- مفاتيح غير محدودة بعد إكمال كل جولة.\n- عملات غير محدودة بعد إكمال كل جولة.\n- وضع عدم الموت.\n- عدم التعثر بالعوائق.\n- قفزة عالية.\n- قفزات غير محدودة.\n- تعطيل الجاذبية.\n- نقاط خبرة غير محدودة.\n- معزّزات غير محدودة.\n- تتبع الكاميرا للاعب دائماً.",
       "category": "ألعاب",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-09-15T19:48:23.037Z",
+      "updatedAt": "2026-09-30T19:06:04.751Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.68.2",
-          "version": "3.68.2"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.69.0",
+          "version": "3.69.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.68.0",
-          "version": "3.68.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/subway-surf-3.68.2",
+          "version": "3.68.2"
         }
       ],
       "recommended": false,
