@@ -21839,6 +21839,22 @@
       "bundleId": "com.ht.marbleheroes",
       "addedAt": "2026-09-30T19:05:36.546Z",
       "updatedAt": "2026-09-30T19:05:36.557Z"
+    },
+    {
+      "id": "app-1790795178130",
+      "name": "Golf Battle",
+      "version": "2.25.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/golf-battle_2.25.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/75/46/c17546e6-004b-22a6-f7a4-e0431670703f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "243.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "games.onebutton.golfbattle",
+      "addedAt": "2026-09-30T19:06:18.130Z",
+      "updatedAt": "2026-09-30T19:06:18.145Z"
     }
   ]
 }
