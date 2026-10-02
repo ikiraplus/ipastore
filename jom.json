@@ -17328,18 +17328,23 @@
     {
       "id": "app-1789714347627",
       "name": "The Eminence In Shadow Rpg",
-      "version": "4.11.1",
+      "version": "4.12.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-eminence-in-shadow-rpg_4.11.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/68/c2/2d68c25e-e557-bd6c-c1c5-cadb669c5e48/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "417.8 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/eminence-4.12.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/fd/a9/e1fda94f-e700-b008-6be9-2d11d44b61b0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-eminence-in-shadow-rpg_4.11.1",
+          "version": "4.11.1"
+        }
+      ],
+      "size": "144.2 MB",
       "note": "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.crunchyroll.eminenceinshadowrpg",
       "addedAt": "2026-09-18T06:52:27.627Z",
-      "updatedAt": "2026-09-18T06:52:30.611Z"
+      "updatedAt": "2026-10-02T16:28:34.929Z"
     },
     {
       "id": "app-1789714433741",
