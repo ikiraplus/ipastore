@@ -10810,17 +10810,23 @@
     {
       "id": "APP-5797397908",
       "name": "One Piece Bounty Rush",
-      "version": "7.5",
+      "version": "94000",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bounty-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787930792894.png",
-      "previousVersions": [],
-      "size": "174.7 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bounty-94000",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/b8/be/43b8be86-3b72-66d8-2e4f-95d9a9944783/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bounty-1",
+          "version": "7.5"
+        }
+      ],
+      "size": "221.1 MB",
       "note": "مميزات اللعبة:\n- إزالة وقت انتظار المهارات واستخدامها دون Cooldown.",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:26:32.894Z",
-      "updatedAt": "2026-08-28T15:26:39.324Z"
+      "updatedAt": "2026-10-02T16:34:33.289Z",
+      "bundleId": "jp.co.bandainamcoent.BNEI0297"
     },
     {
       "id": "APP-3258790004",
