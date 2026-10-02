@@ -1420,16 +1420,20 @@
     {
       "id": "APP-4147532869",
       "name": "KineMaster Pro",
-      "version": "8.1.18",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kinemaster_video_editor_v8.1.18_pro_unlocked",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/8d/91/188d91f0-3e9c-f504-92e0-eb95e6a3ea57/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-      "size": "114.6 MB",
+      "version": "8.2.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kinemaster_ai_video_editor_v8.2.3_pro_unlocked__patched",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/48/13/9f48136a-193d-dd03-80b2-75198fbc8143/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "size": "149.9 MB",
       "note": "تم فتح جميع المميزات وعضوية الـVip.\n- اضغط شراء ثم الغاء او قم بالتسجيل عبر حساب كوكل.",
       "category": "أدوات",
       "addedAt": "2026-03-15",
-      "updatedAt": "2026-08-24T06:43:41.192Z",
+      "updatedAt": "2026-10-02T17:14:44.082Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kinemaster_video_editor_v8.1.18_pro_unlocked",
+          "version": "8.1.18"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kinemaster_video_editor_v8.1.11",
           "version": "8.1.11"
