@@ -22163,6 +22163,22 @@
       "bundleId": "linsen.camera.app",
       "addedAt": "2026-10-02T14:35:20.647Z",
       "updatedAt": "2026-10-02T14:35:20.657Z"
+    },
+    {
+      "id": "app-1790951733831",
+      "name": "Dog Rescue Virtual Pet Games",
+      "version": "1.58.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dog-rescue-virtual-pet-games_1.58.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/fc/7b/30fc7b58-3cab-1d91-4dc3-603052cd088f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "325.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "gg.sunday.dog.escape.puzzle",
+      "addedAt": "2026-10-02T14:35:33.831Z",
+      "updatedAt": "2026-10-02T14:35:33.839Z"
     }
   ]
 }
