@@ -22283,6 +22283,22 @@
       "bundleId": "com.minigamelab.bouncedefense",
       "addedAt": "2026-10-02T14:39:53.880Z",
       "updatedAt": "2026-10-02T14:39:53.892Z"
+    },
+    {
+      "id": "app-1790952053559",
+      "name": "The Demonized Idle Rpg",
+      "version": "7.28.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-demonized-idle-rpg_7.28.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/49/cf/ce49cf4b-47e3-23e9-f369-8aac6ae217bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "869.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.deepgames.release.becamethedevil",
+      "addedAt": "2026-10-02T14:40:53.559Z",
+      "updatedAt": "2026-10-02T14:40:53.568Z"
     }
   ]
 }
