@@ -22652,6 +22652,22 @@
       "bundleId": "com.google.photos",
       "addedAt": "2026-10-02T16:35:44.503Z",
       "updatedAt": "2026-10-02T16:35:44.513Z"
+    },
+    {
+      "id": "app-1790960174446",
+      "name": "Spotify Eevee+Pw",
+      "version": "9.1.86",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-9.1.86-eevee-spoti.pw",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/b6/e0/5fb6e0c6-cea6-e107-8d54-8e8fcec573ce/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "131.8 MB",
+      "note": "",
+      "category": "ترفيه",
+      "recommended": false,
+      "bundleId": "com.spotify.client",
+      "addedAt": "2026-10-02T16:56:14.446Z",
+      "updatedAt": "2026-10-02T16:56:14.457Z"
     }
   ]
 }
