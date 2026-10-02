@@ -8436,22 +8436,26 @@
     {
       "id": "APP-3139394559",
       "name": "Idle Miner Tycoon",
-      "version": "5.63.0",
+      "version": "5.64.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-miner-tycoon-v5.63.0",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/a5/42/a9a542fe-ead3-36e9-0331-48c17af92afd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-miner-tycoon-v5.64.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/89/64/2e896415-20fc-aa7d-6bfc-8912a26f99e8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-miner-tycoon-v5.63.0",
+          "version": "5.63.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-miner-tycoon-v5.61.1",
           "version": "5.61.1"
         }
       ],
-      "size": "139.6 MB",
+      "size": "140.1 MB",
       "note": "مميزات اللعبة:\n- فتح المحتوى والميزات المقفلة.",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T08:26:33.051Z",
-      "updatedAt": "2026-09-12T18:39:28.945Z",
+      "updatedAt": "2026-10-02T17:04:55.104Z",
       "bundleId": "com.fluffyfairygames.idleminertycoon"
     },
     {
