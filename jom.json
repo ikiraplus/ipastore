@@ -21553,18 +21553,23 @@
     {
       "id": "app-1790793638452",
       "name": "Monster Country Idle Tycoon",
-      "version": "1.62.2",
+      "version": "1.63.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monster-country-idle-tycoon_1.62.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monster-country-idle-1.63.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/a0/e7/66a0e77b-9da8-1511-7135-d71ae0f38c51/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "329.5 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/monster-country-idle-tycoon_1.62.2",
+          "version": "1.62.2"
+        }
+      ],
+      "size": "148.4 MB",
       "note": "مميزات اللعبة:\n- العملات لا تنخفض.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "monster.country.idle",
       "addedAt": "2026-09-30T18:40:38.452Z",
-      "updatedAt": "2026-09-30T18:40:38.461Z"
+      "updatedAt": "2026-10-02T16:29:56.414Z"
     },
     {
       "id": "app-1790793736153",
