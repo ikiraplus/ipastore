@@ -1312,17 +1312,21 @@
     {
       "id": "APP-8990712258",
       "name": "Photoshop Express - (Hacked)",
-      "version": "26.34.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photoshop_express_photo_editor_v26.34.1_subscription_unlocked",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/cf/3f/c0cf3f9f-f11a-54fd-2820-bb8b6c8358b1/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-      "size": "165.1 MB",
+      "version": "26.37.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photoshop_express_photo_editor_v26.37.1_subscription_unlocked",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/ad/2c/0bad2c66-18e7-f7d0-5018-c0919fa11346/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
+      "size": "168.0 MB",
       "note": "تم فتح جميع المميزات وعضوية الـVip.\n- اضغط شراء ثم الغاء او قم بالتسجيل عبر حساب كوكل.",
       "category": "أدوات",
       "addedAt": "2026-03-29",
       "bundleId": "com.adobe.photoshop.ios",
-      "updatedAt": "2026-08-26T07:40:17.652Z",
+      "updatedAt": "2026-10-02T17:16:38.549Z",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photoshop_express_photo_editor_v26.34.1_subscription_unlocked",
+          "version": "26.34.1"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/photoshop-express-hacked_v733-1",
           "version": "7.3.3"
