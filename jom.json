@@ -22610,6 +22610,22 @@
       "bundleId": "com.hunters.legacy",
       "addedAt": "2026-10-02T16:31:16.361Z",
       "updatedAt": "2026-10-02T16:31:16.369Z"
+    },
+    {
+      "id": "app-1790958729355",
+      "name": "Dynamite Blue",
+      "version": "1.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dynamiteblue-1.0.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/82/de/d282de38-6b49-cd5c-db38-fcd6d5c7569c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "146.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.kosmos12.dynamiteblue",
+      "addedAt": "2026-10-02T16:32:09.355Z",
+      "updatedAt": "2026-10-02T16:32:09.362Z"
     }
   ]
 }
