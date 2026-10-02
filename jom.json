@@ -22211,6 +22211,22 @@
       "bundleId": "com.ewa.ewaapp",
       "addedAt": "2026-10-02T14:36:21.213Z",
       "updatedAt": "2026-10-02T14:36:21.228Z"
+    },
+    {
+      "id": "app-1790951795702",
+      "name": "The Fame Game Celebrity Life",
+      "version": "1.05",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/the-fame-game-celebrity-life_1.05",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/b7/43/0fb743d2-ac90-9afd-f8c4-a5511364f6c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "591.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.mwcompany.thefamegame",
+      "addedAt": "2026-10-02T14:36:35.702Z",
+      "updatedAt": "2026-10-02T14:36:35.712Z"
     }
   ]
 }
