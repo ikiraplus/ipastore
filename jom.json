@@ -16354,18 +16354,23 @@
     {
       "id": "app-1789500144840",
       "name": "Hair Challenge",
-      "version": "43.7.1",
+      "version": "43.7.3",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hair-challenge_43.7.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/ae/e5/93aee5ab-9bfb-b725-cb5b-17c613f212e6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "384.5 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hair-challenge_43.7.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/1f/ff/431fffaf-5bb2-15bb-a0e0-fe04f9bf51a0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/hair-challenge_43.7.1",
+          "version": "43.7.1"
+        }
+      ],
+      "size": "384.9 MB",
       "note": "مميزات اللعبة:\n- ألماس غير محدود.\n- فتح جميع تسريحات الشعر.\n- فتح جميع المعززات.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.Upperpik.HairChallenge",
       "addedAt": "2026-09-15T19:22:24.840Z",
-      "updatedAt": "2026-09-15T19:22:32.996Z"
+      "updatedAt": "2026-10-02T14:41:18.688Z"
     },
     {
       "id": "app-1789500367955",
