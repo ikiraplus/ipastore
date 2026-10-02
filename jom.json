@@ -22515,6 +22515,22 @@
       "bundleId": "com.kairoos.matheditor",
       "addedAt": "2026-10-02T14:51:49.877Z",
       "updatedAt": "2026-10-02T14:51:49.886Z"
+    },
+    {
+      "id": "app-1790952756746",
+      "name": "AI Chat Assistant Chat Now",
+      "version": "5.12",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ai-chat-assistant-chat-now_5.12",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/e3/35/f8e33503-8d8a-24a9-27f3-e21ff31c2580/AppIcon_ChatNow-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "138.3 MB",
+      "note": "",
+      "category": "دراسة وذكاء اصطناعي",
+      "recommended": false,
+      "bundleId": "com.tappz.aichat",
+      "addedAt": "2026-10-02T14:52:36.746Z",
+      "updatedAt": "2026-10-02T14:52:36.756Z"
     }
   ]
 }
