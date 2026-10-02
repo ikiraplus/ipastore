@@ -22378,6 +22378,22 @@
       "bundleId": "com.idleif.abyssrium",
       "addedAt": "2026-10-02T14:47:08.788Z",
       "updatedAt": "2026-10-02T14:47:08.796Z"
+    },
+    {
+      "id": "app-1790952443155",
+      "name": "Mu Pocket Knights",
+      "version": "1.4.28",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mu-pocket-knights_1.4.28",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/cc/c6/efccc644-bc4f-0785-408c-6b6cf7b89fc6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "231.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.webzen.muidle.ios",
+      "addedAt": "2026-10-02T14:47:23.155Z",
+      "updatedAt": "2026-10-02T14:47:23.168Z"
     }
   ]
 }
