@@ -22179,6 +22179,22 @@
       "bundleId": "gg.sunday.dog.escape.puzzle",
       "addedAt": "2026-10-02T14:35:33.831Z",
       "updatedAt": "2026-10-02T14:35:33.839Z"
+    },
+    {
+      "id": "app-1790951761051",
+      "name": "Inside Out Thought Bubbles",
+      "version": "2.9.92",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/inside-out-thought-bubbles_2.9.92",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/6d/af/8d6daf56-6c93-567b-d4bb-898985f91cf4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "504.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.disney.thoughtbubbles",
+      "addedAt": "2026-10-02T14:36:01.051Z",
+      "updatedAt": "2026-10-02T14:36:01.071Z"
     }
   ]
 }
