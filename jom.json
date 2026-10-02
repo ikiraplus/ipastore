@@ -22458,6 +22458,22 @@
       "bundleId": "puzzle.merge.camp.high",
       "addedAt": "2026-10-02T14:48:39.023Z",
       "updatedAt": "2026-10-02T14:48:39.046Z"
+    },
+    {
+      "id": "app-1790952534120",
+      "name": "Split Screen View",
+      "version": "2.3.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/split-screen-view_2.3.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/da/4a/16da4a64-beff-0705-c3f2-98506cc0ce5e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "12.9 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.shestakova.splitscreen",
+      "addedAt": "2026-10-02T14:48:54.120Z",
+      "updatedAt": "2026-10-02T14:48:54.138Z"
     }
   ]
 }
