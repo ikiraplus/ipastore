@@ -2716,23 +2716,23 @@
     {
       "id": "APP-3760722823",
       "name": "Lightroom",
-      "version": "11.5.30",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.5.30_subscription_unlocked",
+      "version": "11.6.1",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.6.1_subscription_unlocked",
       "icon": "https://fastsign.dev/tg-icon/blatants/9067.png",
-      "size": "211.1 MB",
+      "size": "212.1 MB",
       "note": "تم فتح جميع المميزات وعضوية الـVip.\n- اضغط شراء ثم الغاء او قم بالتسجيل عبر حساب كوكل.",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-09-14T16:32:15.224Z",
+      "updatedAt": "2026-10-02T17:15:41.249Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.5.21_subscription_unlocked",
-          "version": "11.5.21"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.5.30_subscription_unlocked",
+          "version": "11.5.30"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.5.20_subscription_unlocked",
-          "version": "11.5.20"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lightroom_ai_photo_editor_v11.5.21_subscription_unlocked",
+          "version": "11.5.21"
         }
       ],
       "recommended": false,
