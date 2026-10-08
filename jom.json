@@ -9877,18 +9877,24 @@
     },
     {
       "id": "APP-3522259990",
-      "name": "Bloons Td",
-      "version": "6.56.3",
+      "name": "Bloons TD Battles",
+      "version": "6.57.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bloons-td-6.56.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bloons-td-6.57.0",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/3e/91/d33e9163-6780-5e8e-f86d-7eb206e09339/AppIcon-0-0-1x_U007emarketing-0-7-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "99.5 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bloons-td-6.56.3",
+          "version": "6.56.3"
+        }
+      ],
+      "size": "96.8 MB",
       "note": "لعبة مدفوعة في المتجر الرسمي AppStore.",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:22:29.380Z",
-      "updatedAt": "2026-08-25T10:22:50.500Z"
+      "updatedAt": "2026-10-08T19:06:36.110Z",
+      "bundleId": "com.ninjakiwi.bloonstdbattles"
     },
     {
       "id": "APP-6737768049",
