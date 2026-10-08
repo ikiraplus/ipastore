@@ -22860,18 +22860,23 @@
     {
       "id": "app-1790960413408",
       "name": "Shinobi Read Japanese Stories",
-      "version": "1.5.1",
+      "version": "1.5.2",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shinobi-read-japanese-stories-v1.5.1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/38/cb/8b38cb05-c584-7b67-4235-30ba17a8f03a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "49.7 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shinobi-read-japanese-stories-v1.5.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/07/8c/03078ca2-1f69-6dd4-9e20-86626a151c46/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shinobi-read-japanese-stories-v1.5.1",
+          "version": "1.5.1"
+        }
+      ],
+      "size": "49.9 MB",
       "note": "مميزات التطبيق:\n- تم فتح الاشتراك وجميع المميزات المدفوعة.\n- إذا لم يتفعّل الاشتراك، أعد تشغيل التطبيق.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.shinobiapp.shinobi",
       "addedAt": "2026-10-02T17:00:13.408Z",
-      "updatedAt": "2026-10-02T17:00:13.417Z"
+      "updatedAt": "2026-10-08T18:01:22.600Z"
     },
     {
       "id": "app-1791460794112",
