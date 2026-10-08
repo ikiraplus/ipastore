@@ -23346,6 +23346,22 @@
       "bundleId": "app.cranberry.splash",
       "addedAt": "2026-10-08T13:21:46.000Z",
       "updatedAt": "2026-10-08T13:21:46.008Z"
+    },
+    {
+      "id": "app-1791465748023",
+      "name": "Aquapark.io",
+      "version": "6.51.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/aquaparkio_6.51.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/95/d2/af95d245-e2c1-8960-6ec6-8281ebe54274/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "320.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.cassette.aquapark",
+      "addedAt": "2026-10-08T13:22:28.023Z",
+      "updatedAt": "2026-10-08T13:22:28.031Z"
     }
   ]
 }
