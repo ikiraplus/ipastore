@@ -20927,18 +20927,23 @@
     {
       "id": "app-1790603441856",
       "name": "Arrow Rush Archer Roguelike",
-      "version": "1.9.8",
+      "version": "1.9.10",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/arrow-rush-archer-roguelike_1.9.8",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/1f/fb/851ffb05-c1bb-aff1-d405-bdaf6a8944c8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "525.9 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/arrow-rush-archer-roguelike_1.9.10",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/10/2a/11102a73-6721-55fa-c672-cacfc46ddaa8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/arrow-rush-archer-roguelike_1.9.8",
+          "version": "1.9.8"
+        }
+      ],
+      "size": "587.9 MB",
       "note": "- عملات غير محدودة.\n- قائمة التصحيح: انتقل إلى الإعدادات ثم فعّل زر المسح.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "hedonic.games.arrowrush.td",
       "addedAt": "2026-09-28T13:50:41.856Z",
-      "updatedAt": "2026-09-28T13:50:41.868Z"
+      "updatedAt": "2026-10-08T12:50:17.599Z"
     },
     {
       "id": "app-1790603459735",
