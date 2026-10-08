@@ -23561,6 +23561,22 @@
       "bundleId": "com.outfit7.mytalkingtomfriends",
       "addedAt": "2026-10-08T13:37:45.417Z",
       "updatedAt": "2026-10-08T13:37:45.423Z"
+    },
+    {
+      "id": "app-1791466710467",
+      "name": "Toy Blast",
+      "version": "26595",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/toy-blast_26595",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/61/d9/2f61d9f9-cb06-e34f-1147-7f11e2feed83/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "504.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "net.peakgames.amy",
+      "addedAt": "2026-10-08T13:38:30.467Z",
+      "updatedAt": "2026-10-08T13:38:30.479Z"
     }
   ]
 }
