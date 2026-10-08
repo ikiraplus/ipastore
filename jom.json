@@ -2244,23 +2244,23 @@
     {
       "id": "APP-6825240075",
       "name": "CamScanner",
-      "version": "7.26.6",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.26.6_vip_unlocked_patched",
+      "version": "7.27.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.27.0_vip_unlocked_patched",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/2b/20/7a2b2005-16f7-8e45-c3ce-6f446785d98b/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "211.1 MB",
+      "size": "210.9 MB",
       "note": "تم فتح جميع المميزات وعضوية الـVip.\n- اضغط شراء ثم الغاء او قم بالتسجيل عبر حساب كوكل.",
       "category": "أدوات",
       "addedAt": "2026-03-29",
-      "updatedAt": "2026-09-22T20:35:25.617Z",
+      "updatedAt": "2026-10-08T18:04:34.631Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.25.5_vip_unlocked_patched",
-          "version": "7.25.5"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.26.6_vip_unlocked_patched",
+          "version": "7.26.6"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.25.0_vip_unlocked_patched",
-          "version": "7.25.0"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/camscanner_pdf_scanner_app_v7.25.5_vip_unlocked_patched",
+          "version": "7.25.5"
         }
       ],
       "recommended": false,
