@@ -11201,18 +11201,24 @@
     },
     {
       "id": "APP-7552873660",
-      "name": "Three Kingdoms",
-      "version": "1.64.0",
+      "name": "Three Kingdoms Tempest",
+      "version": "1.67.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/three-kingdoms-1",
-      "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1787932210006.png",
-      "previousVersions": [],
-      "size": "250.0 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/three-kingdoms-tempest_1.67.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/ee/b0/6eeeb042-318e-2619-8288-6b34225d7021/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/three-kingdoms-1",
+          "version": "1.64.0"
+        }
+      ],
+      "size": "648.6 MB",
       "note": "مميزات التطبيق:\n- مضاعفة الضرر.\n- عدم الموت.",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-28T15:50:10.006Z",
-      "updatedAt": "2026-08-28T15:50:14.716Z"
+      "updatedAt": "2026-10-08T12:46:13.743Z",
+      "bundleId": "net.gameduo.sg2"
     },
     {
       "id": "APP-9357382509",
