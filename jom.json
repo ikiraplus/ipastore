@@ -23750,6 +23750,22 @@
       "bundleId": "io.fadel.VidCap",
       "addedAt": "2026-10-08T18:29:38.367Z",
       "updatedAt": "2026-10-08T18:29:38.375Z"
+    },
+    {
+      "id": "app-1791484521034",
+      "name": "Spotify Vitrine",
+      "version": "9.1.88",
+      "toolVersion": "1.0.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spotify-9.1.88-vitrine-1.0.0-b5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/af/e8/b2afe87d-2d6a-8e4b-01bf-73b5752996dc/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "127.1 MB",
+      "note": "",
+      "category": "تواصل",
+      "recommended": false,
+      "bundleId": "com.spotify.client",
+      "addedAt": "2026-10-08T18:35:21.034Z",
+      "updatedAt": "2026-10-08T18:35:21.044Z"
     }
   ]
 }
