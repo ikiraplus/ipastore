@@ -22875,6 +22875,22 @@
       "bundleId": "net.gameduo.zd",
       "addedAt": "2026-10-08T12:05:35.076Z",
       "updatedAt": "2026-10-08T12:05:35.083Z"
+    },
+    {
+      "id": "app-1791461157442",
+      "name": "Converio Money Calculator",
+      "version": "1.0.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/converio-money-calculator_1.0.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/f0/f0/7ff0f051-5b32-3044-304d-b77e245e3852/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "31.5 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.senolc.SC-Currency-Converter",
+      "addedAt": "2026-10-08T12:05:57.442Z",
+      "updatedAt": "2026-10-08T12:05:57.451Z"
     }
   ]
 }
