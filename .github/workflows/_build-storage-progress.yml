@@ -1,0 +1,39 @@
+name: Build storage progress workflow
+
+on:
+  push:
+    paths:
+      - .github/workflows/_build-storage-progress.yml
+      - scripts/install_storage_progress_v2.py
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build patched workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/install_storage_progress_v2.py
+          grep -q 'CALLBACK_PROGRESS_URL' .github/workflows/ikiraplus-storage.yml
+          grep -q 'uploads.github.com' .github/workflows/ikiraplus-storage.yml
+          mkdir -p generated
+          cp .github/workflows/ikiraplus-storage.yml generated/ikiraplus-storage-progress.yml.txt
+          git checkout -- .github/workflows/ikiraplus-storage.yml
+
+      - name: Publish generated file
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/ikiraplus-storage-progress.yml.txt
+          git commit -m "Generate patched storage progress workflow"
+          git push origin HEAD:main
