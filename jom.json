@@ -79,23 +79,23 @@
     {
       "id": "APP-2409608850",
       "name": "WhatsApp Gold",
-      "version": "26.34.74",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.34.74_wgoldplus",
+      "version": "26.38.74",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wgold_26.38.74-v3.4",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1773436028095.png",
-      "size": "142.5 MB",
+      "size": "150.4 MB",
       "note": "سجل الدخول في التطبيق كجهاز مرتبط فقط\nيتضمن التطبيق عدة إضافات مثل تغيير الموقع الجغرافي وتغيير الخط\n\nمميزات التطبيق:\n- التخفي عند مشاهدة الحالات.\n- مشاهدة الحالات محلياً.\n- وضع الشبح للرسائل.\n- استلام الرسائل بشكل مخفي.\n- عرض الرسائل المعدّلة.\n- حفظ الحالات المحذوفة.\n- الاحتفاظ بالرسائل المحذوفة.\n- تنزيل الحالات.\n- تنزيل الوسائط المؤقتة.\n- وضع الشبح للوسائط المؤقتة.\n- رفع المقاطع الصوتية من الاستوديو.\n- دعم تعدد الحسابات.",
       "category": "تواصل",
       "addedAt": "2026-03-14",
-      "updatedAt": "2026-09-04T11:43:36.042Z",
-      "toolVersion": "2.9",
+      "updatedAt": "2026-10-08T17:28:19.981Z",
+      "toolVersion": "3.4",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.34.74_wgoldplus",
+          "version": "26.34.74"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.34.72_wgoldplus",
           "version": "26.34.72"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/whatsapp_26.32.75_wgoldplus",
-          "version": "26.32.75"
         }
       ],
       "recommended": false,
