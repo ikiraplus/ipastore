@@ -23489,6 +23489,22 @@
       "bundleId": "com.wave.carvequest",
       "addedAt": "2026-10-08T13:33:37.599Z",
       "updatedAt": "2026-10-08T13:33:37.608Z"
+    },
+    {
+      "id": "app-1791466454520",
+      "name": "Train of Hope Survival Game",
+      "version": "1.25.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/trainof-hope-survival-game_1.25.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/4a/bc/6c4abc91-2b63-a610-3075-2b85b2eadbf3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "376.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.samfinaco.tos",
+      "addedAt": "2026-10-08T13:34:14.520Z",
+      "updatedAt": "2026-10-08T13:34:14.528Z"
     }
   ]
 }
