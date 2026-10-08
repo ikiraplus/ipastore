@@ -2801,23 +2801,23 @@
     {
       "id": "APP-2017150968",
       "name": "last Day On Earth Survival",
-      "version": "1.52.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.52.0",
+      "version": "1.52.9",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-dayon-earth-survival_1.52.9",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/72/5c/37725cd8-f079-df73-274a-7a2f3752442c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "size": "1047.2 MB",
+      "size": "1378.8 MB",
       "note": "مميزات اللعبة:\n- تعطيل اكتشاف الغش.\n- تكرار العناصر باستخدام ميزة التقسيم.\n- إمكانية تكرار أي عنصر داخل المخزون.\n- صناعة مجانية من دون الحاجة إلى الموارد المطلوبة.\n- بناء مجاني من دون الحاجة إلى الموارد المطلوبة.\n- تجنّب صناعة العناصر غير المنشورة لتفادي توقف اللعبة عن التحميل.",
       "category": "ألعاب",
       "addedAt": "2026-04-27T18:07:24.442Z",
-      "updatedAt": "2026-09-18T08:24:58.885Z",
+      "updatedAt": "2026-10-08T13:41:29.016Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.51.6",
-          "version": "1.51.6"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.52.0",
+          "version": "1.52.0"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.51.1",
-          "version": "1.51.1"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-day-on-earth-survival-1.51.6",
+          "version": "1.51.6"
         }
       ],
       "recommended": false,
@@ -23583,6 +23583,22 @@
       "bundleId": "com.eastsidegames.powerrangers",
       "addedAt": "2026-10-08T13:38:53.015Z",
       "updatedAt": "2026-10-08T13:38:53.022Z"
+    },
+    {
+      "id": "app-1791466850579",
+      "name": "Sand Loop",
+      "version": "1.14.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sand-loop_1.14.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/7d/65/a67d650c-9a87-5784-3abd-0ba51de8f6ee/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "372.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pc.sand.loop",
+      "addedAt": "2026-10-08T13:40:50.580Z",
+      "updatedAt": "2026-10-08T13:40:50.592Z"
     }
   ]
 }
