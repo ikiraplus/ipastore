@@ -2160,17 +2160,22 @@
     {
       "id": "APP-9437810422",
       "name": "My Talking Tom 2",
-      "version": "26.3.10",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-talking-tom",
+      "version": "26.5.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-talking-angela-2-v26.5.3",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/2a/00/572a00c6-c23d-2736-f431-088aabbdae14/AppIcon-0-0-1x_U007emarketing-0-9-0-sRGB-85-220.png/512x512bb.jpg",
-      "size": "241.3 MB",
+      "size": "500.1 MB",
       "note": "مميزات اللعبة:\n- عملات غير محدودة؛ أنفق أو احصل على بعضها لتفعيل الميزة.\n- إزالة الإعلانات.",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "toolVersion": "",
-      "previousVersions": [],
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-talking-tom",
+          "version": "26.3.10"
+        }
+      ],
       "recommended": false,
-      "updatedAt": "2026-08-24T06:51:07.209Z",
+      "updatedAt": "2026-10-08T13:09:12.621Z",
       "bundleId": "com.outfit7.mytalkingtomfriends"
     },
     {
