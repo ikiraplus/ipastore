@@ -23091,12 +23091,12 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/34/4a/54344a93-95ad-02c5-3dc1-170b6b20067a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [],
       "size": "464.5 MB",
-      "note": "",
+      "note": "تطبيق للعناية الذاتية يساعدك على الشعور بالاستعداد والإيجابية من خلال حيوانك الأليف الافتراضي.\n- تم فتح جميع المميزات.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.finch.finch",
-      "addedAt": "2026-10-08T12:07:18.686Z",
-      "updatedAt": "2026-10-08T12:07:18.693Z"
+      "updatedAt": "2026-10-08T12:07:18.693Z",
+      "addedAt": "2026-10-08T12:07:18.686Z"
     },
     {
       "id": "app-1791461276751",
@@ -23411,12 +23411,12 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/20/11/be2011bb-bbab-6e47-fd52-293f8fe75605/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [],
       "size": "453.3 MB",
-      "note": "",
+      "note": "مميزات اللعبة:\n- موارد غير محدودة.\n- وضع عدم الموت.\n- ضربة واحدة قاتلة.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.questlab.draftwar",
-      "addedAt": "2026-10-08T13:21:26.362Z",
-      "updatedAt": "2026-10-08T13:21:26.370Z"
+      "updatedAt": "2026-10-08T13:21:26.370Z",
+      "addedAt": "2026-10-08T13:21:26.362Z"
     },
     {
       "id": "app-1791465706000",
@@ -23912,12 +23912,12 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/df/59/e0df596b-938e-fc1f-c96f-bd9d5e0e916a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [],
       "size": "157.4 MB",
-      "note": "",
+      "note": "مميزات اللعبة:\n- عملات غير محدودة.\n- وضع عدم الموت.\n- ضربة واحدة قاتلة.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.builditgames.zombiestreets",
-      "addedAt": "2026-10-08T19:04:58.289Z",
-      "updatedAt": "2026-10-08T19:04:58.298Z"
+      "updatedAt": "2026-10-08T19:04:58.298Z",
+      "addedAt": "2026-10-08T19:04:58.289Z"
     }
   ]
 }
