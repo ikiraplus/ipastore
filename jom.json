@@ -23604,6 +23604,22 @@
       "bundleId": "com.pc.sand.loop",
       "addedAt": "2026-10-08T13:40:50.580Z",
       "updatedAt": "2026-10-08T13:40:50.592Z"
+    },
+    {
+      "id": "app-1791466931441",
+      "name": "Bleak Sword",
+      "version": "4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bleak-sword_4.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/80/1a/69/801a69cb-41d5-424e-1c82-c9ac3f5f4364/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "464.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.devolver.bleaksword",
+      "addedAt": "2026-10-08T13:42:11.441Z",
+      "updatedAt": "2026-10-08T13:42:11.450Z"
     }
   ]
 }
