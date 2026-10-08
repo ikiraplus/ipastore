@@ -12435,27 +12435,27 @@
     {
       "id": "APP-3841603852",
       "name": "Car Match Traffic Puzzle",
-      "version": "0.0.1089",
+      "version": "0.0.1095",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-match-traffic-puzzle-v0.0.1089",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/be/a2/f8bea20f-c5be-1fd7-874d-7fd104481bc5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-match-traffic-puzzle-v0.0.1095",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/ec/60/b4ec6047-a192-cf1a-7a5e-f05bc66bcf9c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-match-traffic-puzzle-v0.0.1089",
+          "version": "0.0.1089"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-match-traffic-puzzle-v0.0.1072",
           "version": "0.0.1072"
-        },
-        {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/car-match-traffic-puzzle-v0.0.1066",
-          "version": "0.0.1066"
         }
       ],
-      "size": "190.8 MB",
+      "size": "190.9 MB",
       "note": "مميزات اللعبة:\n- تجميد العملات.\n- عملات غير محدودة تزداد بدلاً من أن تنقص.\n- إكمال المستوى تلقائياً.\n- إمكانية تعديل المستوى.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.grandgames.carmatch",
       "addedAt": "2026-08-31T17:14:48.053Z",
-      "updatedAt": "2026-10-02T17:01:39.993Z"
+      "updatedAt": "2026-10-08T18:03:03.173Z"
     },
     {
       "id": "APP-1139121438",
