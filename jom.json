@@ -23293,6 +23293,22 @@
       "bundleId": "com.outfit7.mytalkingangela2",
       "addedAt": "2026-10-08T13:19:29.717Z",
       "updatedAt": "2026-10-08T13:19:29.727Z"
+    },
+    {
+      "id": "app-1791465600091",
+      "name": "Outerplane Strategy Anime",
+      "version": "1.4.18",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/outerplane-strategy-anime_1.4.18",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/8e/c7/238ec771-d436-afee-3d86-219fe9957072/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "189.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.smilegate.outerplane.stove.ios",
+      "addedAt": "2026-10-08T13:20:00.091Z",
+      "updatedAt": "2026-10-08T13:20:00.099Z"
     }
   ]
 }
