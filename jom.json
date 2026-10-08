@@ -23012,6 +23012,22 @@
       "bundleId": "com.tapclap.designville.merge",
       "addedAt": "2026-10-08T12:44:41.998Z",
       "updatedAt": "2026-10-08T12:44:42.008Z"
+    },
+    {
+      "id": "app-1791463540911",
+      "name": "Brick Inc",
+      "version": "2.6.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/brick-inc_2.6.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/ee/18/50ee1804-7932-a4ae-dcf5-4d01f42b2056/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "321.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.seasoninggames.endlessbricks",
+      "addedAt": "2026-10-08T12:45:40.911Z",
+      "updatedAt": "2026-10-08T12:45:40.921Z"
     }
   ]
 }
