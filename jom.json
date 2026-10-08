@@ -22859,6 +22859,22 @@
       "bundleId": "com.water.out.puzzle",
       "addedAt": "2026-10-08T12:05:00.085Z",
       "updatedAt": "2026-10-08T12:05:00.091Z"
+    },
+    {
+      "id": "app-1791461135076",
+      "name": "Zombie Vanguard",
+      "version": "1.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zombie-vanguard_1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/60/81/9760819c-b3a9-22f2-8ea4-16e3e210db11/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "519.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "net.gameduo.zd",
+      "addedAt": "2026-10-08T12:05:35.076Z",
+      "updatedAt": "2026-10-08T12:05:35.083Z"
     }
   ]
 }
