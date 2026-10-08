@@ -23034,6 +23034,22 @@
       "bundleId": "com.seasoninggames.endlessbricks",
       "addedAt": "2026-10-08T12:45:40.911Z",
       "updatedAt": "2026-10-08T12:45:40.921Z"
+    },
+    {
+      "id": "app-1791463588751",
+      "name": "Bag Master Isekai Bag Battle",
+      "version": "3.2.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bag-master-isekai-bag-battle_3.2.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/26/d5/dd26d5c8-5d9e-e416-078d-d90e95ebe9b0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "973.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.DoorTeam.BagMaster",
+      "addedAt": "2026-10-08T12:46:28.751Z",
+      "updatedAt": "2026-10-08T12:46:28.760Z"
     }
   ]
 }
