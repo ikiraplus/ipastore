@@ -23734,6 +23734,22 @@
       "bundleId": "com.soundscape.music",
       "addedAt": "2026-10-08T18:29:06.331Z",
       "updatedAt": "2026-10-08T18:29:06.340Z"
+    },
+    {
+      "id": "app-1791484178367",
+      "name": "AI Captions For Videos Vidcap",
+      "version": "1.0.236",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/ai-captions-for-videos-vidcap-v1.0.236",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/7d/0e/337d0e86-4d73-5236-b965-56b29d091151/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "36.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "io.fadel.VidCap",
+      "addedAt": "2026-10-08T18:29:38.367Z",
+      "updatedAt": "2026-10-08T18:29:38.375Z"
     }
   ]
 }
