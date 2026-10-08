@@ -23661,6 +23661,22 @@
       "bundleId": "com.mxfia19.TwitchUnblock",
       "addedAt": "2026-10-08T17:45:15.035Z",
       "updatedAt": "2026-10-08T17:45:15.049Z"
+    },
+    {
+      "id": "app-1791482453479",
+      "name": "Player Games The Challenge",
+      "version": "7.20.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/player-games-the-challenge-v7.20.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/14/c1/7c14c1e3-502e-ed28-e663-1d42507eabfb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "95.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.JindoBlu.TwoPlayerGamesChallengeIOS",
+      "addedAt": "2026-10-08T18:00:53.479Z",
+      "updatedAt": "2026-10-08T18:00:53.490Z"
     }
   ]
 }
