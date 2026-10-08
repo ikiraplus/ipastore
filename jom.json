@@ -4861,24 +4861,24 @@
     },
     {
       "id": "APP-7757591429",
-      "name": "guardian hunter",
-      "version": "16.1.9",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.1.9",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7cRsinhpWTf-cq1rC4LlvtwEf9k_WrZ9kPRBYSVV_4A&s=10",
-      "size": "65.7 MB",
+      "name": "Guardian Hunter: Brawl RPG",
+      "version": "17.3.3",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardian-hunter_17.3.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/4f/25/0a4f25d0-6727-bfbb-fbb1-14062325b468/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "191.1 MB",
       "note": "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- مضاعفة سرعة الهجوم.\n- مضاعفة سرعة الحركة.",
       "category": "ألعاب",
       "addedAt": "2026-07-01T17:57:59.651Z",
-      "updatedAt": "2026-08-24T06:18:25.010Z",
+      "updatedAt": "2026-10-08T13:25:39.303Z",
       "toolVersion": "",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.1.7",
-          "version": "16.1.7"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.1.9",
+          "version": "16.1.9"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.0.9",
-          "version": "16.0.9"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/guardianhunter-16.1.7",
+          "version": "16.1.7"
         }
       ],
       "recommended": false,
