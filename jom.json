@@ -9857,17 +9857,23 @@
     {
       "id": "APP-7410215434",
       "name": "My Perfect Hotel",
-      "version": "1.36.6",
+      "version": "1.38.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-perfect-hotel-v1.36.6",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/3e/e3/e93ee38f-e9f6-a95b-ff7b-5f7de185db5b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "189.4 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-perfect-hotel-v1.38.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/bb/38/71bb3824-9943-653b-b577-f26a309e0d22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-perfect-hotel-v1.36.6",
+          "version": "1.36.6"
+        }
+      ],
+      "size": "192.6 MB",
       "note": "مميزات اللعبة:\n- تجميد العملات وعدم نقصانها.\n- ترقيات الفندق مجاناً.\n- إزالة الإعلانات.",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T07:35:56.839Z",
-      "updatedAt": "2026-08-25T07:35:58.018Z"
+      "updatedAt": "2026-10-08T18:28:39.758Z",
+      "bundleId": "com.master.hotelmaster"
     },
     {
       "id": "APP-3522259990",
