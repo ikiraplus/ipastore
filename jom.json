@@ -23860,6 +23860,22 @@
       "bundleId": "com.tojgames.trafficracer",
       "addedAt": "2026-10-08T19:00:42.602Z",
       "updatedAt": "2026-10-08T19:00:42.623Z"
+    },
+    {
+      "id": "app-1791486056278",
+      "name": "My Favorite Car",
+      "version": "2.1.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/my-favorite-car-2.1.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/78/8a/e1788a24-05b3-66d9-d4cf-8b7535459a09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "323.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ForeSightGaming.MyFavoriteCar",
+      "addedAt": "2026-10-08T19:00:56.278Z",
+      "updatedAt": "2026-10-08T19:00:56.294Z"
     }
   ]
 }
