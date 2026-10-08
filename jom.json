@@ -23718,6 +23718,22 @@
       "bundleId": "io.monumental.littlealchemist.ios",
       "addedAt": "2026-10-08T18:04:52.812Z",
       "updatedAt": "2026-10-08T18:04:52.821Z"
+    },
+    {
+      "id": "app-1791484146331",
+      "name": "Soundscape Sleep Focus Relax",
+      "version": "11.1.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/soundscape-sleep-focus-relax-v11.1.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/26/04/862604b1-e751-552c-4933-a215e891eeea/SoundscapeIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "60.0 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "com.soundscape.music",
+      "addedAt": "2026-10-08T18:29:06.331Z",
+      "updatedAt": "2026-10-08T18:29:06.340Z"
     }
   ]
 }
