@@ -17715,18 +17715,23 @@
     {
       "id": "app-1789719758848",
       "name": "Flick Shot Rogues",
-      "version": "1.13",
+      "version": "1.16",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/flick-shot-rogues-1.13",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/70/6f/4f706f9a-852e-1224-e4f7-652b698a2f0d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "408.9 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/flick-shot-rogues_1.16",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/fc/45/03fc45cd-586c-1da7-a2bb-96caaa37f215/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/flick-shot-rogues-1.13",
+          "version": "1.13"
+        }
+      ],
+      "size": "955.3 MB",
       "note": "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع وتقليل الضرر الوارد.\n- وضع God Mode لعدم تلقي الضرر.\n- فتح اللعبة والمحتوى بالكامل.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.noodlecake.flickshotrogues",
       "addedAt": "2026-09-18T08:22:38.848Z",
-      "updatedAt": "2026-09-18T08:22:46.133Z"
+      "updatedAt": "2026-10-08T12:07:40.966Z"
     },
     {
       "id": "app-1789719956006",
