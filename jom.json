@@ -12631,18 +12631,23 @@
     {
       "id": "APP-4108123146",
       "name": "Thumbnail Maker For Ytstudio",
-      "version": "15.2",
+      "version": "15.5",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/thumbnail-maker-for-ytstudio_15.2",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/thumbnail-maker-for-yt-studio_15.5",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/23/8b/59238bd7-30d0-e9a8-da06-72b83dd360bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "512.9 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/thumbnail-maker-for-ytstudio_15.2",
+          "version": "15.2"
+        }
+      ],
+      "size": "513.1 MB",
       "note": "تم فتح جميع المميزات وعضوية الـVip.\n- اضغط شراء ثم الغاء او قم بالتسجيل عبر حساب كوكل.",
       "category": "أدوات",
       "recommended": false,
       "bundleId": "com.contentarcade.ThumbnailMaker",
       "addedAt": "2026-09-01T08:57:54.445Z",
-      "updatedAt": "2026-09-01T08:57:56.296Z"
+      "updatedAt": "2026-10-08T12:43:22.571Z"
     },
     {
       "id": "APP-1517741741",
