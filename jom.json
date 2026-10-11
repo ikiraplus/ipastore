@@ -24099,6 +24099,22 @@
       "bundleId": "com.budgestudios.PawPatrolRescueWorld",
       "addedAt": "2026-10-11T19:26:29.102Z",
       "updatedAt": "2026-10-11T19:26:29.122Z"
+    },
+    {
+      "id": "app-1791746802860",
+      "name": "Packingdom",
+      "version": "1.5.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/packingdom_1.5.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/9e/67/7a9e6741-c6be-0b69-97fc-81ca00a908ce/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "421.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.abi.packingdom",
+      "addedAt": "2026-10-11T19:26:42.860Z",
+      "updatedAt": "2026-10-11T19:26:42.875Z"
     }
   ]
 }
