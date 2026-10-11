@@ -23922,6 +23922,22 @@
       "bundleId": "com.builditgames.zombiestreets",
       "updatedAt": "2026-10-08T19:04:58.298Z",
       "addedAt": "2026-10-08T19:04:58.289Z"
+    },
+    {
+      "id": "app-1791746219976",
+      "name": "Screw Jam",
+      "version": "8.16.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/screw-jam_8.16.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/73/42/c47342d8-3dd3-d12b-d31d-e3f68a1a4a2a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "532.9 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.quok.screwJam",
+      "addedAt": "2026-10-11T19:16:59.976Z",
+      "updatedAt": "2026-10-11T19:16:59.985Z"
     }
   ]
 }
