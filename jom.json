@@ -24035,6 +24035,22 @@
       "bundleId": "com.cookapps.catsurvivor",
       "addedAt": "2026-10-11T19:19:34.289Z",
       "updatedAt": "2026-10-11T19:19:34.305Z"
+    },
+    {
+      "id": "app-1791746703933",
+      "name": "Fortress Frontlines Card Td",
+      "version": "6.1.34",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/fortress-frontlines-card-td_6.1.34",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/f1/e3/eef1e3e2-d1b4-5aaf-8a9a-ce2a5fd3693a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "440.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.sandsoft.fingerwarriors",
+      "addedAt": "2026-10-11T19:25:03.933Z",
+      "updatedAt": "2026-10-11T19:25:03.941Z"
     }
   ]
 }
