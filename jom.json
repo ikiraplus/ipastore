@@ -24230,6 +24230,22 @@
       "bundleId": "com.abi.colony.flow",
       "addedAt": "2026-10-11T19:37:35.664Z",
       "updatedAt": "2026-10-11T19:37:35.672Z"
+    },
+    {
+      "id": "app-1791747585666",
+      "name": "Bunny Farm Zombie Defense",
+      "version": "1.0.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bunny-farm-zombie-defense_1.0.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/4e/3a/224e3abc-9799-5e0e-1eb2-4cba2f3d8138/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "288.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.ngu.games.zombiebunnyfarm",
+      "addedAt": "2026-10-11T19:39:45.666Z",
+      "updatedAt": "2026-10-11T19:39:45.676Z"
     }
   ]
 }
