@@ -17692,18 +17692,23 @@
     {
       "id": "app-1789715367246",
       "name": "Archer Castle Afk Idle Rpg",
-      "version": "1.13.54",
+      "version": "1.14.03",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archer-castle-afk-idle-rpg_1.13.54",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/44/ed/db44ed48-0a7d-a9ce-b556-e52e21c0f951/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "620.6 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archer-castle-afk-idle-rpg_1.14.03",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/3c/c9/af3cc95f-2572-4745-a311-149c74e4a716/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/archer-castle-afk-idle-rpg_1.13.54",
+          "version": "1.13.54"
+        }
+      ],
+      "size": "439.6 MB",
       "note": "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- وضع عدم الموت.\n- مضاعفة نقاط الخبرة لتسريع رفع المستوى.\n- مضاعفة نقاط الحمى لزيادة وتيرة المكافآت الإضافية.\n- مضاعفة الذهب.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.springgames.archercastle",
       "addedAt": "2026-09-18T07:09:27.246Z",
-      "updatedAt": "2026-09-18T07:09:29.871Z"
+      "updatedAt": "2026-10-11T19:47:17.688Z"
     },
     {
       "id": "app-1789715407342",
