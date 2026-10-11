@@ -24210,6 +24210,22 @@
       "bundleId": "com.rocket.jackal.squad",
       "addedAt": "2026-10-11T19:37:00.508Z",
       "updatedAt": "2026-10-11T19:37:00.524Z"
+    },
+    {
+      "id": "app-1791747455664",
+      "name": "Colony Flow",
+      "version": "1.1.51",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/colony-flow_1.1.51",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/3d/f4/a83df450-de5d-7150-1b8c-1e73328fa9f2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.abi.colony.flow",
+      "addedAt": "2026-10-11T19:37:35.664Z",
+      "updatedAt": "2026-10-11T19:37:35.672Z"
     }
   ]
 }
