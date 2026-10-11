@@ -23995,6 +23995,22 @@
       "bundleId": "com.ss.apes.evolve.win",
       "addedAt": "2026-10-11T19:18:45.668Z",
       "updatedAt": "2026-10-11T19:18:45.686Z"
+    },
+    {
+      "id": "app-1791746356014",
+      "name": "Last Combat Z Shooter",
+      "version": "1.0.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-combat-z-shooter_1.0.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/0c/d4/df0cd475-6852-6531-7f87-7011ffb77407/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "299.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.sg.lastaura.army.zombie.shooter",
+      "addedAt": "2026-10-11T19:19:16.014Z",
+      "updatedAt": "2026-10-11T19:19:16.027Z"
     }
   ]
 }
