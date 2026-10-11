@@ -5446,26 +5446,26 @@
     {
       "id": "APP-1174780491",
       "name": "WolfTube",
-      "version": "21.34.3",
+      "version": "21.40.5",
       "toolVersion": "1.28.1",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wolftube_1.28.13",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/you-tube-wolf_21.40.5",
       "icon": "https://raw.githubusercontent.com/ikiraplus/ipastore/main/images/app-1777314094685.png",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wolftube_21.33.5",
-          "version": "21.33.5"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wolftube_1.28.13",
+          "version": "21.34.3"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/youtube-wolftube21.30.5",
-          "version": "21.30.5"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/wolftube_21.33.5",
+          "version": "21.33.5"
         }
       ],
-      "size": "130.5 MB",
+      "size": "332.1 MB",
       "note": "مميزات التطبيق:\n- تنزيل الفيديوهات والصوتيات والصور المصغرة مباشرة من YouTube مع اختيار الجودة ودعم الدقات العالية عند توفرها.\n- مكتبة وسائط مدمجة لتنظيم وتشغيل ومشاركة وحذف المحتوى المحمّل، مع البحث واستئناف التشغيل من آخر موضع.\n- إنشاء قوائم تشغيل محلية للفيديو والصوت مع تثبيتها ومشاركتها وإمكانية التراجع عن حذفها.\n- تشغيل الفيديو والصوت في الخلفية ودعم وضع PiP مع التحكم من شاشة القفل ومركز التحكم.\n- دعم SponsorBlock وتقليل الإعلانات وتخطي الإعلانات القابلة للتخطي.\n- أدوات إضافية لـ Shorts والفيديوهات والقنوات تشمل تنزيل الوسائط ونسخ معلومات الفيديو والقناة وتنزيل صور الملفات الشخصية.\n- إدارة عدة ملفات دفعة واحدة ومشاركة أو حذف مجموعة من التنزيلات معاً.\n- دعم النسخ الاحتياطي والاستعادة للمكتبة والتنزيلات والقوائم ومواضع التشغيل.\n- دعم العربية والإنكليزية مع إمكانية التحكم في ظهور أدوات WolfTube داخل YouTube.",
       "category": "تواصل",
       "recommended": true,
       "addedAt": "2026-07-23T15:41:21.306Z",
-      "updatedAt": "2026-08-25T11:03:04.735Z",
+      "updatedAt": "2026-10-11T19:22:17.551Z",
       "bundleId": "com.google.ios.youtubeee"
     },
     {
