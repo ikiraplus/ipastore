@@ -23942,6 +23942,22 @@
       "bundleId": "com.quok.screwJam",
       "addedAt": "2026-10-11T19:16:59.976Z",
       "updatedAt": "2026-10-11T19:16:59.985Z"
+    },
+    {
+      "id": "app-1791746255288",
+      "name": "Gear Defenders",
+      "version": "1.5.16",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/gear-defenders_1.5.16",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/59/0f/c2590f74-3684-695d-cefe-6def2d552c56/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "352.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.iogames.gearworld",
+      "addedAt": "2026-10-11T19:17:35.288Z",
+      "updatedAt": "2026-10-11T19:17:35.299Z"
     }
   ]
 }
