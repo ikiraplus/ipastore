@@ -4109,18 +4109,22 @@
     },
     {
       "id": "APP-9984707484",
-      "name": "angry birds dream",
-      "version": "2.7.0",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-dream",
-      "icon": "https://play-lh.googleusercontent.com/Poj7eNOavvpolZGv2aaMX7ZyWFAQHeFHf-HQqlSvpXgKT0rgYSz4eVAqZE8DZFT2HJjD37iEUYCqrrqvhSNyNCY",
-      "size": "199.3 MB",
+      "name": "Angry Birds Dream Blast",
+      "version": "2.10.0",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-dream-blast_2.10.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/b8/8f/ceb88f3d-7614-d24b-e6bd-e18484d0e0eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "size": "342.8 MB",
       "note": "مميزات اللعبة:\n- حركات غير محدودة.\n- حياة غير محدودة.\n- معزّزات غير محدودة.",
       "category": "ألعاب",
       "addedAt": "2026-06-13T18:26:07.666Z",
-      "updatedAt": "2026-09-01T13:51:09.706Z",
+      "updatedAt": "2026-10-12T08:57:00.169Z",
       "bundleId": "com.rovio.dream",
       "toolVersion": "",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-dream",
+          "version": "2.7.0"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/angry-birds-dream",
           "version": "2.0.2"
