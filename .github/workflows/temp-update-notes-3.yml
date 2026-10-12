@@ -1,0 +1,95 @@
+name: Temporary Update JOM Notes 3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/temp-update-notes-3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Apply note updates
+        shell: python
+        run: |
+          import hashlib
+          import json
+          import pathlib
+          import shutil
+
+          root = pathlib.Path('.')
+          jom_path = root / 'jom.json'
+          doc = json.loads(jom_path.read_text(encoding='utf-8'))
+          apps = doc.get('apps', [])
+          if not isinstance(apps, list):
+              raise RuntimeError('jom.json apps array not found')
+
+          updates = {
+              'Retro Wings Air Combat': 'مميزات اللعبة:\n- عمليات الشراء مجانية.',
+              'Spectrum of Soul': 'مميزات اللعبة:\n- فتح الخيارات المميزة مجاناً للوصول إلى جميع مسارات القصة دون قيود الدفع.',
+              'Voidpet Dungeon': 'مميزات اللعبة:\n- ضربات حرجة دائمة.\n- مضاعفة سرعة المعركة من 1x إلى 10x.\n- حصانة ضد التأثيرات السلبية.',
+              'Evolveand Win': 'مميزات اللعبة:\n- قائمة تصحيح الأخطاء تضم أكثر من 10 خيارات.',
+              'Last Combat Z Shooter': 'مميزات اللعبة:\n- فوز تلقائي.\n- أحجار كريمة غير محدودة.\n- عملات غير محدودة.\n- إضافة الأحجار الكريمة.\n- إضافة العملات.\n- ضرر عالٍ.\n- مضاعفة الضرر.',
+              'Crash Cat Zombie Survivor': 'مميزات اللعبة:\n- وضع عدم الموت.\n- مضاعفة الضرر لزيادة قوة الصدمات والنيران.\n- مضاعفة العملات لكسب الموارد بشكل أسرع.\n- تجميد العملات للحفاظ على الرصيد عند الإنفاق.',
+              'Paw Patrol Rescue World': 'مميزات اللعبة:\n- فتح اشتراك Premium وجميع المميزات المدفوعة.',
+              'Christmas Magic Match 3 Game': 'مميزات اللعبة:\n- تعطيل الإعلانات البينية.\n- الحد الأقصى للعملات.\n- الحد الأقصى للمعززات.\n- الحد الأقصى للنجوم.\n- الحد الأقصى للحركات.\n- فوز تلقائي باستخدام حركة واحدة فقط.',
+              'Packingdom': 'مميزات اللعبة:\n- تعديل الذهب لكسبه أو إنفاقه بحرية.\n- تعديل القلوب لكسبها أو إنفاقها بحرية.\n- تعديل المعززات لكسبها أو إنفاقها بحرية.\n- تعديل معززات ما قبل المرحلة لكسبها أو إنفاقها بحرية.',
+              'Castle Rivals': 'مميزات اللعبة:\n- عمليات الشراء داخل التطبيق مجانية.\n\nملاحظة:\n- بعد إتمام الشراء، عطّل ميزة الشراء داخل التطبيق.'
+          }
+
+          changed = 0
+          for name, note in updates.items():
+              matches = [a for a in apps if str(a.get('name') or '') == name]
+              if len(matches) != 1:
+                  raise RuntimeError(f'{name}: expected exactly one match, found {len(matches)}')
+              matches[0]['note'] = note
+              changed += 1
+              print(f'Updated note: {name}')
+
+          jom_path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          out = root / 'chunks'
+          if out.exists():
+              shutil.rmtree(out)
+          out.mkdir(parents=True, exist_ok=True)
+          chunk_size = 100
+          chunk_rows = []
+          for index, start in enumerate(range(0, len(apps), chunk_size), 1):
+              part = apps[start:start + chunk_size]
+              filename = f'apps-{index:03d}.json'
+              (out / filename).write_text(json.dumps({'apps': part}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+              chunk_rows.append({'file': filename, 'start': start, 'count': len(part)})
+
+          manifest = {
+              'version': 1,
+              'source': 'jom.json',
+              'sourceHash': hashlib.sha256(jom_path.read_bytes()).hexdigest()[:20],
+              'chunkSize': chunk_size,
+              'total': len(apps),
+              'chunks': chunk_rows,
+          }
+          (out / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+
+          pathlib.Path('.github/workflows/temp-update-notes-3.yml').unlink(missing_ok=True)
+          print(f'Applied {changed} note update(s).')
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A jom.json chunks .github/workflows/temp-update-notes-3.yml
+          git commit -m 'Admin: Update next 10 JOM descriptions [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
