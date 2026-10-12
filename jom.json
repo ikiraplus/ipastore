@@ -24461,6 +24461,22 @@
       "bundleId": "com.linkdesks.puzzle.casual.jewelhunter",
       "addedAt": "2026-10-12T08:16:56.434Z",
       "updatedAt": "2026-10-12T08:16:56.445Z"
+    },
+    {
+      "id": "app-1791793080460",
+      "name": "Merge Fashion Romance Story",
+      "version": "3.2.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/merge-fashion-romance-story_3.2.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/be/f2/59bef23a-6467-371a-cf83-1edc08bf2f9a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "950.4 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.infiniplay.merge.fashion.romance.story.ios",
+      "addedAt": "2026-10-12T08:18:00.460Z",
+      "updatedAt": "2026-10-12T08:18:00.467Z"
     }
   ]
 }
