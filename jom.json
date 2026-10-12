@@ -19581,18 +19581,23 @@
     {
       "id": "app-1790324245899",
       "name": "Eternal Hero Action Rpg",
-      "version": "4.1.3",
+      "version": "4.2.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/eternal-hero-action-rpg_4.1.3",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/68/52/1868520a-a09e-0686-6316-dd29b7f20705/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "758.3 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/eternal-hero-action-rpg_4.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/1b/d2/511bd203-cc8b-bed6-34d2-66d09b6e8a27/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/eternal-hero-action-rpg_4.1.3",
+          "version": "4.1.3"
+        }
+      ],
+      "size": "778.9 MB",
       "note": "- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- مضاعفة XP.\n- مضاعفة Adventure Mastery XP.\n- مضاعفة Profession XP.\n- مضاعفة الغنائم.\n- تجميد العملات.\n- تجميد Labour Points.\n- Tower Entries غير محدودة.\n- Eternal Rift Entries غير محدودة.\n- Labyrinth Entries غير محدودة.\n- Proving Grounds Entries غير محدودة.\n- بدون إعلانات.\n- فتح Hero Pass.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "games.rivvy.eternalherorpg",
       "addedAt": "2026-09-25T08:17:25.899Z",
-      "updatedAt": "2026-09-25T08:17:25.913Z"
+      "updatedAt": "2026-10-12T08:19:33.798Z"
     },
     {
       "id": "app-1790324281745",
