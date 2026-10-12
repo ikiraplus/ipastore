@@ -1675,6 +1675,23 @@
       "bundleId": "",
       "addedAt": "2026-09-30T19:23:49.700Z",
       "updatedAt": "2026-09-30T19:23:49.708Z"
+    },
+    {
+      "id": "dylib-1791796472391",
+      "name": "RVX Tweak",
+      "version": "1.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/RVXTikTok-1.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/57/ad/b8/57adb8ea-6380-3224-e4bd-d291fd824d81/Placeholder.mill/400x400bb-75.webp",
+      "fileType": "dylib",
+      "previousVersions": [],
+      "size": "3.1 MB",
+      "note": "",
+      "category": "دايلب",
+      "recommended": false,
+      "bundleId": "",
+      "addedAt": "2026-10-12T09:14:32.391Z",
+      "updatedAt": "2026-10-12T09:14:32.404Z"
     }
   ]
 }
