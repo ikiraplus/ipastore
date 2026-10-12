@@ -24805,6 +24805,22 @@
       "bundleId": "com.gokids.trains",
       "addedAt": "2026-10-12T08:52:16.042Z",
       "updatedAt": "2026-10-12T08:52:16.051Z"
+    },
+    {
+      "id": "app-1791795225398",
+      "name": "Spite Malice",
+      "version": "1.6.6",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/spite-malice_1.6.6",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/75/af/d3/75afd3a9-41f3-f043-bc0d-8c74aa023757/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "816.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.trivialtechnology.Spite",
+      "addedAt": "2026-10-12T08:53:45.398Z",
+      "updatedAt": "2026-10-12T08:53:45.407Z"
     }
   ]
 }
