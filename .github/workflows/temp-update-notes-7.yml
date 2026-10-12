@@ -1,0 +1,79 @@
+name: Temporary Update JOM Notes 7
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/temp-update-notes-7.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Apply exact note updates
+        shell: python
+        run: |
+          import hashlib, json, pathlib, re, shutil
+          root = pathlib.Path('.')
+          jom_path = root / 'jom.json'
+          doc = json.loads(jom_path.read_text(encoding='utf-8'))
+          apps = doc.get('apps', [])
+
+          def norm(s):
+              return re.sub(r'[^a-z0-9]+', '', str(s or '').lower())
+
+          changed = 0
+
+          rvx = [a for a in apps if str(a.get('name') or '') == 'RVX Tiktok']
+          if len(rvx) == 1:
+              rvx[0]['note'] = 'مميزات التطبيق:\n- تنزيل الفيديوهات والصور وجميع صور المنشور والصوت، مع نسخ روابط الفيديو والصوت والوصف وحفظ التنزيلات في ألبوم مخصص مع شريط تقدم وإلغاء اختياري.\n- زر RVX مدمج مع تخصيص الضغط والضغط المطول، وإعادة ترتيب أو إخفاء الخيارات والأقسام وعرضها كقوائم فرعية وإخفاء واجهة المشاهدة سريعاً.\n- قراءة الرسائل دون إيصال قراءة، إخفاء الكتابة والنشاط مع مشاهدة نشاط الآخرين، الاحتفاظ بالرسائل المحذوفة وإرسال ملفات صوتية أو استخراج الصوت من الفيديو.\n- تنزيل وسائط القصص وصوتها ونسخ الرابط والوصف، مشاهدة القصص دون كشف المشاهدة مع تحكم يدوي أو تلقائي بحالة المشاهدة وتخصيص قائمة القصص.\n- حفظ صورة الحساب ونسخ اسم المستخدم والاسم والنبذة وإظهار حالة المتابعة، مع توسيع حدود النصوص وإظهار توثيق وهمي وتخصيص أعداد المتابعين محلياً.\n- قفل TikTok برمز 4 أو 6 أرقام مع Face ID وTouch ID، وإخفاء عناصر RVX أثناء تسجيل الشاشة وفتح الروابط خارجياً وتنظيف روابط التتبع.\n- إخفاء الإعلانات من الصفحة الرئيسية، التشغيل التلقائي للفيديو التالي وإبقاء شريط التقدم ظاهراً وقابلاً للسحب.\n- تأكيد اختياري قبل الإعجاب أو عدم الإعجاب أو متابعة الحسابات.\n- عرض وتنظيف الكاش يدوياً أو تلقائياً، وتصدير واستيراد إعدادات RVXTikTok بصيغة JSON مع حفظ تخصيصات القوائم.'
+              changed += 1
+              print('Updated note: RVX Tiktok')
+          else:
+              print('RVX exact matches:', len(rvx))
+
+          arrow = [a for a in apps if norm(a.get('name')) == 'arrowpro3d']
+          if len(arrow) == 1:
+              arrow[0]['note'] = 'مميزات اللعبة:\n- فوز تلقائي لإكمال المستويات فوراً.\n- عملات وأرواح غير محدودة.\n- تلميحات وتلميحات كبرى غير محدودة.\n- مضاعفة العملات والتلميحات والتلميحات الكبرى.\n- إضافة العملات والتلميحات والتلميحات الكبرى يدوياً.'
+              changed += 1
+              print('Updated note:', arrow[0].get('name'))
+          else:
+              print('Arrow normalized matches:', len(arrow))
+              print('Arrow candidates:', [a.get('name') for a in apps if 'arrow' in str(a.get('name') or '').lower()])
+
+          if changed == 0:
+              raise RuntimeError('No entries updated')
+
+          jom_path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          out = root / 'chunks'
+          if out.exists(): shutil.rmtree(out)
+          out.mkdir(parents=True, exist_ok=True)
+          rows = []
+          for index, start in enumerate(range(0, len(apps), 100), 1):
+              part = apps[start:start+100]
+              fn = f'apps-{index:03d}.json'
+              (out/fn).write_text(json.dumps({'apps': part}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+              rows.append({'file': fn, 'start': start, 'count': len(part)})
+          manifest = {'version':1,'source':'jom.json','sourceHash':hashlib.sha256(jom_path.read_bytes()).hexdigest()[:20],'chunkSize':100,'total':len(apps),'chunks':rows}
+          (out/'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+          pathlib.Path('.github/workflows/temp-update-notes-7.yml').unlink(missing_ok=True)
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A jom.json chunks .github/workflows/temp-update-notes-7.yml
+          git commit -m 'Admin: Update RVX and Arrow descriptions [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
