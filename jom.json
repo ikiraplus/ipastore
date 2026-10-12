@@ -24909,6 +24909,22 @@
       "bundleId": "com.gamee.homepin2.manor.homescape",
       "addedAt": "2026-10-12T08:57:29.431Z",
       "updatedAt": "2026-10-12T08:57:29.441Z"
+    },
+    {
+      "id": "app-1791795494616",
+      "name": "Cookies Inc Idle Tycoon 104100",
+      "version": "104100",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/cookies-inc-idle-tycoon_104100",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/40/fa/b340fa60-0004-aed5-f1a1-84fe841b27a7/AppIcon-0-0-1x_U007emarketing-0-8-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "104.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pixelcubestudios.cookiecollector2",
+      "addedAt": "2026-10-12T08:58:14.616Z",
+      "updatedAt": "2026-10-12T08:58:14.627Z"
     }
   ]
 }
