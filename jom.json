@@ -24773,6 +24773,22 @@
       "bundleId": "com.gokids.tbagro",
       "addedAt": "2026-10-12T08:47:26.567Z",
       "updatedAt": "2026-10-12T08:47:26.574Z"
+    },
+    {
+      "id": "app-1791795105173",
+      "name": "Lucky Pirates Ahoy",
+      "version": "1.0.12",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/lucky-pirates-ahoy_1.0.12",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/0f/a8/840fa8c5-77f7-1a3e-38ab-440f99f475e0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "649.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.STUCKPIXEL.NOC",
+      "addedAt": "2026-10-12T08:51:45.173Z",
+      "updatedAt": "2026-10-12T08:51:45.185Z"
     }
   ]
 }
