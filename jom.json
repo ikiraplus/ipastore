@@ -1859,22 +1859,26 @@
     {
       "id": "APP-9776106622",
       "name": "Plants vs. Zombies 2",
-      "version": "2.998",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz-2.998",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/25/93/36259322-227a-487f-08d8-cd6d7d7d05ec/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      "size": "136.1 MB",
+      "version": "1006",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz-2-v1006",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/92/72/0c927225-06f5-3bdc-2380-e81999533ee2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "size": "135.6 MB",
       "note": "مميزات اللعبة:\n- عملات غير محدودة.\n- جواهر غير محدودة.\n- Mints غير محدودة.\n- الشمس تزيد بدلاً من أن تنقص.",
       "category": "ألعاب",
       "addedAt": "2026-03-29",
       "toolVersion": "",
       "previousVersions": [
         {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/pvz-2.998",
+          "version": "2.998"
+        },
+        {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/plants-vs-zombies-2-free-hack-9kmjeutrza-1",
           "version": "11.9.1"
         }
       ],
       "recommended": false,
-      "updatedAt": "2026-08-24T06:44:17.574Z",
+      "updatedAt": "2026-10-12T09:11:00.623Z",
       "bundleId": "com.popcap.ios.PvZ2"
     },
     {
