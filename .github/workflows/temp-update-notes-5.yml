@@ -1,0 +1,143 @@
+name: Temporary Update JOM Notes 5
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/temp-update-notes-5.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Apply note updates
+        shell: python
+        run: |
+          import hashlib
+          import json
+          import pathlib
+          import shutil
+
+          root = pathlib.Path('.')
+          jom_path = root / 'jom.json'
+          doc = json.loads(jom_path.read_text(encoding='utf-8'))
+          apps = doc.get('apps', [])
+          if not isinstance(apps, list):
+              raise RuntimeError('jom.json apps array not found')
+
+          updates = [
+              {
+                  'bundleId': 'com.zynga.FarmVilleTropicEscape',
+                  'name': 'FarmVille 2 Tropic Escape',
+                  'note': 'مميزات اللعبة:\n- تجميد العملات لمنع استهلاكها.'
+              },
+              {
+                  'bundleId': 'com.lokoworks.MMALife',
+                  'name': 'MMALife',
+                  'note': 'مميزات اللعبة:\n- عملات غير محدودة للإنفاق على التدريب والمعسكرات والترقيات.\n- فتح جميع الحزم والمحتوى المميز.'
+              },
+              {
+                  'bundleId': 'com.gamee.godslayer.rpg.rougelike',
+                  'name': 'God Rivals RPG Roguelike',
+                  'note': 'مميزات اللعبة:\n- وضع عدم الموت.\n- ضربة واحدة قاتلة.\n- زيادة سرعة الهجوم.\n- بدون فترة انتظار للمهارات.\n- فوز تلقائي.\n- عملات غير محدودة وتزداد بدلاً من أن تنقص.\n- فتح التذكرة المميزة.\n- فتح التذكرة الملكية.'
+              },
+              {
+                  'bundleId': 'com.stonehollow-workshop.Eterspire',
+                  'name': 'Eterspire Classic MMORPG',
+                  'note': 'مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.'
+              },
+              {
+                  'bundleId': 'com.retrocatcher.dk',
+                  'name': 'Dark Knight kiugi Idle',
+                  'note': 'مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- مضاعفة العملات.\n- مضاعفة الخبرة.\n- بدون إعلانات.'
+              },
+              {
+                  'bundleId': 'dats.games.artillerymasterffa',
+                  'name': 'Artillery Fight For America',
+                  'note': 'مميزات اللعبة:\n- إزالة الإعلانات.\n- إضافة العملات.\n- مضاعفة العملات.'
+              },
+              {
+                  'bundleId': 'com.factory608.LA3',
+                  'name': 'LivingAlone3',
+                  'note': 'مميزات اللعبة:\n- عمليات الشراء داخل التطبيق مجانية لفتح المشتريات المميزة فوراً.'
+              },
+              {
+                  'bundleId': 'com.pixelstar.gsm',
+                  'name': 'Grow Swordmaster',
+                  'note': 'مميزات اللعبة:\n- مفعّل مسبقاً؛ ما عليك سوى تسجيل الدخول.\n- الحد الأقصى من الجواهر الزرقاء.\n- الحصول على أعلى مكافآت الزنزانات والمهام والكتب والعناصر المحظورة.\n- زيادة سقوط الذهب من الأعداء.\n- الحد الأقصى لنقاط صحة البطل.\n- الحد الأقصى لقوة هجوم البطل.\n- الحد الأقصى لقوة دفاع البطل.\n- خفض قوة هجوم العدو إلى 1.\n- خفض قوة دفاع العدو إلى 1.'
+              },
+              {
+                  'name': 'Fave Forge',
+                  'note': 'مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- وضع عدم الموت.'
+              },
+              {
+                  'bundleId': 'com.fourfats.punchTV',
+                  'name': 'Punch TV',
+                  'note': 'مميزات اللعبة:\n- تجميد العملات لمنع استهلاكها.\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- وضع عدم الموت.\n- عملات غير محدودة؛ اكسب بعض العملات لتفعيلها.'
+              },
+          ]
+
+          changed = 0
+          skipped = []
+          for row in updates:
+              bundle = row.get('bundleId')
+              name = row.get('name')
+              matches = [a for a in apps if bundle and str(a.get('bundleId') or '') == bundle]
+              if not matches and name:
+                  matches = [a for a in apps if str(a.get('name') or '') == name]
+              if len(matches) != 1:
+                  print(f"Skipped {name or bundle}: found {len(matches)} match(es)")
+                  skipped.append(name or bundle)
+                  continue
+              matches[0]['note'] = row['note']
+              changed += 1
+              print('Updated note:', matches[0].get('name'))
+
+          if changed == 0:
+              raise RuntimeError('No JOM entries were updated')
+
+          jom_path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          out = root / 'chunks'
+          if out.exists():
+              shutil.rmtree(out)
+          out.mkdir(parents=True, exist_ok=True)
+          chunk_size = 100
+          chunk_rows = []
+          for index, start in enumerate(range(0, len(apps), chunk_size), 1):
+              part = apps[start:start + chunk_size]
+              filename = f'apps-{index:03d}.json'
+              (out / filename).write_text(json.dumps({'apps': part}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+              chunk_rows.append({'file': filename, 'start': start, 'count': len(part)})
+          manifest = {
+              'version': 1,
+              'source': 'jom.json',
+              'sourceHash': hashlib.sha256(jom_path.read_bytes()).hexdigest()[:20],
+              'chunkSize': chunk_size,
+              'total': len(apps),
+              'chunks': chunk_rows,
+          }
+          (out / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+
+          pathlib.Path('.github/workflows/temp-update-notes-5.yml').unlink(missing_ok=True)
+          print(f'Applied {changed} note update(s); skipped {len(skipped)}.')
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A jom.json chunks .github/workflows/temp-update-notes-5.yml
+          git commit -m 'Admin: Update JOM descriptions batch 5 [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
