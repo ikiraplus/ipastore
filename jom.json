@@ -24710,6 +24710,22 @@
       "bundleId": "com.deuscraft.TurboTeam",
       "addedAt": "2026-10-12T08:41:17.144Z",
       "updatedAt": "2026-10-12T08:41:17.161Z"
+    },
+    {
+      "id": "app-1791794489858",
+      "name": "Icy Village Survival Idle",
+      "version": "4.20.10",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/icy-village-survival-idle_4.20.10",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/88/07/ee88072f-4b93-cce4-4379-34029dbfe8c1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "825.6 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.unimob.icy.village",
+      "addedAt": "2026-10-12T08:41:29.858Z",
+      "updatedAt": "2026-10-12T08:41:29.867Z"
     }
   ]
 }
