@@ -24620,6 +24620,22 @@
       "bundleId": "com.craox.magic.color",
       "addedAt": "2026-10-12T08:39:14.310Z",
       "updatedAt": "2026-10-12T08:39:14.318Z"
+    },
+    {
+      "id": "app-1791794365572",
+      "name": "Kids Cooking Games Food Fun",
+      "version": "1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kids-cooking-games-food-fun_1.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/65/ee/c165ee6b-ff15-d9e7-05db-b8cd9448f350/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "197.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.foxieplay.kids.cooking.games",
+      "addedAt": "2026-10-12T08:39:25.572Z",
+      "updatedAt": "2026-10-12T08:39:25.579Z"
     }
   ]
 }
