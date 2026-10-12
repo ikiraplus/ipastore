@@ -24604,6 +24604,22 @@
       "bundleId": "com.kidslearning.coloring.slatepad",
       "addedAt": "2026-10-12T08:37:46.012Z",
       "updatedAt": "2026-10-12T08:37:46.020Z"
+    },
+    {
+      "id": "app-1791794354310",
+      "name": "Kids Coloring Puzzle Games",
+      "version": "1.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kids-coloring-puzzle-games_1.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/ce/ee/17ceee94-dd59-eec6-3771-8ff902de6714/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "121.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.craox.magic.color",
+      "addedAt": "2026-10-12T08:39:14.310Z",
+      "updatedAt": "2026-10-12T08:39:14.318Z"
     }
   ]
 }
