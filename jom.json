@@ -24731,6 +24731,22 @@
       "bundleId": "com.unimob.icy.village",
       "addedAt": "2026-10-12T08:41:29.858Z",
       "updatedAt": "2026-10-12T08:41:29.867Z"
+    },
+    {
+      "id": "app-1791794811163",
+      "name": "Zombusters",
+      "version": "3.8.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/zombusters_3.8.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/af/d0/c5afd0f9-5c56-9835-bdd4-5ca9c05cfa05/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "598.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.lexenzolab.vs",
+      "addedAt": "2026-10-12T08:46:51.163Z",
+      "updatedAt": "2026-10-12T08:46:51.172Z"
     }
   ]
 }
