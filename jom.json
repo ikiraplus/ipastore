@@ -25531,6 +25531,22 @@
       "bundleId": "com.turbo.stars",
       "addedAt": "2026-10-13T13:20:52.740Z",
       "updatedAt": "2026-10-13T13:20:52.759Z"
+    },
+    {
+      "id": "app-1791897676190",
+      "name": "Land Builder",
+      "version": "1.27.17",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/land-builder_1.27.17",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/a2/d9/63a2d9f3-5f59-f42c-8c3c-fb6db00464a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "461.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.game.perfectlands",
+      "addedAt": "2026-10-13T13:21:16.190Z",
+      "updatedAt": "2026-10-13T13:21:16.201Z"
     }
   ]
 }
