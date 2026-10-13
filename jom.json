@@ -19849,18 +19849,23 @@
     {
       "id": "app-1790344928543",
       "name": "Idle Bank Tycoon Money Game",
-      "version": "2.0.0",
+      "version": "2.2.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-bank-tycoon-money-game_2.0.0",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/db/31/92db3153-3622-8306-1f17-9832ec6da7eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "304.2 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-bank-tycoon-money-game_2.2.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/a1/b8/52a1b863-49fe-f42c-63a2-e457c3f64d15/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-bank-tycoon-money-game_2.0.0",
+          "version": "2.0.0"
+        }
+      ],
+      "size": "300.2 MB",
       "note": "- تجميد جميع العملات ومنع نقصانها عند الصرف.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.luckyskeletonstudios.idlebanktycoon",
       "addedAt": "2026-09-25T14:02:08.543Z",
-      "updatedAt": "2026-09-25T14:02:08.569Z"
+      "updatedAt": "2026-10-13T12:29:05.279Z"
     },
     {
       "id": "app-1790344966434",
