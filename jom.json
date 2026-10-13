@@ -25563,6 +25563,22 @@
       "bundleId": "com.maysalward.Ludo",
       "addedAt": "2026-10-13T13:21:30.925Z",
       "updatedAt": "2026-10-13T13:21:30.934Z"
+    },
+    {
+      "id": "app-1791897708511",
+      "name": "Shoot Hide",
+      "version": "1.10.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/shoot-hide_1.10.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a9/71/23a97182-d3b0-d9f3-7ec7-22ba2c23db4f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "212.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.sniper.shoot.hide.game",
+      "addedAt": "2026-10-13T13:21:48.511Z",
+      "updatedAt": "2026-10-13T13:21:48.525Z"
     }
   ]
 }
