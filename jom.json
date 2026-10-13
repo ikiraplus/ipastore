@@ -25179,6 +25179,22 @@
       "bundleId": "com.shortcircuitstudio.TownsFolk",
       "addedAt": "2026-10-13T12:30:02.346Z",
       "updatedAt": "2026-10-13T12:30:02.358Z"
+    },
+    {
+      "id": "app-1791896189087",
+      "name": "Yohu Retro Game Emulator Psp",
+      "version": "1.1.9",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/yohu-retro-game-emulator-psp_1.1.9",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/52/67/1a52674c-cd44-4ece-797f-66b01c46893b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "514.5 MB",
+      "note": "",
+      "category": "أخرى",
+      "recommended": false,
+      "bundleId": "com.yohuapp.yohu",
+      "addedAt": "2026-10-13T12:56:29.087Z",
+      "updatedAt": "2026-10-13T12:56:29.101Z"
     }
   ]
 }
