@@ -6592,26 +6592,26 @@
     {
       "id": "APP-7814465431",
       "name": "Elementra The Boys Adventure",
-      "version": "203",
+      "version": "666",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boys-adventure_203",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boys-adventure_666",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/7b/17/3e7b1725-f0aa-bae5-5500-fe70b4a6155c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "previousVersions": [
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boys-adventure_136",
-          "version": "136"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boys-adventure_203",
+          "version": "203"
         },
         {
-          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boys-adventure_135",
-          "version": "135"
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/elementra-the-boys-adventure_136",
+          "version": "136"
         }
       ],
-      "size": "578.3 MB",
+      "size": "584.4 MB",
       "note": "مميزات اللعبة:\n- مضاعفة الضرر والدفاع.\n- مضاعفة العملات والمكافآت.\n- مضاعفة نقاط الخبرة.\n- مضاعفة سرعة الهجوم والحركة.",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-12T17:38:53.769Z",
-      "updatedAt": "2026-09-30T19:06:46.574Z",
+      "updatedAt": "2026-10-13T12:54:46.788Z",
       "bundleId": "com.longgammagames.elementra.journy"
     },
     {
