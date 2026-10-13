@@ -25259,6 +25259,22 @@
       "bundleId": "com.gokids.threecats",
       "addedAt": "2026-10-13T12:59:24.475Z",
       "updatedAt": "2026-10-13T12:59:24.484Z"
+    },
+    {
+      "id": "app-1791896406854",
+      "name": "Match Fighters",
+      "version": "2.1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/match-fighters_2.1.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/33/35/2c333509-50b1-0be5-c5f6-b10de4994d17/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "406.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.unicostudio.matchfighters",
+      "addedAt": "2026-10-13T13:00:06.854Z",
+      "updatedAt": "2026-10-13T13:00:06.864Z"
     }
   ]
 }
