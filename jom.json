@@ -9972,22 +9972,26 @@
     {
       "id": "APP-5436136510",
       "name": "House Flipper Home Design",
-      "version": "1.691",
+      "version": "1.700",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/house-flipper-home-design_1.691",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/bf/a5/68bfa5ee-01d3-ff0d-dbe2-6a1536284789/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/house-flipper-home-design_1.700",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/99/aa/f099aac9-332f-f5e3-acd3-22fd1cf65eb0/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/house-flipper-home-design_1.691",
+          "version": "1.691"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/house-flipper-1.682",
           "version": "1.682"
         }
       ],
-      "size": "644.2 MB",
+      "size": "651.7 MB",
       "note": "مميزات اللعبة:\n- نقود غير محدودة عند استبدال عملات Flipcoins.\n- عملات Flipcoins غير محدودة عند استبدالها بالنقود.",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-25T10:28:56.635Z",
-      "updatedAt": "2026-09-06T15:56:07.489Z",
+      "updatedAt": "2026-10-13T12:26:51.355Z",
       "bundleId": "com.imaginalis.HouseFlipperMobile"
     },
     {
