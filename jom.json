@@ -8945,22 +8945,26 @@
     {
       "id": "APP-2965198718",
       "name": "Afk Journey",
-      "version": "1.7.41",
+      "version": "1.8.11",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/afk-journey-1.7.41",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/b2/7c/3ab27c63-8246-fdab-a19f-150a5021a085/AppIcon-Global-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/afk-journey_1.8.11",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/90/d2/2190d26d-73b6-74eb-9986-0eec5d7371bd/AppIcon-Global-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
       "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/afk-journey-1.7.41",
+          "version": "1.7.41"
+        },
         {
           "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/afk-journey-1.7.31",
           "version": "1.7.31"
         }
       ],
-      "size": "889.1 MB",
+      "size": "1291.8 MB",
       "note": "مميزات اللعبة:\n- زيادة قوة الهجوم.\n- تفعيل المهارات فوراً.",
       "category": "ألعاب",
       "recommended": false,
       "addedAt": "2026-08-21T15:14:46.821Z",
-      "updatedAt": "2026-09-15T19:59:39.351Z",
+      "updatedAt": "2026-10-13T13:01:46.488Z",
       "bundleId": "com.farlightgames.igame.ios"
     },
     {
