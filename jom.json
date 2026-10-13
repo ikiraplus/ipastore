@@ -25195,6 +25195,22 @@
       "bundleId": "com.yohuapp.yohu",
       "addedAt": "2026-10-13T12:56:29.087Z",
       "updatedAt": "2026-10-13T12:56:29.101Z"
+    },
+    {
+      "id": "app-1791896246660",
+      "name": "On Raft",
+      "version": "1.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/on-raft_1.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/02/b1/f302b1c6-57ff-e5a2-1da1-1c20d75be77c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "543.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.on.raft",
+      "addedAt": "2026-10-13T12:57:26.660Z",
+      "updatedAt": "2026-10-13T12:57:26.671Z"
     }
   ]
 }
