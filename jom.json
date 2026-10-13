@@ -25227,6 +25227,22 @@
       "bundleId": "mobile.app.tools.translator",
       "addedAt": "2026-10-13T12:58:40.198Z",
       "updatedAt": "2026-10-13T12:58:40.209Z"
+    },
+    {
+      "id": "app-1791896339122",
+      "name": "Rope And Balls",
+      "version": "1.0.49",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/rope-and-balls_1.0.49",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/12/ba/3112ba21-f3b4-e8a1-6d6a-32aa4305bb1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "295.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.game.rope.and.balls",
+      "addedAt": "2026-10-13T12:58:59.122Z",
+      "updatedAt": "2026-10-13T12:58:59.131Z"
     }
   ]
 }
