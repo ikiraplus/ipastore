@@ -3834,7 +3834,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:15:14.939Z",
       "updatedAt": "2026-08-24T13:20:40.310Z",
-      "bundleId": "jp.co.capcom.RE7US"
+      "bundleId": "jp.co.capcom.RE7US",
+      "hidden": true
     },
     {
       "id": "APP-8100023479",
