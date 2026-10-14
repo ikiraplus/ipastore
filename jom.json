@@ -3792,7 +3792,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:10:59.350Z",
       "updatedAt": "2026-08-24T09:28:16.260Z",
-      "bundleId": "jp.co.capcom.RE2US"
+      "bundleId": "jp.co.capcom.RE2US",
+      "hidden": true
     },
     {
       "id": "APP-9370792903",
@@ -3818,7 +3819,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:13:57.498Z",
       "updatedAt": "2026-08-24T09:04:16.893Z",
-      "bundleId": "jp.co.capcom.RE4US"
+      "bundleId": "jp.co.capcom.RE4US",
+      "hidden": true
     },
     {
       "id": "APP-2133282875",
