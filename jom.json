@@ -3806,7 +3806,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-03T11:12:29.364Z",
       "updatedAt": "2026-08-24T09:27:19.022Z",
-      "bundleId": "jp.co.capcom.RE3US"
+      "bundleId": "jp.co.capcom.RE3US",
+      "hidden": true
     },
     {
       "id": "APP-4467219331",
