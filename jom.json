@@ -3621,7 +3621,8 @@
       "category": "ألعاب",
       "addedAt": "2026-06-01T19:03:30.340Z",
       "updatedAt": "2026-08-24T10:30:44.780Z",
-      "bundleId": "jp.co.capcom.VillageUSios"
+      "bundleId": "jp.co.capcom.VillageUSios",
+      "hidden": true
     },
     {
       "id": "APP-7478539311",
