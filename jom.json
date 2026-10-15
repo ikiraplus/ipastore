@@ -15154,18 +15154,23 @@
     {
       "id": "app-1789246541040",
       "name": "Path Of Kings",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/path-of-kings-1.4.0-1",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/0a/b6/c50ab62b-5463-36be-8990-d1d5f7a075db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "139.3 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/path-of-kings_1.5.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/64/a5/5764a592-da8e-cc59-a6ef-9cd196f914e1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/path-of-kings-1.4.0-1",
+          "version": "1.4.0"
+        }
+      ],
+      "size": "306.2 MB",
       "note": "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- وضع عدم الموت.\n- قائمة Debug للوصول إلى إعدادات وميزات إضافية.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.TornadoBear.WayOfKings",
       "addedAt": "2026-09-12T20:55:41.040Z",
-      "updatedAt": "2026-09-12T20:55:43.194Z"
+      "updatedAt": "2026-10-15T19:05:05.475Z"
     },
     {
       "id": "app-1789246657349",
