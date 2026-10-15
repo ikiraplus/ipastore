@@ -26141,6 +26141,22 @@
       "bundleId": "com.casualgamesempire.BingoMastery",
       "addedAt": "2026-10-15T19:05:16.838Z",
       "updatedAt": "2026-10-15T19:05:16.849Z"
+    },
+    {
+      "id": "app-1792091179700",
+      "name": "Duck Defense Rogue Rush",
+      "version": "1.0.7",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/duck-defense-rogue-rush_1.0.7",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/4f/54/d14f544b-6a0a-588c-f946-2277bccba1a2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "179.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.iaa.iosgl",
+      "addedAt": "2026-10-15T19:06:19.700Z",
+      "updatedAt": "2026-10-15T19:06:19.711Z"
     }
   ]
 }
