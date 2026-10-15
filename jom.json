@@ -18369,17 +18369,22 @@
       "addedAt": "2026-09-21T16:40:58.394Z",
       "bundleId": "com.iflow.lastbeacon.ios",
       "category": "ألعاب",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/00/4b/ea004b70-f249-76f2-df36-eb72a2595a1c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/e4/aa/6de4aa31-1113-2f48-f124-89924f00d02c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "id": "app-1790008858394",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-beacon-survival_2.5.4",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-beacon-survival_2.5.7",
       "name": "Last Beacon Survival",
       "note": "مميزات اللعبة:\n- عدم الموت.\n- مضاعف الضرر.\n- إلغاء وقت انتظار المهارات.",
-      "previousVersions": [],
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/last-beacon-survival_2.5.4",
+          "version": "2.5.4"
+        }
+      ],
       "recommended": false,
-      "size": "558.8 MB",
+      "size": "",
       "toolVersion": "",
-      "updatedAt": "2026-09-21T16:40:58.403Z",
-      "version": "2.5.4"
+      "updatedAt": "2026-10-15T11:00:33.906Z",
+      "version": "2.5.7"
     },
     {
       "addedAt": "2026-09-21T16:42:53.990Z",
