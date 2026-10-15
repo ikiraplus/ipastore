@@ -22029,18 +22029,23 @@
     {
       "id": "app-1790793603227",
       "name": "Idle Ninja Online",
-      "version": "2.730",
+      "version": "2.770",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-ninja-online_2.730",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-ninja-online-2.770",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/25/c6/6b25c6f4-16ca-8d89-68d8-1cf0fc52c334/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "620.1 MB",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/idle-ninja-online_2.730",
+          "version": "2.730"
+        }
+      ],
+      "size": "156.9 MB",
       "note": "مميزات اللعبة:\n- مضاعفة عدد الضربات.\n- تعطيل مهارات العدو.\n- مضاعفة سرعة الحركة.\n- مضاعفة سرعة الهجوم.\n- مضاعفة عدد الشوريكين.\n- بدون وقت انتظار للمهارات.\n- الشوريكين تخترق جميع الأعداء.\n- المهارات لا تتطلب مانا.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.puzzlemonsters.growninja",
       "addedAt": "2026-09-30T18:40:03.227Z",
-      "updatedAt": "2026-09-30T18:40:03.235Z"
+      "updatedAt": "2026-10-15T19:41:14.587Z"
     },
     {
       "id": "app-1790793638452",
