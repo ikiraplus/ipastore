@@ -25926,6 +25926,22 @@
       "bundleId": "com.nanotribe.games.cashier3d",
       "addedAt": "2026-10-15T10:53:37.484Z",
       "updatedAt": "2026-10-15T10:53:37.496Z"
+    },
+    {
+      "id": "app-1792061645939",
+      "name": "Dummynation",
+      "version": "4.2.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dummynation_4.2.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/6f/f7/3d6ff7d5-b6ad-b237-71f3-584dd5d7c018/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "310.8 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "ahf.dummynation",
+      "addedAt": "2026-10-15T10:54:05.939Z",
+      "updatedAt": "2026-10-15T10:54:05.950Z"
     }
   ]
 }
