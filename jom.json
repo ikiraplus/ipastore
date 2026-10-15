@@ -25669,6 +25669,22 @@
       "bundleId": "com.klab.heroaca.united.survival",
       "addedAt": "2026-10-15T10:31:50.617Z",
       "updatedAt": "2026-10-15T10:31:50.633Z"
+    },
+    {
+      "id": "app-1792060340486",
+      "name": "Kiddo Verse Preschool Games",
+      "version": "1.4",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/kiddo-verse-preschool-games_1.4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/5a/68/ae5a686a-d4d8-ba17-395a-b2d4140caec9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "151.7 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.foxieplay.trace.ordering.kids.games",
+      "addedAt": "2026-10-15T10:32:20.486Z",
+      "updatedAt": "2026-10-15T10:32:20.497Z"
     }
   ]
 }
