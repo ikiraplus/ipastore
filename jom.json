@@ -25989,6 +25989,22 @@
       "bundleId": "com.mobage.ww.a1171.motorworldcarfactoryios",
       "addedAt": "2026-10-15T10:55:55.309Z",
       "updatedAt": "2026-10-15T10:55:55.317Z"
+    },
+    {
+      "id": "app-1792061893376",
+      "name": "Captain Tsubasa: My Golden XI MG11",
+      "version": "1.4.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/captain-tsubasa-my-golden-ximg-1.4.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/ce/39/32ce399f-8e70-0e18-90c4-3516eb37ea66/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "338.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.alpsestudio.pjct",
+      "addedAt": "2026-10-15T10:58:13.376Z",
+      "updatedAt": "2026-10-15T10:58:13.384Z"
     }
   ]
 }
