@@ -26026,6 +26026,22 @@
       "bundleId": "com.playrix.manor-matters",
       "addedAt": "2026-10-15T10:58:34.420Z",
       "updatedAt": "2026-10-15T10:58:34.429Z"
+    },
+    {
+      "id": "app-1792062009045",
+      "name": "MOBILE SUIT GUNDAM U.C. ENGAGE",
+      "version": "1.9.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/mobilesuitgundamucengage_1.9.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/f5/f6/73f5f6e9-1cfa-e6cf-2f38-36f3565c80cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "458.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "jp.co.bandainamcoent.BNEI0423",
+      "addedAt": "2026-10-15T11:00:09.045Z",
+      "updatedAt": "2026-10-15T11:00:09.054Z"
     }
   ]
 }
