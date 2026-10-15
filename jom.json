@@ -25743,18 +25743,23 @@
     {
       "id": "app-1791987030466",
       "name": "Sifu",
-      "version": "1.0",
+      "version": "1.0.1",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sifu_1.0",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/84/0b/bd840b0a-99c9-9ad8-ea78-c0ce9f853621/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "1115.9 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sifu_1.0.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/1d/e6/ba1de675-3170-11a1-2937-6c1fe7e71d27/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/sifu_1.0",
+          "version": "1.0"
+        }
+      ],
+      "size": "1116.0 MB",
       "note": "لعبة قتال مدفوعة في المتجر الرسمي Appstore.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.keplerinteractive.sifu",
       "addedAt": "2026-10-14T14:10:30.466Z",
-      "updatedAt": "2026-10-14T14:10:30.494Z"
+      "updatedAt": "2026-10-15T19:47:56.418Z"
     },
     {
       "id": "app-1792060310617",
