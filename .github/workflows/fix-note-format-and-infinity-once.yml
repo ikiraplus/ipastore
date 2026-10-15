@@ -1,0 +1,124 @@
+name: Preserve formatting and finish screenshot notes
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-note-format-and-infinity-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore original formatting and patch only note values
+        shell: python
+        run: |
+          import json, re, subprocess
+          from pathlib import Path
+
+          base = "787a68ee3c4aa36c0f32e69f3696e9030bec78be"
+          restore_paths = [
+              "jom.json",
+              "chunks/apps-011.json",
+              "chunks/apps-013.json",
+              "chunks/apps-015.json",
+          ]
+          for p in restore_paths:
+              original = subprocess.check_output(["git", "show", f"{base}:{p}"])
+              Path(p).write_bytes(original)
+
+          targets = [
+              (["Punko: Tower Defense TD", "Punko: Tower Defense"], "مميزات اللعبة:\n- وضع عدم الموت.\n- ضربة قاضية.\n- طاقة بطاقات غير محدودة.\n- نشر فوري للبطاقات.\n- متجر مجاني."),
+              (["MHA: UNITED SURVIVAL"], "مميزات اللعبة:\n- إعادة تعيين المهارات دون حدود.\n- قدرات خاصة غير محدودة."),
+              (["Space Quest Alien Invasion", "Space Quest: Alien Invasion"], "مميزات اللعبة:\n- مكافآت الإعلانات مجانية.\n- تعديل نقاط الصحة.\n- تعديل نقاط الهجوم."),
+              (["METRIA the Starlight"], "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- نقاط مهارة غير محدودة.\n- استخدام المهارات دون استنزاف."),
+              (["Smith Legend Idle Rpg", "Smith Legend: Idle Rpg"], "مميزات اللعبة:\n- مضاعفة الضرر."),
+              (["Bleach: Brave Souls Anime Game"], "مميزات اللعبة:\n- بدون وقت انتظار لاستخدام المهارات.\n- بدون وقت انتظار لاستخدام المهارات المميزة.\n- قتل بضربة واحدة.\n- إزالة تأثير السم.\n\nملاحظة:\n- تعمل المميزات في طور اللعب الفردي فقط."),
+              (["Bubble Busters Pvp", "Bubble Busters PvP"], "مميزات اللعبة:\n- صحة غير محدودة.\n- فقاعات غير محدودة.\n- معززات غير محدودة.\n- وقت غير محدود.\n- تسريع شحن القدرات."),
+              (["Blade Idle"], "مميزات اللعبة:\n- مضاعفة الضرر.\n- وضع عدم الموت.\n- بدون وقت انتظار للمهارات.\n- فوز فوري.\n- مضاعفة سرعة اللعبة."),
+              (["Hunter Raid Idle Rpg Games", "Hunter Raid: Idle RPG Games", "Hunter Raid: Idle Rpg Games"], "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- نقاط سحرية غير محدودة.\n- تجميد العملات.\n- عملات غير محدودة."),
+              (["Infinity Kingdom"], "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n\nملاحظة:\n- بعد تعديل القيمة، أعد تشغيل اللعبة."),
+          ]
+
+          def json_string_end(s, start):
+              assert s[start] == '"'
+              i = start + 1
+              escaped = False
+              while i < len(s):
+                  c = s[i]
+                  if escaped:
+                      escaped = False
+                  elif c == '\\':
+                      escaped = True
+                  elif c == '"':
+                      return i + 1
+                  i += 1
+              raise ValueError("unterminated JSON string")
+
+          def patch_note_for_name(text, name, note):
+              pat = re.compile(r'"name"\s*:\s*' + re.escape(json.dumps(name, ensure_ascii=False)))
+              m = pat.search(text)
+              if not m:
+                  return text, False
+              note_m = re.search(r'"note"\s*:\s*', text[m.end():])
+              if not note_m:
+                  raise RuntimeError(f"note not found after {name}")
+              key_start = m.end() + note_m.start()
+              colon_end = m.end() + note_m.end()
+              q = colon_end
+              while q < len(text) and text[q].isspace():
+                  q += 1
+              if q >= len(text) or text[q] != '"':
+                  raise RuntimeError(f"note value is not string for {name}")
+              end = json_string_end(text, q)
+              new_val = json.dumps(note, ensure_ascii=False)
+              return text[:q] + new_val + text[end:], True
+
+          paths = [Path("jom.json"), *sorted(Path("chunks").glob("apps-*.json"))]
+          found_global = {aliases[0]: 0 for aliases, _ in targets}
+          changed_files = []
+
+          for path in paths:
+              text = path.read_text(encoding="utf-8")
+              original = text
+              for aliases, note in targets:
+                  changed = False
+                  for alias in aliases:
+                      text2, ok = patch_note_for_name(text, alias, note)
+                      if ok:
+                          text = text2
+                          found_global[aliases[0]] += 1
+                          changed = True
+                          break
+              if text != original:
+                  path.write_text(text, encoding="utf-8")
+                  changed_files.append(str(path))
+
+          print("FOUND COUNTS:")
+          for k, v in found_global.items():
+              print(f"{k}: {v}")
+          print("CHANGED FILES:", changed_files)
+
+          missing = [k for k, v in found_global.items() if v == 0]
+          if missing:
+              raise SystemExit("Missing targets: " + ", ".join(missing))
+
+      - name: Verify diff is note-only scale
+        run: |
+          git diff --stat
+          git diff --numstat jom.json chunks/apps-011.json chunks/apps-013.json chunks/apps-015.json
+
+      - name: Commit and remove one-time workflow
+        run: |
+          rm -f .github/workflows/fix-note-format-and-infinity-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Preserve JSON formatting and complete screenshot descriptions"
+          git push
