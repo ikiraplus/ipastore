@@ -25852,6 +25852,22 @@
       "bundleId": "com.rebelbinary.onlyone",
       "addedAt": "2026-10-15T10:51:07.694Z",
       "updatedAt": "2026-10-15T10:51:07.701Z"
+    },
+    {
+      "id": "app-1792061488287",
+      "name": "Bloons TD 6 NETFLIX",
+      "version": "57.1",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bloons-td6-netflix_57.1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/13/f8/d413f8eb-2f7a-0546-5f82-00dd1c96c977/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "326.5 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.netflix.NGP.BloonsTDSix",
+      "addedAt": "2026-10-15T10:51:28.287Z",
+      "updatedAt": "2026-10-15T10:51:28.296Z"
     }
   ]
 }
