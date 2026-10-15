@@ -25722,6 +25722,22 @@
       "bundleId": "com.feralinteractive.alienisolation-ios",
       "addedAt": "2026-10-15T10:34:50.630Z",
       "updatedAt": "2026-10-15T10:34:50.643Z"
+    },
+    {
+      "id": "app-1792060575060",
+      "name": "Bubble Busters Pvp",
+      "version": "1.25.48",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bubble-busters-pvp_1.25.48",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/4f/1c/b54f1c88-edf0-5e5f-2be3-149fbd50fa0d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "451.1 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pixelpie.games.bubblemasters",
+      "addedAt": "2026-10-15T10:36:15.060Z",
+      "updatedAt": "2026-10-15T10:36:15.076Z"
     }
   ]
 }
