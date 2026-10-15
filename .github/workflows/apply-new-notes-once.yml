@@ -1,0 +1,208 @@
+name: Apply latest Arabic app descriptions
+
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-new-notes-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Patch note fields only
+        shell: python
+        run: |
+          import json, re
+          from pathlib import Path
+
+          specs = [
+              {
+                  "key": "Idle Ninja Online",
+                  "aliases": ["Idle Ninja Online"],
+                  "contains": ["idle ninja online"],
+                  "bundles": [],
+                  "note": "- مضاعف لعدد الضربات.\n- تعطيل مهارات الأعداء.\n- مضاعف لسرعة الحركة.\n- لا يوجد وقت انتظار للمهارات.\n- استخدام المهارات دون استهلاك المانا."
+              },
+              {
+                  "key": "Moonvale: Murder Mystery",
+                  "aliases": ["Moonvale: Murder Mystery", "Moonvale Murder Mystery"],
+                  "contains": ["moonvale"],
+                  "bundles": [],
+                  "note": "- جميع المشتريات مفعلة.\n- الخرائط والمنازل والأثاث والملابس مفتوحة بالكامل منذ البداية."
+              },
+              {
+                  "key": "Formula Ride",
+                  "aliases": ["Formula Ride"],
+                  "contains": ["formula ride"],
+                  "bundles": [],
+                  "note": "- تعديل النقود لكسب العملات بحرية.\n- تعديل التوكنات لكسب التوكنات بحرية.\n- فتح جميع الحلبات والوصول إلى كل المسارات فوراً.\n- بدون إعلانات."
+              },
+              {
+                  "key": "Little Kitty, Big City",
+                  "aliases": ["Little Kitty, Big City", "Little Kitty Big City"],
+                  "contains": ["little kitty"],
+                  "bundles": [],
+                  "note": "- فتح اللعبة كاملة.\n- الوصول إلى جميع المحتويات دون الحاجة إلى مشتريات داخل التطبيق."
+              },
+              {
+                  "key": "9 Kings",
+                  "aliases": ["9 Kings", "9Kings", "Kings 9"],
+                  "contains": ["9 kings", "9kings"],
+                  "bundles": [],
+                  "note": "- فتح اللعبة كاملة.\n- الوصول إلى جميع الملوك والمهام ونمط اللعب الجماعي والمحتوى المميز."
+              },
+              {
+                  "key": "CaptainTsubasa:MyGoldenXI MG11",
+                  "aliases": ["CaptainTsubasa:MyGoldenXI MG11", "Captain Tsubasa: My Golden XI MG11", "Captain Tsubasa My Golden XI MG11"],
+                  "contains": ["mygoldenxi", "my golden xi"],
+                  "bundles": ["com.alpsestudio.pjct"],
+                  "note": "- فوز دائم في كل مباراة."
+              },
+              {
+                  "key": "Motor World: Car Factory",
+                  "aliases": ["Motor World: Car Factory", "Motor World Car Factory"],
+                  "contains": ["motor world"],
+                  "bundles": ["com.mobage.ww.a1171.motorworldcarfactoryios"],
+                  "note": "- نقود غير محدودة.\n- أنفق جزءاً من النقود لتفعيلها.\n- أعلى مستوى."
+              },
+              {
+                  "key": "Bloom & Breakfast",
+                  "aliases": ["Bloom & Breakfast: Merge Town", "Bloom Breakfast Merge Town", "Bloom & Breakfast: Merge Town Adventure"],
+                  "contains": ["bloom & breakfast", "bloom breakfast"],
+                  "bundles": ["com.fortisgames.mergefarmadventure"],
+                  "note": "- تجميد الطاقة الذهبية."
+              },
+              {
+                  "key": "Cookie Jam Blast",
+                  "aliases": ["Cookie Jam Blast", "Cookie Jam Blast™ Match 3 Games", "Cookie Jam Blast Match 3 Games"],
+                  "contains": ["cookie jam blast"],
+                  "bundles": [],
+                  "note": "- عدد غير نهائي من الحركات.\n- عدد غير نهائي من الأرواح.\n- عدد غير نهائي من المعززات."
+              },
+              {
+                  "key": "Cashier 3D",
+                  "aliases": ["Cashier 3D"],
+                  "contains": ["cashier 3d"],
+                  "bundles": ["com.nanotribe.games.cashier3d"],
+                  "note": "- مصحح الأخطاء."
+              },
+              {
+                  "key": "Hungry Shark World",
+                  "aliases": ["Hungry Shark World"],
+                  "contains": ["hungry shark world"],
+                  "bundles": ["com.ubisoft.hungrysharkworld"],
+                  "note": "- عملات غير محدودة.\n- جواهر غير محدودة.\n- لآلئ غير محدودة.\n- تعزيزات غير محدودة.\n- تم فتح تذكرة الموسم."
+              },
+              {
+                  "key": "Dummynation",
+                  "aliases": ["Dummynation"],
+                  "contains": ["dummynation"],
+                  "bundles": ["ahf.dummynation"],
+                  "note": "- بريميوم وبدون إعلانات.\n- نقاط بحث غير نهائية.\n- سيولة غير نهائية (الذهب)."
+              },
+          ]
+
+          def apps_from(data):
+              if isinstance(data, dict):
+                  return data.get("apps", [])
+              if isinstance(data, list):
+                  return data
+              return []
+
+          def json_string_end(s, start):
+              i = start + 1
+              esc = False
+              while i < len(s):
+                  c = s[i]
+                  if esc:
+                      esc = False
+                  elif c == '\\':
+                      esc = True
+                  elif c == '"':
+                      return i + 1
+                  i += 1
+              raise RuntimeError("unterminated JSON string")
+
+          def patch_note_for_name(text, name, note):
+              needle = re.compile(r'"name"\s*:\s*' + re.escape(json.dumps(name, ensure_ascii=False)))
+              m = needle.search(text)
+              if not m:
+                  return text, False
+              next_name = re.search(r'"name"\s*:', text[m.end():])
+              stop = m.end() + next_name.start() if next_name else len(text)
+              segment = text[m.end():stop]
+              nm = re.search(r'"note"\s*:\s*', segment)
+              if not nm:
+                  raise RuntimeError(f"note not found after {name}")
+              q = m.end() + nm.end()
+              while q < len(text) and text[q].isspace():
+                  q += 1
+              if q >= len(text) or text[q] != '"':
+                  raise RuntimeError(f"note is not a string for {name}")
+              end = json_string_end(text, q)
+              return text[:q] + json.dumps(note, ensure_ascii=False) + text[end:], True
+
+          paths = [Path("jom.json"), *sorted(Path("chunks").glob("apps-*.json"))]
+          found = {s["key"]: 0 for s in specs}
+          changed_files = []
+
+          for path in paths:
+              raw = path.read_text(encoding="utf-8")
+              try:
+                  data = json.loads(raw)
+              except Exception as e:
+                  raise RuntimeError(f"Invalid JSON before edit: {path}: {e}")
+
+              matches = {s["key"]: [] for s in specs}
+              for app in apps_from(data):
+                  if not isinstance(app, dict):
+                      continue
+                  name = str(app.get("name", ""))
+                  bundle = str(app.get("bundleId", app.get("bundleID", "")))
+                  nl = name.casefold()
+                  for s in specs:
+                      exact = name in s["aliases"]
+                      by_bundle = bundle in s["bundles"] if s["bundles"] else False
+                      by_contains = any(x in nl for x in s["contains"])
+                      if exact or by_bundle or by_contains:
+                          if name and name not in matches[s["key"]]:
+                              matches[s["key"]].append(name)
+
+              text = raw
+              for s in specs:
+                  for actual_name in matches[s["key"]]:
+                      text2, ok = patch_note_for_name(text, actual_name, s["note"])
+                      if ok:
+                          text = text2
+                          found[s["key"]] += 1
+                          print(f"PATCH {path}: {s['key']} => {actual_name!r}")
+
+              if text != raw:
+                  path.write_text(text, encoding="utf-8")
+                  json.loads(text)
+                  changed_files.append(str(path))
+
+          print("FOUND COUNTS")
+          for k, v in found.items():
+              print(f"{k}: {v}")
+          print("CHANGED FILES:", changed_files)
+
+          missing = [k for k, v in found.items() if v == 0]
+          if missing:
+              raise SystemExit("Missing targets: " + ", ".join(missing))
+
+      - name: Commit changes
+        run: |
+          rm -f .github/workflows/apply-new-notes-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jom.json chunks .github/workflows/apply-new-notes-once.yml
+          git commit -m "Update Arabic descriptions from latest screenshots"
+          git push
