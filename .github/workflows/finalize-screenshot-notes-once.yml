@@ -1,0 +1,158 @@
+name: Finalize screenshot descriptions safely
+
+on:
+  push:
+    paths:
+      - '.github/workflows/finalize-screenshot-notes-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore formatting and patch notes only
+        shell: python
+        run: |
+          import json, re, subprocess
+          from pathlib import Path
+
+          # State immediately before the first description rewrite.
+          base = "787a68ee3c4aa36c0f32e69f3696e9030bec78be"
+          restore_paths = [
+              "jom.json",
+              "chunks/apps-011.json",
+              "chunks/apps-013.json",
+              "chunks/apps-015.json",
+          ]
+          for p in restore_paths:
+              Path(p).write_bytes(subprocess.check_output(["git", "show", f"{base}:{p}"]))
+
+          targets = [
+              (["Punko: Tower Defense TD", "Punko: Tower Defense"], "مميزات اللعبة:\n- وضع عدم الموت.\n- ضربة قاضية.\n- طاقة بطاقات غير محدودة.\n- نشر فوري للبطاقات.\n- متجر مجاني."),
+              (["MHA: UNITED SURVIVAL"], "مميزات اللعبة:\n- إعادة تعيين المهارات دون حدود.\n- قدرات خاصة غير محدودة."),
+              (["Space Quest Alien Invasion", "Space Quest: Alien Invasion"], "مميزات اللعبة:\n- مكافآت الإعلانات مجانية.\n- تعديل نقاط الصحة.\n- تعديل نقاط الهجوم."),
+              (["METRIA the Starlight"], "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- نقاط مهارة غير محدودة.\n- استخدام المهارات دون استنزاف."),
+              (["Smith Legend Idle Rpg", "Smith Legend: Idle Rpg"], "مميزات اللعبة:\n- مضاعفة الضرر."),
+              (["Bleach: Brave Souls Anime Game"], "مميزات اللعبة:\n- بدون وقت انتظار لاستخدام المهارات.\n- بدون وقت انتظار لاستخدام المهارات المميزة.\n- قتل بضربة واحدة.\n- إزالة تأثير السم.\n\nملاحظة:\n- تعمل المميزات في طور اللعب الفردي فقط."),
+              (["Bubble Busters Pvp", "Bubble Busters PvP"], "مميزات اللعبة:\n- صحة غير محدودة.\n- فقاعات غير محدودة.\n- معززات غير محدودة.\n- وقت غير محدود.\n- تسريع شحن القدرات."),
+              (["Blade Idle"], "مميزات اللعبة:\n- مضاعفة الضرر.\n- وضع عدم الموت.\n- بدون وقت انتظار للمهارات.\n- فوز فوري.\n- مضاعفة سرعة اللعبة."),
+              (["Hunter Raid Idle Rpg Games", "Hunter Raid: Idle RPG Games", "Hunter Raid: Idle Rpg Games"], "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n- نقاط سحرية غير محدودة.\n- تجميد العملات.\n- عملات غير محدودة."),
+          ]
+          infinity_note = "مميزات اللعبة:\n- مضاعفة الضرر.\n- مضاعفة الدفاع.\n\nملاحظة:\n- بعد تعديل القيمة، أعد تشغيل اللعبة."
+
+          def json_string_end(s, start):
+              if s[start] != '"':
+                  raise ValueError("expected JSON string")
+              i, escaped = start + 1, False
+              while i < len(s):
+                  c = s[i]
+                  if escaped:
+                      escaped = False
+                  elif c == '\\':
+                      escaped = True
+                  elif c == '"':
+                      return i + 1
+                  i += 1
+              raise ValueError("unterminated JSON string")
+
+          def patch_note_for_name(text, name, note):
+              pat = re.compile(r'"name"\s*:\s*' + re.escape(json.dumps(name, ensure_ascii=False)))
+              m = pat.search(text)
+              if not m:
+                  return text, False
+              # Restrict the note lookup to this app object by finding the next name field.
+              next_name = re.search(r'"name"\s*:', text[m.end():])
+              stop = m.end() + next_name.start() if next_name else len(text)
+              segment = text[m.end():stop]
+              note_m = re.search(r'"note"\s*:\s*', segment)
+              if not note_m:
+                  raise RuntimeError(f"note not found after {name}")
+              q = m.end() + note_m.end()
+              while q < len(text) and text[q].isspace():
+                  q += 1
+              if q >= len(text) or text[q] != '"':
+                  raise RuntimeError(f"note value is not a string for {name}")
+              end = json_string_end(text, q)
+              return text[:q] + json.dumps(note, ensure_ascii=False) + text[end:], True
+
+          paths = [Path("jom.json"), *sorted(Path("chunks").glob("apps-*.json"))]
+
+          # Discover the Infinity Kingdom record by exact screenshot bundle or a strong name match.
+          infinity_names = set()
+          for path in paths:
+              try:
+                  data = json.loads(path.read_text(encoding="utf-8"))
+              except Exception as e:
+                  print(f"PARSE SKIP {path}: {e}")
+                  continue
+              apps = data.get("apps", []) if isinstance(data, dict) else data if isinstance(data, list) else []
+              for app in apps:
+                  if not isinstance(app, dict):
+                      continue
+                  name = str(app.get("name", ""))
+                  bundle = str(app.get("bundleId", ""))
+                  nl = name.lower()
+                  bl = bundle.lower()
+                  if bundle == "com.gtarcade.ioe.global" or ("infinity" in nl and "kingdom" in nl):
+                      infinity_names.add(name)
+                      print(f"INFINITY MATCH {path}: name={name!r} bundle={bundle!r}")
+                  elif "gtarcade" in bl or "ioe.global" in bl:
+                      print(f"GTARCADE CANDIDATE {path}: name={name!r} bundle={bundle!r}")
+
+          found_counts = {aliases[0]: 0 for aliases, _ in targets}
+          infinity_count = 0
+          changed_files = []
+
+          for path in paths:
+              text = path.read_text(encoding="utf-8")
+              original = text
+              for aliases, note in targets:
+                  for alias in aliases:
+                      text2, ok = patch_note_for_name(text, alias, note)
+                      if ok:
+                          text = text2
+                          found_counts[aliases[0]] += 1
+                          break
+              for actual_name in sorted(infinity_names):
+                  text2, ok = patch_note_for_name(text, actual_name, infinity_note)
+                  if ok:
+                      text = text2
+                      infinity_count += 1
+              if text != original:
+                  path.write_text(text, encoding="utf-8")
+                  changed_files.append(str(path))
+
+          print("FOUND COUNTS:")
+          for k, v in found_counts.items():
+              print(f"{k}: {v}")
+          print(f"Infinity Kingdom: {infinity_count}")
+          print("CHANGED FILES:", changed_files)
+
+          missing = [k for k, v in found_counts.items() if v == 0]
+          if missing:
+              raise SystemExit("Missing required existing targets: " + ", ".join(missing))
+
+          # Validate every changed JSON file still parses.
+          for p in changed_files:
+              json.loads(Path(p).read_text(encoding="utf-8"))
+
+      - name: Verify diff size
+        run: |
+          git diff --stat
+          git diff --numstat -- jom.json chunks/apps-011.json chunks/apps-013.json chunks/apps-015.json
+
+      - name: Commit final result and remove temporary workflows
+        run: |
+          rm -f .github/workflows/fix-note-format-and-infinity-once.yml
+          rm -f .github/workflows/finalize-screenshot-notes-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Finalize screenshot descriptions without JSON reformatting"
+          git push
