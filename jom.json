@@ -25142,18 +25142,23 @@
     {
       "id": "app-1791894257983",
       "name": "Smash Fest",
-      "version": "714",
+      "version": "717",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/smash-fest_714",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/smash-fest_717",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/f7/db/baf7db1f-9e85-ab76-255f-85490243c164/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/smash-fest_714",
+          "version": "714"
+        }
+      ],
       "size": "350.2 MB",
       "note": "مميزات اللعبة:\n- إعادة تعبئة العملات والمعززات تلقائياً بعد الاستخدام.\n- إزالة الإعلانات.\n- تسديدات غير محدودة لإكمال المراحل.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.flow.cannon-ball",
       "addedAt": "2026-10-13T12:24:17.983Z",
-      "updatedAt": "2026-10-13T12:24:17.992Z"
+      "updatedAt": "2026-10-15T10:42:34.976Z"
     },
     {
       "id": "app-1791894329325",
