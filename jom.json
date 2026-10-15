@@ -25815,6 +25815,22 @@
       "bundleId": "com.Agonalea.Punko.io",
       "addedAt": "2026-10-15T10:44:09.696Z",
       "updatedAt": "2026-10-15T10:44:09.707Z"
+    },
+    {
+      "id": "app-1792061091917",
+      "name": "نوري - كتب وقصص عربية للأطفال",
+      "version": "2026.09.40",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/booksbaby-2026.09.40",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/ba/98/02ba987b-503d-3e3f-a1ab-7d6f3faa5f77/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "61.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "co.noory.books",
+      "addedAt": "2026-10-15T10:44:51.917Z",
+      "updatedAt": "2026-10-15T10:44:51.926Z"
     }
   ]
 }
