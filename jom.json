@@ -26157,6 +26157,22 @@
       "bundleId": "com.iaa.iosgl",
       "addedAt": "2026-10-15T19:06:19.700Z",
       "updatedAt": "2026-10-15T19:06:19.711Z"
+    },
+    {
+      "id": "app-1792091195578",
+      "name": "Dream Hospital Medical Tycoon",
+      "version": "5.0.3",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/dream-hospital-medical-tycoon_5.0.3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/c5/01/abc5018d-4394-7956-2b6f-8d87fd1f9cb7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "849.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.pu.dream.hospital",
+      "addedAt": "2026-10-15T19:06:35.578Z",
+      "updatedAt": "2026-10-15T19:06:35.587Z"
     }
   ]
 }
