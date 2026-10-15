@@ -26005,6 +26005,22 @@
       "bundleId": "com.alpsestudio.pjct",
       "addedAt": "2026-10-15T10:58:13.376Z",
       "updatedAt": "2026-10-15T10:58:13.384Z"
+    },
+    {
+      "id": "app-1792061914420",
+      "name": "Manor Matters Adventure Game",
+      "version": "7.0.0",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/manor-matters-adventure-game_7.0.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/38/bd/6638bd9c-f71d-32f6-1b6d-69e581fbaf3b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "320.2 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.playrix.manor-matters",
+      "addedAt": "2026-10-15T10:58:34.420Z",
+      "updatedAt": "2026-10-15T10:58:34.429Z"
     }
   ]
 }
