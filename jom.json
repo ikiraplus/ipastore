@@ -21288,18 +21288,23 @@
     {
       "id": "app-1790603539422",
       "name": "Planet Crusher: Mine & Attack",
-      "version": "0.36.0",
+      "version": "0.37.0",
       "toolVersion": "",
-      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/planet-crusher-mine-attack_0.36.0",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/3c/6c/ed3c6c6c-7334-2963-2560-166fa196add3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "previousVersions": [],
-      "size": "435.6 MB",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/planet-crusher-mine-attack_0.37.0",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/e4/4b/5be44ba0-7109-65d7-8190-60c2dc0d34c2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [
+        {
+          "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/planet-crusher-mine-attack_0.36.0",
+          "version": "0.36.0"
+        }
+      ],
+      "size": "464.9 MB",
       "note": "- لا تموت أبدًا.\n- مضاعف الضرر.\n- مضاعف ضرر الحفر.\n- بدون ارتداد.\n- عملات غير محدودة، وتزداد بدلًا من أن تنقص.\n- المكافآت مفتوحة.\n- تذكرة المعركة مفتوحة.\n- بدون إعلانات.",
       "category": "ألعاب",
       "recommended": false,
       "bundleId": "com.gryphongames.planetcrusher",
       "addedAt": "2026-09-28T13:52:19.422Z",
-      "updatedAt": "2026-09-28T13:52:19.434Z"
+      "updatedAt": "2026-10-15T10:56:32.632Z"
     },
     {
       "id": "app-1790603563502",
