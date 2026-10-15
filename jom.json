@@ -25706,6 +25706,22 @@
       "bundleId": "com.medu.smith.legend.coop.idle.td.ios",
       "addedAt": "2026-10-15T10:33:06.540Z",
       "updatedAt": "2026-10-15T10:33:06.568Z"
+    },
+    {
+      "id": "app-1792060490630",
+      "name": "Space Quest Alien Invasion",
+      "version": "4.2.2",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/space-quest-alien-invasion_4.2.2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/f7/01/58f70113-7310-82af-dc05-619d6f520f37/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "561.0 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.feralinteractive.alienisolation-ios",
+      "addedAt": "2026-10-15T10:34:50.630Z",
+      "updatedAt": "2026-10-15T10:34:50.643Z"
     }
   ]
 }
