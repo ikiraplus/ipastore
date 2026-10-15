@@ -26125,6 +26125,22 @@
       "bundleId": "jp.co.bandainamcoent.BNEI0405",
       "addedAt": "2026-10-15T19:04:19.248Z",
       "updatedAt": "2026-10-15T19:04:19.258Z"
+    },
+    {
+      "id": "app-1792091116838",
+      "name": "Bingo Mastery Bingo Games",
+      "version": "1.292",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/bingo-mastery-bingo-games_1.292",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/f6/1b/bff61b74-af71-b8c9-9463-f308aedb5ba9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "228.3 MB",
+      "note": "",
+      "category": "ألعاب",
+      "recommended": false,
+      "bundleId": "com.casualgamesempire.BingoMastery",
+      "addedAt": "2026-10-15T19:05:16.838Z",
+      "updatedAt": "2026-10-15T19:05:16.849Z"
     }
   ]
 }
