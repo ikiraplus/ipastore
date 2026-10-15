@@ -26173,6 +26173,22 @@
       "bundleId": "com.pu.dream.hospital",
       "addedAt": "2026-10-15T19:06:35.578Z",
       "updatedAt": "2026-10-15T19:06:35.587Z"
+    },
+    {
+      "id": "app-1792091234538",
+      "name": "Instant Saver Story Reels",
+      "version": "1.5",
+      "toolVersion": "",
+      "ipaUrl": "https://dl.ikiraplus.workers.dev/dl/instant-saver-story-reels_1.5",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/53/6c/b3536c99-5161-72dd-8318-dbb971eebf97/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "previousVersions": [],
+      "size": "55.8 MB",
+      "note": "",
+      "category": "أدوات",
+      "recommended": false,
+      "bundleId": "bg.devar.rusevets.instsave",
+      "addedAt": "2026-10-15T19:07:14.538Z",
+      "updatedAt": "2026-10-15T19:07:14.547Z"
     }
   ]
 }
